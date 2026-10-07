@@ -1,5 +1,12 @@
 # Исходные данные скачиваются отдельно и не входят в репозиторий.
 /data/
+/north_america/data/
+/north_america/documents/**/files/
+/north_america/literature/files/
+/tmp/
+/north_america/reports/review_examples.csv
+/north_america/documents/section_locator.json
+/north_america/literature/crossref_metadata.json
 
 # Локальные документы планирования.
 /Checkpoint/

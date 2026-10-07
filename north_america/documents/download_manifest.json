@@ -1,0 +1,54 @@
+[
+  {
+    "jurisdiction": "usa",
+    "source_page": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf",
+    "checked_utc": "2026-10-07T17:13:29.663471+00:00",
+    "review_status": "title_verified_sections_indexed_not_full_review",
+    "url": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf",
+    "file": "documents\\usa\\files\\FAA_Aviation_Weather_Handbook_28B.pdf",
+    "bytes": 18515580,
+    "sha256": "2a87e4a5613e2a8e060aaf83a95dfc55b61b0e576f5b783df9fdcebe62da62c3",
+    "pages": 514,
+    "status": "downloaded",
+    "edition": "FAA-H-8083-28B, 2026"
+  },
+  {
+    "jurisdiction": "usa",
+    "source_page": "https://www.faa.gov/air_traffic/publications/index.cfm",
+    "checked_utc": "2026-10-07T17:13:36.295126+00:00",
+    "review_status": "title_verified_sections_indexed_not_full_review",
+    "url": "https://www.faa.gov/air_traffic/publications/media/AIM_Basic_w_Chg_1_and_2_and_3_dtd_7-9-26_FINAL.pdf",
+    "file": "documents\\usa\\files\\FAA_AIM_current.pdf",
+    "bytes": 43343724,
+    "sha256": "8b11e7a168e1ef9ea16853b8ab7b3353f01490dffb51f2736a0a72e6278f8ff5",
+    "pages": 918,
+    "status": "downloaded",
+    "edition": "AIM Basic 2025 with Changes 1, 2, 3; current online effective 2026-07-09"
+  },
+  {
+    "jurisdiction": "canada",
+    "source_page": "https://tc.canada.ca/en/aviation/publications/transport-canada-aeronautical-information-manual-tc-aim-tp-14371",
+    "checked_utc": "2026-10-07T17:13:54.158498+00:00",
+    "review_status": "title_verified_sections_indexed_not_full_review",
+    "url": "https://tc.canada.ca/sites/default/files/2026-10/aim-2026-2_access_en.pdf",
+    "file": "documents\\canada\\files\\TC_AIM_current.pdf",
+    "bytes": 35810855,
+    "sha256": "cf6740f44be9a37ee9bcca68d6e8c5683a0da95d2af81d7ac54b2b935357102a",
+    "pages": 509,
+    "status": "downloaded",
+    "edition": "TC AIM 2026-2; effective 2026-10-01 to 2027-03-18"
+  },
+  {
+    "jurisdiction": "dutch_caribbean",
+    "source_page": "https://dc-ansp.org/eAIS/eaip-dutch-caribbean/",
+    "checked_utc": "2026-10-07T17:14:02.076317+00:00",
+    "review_status": "title_verified_sections_indexed_not_full_review",
+    "url": "https://dc-ansp.org/eAIS/eAIP/AIRAC%20AMDT%20COMPLETE/2610_01%20OCT%2026_13%20AUG%2026_eAIP%20AIRAC%20AMDT%2003-26.pdf",
+    "file": "documents\\dutch_caribbean\\files\\AIP_AIRAC_03_26.pdf",
+    "bytes": 94277135,
+    "sha256": "31403d4f4a6e1abe727a4b9949a7720efe51fbd54e82ab26d320d32b356d06dd",
+    "pages": 661,
+    "status": "downloaded",
+    "edition": "AIRAC AMDT 03-26; effective 2026-10-01"
+  }
+]

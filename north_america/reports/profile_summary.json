@@ -1,0 +1,13 @@
+{
+  "rows": 3909316,
+  "go_arounds": 16288,
+  "airports": 74,
+  "countries": 6,
+  "unique_flagged_rows": 260,
+  "flagged_go_arounds": 0,
+  "source_sha256": "d9443153e2ead53b857ece9a1bcb126e461ea6b5bc90a69f89eb7092bdb34c19",
+  "source_unchanged": true,
+  "rows_deleted": 0,
+  "values_corrected": 0,
+  "review_rules_status": "diagnostic_not_normative"
+}

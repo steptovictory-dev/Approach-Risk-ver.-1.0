@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://mdpi-res.com/d_attachment/aerospace/aerospace-08-00291/article_deploy/aerospace-08-00291.pdf",
+    "file": "files/Kumar_2021_SFO_go_arounds.pdf",
+    "review_status": "selected_sections_only",
+    "status": "downloaded",
+    "pages": 21,
+    "sha256": "9b137ce89e100011a4cd3b2c7d607f0128db9acb1f81fa0af112caf0acb62896"
+  },
+  {
+    "url": "https://escholarship.org/content/qt87453364/qt87453364_noSplash_b7815c4585a7bce23ea6e8decaff4433.pdf",
+    "file": "files/Dai_2022_dissertation.pdf",
+    "review_status": "selected_sections_only",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

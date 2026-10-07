@@ -22,6 +22,8 @@ def main():
     output_dir = root / 'data' / 'regional'
     output_dir.mkdir(parents=True, exist_ok=True)
     targets = {region: output_dir / f'{region}.csv' for region in REGION_COUNTRIES}
+    targets['north_america'] = root / 'north_america' / 'data' / 'source' / 'north_america.csv'
+    targets['north_america'].parent.mkdir(parents=True, exist_ok=True)
     temporary = {region: path.with_suffix('.csv.partial') for region, path in targets.items()}
     if any(path.exists() for path in [*targets.values(), *temporary.values()]):
         raise FileExistsError('Региональные файлы уже существуют; перезапись не выполняется')
@@ -99,7 +101,7 @@ def main():
         'excluded_other_regions_rows': total - sum(counts.values()),
         'regions': {
             region: {
-                'file': target.name, 'rows': counts[region],
+                'file': str(target.relative_to(root)), 'rows': counts[region],
                 'go_arounds': ga_counts[region], 'airports': len(airports[region]),
                 'countries': sorted(countries[region]),
                 'bytes': target.stat().st_size,
