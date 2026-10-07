@@ -1,0 +1,7 @@
+,,wind_speed_knts,wind_speed_knts,wind_speed_knts,wind_speed_knts,wind_gust_knts,wind_gust_knts,wind_gust_knts,wind_gust_knts,visibility_m,visibility_m,visibility_m,visibility_m,temperature_deg,temperature_deg,temperature_deg,temperature_deg,press_p,press_p,press_p,press_p
+,,count,median,min,max,count,median,min,max,count,median,min,max,count,median,min,max,count,median,min,max
+airport,ga,,,,,,,,,,,,,,,,,,,,
+KCMA,False,763,9.0,0.0,33.0,219,26.0,16.0,48.0,764,16093.44,2816.352,16093.44,764,18.3,5.0,36.7,764,1017.948834,1000.678245,1026.753448
+KCMA,True,113,7.0,0.0,21.0,14,26.0,16.0,34.0,113,16093.44,6437.376,16093.44,113,18.9,5.0,30.0,113,1016.255639,1004.064635,1025.737531
+KSFB,False,1251,6.0,0.0,15.0,52,17.0,14.0,22.0,1257,16093.44,2011.68,16093.44,1257,22.8,9.4,33.3,1257,1019.30339,1009.821498,1028.785282
+KSFB,True,262,6.0,0.0,15.0,5,17.0,16.0,20.0,262,16093.44,3218.688,16093.44,262,24.4,9.4,30.0,262,1019.642029,1009.821498,1027.769365

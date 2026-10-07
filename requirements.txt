@@ -1,3 +1,4 @@
 pandas==3.0.6
 matplotlib==3.11.2
 pypdf==6.19.0
+pymupdf==1.28.2

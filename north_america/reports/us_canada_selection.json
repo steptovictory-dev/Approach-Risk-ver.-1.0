@@ -1,0 +1,31 @@
+{
+  "source": "data\\source\\north_america.csv",
+  "target": "data\\derived\\us_canada.csv",
+  "rows": 3893258,
+  "excluded_from_analysis": 16058,
+  "go_arounds": 15822,
+  "source_sha256": "d9443153e2ead53b857ece9a1bcb126e461ea6b5bc90a69f89eb7092bdb34c19",
+  "target_sha256": "4881ec928d396ae28e6ffa16d0e7b6d8905a2c691e982f22edcababcc7d3fce7",
+  "source_unchanged": true,
+  "selected_values_unchanged": true,
+  "values_corrected": 0,
+  "canadian_airports": [
+    "CYUL",
+    "CYOW"
+  ],
+  "excluded_us_airports": [
+    "KDEN",
+    "KPWM",
+    "KPIT",
+    "KSYR",
+    "KJAX",
+    "KRIC",
+    "KCMA",
+    "KSFB"
+  ],
+  "temporarily_excluded_airports": [
+    "KCMA",
+    "KSFB"
+  ],
+  "scope": "53 observed USA airports; CYUL and CYOW in Canada"
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "airport": "KCMA",
+    "rows": 877,
+    "go_arounds": 113,
+    "unique_aircraft": 435,
+    "unique_dates": 151,
+    "first_utc": "2019-01-02 17:00:55+00:00",
+    "last_utc": "2019-12-30 22:11:17+00:00",
+    "observed_months": 12,
+    "ga_more_than_two_approaches": 56,
+    "max_approaches": 14,
+    "missing_typecode": 415,
+    "ga_top_five_aircraft": 44
+  },
+  {
+    "airport": "KSFB",
+    "rows": 1519,
+    "go_arounds": 262,
+    "unique_aircraft": 235,
+    "unique_dates": 108,
+    "first_utc": "2019-01-26 01:49:26+00:00",
+    "last_utc": "2019-12-15 15:44:22+00:00",
+    "observed_months": 12,
+    "ga_more_than_two_approaches": 174,
+    "max_approaches": 13,
+    "missing_typecode": 719,
+    "ga_top_five_aircraft": 66
+  }
+]

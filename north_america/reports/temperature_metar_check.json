@@ -1,0 +1,11 @@
+{
+  "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=ATL&station=AUS&station=BOS&station=BUF&station=BWI&station=DCA&station=DFW&station=EWR&station=IAD&station=IAH&station=IND&station=JFK&station=LAS&station=LGA&station=MCI&station=MSP&station=MSY&station=OAK&station=ORD&station=PDX&station=PHL&station=PHX&station=RNO&station=SAN&station=SAT&station=SDF&station=SEA&station=SFO&station=SJC&station=SNA&station=STL&station=TPA&station=PANC&data=all&year1=2019&month1=7&day1=20&year2=2019&month2=7&day2=21&tz=Etc%2FUTC&format=onlycomma&latlon=no&elev=no&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+  "sha256": "cdfc4ccd1fecd72bf5d5e0b3d33ca17604b6922cc07bdaeae071db4cdbc41a4b",
+  "downloaded_observations": 916,
+  "suspect_rows": 260,
+  "matched_rows": 260,
+  "matched_temperature_min_c": 17.22222222222222,
+  "matched_temperature_max_c": 36.111111111111114,
+  "matching": "preceding METAR within 90 minutes; original augmentation rule unknown",
+  "values_corrected": 0
+}
