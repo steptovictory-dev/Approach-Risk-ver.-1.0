@@ -1,0 +1,22 @@
+# Исходные данные скачиваются отдельно и не входят в репозиторий.
+/data/
+
+# Локальные документы планирования.
+/Checkpoint/
+
+# Окружения, кеши Python и временные файлы Jupyter.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Локальные настройки и секреты.
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
