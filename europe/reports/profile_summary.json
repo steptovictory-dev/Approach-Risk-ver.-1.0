@@ -1,0 +1,118 @@
+{
+  "audit_date": "2026-10-08",
+  "source": "europe/data/source/osn23_landings_merged.parquet.gzip",
+  "source_bytes": 331328945,
+  "source_sha256": "1160bdbea6fa93249a00768452be64047c6d2461bb0843d5ecfc52e6942c7f02",
+  "source_unchanged": true,
+  "rows": 7984254,
+  "physical_columns": 21,
+  "business_columns": 20,
+  "airports": 20,
+  "countries": 13,
+  "go_arounds": 26253,
+  "ga_percent": 0.328809679651975,
+  "min_landing_time": "2019-01-01 00:15:21+00:00",
+  "max_landing_time": "2023-05-30 23:58:59+00:00",
+  "unique_flagged_rows": 7540,
+  "flagged_go_arounds": 1120,
+  "rows_deleted": 0,
+  "values_corrected": 0,
+  "repeated_flight_ids": 23889,
+  "excess_flight_id_rows": 29238,
+  "repeated_core_keys": 0,
+  "excess_core_key_rows": 0,
+  "full_duplicate_rows_excluding_storage_index": 0,
+  "max_n_attempts": 33.0,
+  "rules_status": "diagnostic_not_cleaning_rules",
+  "runtime": {
+    "python": "3.14.6",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1"
+  },
+  "schema": [
+    {
+      "name": "flight_id",
+      "type": "string"
+    },
+    {
+      "name": "callsign",
+      "type": "string"
+    },
+    {
+      "name": "icao24",
+      "type": "string"
+    },
+    {
+      "name": "landing_time",
+      "type": "timestamp[ns, tz=UTC]"
+    },
+    {
+      "name": "registration",
+      "type": "string"
+    },
+    {
+      "name": "typecode",
+      "type": "string"
+    },
+    {
+      "name": "icaoaircrafttype",
+      "type": "string"
+    },
+    {
+      "name": "airport",
+      "type": "string"
+    },
+    {
+      "name": "country",
+      "type": "string"
+    },
+    {
+      "name": "attempt_times",
+      "type": "list<element: timestamp[us, tz=UTC]>"
+    },
+    {
+      "name": "ILS",
+      "type": "list<element: string>"
+    },
+    {
+      "name": "n_attempts",
+      "type": "int64"
+    },
+    {
+      "name": "GoA",
+      "type": "bool"
+    },
+    {
+      "name": "market_segment",
+      "type": "string"
+    },
+    {
+      "name": "AC_CLASS",
+      "type": "string"
+    },
+    {
+      "name": "AP_C_RWY",
+      "type": "string"
+    },
+    {
+      "name": "C40_CROSS_TIME",
+      "type": "timestamp[ns, tz=UTC]"
+    },
+    {
+      "name": "C40_BEARING",
+      "type": "double"
+    },
+    {
+      "name": "C40_CROSS_LAT",
+      "type": "double"
+    },
+    {
+      "name": "C40_CROSS_LON",
+      "type": "double"
+    },
+    {
+      "name": "__index_level_0__",
+      "type": "int64"
+    }
+  ]
+}

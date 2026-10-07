@@ -1,0 +1,131 @@
+{
+  "created": "2023-11-27T16:07:10.706923+00:00",
+  "modified": "2023-11-27T16:07:10.999789+00:00",
+  "id": 10210178,
+  "conceptrecid": "10210177",
+  "doi": "10.5281/zenodo.10210178",
+  "conceptdoi": "10.5281/zenodo.10210177",
+  "doi_url": "https://doi.org/10.5281/zenodo.10210178",
+  "metadata": {
+    "title": "Large aircraft landing dataset at 20 large europen airports",
+    "doi": "10.5281/zenodo.10210178",
+    "publication_date": "2023-11-27",
+    "description": "<p>This dataset includes metadata of landing trajectories at 20 large European airports for the period from January 2019 to June 2023. The metadata have been sourced from &nbsp;ADS-B flight trajectories sourced from the OpenSky Network and EUROCONTROL's Network Manager. Notably, the dataset labels Go-Arounds, providing valuable insights into these specific flight maneuvers.<br><br>The proposed dataset includes the following:</p><ol><li><strong>stop</strong> [date time]: UTC time of landing.</li><li><strong>icao24</strong> [string]: Unique 24-bit (hexadecimal number) ICAO identifier of the aircraft concerned.</li><li><strong>callsign</strong> [string]: Aircraft identifier in air-ground communications.</li><li><strong>airport</strong> [string]: ICAO airport code where the aircraft is landing.</li><li><strong>ILS</strong> [list]: Designation of runways on which the aircraft performed its landing attempts.</li><li><strong>GoA</strong> [Boolean]: \"True\" if at least one Go-Around (GA) was performed, otherwise \"False\".</li><li><strong>n_attempts</strong> [integer]: Number of approaches identified for this flight.</li><li><strong>attempt_times</strong> [list]: List of timestamps at which a landing is attempted.</li><li><strong>market_segment</strong> [string]: Flight market segment.</li><li><strong>n_rwy_approached</strong> [integer]: Number of unique runways approached by this flight.</li><li><strong>AC_CLASS</strong> [string]: Aircraft class.</li><li><strong>C40_CROSS_TIME</strong> [string]: Timestamp at which the aircraft enters the ASMA cylinder.</li><li><strong>C40_BEARING</strong> [float]: Bearing between aircraft and airport when entering the ASMA cylinder.</li><li><strong>C40_CROSS_LAT</strong> [float]: Aircraft latitude when entering the ASMA cylinder.</li><li><strong>C40_CROSS_LON</strong> [float]: Aircraft longitude when entering the ASMA cylinder.</li></ol>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Figuet, Benoit",
+        "affiliation": null,
+        "orcid": "0000-0001-5453-8584"
+      }
+    ],
+    "keywords": [
+      "Aviation",
+      "ADS-B",
+      "Go-Around",
+      "Aircraft",
+      "Trajectory"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/figuetbe/OSN23-GoA",
+        "relation": "isRequiredBy",
+        "resource_type": "software-computationalnotebook",
+        "scheme": "url"
+      },
+      {
+        "identifier": "10.59490/joas.2023.7219",
+        "relation": "isPublishedIn",
+        "resource_type": "publication-preprint",
+        "scheme": "doi"
+      }
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "10210177"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Large aircraft landing dataset at 20 large europen airports",
+  "links": {
+    "self": "https://zenodo.org/api/records/10210178",
+    "self_html": "https://zenodo.org/records/10210178",
+    "preview_html": "https://zenodo.org/records/10210178?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.10210178",
+    "self_doi": "https://doi.org/10.5281/zenodo.10210178",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10210178",
+    "reserve_doi": "https://zenodo.org/api/records/10210178/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/10210177",
+    "parent_html": "https://zenodo.org/records/10210177",
+    "parent_doi": "https://doi.org/10.5281/zenodo.10210177",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10210177",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10210178/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10210178/sequence/default",
+    "files": "https://zenodo.org/api/records/10210178/files",
+    "media_files": "https://zenodo.org/api/records/10210178/media-files",
+    "archive": "https://zenodo.org/api/records/10210178/files-archive",
+    "archive_media": "https://zenodo.org/api/records/10210178/media-files-archive",
+    "latest": "https://zenodo.org/api/records/10210178/versions/latest",
+    "latest_html": "https://zenodo.org/records/10210178/latest",
+    "versions": "https://zenodo.org/api/records/10210178/versions",
+    "draft": "https://zenodo.org/api/records/10210178/draft",
+    "access_links": "https://zenodo.org/api/records/10210178/access/links",
+    "access_grants": "https://zenodo.org/api/records/10210178/access/grants",
+    "access_users": "https://zenodo.org/api/records/10210178/access/users",
+    "access_request": "https://zenodo.org/api/records/10210178/access/request",
+    "access": "https://zenodo.org/api/records/10210178/access",
+    "communities": "https://zenodo.org/api/records/10210178/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10210178/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/10210178/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/10210178/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/10210178/quota-increase",
+    "requests": "https://zenodo.org/api/records/10210178/requests"
+  },
+  "updated": "2023-11-27T16:07:10.999789+00:00",
+  "recid": "10210178",
+  "revision": 4,
+  "files": [
+    {
+      "id": "8f079215-1101-4dc4-99db-97c0ac546017",
+      "key": "osn23_landings_merged.parquet.gzip",
+      "size": 331328945,
+      "checksum": "md5:46e1b5cdb2c078b996649c6660738b9e",
+      "links": {
+        "self": "https://zenodo.org/api/records/10210178/files/osn23_landings_merged.parquet.gzip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1033641"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 184,
+    "unique_downloads": 170,
+    "views": 390,
+    "unique_views": 373,
+    "version_downloads": 184,
+    "version_unique_downloads": 170,
+    "version_unique_views": 373,
+    "version_views": 390
+  },
+  "state": "done",
+  "submitted": true
+}

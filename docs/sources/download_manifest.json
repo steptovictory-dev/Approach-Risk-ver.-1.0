@@ -1,0 +1,43 @@
+{
+  "verified_on": "2026-10-08",
+  "usa_download_limit_bytes": 6442450944,
+  "files": [
+    {
+      "path": "europe/data/source/osn23_landings_merged.parquet.gzip",
+      "url": "https://zenodo.org/records/10210178/files/osn23_landings_merged.parquet.gzip?download=1",
+      "bytes": 331328945,
+      "sha256": "1160bdbea6fa93249a00768452be64047c6d2461bb0843d5ecfc52e6942c7f02",
+      "md5": "46e1b5cdb2c078b996649c6660738b9e",
+      "retrieved_on": "unknown: reused local file; integrity checked 2026-10-08",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/raw/usa/2025-01-15/v2025.01.15-planes-readsb-prod-0.tar.aa",
+      "url": "https://github.com/adsblol/globe_history_2025/releases/download/v2025.01.15-planes-readsb-prod-0/v2025.01.15-planes-readsb-prod-0.tar.aa",
+      "bytes": 2000000000,
+      "sha256": "ac18b2989b6131a036bdf8c8f4a08a2ddc521fe71642a48736c8ff0a5f30a6aa",
+      "retrieved_on": "2026-10-08"
+    },
+    {
+      "path": "data/raw/usa/2025-01-15/v2025.01.15-planes-readsb-prod-0.tar.ab",
+      "url": "https://github.com/adsblol/globe_history_2025/releases/download/v2025.01.15-planes-readsb-prod-0/v2025.01.15-planes-readsb-prod-0.tar.ab",
+      "bytes": 233630720,
+      "sha256": "b9bcfa26de788f873a39e48d03d61e0a948628f11b5a789128948fc76437057d",
+      "retrieved_on": "2026-10-08"
+    },
+    {
+      "path": "data/raw/usa/2026-01-15/v2026.01.15-planes-readsb-prod-0.tar.aa",
+      "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.01.15-planes-readsb-prod-0/v2026.01.15-planes-readsb-prod-0.tar.aa",
+      "bytes": 2000000000,
+      "sha256": "749389ba1e6d5f44a960a94810c55fba2f35f451bca77bbfd6d1170131dbca52",
+      "retrieved_on": "2026-10-08"
+    },
+    {
+      "path": "data/raw/usa/2026-01-15/v2026.01.15-planes-readsb-prod-0.tar.ab",
+      "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.01.15-planes-readsb-prod-0/v2026.01.15-planes-readsb-prod-0.tar.ab",
+      "bytes": 1170448384,
+      "sha256": "dd1a607e9aba1679fe8218a5bee3ac92ed0804ae0125f43ae9e3dced19ba3f20",
+      "retrieved_on": "2026-10-08"
+    }
+  ]
+}

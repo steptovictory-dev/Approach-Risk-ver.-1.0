@@ -1,0 +1,276 @@
+[
+  {
+    "date": "2025-01-15",
+    "parts": [
+      "v2025.01.15-planes-readsb-prod-0.tar.aa",
+      "v2025.01.15-planes-readsb-prod-0.tar.ab"
+    ],
+    "members": 60027,
+    "payload_bytes": 2187865334,
+    "file_categories": {
+      "other": 5,
+      "heatmap": 48,
+      "traces": 59714
+    },
+    "first_member_names": [
+      ".",
+      "./README.txt",
+      "./LICENSE-cc0.txt",
+      "./LICENSE-ODbL.txt",
+      "./acas",
+      "./acas/acas.csv.gz",
+      "./acas/acas.json.gz",
+      "./heatmap",
+      "./heatmap/22.bin.ttf",
+      "./heatmap/14.bin.ttf"
+    ],
+    "json_samples": [
+      {
+        "member": "./traces/e9/trace_full_7812e9.json",
+        "icao": "7812e9",
+        "timestamp": 1736899200.0,
+        "points": 17,
+        "point_lengths": [
+          14
+        ],
+        "first_point": [
+          36841.42,
+          22.442642,
+          113.802529,
+          3225,
+          182.8,
+          79.9,
+          1,
+          -1088,
+          {
+            "type": "adsb_icao",
+            "alt_geom": 3525,
+            "tas": 194,
+            "track": 79.92,
+            "track_rate": 0.0,
+            "roll": 0.53,
+            "baro_rate": -1088,
+            "nav_qnh": 1023.0,
+            "nav_altitude_mcp": 2400,
+            "nav_altitude_fms": 2960,
+            "nic": 8,
+            "rc": 186,
+            "version": 2,
+            "nic_baro": 1,
+            "nac_p": 8,
+            "nac_v": 1,
+            "sil": 3,
+            "sil_type": "perhour",
+            "gva": 1,
+            "sda": 2,
+            "alert": 0,
+            "spi": 0
+          },
+          "adsb_icao",
+          3525,
+          null,
+          null,
+          0.5
+        ]
+      },
+      {
+        "member": "./traces/e9/trace_full_aa77e9.json",
+        "icao": "aa77e9",
+        "timestamp": 1736899200.0,
+        "points": 157,
+        "point_lengths": [
+          14
+        ],
+        "first_point": [
+          64657.45,
+          32.840836,
+          -96.851349,
+          200,
+          106.8,
+          315.4,
+          1,
+          1664,
+          {
+            "type": "adsb_icao",
+            "alt_geom": 575,
+            "track": 315.38,
+            "baro_rate": 1664,
+            "nav_qnh": 1031.2,
+            "nav_altitude_mcp": 4000,
+            "nav_heading": 312.19,
+            "nav_modes": [],
+            "nic": 8,
+            "rc": 186,
+            "version": 2,
+            "nic_baro": 1,
+            "nac_p": 10,
+            "nac_v": 2,
+            "sil": 3,
+            "sil_type": "perhour",
+            "gva": 2,
+            "sda": 2,
+            "alert": 0,
+            "spi": 0
+          },
+          "adsb_icao",
+          575,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "member": "./traces/e9/trace_full_aab0e9.json",
+        "icao": "aab0e9",
+        "timestamp": 1736899200.0,
+        "points": 1022,
+        "point_lengths": [
+          14
+        ],
+        "first_point": [
+          56085.78,
+          35.026222,
+          -106.625832,
+          "ground",
+          77.0,
+          null,
+          3,
+          null,
+          null,
+          "adsb_icao",
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "validation": "TAR headers read to end; three complete trace JSON samples checked. All trace gzip streams not individually validated.",
+    "us_airports_extracted": false,
+    "goaround_labels_created": false
+  },
+  {
+    "date": "2026-01-15",
+    "parts": [
+      "v2026.01.15-planes-readsb-prod-0.tar.aa",
+      "v2026.01.15-planes-readsb-prod-0.tar.ab"
+    ],
+    "members": 67099,
+    "payload_bytes": 3119301652,
+    "file_categories": {
+      "traces": 66786,
+      "heatmap": 48,
+      "other": 5
+    },
+    "first_member_names": [
+      ".",
+      "./traces",
+      "./traces/e8",
+      "./traces/e8/trace_full_4869e8.json",
+      "./traces/e8/trace_full_acf4e8.json",
+      "./traces/e8/trace_full_3008e8.json",
+      "./traces/e8/trace_full_ac51e8.json",
+      "./traces/e8/trace_full_4070e8.json",
+      "./traces/e8/trace_full_~2692e8.json",
+      "./traces/e8/trace_full_a88de8.json"
+    ],
+    "json_samples": [
+      {
+        "member": "./traces/e8/trace_full_4869e8.json",
+        "icao": "4869e8",
+        "timestamp": 1768435200.0,
+        "points": 891,
+        "point_lengths": [
+          14
+        ],
+        "first_point": [
+          48743.21,
+          51.956301,
+          4.438869,
+          200,
+          67.1,
+          236.6,
+          1,
+          832,
+          null,
+          "adsb_icao",
+          175,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "member": "./traces/e8/trace_full_acf4e8.json",
+        "icao": "acf4e8",
+        "timestamp": 1768435200.0,
+        "points": 4035,
+        "point_lengths": [
+          14
+        ],
+        "first_point": [
+          2820.16,
+          41.412643,
+          -81.846147,
+          1200,
+          171.2,
+          50.5,
+          1,
+          1344,
+          null,
+          "adsb_icao",
+          750,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "member": "./traces/e8/trace_full_3008e8.json",
+        "icao": "3008e8",
+        "timestamp": 1768435200.0,
+        "points": 687,
+        "point_lengths": [
+          14
+        ],
+        "first_point": [
+          27159.78,
+          46.75218,
+          11.63871,
+          2500,
+          87.1,
+          170.8,
+          1,
+          512,
+          {
+            "type": "adsb_icao",
+            "alt_geom": 2925,
+            "track": 170.75,
+            "baro_rate": 512,
+            "category": "A7",
+            "nic": 7,
+            "rc": 371,
+            "version": 2,
+            "nic_baro": 1,
+            "nac_p": 8,
+            "nac_v": 2,
+            "sil": 3,
+            "sil_type": "perhour",
+            "gva": 1,
+            "sda": 2,
+            "alert": 0,
+            "spi": 0
+          },
+          "adsb_icao",
+          2925,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "validation": "TAR headers read to end; three complete trace JSON samples checked. All trace gzip streams not individually validated.",
+    "us_airports_extracted": false,
+    "goaround_labels_created": false
+  }
+]

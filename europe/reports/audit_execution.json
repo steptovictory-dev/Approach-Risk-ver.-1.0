@@ -1,0 +1,15 @@
+{
+  "verified_on": "2026-10-08",
+  "notebook": "europe/notebooks/01_database_audit.ipynb",
+  "code_cells_executed": 22,
+  "errors": 0,
+  "source_sha256": "1160bdbea6fa93249a00768452be64047c6d2461bb0843d5ecfc52e6942c7f02",
+  "notebook_sha256": "469efb46027521b81e85370378931ce986f31801caa34db9b39e42505f643dc8",
+  "profile_script_sha256": "d7da964a91a5465b8ebae778c4fbcc4624a4bbf60665db2a8d5afb7c955e59fd",
+  "source_unchanged": true,
+  "diagnostic_rows": 7540,
+  "diagnostic_values_checked_against_source": true,
+  "rows_deleted": 0,
+  "values_corrected": 0,
+  "editorial_change": "Removed terminal periods from Markdown headings; executed code cells and outputs preserved."
+}

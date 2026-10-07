@@ -1,0 +1,29 @@
+# Исходные данные скачиваются отдельно и не входят в репозиторий.
+/data/
+/north_america/data/
+/north_america/documents/**/files/
+/north_america/literature/files/
+/tmp/
+/north_america/reports/review_examples.csv
+/north_america/documents/section_locator.json
+/north_america/literature/crossref_metadata.json
+
+# Локальные документы планирования.
+/Checkpoint/
+
+# Окружения, кеши Python и временные файлы Jupyter.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Локальные настройки и секреты.
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

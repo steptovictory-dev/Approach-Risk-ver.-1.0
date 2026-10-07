@@ -1,0 +1,455 @@
+[
+  {
+    "flight_id": "FCK311_163754",
+    "callsign": "FCK311",
+    "icao24": "3cce70",
+    "landing_time": "2019-01-03 00:57:06+00:00",
+    "registration": "DCFME",
+    "typecode": "B350",
+    "icaoaircrafttype": "L2T",
+    "airport": "EDDF",
+    "country": "Germany",
+    "attempt_times": [
+      "2019-01-02 22:45:00+00:00",
+      "2019-01-02 23:22:23+00:00",
+      "2019-01-03 00:08:08+00:00",
+      "2019-01-03 00:44:13+00:00"
+    ],
+    "ILS": [
+      "25L",
+      "25C",
+      "07C",
+      "07C"
+    ],
+    "n_attempts": 4,
+    "GoA": true,
+    "market_segment": "Other",
+    "AC_CLASS": null,
+    "AP_C_RWY": null,
+    "C40_CROSS_TIME": null,
+    "C40_BEARING": null,
+    "C40_CROSS_LAT": null,
+    "C40_CROSS_LON": null,
+    "__index_level_0__": 12198,
+    "source_row": 11474,
+    "review_reason": "n_attempts:more_than_two"
+  },
+  {
+    "flight_id": "FCK311_163760",
+    "callsign": "FCK311",
+    "icao24": "3cce70",
+    "landing_time": "2019-01-05 01:40:45+00:00",
+    "registration": "DCFME",
+    "typecode": "B350",
+    "icaoaircrafttype": "L2T",
+    "airport": "EDDF",
+    "country": "Germany",
+    "attempt_times": [
+      "2019-01-04 22:39:37+00:00",
+      "2019-01-04 23:45:22+00:00",
+      "2019-01-05 00:25:21+00:00",
+      "2019-01-05 01:13:32+00:00",
+      "2019-01-05 01:33:10+00:00"
+    ],
+    "ILS": [
+      "07L",
+      "25L",
+      "25R",
+      "25L",
+      "25L"
+    ],
+    "n_attempts": 5,
+    "GoA": true,
+    "market_segment": null,
+    "AC_CLASS": null,
+    "AP_C_RWY": null,
+    "C40_CROSS_TIME": null,
+    "C40_BEARING": null,
+    "C40_CROSS_LAT": null,
+    "C40_CROSS_LON": null,
+    "__index_level_0__": 25710,
+    "source_row": 23932,
+    "review_reason": "n_attempts:more_than_two"
+  },
+  {
+    "flight_id": "KLM1046_130562",
+    "callsign": "KLM1046",
+    "icao24": "485206",
+    "landing_time": "2019-01-08 10:51:28+00:00",
+    "registration": "PHEXE",
+    "typecode": "E190",
+    "icaoaircrafttype": "L2J",
+    "airport": "EHAM",
+    "country": "Netherlands",
+    "attempt_times": [
+      "2019-01-08 10:25:32+00:00",
+      "2019-01-08 10:35:50+00:00",
+      "2019-01-08 10:51:28+00:00"
+    ],
+    "ILS": [
+      "27",
+      "27",
+      "36R"
+    ],
+    "n_attempts": 3,
+    "GoA": true,
+    "market_segment": "Regional",
+    "AC_CLASS": "MJ",
+    "AP_C_RWY": "36R",
+    "C40_CROSS_TIME": "2019-01-08 10:08:37+00:00",
+    "C40_BEARING": 283.24398965910103,
+    "C40_CROSS_LAT": 52.456388888888874,
+    "C40_CROSS_LON": 3.69638888888889,
+    "__index_level_0__": 47215,
+    "source_row": 43765,
+    "review_reason": "n_attempts:more_than_two"
+  },
+  {
+    "flight_id": "VLG442_25252",
+    "callsign": "VLG442",
+    "icao24": "345643",
+    "landing_time": "2019-01-01 07:49:29+00:00",
+    "registration": "",
+    "typecode": "",
+    "icaoaircrafttype": "a320",
+    "airport": "LIRF",
+    "country": "Italy",
+    "attempt_times": [
+      "2019-01-01 07:49:29+00:00"
+    ],
+    "ILS": [
+      "34L"
+    ],
+    "n_attempts": 1,
+    "GoA": false,
+    "market_segment": null,
+    "AC_CLASS": null,
+    "AP_C_RWY": null,
+    "C40_CROSS_TIME": null,
+    "C40_BEARING": null,
+    "C40_CROSS_LAT": null,
+    "C40_CROSS_LON": null,
+    "__index_level_0__": 683,
+    "source_row": 661,
+    "review_reason": "icaoaircrafttype:outside_dominant_description_pattern"
+  },
+  {
+    "flight_id": "VLG65UY_25306",
+    "callsign": "VLG65UY",
+    "icao24": "345643",
+    "landing_time": "2019-01-01 15:49:42+00:00",
+    "registration": "",
+    "typecode": "",
+    "icaoaircrafttype": "a320",
+    "airport": "LIRF",
+    "country": "Italy",
+    "attempt_times": [
+      "2019-01-01 15:49:42+00:00"
+    ],
+    "ILS": [
+      "34R"
+    ],
+    "n_attempts": 1,
+    "GoA": false,
+    "market_segment": null,
+    "AC_CLASS": null,
+    "AP_C_RWY": null,
+    "C40_CROSS_TIME": null,
+    "C40_BEARING": null,
+    "C40_CROSS_LAT": null,
+    "C40_CROSS_LON": null,
+    "__index_level_0__": 3134,
+    "source_row": 2990,
+    "review_reason": "icaoaircrafttype:outside_dominant_description_pattern"
+  },
+  {
+    "flight_id": "VLG6137_25261",
+    "callsign": "VLG6137",
+    "icao24": "345643",
+    "landing_time": "2019-01-01 19:44:15+00:00",
+    "registration": "",
+    "typecode": "",
+    "icaoaircrafttype": "a320",
+    "airport": "LIRF",
+    "country": "Italy",
+    "attempt_times": [
+      "2019-01-01 19:44:15+00:00"
+    ],
+    "ILS": [
+      "34R"
+    ],
+    "n_attempts": 1,
+    "GoA": false,
+    "market_segment": null,
+    "AC_CLASS": null,
+    "AP_C_RWY": null,
+    "C40_CROSS_TIME": null,
+    "C40_BEARING": null,
+    "C40_CROSS_LAT": null,
+    "C40_CROSS_LON": null,
+    "__index_level_0__": 4616,
+    "source_row": 4392,
+    "review_reason": "icaoaircrafttype:outside_dominant_description_pattern"
+  },
+  {
+    "flight_id": "N51VE_123804",
+    "callsign": "N51VE",
+    "icao24": "a660f6",
+    "landing_time": "2019-03-19 11:02:24+00:00",
+    "registration": "N51VE",
+    "typecode": "G-V",
+    "icaoaircrafttype": "G-V",
+    "airport": "LSZH",
+    "country": "Switzerland",
+    "attempt_times": [
+      "2019-03-19 11:02:05+00:00"
+    ],
+    "ILS": [
+      "14"
+    ],
+    "n_attempts": 1,
+    "GoA": false,
+    "market_segment": "Business",
+    "AC_CLASS": "MJ",
+    "AP_C_RWY": "14",
+    "C40_CROSS_TIME": "2019-03-19 10:48:10+00:00",
+    "C40_BEARING": 1.3873284687407,
+    "C40_CROSS_LAT": 48.12416666666665,
+    "C40_CROSS_LON": 8.57222222222222,
+    "__index_level_0__": 499997,
+    "source_row": 478536,
+    "review_reason": "icaoaircrafttype:equals_typecode_ignoring_case"
+  },
+  {
+    "flight_id": "SVW55HS_71093",
+    "callsign": "SVW55HS",
+    "icao24": "4d0206",
+    "landing_time": "2019-04-03 18:24:12+00:00",
+    "registration": "LXPHS",
+    "typecode": "G550",
+    "icaoaircrafttype": "G550",
+    "airport": "LSGG",
+    "country": "Switzerland",
+    "attempt_times": [
+      "2019-04-03 18:24:01+00:00"
+    ],
+    "ILS": [
+      "22R"
+    ],
+    "n_attempts": 1,
+    "GoA": false,
+    "market_segment": "Business",
+    "AC_CLASS": "MJ",
+    "AP_C_RWY": "22",
+    "C40_CROSS_TIME": "2019-04-03 18:13:58+00:00",
+    "C40_BEARING": 44.27014192297427,
+    "C40_CROSS_LAT": 46.71305555555555,
+    "C40_CROSS_LON": 6.78722222222222,
+    "__index_level_0__": 608878,
+    "source_row": 584119,
+    "review_reason": "icaoaircrafttype:equals_typecode_ignoring_case"
+  },
+  {
+    "flight_id": "VLG6273_23112",
+    "callsign": "VLG6273",
+    "icao24": "3451d3",
+    "landing_time": "2019-04-19 22:05:09+00:00",
+    "registration": "ECMKM",
+    "typecode": "A320",
+    "icaoaircrafttype": "L2J",
+    "airport": "LIRF",
+    "country": "Italy",
+    "attempt_times": [
+      "2019-04-19 22:05:09+00:00"
+    ],
+    "ILS": [
+      "16L"
+    ],
+    "n_attempts": 1,
+    "GoA": false,
+    "market_segment": null,
+    "AC_CLASS": "MJ",
+    "AP_C_RWY": "16L",
+    "C40_CROSS_TIME": "2019-04-19 22:12:02+00:00",
+    "C40_BEARING": 264.89922101220503,
+    "C40_CROSS_LAT": 41.737500000000004,
+    "C40_CROSS_LON": 11.348055555555549,
+    "__index_level_0__": 725065,
+    "source_row": 696773,
+    "review_reason": "C40_CROSS_TIME:after_landing"
+  },
+  {
+    "flight_id": "VLG6273_23112",
+    "callsign": "VLG6273",
+    "icao24": "3451d3",
+    "landing_time": "2019-04-19 22:05:09+00:00",
+    "registration": "ECMKM",
+    "typecode": "A320",
+    "icaoaircrafttype": "L2J",
+    "airport": "LIRF",
+    "country": "Italy",
+    "attempt_times": [
+      "2019-04-19 22:05:09+00:00"
+    ],
+    "ILS": [
+      "16L"
+    ],
+    "n_attempts": 1,
+    "GoA": false,
+    "market_segment": null,
+    "AC_CLASS": "MJ",
+    "AP_C_RWY": "16L",
+    "C40_CROSS_TIME": "2019-04-19 22:12:02+00:00",
+    "C40_BEARING": 264.89922101220503,
+    "C40_CROSS_LAT": 41.737500000000004,
+    "C40_CROSS_LON": 11.348055555555549,
+    "__index_level_0__": 725065,
+    "source_row": 696773,
+    "review_reason": "C40_CROSS_TIME:after_first_attempt"
+  },
+  {
+    "flight_id": "N51VE_90118",
+    "callsign": "N51VE",
+    "icao24": "a660f6",
+    "landing_time": "2019-05-18 14:18:12+00:00",
+    "registration": "N51VE",
+    "typecode": "G-V",
+    "icaoaircrafttype": "G-V",
+    "airport": "EGSS",
+    "country": "United Kingdom",
+    "attempt_times": [
+      "2019-05-18 14:18:12+00:00"
+    ],
+    "ILS": [
+      "22"
+    ],
+    "n_attempts": 1,
+    "GoA": false,
+    "market_segment": "Business",
+    "AC_CLASS": "MJ",
+    "AP_C_RWY": "22",
+    "C40_CROSS_TIME": "2019-05-18 14:05:12+00:00",
+    "C40_BEARING": 261.703047797062,
+    "C40_CROSS_LAT": 51.783888888888875,
+    "C40_CROSS_LON": -0.8322222222222222,
+    "__index_level_0__": 928156,
+    "source_row": 893617,
+    "review_reason": "icaoaircrafttype:equals_typecode_ignoring_case"
+  },
+  {
+    "flight_id": "VLG80EU_15642",
+    "callsign": "VLG80EU",
+    "icao24": "34538d",
+    "landing_time": "2019-05-21 20:30:18+00:00",
+    "registration": "ECMQL",
+    "typecode": "A321",
+    "icaoaircrafttype": "L2J",
+    "airport": "LFPO",
+    "country": "France",
+    "attempt_times": [
+      "2019-05-21 20:30:18+00:00"
+    ],
+    "ILS": [
+      "25"
+    ],
+    "n_attempts": 1,
+    "GoA": false,
+    "market_segment": null,
+    "AC_CLASS": "MJ",
+    "AP_C_RWY": "26",
+    "C40_CROSS_TIME": "2019-05-21 20:34:02+00:00",
+    "C40_BEARING": 226.92404761980302,
+    "C40_CROSS_LAT": 48.26666666666666,
+    "C40_CROSS_LON": 1.6494444444444398,
+    "__index_level_0__": 952079,
+    "source_row": 916854,
+    "review_reason": "C40_CROSS_TIME:after_landing"
+  },
+  {
+    "flight_id": "VLG80EU_15642",
+    "callsign": "VLG80EU",
+    "icao24": "34538d",
+    "landing_time": "2019-05-21 20:30:18+00:00",
+    "registration": "ECMQL",
+    "typecode": "A321",
+    "icaoaircrafttype": "L2J",
+    "airport": "LFPO",
+    "country": "France",
+    "attempt_times": [
+      "2019-05-21 20:30:18+00:00"
+    ],
+    "ILS": [
+      "25"
+    ],
+    "n_attempts": 1,
+    "GoA": false,
+    "market_segment": null,
+    "AC_CLASS": "MJ",
+    "AP_C_RWY": "26",
+    "C40_CROSS_TIME": "2019-05-21 20:34:02+00:00",
+    "C40_BEARING": 226.92404761980302,
+    "C40_CROSS_LAT": 48.26666666666666,
+    "C40_CROSS_LON": 1.6494444444444398,
+    "__index_level_0__": 952079,
+    "source_row": 916854,
+    "review_reason": "C40_CROSS_TIME:after_first_attempt"
+  },
+  {
+    "flight_id": "IBS37HF_10828",
+    "callsign": "IBS37HF",
+    "icao24": "341682",
+    "landing_time": "2019-07-02 20:52:51+00:00",
+    "registration": "ECILQ",
+    "typecode": "A320",
+    "icaoaircrafttype": "L2J",
+    "airport": "LEMD",
+    "country": "Spain",
+    "attempt_times": [
+      "2019-07-02 20:50:22+00:00"
+    ],
+    "ILS": [
+      "32L"
+    ],
+    "n_attempts": 1,
+    "GoA": false,
+    "market_segment": "Lowcost",
+    "AC_CLASS": "MJ",
+    "AP_C_RWY": "32L",
+    "C40_CROSS_TIME": "2019-07-02 21:02:03+00:00",
+    "C40_BEARING": 346.023734523534,
+    "C40_CROSS_LAT": 41.118611111111115,
+    "C40_CROSS_LON": -3.77444444444444,
+    "__index_level_0__": 1269953,
+    "source_row": 1223930,
+    "review_reason": "C40_CROSS_TIME:after_landing"
+  },
+  {
+    "flight_id": "IBS37HF_10828",
+    "callsign": "IBS37HF",
+    "icao24": "341682",
+    "landing_time": "2019-07-02 20:52:51+00:00",
+    "registration": "ECILQ",
+    "typecode": "A320",
+    "icaoaircrafttype": "L2J",
+    "airport": "LEMD",
+    "country": "Spain",
+    "attempt_times": [
+      "2019-07-02 20:50:22+00:00"
+    ],
+    "ILS": [
+      "32L"
+    ],
+    "n_attempts": 1,
+    "GoA": false,
+    "market_segment": "Lowcost",
+    "AC_CLASS": "MJ",
+    "AP_C_RWY": "32L",
+    "C40_CROSS_TIME": "2019-07-02 21:02:03+00:00",
+    "C40_BEARING": 346.023734523534,
+    "C40_CROSS_LAT": 41.118611111111115,
+    "C40_CROSS_LON": -3.77444444444444,
+    "__index_level_0__": 1269953,
+    "source_row": 1223930,
+    "review_reason": "C40_CROSS_TIME:after_first_attempt"
+  }
+]

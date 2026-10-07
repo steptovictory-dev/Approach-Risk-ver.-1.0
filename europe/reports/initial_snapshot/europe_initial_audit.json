@@ -1,0 +1,444 @@
+{
+  "source": "data/raw/europe/osn23_landings_merged.parquet.gzip",
+  "rows": 7984254,
+  "schema": "flight_id: string\ncallsign: string\nicao24: string\nlanding_time: timestamp[ns, tz=UTC]\nregistration: string\ntypecode: string\nicaoaircrafttype: string\nairport: string\ncountry: string\nattempt_times: list<element: timestamp[us, tz=UTC]>\n  child 0, element: timestamp[us, tz=UTC]\nILS: list<element: string>\n  child 0, element: string\nn_attempts: int64\nGoA: bool\nmarket_segment: string\nAC_CLASS: string\nAP_C_RWY: string\nC40_CROSS_TIME: timestamp[ns, tz=UTC]\nC40_BEARING: double\nC40_CROSS_LAT: double\nC40_CROSS_LON: double\n__index_level_0__: int64\n-- schema metadata --\npandas: '{\"index_columns\": [\"__index_level_0__\"], \"column_indexes\": [{\"na' + 2781",
+  "min_landing_time": "2019-01-01 00:15:21+00:00",
+  "max_landing_time": "2023-05-30 23:58:59+00:00",
+  "airports": [
+    {
+      "airport": "EDDB",
+      "records": 216588,
+      "with_goaround": 799
+    },
+    {
+      "airport": "EDDF",
+      "records": 644881,
+      "with_goaround": 2161
+    },
+    {
+      "airport": "EDDM",
+      "records": 499206,
+      "with_goaround": 1532
+    },
+    {
+      "airport": "EGCC",
+      "records": 211299,
+      "with_goaround": 791
+    },
+    {
+      "airport": "EGLL",
+      "records": 686819,
+      "with_goaround": 2607
+    },
+    {
+      "airport": "EGSS",
+      "records": 291550,
+      "with_goaround": 875
+    },
+    {
+      "airport": "EHAM",
+      "records": 639766,
+      "with_goaround": 1414
+    },
+    {
+      "airport": "EIDW",
+      "records": 313008,
+      "with_goaround": 1352
+    },
+    {
+      "airport": "EKCH",
+      "records": 302339,
+      "with_goaround": 726
+    },
+    {
+      "airport": "EPWA",
+      "records": 230593,
+      "with_goaround": 840
+    },
+    {
+      "airport": "ESSA",
+      "records": 288902,
+      "with_goaround": 851
+    },
+    {
+      "airport": "LEMD",
+      "records": 592140,
+      "with_goaround": 1257
+    },
+    {
+      "airport": "LFPG",
+      "records": 701670,
+      "with_goaround": 2653
+    },
+    {
+      "airport": "LFPO",
+      "records": 302602,
+      "with_goaround": 968
+    },
+    {
+      "airport": "LIMC",
+      "records": 296596,
+      "with_goaround": 720
+    },
+    {
+      "airport": "LIRF",
+      "records": 391269,
+      "with_goaround": 672
+    },
+    {
+      "airport": "LOWW",
+      "records": 360091,
+      "with_goaround": 1375
+    },
+    {
+      "airport": "LSGG",
+      "records": 255263,
+      "with_goaround": 760
+    },
+    {
+      "airport": "LSZH",
+      "records": 372304,
+      "with_goaround": 1486
+    },
+    {
+      "airport": "LTFJ",
+      "records": 387368,
+      "with_goaround": 2414
+    }
+  ],
+  "months": [
+    {
+      "month": "2019-01",
+      "records": 174478,
+      "with_goaround": 558
+    },
+    {
+      "month": "2019-02",
+      "records": 180291,
+      "with_goaround": 501
+    },
+    {
+      "month": "2019-03",
+      "records": 208716,
+      "with_goaround": 762
+    },
+    {
+      "month": "2019-04",
+      "records": 207116,
+      "with_goaround": 576
+    },
+    {
+      "month": "2019-05",
+      "records": 219840,
+      "with_goaround": 584
+    },
+    {
+      "month": "2019-06",
+      "records": 218949,
+      "with_goaround": 656
+    },
+    {
+      "month": "2019-07",
+      "records": 231785,
+      "with_goaround": 653
+    },
+    {
+      "month": "2019-08",
+      "records": 232654,
+      "with_goaround": 597
+    },
+    {
+      "month": "2019-09",
+      "records": 218240,
+      "with_goaround": 591
+    },
+    {
+      "month": "2019-10",
+      "records": 232337,
+      "with_goaround": 649
+    },
+    {
+      "month": "2019-11",
+      "records": 201746,
+      "with_goaround": 543
+    },
+    {
+      "month": "2019-12",
+      "records": 190232,
+      "with_goaround": 565
+    },
+    {
+      "month": "2020-01",
+      "records": 198813,
+      "with_goaround": 646
+    },
+    {
+      "month": "2020-02",
+      "records": 193001,
+      "with_goaround": 1062
+    },
+    {
+      "month": "2020-03",
+      "records": 123650,
+      "with_goaround": 393
+    },
+    {
+      "month": "2020-04",
+      "records": 18462,
+      "with_goaround": 101
+    },
+    {
+      "month": "2020-05",
+      "records": 23634,
+      "with_goaround": 136
+    },
+    {
+      "month": "2020-06",
+      "records": 38264,
+      "with_goaround": 122
+    },
+    {
+      "month": "2020-07",
+      "records": 83850,
+      "with_goaround": 225
+    },
+    {
+      "month": "2020-08",
+      "records": 108339,
+      "with_goaround": 361
+    },
+    {
+      "month": "2020-09",
+      "records": 98912,
+      "with_goaround": 273
+    },
+    {
+      "month": "2020-10",
+      "records": 91215,
+      "with_goaround": 294
+    },
+    {
+      "month": "2020-11",
+      "records": 63296,
+      "with_goaround": 233
+    },
+    {
+      "month": "2020-12",
+      "records": 68118,
+      "with_goaround": 259
+    },
+    {
+      "month": "2021-01",
+      "records": 62710,
+      "with_goaround": 197
+    },
+    {
+      "month": "2021-02",
+      "records": 50683,
+      "with_goaround": 181
+    },
+    {
+      "month": "2021-03",
+      "records": 61731,
+      "with_goaround": 266
+    },
+    {
+      "month": "2021-04",
+      "records": 67684,
+      "with_goaround": 265
+    },
+    {
+      "month": "2021-05",
+      "records": 76065,
+      "with_goaround": 290
+    },
+    {
+      "month": "2021-06",
+      "records": 102859,
+      "with_goaround": 413
+    },
+    {
+      "month": "2021-07",
+      "records": 148250,
+      "with_goaround": 489
+    },
+    {
+      "month": "2021-08",
+      "records": 162889,
+      "with_goaround": 556
+    },
+    {
+      "month": "2021-09",
+      "records": 159316,
+      "with_goaround": 423
+    },
+    {
+      "month": "2021-10",
+      "records": 157149,
+      "with_goaround": 514
+    },
+    {
+      "month": "2021-11",
+      "records": 156909,
+      "with_goaround": 515
+    },
+    {
+      "month": "2021-12",
+      "records": 161993,
+      "with_goaround": 528
+    },
+    {
+      "month": "2022-01",
+      "records": 139650,
+      "with_goaround": 530
+    },
+    {
+      "month": "2022-02",
+      "records": 133488,
+      "with_goaround": 646
+    },
+    {
+      "month": "2022-03",
+      "records": 166792,
+      "with_goaround": 496
+    },
+    {
+      "month": "2022-04",
+      "records": 191882,
+      "with_goaround": 706
+    },
+    {
+      "month": "2022-05",
+      "records": 215267,
+      "with_goaround": 773
+    },
+    {
+      "month": "2022-06",
+      "records": 218117,
+      "with_goaround": 707
+    },
+    {
+      "month": "2022-07",
+      "records": 213864,
+      "with_goaround": 669
+    },
+    {
+      "month": "2022-08",
+      "records": 217432,
+      "with_goaround": 708
+    },
+    {
+      "month": "2022-09",
+      "records": 219694,
+      "with_goaround": 648
+    },
+    {
+      "month": "2022-10",
+      "records": 220146,
+      "with_goaround": 653
+    },
+    {
+      "month": "2022-11",
+      "records": 163477,
+      "with_goaround": 575
+    },
+    {
+      "month": "2022-12",
+      "records": 98044,
+      "with_goaround": 355
+    },
+    {
+      "month": "2023-01",
+      "records": 173045,
+      "with_goaround": 633
+    },
+    {
+      "month": "2023-02",
+      "records": 129573,
+      "with_goaround": 424
+    },
+    {
+      "month": "2023-03",
+      "records": 153984,
+      "with_goaround": 599
+    },
+    {
+      "month": "2023-04",
+      "records": 164575,
+      "with_goaround": 552
+    },
+    {
+      "month": "2023-05",
+      "records": 171048,
+      "with_goaround": 602
+    }
+  ],
+  "labels": {
+    "False": 7958001,
+    "True": 26253
+  },
+  "n_attempts": {
+    "1": 7958001,
+    "2": 25201,
+    "3": 421,
+    "4": 104,
+    "5": 81,
+    "12": 21,
+    "9": 24,
+    "14": 19,
+    "11": 17,
+    "8": 21,
+    "10": 19,
+    "16": 37,
+    "7": 38,
+    "21": 11,
+    "17": 38,
+    "25": 4,
+    "23": 9,
+    "18": 18,
+    "24": 8,
+    "13": 9,
+    "15": 38,
+    "19": 9,
+    "6": 69,
+    "22": 10,
+    "20": 9,
+    "28": 6,
+    "27": 2,
+    "31": 1,
+    "30": 2,
+    "26": 2,
+    "29": 4,
+    "33": 1
+  },
+  "null_counts": {
+    "flight_id": 0,
+    "callsign": 0,
+    "icao24": 0,
+    "landing_time": 0,
+    "registration": 859077,
+    "typecode": 859077,
+    "icaoaircrafttype": 859077,
+    "airport": 0,
+    "country": 0,
+    "attempt_times": 0,
+    "ILS": 0,
+    "n_attempts": 0,
+    "GoA": 0,
+    "market_segment": 1515276,
+    "AC_CLASS": 1652382,
+    "AP_C_RWY": 1652382,
+    "C40_CROSS_TIME": 1652382,
+    "C40_BEARING": 1652382,
+    "C40_CROSS_LAT": 1652382,
+    "C40_CROSS_LON": 1652382,
+    "__index_level_0__": 0
+  },
+  "checks": {
+    "attempt_times_length_vs_n_attempts": 0,
+    "nonpositive_n_attempts": 0,
+    "GoA_vs_n_attempts_gt1": 0
+  },
+  "flight_id_hash_duplicate_candidates": 29238,
+  "duplicate_check_note": "64-bit hashes are screening only; candidates require exact identifier verification. No records filtered."
+}

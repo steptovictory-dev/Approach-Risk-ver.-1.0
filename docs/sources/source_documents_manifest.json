@@ -1,0 +1,53 @@
+{
+  "files": [
+    {
+      "path": "docs/sources/adsblol_2025_README.md",
+      "url": "https://raw.githubusercontent.com/adsblol/globe_history_2025/main/README.md",
+      "retrieved_on": "2026-10-08",
+      "bytes": 2661,
+      "sha256": "bdb61ab20ddb8add0ce0a50ef568331e9a3ab747e85c3aab99b039918ce45887"
+    },
+    {
+      "path": "docs/sources/adsblol_2026_README.md",
+      "url": "https://raw.githubusercontent.com/adsblol/globe_history_2026/main/README.md",
+      "retrieved_on": "2026-10-08",
+      "bytes": 2661,
+      "sha256": "d76f9208cb2421c6d963d4136f05258340b8cd48058652b593a6260408d4ca8d"
+    },
+    {
+      "path": "docs/sources/adsblol_LICENSE_ODbL.txt",
+      "url": "https://raw.githubusercontent.com/adsblol/globe_history_2026/main/LICENSE-ODbL.txt",
+      "retrieved_on": "2026-10-08",
+      "bytes": 25241,
+      "sha256": "d93f996262c15e7cf9d6b54f9f48e3f9d8b9c3a47fa2308dc8ef1f0f5cb88611"
+    },
+    {
+      "path": "docs/sources/adsblol_LICENSE_CC0.txt",
+      "url": "https://raw.githubusercontent.com/adsblol/globe_history_2026/main/LICENSE-cc0.txt",
+      "retrieved_on": "2026-10-08",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "docs/sources/readsb_trace_format.md",
+      "url": "https://raw.githubusercontent.com/wiedehopf/readsb/dev/README-json.md",
+      "retrieved_on": "2026-10-08",
+      "bytes": 22058,
+      "sha256": "abb581d94e5c12e52d45cd8f9096a250ee99cb4f84926e3217f5003c8d242b30"
+    },
+    {
+      "path": "docs/sources/figuet_OSN23_README.md",
+      "url": "https://raw.githubusercontent.com/figuetbe/OSN23-GoA/main/README.md",
+      "retrieved_on": "2026-10-08",
+      "bytes": 1160,
+      "sha256": "cb3dc8df9c9d13aef35fa0779c58809e3a544c8a6d93f1fc597f0f2764c58e73"
+    },
+    {
+      "path": "docs/sources/zenodo_10210178.json",
+      "url": "https://zenodo.org/api/records/10210178",
+      "retrieved_on": "2026-10-08",
+      "bytes": 6736,
+      "sha256": "fc4d849236ebefc0e9af9cb5332c0c58a472fdd56f1bf95a409730177ef2966f"
+    }
+  ]
+}

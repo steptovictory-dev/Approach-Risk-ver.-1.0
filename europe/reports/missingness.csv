@@ -1,0 +1,22 @@
+column,arrow_type,null_count,null_percent,empty_string_count,whitespace_only_count,text_missing_marker_count,unique_nonnull_strings,role
+flight_id,string,0,0.0,0,0,0,,data
+callsign,string,0,0.0,0,0,0,186066.0,data
+icao24,string,0,0.0,0,0,0,24054.0,data
+landing_time,"timestamp[ns, tz=UTC]",0,0.0,0,0,0,,data
+registration,string,859077,10.759640161748361,242227,0,0,17937.0,data
+typecode,string,859077,10.759640161748361,475015,0,0,386.0,data
+icaoaircrafttype,string,859077,10.759640161748361,543159,0,0,39.0,data
+airport,string,0,0.0,0,0,0,20.0,data
+country,string,0,0.0,0,0,0,13.0,data
+attempt_times,"list<element: timestamp[us, tz=UTC]>",0,0.0,0,0,0,,data
+ILS,list<element: string>,0,0.0,0,0,0,,data
+n_attempts,int64,0,0.0,0,0,0,,data
+GoA,bool,0,0.0,0,0,0,,data
+market_segment,string,1515276,18.97830404694039,0,0,0,9.0,data
+AC_CLASS,string,1652382,20.695508935462225,0,0,0,8.0,data
+AP_C_RWY,string,1652382,20.695508935462225,0,0,0,75.0,data
+C40_CROSS_TIME,"timestamp[ns, tz=UTC]",1652382,20.695508935462225,0,0,0,,data
+C40_BEARING,double,1652382,20.695508935462225,0,0,0,,data
+C40_CROSS_LAT,double,1652382,20.695508935462225,0,0,0,,data
+C40_CROSS_LON,double,1652382,20.695508935462225,0,0,0,,data
+__index_level_0__,int64,0,0.0,0,0,0,,storage_index

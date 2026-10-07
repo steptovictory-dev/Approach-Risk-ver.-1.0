@@ -1,0 +1,226 @@
+{
+  "repeated_flight_ids": 23889,
+  "excess_identifier_rows": 29238,
+  "duplicate_rows_excluding_storage_index": 0,
+  "storage_index_excluded": true,
+  "rows_screened": 53127,
+  "examples": [
+    {
+      "flight_id": "ETH714_467",
+      "callsign": "ETH714",
+      "icao24": "040101",
+      "landing_time": "2019-01-01 04:16:24+00:00",
+      "registration": "ETASG",
+      "typecode": "B788",
+      "icaoaircrafttype": "L2J",
+      "airport": "ESSA",
+      "country": "Sweden",
+      "attempt_times": [
+        "2019-01-01 04:16:24+00:00"
+      ],
+      "ILS": [
+        "19R"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": null,
+      "AC_CLASS": "H",
+      "AP_C_RWY": "19R",
+      "C40_CROSS_TIME": "2019-01-01 04:02:38+00:00",
+      "C40_BEARING": 174.03552388813,
+      "C40_CROSS_LAT": 58.99027777777777,
+      "C40_CROSS_LON": 18.05277777777777,
+      "__index_level_0__": 58
+    },
+    {
+      "flight_id": "ETH702_1566",
+      "callsign": "ETH702",
+      "icao24": "04002f",
+      "landing_time": "2019-01-01 05:19:47+00:00",
+      "registration": "ETANN",
+      "typecode": "B77L",
+      "icaoaircrafttype": "L2J",
+      "airport": "LIMC",
+      "country": "Italy",
+      "attempt_times": [
+        "2019-01-01 05:19:27+00:00"
+      ],
+      "ILS": [
+        "35L"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": null,
+      "AC_CLASS": "H",
+      "AP_C_RWY": "35L",
+      "C40_CROSS_TIME": "2019-01-01 05:08:44+00:00",
+      "C40_BEARING": 162.684217787268,
+      "C40_CROSS_LAT": 44.993888888888875,
+      "C40_CROSS_LON": 9.00333333333333,
+      "__index_level_0__": 169
+    },
+    {
+      "flight_id": "FWI17F_51891",
+      "callsign": "FWI17F",
+      "icao24": "399c15",
+      "landing_time": "2019-01-01 05:24:29+00:00",
+      "registration": "FHHAV",
+      "typecode": "A359",
+      "icaoaircrafttype": "L2J",
+      "airport": "LFPO",
+      "country": "France",
+      "attempt_times": [
+        "2019-01-01 05:24:29+00:00"
+      ],
+      "ILS": [
+        "25"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": null,
+      "AC_CLASS": "H",
+      "AP_C_RWY": "26",
+      "C40_CROSS_TIME": "2019-01-01 05:07:15+00:00",
+      "C40_BEARING": 229.542265531173,
+      "C40_CROSS_LAT": 48.28861111111111,
+      "C40_CROSS_LON": 1.61777777777778,
+      "__index_level_0__": 180
+    },
+    {
+      "flight_id": "KLM86_81023",
+      "callsign": "KLM86",
+      "icao24": "484371",
+      "landing_time": "2019-01-01 06:10:53+00:00",
+      "registration": "PHBQK",
+      "typecode": "B772",
+      "icaoaircrafttype": "L2J",
+      "airport": "EHAM",
+      "country": "Netherlands",
+      "attempt_times": [
+        "2019-01-01 06:10:23+00:00"
+      ],
+      "ILS": [
+        "18R"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Scheduled",
+      "AC_CLASS": "H",
+      "AP_C_RWY": "18R",
+      "C40_CROSS_TIME": "2019-01-01 05:57:01+00:00",
+      "C40_BEARING": 286.05476391886504,
+      "C40_CROSS_LAT": 52.48805555555555,
+      "C40_CROSS_LON": 3.7102777777777805,
+      "__index_level_0__": 289
+    },
+    {
+      "flight_id": "FWI11B_55083",
+      "callsign": "FWI11B",
+      "icao24": "39be6f",
+      "landing_time": "2019-01-01 07:04:29+00:00",
+      "registration": "FHPTP",
+      "typecode": "A333",
+      "icaoaircrafttype": "L2J",
+      "airport": "LFPO",
+      "country": "France",
+      "attempt_times": [
+        "2019-01-01 07:04:29+00:00"
+      ],
+      "ILS": [
+        "25"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": null,
+      "AC_CLASS": "H",
+      "AP_C_RWY": "26",
+      "C40_CROSS_TIME": "2019-01-01 06:46:15+00:00",
+      "C40_BEARING": 229.749290182776,
+      "C40_CROSS_LAT": 48.29083333333333,
+      "C40_CROSS_LON": 1.61611111111111,
+      "__index_level_0__": 473
+    },
+    {
+      "flight_id": "AFR1355_38828",
+      "callsign": "AFR1355",
+      "icao24": "3944ea",
+      "landing_time": "2019-01-01 07:15:21+00:00",
+      "registration": "FGRHK",
+      "typecode": "A319",
+      "icaoaircrafttype": "L2J",
+      "airport": "LFPG",
+      "country": "France",
+      "attempt_times": [
+        "2019-01-01 07:15:21+00:00"
+      ],
+      "ILS": [
+        "26L"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Other",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "26L",
+      "C40_CROSS_TIME": "2019-01-01 07:01:51+00:00",
+      "C40_BEARING": 114.988026819114,
+      "C40_CROSS_LAT": 48.724166666666655,
+      "C40_CROSS_LON": 3.46472222222222,
+      "__index_level_0__": 519
+    },
+    {
+      "flight_id": "AEA1091_3537",
+      "callsign": "AEA1091",
+      "icao24": "3424d0",
+      "landing_time": "2019-01-01 08:42:07+00:00",
+      "registration": "ECJZL",
+      "typecode": "A332",
+      "icaoaircrafttype": "L2J",
+      "airport": "EHAM",
+      "country": "Netherlands",
+      "attempt_times": [
+        "2019-01-01 08:42:02+00:00"
+      ],
+      "ILS": [
+        "27"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Other",
+      "AC_CLASS": "H",
+      "AP_C_RWY": "27",
+      "C40_CROSS_TIME": "2019-01-01 08:25:30+00:00",
+      "C40_BEARING": 221.20176365416802,
+      "C40_CROSS_LAT": 51.804444444444435,
+      "C40_CROSS_LON": 4.054166666666669,
+      "__index_level_0__": 907
+    },
+    {
+      "flight_id": "SWR51KJ_39979",
+      "callsign": "SWR51KJ",
+      "icao24": "4b1698",
+      "landing_time": "2019-01-01 09:10:10+00:00",
+      "registration": "HBIOM",
+      "typecode": "A321",
+      "icaoaircrafttype": "L2J",
+      "airport": "LSGG",
+      "country": "Switzerland",
+      "attempt_times": [
+        "2019-01-01 09:10:05+00:00"
+      ],
+      "ILS": [
+        "04"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Other",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "04",
+      "C40_CROSS_TIME": "2019-01-01 08:51:45+00:00",
+      "C40_BEARING": 46.7625277904602,
+      "C40_CROSS_LAT": 46.69194444444444,
+      "C40_CROSS_LON": 6.816111111111109,
+      "__index_level_0__": 1044
+    }
+  ],
+  "no_rows_removed": true
+}

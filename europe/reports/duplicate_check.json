@@ -1,0 +1,829 @@
+{
+  "core_key": [
+    "landing_time",
+    "icao24",
+    "airport"
+  ],
+  "repeated_core_keys": 0,
+  "rows_in_repeated_core_keys": 0,
+  "excess_core_key_rows": 0,
+  "full_duplicate_rows_excluding_storage_index": 0,
+  "flight_id_repeated_values": 23889,
+  "flight_id_excess_rows": 29238,
+  "core_hash_candidate_rows": 0,
+  "exact_core_key_examples": [],
+  "repeated_identifier_examples": [
+    {
+      "flight_id": "MSR791_079",
+      "callsign": "MSR791",
+      "icao24": "0100de",
+      "landing_time": "2019-01-01 11:38:28+00:00",
+      "registration": "SUGCP",
+      "typecode": "B738",
+      "icaoaircrafttype": "L2J",
+      "airport": "LIRF",
+      "country": "Italy",
+      "attempt_times": [
+        "2019-01-01 11:38:28+00:00"
+      ],
+      "ILS": [
+        "34L"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Other",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "34L",
+      "C40_CROSS_TIME": "2019-01-01 11:22:23+00:00",
+      "C40_BEARING": 110.048275673619,
+      "C40_CROSS_LAT": 41.56888888888888,
+      "C40_CROSS_LON": 13.07527777777777,
+      "__index_level_0__": 1801
+    },
+    {
+      "flight_id": "MSR797_104",
+      "callsign": "MSR797",
+      "icao24": "01010c",
+      "landing_time": "2019-01-01 12:14:38+00:00",
+      "registration": "SUGDD",
+      "typecode": "B738",
+      "icaoaircrafttype": "L2J",
+      "airport": "LOWW",
+      "country": "Austria",
+      "attempt_times": [
+        "2019-01-01 12:14:13+00:00"
+      ],
+      "ILS": [
+        "34"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Other",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "34",
+      "C40_CROSS_TIME": "2019-01-01 12:02:01+00:00",
+      "C40_BEARING": 122.07714554801099,
+      "C40_CROSS_LAT": 47.75361111111111,
+      "C40_CROSS_LON": 17.408888888888878,
+      "__index_level_0__": 1993
+    },
+    {
+      "flight_id": "NIA191_104",
+      "callsign": "NIA191",
+      "icao24": "0101b4",
+      "landing_time": "2019-01-02 13:37:11+00:00",
+      "registration": "SUBQM",
+      "typecode": "A320",
+      "icaoaircrafttype": "L2J",
+      "airport": "LTFJ",
+      "country": "Turkey",
+      "attempt_times": [
+        "2019-01-02 13:37:11+00:00"
+      ],
+      "ILS": [
+        "06L"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": null,
+      "AC_CLASS": null,
+      "AP_C_RWY": null,
+      "C40_CROSS_TIME": null,
+      "C40_BEARING": null,
+      "C40_CROSS_LAT": null,
+      "C40_CROSS_LON": null,
+      "__index_level_0__": 8716
+    },
+    {
+      "flight_id": "NIA191_105",
+      "callsign": "NIA191",
+      "icao24": "0101b4",
+      "landing_time": "2019-01-04 12:24:54+00:00",
+      "registration": "SUBQM",
+      "typecode": "A320",
+      "icaoaircrafttype": "L2J",
+      "airport": "LTFJ",
+      "country": "Turkey",
+      "attempt_times": [
+        "2019-01-04 12:24:54+00:00"
+      ],
+      "ILS": [
+        "06L"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": null,
+      "AC_CLASS": null,
+      "AP_C_RWY": null,
+      "C40_CROSS_TIME": null,
+      "C40_BEARING": null,
+      "C40_CROSS_LAT": null,
+      "C40_CROSS_LON": null,
+      "__index_level_0__": 21778
+    },
+    {
+      "flight_id": "MSR757_023",
+      "callsign": "MSR757",
+      "icao24": "0100a8",
+      "landing_time": "2019-01-05 13:22:53+00:00",
+      "registration": "SUGCK",
+      "typecode": "A332",
+      "icaoaircrafttype": "L2J",
+      "airport": "EHAM",
+      "country": "Netherlands",
+      "attempt_times": [
+        "2019-01-05 13:22:42+00:00"
+      ],
+      "ILS": [
+        "36R"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": "H",
+      "AP_C_RWY": "36R",
+      "C40_CROSS_TIME": "2019-01-05 13:06:41+00:00",
+      "C40_BEARING": 77.73957656361704,
+      "C40_CROSS_LAT": 52.444444444444436,
+      "C40_CROSS_LON": 5.83,
+      "__index_level_0__": 28775
+    },
+    {
+      "flight_id": "MSR771_036",
+      "callsign": "MSR771",
+      "icao24": "0100df",
+      "landing_time": "2019-01-06 12:35:28+00:00",
+      "registration": "SUGCR",
+      "typecode": "B738",
+      "icaoaircrafttype": "L2J",
+      "airport": "LSGG",
+      "country": "Switzerland",
+      "attempt_times": [
+        "2019-01-06 12:35:28+00:00"
+      ],
+      "ILS": [
+        "04"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "04",
+      "C40_CROSS_TIME": "2019-01-06 12:17:49+00:00",
+      "C40_BEARING": 122.18410261407199,
+      "C40_CROSS_LAT": 45.88083333333333,
+      "C40_CROSS_LON": 6.9188888888888895,
+      "__index_level_0__": 34394
+    },
+    {
+      "flight_id": "MSR731_099",
+      "callsign": "MSR731",
+      "icao24": "010108",
+      "landing_time": "2019-01-06 13:06:05+00:00",
+      "registration": "SUGCZ",
+      "typecode": "B738",
+      "icaoaircrafttype": "L2J",
+      "airport": "EDDB",
+      "country": "Germany",
+      "attempt_times": [
+        "2019-01-06 13:06:05+00:00"
+      ],
+      "ILS": [
+        "25R"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "25R",
+      "C40_CROSS_TIME": "2019-01-06 12:53:35+00:00",
+      "C40_BEARING": 138.856660438987,
+      "C40_CROSS_LAT": 51.85777777777777,
+      "C40_CROSS_LON": 14.211111111111109,
+      "__index_level_0__": 34608
+    },
+    {
+      "flight_id": "MSR731_054",
+      "callsign": "MSR731",
+      "icao24": "0100de",
+      "landing_time": "2019-01-08 12:53:40+00:00",
+      "registration": "SUGCP",
+      "typecode": "B738",
+      "icaoaircrafttype": "L2J",
+      "airport": "EDDB",
+      "country": "Germany",
+      "attempt_times": [
+        "2019-01-08 12:53:40+00:00"
+      ],
+      "ILS": [
+        "25R"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "25R",
+      "C40_CROSS_TIME": "2019-01-08 12:41:19+00:00",
+      "C40_BEARING": 121.789679231482,
+      "C40_CROSS_LAT": 52.00666666666665,
+      "C40_CROSS_LON": 14.42305555555555,
+      "__index_level_0__": 47939
+    },
+    {
+      "flight_id": "NIA191_107",
+      "callsign": "NIA191",
+      "icao24": "0101b4",
+      "landing_time": "2019-01-11 11:51:18+00:00",
+      "registration": "SUBQM",
+      "typecode": "A320",
+      "icaoaircrafttype": "L2J",
+      "airport": "LTFJ",
+      "country": "Turkey",
+      "attempt_times": [
+        "2019-01-11 11:50:22+00:00"
+      ],
+      "ILS": [
+        "24R"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": null,
+      "AC_CLASS": null,
+      "AP_C_RWY": null,
+      "C40_CROSS_TIME": null,
+      "C40_BEARING": null,
+      "C40_CROSS_LAT": null,
+      "C40_CROSS_LON": null,
+      "__index_level_0__": 65971
+    },
+    {
+      "flight_id": "MSR771_036",
+      "callsign": "MSR771",
+      "icao24": "01010d",
+      "landing_time": "2020-01-14 12:10:20+00:00",
+      "registration": "SUGDE",
+      "typecode": "B738",
+      "icaoaircrafttype": "L2J",
+      "airport": "LSGG",
+      "country": "Switzerland",
+      "attempt_times": [
+        "2020-01-14 12:10:20+00:00"
+      ],
+      "ILS": [
+        "22"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "22",
+      "C40_CROSS_TIME": "2020-01-14 11:57:31+00:00",
+      "C40_BEARING": 44.24167169669037,
+      "C40_CROSS_LAT": 46.71333333333333,
+      "C40_CROSS_LON": 6.7869444444444404,
+      "__index_level_0__": 2683345
+    },
+    {
+      "flight_id": "MSR731_054",
+      "callsign": "MSR731",
+      "icao24": "010145",
+      "landing_time": "2020-01-14 12:52:51+00:00",
+      "registration": "SUGDY",
+      "typecode": "B738",
+      "icaoaircrafttype": "L2J",
+      "airport": "EDDB",
+      "country": "Germany",
+      "attempt_times": [
+        "2020-01-14 12:52:41+00:00"
+      ],
+      "ILS": [
+        "25R"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "25R",
+      "C40_CROSS_TIME": "2020-01-14 12:38:38+00:00",
+      "C40_BEARING": 136.21890648354002,
+      "C40_CROSS_LAT": 51.877777777777766,
+      "C40_CROSS_LON": 14.24888888888888,
+      "__index_level_0__": 2683536
+    },
+    {
+      "flight_id": "MSR757_023",
+      "callsign": "MSR757",
+      "icao24": "010146",
+      "landing_time": "2020-03-16 13:00:14+00:00",
+      "registration": "SUGDZ",
+      "typecode": "B738",
+      "icaoaircrafttype": "L2J",
+      "airport": "EHAM",
+      "country": "Netherlands",
+      "attempt_times": [
+        "2020-03-16 13:00:14+00:00"
+      ],
+      "ILS": [
+        "18R"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "18R",
+      "C40_CROSS_TIME": "2020-03-16 12:42:51+00:00",
+      "C40_BEARING": 75.63612339300556,
+      "C40_CROSS_LAT": 52.46888888888888,
+      "C40_CROSS_LON": 5.825555555555559,
+      "__index_level_0__": 3090848
+    },
+    {
+      "flight_id": "GRA95_000",
+      "callsign": "GRA95",
+      "icao24": "0080fc",
+      "landing_time": "2020-04-21 16:33:19+00:00",
+      "registration": "",
+      "typecode": "",
+      "icaoaircrafttype": "",
+      "airport": "LSZH",
+      "country": "Switzerland",
+      "attempt_times": [
+        "2020-04-21 16:32:57+00:00"
+      ],
+      "ILS": [
+        "14"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Business",
+      "AC_CLASS": null,
+      "AP_C_RWY": null,
+      "C40_CROSS_TIME": null,
+      "C40_BEARING": null,
+      "C40_CROSS_LAT": null,
+      "C40_CROSS_LON": null,
+      "__index_level_0__": 3133640
+    },
+    {
+      "flight_id": "MSR731_099",
+      "callsign": "MSR731",
+      "icao24": "010207",
+      "landing_time": "2020-07-05 12:41:45+00:00",
+      "registration": "SUGFM",
+      "typecode": "A20N",
+      "icaoaircrafttype": "L2J",
+      "airport": "EDDB",
+      "country": "Germany",
+      "attempt_times": [
+        "2020-07-05 12:41:29+00:00"
+      ],
+      "ILS": [
+        "25R"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "25R",
+      "C40_CROSS_TIME": "2020-07-05 12:29:08+00:00",
+      "C40_BEARING": 108.043016338762,
+      "C40_CROSS_LAT": 52.15111111111111,
+      "C40_CROSS_LON": 14.534166666666659,
+      "__index_level_0__": 3216479
+    },
+    {
+      "flight_id": "MSR791_079",
+      "callsign": "MSR791",
+      "icao24": "01010b",
+      "landing_time": "2020-07-25 10:57:18+00:00",
+      "registration": "SUGDC",
+      "typecode": "B738",
+      "icaoaircrafttype": "L2J",
+      "airport": "LIRF",
+      "country": "Italy",
+      "attempt_times": [
+        "2020-07-25 10:57:18+00:00"
+      ],
+      "ILS": [
+        "16R"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "16R",
+      "C40_CROSS_TIME": "2020-07-25 10:41:27+00:00",
+      "C40_BEARING": 115.793231754783,
+      "C40_CROSS_LAT": 41.506944444444436,
+      "C40_CROSS_LON": 13.041666666666659,
+      "__index_level_0__": 3271639
+    },
+    {
+      "flight_id": "MSR797_104",
+      "callsign": "MSR797",
+      "icao24": "0101e6",
+      "landing_time": "2020-08-14 12:36:54+00:00",
+      "registration": "SUGEX",
+      "typecode": "BCS3",
+      "icaoaircrafttype": "L2J",
+      "airport": "LOWW",
+      "country": "Austria",
+      "attempt_times": [
+        "2020-08-14 12:36:35+00:00"
+      ],
+      "ILS": [
+        "34"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "34",
+      "C40_CROSS_TIME": "2020-08-14 12:25:21+00:00",
+      "C40_BEARING": 132.495799525586,
+      "C40_CROSS_LAT": 47.65833333333333,
+      "C40_CROSS_LON": 17.29833333333333,
+      "__index_level_0__": 3338945
+    },
+    {
+      "flight_id": "NIA191_104",
+      "callsign": "NIA191",
+      "icao24": "0101a5",
+      "landing_time": "2020-12-18 11:50:19+00:00",
+      "registration": "SUBQJ",
+      "typecode": "A320",
+      "icaoaircrafttype": "L2J",
+      "airport": "LTFJ",
+      "country": "Turkey",
+      "attempt_times": [
+        "2020-12-18 11:50:19+00:00"
+      ],
+      "ILS": [
+        "06L"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": null,
+      "AP_C_RWY": null,
+      "C40_CROSS_TIME": null,
+      "C40_BEARING": null,
+      "C40_CROSS_LAT": null,
+      "C40_CROSS_LON": null,
+      "__index_level_0__": 3697395
+    },
+    {
+      "flight_id": "NIA191_105",
+      "callsign": "NIA191",
+      "icao24": "0101a5",
+      "landing_time": "2020-12-20 12:21:53+00:00",
+      "registration": "SUBQJ",
+      "typecode": "A320",
+      "icaoaircrafttype": "L2J",
+      "airport": "LTFJ",
+      "country": "Turkey",
+      "attempt_times": [
+        "2020-12-20 12:21:53+00:00"
+      ],
+      "ILS": [
+        "06L"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": null,
+      "AP_C_RWY": null,
+      "C40_CROSS_TIME": null,
+      "C40_BEARING": null,
+      "C40_CROSS_LAT": null,
+      "C40_CROSS_LON": null,
+      "__index_level_0__": 3703648
+    },
+    {
+      "flight_id": "NIA191_107",
+      "callsign": "NIA191",
+      "icao24": "0101a5",
+      "landing_time": "2020-12-25 11:58:14+00:00",
+      "registration": "SUBQJ",
+      "typecode": "A320",
+      "icaoaircrafttype": "L2J",
+      "airport": "LTFJ",
+      "country": "Turkey",
+      "attempt_times": [
+        "2020-12-25 11:58:14+00:00"
+      ],
+      "ILS": [
+        "24R"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": null,
+      "AP_C_RWY": null,
+      "C40_CROSS_TIME": null,
+      "C40_BEARING": null,
+      "C40_CROSS_LAT": null,
+      "C40_CROSS_LON": null,
+      "__index_level_0__": 3716393
+    },
+    {
+      "flight_id": "MSR731_054",
+      "callsign": "MSR731",
+      "icao24": "010204",
+      "landing_time": "2021-02-06 13:00:27+00:00",
+      "registration": "SUGFJ",
+      "typecode": "A320",
+      "icaoaircrafttype": "L2J",
+      "airport": "EDDB",
+      "country": "Germany",
+      "attempt_times": [
+        "2021-02-06 13:00:05+00:00"
+      ],
+      "ILS": [
+        "07L"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "07L",
+      "C40_CROSS_TIME": "2021-02-06 12:45:34+00:00",
+      "C40_BEARING": 165.18035839061702,
+      "C40_CROSS_LAT": 51.71861111111111,
+      "C40_CROSS_LON": 13.775277777777768,
+      "__index_level_0__": 3805167
+    },
+    {
+      "flight_id": "MSR797_104",
+      "callsign": "MSR797",
+      "icao24": "0101ea",
+      "landing_time": "2021-02-09 12:25:57+00:00",
+      "registration": "SUGFB",
+      "typecode": "BCS3",
+      "icaoaircrafttype": "L2J",
+      "airport": "LOWW",
+      "country": "Austria",
+      "attempt_times": [
+        "2021-02-09 12:24:23+00:00"
+      ],
+      "ILS": [
+        "34"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "34",
+      "C40_CROSS_TIME": "2021-02-09 12:13:02+00:00",
+      "C40_BEARING": 130.656381660084,
+      "C40_CROSS_LAT": 47.67444444444444,
+      "C40_CROSS_LON": 17.31916666666666,
+      "__index_level_0__": 3810413
+    },
+    {
+      "flight_id": "MSR791_079",
+      "callsign": "MSR791",
+      "icao24": "010147",
+      "landing_time": "2021-05-07 10:57:16+00:00",
+      "registration": "SUGEA",
+      "typecode": "B738",
+      "icaoaircrafttype": "L2J",
+      "airport": "LIRF",
+      "country": "Italy",
+      "attempt_times": [
+        "2021-05-07 10:57:14+00:00"
+      ],
+      "ILS": [
+        "16R"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "16R",
+      "C40_CROSS_TIME": "2021-05-07 10:40:49+00:00",
+      "C40_BEARING": 108.05308869880702,
+      "C40_CROSS_LAT": 41.59,
+      "C40_CROSS_LON": 13.08861111111111,
+      "__index_level_0__": 3994341
+    },
+    {
+      "flight_id": "MSR731_099",
+      "callsign": "MSR731",
+      "icao24": "010206",
+      "landing_time": "2021-07-10 12:40:16+00:00",
+      "registration": null,
+      "typecode": null,
+      "icaoaircrafttype": null,
+      "airport": "EDDB",
+      "country": "Germany",
+      "attempt_times": [
+        "2021-07-10 12:40:03+00:00"
+      ],
+      "ILS": [
+        "25R"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": null,
+      "AP_C_RWY": null,
+      "C40_CROSS_TIME": null,
+      "C40_BEARING": null,
+      "C40_CROSS_LAT": null,
+      "C40_CROSS_LON": null,
+      "__index_level_0__": 4207516
+    },
+    {
+      "flight_id": "MSR771_036",
+      "callsign": "MSR771",
+      "icao24": "010204",
+      "landing_time": "2021-08-08 12:11:46+00:00",
+      "registration": "SUGFJ",
+      "typecode": "A320",
+      "icaoaircrafttype": "L2J",
+      "airport": "LSGG",
+      "country": "Switzerland",
+      "attempt_times": [
+        "2021-08-08 12:11:26+00:00"
+      ],
+      "ILS": [
+        "22"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "22",
+      "C40_CROSS_TIME": "2021-08-08 11:57:27+00:00",
+      "C40_BEARING": 102.65826775771501,
+      "C40_CROSS_LAT": 46.08805555555555,
+      "C40_CROSS_LON": 7.04944444444444,
+      "__index_level_0__": 4353864
+    },
+    {
+      "flight_id": "GRA95_000",
+      "callsign": "GRA95",
+      "icao24": "0080fc",
+      "landing_time": "2021-08-29 06:09:58+00:00",
+      "registration": "",
+      "typecode": "",
+      "icaoaircrafttype": "",
+      "airport": "LSGG",
+      "country": "Switzerland",
+      "attempt_times": [
+        "2021-08-29 06:09:44+00:00"
+      ],
+      "ILS": [
+        "04"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Business",
+      "AC_CLASS": null,
+      "AP_C_RWY": null,
+      "C40_CROSS_TIME": null,
+      "C40_BEARING": null,
+      "C40_CROSS_LAT": null,
+      "C40_CROSS_LON": null,
+      "__index_level_0__": 4463875
+    },
+    {
+      "flight_id": "NIA191_104",
+      "callsign": "NIA191",
+      "icao24": "0101a5",
+      "landing_time": "2021-10-16 12:00:22+00:00",
+      "registration": "SUBQJ",
+      "typecode": "A320",
+      "icaoaircrafttype": "L2J",
+      "airport": "LTFJ",
+      "country": "Turkey",
+      "attempt_times": [
+        "2021-10-16 12:00:22+00:00"
+      ],
+      "ILS": [
+        "24R"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": null,
+      "AP_C_RWY": null,
+      "C40_CROSS_TIME": null,
+      "C40_BEARING": null,
+      "C40_CROSS_LAT": null,
+      "C40_CROSS_LON": null,
+      "__index_level_0__": 4718339
+    },
+    {
+      "flight_id": "NIA191_105",
+      "callsign": "NIA191",
+      "icao24": "0101a5",
+      "landing_time": "2021-10-17 11:54:28+00:00",
+      "registration": "SUBQJ",
+      "typecode": "A320",
+      "icaoaircrafttype": "L2J",
+      "airport": "LTFJ",
+      "country": "Turkey",
+      "attempt_times": [
+        "2021-10-17 11:54:28+00:00"
+      ],
+      "ILS": [
+        "06L"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": null,
+      "AP_C_RWY": null,
+      "C40_CROSS_TIME": null,
+      "C40_BEARING": null,
+      "C40_CROSS_LAT": null,
+      "C40_CROSS_LON": null,
+      "__index_level_0__": 4723379
+    },
+    {
+      "flight_id": "NIA191_107",
+      "callsign": "NIA191",
+      "icao24": "0101a5",
+      "landing_time": "2021-10-21 12:04:28+00:00",
+      "registration": "SUBQJ",
+      "typecode": "A320",
+      "icaoaircrafttype": "L2J",
+      "airport": "LTFJ",
+      "country": "Turkey",
+      "attempt_times": [
+        "2021-10-21 12:04:28+00:00"
+      ],
+      "ILS": [
+        "24R"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": null,
+      "AP_C_RWY": null,
+      "C40_CROSS_TIME": null,
+      "C40_BEARING": null,
+      "C40_CROSS_LAT": null,
+      "C40_CROSS_LON": null,
+      "__index_level_0__": 4744802
+    },
+    {
+      "flight_id": "GRA95_000",
+      "callsign": "GRA95",
+      "icao24": "0080fc",
+      "landing_time": "2021-11-30 21:07:05+00:00",
+      "registration": "",
+      "typecode": "",
+      "icaoaircrafttype": "",
+      "airport": "EIDW",
+      "country": "Ireland",
+      "attempt_times": [
+        "2021-11-30 21:07:05+00:00"
+      ],
+      "ILS": [
+        "28L"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Business",
+      "AC_CLASS": null,
+      "AP_C_RWY": null,
+      "C40_CROSS_TIME": null,
+      "C40_BEARING": null,
+      "C40_CROSS_LAT": null,
+      "C40_CROSS_LON": null,
+      "__index_level_0__": 4962108
+    },
+    {
+      "flight_id": "MSR757_023",
+      "callsign": "MSR757",
+      "icao24": "0101b6",
+      "landing_time": "2021-12-24 13:26:51+00:00",
+      "registration": "SUGEF",
+      "typecode": "B738",
+      "icaoaircrafttype": "L2J",
+      "airport": "EHAM",
+      "country": "Netherlands",
+      "attempt_times": [
+        "2021-12-24 13:26:51+00:00"
+      ],
+      "ILS": [
+        "27"
+      ],
+      "n_attempts": 1,
+      "GoA": false,
+      "market_segment": "Mainline",
+      "AC_CLASS": "MJ",
+      "AP_C_RWY": "27",
+      "C40_CROSS_TIME": "2021-12-24 13:15:20+00:00",
+      "C40_BEARING": 81.40865325486769,
+      "C40_CROSS_LAT": 52.40277777777777,
+      "C40_CROSS_LON": 5.845277777777779,
+      "__index_level_0__": 5089415
+    }
+  ],
+  "method": "64-bit screening of composite key followed by exact key and all business-field comparison; storage index excluded.",
+  "rows_removed": 0
+}

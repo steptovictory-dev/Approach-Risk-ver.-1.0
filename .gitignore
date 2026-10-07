@@ -1,25 +1,20 @@
-# Исходные данные скачиваются отдельно и не входят в репозиторий.
 /data/
-/north_america/data/
-/north_america/documents/**/files/
-/north_america/literature/files/
-/tmp/
-/north_america/reports/review_examples.csv
-/north_america/documents/section_locator.json
-/north_america/literature/crossref_metadata.json
-
-# Локальные документы планирования.
+/archive/2019_experiment/data/
+/archive/2019_experiment/north_america/data/
+/archive/2019_experiment/north_america/documents/**/files/
+/archive/2019_experiment/north_america/literature/files/
+/archive/2019_experiment/tmp/
+/archive/2019_experiment/north_america/reports/review_examples.csv
+/archive/2019_experiment/north_america/documents/section_locator.json
+/archive/2019_experiment/north_america/literature/crossref_metadata.json
+/archive/2019_experiment/north_america/notebooks/04_temperature_and_metar.ipynb
 /Checkpoint/
-
-# Окружения, кеши Python и временные файлы Jupyter.
 .venv/
 venv/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 .pytest_cache/
-
-# Локальные настройки и секреты.
 .env
 .env.*
 !.env.example
@@ -27,3 +22,5 @@ __pycache__/
 .idea/
 Thumbs.db
 .DS_Store
+/docs/sources/files/
+/europe/data/

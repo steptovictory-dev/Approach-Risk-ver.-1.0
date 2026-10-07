@@ -1,0 +1,16 @@
+{
+  "year": 2026,
+  "date": "2026-01-15",
+  "tag": "v2026.01.15-planes-readsb-prod-0",
+  "assets": [
+    {
+      "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.01.15-planes-readsb-prod-0/v2026.01.15-planes-readsb-prod-0.tar.aa",
+      "bytes": 2000000000
+    },
+    {
+      "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.01.15-planes-readsb-prod-0/v2026.01.15-planes-readsb-prod-0.tar.ab",
+      "bytes": 1170448384
+    }
+  ],
+  "metadata_method": "preferred releases and HTTP HEAD"
+}

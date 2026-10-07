@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "path": "docs/sources/files/Figuet_et_al_2023_go_arounds.pdf",
+      "url": "https://journals.open.tudelft.nl/joas/article/download/7219/5898/27330",
+      "doi": "10.59490/joas.2023.7219",
+      "retrieved_on": "2026-10-08",
+      "bytes": 1919268,
+      "sha256": "667fb1dfdf1413d5b7f22a065cb78f1c24b9342f88c25a9b624a6541e8f24125",
+      "license": "CC-BY-4.0",
+      "reading_status": "metadata and methodology excerpt checked; full text not reviewed"
+    }
+  ]
+}

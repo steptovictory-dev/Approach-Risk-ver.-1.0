@@ -1,0 +1,612 @@
+{
+  "european_file_reused": true,
+  "previous_head": "227152a",
+  "date": "2026-10-08",
+  "notebook_04_sha256": "9fafe9a999d01b8fbb3a7d5dff287e2975fa8d67351d1c1047e4f68434743f03",
+  "branch": "data-rebuild/updated-sources",
+  "files": [
+    {
+      "path": ".gitignore.snapshot",
+      "bytes": 743
+    },
+    {
+      "path": "inspect_data.py",
+      "bytes": 663
+    },
+    {
+      "path": "README.md",
+      "bytes": 5596
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 63
+    },
+    {
+      "path": "split_regional_data.py",
+      "bytes": 5604
+    },
+    {
+      "path": "data\\raw\\go_arounds_agg.csv.gz",
+      "bytes": 15104
+    },
+    {
+      "path": "data\\raw\\go_arounds_augmented.csv.gz",
+      "bytes": 172668264
+    },
+    {
+      "path": "data\\raw\\go_arounds_minimal.csv.gz",
+      "bytes": 92836941
+    },
+    {
+      "path": "data\\raw\\validation_sample.zip",
+      "bytes": 1436435646
+    },
+    {
+      "path": "data\\raw\\validation_table.xlsx",
+      "bytes": 82585
+    },
+    {
+      "path": "data\\regional\\europe.csv",
+      "bytes": 572561716
+    },
+    {
+      "path": "data\\regional\\split_summary.json",
+      "bytes": 1727
+    },
+    {
+      "path": "docs\\data_dictionary.md",
+      "bytes": 12732
+    },
+    {
+      "path": "docs\\official_sources.md",
+      "bytes": 4581
+    },
+    {
+      "path": "docs\\regional_datasets.md",
+      "bytes": 3509
+    },
+    {
+      "path": "north_america\\README.md",
+      "bytes": 4694
+    },
+    {
+      "path": "north_america\\data\\derived\\us_canada.csv",
+      "bytes": 789464118
+    },
+    {
+      "path": "north_america\\data\\review\\aircraft.csv",
+      "bytes": 19268
+    },
+    {
+      "path": "north_america\\data\\review\\flagged_rows.csv",
+      "bytes": 56155
+    },
+    {
+      "path": "north_america\\data\\review\\kcma_ksfb.csv",
+      "bytes": 425159
+    },
+    {
+      "path": "north_america\\data\\review\\metar_20190720.csv",
+      "bytes": 203188
+    },
+    {
+      "path": "north_america\\data\\review\\temperature_metar_matches.csv",
+      "bytes": 56793
+    },
+    {
+      "path": "north_america\\data\\source\\north_america.csv",
+      "bytes": 792464056
+    },
+    {
+      "path": "north_america\\documents\\download_manifest.json",
+      "bytes": 2613
+    },
+    {
+      "path": "north_america\\documents\\README.md",
+      "bytes": 4867
+    },
+    {
+      "path": "north_america\\documents\\section_locator.json",
+      "bytes": 3771
+    },
+    {
+      "path": "north_america\\documents\\airports\\chart_manifest.json",
+      "bytes": 5753
+    },
+    {
+      "path": "north_america\\documents\\airports\\README.md",
+      "bytes": 953
+    },
+    {
+      "path": "north_america\\documents\\airports\\KCMA\\files\\00680AD.PDF",
+      "bytes": 130792
+    },
+    {
+      "path": "north_america\\documents\\airports\\KCMA\\files\\00680AD.png",
+      "bytes": 92723
+    },
+    {
+      "path": "north_america\\documents\\airports\\KCMA\\files\\00680R8.PDF",
+      "bytes": 314010
+    },
+    {
+      "path": "north_america\\documents\\airports\\KCMA\\files\\00680R8.png",
+      "bytes": 167091
+    },
+    {
+      "path": "north_america\\documents\\airports\\KCMA\\files\\00680RY26.PDF",
+      "bytes": 360913
+    },
+    {
+      "path": "north_america\\documents\\airports\\KCMA\\files\\00680RY26.png",
+      "bytes": 183623
+    },
+    {
+      "path": "north_america\\documents\\airports\\KCMA\\files\\00680RZ26.PDF",
+      "bytes": 312023
+    },
+    {
+      "path": "north_america\\documents\\airports\\KCMA\\files\\00680RZ26.png",
+      "bytes": 163459
+    },
+    {
+      "path": "north_america\\documents\\airports\\KCMA\\files\\00680V26.PDF",
+      "bytes": 373990
+    },
+    {
+      "path": "north_america\\documents\\airports\\KCMA\\files\\00680V26.png",
+      "bytes": 189111
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917AD.PDF",
+      "bytes": 258439
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917AD.png",
+      "bytes": 154060
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917IL27R.PDF",
+      "bytes": 337935
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917IL27R.png",
+      "bytes": 195286
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917IL9L.PDF",
+      "bytes": 383324
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917IL9L.png",
+      "bytes": 207063
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917IL9R.PDF",
+      "bytes": 369821
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917IL9R.png",
+      "bytes": 200308
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917R18.PDF",
+      "bytes": 291583
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917R18.png",
+      "bytes": 152618
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917R27L.PDF",
+      "bytes": 263840
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917R27L.png",
+      "bytes": 152878
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917R27R.PDF",
+      "bytes": 260992
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917R27R.png",
+      "bytes": 154858
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917R9L.PDF",
+      "bytes": 308569
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917R9L.png",
+      "bytes": 169344
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917R9R.PDF",
+      "bytes": 291615
+    },
+    {
+      "path": "north_america\\documents\\airports\\KSFB\\files\\00917R9R.png",
+      "bytes": 160710
+    },
+    {
+      "path": "north_america\\documents\\bahamas\\README.md",
+      "bytes": 706
+    },
+    {
+      "path": "north_america\\documents\\canada\\files\\TC_AIM_current.pdf",
+      "bytes": 35810855
+    },
+    {
+      "path": "north_america\\documents\\dutch_caribbean\\files\\AIP_AIRAC_03_26.pdf",
+      "bytes": 94277135
+    },
+    {
+      "path": "north_america\\documents\\icao\\README.md",
+      "bytes": 691
+    },
+    {
+      "path": "north_america\\documents\\mexico\\README.md",
+      "bytes": 949
+    },
+    {
+      "path": "north_america\\documents\\usa\\files\\FAA_AIM_current.pdf",
+      "bytes": 43343724
+    },
+    {
+      "path": "north_america\\documents\\usa\\files\\FAA_Aviation_Weather_Handbook_28B.pdf",
+      "bytes": 18515580
+    },
+    {
+      "path": "north_america\\figures\\01_geographic_composition.png",
+      "bytes": 245523
+    },
+    {
+      "path": "north_america\\figures\\01_geographic_composition.svg",
+      "bytes": 55809
+    },
+    {
+      "path": "north_america\\figures\\02_usa_airport_coverage.png",
+      "bytes": 1091781
+    },
+    {
+      "path": "north_america\\figures\\02_usa_airport_coverage.svg",
+      "bytes": 141502
+    },
+    {
+      "path": "north_america\\figures\\03_canada_airport_coverage.png",
+      "bytes": 202036
+    },
+    {
+      "path": "north_america\\figures\\03_canada_airport_coverage.svg",
+      "bytes": 47833
+    },
+    {
+      "path": "north_america\\figures\\ksfb\\04_selection_sensitivity.png",
+      "bytes": 237181
+    },
+    {
+      "path": "north_america\\figures\\ksfb\\04_selection_sensitivity.svg",
+      "bytes": 59488
+    },
+    {
+      "path": "north_america\\figures\\ksfb\\05_runway_comparison.png",
+      "bytes": 274957
+    },
+    {
+      "path": "north_america\\figures\\ksfb\\05_runway_comparison.svg",
+      "bytes": 70270
+    },
+    {
+      "path": "north_america\\literature\\crossref_metadata.json",
+      "bytes": 89724
+    },
+    {
+      "path": "north_america\\literature\\download_manifest.json",
+      "bytes": 656
+    },
+    {
+      "path": "north_america\\literature\\files\\Kumar_2021_SFO_go_arounds.pdf",
+      "bytes": 4467131
+    },
+    {
+      "path": "north_america\\notebooks\\01_regional_quality.ipynb",
+      "bytes": 47828
+    },
+    {
+      "path": "north_america\\notebooks\\02_data_visualization.ipynb",
+      "bytes": 819628
+    },
+    {
+      "path": "north_america\\notebooks\\03_airport_anomalies.ipynb",
+      "bytes": 1782749
+    },
+    {
+      "path": "north_america\\notebooks\\04_temperature_and_metar.ipynb",
+      "bytes": 263252
+    },
+    {
+      "path": "north_america\\reports\\airport_precision.csv",
+      "bytes": 11414
+    },
+    {
+      "path": "north_america\\reports\\airport_summary.csv",
+      "bytes": 3173
+    },
+    {
+      "path": "north_america\\reports\\country_precision.csv",
+      "bytes": 847
+    },
+    {
+      "path": "north_america\\reports\\country_summary.csv",
+      "bytes": 192
+    },
+    {
+      "path": "north_america\\reports\\missingness.csv",
+      "bytes": 957
+    },
+    {
+      "path": "north_america\\reports\\monthly_summary.csv",
+      "bytes": 518
+    },
+    {
+      "path": "north_america\\reports\\numeric_ranges.csv",
+      "bytes": 527
+    },
+    {
+      "path": "north_america\\reports\\profile_summary.json",
+      "bytes": 365
+    },
+    {
+      "path": "north_america\\reports\\regional_profile.md",
+      "bytes": 3142
+    },
+    {
+      "path": "north_america\\reports\\review_examples.csv",
+      "bytes": 417
+    },
+    {
+      "path": "north_america\\reports\\review_flag_summary.csv",
+      "bytes": 1043
+    },
+    {
+      "path": "north_america\\reports\\selection_rationale.md",
+      "bytes": 14451
+    },
+    {
+      "path": "north_america\\reports\\temperature_metar_check.json",
+      "bytes": 1023
+    },
+    {
+      "path": "north_america\\reports\\us_canada_selection.json",
+      "bytes": 776
+    },
+    {
+      "path": "north_america\\reports\\airport_investigation\\aircraft_types.csv",
+      "bytes": 2900
+    },
+    {
+      "path": "north_america\\reports\\airport_investigation\\approach_counts.csv",
+      "bytes": 525
+    },
+    {
+      "path": "north_america\\reports\\airport_investigation\\findings.md",
+      "bytes": 17835
+    },
+    {
+      "path": "north_america\\reports\\airport_investigation\\ml_methodology.md",
+      "bytes": 7468
+    },
+    {
+      "path": "north_america\\reports\\airport_investigation\\months.csv",
+      "bytes": 872
+    },
+    {
+      "path": "north_america\\reports\\airport_investigation\\runways.csv",
+      "bytes": 336
+    },
+    {
+      "path": "north_america\\reports\\airport_investigation\\summary.json",
+      "bytes": 769
+    },
+    {
+      "path": "north_america\\reports\\airport_investigation\\weather_summary.csv",
+      "bytes": 959
+    },
+    {
+      "path": "north_america\\scripts\\assess_group_precision.py",
+      "bytes": 9260
+    },
+    {
+      "path": "north_america\\scripts\\check_temperature_metar.py",
+      "bytes": 3255
+    },
+    {
+      "path": "north_america\\scripts\\download_airport_charts.py",
+      "bytes": 2140
+    },
+    {
+      "path": "north_america\\scripts\\download_documents.py",
+      "bytes": 3723
+    },
+    {
+      "path": "north_america\\scripts\\investigate_airports.py",
+      "bytes": 3445
+    },
+    {
+      "path": "north_america\\scripts\\prepare_us_canada.py",
+      "bytes": 3633
+    },
+    {
+      "path": "north_america\\scripts\\profile_data.py",
+      "bytes": 12894
+    },
+    {
+      "path": "notebooks\\01_initial_data_audit.ipynb",
+      "bytes": 45730
+    },
+    {
+      "path": "notebooks\\02_task_and_feature_preparation.ipynb",
+      "bytes": 9402
+    },
+    {
+      "path": "notebooks\\03_data_quality.ipynb",
+      "bytes": 15391
+    },
+    {
+      "path": "research_notes\\mathematics\\mathematical_basis.md",
+      "bytes": 12080
+    },
+    {
+      "path": "tmp\\add_airport_investigation.py",
+      "bytes": 14357
+    },
+    {
+      "path": "tmp\\build_decision_table.py",
+      "bytes": 3876
+    },
+    {
+      "path": "tmp\\chart_5.png",
+      "bytes": 139148
+    },
+    {
+      "path": "tmp\\chart_6.png",
+      "bytes": 73048
+    },
+    {
+      "path": "tmp\\chart_7.png",
+      "bytes": 186331
+    },
+    {
+      "path": "tmp\\create_audit_notebook.py",
+      "bytes": 19397
+    },
+    {
+      "path": "tmp\\create_cp03.py",
+      "bytes": 24245
+    },
+    {
+      "path": "tmp\\create_first_chart.py",
+      "bytes": 9737
+    },
+    {
+      "path": "tmp\\create_visualization_notebook.py",
+      "bytes": 10467
+    },
+    {
+      "path": "tmp\\extend_ksfb.py",
+      "bytes": 7416
+    },
+    {
+      "path": "tmp\\extend_visualization.py",
+      "bytes": 11302
+    },
+    {
+      "path": "tmp\\finish_audit.py",
+      "bytes": 2580
+    },
+    {
+      "path": "tmp\\first_chart_preview.png",
+      "bytes": 93287
+    },
+    {
+      "path": "tmp\\KCMA_00680AD.PDF.txt",
+      "bytes": 825
+    },
+    {
+      "path": "tmp\\KCMA_00680R8.PDF.txt",
+      "bytes": 1722
+    },
+    {
+      "path": "tmp\\KCMA_00680RY26.PDF.txt",
+      "bytes": 1968
+    },
+    {
+      "path": "tmp\\KCMA_00680RZ26.PDF.txt",
+      "bytes": 1502
+    },
+    {
+      "path": "tmp\\KCMA_00680V26.PDF.txt",
+      "bytes": 1932
+    },
+    {
+      "path": "tmp\\KSFB_00917AD.PDF.txt",
+      "bytes": 1750
+    },
+    {
+      "path": "tmp\\KSFB_00917IL27R.PDF.txt",
+      "bytes": 2531
+    },
+    {
+      "path": "tmp\\KSFB_00917IL9L.PDF.txt",
+      "bytes": 2881
+    },
+    {
+      "path": "tmp\\KSFB_00917IL9R.PDF.txt",
+      "bytes": 2806
+    },
+    {
+      "path": "tmp\\KSFB_00917R18.PDF.txt",
+      "bytes": 2079
+    },
+    {
+      "path": "tmp\\KSFB_00917R27L.PDF.txt",
+      "bytes": 1859
+    },
+    {
+      "path": "tmp\\KSFB_00917R27R.PDF.txt",
+      "bytes": 1911
+    },
+    {
+      "path": "tmp\\KSFB_00917R9L.PDF.txt",
+      "bytes": 2383
+    },
+    {
+      "path": "tmp\\KSFB_00917R9R.PDF.txt",
+      "bytes": 2275
+    },
+    {
+      "path": "tmp\\move_temperature_notebook.py",
+      "bytes": 2263
+    },
+    {
+      "path": "tmp\\plot_ksfb.py",
+      "bytes": 7915
+    },
+    {
+      "path": "tmp\\split_anomalies.py",
+      "bytes": 5846
+    },
+    {
+      "path": "tmp\\update_canada_scope.py",
+      "bytes": 7239
+    },
+    {
+      "path": "tmp\\usa_all_airports_preview.png",
+      "bytes": 414775
+    },
+    {
+      "path": "tmp\\pdfs\\AIP_AIRAC_03_26.png",
+      "bytes": 68579
+    },
+    {
+      "path": "tmp\\pdfs\\FAA_AIM_current.png",
+      "bytes": 29615
+    },
+    {
+      "path": "tmp\\pdfs\\FAA_Aviation_Weather_Handbook_28B.png",
+      "bytes": 954569
+    },
+    {
+      "path": "tmp\\pdfs\\official_covers.png",
+      "bytes": 364147
+    },
+    {
+      "path": "tmp\\pdfs\\TC_AIM_current.png",
+      "bytes": 337435
+    }
+  ],
+  "previous_branch": "data-cleaning/north-america",
+  "tracked_files_verified_against_head": 62,
+  "verification_note": "Byte equality, allowing Git CRLF normalization."
+}
