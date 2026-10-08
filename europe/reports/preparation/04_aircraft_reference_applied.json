@@ -1,0 +1,146 @@
+{
+  "rule": "approved additional reference description for 18 exact source values",
+  "input": "europe\\data\\working\\01_empty_strings_normalized.parquet",
+  "input_sha256": "465c691a940f7c25a89ebe6c04e3351506538f10b3eac4ce6a2f6e93abefabfd",
+  "output": "europe\\data\\working\\02_aircraft_reference_enriched.parquet",
+  "output_sha256": "25b6010d4d7197a22a41ee597fd3675bd325ae43107af6709d7c33f96f097187",
+  "source_sha256": "1160bdbea6fa93249a00768452be64047c6d2461bb0843d5ecfc52e6942c7f02",
+  "source_unchanged": true,
+  "input_unchanged": true,
+  "existing_columns_unchanged": true,
+  "rows_before": 7984254,
+  "rows_after": 7984254,
+  "rows_deleted": 0,
+  "go_arounds_before": 26253,
+  "go_arounds_after": 26253,
+  "added_fields": [
+    "aircraft_description_reference",
+    "aircraft_reference_status",
+    "aircraft_reference_source",
+    "aircraft_reference_checked_date"
+  ],
+  "rows_enriched": 5888,
+  "status_counts": {
+    "not_reviewed": 6575611,
+    "source_description_missing": 1402236,
+    "direct_unique_reference_match": 5888,
+    "unresolved": 519
+  },
+  "changes": [
+    {
+      "source_icaoaircrafttype": "A21N",
+      "reference_description": "L2J",
+      "rows_enriched": 705,
+      "go_arounds": 7
+    },
+    {
+      "source_icaoaircrafttype": "A319",
+      "reference_description": "L2J",
+      "rows_enriched": 5,
+      "go_arounds": 0
+    },
+    {
+      "source_icaoaircrafttype": "A332",
+      "reference_description": "L2J",
+      "rows_enriched": 1140,
+      "go_arounds": 1
+    },
+    {
+      "source_icaoaircrafttype": "AT76",
+      "reference_description": "L2T",
+      "rows_enriched": 25,
+      "go_arounds": 0
+    },
+    {
+      "source_icaoaircrafttype": "B734",
+      "reference_description": "L2J",
+      "rows_enriched": 481,
+      "go_arounds": 0
+    },
+    {
+      "source_icaoaircrafttype": "BE4W",
+      "reference_description": "L2J",
+      "rows_enriched": 68,
+      "go_arounds": 0
+    },
+    {
+      "source_icaoaircrafttype": "C68A",
+      "reference_description": "L2J",
+      "rows_enriched": 357,
+      "go_arounds": 0
+    },
+    {
+      "source_icaoaircrafttype": "E300",
+      "reference_description": "L1P",
+      "rows_enriched": 28,
+      "go_arounds": 0
+    },
+    {
+      "source_icaoaircrafttype": "F2TH",
+      "reference_description": "L2J",
+      "rows_enriched": 137,
+      "go_arounds": 0
+    },
+    {
+      "source_icaoaircrafttype": "FA7X",
+      "reference_description": "L3J",
+      "rows_enriched": 126,
+      "go_arounds": 0
+    },
+    {
+      "source_icaoaircrafttype": "FA8X",
+      "reference_description": "L3J",
+      "rows_enriched": 561,
+      "go_arounds": 6
+    },
+    {
+      "source_icaoaircrafttype": "GA6C",
+      "reference_description": "L2J",
+      "rows_enriched": 21,
+      "go_arounds": 0
+    },
+    {
+      "source_icaoaircrafttype": "GL5T",
+      "reference_description": "L2J",
+      "rows_enriched": 330,
+      "go_arounds": 0
+    },
+    {
+      "source_icaoaircrafttype": "GLEX",
+      "reference_description": "L2J",
+      "rows_enriched": 48,
+      "go_arounds": 0
+    },
+    {
+      "source_icaoaircrafttype": "GLF5",
+      "reference_description": "L2J",
+      "rows_enriched": 61,
+      "go_arounds": 0
+    },
+    {
+      "source_icaoaircrafttype": "GLF6",
+      "reference_description": "L2J",
+      "rows_enriched": 692,
+      "go_arounds": 5
+    },
+    {
+      "source_icaoaircrafttype": "LJ40",
+      "reference_description": "L2J",
+      "rows_enriched": 11,
+      "go_arounds": 0
+    },
+    {
+      "source_icaoaircrafttype": "a320",
+      "reference_description": "L2J",
+      "rows_enriched": 1092,
+      "go_arounds": 8
+    }
+  ],
+  "official_search_url": "https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search",
+  "reference_url": "https://doc8643.icao.int/External/AircraftTypes",
+  "reference_method": "POST",
+  "reference_checked_date": "2026-10-08",
+  "reference_sha256": "6987bd1486e34c4e46acedc5c224468883447eb99af9880539b0da0ada6e5d76",
+  "reference_rows": 7261,
+  "historical_validity_2019_2023": "not_established"
+}

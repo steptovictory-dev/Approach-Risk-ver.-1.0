@@ -1,0 +1,36 @@
+{
+  "rule": "exact empty string to null in three approved fields",
+  "approved_fields": [
+    "registration",
+    "typecode",
+    "icaoaircrafttype"
+  ],
+  "source_sha256": "1160bdbea6fa93249a00768452be64047c6d2461bb0843d5ecfc52e6942c7f02",
+  "source_unchanged": true,
+  "output": "europe\\data\\working\\01_empty_strings_normalized.parquet",
+  "output_sha256": "465c691a940f7c25a89ebe6c04e3351506538f10b3eac4ce6a2f6e93abefabfd",
+  "rows_before": 7984254,
+  "rows_after": 7984254,
+  "rows_deleted": 0,
+  "reversible_comparison_passed": true,
+  "changes": [
+    {
+      "field": "registration",
+      "empty_strings_replaced": 242227,
+      "null_before": 859077,
+      "null_after": 1101304
+    },
+    {
+      "field": "typecode",
+      "empty_strings_replaced": 475015,
+      "null_before": 859077,
+      "null_after": 1334092
+    },
+    {
+      "field": "icaoaircrafttype",
+      "empty_strings_replaced": 543159,
+      "null_before": 859077,
+      "null_after": 1402236
+    }
+  ]
+}

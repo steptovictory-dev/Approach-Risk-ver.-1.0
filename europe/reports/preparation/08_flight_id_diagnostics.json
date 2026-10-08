@@ -1,0 +1,48 @@
+{
+  "input": "europe\\data\\working\\03_c40_diagnostic_flags.parquet",
+  "input_sha256": "ddf11438bab44137242ffcf4da928418e116efd46defce58dc8a388b67942b6d",
+  "source_sha256": "1160bdbea6fa93249a00768452be64047c6d2461bb0843d5ecfc52e6942c7f02",
+  "input_unchanged": true,
+  "source_unchanged": true,
+  "rows_checked": 7984254,
+  "rows_changed": 0,
+  "rows_deleted": 0,
+  "repeated_identifiers": 23889,
+  "rows_with_repeated_identifier": 53127,
+  "excess_identifier_rows": 29238,
+  "go_arounds_in_repeated_identifier_rows": 121,
+  "max_rows_per_identifier": 7,
+  "exact_working_duplicate_excess_in_repeated_groups": 0,
+  "normalized_source_business_duplicate_excess_in_repeated_groups": 0,
+  "core_key_duplicate_excess_in_repeated_groups": 0,
+  "groups_with_multiple_aircraft_addresses": 22547,
+  "groups_with_multiple_airports": 1667,
+  "groups_with_multiple_callsigns_including_null": 0,
+  "groups_with_at_least_one_go_around": 121,
+  "groups_with_mixed_go_around_labels": 121,
+  "groups_with_multiple_go_around_rows": 0,
+  "go_arounds_lost_if_deduplicating_flight_id_keep_first_in_file_order": 71,
+  "identifier_prefix_matches_callsign_rows_in_repeated_groups": 53127,
+  "min_landing_gap_across_all_identifier_pairs_minutes": 1577.8666666666666,
+  "median_landing_gap_across_all_identifier_pairs_days": 617.9997743055555,
+  "categories": [
+    {
+      "category": "different_dates_only",
+      "identifier_groups": 23889,
+      "rows": 53127,
+      "go_arounds": 121
+    }
+  ],
+  "same_day_same_address_airport_pairs": 0,
+  "overlapping_attempt_to_landing_window_pairs": 0,
+  "same_context_min_landing_gap_minutes": null,
+  "same_context_max_landing_gap_minutes": null,
+  "source_algorithm_generating_ids": "not_established; resemblance to traffic default is a hypothesis",
+  "core_key": [
+    "landing_time",
+    "icao24",
+    "airport"
+  ],
+  "key_status": "unique observed record key in audited file, not proof of physical flight identity",
+  "row_position_status": "zero-based file-local position, not a cross-version identifier"
+}

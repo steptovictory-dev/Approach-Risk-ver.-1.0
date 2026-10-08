@@ -1,0 +1,41 @@
+{
+  "checked_date": "2026-10-08",
+  "sources": [
+    {
+      "name": "icao_designators.html",
+      "url": "https://www.icao.int/sites/default/files/publications/Doc8643/SiteAssets/designators.html",
+      "bytes": 37480,
+      "sha256": "de4d58c8a276e6c092c2c8e6aed978e209d6eb4de947c9cfed56053bc915f340",
+      "status": "retrieved"
+    },
+    {
+      "name": "author_notebook.ipynb",
+      "url": "https://raw.githubusercontent.com/figuetbe/OSN23-GoA/main/OSN_paper_code.ipynb",
+      "bytes": 40901,
+      "sha256": "2dc1c76cfcc344c35d066ccb4bf4e19d28cafd7bdbe337c3df59f637e01f9f2d",
+      "status": "retrieved"
+    },
+    {
+      "name": "faa_7360_1D.pdf",
+      "url": "https://www.faa.gov/documentLibrary/media/Order/Order_7360.1D_Aircraft_Type_Designators_FINAL.pdf",
+      "bytes": 12721643,
+      "sha256": "cd6ba7223014f1d9b68d33aafb39e5ff9f017731e2a348fbe483fa29f7270326",
+      "status": "retrieved"
+    },
+    {
+      "name": "icao_foreword.pdf",
+      "url": "https://cfapps.icao.int/doc8643/Fo.en.pdf",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "icao_aircraft_types.json",
+      "url": "https://doc8643.icao.int/External/AircraftTypes",
+      "method": "POST",
+      "bytes": 1619667,
+      "sha256": "6987bd1486e34c4e46acedc5c224468883447eb99af9880539b0da0ada6e5d76",
+      "status": "retrieved",
+      "reference_rows": 7261
+    }
+  ]
+}

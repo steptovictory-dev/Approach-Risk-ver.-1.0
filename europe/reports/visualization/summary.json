@@ -1,0 +1,46 @@
+{
+  "rows": 7984254,
+  "source_sha256": "1160bdbea6fa93249a00768452be64047c6d2461bb0843d5ecfc52e6942c7f02",
+  "source_unchanged": true,
+  "rows_deleted": 0,
+  "joint_null_mask_equal_AC_CLASS_C40": true,
+  "days_without_records_at_all_20_airports": [
+    "2022-08-31",
+    "2022-11-03",
+    "2022-11-09",
+    "2022-11-18",
+    "2022-11-23",
+    "2022-12-04",
+    "2022-12-15",
+    "2022-12-18",
+    "2022-12-21",
+    "2022-12-22",
+    "2022-12-23",
+    "2022-12-24",
+    "2022-12-25",
+    "2022-12-26",
+    "2022-12-27",
+    "2022-12-28",
+    "2022-12-29",
+    "2022-12-30",
+    "2022-12-31",
+    "2023-01-02",
+    "2023-02-23"
+  ],
+  "c40_availability": [
+    {
+      "c40_available": false,
+      "rows": 1652382,
+      "go_arounds": 7847,
+      "ga_percent": 0.47489018883042783
+    },
+    {
+      "c40_available": true,
+      "rows": 6331872,
+      "go_arounds": 18406,
+      "ga_percent": 0.2906881250916001
+    }
+  ],
+  "missingness_definition": "physical null or exact empty string; whitespace not merged",
+  "sensitivity_status": "descriptive partition only; no source or analytical rows removed"
+}

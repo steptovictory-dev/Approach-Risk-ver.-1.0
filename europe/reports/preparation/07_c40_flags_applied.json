@@ -1,0 +1,86 @@
+{
+  "rule": "approved three C40 diagnostic flags; preserve every existing value and row",
+  "input": "europe\\data\\working\\02_aircraft_reference_enriched.parquet",
+  "input_sha256": "25b6010d4d7197a22a41ee597fd3675bd325ae43107af6709d7c33f96f097187",
+  "output": "europe\\data\\working\\03_c40_diagnostic_flags.parquet",
+  "output_sha256": "ddf11438bab44137242ffcf4da928418e116efd46defce58dc8a388b67942b6d",
+  "source_sha256": "1160bdbea6fa93249a00768452be64047c6d2461bb0843d5ecfc52e6942c7f02",
+  "input_unchanged": true,
+  "source_unchanged": true,
+  "existing_columns_unchanged": true,
+  "independent_per_row_flag_validation": true,
+  "first_attempt_equals_earliest_verified": true,
+  "rows_before": 7984254,
+  "rows_after": 7984254,
+  "rows_deleted": 0,
+  "go_arounds_before": 26253,
+  "go_arounds_after": 26253,
+  "columns_before": 28,
+  "columns_after": 31,
+  "added_fields": [
+    "c40_time_missing",
+    "c40_after_first_attempt",
+    "c40_after_landing"
+  ],
+  "flag_counts": [
+    {
+      "field": "c40_time_missing",
+      "true_rows": 1652382,
+      "false_rows": 6331872,
+      "null_rows": 0,
+      "go_arounds_with_true": 7847
+    },
+    {
+      "field": "c40_after_first_attempt",
+      "true_rows": 87,
+      "false_rows": 7984167,
+      "null_rows": 0,
+      "go_arounds_with_true": 45
+    },
+    {
+      "field": "c40_after_landing",
+      "true_rows": 42,
+      "false_rows": 7984212,
+      "null_rows": 0,
+      "go_arounds_with_true": 0
+    }
+  ],
+  "flag_combinations": [
+    {
+      "c40_time_missing": false,
+      "c40_after_first_attempt": false,
+      "c40_after_landing": false,
+      "rows": 6331785,
+      "go_arounds": 18361
+    },
+    {
+      "c40_time_missing": true,
+      "c40_after_first_attempt": false,
+      "c40_after_landing": false,
+      "rows": 1652382,
+      "go_arounds": 7847
+    },
+    {
+      "c40_time_missing": false,
+      "c40_after_first_attempt": true,
+      "c40_after_landing": false,
+      "rows": 45,
+      "go_arounds": 45
+    },
+    {
+      "c40_time_missing": false,
+      "c40_after_first_attempt": true,
+      "c40_after_landing": true,
+      "rows": 42,
+      "go_arounds": 0
+    }
+  ],
+  "definitions": {
+    "c40_time_missing": "C40_CROSS_TIME is physical null",
+    "c40_after_first_attempt": "C40_CROSS_TIME strictly exceeds first attempt_times element; null comparison gives False",
+    "c40_after_landing": "C40_CROSS_TIME strictly exceeds landing_time; null comparison gives False"
+  },
+  "model_use": "audit only; temporal flags use post-observation information, not early prediction inputs",
+  "false_does_not_establish_valid_c40": true,
+  "source_review": "europe/reports/preparation/06_c40_review.md"
+}

@@ -1,0 +1,5 @@
+c40_time_missing,c40_after_first_attempt,c40_after_landing,rows,go_arounds
+False,False,False,6331785,18361
+True,False,False,1652382,7847
+False,True,False,45,45
+False,True,True,42,0

@@ -1,0 +1,36 @@
+{
+  "checked_date": "2026-10-08",
+  "sources": [
+    {
+      "url": "https://www.eurocontrol.int/sites/default/files/2025-09/avenir-wg-pillar-1-final-report.pdf",
+      "status": "local_download_unavailable",
+      "reason": "HTTP Error 403: Forbidden",
+      "reviewed_via_web": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/figuetbe/OSN23-GoA/main/OSN_paper_code.ipynb",
+      "path": "docs\\sources\\files\\c40_review\\author_OSN_paper_code.ipynb",
+      "status": "retrieved",
+      "bytes": 40901,
+      "sha256": "2dc1c76cfcc344c35d066ccb4bf4e19d28cafd7bdbe337c3df59f637e01f9f2d"
+    },
+    {
+      "url": "https://doi.org/10.59490/joas.2023.7219",
+      "path": "docs\\sources\\files\\Figuet_et_al_2023_go_arounds.pdf",
+      "status": "existing_local_copy_reviewed",
+      "sha256": "667fb1dfdf1413d5b7f22a065cb78f1c24b9342f88c25a9b624a6541e8f24125",
+      "relevant_pdf_pages": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "url": "https://zenodo.org/records/10210178",
+      "status": "read_via_web",
+      "relevant_section": "Description, fields C40; no new local snapshot"
+    }
+  ],
+  "dataset_first_vs_last_entry": "not_established",
+  "newer_eurocontrol_method_is_not_proof_of_dataset_generation_method": true
+}

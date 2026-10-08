@@ -1,0 +1,8 @@
+icao24,registration,source_code,rows,candidate_designator,candidate_description,evidence_status,historical_limit,applied
+4a09ae,YRBMN,82R,457,B738,L2J,official_indexed_extract_only,document_date_not_established,False
+a660f6,N51VE,G-V,8,GLF5,L2J,official_pdf_reviewed,2026_does_not_establish_2019_2023,False
+4911f5,CSDOU,GL6T,12,GLEX,L2J,official_pdf_reviewed,2023_does_not_establish_2021_2022,False
+4d0206,LXPHS,G550,10,GLF5,L2J,official_indexed_extract_only,2023_snapshot_original_pdf_unavailable,False
+424b5e,MHERI,G550,17,,,no_official_aircraft_identity_confirmation,not_established,False
+c032a0,CFTEL,G550,10,,,no_official_aircraft_identity_confirmation,not_established,False
+3d4bd7,,X,5,,,registration_missing,not_established,False

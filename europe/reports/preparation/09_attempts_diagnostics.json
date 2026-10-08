@@ -1,0 +1,48 @@
+{
+  "input": "europe\\data\\working\\03_c40_diagnostic_flags.parquet",
+  "input_sha256": "ddf11438bab44137242ffcf4da928418e116efd46defce58dc8a388b67942b6d",
+  "source_sha256": "1160bdbea6fa93249a00768452be64047c6d2461bb0843d5ecfc52e6942c7f02",
+  "input_unchanged": true,
+  "source_unchanged": true,
+  "rows_checked": 7984254,
+  "rows_changed": 0,
+  "rows_deleted": 0,
+  "diagnostic_definition": "n_attempts > 2; not an aviation limit",
+  "high_attempt_rows": 1052,
+  "two_attempt_rows": 25201,
+  "go_arounds": 26253,
+  "high_attempt_percent_of_go_around_rows": 4.007161086352036,
+  "max_attempts": 33,
+  "high_attempt_airports": 20,
+  "high_attempt_aircraft_addresses": 361,
+  "structural_flags": {
+    "attempt_count_nonpositive": 0,
+    "attempt_length_mismatch": 0,
+    "ILS_length_mismatch": 0,
+    "GoA_differs_from_more_than_one_attempt": 0,
+    "null_attempt_element": 0,
+    "descending_attempt_times": 0,
+    "repeated_adjacent_attempt_time": 0,
+    "last_attempt_after_landing": 0
+  },
+  "high_attempt_same_runway_rows": 552,
+  "high_attempt_runway_change_rows": 500,
+  "high_attempt_c40_missing_rows": 901,
+  "high_attempt_c40_after_first_rows": 3,
+  "high_attempt_c40_after_landing_rows": 0,
+  "high_attempt_span_minutes": {
+    "min": 9.316666666666666,
+    "median": 60.875,
+    "max": 282.51666666666665
+  },
+  "high_attempt_gap_minutes": {
+    "min": 0.65,
+    "median": 9.016666666666667,
+    "max": 198.05
+  },
+  "gap_quantile_unit": "intervals, not flights; flights with many attempts contribute more intervals",
+  "two_attempt_gap_minutes_median": 13.366666666666667,
+  "training_flight_identity": "not established from metadata",
+  "n_attempts_minus_one_is_confirmed_go_around_count": false,
+  "flight_duration_interpretation": "first-to-last attempt window, not total flight duration"
+}

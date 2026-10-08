@@ -1,0 +1,4 @@
+c40_time_category,GoA,n_attempts,rows
+after_first_before_or_equal_landing,True,2,42
+after_first_before_or_equal_landing,True,3,3
+after_landing,False,1,42

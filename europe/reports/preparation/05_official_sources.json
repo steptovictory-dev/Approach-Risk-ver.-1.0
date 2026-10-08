@@ -1,0 +1,37 @@
+{
+  "checked_date": "2026-10-08",
+  "sources": [
+    {
+      "name": "anac_2023.pdf",
+      "url": "https://www.anac.pt/SiteCollectionDocuments/Informacao_Gestao/Relatorios_Gestao/Relatorio_de_Atividades_Gest%C3%A3o_e_Contas_2023.pdf",
+      "sha256": "b151ef97dbde56d04148a41f3d2a7947c5623a43c07d3dc052ec873c1c91998f",
+      "bytes": 6607391,
+      "relevant_pdf_pages": [
+        217
+      ],
+      "status": "retrieved"
+    },
+    {
+      "name": "faa_rvsm_2026_06.pdf",
+      "url": "https://www.faa.gov/sites/faa.gov/files/2026-06/NAARMO_US_IGA_RVSM_Approvals_Part_135_91_Section_3_0.pdf",
+      "sha256": "f97351af6b33c56efe7647f661648115ddd050a775ee22a209d4e98086036af1",
+      "bytes": 4667441,
+      "relevant_pdf_pages": [
+        170
+      ],
+      "status": "retrieved"
+    },
+    {
+      "name": "luxembourg_2023_04_17.pdf",
+      "url": "https://dac.gouvernement.lu/content/dam/gouv_dac/documents/navigabilit%C3%A9/releve-aeronefs/2023/relev-aronefs-17-04-2023.pdf",
+      "status": "unavailable",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "romania_regops.pdf",
+      "url": "https://www.caa.ro/uploads/pages/RegOPS.pdf",
+      "status": "unavailable",
+      "reason": "Response is not a PDF or exceeds limit"
+    }
+  ]
+}
