@@ -1,0 +1,16 @@
+year,selection_status,rows,go_arounds
+2019,c40_after_first_attempt,4,0
+2019,eligible,2172292,5974
+2019,incomplete_c40,343794,1258
+2020,c40_after_first_attempt,18,8
+2020,eligible,923610,2846
+2020,incomplete_c40,185926,1251
+2021,c40_after_first_attempt,17,8
+2021,eligible,1069163,2811
+2021,incomplete_c40,299058,1818
+2022,c40_after_first_attempt,44,28
+2022,eligible,1619851,4988
+2022,incomplete_c40,577958,2450
+2023,c40_after_first_attempt,1,1
+2023,eligible,546578,1739
+2023,incomplete_c40,245646,1070

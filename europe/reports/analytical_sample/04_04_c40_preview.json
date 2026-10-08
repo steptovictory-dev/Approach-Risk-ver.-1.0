@@ -1,0 +1,15 @@
+{
+  "input": "europe\\data\\working\\03_c40_diagnostic_flags.parquet",
+  "input_sha256": "ddf11438bab44137242ffcf4da928418e116efd46defce58dc8a388b67942b6d",
+  "input_unchanged": true,
+  "rule": "all four C40 fields present; numeric values finite; C40 strictly before first attempt",
+  "applied": false,
+  "rows_included": 6331785,
+  "rows_outside_experiment": 1652469,
+  "source_rows_deleted": 0,
+  "values_changed": 0,
+  "physical_columns_preserved": 31,
+  "trajectory_matching_verified": false,
+  "positive_included": 18361,
+  "positive_outside_experiment": 7892
+}

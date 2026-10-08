@@ -1,0 +1,16 @@
+airport,label_pattern,pairs,landing_gap_median_minutes
+EDDF,both_false,9,19.683333333333334
+EDDF,early_true_late_false,1,20.733333333333334
+EDDM,both_false,3,19.583333333333332
+EDDM,early_true_late_false,1,16.266666666666666
+EGCC,both_false,3,18.766666666666666
+EGLL,both_false,27,17.383333333333333
+EGSS,both_false,3,16.383333333333333
+ESSA,both_false,3,17.45
+LEMD,both_false,48,17.383333333333333
+LFPG,both_false,10,16.975
+LFPG,early_true_late_false,1,17.75
+LFPO,both_false,1,17.133333333333333
+LIRF,both_false,2,19.700000000000003
+LSGG,both_false,28,17.200000000000003
+LSZH,both_false,7,18.633333333333333

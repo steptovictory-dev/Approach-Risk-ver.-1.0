@@ -1,0 +1,26 @@
+{
+  "input": "europe\\data\\working\\04_c40_ambiguous_pairs_excluded.parquet",
+  "input_sha256": "ba5c3c4686f76a57384276d2c27f0fdcdc7b6d58657fdfb7c7cc8ab8c7b99e05",
+  "input_unchanged": true,
+  "rows_checked": 7983960,
+  "go_arounds": 26250,
+  "eligible_rows": 6331494,
+  "eligible_go_arounds": 18358,
+  "excluded_rows": 1652466,
+  "excluded_go_arounds": 7892,
+  "rule": "All four C40 fields present; numeric values finite; C40 strictly before first attempt",
+  "reason_priority": [
+    "incomplete_c40",
+    "nonfinite_c40",
+    "missing_first_attempt",
+    "c40_equal_first_attempt",
+    "c40_after_first_attempt"
+  ],
+  "rows_changed": 0,
+  "rows_deleted": 0,
+  "filter_applied": false,
+  "trajectory_matching_verified": false,
+  "market_segment_is_verified_flight_purpose": false,
+  "year_basis": "UTC year of final landing; retrospective audit only",
+  "limitation": "Availability does not establish correct C40 matching, coordinate plausibility or label validity"
+}

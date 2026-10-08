@@ -24,3 +24,6 @@ Thumbs.db
 .DS_Store
 /docs/sources/files/
 /europe/data/
+
+# Полный объемный реестр контекстов воспроизводится скриптом аудита C40
+/europe/reports/analytical_sample/04_04_same_day_contexts.csv

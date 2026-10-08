@@ -1,0 +1,22 @@
+{
+  "input_sha256": "ddf11438bab44137242ffcf4da928418e116efd46defce58dc8a388b67942b6d",
+  "input_unchanged": true,
+  "rows_checked": 7984254,
+  "rows_with_c40": 6331872,
+  "rows_with_missing_context_keys": 0,
+  "repeated_c40_groups": 147,
+  "rows_sharing_c40": 294,
+  "positive_rows_sharing_c40": 3,
+  "groups_with_different_landing_times": 147,
+  "groups_spanning_multiple_landing_dates": 0,
+  "repeated_rows_c40_after_first": 3,
+  "repeated_rows_c40_after_landing": 3,
+  "same_day_multiple_landing_contexts_with_c40": 1229098,
+  "rows_in_same_day_multiple_landing_contexts": 3171396,
+  "rows_changed": 0,
+  "rows_deleted": 0,
+  "selection_applied": false,
+  "trajectory_matching_verified": false,
+  "scope": "Metadata audit; no independent trajectories or historical EU-NM records",
+  "context_scope": "Same-day contexts counted only among rows with known C40"
+}

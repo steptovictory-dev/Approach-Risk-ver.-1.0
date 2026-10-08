@@ -1,0 +1,30 @@
+{
+  "input_sha256": "ddf11438bab44137242ffcf4da928418e116efd46defce58dc8a388b67942b6d",
+  "input_unchanged": true,
+  "pairs_reviewed": 147,
+  "rows_reviewed": 294,
+  "all_pairs_year": 2019,
+  "all_pairs_same_callsign": true,
+  "all_pairs_same_registration": true,
+  "all_pairs_sequential_identifier_suffix": true,
+  "all_pairs_same_c40_geometry": true,
+  "label_patterns": {
+    "both_false": 144,
+    "early_true_late_false": 3
+  },
+  "pairs_with_different_typecodes": 0,
+  "pairs_with_different_ILS_lists": 44,
+  "all_late_records_one_attempt": true,
+  "all_late_first_attempts_after_early_landing": true,
+  "landing_gap_minutes": {
+    "min": 12.266666666666667,
+    "median": 17.483333333333334,
+    "max": 26.316666666666666
+  },
+  "pairs_with_c40_after_early_first": 3,
+  "rows_changed": 0,
+  "rows_deleted": 0,
+  "trajectories_available": false,
+  "physical_identity_confirmed": false,
+  "decision": "retain both pending independent validation"
+}

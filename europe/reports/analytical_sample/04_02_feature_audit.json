@@ -1,0 +1,29 @@
+{
+  "input": "europe\\data\\working\\03_c40_diagnostic_flags.parquet",
+  "input_sha256": "ddf11438bab44137242ffcf4da928418e116efd46defce58dc8a388b67942b6d",
+  "input_unchanged": true,
+  "rows_checked": 7984254,
+  "go_arounds": 26253,
+  "physical_columns": 31,
+  "rows_changed": 0,
+  "rows_deleted": 0,
+  "prediction_context": "before first observed attempt",
+  "feature_set_finalized": false,
+  "c40_filter_applied": false,
+  "timing_condition": "C40 <= first attempt; equality retained, no lead time guaranteed",
+  "role_counts": {
+    "provenance": 6,
+    "identifier": 5,
+    "outcome": 4,
+    "metadata_candidate": 4,
+    "event_candidate": 4,
+    "context_candidate": 2,
+    "outcome_diagnostic": 2,
+    "target": 1,
+    "unresolved": 1,
+    "reference_candidate": 1,
+    "diagnostic": 1
+  },
+  "source_url": "https://zenodo.org/records/10210178",
+  "source_checked_date": "2026-10-08"
+}

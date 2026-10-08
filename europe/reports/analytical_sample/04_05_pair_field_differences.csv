@@ -1,0 +1,645 @@
+pair_id,field,early_value,late_value
+1,flight_id,ETH710_2121,ETH710_2122
+1,landing_time,2019-01-09 19:34:24+00:00,2019-01-09 19:46:40+00:00
+1,attempt_times,"[datetime.datetime(2019, 1, 9, 19, 34, 24, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 9, 19, 46, 40, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+1,__index_level_0__,56353,56421
+2,flight_id,QTR7LN_4796,QTR7LN_4797
+2,landing_time,2019-01-30 05:07:35+00:00,2019-01-30 05:24:27+00:00
+2,attempt_times,"[datetime.datetime(2019, 1, 30, 5, 5, 44, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 30, 5, 24, 27, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+2,__index_level_0__,174183,174240
+3,flight_id,DAH2070_3432,DAH2070_3433
+3,landing_time,2019-02-01 11:33:24+00:00,2019-02-01 11:53:05+00:00
+3,attempt_times,"[datetime.datetime(2019, 2, 1, 11, 33, 24, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 2, 1, 11, 53, 5, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+3,__index_level_0__,189208,189339
+4,flight_id,IBE3105_4368,IBE3105_4369
+4,landing_time,2019-07-02 20:56:18+00:00,2019-07-02 21:12:47+00:00
+4,attempt_times,"[datetime.datetime(2019, 7, 2, 20, 54, 9, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 7, 2, 21, 12, 47, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+4,ILS,['32L'],['18L']
+4,__index_level_0__,1269974,1270040
+5,flight_id,AEA6066_6712,AEA6066_6713
+5,landing_time,2019-06-18 15:36:02+00:00,2019-06-18 15:51:51+00:00
+5,attempt_times,"[datetime.datetime(2019, 6, 18, 15, 34, 23, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 6, 18, 15, 51, 51, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+5,ILS,['18L'],['18R']
+5,__index_level_0__,1162530,1162627
+6,flight_id,IBS37HF_10828,IBS37HF_10829
+6,landing_time,2019-07-02 20:52:51+00:00,2019-07-02 21:12:17+00:00
+6,attempt_times,"[datetime.datetime(2019, 7, 2, 20, 50, 22, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 7, 2, 21, 12, 17, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+6,ILS,['32L'],['18R']
+6,__index_level_0__,1269953,1270037
+6,c40_after_first_attempt,True,False
+6,c40_after_landing,True,False
+7,flight_id,IBE2001_11660,IBE2001_11661
+7,landing_time,2019-11-12 20:16:54+00:00,2019-11-12 20:33:58+00:00
+7,attempt_times,"[datetime.datetime(2019, 11, 12, 20, 15, 9, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 11, 12, 20, 33, 58, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+7,ILS,['18L'],['18R']
+7,__index_level_0__,2276993,2277092
+8,flight_id,IBE0553_21627,IBE0553_21628
+8,landing_time,2019-05-08 08:56:09+00:00,2019-05-08 09:13:28+00:00
+8,attempt_times,"[datetime.datetime(2019, 5, 8, 8, 54, 7, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 5, 8, 9, 13, 28, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+8,__index_level_0__,853571,853701
+9,flight_id,AEA7708_28083,AEA7708_28084
+9,landing_time,2019-08-21 20:07:49+00:00,2019-08-21 20:24:17+00:00
+9,attempt_times,"[datetime.datetime(2019, 8, 21, 20, 1, 35, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 8, 21, 20, 24, 2, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+9,ILS,['18R'],['32L']
+9,__index_level_0__,1655890,1655993
+10,flight_id,IBE10HD_33600,IBE10HD_33601
+10,landing_time,2019-10-02 09:21:47+00:00,2019-10-02 09:38:50+00:00
+10,attempt_times,"[datetime.datetime(2019, 10, 2, 9, 19, 47, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 10, 2, 9, 38, 40, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+10,__index_level_0__,1967322,1967456
+11,flight_id,ANE85DX_51155,ANE85DX_51156
+11,landing_time,2019-08-30 17:52:00+00:00,2019-08-30 18:08:54+00:00
+11,attempt_times,"[datetime.datetime(2019, 8, 30, 17, 46, 20, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 8, 30, 18, 8, 54, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+11,ILS,['18L'],['18R']
+11,__index_level_0__,1724763,1724924
+12,flight_id,AEA6030_53938,AEA6030_53939
+12,landing_time,2019-02-10 10:38:45+00:00,2019-02-10 10:57:06+00:00
+12,attempt_times,"[datetime.datetime(2019, 2, 10, 10, 38, 42, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 2, 10, 10, 57, 6, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+12,ILS,['18L'],['18R']
+12,__index_level_0__,246677,246787
+13,flight_id,ANE87GC_60061,ANE87GC_60062
+13,landing_time,2019-06-25 13:22:25+00:00,2019-06-25 13:41:11+00:00
+13,attempt_times,"[datetime.datetime(2019, 6, 25, 13, 20, 29, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 6, 25, 13, 41, 11, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+13,__index_level_0__,1214521,1214646
+14,flight_id,IBS36ML_63096,IBS36ML_63097
+14,landing_time,2019-07-02 20:51:57+00:00,2019-07-02 21:07:11+00:00
+14,attempt_times,"[datetime.datetime(2019, 7, 2, 20, 48, 31, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 7, 2, 21, 7, 11, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+14,ILS,['32L'],['18R']
+14,__index_level_0__,1269949,1270012
+15,flight_id,IBE31AZ_70891,IBE31AZ_70892
+15,landing_time,2019-07-07 17:22:28+00:00,2019-07-07 17:39:25+00:00
+15,attempt_times,"[datetime.datetime(2019, 7, 7, 17, 20, 27, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 7, 7, 17, 39, 25, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+15,ILS,['18L'],['18R']
+15,__index_level_0__,1306736,1306867
+16,flight_id,IBE6250_75000,IBE6250_75001
+16,landing_time,2019-12-21 04:16:57+00:00,2019-12-21 04:36:07+00:00
+16,attempt_times,"[datetime.datetime(2019, 12, 21, 4, 15, 4, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 12, 21, 4, 36, 7, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+16,__index_level_0__,2533055,2533099
+17,flight_id,IBE33MT_1970,IBE33MT_1971
+17,landing_time,2019-02-01 12:48:50+00:00,2019-02-01 13:04:29+00:00
+17,attempt_times,"[datetime.datetime(2019, 2, 1, 12, 45, 25, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 2, 1, 13, 4, 29, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+17,ILS,['01L'],['08']
+17,__index_level_0__,189701,189799
+18,flight_id,IBE6012_85632,IBE6012_85633
+18,landing_time,2019-12-19 04:52:57+00:00,2019-12-19 05:11:10+00:00
+18,attempt_times,"[datetime.datetime(2019, 12, 19, 4, 50, 56, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 12, 19, 5, 11, 10, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+18,ILS,['32R'],['18L']
+18,__index_level_0__,2517993,2518049
+19,flight_id,ANE8375_87066,ANE8375_87067
+19,landing_time,2019-05-10 12:39:08+00:00,2019-05-10 12:57:46+00:00
+19,attempt_times,"[datetime.datetime(2019, 5, 10, 12, 37, 55, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 5, 10, 12, 57, 46, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+19,__index_level_0__,869573,869699
+20,flight_id,ANE88ZY_89040,ANE88ZY_89041
+20,landing_time,2019-10-15 12:10:37+00:00,2019-10-15 12:28:53+00:00
+20,attempt_times,"[datetime.datetime(2019, 10, 15, 12, 8, 39, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 10, 15, 12, 28, 53, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+20,ILS,['18L'],['18R']
+20,__index_level_0__,2070103,2070214
+21,flight_id,ANE25XX_94285,ANE25XX_94286
+21,landing_time,2019-06-19 19:11:42+00:00,2019-06-19 19:25:58+00:00
+21,attempt_times,"[datetime.datetime(2019, 6, 19, 19, 9, 30, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 6, 19, 19, 25, 58, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+21,ILS,['18L'],['18R']
+21,__index_level_0__,1171736,1171825
+22,flight_id,AEA6904_98243,AEA6904_98244
+22,landing_time,2019-06-08 22:41:02+00:00,2019-06-08 22:57:58+00:00
+22,attempt_times,"[datetime.datetime(2019, 6, 8, 22, 38, 52, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 6, 8, 22, 57, 58, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+22,__index_level_0__,1089681,1089717
+23,flight_id,ANE01CY_98467,ANE01CY_98468
+23,landing_time,2019-02-01 18:51:15+00:00,2019-02-01 19:09:57+00:00
+23,attempt_times,"[datetime.datetime(2019, 2, 1, 18, 47, 24, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 2, 1, 19, 9, 57, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+23,__index_level_0__,192024,192170
+24,flight_id,IBE6856_113955,IBE6856_113956
+24,landing_time,2019-11-13 04:51:14+00:00,2019-11-13 05:07:33+00:00
+24,attempt_times,"[datetime.datetime(2019, 11, 13, 4, 49, 23, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 11, 13, 5, 7, 33, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+24,__index_level_0__,2277901,2277951
+25,flight_id,AEA23QN_114982,AEA23QN_114983
+25,landing_time,2019-03-07 21:54:09+00:00,2019-03-07 22:12:40+00:00
+25,attempt_times,"[datetime.datetime(2019, 3, 7, 21, 52, 15, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 7, 22, 12, 11, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+25,__index_level_0__,420892,420959
+26,flight_id,AFR138P_21331,AFR138P_21332
+26,landing_time,2019-12-20 10:52:10+00:00,2019-12-20 11:10:14+00:00
+26,attempt_times,"[datetime.datetime(2019, 12, 20, 10, 52, 10, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 12, 20, 11, 10, 14, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+26,__index_level_0__,2527735,2527875
+27,flight_id,AFR73CM_121537,AFR73CM_121538
+27,landing_time,2019-05-16 13:33:11+00:00,2019-05-16 13:51:27+00:00
+27,attempt_times,"[datetime.datetime(2019, 5, 16, 13, 30, 44, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 5, 16, 13, 51, 27, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+27,ILS,['18L'],['18R']
+27,__index_level_0__,913097,913219
+28,flight_id,AFR1449_30693,AFR1449_30694
+28,landing_time,2019-11-23 06:58:43+00:00,2019-11-23 07:15:48+00:00
+28,attempt_times,"[datetime.datetime(2019, 11, 23, 6, 58, 25, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 11, 23, 7, 15, 48, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+28,__index_level_0__,2347957,2348080
+29,flight_id,AFR44CN_121958,AFR44CN_121959
+29,landing_time,2019-03-05 10:32:07+00:00,2019-03-05 10:49:22+00:00
+29,attempt_times,"[datetime.datetime(2019, 3, 5, 10, 29, 55, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 5, 10, 48, 54, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+29,ILS,['18L'],['18R']
+29,__index_level_0__,402600,402717
+30,flight_id,AFR24ZN_6077,AFR24ZN_6078
+30,landing_time,2019-01-06 10:47:12+00:00,2019-01-06 11:04:42+00:00
+30,attempt_times,"[datetime.datetime(2019, 1, 6, 10, 43, 39, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 6, 11, 4, 37, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+30,__index_level_0__,33687,33799
+31,flight_id,AFR54XX_75843,AFR54XX_75844
+31,landing_time,2019-03-04 07:47:23+00:00,2019-03-04 08:06:26+00:00
+31,attempt_times,"[datetime.datetime(2019, 3, 4, 7, 43, 55, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 4, 8, 6, 26, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+31,ILS,['26R'],['26L']
+31,__index_level_0__,394246,394395
+32,flight_id,AFR32TG_76441,AFR32TG_76442
+32,landing_time,2019-07-24 07:01:17+00:00,2019-07-24 07:17:58+00:00
+32,attempt_times,"[datetime.datetime(2019, 7, 24, 6, 56, 38, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 7, 24, 7, 17, 58, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+32,ILS,['08L'],['26L']
+32,__index_level_0__,1433533,1433667
+33,flight_id,TVF82FR_36923,TVF82FR_36924
+33,landing_time,2019-02-10 11:58:41+00:00,2019-02-10 12:15:49+00:00
+33,attempt_times,"[datetime.datetime(2019, 2, 10, 11, 53, 35, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 2, 10, 12, 15, 49, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+33,__index_level_0__,247157,247275
+34,flight_id,AFR73CM_123902,AFR73CM_123903
+34,landing_time,2019-06-03 13:48:06+00:00,2019-06-03 14:05:29+00:00
+34,attempt_times,"[datetime.datetime(2019, 6, 3, 13, 44, 52, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 6, 3, 14, 5, 29, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+34,__index_level_0__,1047219,1047322
+35,flight_id,AFR007_117225,AFR007_117226
+35,landing_time,2019-12-20 07:13:53+00:00,2019-12-20 07:28:28+00:00
+35,attempt_times,"[datetime.datetime(2019, 12, 20, 7, 11, 48, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 12, 20, 7, 28, 28, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+35,ILS,['08R'],['08L']
+35,__index_level_0__,2526124,2526228
+36,flight_id,BCS6725_124506,BCS6725_124507
+36,landing_time,2019-09-14 13:54:01+00:00,2019-09-14 14:12:25+00:00
+36,attempt_times,"[datetime.datetime(2019, 9, 14, 13, 50, 8, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 9, 14, 14, 12, 25, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+36,ILS,['32L'],['18R']
+36,__index_level_0__,1840934,1841059
+37,flight_id,DLH9AK_8401,DLH9AK_8402
+37,landing_time,2019-03-10 09:16:09+00:00,2019-03-10 09:32:52+00:00
+37,attempt_times,"[datetime.datetime(2019, 3, 10, 9, 16, 9, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 10, 9, 32, 23, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+37,__index_level_0__,436280,436386
+38,flight_id,TUI197_41424,TUI197_41425
+38,landing_time,2019-02-07 16:00:54+00:00,2019-02-07 16:20:29+00:00
+38,attempt_times,"[datetime.datetime(2019, 2, 7, 15, 58, 51, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 2, 7, 16, 20, 29, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+38,__index_level_0__,229141,229261
+39,flight_id,DLH6VU_59177,DLH6VU_59178
+39,landing_time,2019-03-13 14:13:15+00:00,2019-03-13 14:32:10+00:00
+39,attempt_times,"[datetime.datetime(2019, 3, 13, 14, 9, 59, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 13, 14, 32, 3, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+39,ILS,['26L'],['26R']
+39,__index_level_0__,459258,459367
+40,flight_id,DLH9KX_77839,DLH9KX_77840
+40,landing_time,2019-07-26 15:46:16+00:00,2019-07-26 16:04:15+00:00
+40,attempt_times,"[datetime.datetime(2019, 7, 26, 15, 43, 16, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 7, 26, 16, 4, 4, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+40,ILS,['07R'],['25L']
+40,__index_level_0__,1452141,1452257
+41,flight_id,DLH887_79684,DLH887_79685
+41,landing_time,2019-12-20 15:12:57+00:00,2019-12-20 15:28:47+00:00
+41,attempt_times,"[datetime.datetime(2019, 12, 20, 15, 12, 22, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 12, 20, 15, 28, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+41,__index_level_0__,2529626,2529751
+42,flight_id,DLH77X_127043,DLH77X_127044
+42,landing_time,2019-04-30 07:02:28+00:00,2019-04-30 07:20:13+00:00
+42,attempt_times,"[datetime.datetime(2019, 4, 30, 6, 35, 43, tzinfo=zoneinfo.ZoneInfo(key='UTC')), datetime.datetime(2019, 4, 30, 6, 55, 40, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 4, 30, 7, 20, 13, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+42,ILS,"['09L', '09L']",['08R']
+42,n_attempts,2,1
+42,GoA,True,False
+42,__index_level_0__,795894,796039
+43,flight_id,DLH9AF_16363,DLH9AF_16364
+43,landing_time,2019-01-11 17:52:40+00:00,2019-01-11 18:11:26+00:00
+43,attempt_times,"[datetime.datetime(2019, 1, 11, 17, 52, 40, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 11, 18, 11, 26, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+43,__index_level_0__,67887,67990
+44,flight_id,DLH7PF_93660,DLH7PF_93661
+44,landing_time,2019-09-23 13:49:02+00:00,2019-09-23 14:10:42+00:00
+44,attempt_times,"[datetime.datetime(2019, 9, 23, 13, 47, 19, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 9, 23, 14, 9, 2, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+44,ILS,['25R'],['25L']
+44,__index_level_0__,1897905,1898070
+45,flight_id,DLH902_17584,DLH902_17585
+45,landing_time,2019-11-02 10:02:10+00:00,2019-11-02 10:18:41+00:00
+45,attempt_times,"[datetime.datetime(2019, 11, 2, 9, 59, 12, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 11, 2, 10, 18, 41, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+45,ILS,['27R'],['27L']
+45,__index_level_0__,2204014,2204119
+46,flight_id,DLH2527_74481,DLH2527_74482
+46,landing_time,2019-01-02 14:09:47+00:00,2019-01-02 14:26:03+00:00
+46,attempt_times,"[datetime.datetime(2019, 1, 2, 13, 45, 33, tzinfo=zoneinfo.ZoneInfo(key='UTC')), datetime.datetime(2019, 1, 2, 14, 0, 47, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 2, 14, 25, 55, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+46,ILS,"['26R', '26R']",['26R']
+46,n_attempts,2,1
+46,GoA,True,False
+46,__index_level_0__,8911,9006
+47,flight_id,DLH55M_128535,DLH55M_128536
+47,landing_time,2019-05-28 11:55:21+00:00,2019-05-28 12:12:11+00:00
+47,attempt_times,"[datetime.datetime(2019, 5, 28, 11, 49, 37, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 5, 28, 12, 12, 11, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+47,__index_level_0__,1002065,1002196
+48,flight_id,DLH87W_126358,DLH87W_126359
+48,landing_time,2019-05-08 20:28:08+00:00,2019-05-08 20:45:45+00:00
+48,attempt_times,"[datetime.datetime(2019, 5, 8, 20, 25, 27, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 5, 8, 20, 45, 45, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+48,ILS,['18L'],['18R']
+48,__index_level_0__,858227,858324
+49,flight_id,DLH039_117338,DLH039_117339
+49,landing_time,2019-03-06 10:05:37+00:00,2019-03-06 10:23:45+00:00
+49,attempt_times,"[datetime.datetime(2019, 3, 6, 10, 4, 22, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 6, 10, 22, 33, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+49,__index_level_0__,409135,409270
+50,flight_id,DLH5K_134007,DLH5K_134008
+50,landing_time,2019-03-04 08:50:44+00:00,2019-03-04 09:16:17+00:00
+50,attempt_times,"[datetime.datetime(2019, 3, 4, 8, 49, 12, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 4, 9, 9, 47, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+50,__index_level_0__,394708,394886
+51,flight_id,DLH4AF_11973,DLH4AF_11974
+51,landing_time,2019-03-11 12:28:18+00:00,2019-03-11 12:47:07+00:00
+51,attempt_times,"[datetime.datetime(2019, 3, 11, 12, 22, 41, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 11, 12, 46, 40, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+51,__index_level_0__,444926,445032
+52,flight_id,DLH87E_147690,DLH87E_147691
+52,landing_time,2019-08-29 14:39:28+00:00,2019-08-29 15:03:33+00:00
+52,attempt_times,"[datetime.datetime(2019, 8, 29, 14, 37, 22, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 8, 29, 14, 57, 49, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+52,ILS,['25L'],['25R']
+52,__index_level_0__,1715243,1715434
+53,flight_id,DLH7VV_9378,DLH7VV_9379
+53,landing_time,2019-05-15 06:30:02+00:00,2019-05-15 06:49:19+00:00
+53,attempt_times,"[datetime.datetime(2019, 5, 15, 6, 27, 15, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 5, 15, 6, 49, 11, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+53,__index_level_0__,903087,903243
+54,flight_id,BAW29G_28815,BAW29G_28816
+54,landing_time,2019-01-10 18:45:58+00:00,2019-01-10 19:03:21+00:00
+54,attempt_times,"[datetime.datetime(2019, 1, 10, 18, 45, 53, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 10, 19, 3, 21, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+54,__index_level_0__,62012,62132
+55,flight_id,SHT7U_50621,SHT7U_50622
+55,landing_time,2019-01-10 18:41:15+00:00,2019-01-10 18:59:43+00:00
+55,attempt_times,"[datetime.datetime(2019, 1, 10, 18, 41, 9, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 10, 18, 59, 43, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+55,__index_level_0__,61977,62110
+56,flight_id,SHT9K_53289,SHT9K_53290
+56,landing_time,2019-01-11 15:10:50+00:00,2019-01-11 15:29:59+00:00
+56,attempt_times,"[datetime.datetime(2019, 1, 11, 15, 10, 34, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 11, 15, 29, 59, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+56,__index_level_0__,66941,67047
+57,flight_id,SHT21X_54077,SHT21X_54078
+57,landing_time,2019-01-10 18:49:40+00:00,2019-01-10 19:05:47+00:00
+57,attempt_times,"[datetime.datetime(2019, 1, 10, 18, 49, 39, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 10, 19, 5, 47, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+57,__index_level_0__,62041,62148
+58,flight_id,BAW559_59704,BAW559_59705
+58,landing_time,2019-01-10 18:54:03+00:00,2019-01-10 19:08:58+00:00
+58,attempt_times,"[datetime.datetime(2019, 1, 10, 18, 54, 3, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 10, 19, 8, 58, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+58,__index_level_0__,62069,62171
+59,flight_id,BAW732_11608,BAW732_11609
+59,landing_time,2019-05-25 14:23:08+00:00,2019-05-25 14:41:08+00:00
+59,attempt_times,"[datetime.datetime(2019, 5, 25, 14, 20, 51, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 5, 25, 14, 41, 3, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+59,ILS,['22R'],['04']
+59,__index_level_0__,980355,980488
+60,flight_id,BAW429_63893,BAW429_63894
+60,landing_time,2019-01-13 10:14:31+00:00,2019-01-13 10:32:48+00:00
+60,attempt_times,"[datetime.datetime(2019, 1, 13, 10, 14, 31, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 13, 10, 32, 48, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+60,__index_level_0__,75938,76029
+61,flight_id,BAW466_129204,BAW466_129205
+61,landing_time,2019-12-22 11:03:57+00:00,2019-12-22 11:22:26+00:00
+61,attempt_times,"[datetime.datetime(2019, 12, 22, 11, 0, 45, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 12, 22, 11, 22, 26, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+61,__index_level_0__,2541937,2542064
+62,flight_id,BAW42DB_78947,BAW42DB_78948
+62,landing_time,2019-01-10 18:44:36+00:00,2019-01-10 19:01:55+00:00
+62,attempt_times,"[datetime.datetime(2019, 1, 10, 18, 44, 36, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 10, 19, 1, 55, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+62,__index_level_0__,62003,62124
+63,flight_id,EZY65WH_12932,EZY65WH_12933
+63,landing_time,2019-12-09 15:01:55+00:00,2019-12-09 15:18:55+00:00
+63,attempt_times,"[datetime.datetime(2019, 12, 9, 14, 59, 23, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 12, 9, 15, 18, 55, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+63,ILS,['22R'],['22']
+63,__index_level_0__,2459199,2459332
+64,flight_id,EZY17CA_129833,EZY17CA_129834
+64,landing_time,2019-03-10 09:34:21+00:00,2019-03-10 09:49:50+00:00
+64,attempt_times,"[datetime.datetime(2019, 3, 10, 9, 33, 34, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 10, 9, 49, 28, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+64,__index_level_0__,436395,436500
+65,flight_id,EZY21AD_12995,EZY21AD_12996
+65,landing_time,2019-02-02 13:11:28+00:00,2019-02-02 13:29:19+00:00
+65,attempt_times,"[datetime.datetime(2019, 2, 2, 13, 8, 41, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 2, 2, 13, 28, 56, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+65,__index_level_0__,196547,196642
+66,flight_id,EZY53HM_130367,EZY53HM_130368
+66,landing_time,2019-07-23 22:20:10+00:00,2019-07-23 22:37:12+00:00
+66,attempt_times,"[datetime.datetime(2019, 7, 23, 22, 19, 1, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 7, 23, 22, 37, 12, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+66,__index_level_0__,1432063,1432101
+67,flight_id,SHT9G_103212,SHT9G_103213
+67,landing_time,2019-01-10 18:38:47+00:00,2019-01-10 18:57:52+00:00
+67,attempt_times,"[datetime.datetime(2019, 1, 10, 18, 38, 45, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 10, 18, 57, 52, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+67,__index_level_0__,61959,62098
+68,flight_id,BAW32_104216,BAW32_104217
+68,landing_time,2019-01-18 04:31:24+00:00,2019-01-18 04:50:29+00:00
+68,attempt_times,"[datetime.datetime(2019, 1, 18, 4, 31, 24, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 18, 4, 50, 29, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+68,__index_level_0__,100007,100058
+69,flight_id,TOM367_19029,TOM367_19030
+69,landing_time,2019-01-17 22:32:33+00:00,2019-01-17 22:52:51+00:00
+69,attempt_times,"[datetime.datetime(2019, 1, 17, 22, 32, 33, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 17, 22, 52, 51, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+69,__index_level_0__,99806,99839
+70,flight_id,VIR2R_107988,VIR2R_107989
+70,landing_time,2019-01-16 08:54:55+00:00,2019-01-16 09:11:58+00:00
+70,attempt_times,"[datetime.datetime(2019, 1, 16, 8, 54, 49, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 16, 9, 11, 58, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+70,__index_level_0__,90827,90925
+71,flight_id,EZY78QA_20033,EZY78QA_20034
+71,landing_time,2019-01-10 18:54:25+00:00,2019-01-10 19:09:23+00:00
+71,attempt_times,"[datetime.datetime(2019, 1, 10, 18, 54, 25, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 10, 19, 9, 23, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+71,__index_level_0__,62071,62173
+72,flight_id,EZY14MY_131930,EZY14MY_131931
+72,landing_time,2019-06-12 14:52:03+00:00,2019-06-12 15:09:45+00:00
+72,attempt_times,"[datetime.datetime(2019, 6, 12, 14, 50, 52, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 6, 12, 15, 9, 45, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+72,__index_level_0__,1117339,1117472
+73,flight_id,VIR251_130469,VIR251_130470
+73,landing_time,2019-01-09 16:02:36+00:00,2019-01-09 16:20:57+00:00
+73,attempt_times,"[datetime.datetime(2019, 1, 9, 16, 2, 36, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 9, 16, 20, 57, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+73,__index_level_0__,55214,55309
+74,flight_id,VIR106F_134758,VIR106F_134759
+74,landing_time,2019-01-13 10:17:19+00:00,2019-01-13 10:35:58+00:00
+74,attempt_times,"[datetime.datetime(2019, 1, 13, 10, 17, 19, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 13, 10, 35, 58, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+74,__index_level_0__,75949,76045
+75,flight_id,BAW22C_138885,BAW22C_138886
+75,landing_time,2019-01-16 08:56:28+00:00,2019-01-16 09:15:48+00:00
+75,attempt_times,"[datetime.datetime(2019, 1, 16, 8, 56, 25, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 16, 9, 15, 48, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+75,__index_level_0__,90836,90954
+76,flight_id,BAW467_141133,BAW467_141134
+76,landing_time,2019-01-12 12:38:14+00:00,2019-01-12 12:54:26+00:00
+76,attempt_times,"[datetime.datetime(2019, 1, 12, 12, 38, 6, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 12, 12, 54, 26, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+76,__index_level_0__,72032,72094
+77,flight_id,EZY91RT_19322,EZY91RT_19323
+77,landing_time,2019-02-03 08:31:48+00:00,2019-02-03 08:48:39+00:00
+77,attempt_times,"[datetime.datetime(2019, 2, 3, 8, 31, 7, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 2, 3, 8, 48, 36, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+77,__index_level_0__,200415,200496
+78,flight_id,EZY7615_136627,EZY7615_136628
+78,landing_time,2019-03-06 16:23:15+00:00,2019-03-06 16:40:59+00:00
+78,attempt_times,"[datetime.datetime(2019, 3, 6, 16, 20, 18, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 6, 16, 40, 40, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+78,__index_level_0__,411584,411678
+79,flight_id,MJF279_27014,MJF279_27015
+79,landing_time,2019-02-11 11:57:12+00:00,2019-02-11 12:17:37+00:00
+79,attempt_times,"[datetime.datetime(2019, 2, 11, 11, 56, 29, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 2, 11, 12, 17, 37, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+79,__index_level_0__,254274,254422
+80,flight_id,EJU67YT_27080,EJU67YT_27081
+80,landing_time,2019-05-17 15:24:37+00:00,2019-05-17 15:41:56+00:00
+80,attempt_times,"[datetime.datetime(2019, 5, 17, 15, 23, 53, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 5, 17, 15, 41, 42, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+80,ILS,['22'],['22R']
+80,__index_level_0__,921223,921332
+81,flight_id,FIN2RG_31770,FIN2RG_31771
+81,landing_time,2019-03-29 08:29:58+00:00,2019-03-29 08:46:08+00:00
+81,attempt_times,"[datetime.datetime(2019, 3, 29, 8, 28, 10, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 29, 8, 46, 8, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+81,__index_level_0__,568445,568562
+82,flight_id,SAS1634_32772,SAS1634_32773
+82,landing_time,2019-04-23 13:06:56+00:00,2019-04-23 13:24:37+00:00
+82,attempt_times,"[datetime.datetime(2019, 4, 23, 13, 1, 48, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 4, 23, 13, 24, 37, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+82,ILS,['19L'],['19R']
+82,__index_level_0__,749271,749388
+83,flight_id,NJE279B_35888,NJE279B_35889
+83,landing_time,2019-05-13 15:10:06+00:00,2019-05-13 15:28:14+00:00
+83,attempt_times,"[datetime.datetime(2019, 5, 13, 15, 8, 19, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 5, 13, 15, 28, 14, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+83,__index_level_0__,892336,892457
+84,flight_id,HFY621P_145025,HFY621P_145026
+84,landing_time,2019-09-24 10:43:17+00:00,2019-09-24 10:59:59+00:00
+84,attempt_times,"[datetime.datetime(2019, 9, 24, 10, 42, 23, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 9, 24, 10, 59, 59, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+84,ILS,['18L'],['18R']
+84,__index_level_0__,1904634,1904757
+85,flight_id,SWR169A_37346,SWR169A_37347
+85,landing_time,2019-03-04 10:49:16+00:00,2019-03-04 11:07:54+00:00
+85,attempt_times,"[datetime.datetime(2019, 3, 4, 10, 46, 10, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 4, 11, 7, 44, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+85,__index_level_0__,395592,395714
+86,flight_id,SWR1083_41904,SWR1083_41905
+86,landing_time,2019-08-03 12:17:11+00:00,2019-08-03 12:33:29+00:00
+86,attempt_times,"[datetime.datetime(2019, 8, 3, 12, 16, 49, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 8, 3, 12, 33, 28, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+86,__index_level_0__,1513392,1513503
+87,flight_id,SWR37G_45154,SWR37G_45155
+87,landing_time,2019-05-19 20:04:17+00:00,2019-05-19 20:19:29+00:00
+87,attempt_times,"[datetime.datetime(2019, 5, 19, 20, 2, 52, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 5, 19, 20, 19, 29, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+87,__index_level_0__,937315,937421
+88,flight_id,SWR134X_69712,SWR134X_69713
+88,landing_time,2019-03-11 10:52:53+00:00,2019-03-11 11:10:59+00:00
+88,attempt_times,"[datetime.datetime(2019, 3, 11, 10, 51, 40, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 11, 11, 10, 43, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+88,__index_level_0__,444265,444393
+89,flight_id,SWR109A_74445,SWR109A_74446
+89,landing_time,2019-12-20 15:37:43+00:00,2019-12-20 15:53:56+00:00
+89,attempt_times,"[datetime.datetime(2019, 12, 20, 15, 34, 59, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 12, 20, 15, 53, 39, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+89,__index_level_0__,2529822,2529947
+90,flight_id,SWR115M_153430,SWR115M_153431
+90,landing_time,2019-08-10 08:41:02+00:00,2019-08-10 09:01:44+00:00
+90,attempt_times,"[datetime.datetime(2019, 8, 10, 8, 35, 59, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 8, 10, 9, 1, 32, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+90,__index_level_0__,1565012,1565177
+91,flight_id,SWR58U_48934,SWR58U_48935
+91,landing_time,2019-04-22 20:02:24+00:00,2019-04-22 20:18:20+00:00
+91,attempt_times,"[datetime.datetime(2019, 4, 22, 20, 0, 33, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 4, 22, 20, 18, 20, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+91,__index_level_0__,744994,745099
+92,flight_id,SWR207E_48747,SWR207E_48748
+92,landing_time,2019-05-17 15:27:10+00:00,2019-05-17 15:44:18+00:00
+92,attempt_times,"[datetime.datetime(2019, 5, 17, 15, 25, 30, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 5, 17, 15, 44, 18, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+92,__index_level_0__,921239,921344
+93,flight_id,SWR421_100066,SWR421_100067
+93,landing_time,2019-03-24 20:35:11+00:00,2019-03-24 20:52:07+00:00
+93,attempt_times,"[datetime.datetime(2019, 3, 24, 20, 29, 53, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 24, 20, 51, 45, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+93,__index_level_0__,538072,538185
+94,flight_id,SWR58PQ_51072,SWR58PQ_51073
+94,landing_time,2019-06-29 11:36:29+00:00,2019-06-29 11:55:29+00:00
+94,attempt_times,"[datetime.datetime(2019, 6, 29, 11, 34, 51, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 6, 29, 11, 55, 28, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+94,__index_level_0__,1243415,1243556
+95,flight_id,EZS78VC_53516,EZS78VC_53517
+95,landing_time,2019-05-20 09:51:28+00:00,2019-05-20 10:07:49+00:00
+95,attempt_times,"[datetime.datetime(2019, 5, 20, 9, 50, 15, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 5, 20, 10, 7, 49, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+95,__index_level_0__,940581,940697
+96,flight_id,EZS75YN_54111,EZS75YN_54112
+96,landing_time,2019-11-15 17:16:28+00:00,2019-11-15 17:32:16+00:00
+96,attempt_times,"[datetime.datetime(2019, 11, 15, 17, 15, 7, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 11, 15, 17, 32, 16, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+96,ILS,['22R'],['22']
+96,__index_level_0__,2296806,2296936
+97,flight_id,EZS69AL_57105,EZS69AL_57106
+97,landing_time,2019-08-11 09:10:49+00:00,2019-08-11 09:27:29+00:00
+97,attempt_times,"[datetime.datetime(2019, 8, 11, 9, 8, 30, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 8, 11, 9, 27, 23, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+97,__index_level_0__,1572603,1572737
+98,flight_id,EZS68HR_58220,EZS68HR_58221
+98,landing_time,2019-06-21 17:52:25+00:00,2019-06-21 18:09:54+00:00
+98,attempt_times,"[datetime.datetime(2019, 6, 21, 17, 49, 3, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 6, 21, 18, 9, 46, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+98,__index_level_0__,1186788,1186926
+99,flight_id,EZS81DR_62652,EZS81DR_62653
+99,landing_time,2019-02-26 17:17:48+00:00,2019-02-26 17:34:48+00:00
+99,attempt_times,"[datetime.datetime(2019, 2, 26, 17, 17, 9, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 2, 26, 17, 34, 48, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+99,__index_level_0__,357013,357118
+100,flight_id,EZS32HB_63238,EZS32HB_63239
+100,landing_time,2019-07-03 17:06:50+00:00,2019-07-03 17:24:04+00:00
+100,attempt_times,"[datetime.datetime(2019, 7, 3, 17, 5, 29, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 7, 3, 17, 24, 1, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+100,__index_level_0__,1276114,1276244
+101,flight_id,EZS1526_64204,EZS1526_64205
+101,landing_time,2019-07-11 15:00:25+00:00,2019-07-11 15:17:43+00:00
+101,attempt_times,"[datetime.datetime(2019, 7, 11, 14, 58, 54, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 7, 11, 15, 17, 43, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+101,__index_level_0__,1337088,1337220
+102,flight_id,EZS65DW_62153,EZS65DW_62154
+102,landing_time,2019-10-15 18:32:18+00:00,2019-10-15 18:52:06+00:00
+102,attempt_times,"[datetime.datetime(2019, 10, 15, 18, 30, 9, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 10, 15, 18, 52, 6, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+102,ILS,['16L'],['16R']
+102,__index_level_0__,2072839,2072983
+102,c40_after_first_attempt,True,False
+102,c40_after_landing,True,False
+103,flight_id,EZS95EH_65694,EZS95EH_65695
+103,landing_time,2019-06-27 16:47:28+00:00,2019-06-27 17:03:46+00:00
+103,attempt_times,"[datetime.datetime(2019, 6, 27, 16, 45, 26, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 6, 27, 17, 3, 41, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+103,__index_level_0__,1230583,1230696
+104,flight_id,THY8AG_149835,THY8AG_149836
+104,landing_time,2019-12-21 16:01:50+00:00,2019-12-21 16:18:41+00:00
+104,attempt_times,"[datetime.datetime(2019, 12, 21, 15, 57, 36, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 12, 21, 16, 18, 41, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+104,ILS,['18L'],['18R']
+104,__index_level_0__,2537455,2537554
+105,flight_id,THY87C_67488,THY87C_67489
+105,landing_time,2019-03-07 10:22:45+00:00,2019-03-07 10:41:52+00:00
+105,attempt_times,"[datetime.datetime(2019, 3, 7, 10, 19, 35, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 7, 10, 41, 52, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+105,ILS,['22R'],['22']
+105,__index_level_0__,416247,416391
+106,flight_id,THY5JA_150108,THY5JA_150109
+106,landing_time,2019-02-16 15:00:51+00:00,2019-02-16 15:19:43+00:00
+106,attempt_times,"[datetime.datetime(2019, 2, 16, 14, 57, 34, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 2, 16, 15, 19, 43, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+106,ILS,['18L'],['18R']
+106,__index_level_0__,289144,289261
+107,flight_id,ABR6EC_178801,ABR6EC_178802
+107,landing_time,2019-08-05 22:06:17+00:00,2019-08-05 22:25:46+00:00
+107,attempt_times,"[datetime.datetime(2019, 8, 5, 22, 4, 27, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 8, 5, 22, 25, 46, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+107,ILS,['27R'],['26L']
+107,__index_level_0__,1532111,1532165
+107,c40_after_first_attempt,True,False
+107,c40_after_landing,True,False
+108,flight_id,ABR4CE_179187,ABR4CE_179188
+108,landing_time,2019-04-03 21:25:26+00:00,2019-04-03 21:41:47+00:00
+108,attempt_times,"[datetime.datetime(2019, 4, 3, 21, 23, 21, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 4, 3, 21, 41, 47, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+108,__index_level_0__,609993,610052
+109,flight_id,EIN1HM_174465,EIN1HM_174466
+109,landing_time,2019-01-10 18:39:55+00:00,2019-01-10 18:58:58+00:00
+109,attempt_times,"[datetime.datetime(2019, 1, 10, 18, 39, 52, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 10, 18, 58, 58, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+109,__index_level_0__,61965,62104
+110,flight_id,EIN154_174794,EIN154_174795
+110,landing_time,2019-01-16 08:53:50+00:00,2019-01-16 09:09:53+00:00
+110,attempt_times,"[datetime.datetime(2019, 1, 16, 8, 53, 26, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 16, 9, 9, 53, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+110,__index_level_0__,90820,90910
+111,flight_id,EIN380_175507,EIN380_175508
+111,landing_time,2019-01-16 08:52:12+00:00,2019-01-16 09:08:55+00:00
+111,attempt_times,"[datetime.datetime(2019, 1, 16, 8, 52, 12, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 16, 9, 8, 55, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+111,__index_level_0__,90810,90905
+112,flight_id,RYR1ST_43617,RYR1ST_43618
+112,landing_time,2019-03-14 12:11:54+00:00,2019-03-14 12:28:17+00:00
+112,attempt_times,"[datetime.datetime(2019, 3, 14, 12, 8, 44, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 14, 12, 28, 17, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+112,__index_level_0__,465471,465566
+113,flight_id,RYR84XB_155397,RYR84XB_155398
+113,landing_time,2019-08-01 20:51:15+00:00,2019-08-01 21:07:12+00:00
+113,attempt_times,"[datetime.datetime(2019, 8, 1, 20, 48, 16, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 8, 1, 21, 7, 12, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+113,__index_level_0__,1501417,1501484
+114,flight_id,RYR191B_156023,RYR191B_156024
+114,landing_time,2019-06-25 17:47:51+00:00,2019-06-25 18:05:47+00:00
+114,attempt_times,"[datetime.datetime(2019, 6, 25, 17, 44, 5, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 6, 25, 18, 5, 47, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+114,__index_level_0__,1216414,1216565
+115,flight_id,RYR13YP_156098,RYR13YP_156099
+115,landing_time,2019-12-12 17:19:20+00:00,2019-12-12 17:36:43+00:00
+115,attempt_times,"[datetime.datetime(2019, 12, 12, 17, 16, 44, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 12, 12, 17, 36, 43, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+115,ILS,['18L'],['18R']
+115,__index_level_0__,2480585,2480707
+116,flight_id,RYR2KE_161114,RYR2KE_161115
+116,landing_time,2019-11-02 22:57:35+00:00,2019-11-02 23:12:53+00:00
+116,attempt_times,"[datetime.datetime(2019, 11, 2, 22, 55, 6, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 11, 2, 23, 12, 53, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+116,__index_level_0__,2208240,2208258
+117,flight_id,RYR46ZU_60726,RYR46ZU_60727
+117,landing_time,2019-01-10 18:38:38+00:00,2019-01-10 18:57:24+00:00
+117,attempt_times,"[datetime.datetime(2019, 1, 10, 18, 36, 54, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 10, 18, 57, 24, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+117,__index_level_0__,61958,62095
+118,flight_id,EIN65A_199439,EIN65A_199440
+118,landing_time,2019-12-20 18:18:39+00:00,2019-12-20 18:44:58+00:00
+118,attempt_times,"[datetime.datetime(2019, 12, 20, 18, 18, 36, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 12, 20, 18, 35, 48, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+118,__index_level_0__,2531021,2531242
+119,flight_id,AZA20Y_177809,AZA20Y_177810
+119,landing_time,2019-01-10 18:56:29+00:00,2019-01-10 19:10:27+00:00
+119,attempt_times,"[datetime.datetime(2019, 1, 10, 18, 56, 29, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 10, 19, 10, 27, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+119,__index_level_0__,62090,62183
+120,flight_id,RYR59LQ_165882,RYR59LQ_165883
+120,landing_time,2019-12-20 11:29:24+00:00,2019-12-20 11:47:26+00:00
+120,attempt_times,"[datetime.datetime(2019, 12, 20, 11, 26, 32, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 12, 20, 11, 47, 26, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+120,__index_level_0__,2528033,2528179
+121,flight_id,IBK5350_91490,IBK5350_91491
+121,landing_time,2019-07-07 08:05:48+00:00,2019-07-07 08:23:15+00:00
+121,attempt_times,"[datetime.datetime(2019, 7, 7, 7, 59, 59, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 7, 7, 8, 23, 15, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+121,__index_level_0__,1302819,1302934
+122,flight_id,RYR36FR_167469,RYR36FR_167470
+122,landing_time,2019-07-21 21:39:36+00:00,2019-07-21 21:57:23+00:00
+122,attempt_times,"[datetime.datetime(2019, 7, 21, 21, 38, 3, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 7, 21, 21, 57, 23, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+122,__index_level_0__,1416573,1416642
+123,flight_id,IBK5806_168137,IBK5806_168138
+123,landing_time,2019-04-24 18:07:58+00:00,2019-04-24 18:22:45+00:00
+123,attempt_times,"[datetime.datetime(2019, 4, 24, 18, 4, 44, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 4, 24, 18, 22, 45, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+123,__index_level_0__,758285,758400
+124,flight_id,RYR73YW_75043,RYR73YW_75044
+124,landing_time,2019-09-27 15:34:09+00:00,2019-09-27 15:50:28+00:00
+124,attempt_times,"[datetime.datetime(2019, 9, 27, 15, 21, 31, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 9, 27, 15, 50, 28, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+124,__index_level_0__,1931063,1931182
+125,flight_id,RYR84GU_171231,RYR84GU_171232
+125,landing_time,2019-04-02 20:37:09+00:00,2019-04-02 20:54:47+00:00
+125,attempt_times,"[datetime.datetime(2019, 4, 2, 20, 35, 23, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 4, 2, 20, 54, 47, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+125,__index_level_0__,602263,602353
+126,flight_id,SAS31A_182003,SAS31A_182004
+126,landing_time,2019-01-09 19:31:52+00:00,2019-01-09 19:44:59+00:00
+126,attempt_times,"[datetime.datetime(2019, 1, 9, 19, 31, 52, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 9, 19, 44, 59, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+126,__index_level_0__,56335,56415
+127,flight_id,ICE454_184251,ICE454_184252
+127,landing_time,2019-01-10 18:47:37+00:00,2019-01-10 19:04:46+00:00
+127,attempt_times,"[datetime.datetime(2019, 1, 10, 18, 47, 37, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 10, 19, 4, 46, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+127,__index_level_0__,62025,62142
+128,flight_id,ICE454_184354,ICE454_184355
+128,landing_time,2019-01-16 18:53:49+00:00,2019-01-16 19:12:56+00:00
+128,attempt_times,"[datetime.datetime(2019, 1, 16, 18, 53, 49, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 16, 19, 12, 56, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+128,__index_level_0__,93679,93783
+129,flight_id,ICE450_184824,ICE450_184825
+129,landing_time,2019-01-13 10:12:06+00:00,2019-01-13 10:28:27+00:00
+129,attempt_times,"[datetime.datetime(2019, 1, 13, 10, 11, 5, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 13, 10, 28, 27, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+129,__index_level_0__,75926,76008
+130,flight_id,LGL3837_173959,LGL3837_173960
+130,landing_time,2019-07-07 17:20:17+00:00,2019-07-07 17:36:28+00:00
+130,attempt_times,"[datetime.datetime(2019, 7, 7, 17, 18, 53, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 7, 7, 17, 36, 28, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+130,ILS,['18L'],['18R']
+130,__index_level_0__,1306722,1306841
+131,flight_id,ADR118_209541,ADR118_209542
+131,landing_time,2019-08-12 16:59:40+00:00,2019-08-12 17:20:24+00:00
+131,attempt_times,"[datetime.datetime(2019, 8, 12, 16, 40, 8, tzinfo=zoneinfo.ZoneInfo(key='UTC')), datetime.datetime(2019, 8, 12, 16, 54, 36, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 8, 12, 17, 18, 44, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+131,ILS,"['25R', '25L']",['25L']
+131,n_attempts,2,1
+131,GoA,True,False
+131,__index_level_0__,1584157,1584309
+132,flight_id,SVA239_74421,SVA239_74422
+132,landing_time,2019-02-23 12:33:15+00:00,2019-02-23 12:51:49+00:00
+132,attempt_times,"[datetime.datetime(2019, 2, 23, 12, 31, 54, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 2, 23, 12, 51, 42, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+132,__index_level_0__,335191,335303
+133,flight_id,ELY345_74644,ELY345_74645
+133,landing_time,2019-03-07 08:56:06+00:00,2019-03-07 09:15:48+00:00
+133,attempt_times,"[datetime.datetime(2019, 3, 7, 8, 54, 49, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 7, 9, 15, 42, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+133,__index_level_0__,415638,415761
+134,flight_id,CES773_199320,CES773_199321
+134,landing_time,2019-03-04 04:53:00+00:00,2019-03-04 05:13:31+00:00
+134,attempt_times,"[datetime.datetime(2019, 3, 4, 4, 52, 44, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 4, 5, 13, 31, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+134,__index_level_0__,393352,393411
+135,flight_id,CSN673_197076,CSN673_197077
+135,landing_time,2019-01-16 18:52:01+00:00,2019-01-16 19:09:47+00:00
+135,attempt_times,"[datetime.datetime(2019, 1, 16, 18, 51, 16, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 16, 19, 9, 47, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+135,__index_level_0__,93668,93763
+136,flight_id,CPA383_121023,CPA383_121024
+136,landing_time,2019-09-01 04:26:18+00:00,2019-09-01 04:46:33+00:00
+136,attempt_times,"[datetime.datetime(2019, 9, 1, 4, 26, 18, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 9, 1, 4, 46, 2, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+136,__index_level_0__,1734125,1734201
+137,flight_id,THA916_202173,THA916_202174
+137,landing_time,2019-01-10 18:42:33+00:00,2019-01-10 19:00:28+00:00
+137,attempt_times,"[datetime.datetime(2019, 1, 10, 18, 42, 33, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 1, 10, 19, 0, 28, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+137,__index_level_0__,61986,62115
+138,flight_id,UAE5FA_178334,UAE5FA_178335
+138,landing_time,2019-06-27 18:00:18+00:00,2019-06-27 18:18:25+00:00
+138,attempt_times,"[datetime.datetime(2019, 6, 27, 17, 57, 30, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 6, 27, 18, 18, 25, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+138,ILS,['18L'],['18R']
+138,__index_level_0__,1231132,1231285
+139,flight_id,UAE87_121962,UAE87_121963
+139,landing_time,2019-12-09 11:25:17+00:00,2019-12-09 11:45:57+00:00
+139,attempt_times,"[datetime.datetime(2019, 12, 9, 11, 24, 1, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 12, 9, 11, 42, 1, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+139,__index_level_0__,2457758,2457906
+140,flight_id,UAE97_141208,UAE97_141209
+140,landing_time,2019-03-26 11:13:35+00:00,2019-03-26 11:33:11+00:00
+140,attempt_times,"[datetime.datetime(2019, 3, 26, 11, 10, 46, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 26, 11, 33, 11, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+140,__index_level_0__,548547,548672
+141,flight_id,UAE89_75898,UAE89_75899
+141,landing_time,2019-03-23 11:30:37+00:00,2019-03-23 11:47:47+00:00
+141,attempt_times,"[datetime.datetime(2019, 3, 23, 11, 29, 41, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 23, 11, 47, 42, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+141,__index_level_0__,528289,528407
+142,flight_id,UPS256_180342,UPS256_180343
+142,landing_time,2019-04-25 03:58:32+00:00,2019-04-25 04:14:34+00:00
+142,attempt_times,"[datetime.datetime(2019, 4, 25, 3, 56, 33, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 4, 25, 4, 14, 34, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+142,__index_level_0__,759938,759988
+143,flight_id,UPS244_90002,UPS244_90003
+143,landing_time,2019-07-24 01:22:55+00:00,2019-07-24 01:39:29+00:00
+143,attempt_times,"[datetime.datetime(2019, 7, 24, 1, 20, 58, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 7, 24, 1, 39, 29, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+143,ILS,['22'],['04']
+143,__index_level_0__,1432230,1432237
+144,flight_id,AVA014_183360,AVA014_183361
+144,landing_time,2019-07-25 13:19:52+00:00,2019-07-25 13:34:27+00:00
+144,attempt_times,"[datetime.datetime(2019, 7, 25, 13, 18, 1, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 7, 25, 13, 34, 27, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+144,__index_level_0__,1443644,1443736
+145,flight_id,AVA016_183630,AVA016_183631
+145,landing_time,2019-03-09 09:08:46+00:00,2019-03-09 09:28:02+00:00
+145,attempt_times,"[datetime.datetime(2019, 3, 9, 9, 6, 44, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 3, 9, 9, 27, 28, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+145,__index_level_0__,430150,430285
+146,flight_id,AMX001_184733,AMX001_184734
+146,landing_time,2019-09-14 13:58:50+00:00,2019-09-14 14:18:06+00:00
+146,attempt_times,"[datetime.datetime(2019, 9, 14, 13, 56, 27, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 9, 14, 14, 18, 6, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+146,ILS,['32L'],['18R']
+146,__index_level_0__,1840970,1841102
+147,flight_id,ACA874_232735,ACA874_232736
+147,landing_time,2019-02-02 06:51:50+00:00,2019-02-02 07:10:46+00:00
+147,attempt_times,"[datetime.datetime(2019, 2, 2, 6, 51, 50, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]","[datetime.datetime(2019, 2, 2, 7, 7, 50, tzinfo=zoneinfo.ZoneInfo(key='UTC'))]"
+147,__index_level_0__,194134,194247

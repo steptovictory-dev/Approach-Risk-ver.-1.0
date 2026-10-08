@@ -1,0 +1,45 @@
+{
+  "pair_id": 134,
+  "icao24": "780b33",
+  "date": "2019-03-04",
+  "airport": "LFPG",
+  "retrieved_utc_date": "2026-10-08",
+  "source": "OpenSky public state-vector snapshots",
+  "independent_of_derived_landing_table": true,
+  "independent_sensor_network": false,
+  "rows": 524,
+  "files": [
+    {
+      "url": "https://s3.opensky-network.org/data-samples/states/.2019-03-04/04/states_2019-03-04-04.csv.tar",
+      "path": "europe\\data\\source\\public_pair_134\\states_2019-03-04-04.csv.tar",
+      "bytes": 96276480,
+      "sha256": "6cb3664491ebab01dceb6c020f7ae93454b7a18ffc129f1d98396e83e62fd431"
+    },
+    {
+      "url": "https://s3.opensky-network.org/data-samples/states/.2019-03-04/05/states_2019-03-04-05.csv.tar",
+      "path": "europe\\data\\source\\public_pair_134\\states_2019-03-04-05.csv.tar",
+      "bytes": 91566080,
+      "sha256": "b59784049691fa15a2cc708eb35755a99af23c39292349a14858c403c4846808"
+    }
+  ],
+  "columns": [
+    "time",
+    "icao24",
+    "lat",
+    "lon",
+    "velocity",
+    "heading",
+    "vertrate",
+    "callsign",
+    "onground",
+    "alert",
+    "spi",
+    "squawk",
+    "baroaltitude",
+    "geoaltitude",
+    "lastposupdate",
+    "lastcontact"
+  ],
+  "filtered_file": "europe\\data\\source\\public_pair_134\\780b33_raw_state_vectors.parquet",
+  "filtered_sha256": "b1a64eabe424a1781ebd2670292a08235a283fda1aa2206de5f548302d37e735"
+}

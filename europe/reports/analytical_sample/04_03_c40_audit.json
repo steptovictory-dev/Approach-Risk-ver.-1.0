@@ -1,0 +1,21 @@
+{
+  "input_sha256": "ddf11438bab44137242ffcf4da928418e116efd46defce58dc8a388b67942b6d",
+  "input_unchanged": true,
+  "rows_checked": 7984254,
+  "go_arounds": 26253,
+  "rows_changed": 0,
+  "rows_deleted": 0,
+  "present_c40_rows": 6331872,
+  "c40_equal_to_first_attempt_rows": 0,
+  "c40_before_first_attempt_rows": 6331785,
+  "first_attempt_minus_c40_minutes": {
+    "min": -44.81666666666667,
+    "p05": 10.366666666666667,
+    "median": 14.3,
+    "p95": 22.033333333333335,
+    "max": 135.01666666666668
+  },
+  "grouping_time": "UTC month of final landing, retrospective grouping only",
+  "market_segment_is_verified_flight_purpose": false,
+  "trajectory_matching_verified": false
+}
