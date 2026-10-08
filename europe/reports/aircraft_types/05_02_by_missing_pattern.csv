@@ -1,0 +1,5 @@
+missing_pattern,rows,go_arounds
+both_missing,218080,688
+classification_only_missing,63658,210
+complete,6046165,17447
+typecode_only_missing,3591,13

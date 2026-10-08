@@ -3,7 +3,7 @@ from pathlib import Path
 import nbformat
 
 region = Path(__file__).resolve().parents[1]
-folder = region / 'notebooks/c40'
+folder = region / 'notebooks/04_с40'
 folder.mkdir(parents=True, exist_ok=True)
 path = folder / '04_01_task_definition.ipynb'
 if path.exists():

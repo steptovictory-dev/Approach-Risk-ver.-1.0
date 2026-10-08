@@ -1,0 +1,16 @@
+{
+  "input": "europe\\data\\analytical\\04_c40_available.parquet",
+  "input_sha256": "f51a710fd9a11fe7003776748c3dc4f5792d81496713d96fb59c8c8f256e717e",
+  "input_unchanged": true,
+  "rows_checked": 6331494,
+  "go_arounds": 18358,
+  "unresolved_rows": 502,
+  "unresolved_go_arounds": 2,
+  "rows_if_five_codes_excluded": 6330992,
+  "go_arounds_if_five_codes_excluded": 18356,
+  "rows_changed": 0,
+  "rows_deleted": 0,
+  "filter_applied": false,
+  "classification_shape_is_diagnostic_only": true,
+  "reference_historical_applicability_verified": false
+}

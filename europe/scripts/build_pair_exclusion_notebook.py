@@ -3,7 +3,7 @@ from pathlib import Path
 import nbformat
 
 region=Path(__file__).resolve().parents[1]
-path=region/'notebooks/c40/04_08_exclude_ambiguous_pairs.ipynb'
+path=region/'notebooks/04_с40/04_08_exclude_ambiguous_pairs.ipynb'
 if path.exists():
     raise FileExistsError('Редактируйте существующий ноутбук непосредственно')
 cells=[nbformat.v4.new_markdown_cell('''# 04_08 – Исключение 147 неоднозначных пар

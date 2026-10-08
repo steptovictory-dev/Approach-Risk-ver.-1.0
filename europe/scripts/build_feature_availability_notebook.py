@@ -3,7 +3,7 @@ from pathlib import Path
 import nbformat
 
 region = Path(__file__).resolve().parents[1]
-path = region / 'notebooks/c40/04_02_feature_availability.ipynb'
+path = region / 'notebooks/04_с40/04_02_feature_availability.ipynb'
 if path.exists():
     raise FileExistsError('Редактируйте существующий ноутбук непосредственно')
 cells = [

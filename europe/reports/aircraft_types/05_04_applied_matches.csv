@@ -1,0 +1,7 @@
+typecode,lookup_key,aircraft_description_restored,aircraft_restoration_status,rows,go_arounds
+ A320,A320,L2J,restored_from_trimmed_designator,565,1
+G100,G100,L2J,restored_from_explicit_model_name,2,0
+G350,G350,L2J,restored_from_explicit_model_name,7,0
+G450,G450,L2J,restored_from_explicit_model_name,1308,3
+G550,G550,L2J,restored_from_explicit_model_name,3896,9
+G650,G650,L2J,restored_from_explicit_model_name,2732,5

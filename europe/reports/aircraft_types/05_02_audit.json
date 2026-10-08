@@ -1,0 +1,20 @@
+{
+  "input_sha256": "f51a710fd9a11fe7003776748c3dc4f5792d81496713d96fb59c8c8f256e717e",
+  "history_input_sha256": "ddf11438bab44137242ffcf4da928418e116efd46defce58dc8a388b67942b6d",
+  "input_unchanged": true,
+  "history_input_unchanged": true,
+  "rows_checked": 6331494,
+  "positive_total": 18358,
+  "missing_rows": 285329,
+  "missing_positive": 911,
+  "missing_addresses": 3204,
+  "positive_missing_addresses": 332,
+  "rows_with_any_unique_internal_candidate": 0,
+  "positive_with_any_unique_internal_candidate": 0,
+  "registration_missing_rows": 0,
+  "registration_missing_positive": 0,
+  "rows_changed": 0,
+  "rows_deleted": 0,
+  "candidates_applied": false,
+  "internal_history_does_not_verify_aircraft_identity_or_historical_feature_availability": true
+}

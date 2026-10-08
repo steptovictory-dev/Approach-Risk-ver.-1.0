@@ -1,0 +1,4 @@
+missing_pattern,typecode_evidence,icaoaircrafttype_evidence,rows,go_arounds
+both_missing,no_internal_candidate,no_internal_candidate,218080,688
+classification_only_missing,not_missing,no_internal_candidate,63658,210
+typecode_only_missing,no_internal_candidate,not_missing,3591,13

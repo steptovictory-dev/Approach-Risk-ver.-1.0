@@ -1,0 +1,11 @@
+check,rows,go_arounds,ga_percent
+all_rows,6331494,18358,0.2899473647136047
+either_type_field_missing,285329,911,0.3192805498214342
+icaoaircrafttype_missing,281738,898,0.3187358467796321
+typecode_missing,221671,701,0.31623441947751396
+both_type_fields_missing,218080,688,0.31548055759354365
+icaoaircrafttype_nonstandard_shape,4924,11,0.22339561332250202
+reference_status_unresolved,502,2,0.398406374501992
+five_unresolved_codes,502,2,0.398406374501992
+icaoaircrafttype_empty_or_whitespace,0,0,
+typecode_empty_or_whitespace,0,0,

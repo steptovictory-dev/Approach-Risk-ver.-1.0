@@ -3,7 +3,7 @@ from pathlib import Path
 import nbformat
 
 region = Path(__file__).resolve().parents[1]
-path = region / 'notebooks/c40/04_04_c40_matching.ipynb'
+path = region / 'notebooks/04_с40/04_04_c40_matching.ipynb'
 if path.exists():
     raise FileExistsError('Редактируйте существующий ноутбук непосредственно')
 cells = [nbformat.v4.new_markdown_cell('''# 04_04 – Проверка сопоставления C40 перед отбором

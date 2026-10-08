@@ -1,0 +1,38 @@
+source_token,reference_url,subtype_source,matching_level,ModelFullName,Designator,Description
+A320-251N,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,https://ad.easa.europa.eu/ad/2024-0231/print,classification_only,A-320 Prestige,A320,L2J
+A320-251N,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,https://ad.easa.europa.eu/ad/2024-0231/print,classification_only,A-320neo,A20N,L2J
+A320-251N,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,https://ad.easa.europa.eu/ad/2024-0231/print,classification_only,ACJ-320neo,A20N,L2J
+A320-251N,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,https://ad.easa.europa.eu/ad/2024-0231/print,classification_only,A-320,A320,L2J
+A321-231,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,https://ad.easa.europa.eu/ad/2024-0231/print,classification_only,A-321,A321,L2J
+A320-214,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,https://ad.easa.europa.eu/ad/2024-0231/print,classification_only,A-320 Prestige,A320,L2J
+A320-214,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,https://ad.easa.europa.eu/ad/2024-0231/print,classification_only,A-320,A320,L2J
+A330,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,A-330-200 Prestige,A332,L2J
+A330,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,A-330-900,A339,L2J
+A330,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,A-330-800,A338,L2J
+A330,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,A-330-700 Beluga XL,A337,L2J
+A330,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,A-330-MRTT,A332,L2J
+A330,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,A-330-MRTT Voyager,A332,L2J
+A330,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,A-330-MRTT Phénix,A332,L2J
+A330,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,A-330-200,A332,L2J
+A330,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,A-330-300,A333,L2J
+A350,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,A-350-1000 XWB,A35K,L2J
+A350,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,A-350-1000 XWB Prestige,A35K,L2J
+A350,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,A-350-900 XWB,A359,L2J
+A350,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,A-350-900 XWB Prestige,A359,L2J
+A380,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,A-380-800 Prestige,A388,L4J
+A380,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,A-380-800,A388,L4J
+B777,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,777-200,B772,L2J
+B777,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,777-200ER,B772,L2J
+B777,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,777-200LR,B77L,L2J
+B777,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,777-300,B773,L2J
+B777,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,777-300ER,B77W,L2J
+B777,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,777-200LR BBJ,B77L,L2J
+B777,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,777-300ER BBJ,B77W,L2J
+B777,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,777-8,B778,L2J
+B777,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,777-9,B779,L2J
+B777,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,777-8F,B778,L2J
+G500,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,G-5SP Gulfstream G500,GLF5,L2J
+G500,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,G-7 Gulfstream G500,GA5C,L2J
+G400,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,G-4 Gulfstream G400,GLF4,L2J
+G400,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,G-7 Gulfstream G400,GA4C,L2J
+G600,https://www.icao.int/operational-safety/doc-8643-aircraft-type-designators/search,,classification_only,G-7 Gulfstream G600,GA6C,L2J

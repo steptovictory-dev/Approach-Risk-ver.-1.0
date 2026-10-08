@@ -1,0 +1,912 @@
+icao24,registration,typecode,icaoaircrafttype,AC_CLASS,market_segment,airport,landing_time,GoA,n_attempts,missing_pattern,year,registrations_in_history,typecode_variants,typecode_candidate,typecode_first_known,icaoaircrafttype_variants,icaoaircrafttype_candidate,icaoaircrafttype_first_known,typecode_evidence,typecode_candidate_seen_before,icaoaircrafttype_evidence,icaoaircrafttype_candidate_seen_before
+4b1808,HBJCQ,,,MJ,Mainline,EGLL,2019-01-03 18:36:25+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4408a2,OEIJS,,,MJ,Lowcost,EHAM,2019-01-08 16:56:07+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fb,HBJCD,,,MJ,Mainline,LSZH,2019-01-08 19:13:14+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1801,HBJCJ,,,MJ,Mainline,LSZH,2019-01-09 16:51:39+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fd,HBJCF,,,MJ,Mainline,EDDM,2019-01-11 20:02:51+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a921eb,N688LB,,,MJ,Business,LSGG,2019-01-13 07:10:22+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4408a2,OEIJS,,,MJ,Lowcost,EHAM,2019-01-13 16:49:11+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1800,HBJCI,,,MJ,Mainline,LIMC,2019-01-16 07:52:42+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+8964a4,A6EQL,,,H,Mainline,EDDF,2019-01-22 07:06:56+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1801,HBJCJ,,,MJ,Mainline,EGLL,2019-01-27 19:22:59+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1803,HBJCL,,,MJ,Mainline,LSGG,2019-01-30 16:41:27+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+800742,VTNAC,,,H,Mainline,LIRF,2019-01-30 16:51:54+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+471efe,HALTE,A321-231 ,,MJ,Lowcost,LOWW,2019-01-30 18:49:53+00:00,True,2,classification_only_missing,2019,1,1,A321-231 ,2019-01-01 19:24:13+00:00,0,,,not_missing,False,no_internal_candidate,False
+06a2c7,A7BEX,,,H,Mainline,LFPG,2019-01-31 19:07:29+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+06a2b6,A7BER,,,H,Mainline,EDDM,2019-02-06 05:31:43+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b18b9,HBJJL,,,MJ,Mainline,LSZH,2019-02-06 18:25:18+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fb,HBJCD,,,MJ,Mainline,LFPG,2019-02-08 19:27:11+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca8fb,EINEU,,,H,,LIMC,2019-02-09 08:00:55+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+06a0e7,A7AMH,,,H,Mainline,ESSA,2019-02-16 19:12:57+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+06a086,A7CEB,CL65,,MJ,Business,LSZH,2019-02-20 20:50:18+00:00,True,2,classification_only_missing,2019,1,1,CL65,2019-02-19 18:27:07+00:00,0,,,not_missing,False,no_internal_candidate,False
+44061d,OELQQ,,,MJ,Lowcost,LSZH,2019-03-04 15:53:44+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cafcd,EISIH,,,MJ,Mainline,ESSA,2019-03-05 09:22:59+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4bc8a3,TCREC,G450,,MJ,Business,EHAM,2019-03-06 19:37:34+00:00,True,2,classification_only_missing,2019,1,1,G450,2019-01-03 13:30:13+00:00,0,,,not_missing,False,no_internal_candidate,False
+4d20c9,9HVFC,CL65,,MJ,Business,EHAM,2019-03-07 11:11:14+00:00,True,2,classification_only_missing,2019,1,1,CL65,2019-01-04 12:38:32+00:00,0,,,not_missing,False,no_internal_candidate,False
+c038a7,CFVLU,,,H,Mainline,EKCH,2019-03-09 12:55:47+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf82,EISIF,,,MJ,Mainline,EGLL,2019-03-10 09:15:38+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fb,HBJCD,,,MJ,Mainline,LSZH,2019-03-10 15:42:29+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+06a0e7,A7AMH,,,H,Mainline,LSZH,2019-03-11 12:02:29+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cafcd,EISIH,,,MJ,Mainline,EGCC,2019-03-14 12:28:08+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b191e,HBJNI,,,H,Mainline,LSZH,2019-03-14 14:27:57+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b18ba,HBJJM,,,MJ,Mainline,LSZH,2019-03-15 14:53:25+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a7c345,N6HJ,G550,,MJ,Business,EGSS,2019-03-15 15:15:27+00:00,True,2,classification_only_missing,2019,1,1,G550,2019-03-11 19:03:13+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1a26,HBJXM,,,MJ,Lowcost,EKCH,2019-03-15 15:33:22+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cacca,EIFPV,,,MJ,Regional,EKCH,2019-03-16 06:30:20+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cacca,EIFPV,,,MJ,Regional,EKCH,2019-03-18 10:23:48+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9ed,SEROM,,,MJ,Mainline,EKCH,2019-03-20 11:37:12+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+7380c6,4XEDH,,,H,Mainline,LIRF,2019-03-22 07:47:39+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a661c7,N510DN,,,H,Mainline,EHAM,2019-03-25 06:34:52+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+06a0e8,A7AMI,,,H,Mainline,LSZH,2019-03-27 11:30:51+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+478e27,LNWEA,,,MJ,Regional,LOWW,2019-03-29 08:59:24+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b18b9,HBJJL,,,MJ,Mainline,LSZH,2019-03-30 21:45:13+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cacca,EIFPV,,,MJ,Regional,EKCH,2019-04-02 14:55:47+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1805,HBJCN,,,MJ,Mainline,LSZH,2019-04-04 06:32:00+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a8d336,N668P,G550,,MJ,Business,EGSS,2019-04-07 07:56:28+00:00,True,2,classification_only_missing,2019,1,1,G550,2019-04-07 07:56:28+00:00,0,,,not_missing,False,no_internal_candidate,False
+800741,VTNAA,,,H,Mainline,LOWW,2019-04-08 15:31:18+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a05628,N12005,,,H,Mainline,EDDF,2019-04-10 07:28:41+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+471efe,HALTE,A321-231 ,,MJ,Lowcost,LOWW,2019-04-10 21:15:19+00:00,True,2,classification_only_missing,2019,1,1,A321-231 ,2019-01-01 19:24:13+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1803,HBJCL,,,MJ,Mainline,LSGG,2019-04-11 15:31:25+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a25,HBJXL,,,MJ,Lowcost,LSGG,2019-04-15 13:13:36+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a24,HBJXK,,,MJ,Lowcost,LSGG,2019-04-19 12:44:26+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+0d0a9b,XAADH,,,H,Mainline,LEMD,2019-04-24 15:23:10+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf82,EISIF,,,MJ,Mainline,EKCH,2019-04-29 20:18:18+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf7e,EISIE,,,MJ,Mainline,EKCH,2019-04-30 14:39:42+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4408a2,OEIJS,,,MJ,Lowcost,LFPG,2019-05-01 20:25:03+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf95,EIFPX,,,MJ,Regional,EKCH,2019-05-06 09:42:28+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a0d30c,N152QS,GL6T,,MJ,Business,LSZH,2019-05-09 11:35:45+00:00,True,2,classification_only_missing,2019,1,1,GL6T,2019-02-26 02:32:05+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b18b8,HBJJK,,,MJ,Mainline,LSZH,2019-05-09 15:26:09+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1800,HBJCI,,,MJ,Mainline,LSZH,2019-05-11 13:58:13+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1808,HBJCQ,,,MJ,Mainline,LSZH,2019-05-13 10:44:13+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a26,HBJXM,,,MJ,Lowcost,LSGG,2019-05-13 13:10:36+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+3c60b2,DAHER,F9EX,,MJ,,LEMD,2019-05-17 08:32:34+00:00,True,2,classification_only_missing,2019,1,1,F9EX,2019-04-18 14:32:34+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1805,HBJCN,,,MJ,Mainline,LSZH,2019-05-20 15:58:34+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4072ea,GVWOO,,,H,Mainline,EGLL,2019-05-21 13:30:29+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1809,HBJCR,,,MJ,Mainline,LSZH,2019-05-23 09:50:39+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+8964b3,A6EVE,,,H,Mainline,LIMC,2019-05-24 18:25:15+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cafcd,EISIH,,,MJ,Mainline,EKCH,2019-05-26 17:28:35+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1863,HBJGD,F2TS,,MJ,Business,LSGG,2019-05-28 10:47:25+00:00,True,2,classification_only_missing,2019,1,1,F2TS,2019-01-11 18:59:33+00:00,0,,,not_missing,False,no_internal_candidate,False
+4ac9ed,SEROM,,,MJ,Mainline,ESSA,2019-05-29 18:42:12+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+ac10d8,N877FD,,,H,Cargo,LFPG,2019-05-31 13:06:06+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a05628,N12005,,,H,Mainline,EDDF,2019-06-02 07:57:40+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf7e,EISIE,,,MJ,Mainline,EGLL,2019-06-02 15:48:41+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf95,EIFPX,,,MJ,Regional,ESSA,2019-06-03 12:40:21+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a05626,N12003,,,H,Mainline,LFPG,2019-06-04 06:02:39+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+acb4c7,N918E,G450,,MJ,Business,EDDB,2019-06-05 11:08:50+00:00,True,2,classification_only_missing,2019,1,1,G450,2019-03-09 13:38:45+00:00,0,,,not_missing,False,no_internal_candidate,False
+8964a1,A6EQI,,,H,Mainline,LSGG,2019-06-05 11:10:06+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1808,HBJCQ,,,MJ,Mainline,EGLL,2019-06-06 12:44:10+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+5110e9,ESATE,,,MT,Regional,EKCH,2019-06-08 11:21:45+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+0d0a9b,XAADH,,,H,Mainline,EGLL,2019-06-09 15:15:05+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+aace63,N796AV,,,H,Mainline,LEMD,2019-06-11 09:34:06+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fe,HBJCG,,,MJ,Mainline,LSGG,2019-06-11 15:39:41+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1800,HBJCI,,,MJ,Mainline,LSZH,2019-06-15 21:36:26+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1809,HBJCR,,,MJ,Mainline,LSGG,2019-06-20 17:09:09+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caca0,EIFPR,,,MJ,Regional,ESSA,2019-06-22 15:48:59+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+8964a4,A6EQL,,,H,Mainline,LSGG,2019-06-22 17:45:27+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+aae952,N802AG,G550,,MJ,Business,LSGG,2019-06-24 06:41:49+00:00,True,2,classification_only_missing,2019,1,1,G550,2019-02-04 01:39:39+00:00,0,,,not_missing,False,no_internal_candidate,False
+5110e9,ESATE,,,MT,Regional,EKCH,2019-06-25 05:17:45+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+8964a8,A6EQP,B777,,H,Mainline,LOWW,2019-06-26 17:54:24+00:00,True,2,classification_only_missing,2019,1,1,B777,2019-01-01 13:38:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+4ac9ef,SEROO,,,MJ,Mainline,EKCH,2019-06-27 12:48:13+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a000b4,N1HC,G550,,MJ,Business,EDDB,2019-07-06 20:19:02+00:00,True,2,classification_only_missing,2019,1,1,G550,2019-07-06 20:19:02+00:00,0,,,not_missing,False,no_internal_candidate,False
+4ac9e6,SEROF,,,MJ,Mainline,ESSA,2019-07-06 22:51:04+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b288c,HBPJG,,,LT,,LSZH,2019-07-12 13:31:52+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+3c1cf3,DAZZA,CL65,,MJ,Business,EDDF,2019-07-23 11:27:26+00:00,True,2,classification_only_missing,2019,1,1,CL65,2019-01-29 19:08:34+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1807,HBJCP,,,MJ,Mainline,LSGG,2019-07-24 10:21:04+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+440061,OELCR,,,MJ,Lowcost,LIRF,2019-07-28 08:00:18+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1803,HBJCL,,,MJ,Mainline,LSZH,2019-08-03 10:59:52+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1808,HBJCQ,,,MJ,Mainline,LSZH,2019-08-08 06:09:16+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+800741,VTNAA,,,H,Mainline,EDDF,2019-08-08 16:42:23+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fe,HBJCG,,,MJ,Mainline,EGLL,2019-08-10 13:08:27+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1808,HBJCQ,,,MJ,Mainline,LSZH,2019-08-11 04:54:56+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1804,HBJCM,,,MJ,Mainline,LSZH,2019-08-15 06:11:11+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+8964a4,A6EQL,,,H,Mainline,EDDF,2019-08-16 06:25:28+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1800,HBJCI,,,MJ,Mainline,LSGG,2019-08-16 06:38:10+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39aeab,FHLVL,A330,,H,Lowcost,LFPO,2019-08-18 09:48:19+00:00,True,2,classification_only_missing,2019,1,1,A330,2019-01-01 10:01:55+00:00,0,,,not_missing,False,no_internal_candidate,False
+c038aa,CFVLX,,,H,Mainline,LOWW,2019-08-21 07:00:19+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+440654,OEIRT,GL6T,,MJ,Business,LOWW,2019-08-23 11:39:25+00:00,True,2,classification_only_missing,2019,1,1,GL6T,2019-03-17 12:50:44+00:00,0,,,not_missing,False,no_internal_candidate,False
+06a10b,A7ALW,,,H,Mainline,ESSA,2019-08-25 19:23:22+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+781704,B20C6,,,H,Mainline,EGLL,2019-08-26 14:25:47+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fd,HBJCF,,,MJ,Mainline,LSZH,2019-09-03 05:35:06+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+7380c8,4XEDJ,,,H,Mainline,EGLL,2019-09-04 20:39:53+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9ef,SEROO,,,MJ,Mainline,ESSA,2019-09-13 05:31:24+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+0d0a9a,XAADG,,,H,Mainline,LFPG,2019-09-14 10:29:54+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4d21c5,9HSZN,,,H,Mainline,LFPG,2019-09-14 15:16:58+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+424757,VPCTS,G650,,MJ,Business,EGSS,2019-09-16 20:34:19+00:00,True,2,classification_only_missing,2019,1,1,G650,2019-06-18 14:11:30+00:00,0,,,not_missing,False,no_internal_candidate,False
+8964a2,A6EQJ,,,H,Mainline,LSGG,2019-09-17 11:13:59+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1801,HBJCJ,,,MJ,Mainline,LSGG,2019-09-18 18:26:53+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+471efe,HALTE,A321-231 ,,MJ,Lowcost,LOWW,2019-09-28 16:39:09+00:00,True,3,classification_only_missing,2019,1,1,A321-231 ,2019-01-01 19:24:13+00:00,0,,,not_missing,False,no_internal_candidate,False
+48ae21,SPLSB,,,H,Mainline,EPWA,2019-09-30 12:03:59+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+440061,OELCR,,,MJ,Lowcost,EHAM,2019-10-01 17:01:58+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+7812bd,B1357,,,H,,EHAM,2019-10-07 04:00:59+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1803,HBJCL,,,MJ,Mainline,LSGG,2019-10-07 09:37:50+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+5110e9,ESATE,,,MT,Regional,EKCH,2019-10-10 17:59:36+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1800,HBJCI,,,MJ,Mainline,LSZH,2019-10-11 15:35:02+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a11ba0,N17002,,,H,Mainline,EDDF,2019-10-12 07:18:53+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9f0,SEROP,,,MJ,Mainline,EDDF,2019-10-12 09:34:58+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cacc8,EIFPT,,,MJ,Regional,EKCH,2019-10-15 11:56:18+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+710228,HZA8,H900,,MJ,Business,EGSS,2019-10-16 16:00:42+00:00,True,2,classification_only_missing,2019,1,1,H900,2019-10-16 16:00:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1800,HBJCI,,,MJ,Mainline,LFPG,2019-10-22 17:53:41+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4d212d,9HVJT,GL6T,,MJ,Business,EPWA,2019-10-23 08:38:13+00:00,True,2,classification_only_missing,2019,1,1,GL6T,2019-01-21 18:02:14+00:00,0,,,not_missing,False,no_internal_candidate,False
+4cacca,EIFPV,,,MJ,Regional,EPWA,2019-10-23 21:05:33+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1804,HBJCM,,,MJ,Mainline,LSZH,2019-10-24 16:03:15+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1809,HBJCR,,,MJ,Mainline,LSZH,2019-10-26 10:54:15+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1805,HBJCN,,,MJ,Mainline,LSZH,2019-10-28 19:28:34+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a24,HBJXK,,,MJ,Lowcost,LSGG,2019-10-30 17:32:36+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+ab6afa,N835AN,,,H,Mainline,EGLL,2019-11-01 08:24:12+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf82,EISIF,,,MJ,Mainline,EKCH,2019-11-02 08:30:27+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+40749b,GZBKR,,,H,Mainline,EGLL,2019-11-02 15:55:01+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1805,HBJCN,,,MJ,Mainline,LSZH,2019-11-03 20:59:31+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+06a0ea,A7AMK,,,H,Mainline,EGLL,2019-11-04 17:38:41+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a227a7,N238QS,,,MJ,Business,EIDW,2019-11-04 19:21:10+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1800,HBJCI,,,MJ,Mainline,LSZH,2019-11-04 20:46:17+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9bc,EILRC,,,MJ,Mainline,EIDW,2019-11-07 06:24:17+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+ac70d1,N900SW,,,MJ,Business,EDDB,2019-11-11 08:48:26+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fb,HBJCD,,,MJ,Mainline,EGLL,2019-11-11 16:36:59+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+3455d5,ECMUD,,,H,,LEMD,2019-11-12 05:43:19+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9bc,EILRC,,,MJ,Mainline,EIDW,2019-11-12 06:17:27+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+5110e7,ESATC,,,MT,Regional,EKCH,2019-11-15 06:14:22+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9e6,SEROF,,,MJ,Non-Scheduled,ESSA,2019-11-17 20:44:29+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9ef,SEROO,,,MJ,Mainline,ESSA,2019-11-17 20:46:50+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9f2,SEROR,,,MJ,Mainline,ESSA,2019-11-17 20:48:45+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+471efe,HALTE,A321-231 ,,MJ,Lowcost,LOWW,2019-11-18 12:46:05+00:00,True,2,classification_only_missing,2019,1,1,A321-231 ,2019-01-01 19:24:13+00:00,0,,,not_missing,False,no_internal_candidate,False
+4caca0,EIFPR,,,MJ,Regional,EKCH,2019-11-20 18:55:59+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+8964a2,A6EQJ,,,H,Mainline,EDDF,2019-11-22 05:59:01+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b18b8,HBJJK,,,MJ,Mainline,LSZH,2019-11-23 15:41:37+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+78161d,B209E,,,H,Mainline,EGLL,2019-11-25 14:22:59+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+471efe,HALTE,A321-231 ,,MJ,Lowcost,LOWW,2019-11-27 16:58:53+00:00,True,2,classification_only_missing,2019,1,1,A321-231 ,2019-01-01 19:24:13+00:00,0,,,not_missing,False,no_internal_candidate,False
+471efe,HALTE,A321-231 ,,MJ,Lowcost,LOWW,2019-11-28 15:50:52+00:00,True,2,classification_only_missing,2019,1,1,A321-231 ,2019-01-01 19:24:13+00:00,0,,,not_missing,False,no_internal_candidate,False
+06a0ea,A7AMK,,,H,Mainline,LSZH,2019-12-03 11:36:50+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca8fc,EINEW,,,H,,LIMC,2019-12-03 17:52:55+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+471efe,HALTE,A321-231 ,,MJ,Lowcost,LOWW,2019-12-04 22:42:26+00:00,True,2,classification_only_missing,2019,1,1,A321-231 ,2019-01-01 19:24:13+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b17fe,HBJCG,,,MJ,Mainline,EIDW,2019-12-06 17:50:44+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cacca,EIFPV,,,MJ,Regional,EHAM,2019-12-08 08:46:57+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a4158a,N362UP,,,H,Cargo,EIDW,2019-12-10 05:04:54+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9bc,EILRC,,,MJ,Mainline,EIDW,2019-12-11 05:45:28+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+0d0a9a,XAADG,,,H,,EHAM,2019-12-17 00:56:01+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+0d0a9a,XAADG,,,H,Mainline,EGLL,2019-12-19 16:11:55+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+06a2c5,A7BEV,,,H,Mainline,EGLL,2019-12-19 20:19:09+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+8964a4,A6EQL,,,H,Mainline,LOWW,2019-12-21 17:53:36+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+06a2c5,A7BEV,,,H,Mainline,EGLL,2019-12-21 20:39:14+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fd,HBJCF,,,MJ,Mainline,LSZH,2019-12-24 13:56:26+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1805,HBJCN,,,MJ,Mainline,LSZH,2019-12-27 07:33:41+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+06a2b6,A7BER,,,H,Mainline,EGLL,2019-12-27 18:48:47+00:00,True,2,both_missing,2019,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9bc,EILRC,,,MJ,,EIDW,2020-01-01 04:50:57+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fd,HBJCF,,,MJ,Mainline,LSGG,2020-01-01 17:17:58+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+71c347,HL8347,,,H,Mainline,EDDF,2020-01-03 17:03:30+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cafcd,EISIH,,,MJ,Mainline,EGCC,2020-01-03 18:11:45+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9bb,EILRB,,,MJ,,EIDW,2020-01-11 05:05:29+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cafcd,EISIH,,,MJ,Mainline,EGLL,2020-01-14 20:31:29+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf7e,EISIE,,,MJ,Mainline,EGLL,2020-01-14 21:54:36+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cafcd,EISIH,,,MJ,Mainline,ESSA,2020-01-15 13:17:28+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1803,HBJCL,,,MJ,Mainline,LSZH,2020-01-21 15:45:09+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4072ea,GVWOO,,,H,,EGLL,2020-01-23 07:16:49+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a91b44,N686UA,,,H,Mainline,EGLL,2020-01-23 21:08:47+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+8964a4,A6EQL,,,H,Mainline,EDDF,2020-01-27 06:34:29+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1801,HBJCJ,,,MJ,Mainline,LSZH,2020-01-27 07:07:54+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b19bb,HBJTJ,,,MJ,Business,LOWW,2020-01-28 08:53:49+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028a,HBAZA,E290,,MJ,Regional,LSZH,2020-01-28 10:51:33+00:00,True,2,classification_only_missing,2020,1,1,E290,2019-10-29 19:26:03+00:00,0,,,not_missing,False,no_internal_candidate,False
+4caf82,EISIF,,,MJ,Mainline,ESSA,2020-01-28 17:25:45+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1805,HBJCN,,,MJ,Mainline,LSZH,2020-01-28 17:46:53+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a91b44,N686UA,,,H,Mainline,EGLL,2020-01-28 21:18:41+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1808,HBJCQ,,,MJ,Mainline,LSZH,2020-02-01 16:05:41+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+06a11f,A7ANC,,,H,Mainline,EGLL,2020-02-04 13:17:40+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a70473,N551PM,G550,,MJ,,LSGG,2020-02-04 18:17:39+00:00,True,2,classification_only_missing,2020,1,1,G550,2019-02-02 05:47:49+00:00,0,,,not_missing,False,no_internal_candidate,False
+a91b44,N686UA,,,H,Mainline,EGLL,2020-02-05 07:37:56+00:00,True,3,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1800,HBJCI,,,MJ,Mainline,LSZH,2020-02-05 17:31:46+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a91b44,N686UA,,,H,,EGLL,2020-02-06 05:27:49+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0f78,HBFWI,,,LT,Business,LSGG,2020-02-06 15:06:13+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+40749b,GZBKR,,,H,Mainline,EGLL,2020-02-09 12:03:19+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf82,EISIF,,,MJ,Mainline,EKCH,2020-02-09 14:28:58+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+71c381,HL8381,,,H,Mainline,EGLL,2020-02-09 21:57:23+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1804,HBJCM,,,MJ,Mainline,LSGG,2020-02-10 10:42:48+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b18b8,HBJJK,,,MJ,Mainline,LSZH,2020-02-10 20:04:16+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028a,HBAZA,E290,,MJ,Regional,LSZH,2020-02-11 15:41:07+00:00,True,2,classification_only_missing,2020,1,1,E290,2019-10-29 19:26:03+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1800,HBJCI,,,MJ,Mainline,LSZH,2020-02-13 17:56:28+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9ef,SEROO,,,MJ,Mainline,ESSA,2020-02-15 15:22:20+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1801,HBJCJ,,,MJ,Mainline,EGLL,2020-02-15 18:03:42+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4d20aa,9HIGH,GL6T,,MJ,Business,EIDW,2020-02-16 19:32:21+00:00,True,2,classification_only_missing,2020,1,1,GL6T,2019-01-06 10:12:06+00:00,0,,,not_missing,False,no_internal_candidate,False
+4caf7e,EISIE,,,MJ,Mainline,EKCH,2020-02-17 15:48:56+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cafcd,EISIH,,,MJ,Mainline,EKCH,2020-02-22 21:11:47+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1800,HBJCI,,,MJ,Mainline,LSZH,2020-02-23 15:13:32+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1809,HBJCR,,,MJ,Mainline,EDDF,2020-02-23 20:05:24+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fd,HBJCF,,,MJ,Mainline,LSZH,2020-02-23 21:32:20+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cafcd,EISIH,,,MJ,Mainline,EGLL,2020-02-24 20:22:04+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+71ba02,HL7202,,,H,Mainline,EDDF,2020-02-27 16:09:56+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a24,HBJXK,,,MJ,Lowcost,LSGG,2020-02-27 21:00:35+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1807,HBJCP,,,MJ,Mainline,LSGG,2020-02-27 21:05:38+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a70473,N551PM,G550,,MJ,,LSGG,2020-02-29 06:12:30+00:00,True,2,classification_only_missing,2020,1,1,G550,2019-02-02 05:47:49+00:00,0,,,not_missing,False,no_internal_candidate,False
+4d210e,9HILV,CL85,,MJ,Non-Scheduled,LSGG,2020-02-29 12:43:11+00:00,True,2,classification_only_missing,2020,1,1,CL85,2019-01-24 15:08:50+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b17fe,HBJCG,,,MJ,Mainline,LSGG,2020-02-29 12:45:24+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+89650a,A6DDF,,,H,Cargo,EHAM,2020-02-29 19:02:01+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1808,HBJCQ,,,MJ,Mainline,LSZH,2020-03-01 21:40:54+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca8fb,EINEU,,,H,,LIMC,2020-03-02 18:40:10+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fe,HBJCG,,,MJ,Mainline,EGLL,2020-03-03 16:12:27+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+ab839d,N841AN,,,H,Mainline,LFPG,2020-03-05 08:33:18+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fe,HBJCG,,,MJ,Mainline,LSZH,2020-03-08 20:45:38+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a07176,N128AM,,,H,Mainline,LEMD,2020-03-10 11:29:58+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+43eae0,MLWSG,GL6T,,MJ,Business,EDDB,2020-03-10 16:52:42+00:00,True,2,classification_only_missing,2020,1,1,GL6T,2019-01-05 07:41:48+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b38a9,HBVLX,,,MJ,Business,LSZH,2020-03-10 18:34:45+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+44061d,OELQQ,,,MJ,Lowcost,LSZH,2020-03-11 14:40:58+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b18ba,HBJJM,,,MJ,Mainline,LSZH,2020-03-14 16:08:13+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+789214,BLXB,,,H,,LSZH,2020-03-16 05:21:07+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+44061d,OELQQ,,,MJ,Lowcost,ESSA,2020-03-20 10:43:49+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a2a60c,N27VP,,,LP,,LSZH,2020-04-08 13:51:02+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b184a,HBJFE,GL6T,,MJ,Business,LSGG,2020-05-08 14:45:33+00:00,True,2,classification_only_missing,2020,1,1,GL6T,2019-01-27 06:03:41+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b184a,HBJFE,GL6T,,MJ,Business,LSGG,2020-05-13 18:06:28+00:00,True,2,classification_only_missing,2020,1,1,GL6T,2019-01-27 06:03:41+00:00,0,,,not_missing,False,no_internal_candidate,False
+43e982,MAHAA,GL6T,,MJ,Business,EDDB,2020-05-18 13:24:51+00:00,True,2,classification_only_missing,2020,1,1,GL6T,2019-02-08 07:34:16+00:00,0,,,not_missing,False,no_internal_candidate,False
+4ca9bc,EILRC,,,MJ,Mainline,EIDW,2020-05-24 19:48:14+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9bb,EILRB,,,MJ,Mainline,EGLL,2020-06-18 13:33:55+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+c0411d,CFYRC,,,MJ,Business,LSZH,2020-06-20 08:36:35+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1804,HBJCM,,,MJ,Mainline,LSZH,2020-06-27 15:58:15+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4d20cb,9HVFE,CL65,,MJ,Business,LEMD,2020-07-03 12:29:59+00:00,True,2,classification_only_missing,2020,1,1,CL65,2019-01-24 15:45:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+4ac9ef,SEROO,,,MJ,Mainline,ESSA,2020-07-03 18:17:59+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1808,HBJCQ,,,MJ,Mainline,EHAM,2020-07-05 12:00:11+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4bb863,TCNCC,A20B,,MJ,Lowcost,LOWW,2020-07-11 12:29:55+00:00,True,2,classification_only_missing,2020,1,1,A20B,2019-07-16 15:15:37+00:00,0,,,not_missing,False,no_internal_candidate,False
+45ce57,OYSRW,,,H,Cargo,LFPG,2020-07-17 01:22:48+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+8964a2,A6EQJ,,,H,Mainline,EDDF,2020-07-19 10:59:13+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4bb185,TCLLE,,,H,Mainline,EHAM,2020-07-19 14:57:58+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a0f428,N16009,,,H,Mainline,LFPG,2020-07-20 05:34:20+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9ed,SEROM,,,MJ,Mainline,ESSA,2020-07-24 12:00:13+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+06a2b2,A7BEN,,,H,Mainline,EGLL,2020-07-30 11:25:55+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a26,HBJXM,,,MJ,Lowcost,LSGG,2020-07-30 13:07:25+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1803,HBJCL,,,MJ,Mainline,LSGG,2020-07-31 19:59:50+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1804,HBJCM,,,MJ,Mainline,LSGG,2020-08-01 12:27:28+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1807,HBJCP,,,MJ,Mainline,LSZH,2020-08-02 15:17:03+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9f2,SEROR,,,MJ,Mainline,ESSA,2020-08-03 11:40:11+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+345691,ECMXU,A320-251N,,MJ,Mainline,LSZH,2020-08-03 17:55:23+00:00,True,2,classification_only_missing,2020,1,1,A320-251N,2019-01-01 07:22:47+00:00,0,,,not_missing,False,no_internal_candidate,False
+471efe,HALTE,A321-231 ,,MJ,Lowcost,LOWW,2020-08-08 09:23:37+00:00,True,2,classification_only_missing,2020,1,1,A321-231 ,2019-01-01 19:24:13+00:00,0,,,not_missing,False,no_internal_candidate,False
+43e9b5,MFRZN,CL65,,MJ,Business,LSGG,2020-08-08 10:48:12+00:00,True,2,classification_only_missing,2020,1,1,CL65,2019-03-01 18:26:55+00:00,0,,,not_missing,False,no_internal_candidate,False
+491d87,CSGLG,GL6T,,MJ,Business,LSGG,2020-08-09 12:48:27+00:00,True,2,classification_only_missing,2020,1,1,GL6T,2019-01-09 14:43:48+00:00,0,,,not_missing,False,no_internal_candidate,False
+4ac9f3,SEROS,,,MJ,Mainline,EDDF,2020-08-12 17:41:31+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9ec,SEROL,,,MJ,Mainline,EKCH,2020-08-13 11:06:12+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b184e,HBJFI,F2LX,,MJ,Business,LSGG,2020-08-13 18:00:34+00:00,True,2,classification_only_missing,2020,1,1,F2LX,2019-01-06 20:21:52+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1a26,HBJXM,,,MJ,Lowcost,LSGG,2020-08-13 18:05:56+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4d210c,9HILA,CL85,,MJ,Non-Scheduled,LIMC,2020-08-15 13:08:35+00:00,True,2,classification_only_missing,2020,1,1,CL85,2019-07-17 16:07:39+00:00,0,,,not_missing,False,no_internal_candidate,False
+4ac9e6,SEROF,,,MJ,Mainline,ESSA,2020-08-17 15:13:09+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028d,HBAZD,E290,,MJ,Regional,LSZH,2020-08-21 14:24:56+00:00,True,2,classification_only_missing,2020,1,1,E290,2020-06-27 14:49:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+4cc518,TFISX,,,MJ,Mainline,LFPG,2020-08-25 10:59:24+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+8964e2,A6EVK,,,H,Mainline,EGLL,2020-08-25 11:24:24+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1805,HBJCN,,,MJ,Mainline,LSGG,2020-08-26 15:06:59+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4408a2,OEIJS,,,MJ,Lowcost,LFPG,2020-08-26 16:43:58+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+471efe,HALTE,A321-231 ,,MJ,Lowcost,LOWW,2020-08-28 15:46:02+00:00,True,2,classification_only_missing,2020,1,1,A321-231 ,2019-01-01 19:24:13+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028a,HBAZA,E290,,MJ,Regional,LSZH,2020-08-31 15:14:19+00:00,True,2,classification_only_missing,2020,1,1,E290,2019-10-29 19:26:03+00:00,0,,,not_missing,False,no_internal_candidate,False
+4ac9e9,SEROI,,,MJ,Mainline,ESSA,2020-09-01 05:34:59+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1801,HBJCJ,,,MJ,Mainline,ESSA,2020-09-03 06:55:58+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cacca,EIFPV,,,MJ,Regional,EKCH,2020-09-08 14:51:53+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf95,EIFPX,,,MJ,Regional,EKCH,2020-09-10 14:49:29+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4408a2,OEIJS,,,MJ,Lowcost,LFPG,2020-09-13 14:26:14+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+06a2b6,A7BER,,,H,Mainline,EGLL,2020-09-14 18:35:56+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1800,HBJCI,,,MJ,Mainline,LSGG,2020-09-17 15:59:47+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4d20e2,9HVFG,CL65,,MJ,Business,EDDB,2020-09-22 17:41:45+00:00,True,2,classification_only_missing,2020,1,1,CL65,2019-01-10 08:54:23+00:00,0,,,not_missing,False,no_internal_candidate,False
+4bb261,TCLSA,,A21N,MJ,Mainline,LSZH,2020-09-24 16:28:03+00:00,True,2,typecode_only_missing,2020,1,0,,,1,A21N,2019-01-08 09:03:51+00:00,no_internal_candidate,False,not_missing,False
+4b1801,HBJCJ,,,MJ,Mainline,LSGG,2020-09-29 15:18:49+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+ac54b1,N894FD,,,H,Cargo,EDDF,2020-09-30 17:06:45+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a70174,N550WW,G550,,MJ,Business,EDDM,2020-10-01 07:09:19+00:00,True,2,classification_only_missing,2020,1,1,G550,2019-06-06 16:07:28+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1a22,HBJXI,,,MJ,Lowcost,EKCH,2020-10-02 14:48:15+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca8fb,EINEU,,,H,Mainline,LIMC,2020-10-02 21:07:32+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+8964c3,A6BLS,,,H,Mainline,EDDM,2020-10-03 09:48:44+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9ed,SEROM,,,MJ,Mainline,ESSA,2020-10-04 12:07:03+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4bb14c,TCLJL,,,H,Cargo,LEMD,2020-10-07 18:03:03+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4d20d8,9HVJK,GL6T,,MJ,Business,EHAM,2020-10-08 07:08:59+00:00,True,2,classification_only_missing,2020,1,1,GL6T,2019-02-04 08:12:23+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028c,HBAZC,E290,,MJ,Regional,EDDF,2020-10-08 17:27:49+00:00,True,2,classification_only_missing,2020,1,1,E290,2020-02-24 21:27:45+00:00,0,,,not_missing,False,no_internal_candidate,False
+4a9323,SEDYC,,,MJ,Mainline,EKCH,2020-10-09 07:14:58+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+06a2b2,A7BEN,,,H,Mainline,EGLL,2020-10-11 18:50:46+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4bb14c,TCLJL,,,H,Cargo,EDDF,2020-10-15 03:33:35+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1803,HBJCL,,,MJ,Mainline,LSZH,2020-10-17 09:36:24+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf7e,EISIE,,,MJ,Mainline,ESSA,2020-10-17 20:58:51+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1805,HBJCN,,,MJ,Mainline,LSZH,2020-10-19 19:30:04+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4bb261,TCLSA,,A21N,MJ,Mainline,EKCH,2020-10-20 15:54:53+00:00,True,2,typecode_only_missing,2020,1,0,,,1,A21N,2019-01-08 09:03:51+00:00,no_internal_candidate,False,not_missing,False
+4d22bd,9HLOW,,A332,MJ,Lowcost,LIMC,2020-10-26 06:52:53+00:00,True,2,typecode_only_missing,2020,1,0,,,1,A332,2020-10-23 15:29:12+00:00,no_internal_candidate,False,not_missing,False
+4b028e,HBAZE,E290,,MJ,Regional,EDDF,2020-10-28 17:53:22+00:00,True,2,classification_only_missing,2020,1,1,E290,2020-07-02 18:49:00+00:00,0,,,not_missing,False,no_internal_candidate,False
+424480,VQBFL,,,H,Non-Scheduled,EDDF,2020-10-31 15:21:42+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9bb,EILRB,,,MJ,,EIDW,2020-11-02 05:12:44+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028d,HBAZD,E290,,MJ,Regional,LSZH,2020-11-03 19:33:34+00:00,True,2,classification_only_missing,2020,1,1,E290,2020-06-27 14:49:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+4a932d,SEDYM,,,MJ,Mainline,ESSA,2020-11-04 13:02:54+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+0d0a9a,XAADG,,,H,Mainline,LEMD,2020-11-04 15:39:50+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+7813c1,B1266,,,H,,EGLL,2020-11-06 07:52:57+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+873334,JA933A,,,H,,EDDF,2020-11-11 04:20:45+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+43eae0,MLWSG,GL6T,,MJ,Business,EGSS,2020-11-11 22:02:11+00:00,True,2,classification_only_missing,2020,1,1,GL6T,2019-01-05 07:41:48+00:00,0,,,not_missing,False,no_internal_candidate,False
+345691,ECMXU,A320-251N,,MJ,Mainline,LEMD,2020-11-17 17:52:28+00:00,True,2,classification_only_missing,2020,1,1,A320-251N,2019-01-01 07:22:47+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028d,HBAZD,E290,,MJ,Regional,LSZH,2020-11-19 19:23:53+00:00,True,2,classification_only_missing,2020,1,1,E290,2020-06-27 14:49:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+480c41,T055,A330,,H,Military,EDDM,2020-11-20 13:26:53+00:00,True,2,classification_only_missing,2020,1,1,A330,2020-11-20 13:26:53+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028d,HBAZD,E290,,MJ,Regional,LSZH,2020-11-26 14:17:04+00:00,True,2,classification_only_missing,2020,1,1,E290,2020-06-27 14:49:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+873334,JA933A,,,H,,EDDF,2020-11-28 04:29:57+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4bb261,TCLSA,,A21N,MJ,Mainline,LEMD,2020-11-28 09:30:53+00:00,True,2,typecode_only_missing,2020,1,0,,,1,A21N,2019-01-08 09:03:51+00:00,no_internal_candidate,False,not_missing,False
+a97c19,N710AM,,,LP,Other,LOWW,2020-11-28 17:08:08+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca8fc,EINEW,,,H,,LIMC,2020-12-05 06:58:51+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf7e,EISIE,,,MJ,Mainline,EDDF,2020-12-06 10:33:23+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+45ce57,OYSRW,,,H,Cargo,LFPG,2020-12-11 02:30:39+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+3c4590,DAALP,,,H,Cargo,EDDF,2020-12-13 16:30:43+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9ed,SEROM,,,MJ,Mainline,ESSA,2020-12-15 15:15:45+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+491182,CSDLB,F2EX,,MJ,Business,EHAM,2020-12-18 16:55:07+00:00,True,2,classification_only_missing,2020,1,1,F2EX,2019-01-16 15:14:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+4ba975,TCJKU,,,MJ,Mainline,EGSS,2020-12-20 11:47:21+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+040187,ETAXK,,L2J,H,,LOWW,2020-12-21 05:20:13+00:00,True,2,typecode_only_missing,2020,1,0,,,1,L2J,2019-11-29 03:18:51+00:00,no_internal_candidate,False,not_missing,False
+39ae37,FHLRX,F2TS,,MJ,Business,LSGG,2020-12-21 08:13:41+00:00,True,2,classification_only_missing,2020,1,1,F2TS,2019-02-18 08:17:20+00:00,0,,,not_missing,False,no_internal_candidate,False
+4bb188,TCLLH,,,H,Mainline,ESSA,2020-12-21 08:25:58+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+345691,ECMXU,A320-251N,,MJ,Mainline,LEMD,2020-12-21 17:54:45+00:00,True,2,classification_only_missing,2020,1,1,A320-251N,2019-01-01 07:22:47+00:00,0,,,not_missing,False,no_internal_candidate,False
+4408a2,OEIJS,,,MJ,Lowcost,EHAM,2020-12-23 17:29:50+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39cf00,FHTYA,,,H,Mainline,LFPG,2020-12-27 12:04:44+00:00,True,3,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fd,HBJCF,,,MJ,Mainline,ESSA,2020-12-27 17:34:33+00:00,True,2,both_missing,2020,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4bb261,TCLSA,,A21N,MJ,Mainline,LOWW,2021-01-03 08:11:17+00:00,True,2,typecode_only_missing,2021,1,0,,,1,A21N,2019-01-08 09:03:51+00:00,no_internal_candidate,False,not_missing,False
+06a2b2,A7BEN,,,H,,EGLL,2021-01-05 06:23:09+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4a9324,SEDYD,,,MJ,Mainline,ESSA,2021-01-05 20:59:51+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+3c0f31,DAUTO,G550,,MJ,Business,EDDM,2021-01-15 17:16:20+00:00,True,2,classification_only_missing,2021,1,1,G550,2019-01-12 05:07:18+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028a,HBAZA,E290,,MJ,Regional,LSZH,2021-01-17 19:12:51+00:00,True,2,classification_only_missing,2021,1,1,E290,2019-10-29 19:26:03+00:00,0,,,not_missing,False,no_internal_candidate,False
+45ce57,OYSRW,,,H,Cargo,LFPG,2021-01-21 02:28:58+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a49375,N394UP,,,H,Cargo,LEMD,2021-01-22 05:20:17+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028c,HBAZC,E290,,MJ,Lowcost,LSZH,2021-01-27 12:37:52+00:00,True,2,classification_only_missing,2021,1,1,E290,2020-02-24 21:27:45+00:00,0,,,not_missing,False,no_internal_candidate,False
+4acaa1,SERUA,,,MJ,Mainline,ESSA,2021-02-02 10:53:36+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+485788,PHBHP,,,H,Mainline,EHAM,2021-02-08 15:34:21+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a05628,N12005,,,H,Non-Scheduled,EDDF,2021-02-10 07:39:09+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+abfa24,N871AY,,,H,Mainline,EDDF,2021-02-20 07:37:47+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4072ea,GVWOO,,,H,Mainline,EGLL,2021-02-21 08:44:57+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1804,HBJCM,,,MJ,Mainline,LSZH,2021-02-27 12:22:27+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ba975,TCJKU,,,MJ,Mainline,EDDB,2021-03-04 11:50:38+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+485b42,PHBKA,,,H,,EHAM,2021-03-07 05:44:55+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a05628,N12005,,,H,Mainline,EGLL,2021-03-11 07:38:04+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a05626,N12003,,,H,Non-Scheduled,EDDF,2021-03-20 07:24:28+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ba975,TCJKU,,,MJ,Mainline,LFPG,2021-03-21 11:58:59+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a4bf95,N405DX,,,H,,EHAM,2021-03-26 06:51:48+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cabd1,EILRE,,,MJ,Non-Scheduled,EIDW,2021-03-29 15:50:50+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+486258,PHNXB,E295,,MJ,Mainline,EHAM,2021-03-31 16:32:50+00:00,True,2,classification_only_missing,2021,1,1,E295,2021-02-28 14:37:43+00:00,0,,,not_missing,False,no_internal_candidate,False
+486258,PHNXB,E295,,MJ,Mainline,EPWA,2021-04-01 09:42:42+00:00,True,2,classification_only_missing,2021,1,1,E295,2021-02-28 14:37:43+00:00,0,,,not_missing,False,no_internal_candidate,False
+3c4590,DAALP,,,H,Cargo,EDDF,2021-04-03 14:24:01+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1808,HBJCQ,,,MJ,Mainline,LSZH,2021-04-04 14:01:10+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a27c78,N25982,,,H,Mainline,EDDF,2021-04-12 07:44:48+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9f2,SEROR,,,MJ,Mainline,ESSA,2021-04-21 15:18:59+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a24,HBJXK,,,MJ,Lowcost,EDDB,2021-04-25 14:50:43+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+8964b7,A6EVI,,,H,Mainline,EGLL,2021-05-03 17:56:48+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+407993,GSTBN,,,H,Mainline,EGLL,2021-05-03 18:27:04+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+486258,PHNXB,E295,,MJ,Mainline,EHAM,2021-05-15 05:48:43+00:00,True,2,classification_only_missing,2021,1,1,E295,2021-02-28 14:37:43+00:00,0,,,not_missing,False,no_internal_candidate,False
+491d83,CSGLC,GL6T,,MJ,Business,LSZH,2021-05-19 13:39:48+00:00,True,2,classification_only_missing,2021,1,1,GL6T,2019-01-25 08:28:35+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1808,HBJCQ,,,MJ,Mainline,LSZH,2021-05-19 14:30:52+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+491d84,CSGLD,GL6T,,MJ,Business,LSGG,2021-05-21 10:23:04+00:00,True,2,classification_only_missing,2021,1,1,GL6T,2019-02-23 06:20:59+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b17fd,HBJCF,,,MJ,Mainline,LSZH,2021-05-24 09:42:29+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+491182,CSDLB,F2EX,,MJ,Business,LSGG,2021-05-26 15:36:27+00:00,True,2,classification_only_missing,2021,1,1,F2EX,2019-01-16 15:14:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+4863db,PHNXC,E295,,MJ,Mainline,EPWA,2021-05-29 09:47:10+00:00,True,2,classification_only_missing,2021,1,1,E295,2021-04-20 21:18:15+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b18b9,HBJJL,,,MJ,Mainline,LSZH,2021-05-30 15:49:22+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+89655c,A6EVP,A380,,H,Mainline,EDDF,2021-06-03 17:21:00+00:00,True,2,classification_only_missing,2021,1,1,A380,2021-05-18 11:26:58+00:00,0,,,not_missing,False,no_internal_candidate,False
+4cc52c,TFICN,,,MJ,Mainline,EGLL,2021-06-04 10:45:51+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+86951c,JA793A,,,H,Mainline,EGLL,2021-06-04 14:35:25+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1803,HBJCL,,,MJ,Mainline,LSZH,2021-06-06 19:15:58+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b18ba,HBJJM,,,MJ,Mainline,LSZH,2021-06-07 13:24:34+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+86eb14,JA881J,,,H,Mainline,EDDF,2021-06-11 13:37:38+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+344547,ECLZU,G650,,MJ,Business,LEMD,2021-06-11 15:34:22+00:00,True,2,classification_only_missing,2021,1,1,G650,2019-01-24 19:53:33+00:00,0,,,not_missing,False,no_internal_candidate,False
+5110f3,ESACM,,,MJ,Regional,ESSA,2021-06-12 05:20:52+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028a,HBAZA,E290,,MJ,Regional,LSZH,2021-06-12 08:53:24+00:00,True,2,classification_only_missing,2021,1,1,E290,2019-10-29 19:26:03+00:00,0,,,not_missing,False,no_internal_candidate,False
+4cc52d,TFICO,,,MJ,Mainline,EGLL,2021-06-14 10:28:46+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0291,HBAZH,E290,,MJ,Regional,LSZH,2021-06-17 09:01:27+00:00,True,2,classification_only_missing,2021,1,1,E290,2021-03-12 19:15:32+00:00,0,,,not_missing,False,no_internal_candidate,False
+486257,PHNXA,E295,,MJ,Mainline,EDDM,2021-06-20 09:10:29+00:00,True,2,classification_only_missing,2021,1,1,E295,2021-02-25 16:16:51+00:00,0,,,not_missing,False,no_internal_candidate,False
+4ac9e9,SEROI,,,MJ,Mainline,ESSA,2021-06-20 18:36:28+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4863dc,PHNXD,E295,,MJ,Mainline,EPWA,2021-06-24 20:45:47+00:00,True,2,classification_only_missing,2021,1,1,E295,2021-05-17 15:53:49+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1805,HBJCN,,,MJ,Mainline,LSGG,2021-06-27 09:34:42+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4a9323,SEDYC,,,MJ,Mainline,EGLL,2021-06-28 07:40:22+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+ab96a4,N846FD,,,H,Cargo,LFPG,2021-07-03 15:53:21+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a22,HBJXI,,,MJ,Lowcost,LSGG,2021-07-03 17:35:20+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+c04fe4,CGEGP,,,H,Mainline,EGLL,2021-07-04 07:38:24+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4a932d,SEDYM,,,MJ,Mainline,ESSA,2021-07-09 23:09:05+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9cb,EILRD,,,MJ,Mainline,EIDW,2021-07-10 09:58:59+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+407930,GTTNM,,,MJ,Mainline,EGLL,2021-07-11 14:56:51+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4a9323,SEDYC,,,MJ,Mainline,EKCH,2021-07-12 10:44:57+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+5110e9,ESATE,,,MT,Regional,EKCH,2021-07-15 08:10:39+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0290,HBAZG,E290,,MJ,Regional,LSZH,2021-07-16 09:24:42+00:00,True,2,classification_only_missing,2021,1,1,E290,2021-01-30 19:57:30+00:00,0,,,not_missing,False,no_internal_candidate,False
+4863db,PHNXC,E295,,MJ,Mainline,EPWA,2021-07-16 10:00:27+00:00,True,2,classification_only_missing,2021,1,1,E295,2021-04-20 21:18:15+00:00,0,,,not_missing,False,no_internal_candidate,False
+491d85,CSGLE,GL6T,,MJ,Business,LSZH,2021-07-16 10:36:04+00:00,True,2,classification_only_missing,2021,1,1,GL6T,2019-01-01 22:51:01+00:00,0,,,not_missing,False,no_internal_candidate,False
+4ac9ef,SEROO,,,MJ,Mainline,ESSA,2021-07-16 13:35:58+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028c,HBAZC,E290,,MJ,Lowcost,LSZH,2021-07-17 13:48:27+00:00,True,2,classification_only_missing,2021,1,1,E290,2020-02-24 21:27:45+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028d,HBAZD,E290,,MJ,Regional,LOWW,2021-07-17 17:31:59+00:00,True,2,classification_only_missing,2021,1,1,E290,2020-06-27 14:49:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1805,HBJCN,,,MJ,Mainline,LIMC,2021-07-18 06:24:18+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a24,HBJXK,,,MJ,Lowcost,LSGG,2021-07-18 21:10:27+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fb,HBJCD,,,MJ,Mainline,EDDB,2021-07-19 06:51:34+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+486257,PHNXA,E295,,MJ,Mainline,EDDM,2021-07-19 14:57:43+00:00,True,2,classification_only_missing,2021,1,1,E295,2021-02-25 16:16:51+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028a,HBAZA,E290,,MJ,Regional,LSZH,2021-07-23 09:15:57+00:00,True,2,classification_only_missing,2021,1,1,E290,2019-10-29 19:26:03+00:00,0,,,not_missing,False,no_internal_candidate,False
+3c6469,DAICI,,L2J,MJ,Lowcost,EDDM,2021-07-24 09:06:07+00:00,True,2,typecode_only_missing,2021,1,0,,,1,L2J,2020-03-16 10:54:17+00:00,no_internal_candidate,False,not_missing,False
+8964fb,A6BLV,,,H,Mainline,LSZH,2021-07-24 10:58:19+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fb,HBJCD,,,MJ,Mainline,EDDF,2021-07-26 17:56:23+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4863db,PHNXC,E295,,MJ,Mainline,LOWW,2021-07-27 09:21:12+00:00,True,2,classification_only_missing,2021,1,1,E295,2021-04-20 21:18:15+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b0291,HBAZH,E290,,MJ,Regional,LSZH,2021-07-29 13:51:08+00:00,True,2,classification_only_missing,2021,1,1,E290,2021-03-12 19:15:32+00:00,0,,,not_missing,False,no_internal_candidate,False
+a6c044,N534LA,,,H,Cargo,EDDF,2021-07-29 18:30:16+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9bb,EILRB,,,MJ,Mainline,LFPG,2021-07-30 07:43:13+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1805,HBJCN,,,MJ,Mainline,LSZH,2021-07-30 15:17:42+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+345691,ECMXU,A320-251N,,MJ,Mainline,LEMD,2021-07-31 13:26:25+00:00,True,2,classification_only_missing,2021,1,1,A320-251N,2019-01-01 07:22:47+00:00,0,,,not_missing,False,no_internal_candidate,False
+8964fb,A6BLV,,,H,Mainline,EIDW,2021-08-01 11:03:59+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+486258,PHNXB,E295,,MJ,Mainline,EPWA,2021-08-03 10:14:29+00:00,True,2,classification_only_missing,2021,1,1,E295,2021-02-28 14:37:43+00:00,0,,,not_missing,False,no_internal_candidate,False
+4bb0e4,TCLGD,,,H,Mainline,EDDF,2021-08-04 08:31:40+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+486257,PHNXA,E295,,MJ,Mainline,EHAM,2021-08-04 11:36:21+00:00,True,2,classification_only_missing,2021,1,1,E295,2021-02-25 16:16:51+00:00,0,,,not_missing,False,no_internal_candidate,False
+407930,GTTNM,,,MJ,Mainline,EGLL,2021-08-04 11:51:52+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a835c5,N628UP,,,H,Cargo,EGSS,2021-08-05 02:39:28+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4a9324,SEDYD,,,MJ,Mainline,ESSA,2021-08-07 12:41:23+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1800,HBJCI,,,MJ,Mainline,LSZH,2021-08-09 10:23:46+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028b,HBAZB,E290,,MJ,Regional,LSZH,2021-08-13 09:47:07+00:00,True,2,classification_only_missing,2021,1,1,E290,2019-12-22 19:28:00+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b0290,HBAZG,E290,,MJ,Regional,LSZH,2021-08-13 14:20:02+00:00,True,2,classification_only_missing,2021,1,1,E290,2021-01-30 19:57:30+00:00,0,,,not_missing,False,no_internal_candidate,False
+5110e9,ESATE,,,MT,Regional,EDDB,2021-08-14 10:55:27+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4acaa6,SERUF,,,MJ,Mainline,EKCH,2021-08-17 12:51:14+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a826e9,N624UP,,,H,Cargo,EGSS,2021-08-18 02:39:54+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+06a0e8,A7AMI,,,H,Mainline,LEMD,2021-08-19 12:32:28+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+51110b,ESATI,,,MT,Regional,ESSA,2021-08-23 15:11:39+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9ed,SEROM,,,MJ,Mainline,ESSA,2021-08-23 15:15:47+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9e6,SEROF,,,MJ,Mainline,ESSA,2021-08-26 05:23:52+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a25,HBJXL,,,MJ,Lowcost,LSGG,2021-08-26 10:41:05+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf82,EISIF,,,MJ,Mainline,ESSA,2021-08-26 19:29:49+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028c,HBAZC,E290,,MJ,Lowcost,LSZH,2021-08-29 10:50:29+00:00,True,2,classification_only_missing,2021,1,1,E290,2020-02-24 21:27:45+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b17fe,HBJCG,,,MJ,Mainline,LSZH,2021-08-30 09:20:34+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9f2,SEROR,,,MJ,Mainline,EIDW,2021-09-07 09:07:29+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+495306,CSTXF,,,MJ,Mainline,EGLL,2021-09-10 10:11:24+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9e9,SEROI,,,MJ,Mainline,EKCH,2021-09-14 14:16:11+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9e6,SEROF,,,MJ,Mainline,ESSA,2021-09-15 14:52:51+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028c,HBAZC,E290,,MJ,Regional,LSZH,2021-09-16 14:29:59+00:00,True,2,classification_only_missing,2021,1,1,E290,2020-02-24 21:27:45+00:00,0,,,not_missing,False,no_internal_candidate,False
+4caf7e,EISIE,,,MJ,Mainline,ESSA,2021-09-18 12:18:39+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cabd1,EILRE,,,MJ,,EIDW,2021-09-19 04:27:08+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+40780e,GNEOY,,,MJ,Mainline,LIMC,2021-09-19 11:24:22+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a2840e,N261PW,CL65,,MJ,Business,LSZH,2021-09-20 05:57:51+00:00,True,2,classification_only_missing,2021,1,1,CL65,2021-06-28 07:14:09+00:00,0,,,not_missing,False,no_internal_candidate,False
+a913d6,N684UA,,,H,Mainline,EGLL,2021-09-20 09:57:28+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cacc8,EIFPT,,,MJ,Regional,EKCH,2021-09-23 15:21:14+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caca0,EIFPR,,,MJ,Regional,EKCH,2021-09-23 16:23:08+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028d,HBAZD,E290,,MJ,Regional,EPWA,2021-09-24 12:05:19+00:00,True,2,classification_only_missing,2021,1,1,E290,2020-06-27 14:49:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028d,HBAZD,E290,,MJ,Regional,LSZH,2021-09-27 14:12:11+00:00,True,2,classification_only_missing,2021,1,1,E290,2020-06-27 14:49:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+4bb261,TCLSA,,A21N,MJ,Mainline,EDDF,2021-09-29 11:45:49+00:00,True,2,typecode_only_missing,2021,1,0,,,1,A21N,2019-01-08 09:03:51+00:00,no_internal_candidate,False,not_missing,False
+4bb183,TCLLC,,,H,Mainline,EGLL,2021-09-29 15:03:53+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+7380c2,4XEDC,,,H,Mainline,EGLL,2021-09-30 12:32:13+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+43ea36,MINSK,G650,,MJ,Business,LSZH,2021-10-03 16:14:59+00:00,True,2,classification_only_missing,2021,1,1,G650,2019-01-26 12:51:46+00:00,0,,,not_missing,False,no_internal_candidate,False
+471f95,HALYZ, A320,,MJ,Lowcost,LOWW,2021-10-04 04:59:10+00:00,True,2,classification_only_missing,2021,1,1, A320,2019-01-02 06:00:57+00:00,0,,,not_missing,False,no_internal_candidate,False
+345691,ECMXU,A320-251N,,MJ,Mainline,LSGG,2021-10-05 16:39:59+00:00,True,2,classification_only_missing,2021,1,1,A320-251N,2019-01-01 07:22:47+00:00,0,,,not_missing,False,no_internal_candidate,False
+4cabd1,EILRE,,,MJ,Mainline,EGLL,2021-10-07 14:40:29+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9f3,SEROS,,,MJ,Mainline,EKCH,2021-10-08 20:05:36+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4910cb,CSDFK,F2EX,,MJ,Business,LOWW,2021-10-14 09:28:10+00:00,True,2,classification_only_missing,2021,1,1,F2EX,2019-02-28 10:58:17+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028b,HBAZB,E290,,MJ,Regional,LSZH,2021-10-15 09:06:40+00:00,True,2,classification_only_missing,2021,1,1,E290,2019-12-22 19:28:00+00:00,0,,,not_missing,False,no_internal_candidate,False
+a8bbe1,N662CH,,,MJ,Business,EGSS,2021-10-18 05:12:47+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1809,HBJCR,,,MJ,Mainline,EGLL,2021-10-19 12:27:13+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028f,HBAZF,E290,,MJ,Regional,LSZH,2021-10-19 14:19:57+00:00,True,2,classification_only_missing,2021,1,1,E290,2020-11-13 19:28:52+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028a,HBAZA,E290,,MJ,Regional,LSZH,2021-10-24 09:53:42+00:00,True,2,classification_only_missing,2021,1,1,E290,2019-10-29 19:26:03+00:00,0,,,not_missing,False,no_internal_candidate,False
+495305,CSTXE,,,MJ,Mainline,EDDF,2021-10-24 10:31:51+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cabd1,EILRE,,,MJ,Mainline,EIDW,2021-10-26 10:34:01+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+7380c9,4XEDK,,,H,Mainline,LFPG,2021-10-27 10:37:53+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+7813c2,B1282,,,H,Mainline,EDDF,2021-10-29 08:48:53+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1801,HBJCJ,,,MJ,Mainline,LSZH,2021-11-02 15:04:44+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4bb14f,TCLJO,,,H,Cargo,EDDF,2021-11-04 04:31:52+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+49328b,CSLTK,,,MJ,Business,EDDF,2021-11-06 09:05:10+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39e680,FHZUA,,,MJ,Mainline,LFPG,2021-11-06 19:15:20+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39e680,FHZUA,,,MJ,Mainline,LEMD,2021-11-06 22:19:46+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4073ce,GVBEL,,,H,Mainline,EGLL,2021-11-07 08:25:29+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+71c359,HL8359,,,H,Mainline,EDDF,2021-11-10 14:07:04+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1808,HBJCQ,,,MJ,Mainline,EDDM,2021-11-11 07:36:25+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4d210e,9HILV,CL85,,MJ,Non-Scheduled,EIDW,2021-11-11 08:38:28+00:00,True,2,classification_only_missing,2021,1,1,CL85,2019-01-24 15:08:50+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b17fe,HBJCG,,,MJ,Mainline,EIDW,2021-11-11 10:31:56+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+ab805a,N840FD,,,H,,LFPG,2021-11-12 10:35:10+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fd,HBJCF,,,MJ,Mainline,LSZH,2021-11-12 16:04:28+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a913d6,N684UA,,,H,Mainline,EGLL,2021-11-14 06:26:52+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a4c2ad,N4058J,,,MJ,Mainline,EGLL,2021-11-14 09:42:59+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf7e,EISIE,,,MJ,Mainline,EGLL,2021-11-14 09:50:53+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+781641,B307A,A350,,H,,LIMC,2021-11-18 07:01:32+00:00,True,2,classification_only_missing,2021,1,1,A350,2019-02-16 04:14:53+00:00,0,,,not_missing,False,no_internal_candidate,False
+4cc510,TFICU,,,MJ,Mainline,EKCH,2021-11-19 16:41:10+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cc50f,TFICY,,,MJ,Mainline,EDDM,2021-11-20 11:01:36+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf7e,EISIE,,,MJ,Mainline,EGLL,2021-11-22 12:51:27+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+ac1846,N879FD,,,H,Cargo,LFPG,2021-11-24 22:25:52+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cabd3,EILRG,,,MJ,Mainline,EGLL,2021-11-26 08:17:45+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028f,HBAZF,E290,,MJ,Regional,LSZH,2021-11-27 09:56:59+00:00,True,2,classification_only_missing,2021,1,1,E290,2020-11-13 19:28:52+00:00,0,,,not_missing,False,no_internal_candidate,False
+a6e055,N542LA,,,H,Cargo,EHAM,2021-11-27 13:22:24+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1803,HBJCL,,,MJ,Mainline,LSZH,2021-11-30 11:00:18+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+486258,PHNXB,E295,,MJ,Mainline,EKCH,2021-12-01 10:29:09+00:00,True,2,classification_only_missing,2021,1,1,E295,2021-02-28 14:37:43+00:00,0,,,not_missing,False,no_internal_candidate,False
+4ca9bb,EILRB,,,MJ,Mainline,EIDW,2021-12-01 13:55:23+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fd,HBJCF,,,MJ,Mainline,LSZH,2021-12-04 10:56:43+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+78158e,B207U,,,H,Non-Scheduled,EGLL,2021-12-07 15:20:50+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+c0611f,CGKUG,,,H,Mainline,EGLL,2021-12-09 07:12:28+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028f,HBAZF,E290,,MJ,Regional,LSZH,2021-12-09 10:16:06+00:00,True,2,classification_only_missing,2021,1,1,E290,2020-11-13 19:28:52+00:00,0,,,not_missing,False,no_internal_candidate,False
+3c70ca,DALFJ,,,H,Cargo,EDDF,2021-12-10 17:54:17+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9bc,EILRC,,,MJ,Mainline,EIDW,2021-12-12 19:01:56+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+407993,GSTBN,,,H,Mainline,EGLL,2021-12-16 08:05:57+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028e,HBAZE,E290,,MJ,Regional,LSZH,2021-12-17 20:38:23+00:00,True,2,classification_only_missing,2021,1,1,E290,2020-07-02 18:49:00+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028d,HBAZD,E290,,MJ,Regional,LSZH,2021-12-18 10:44:29+00:00,True,2,classification_only_missing,2021,1,1,E290,2020-06-27 14:49:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+71c347,HL8347,,,H,Mainline,EDDF,2021-12-19 14:41:01+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1801,HBJCJ,,,MJ,Mainline,EGLL,2021-12-25 08:08:58+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cacc8,EIFPT,,,MJ,Regional,EKCH,2021-12-27 19:11:47+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+486257,PHNXA,E295,,MJ,Mainline,EIDW,2021-12-29 08:43:58+00:00,True,3,classification_only_missing,2021,1,1,E295,2021-02-25 16:16:51+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1808,HBJCQ,,,MJ,Mainline,LSZH,2021-12-29 15:02:14+00:00,True,2,both_missing,2021,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028f,HBAZF,E290,,MJ,Regional,LSZH,2021-12-31 15:26:15+00:00,True,2,classification_only_missing,2021,1,1,E290,2020-11-13 19:28:52+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1805,HBJCN,,,MJ,Mainline,LSZH,2022-01-01 10:07:42+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1808,HBJCQ,,,MJ,Mainline,LSZH,2022-01-04 15:53:59+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9e9,SEROI,,,MJ,Mainline,ESSA,2022-01-05 08:36:16+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9ed,SEROM,,,MJ,Mainline,ESSA,2022-01-12 06:34:47+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0290,HBAZG,E290,,MJ,Regional,LSZH,2022-01-12 10:41:13+00:00,True,2,classification_only_missing,2022,1,1,E290,2021-01-30 19:57:30+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1804,HBJCM,,,MJ,Mainline,LSZH,2022-01-12 10:49:17+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+738102,4XERC,,,H,Mainline,EGLL,2022-01-12 11:59:49+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9cb,EILRD,,,MJ,Mainline,LFPG,2022-01-13 08:23:13+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cacc8,EIFPT,,,MJ,Regional,EKCH,2022-01-13 11:02:40+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+461f55,OHLWN,,,H,Mainline,ESSA,2022-01-14 10:54:29+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028c,HBAZC,E290,,MJ,Regional,LSZH,2022-01-16 09:53:17+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-02-24 21:27:45+00:00,0,,,not_missing,False,no_internal_candidate,False
+4aca64,SERSD,,,H,,EKCH,2022-01-17 05:44:52+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+89650a,A6DDF,,,H,,EHAM,2022-01-18 06:20:58+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cacc8,EIFPT,,,MJ,Regional,EKCH,2022-01-20 16:10:44+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028e,HBAZE,E290,,MJ,Regional,LSZH,2022-01-23 20:15:29+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-07-02 18:49:00+00:00,0,,,not_missing,False,no_internal_candidate,False
+3c4841,DABBA,F9LX,,MJ,Business,LOWW,2022-01-24 07:19:02+00:00,True,2,classification_only_missing,2022,1,1,F9LX,2019-01-14 20:31:55+00:00,0,,,not_missing,False,no_internal_candidate,False
+06a12e,A7ANR,,,H,Mainline,EHAM,2022-01-24 12:06:58+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a835c5,N628UP,,,H,Cargo,EGSS,2022-01-26 03:42:55+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+345691,ECMXU,A320-251N,,MJ,Mainline,LEMD,2022-01-26 07:58:59+00:00,True,2,classification_only_missing,2022,1,1,A320-251N,2019-01-01 07:22:47+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028e,HBAZE,E290,,MJ,Regional,LSZH,2022-01-26 10:37:47+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-07-02 18:49:00+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b0290,HBAZG,E290,,MJ,Regional,LSZH,2022-01-26 15:26:56+00:00,True,2,classification_only_missing,2022,1,1,E290,2021-01-30 19:57:30+00:00,0,,,not_missing,False,no_internal_candidate,False
+4072ea,GVWOO,,,H,Mainline,EGLL,2022-01-29 06:32:35+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1801,HBJCJ,,,MJ,Mainline,EPWA,2022-01-30 18:49:28+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+485e2d,PHBKG,,,H,,EHAM,2022-01-31 08:09:56+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1803,HBJCL,,,MJ,Mainline,LSZH,2022-01-31 10:54:37+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1805,HBJCN,,,MJ,Mainline,LSZH,2022-01-31 11:14:20+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b199d,HBJSF,CL65,,MJ,Business,EDDF,2022-02-02 07:59:22+00:00,True,2,classification_only_missing,2022,1,1,CL65,2019-01-06 07:27:57+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028e,HBAZE,E290,,MJ,Regional,LSZH,2022-02-02 10:26:33+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-07-02 18:49:00+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028c,HBAZC,E290,,MJ,Regional,LSZH,2022-02-02 15:20:36+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-02-24 21:27:45+00:00,0,,,not_missing,False,no_internal_candidate,False
+4cabd1,EILRE,,,MJ,Mainline,EIDW,2022-02-03 20:04:03+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cc41a,TFAMI,,,H,Cargo,EDDF,2022-02-05 18:22:03+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+010208,SUGFN,A20B,,MJ,Mainline,LFPG,2022-02-06 20:43:51+00:00,True,2,classification_only_missing,2022,1,1,A20B,2020-07-12 12:27:55+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b0291,HBAZH,E290,,MJ,Regional,LSZH,2022-02-06 20:59:21+00:00,True,3,classification_only_missing,2022,1,1,E290,2021-03-12 19:15:32+00:00,0,,,not_missing,False,no_internal_candidate,False
+3c4590,DAALP,,,H,,EDDF,2022-02-07 07:46:09+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cacc8,EIFPT,,,MJ,Regional,EKCH,2022-02-08 21:11:59+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+3c1459,DAWSI,,,MJ,Regional,LFPO,2022-02-09 07:47:10+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1801,HBJCJ,,,MJ,Mainline,EDDF,2022-02-16 07:45:04+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028a,HBAZA,E290,,MJ,Regional,LSZH,2022-02-17 12:20:28+00:00,True,2,classification_only_missing,2022,1,1,E290,2019-10-29 19:26:03+00:00,0,,,not_missing,False,no_internal_candidate,False
+4cabd2,EILRF,,,MJ,Mainline,EIDW,2022-02-18 11:11:35+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a4b0bb,N401DZ,,,H,Mainline,LFPG,2022-02-19 06:52:19+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a60b1e,N489MC,,,H,Cargo,EHAM,2022-02-20 10:48:27+00:00,True,3,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1804,HBJCM,,,MJ,Mainline,EHAM,2022-02-20 18:09:30+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9f0,SEROP,,,MJ,Mainline,ESSA,2022-02-21 07:06:40+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9ba,EILRA,,,MJ,Mainline,EIDW,2022-02-22 11:33:05+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cabd1,EILRE,,,MJ,Mainline,EIDW,2022-02-23 10:15:24+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+7380c2,4XEDC,,,H,Mainline,EGLL,2022-02-24 12:11:56+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0290,HBAZG,E290,,MJ,Regional,LSZH,2022-02-24 15:04:45+00:00,True,2,classification_only_missing,2022,1,1,E290,2021-01-30 19:57:30+00:00,0,,,not_missing,False,no_internal_candidate,False
+4cacca,EIFPV,,,MJ,Regional,EKCH,2022-02-26 05:57:16+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+45ce57,OYSRW,,,H,Cargo,LFPG,2022-03-02 02:32:46+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+407944,GXWBH,,,H,,EGLL,2022-03-03 06:14:59+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+43eae0,MLWSG,GL6T,,MJ,Business,EDDB,2022-03-03 17:01:48+00:00,True,2,classification_only_missing,2022,1,1,GL6T,2019-01-05 07:41:48+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b0291,HBAZH,E290,,MJ,Regional,LSZH,2022-03-05 15:34:21+00:00,True,2,classification_only_missing,2022,1,1,E290,2021-03-12 19:15:32+00:00,0,,,not_missing,False,no_internal_candidate,False
+4caca0,EIFPR,,,MJ,Regional,EKCH,2022-03-08 15:19:29+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+3cbdeb,DBOOK,F2LX,,MJ,Business,EDDB,2022-03-09 08:10:28+00:00,True,2,classification_only_missing,2022,1,1,F2LX,2019-01-07 07:29:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+3c4590,DAALP,,,H,Cargo,EDDF,2022-03-10 10:16:58+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9bc,EILRC,,,MJ,Mainline,EIDW,2022-03-10 13:44:39+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+c038ac,CFVLZ,,,H,Mainline,EIDW,2022-03-10 16:06:29+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fb,HBJCD,,,MJ,Mainline,LSZH,2022-03-14 11:15:29+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1921,HBJNL,,,H,Mainline,LSZH,2022-03-15 14:53:30+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+5110e9,ESATE,,,MT,Regional,EKCH,2022-03-20 19:22:26+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+44061d,OELQQ,,,MJ,Lowcost,EDDB,2022-03-21 19:46:22+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+407994,GSTBO,,,H,Mainline,EGLL,2022-03-27 11:14:52+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caca0,EIFPR,,,MJ,Regional,ESSA,2022-03-28 11:48:50+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028c,HBAZC,E290,,MJ,Regional,LSZH,2022-03-30 15:02:58+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-02-24 21:27:45+00:00,0,,,not_missing,False,no_internal_candidate,False
+4ca9bb,EILRB,,,MJ,Mainline,EIDW,2022-03-31 13:51:09+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39cf0b,FHTYL,,,H,Mainline,LFPG,2022-04-01 09:15:26+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4863dc,PHNXD,E295,,MJ,Mainline,EHAM,2022-04-03 08:37:24+00:00,True,2,classification_only_missing,2022,1,1,E295,2021-05-17 15:53:49+00:00,0,,,not_missing,False,no_internal_candidate,False
+440869,OELCY,G550,,MJ,Business,LOWW,2022-04-04 15:07:16+00:00,True,2,classification_only_missing,2022,1,1,G550,2019-12-10 11:34:20+00:00,0,,,not_missing,False,no_internal_candidate,False
+495302,CSTXB,,,MJ,Mainline,LEMD,2022-04-04 15:22:28+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+71c381,HL8381,,,H,Non-Scheduled,EDDF,2022-04-04 15:40:13+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1800,HBJCI,,,MJ,Mainline,LSGG,2022-04-05 18:30:25+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a22,HBJXI,,,MJ,Lowcost,LSGG,2022-04-07 08:41:19+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fd,HBJCF,,,MJ,Mainline,EGLL,2022-04-07 12:03:49+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cacca,EIFPV,,,MJ,Regional,EHAM,2022-04-07 13:36:14+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4863db,PHNXC,E295,,MJ,Mainline,EHAM,2022-04-07 13:45:26+00:00,True,2,classification_only_missing,2022,1,1,E295,2021-04-20 21:18:15+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1807,HBJCP,,,MJ,Mainline,LSZH,2022-04-07 13:50:04+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0291,HBAZH,E290,,MJ,Regional,LSZH,2022-04-07 14:10:03+00:00,True,2,classification_only_missing,2022,1,1,E290,2021-03-12 19:15:32+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b17fd,HBJCF,,,MJ,Mainline,LSZH,2022-04-07 15:01:42+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1804,HBJCM,,,MJ,Mainline,LSZH,2022-04-07 15:57:58+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b18ba,HBJJM,,,MJ,Mainline,LSZH,2022-04-08 10:15:29+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0291,HBAZH,E290,,MJ,Regional,LSZH,2022-04-08 21:15:48+00:00,True,2,classification_only_missing,2022,1,1,E290,2021-03-12 19:15:32+00:00,0,,,not_missing,False,no_internal_candidate,False
+06a128,A7ANL,,,H,Mainline,LFPG,2022-04-12 18:38:57+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a05627,N12004,,,H,,EDDF,2022-04-15 05:34:39+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+407992,GSTBM,,,H,Mainline,EGLL,2022-04-15 14:38:28+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0290,HBAZG,E290,,MJ,Regional,LSZH,2022-04-16 13:54:38+00:00,True,2,classification_only_missing,2022,1,1,E290,2021-01-30 19:57:30+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028c,HBAZC,E290,,MJ,Regional,LSZH,2022-04-17 14:50:21+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-02-24 21:27:45+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1808,HBJCQ,,,MJ,Mainline,LEMD,2022-04-20 17:09:21+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf82,EISIF,,,MJ,Mainline,EGLL,2022-04-21 11:43:26+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf82,EISIF,,,MJ,Mainline,ESSA,2022-04-21 15:25:41+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fb,HBJCD,,,MJ,Mainline,LFPG,2022-04-23 06:55:42+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0290,HBAZG,E290,,MJ,Regional,LIMC,2022-04-23 08:04:29+00:00,True,2,classification_only_missing,2022,1,1,E290,2021-01-30 19:57:30+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028f,HBAZF,E290,,MJ,Regional,LSZH,2022-04-23 15:19:34+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-11-13 19:28:52+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b17fd,HBJCF,,,MJ,Mainline,LSZH,2022-04-23 20:24:47+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fe,HBJCG,,,MJ,Mainline,EDDF,2022-04-24 06:37:26+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+5110e7,ESATC,,,MT,Regional,ESSA,2022-04-24 15:32:56+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fd,HBJCF,,,MJ,Mainline,EGLL,2022-04-24 18:17:57+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39cf0d,FHTYN,,,H,Mainline,LFPG,2022-04-25 09:10:52+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+407995,GSTBP,,,H,Mainline,EGLL,2022-04-26 18:16:59+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+89655c,A6EVP,A380,,H,Mainline,EGLL,2022-04-27 18:21:13+00:00,True,2,classification_only_missing,2022,1,1,A380,2021-05-18 11:26:58+00:00,0,,,not_missing,False,no_internal_candidate,False
+407930,GTTNM,,,MJ,Mainline,EGLL,2022-04-28 21:39:22+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028d,HBAZD,E290,,MJ,Regional,LSZH,2022-04-30 13:56:59+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-06-27 14:49:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+a290f3,N2645U,,,H,Mainline,LFPG,2022-05-02 07:12:19+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a25,HBJXL,,,MJ,Lowcost,EDDB,2022-05-05 18:38:29+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+485788,PHBHP,,,H,,EHAM,2022-05-06 05:15:57+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cc52d,TFICO,,,MJ,Mainline,LSZH,2022-05-07 10:57:12+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+5110f3,ESACM,,,MJ,Regional,ESSA,2022-05-07 12:00:24+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+407992,GSTBM,,,H,Mainline,EGLL,2022-05-07 17:34:50+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028d,HBAZD,E290,,MJ,Regional,LSZH,2022-05-13 10:00:41+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-06-27 14:49:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+4ba975,TCJKU,,,MJ,Mainline,EGSS,2022-05-14 10:48:07+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+71c360,HL8360,,,H,Non-Scheduled,EDDF,2022-05-14 15:31:59+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4bb261,TCLSA,,A21N,MJ,Mainline,LIMC,2022-05-19 11:51:38+00:00,True,2,typecode_only_missing,2022,1,0,,,1,A21N,2019-01-08 09:03:51+00:00,no_internal_candidate,False,not_missing,False
+4b028d,HBAZD,E290,,MJ,Regional,LSZH,2022-05-19 14:29:53+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-06-27 14:49:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+4bb261,TCLSA,,A21N,MJ,Mainline,EHAM,2022-05-20 14:33:30+00:00,True,2,typecode_only_missing,2022,1,0,,,1,A21N,2019-01-08 09:03:51+00:00,no_internal_candidate,False,not_missing,False
+3c68cb,DAJFK,,L2J,H,Cargo,LIMC,2022-05-20 19:07:14+00:00,True,2,typecode_only_missing,2022,1,0,,,1,L2J,2021-10-25 19:15:18+00:00,no_internal_candidate,False,not_missing,False
+3c6469,DAICI,,L2J,MJ,Lowcost,EDDM,2022-05-20 21:28:33+00:00,True,2,typecode_only_missing,2022,1,0,,,1,L2J,2020-03-16 10:54:17+00:00,no_internal_candidate,False,not_missing,False
+a254d8,N24974,,,H,Mainline,EGLL,2022-05-22 08:18:29+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1804,HBJCM,,,MJ,Mainline,LSZH,2022-05-22 10:14:28+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+43ea60,MAERO,F2LX,,MJ,Business,EDDM,2022-05-22 16:08:08+00:00,True,2,classification_only_missing,2022,1,1,F2LX,2019-01-05 13:26:53+00:00,0,,,not_missing,False,no_internal_candidate,False
+4ac9f2,SEROR,,,MJ,Mainline,ESSA,2022-05-23 05:34:42+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a26,HBJXM,,,MJ,Lowcost,LSGG,2022-05-24 13:32:40+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4863db,PHNXC,E295,,MJ,Mainline,EGLL,2022-05-24 19:59:58+00:00,True,2,classification_only_missing,2022,1,1,E295,2021-04-20 21:18:15+00:00,0,,,not_missing,False,no_internal_candidate,False
+4cc52e,TFICB,,,MJ,Mainline,EIDW,2022-05-25 10:05:12+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+06a2b2,A7BEN,,,H,Mainline,EDDF,2022-05-26 05:21:07+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a97d34,N710MV,,,MJ,Business,EHAM,2022-05-26 12:05:27+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4bb181,TCLLA,,,H,Mainline,EHAM,2022-05-26 15:14:17+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4d21c5,9HSZN,,,H,Mainline,LFPG,2022-05-28 06:14:59+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1801,HBJCJ,,,MJ,Mainline,LSGG,2022-05-28 15:03:47+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caa41,EIEIN,,,H,Mainline,EIDW,2022-05-29 14:30:55+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1801,HBJCJ,,,MJ,Mainline,LSGG,2022-06-01 15:37:22+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39e680,FHZUA,,,MJ,Mainline,LFPG,2022-06-01 18:42:14+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+c02fd5,CFSCY,,,MJ,Mainline,EGLL,2022-06-02 20:03:32+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fb,HBJCD,,,MJ,Mainline,LSZH,2022-06-03 16:57:30+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4863db,PHNXC,E295,,MJ,Mainline,EHAM,2022-06-04 06:01:43+00:00,True,2,classification_only_missing,2022,1,1,E295,2021-04-20 21:18:15+00:00,0,,,not_missing,False,no_internal_candidate,False
+39cf0b,FHTYL,,,H,,LFPG,2022-06-06 04:16:14+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39e680,FHZUA,,,MJ,Mainline,EDDM,2022-06-07 07:30:44+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+c038c8,CFVNB,,,H,Mainline,EDDF,2022-06-10 07:20:14+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+8964a4,A6EQL,,,H,Mainline,LSGG,2022-06-10 11:25:21+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cabd3,EILRG,,,MJ,Mainline,EGLL,2022-06-11 12:30:07+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4072ea,GVWOO,,,H,Mainline,EGLL,2022-06-13 12:51:33+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+c044b2,CGAAJ,,,H,Cargo,EGLL,2022-06-14 14:24:15+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4079cd,GVEVE,,,H,,EGLL,2022-06-17 05:52:42+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+407930,GTTNM,,,MJ,Mainline,LIRF,2022-06-17 17:07:59+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b184e,HBJFI,F2LX,,MJ,Business,LSGG,2022-06-18 15:16:57+00:00,True,2,classification_only_missing,2022,1,1,F2LX,2019-01-06 20:21:52+00:00,0,,,not_missing,False,no_internal_candidate,False
+a4ee82,N417DX,,,H,,LFPG,2022-06-19 07:13:36+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0290,HBAZG,E290,,MJ,Regional,LIMC,2022-06-19 12:20:49+00:00,True,2,classification_only_missing,2022,1,1,E290,2021-01-30 19:57:30+00:00,0,,,not_missing,False,no_internal_candidate,False
+3cbdeb,DBOOK,F2LX,,MJ,Business,EDDB,2022-06-20 06:47:59+00:00,True,2,classification_only_missing,2022,1,1,F2LX,2019-01-07 07:29:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+a0f428,N16009,,,H,Mainline,EDDF,2022-06-21 07:41:14+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028f,HBAZF,E290,,MJ,Regional,LSZH,2022-06-21 19:37:18+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-11-13 19:28:52+00:00,0,,,not_missing,False,no_internal_candidate,False
+4d210e,9HILV,CL85,,MJ,Non-Scheduled,EIDW,2022-06-23 10:28:20+00:00,True,2,classification_only_missing,2022,1,1,CL85,2019-01-24 15:08:50+00:00,0,,,not_missing,False,no_internal_candidate,False
+5110e9,ESATE,,,MT,Regional,EKCH,2022-06-24 08:42:56+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+345691,ECMXU,A320-251N,,MJ,Mainline,LEMD,2022-06-24 13:41:05+00:00,True,2,classification_only_missing,2022,1,1,A320-251N,2019-01-01 07:22:47+00:00,0,,,not_missing,False,no_internal_candidate,False
+39e680,FHZUA,,,MJ,Mainline,LIMC,2022-06-24 18:22:23+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028a,HBAZA,E290,,MJ,Regional,EGLL,2022-06-29 10:20:44+00:00,True,2,classification_only_missing,2022,1,1,E290,2019-10-29 19:26:03+00:00,0,,,not_missing,False,no_internal_candidate,False
+407992,GSTBM,,,H,Mainline,EGLL,2022-06-29 10:27:57+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+ab79ca,N839AA,,,H,Mainline,LFPG,2022-06-30 11:21:39+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fb,HBJCD,,,MJ,Mainline,LIMC,2022-07-01 17:13:34+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+89655c,A6EVP,A380,,H,Mainline,EGLL,2022-07-01 18:01:24+00:00,True,2,classification_only_missing,2022,1,1,A380,2021-05-18 11:26:58+00:00,0,,,not_missing,False,no_internal_candidate,False
+407371,GVNYL,,,H,Mainline,EGLL,2022-07-02 11:25:45+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caca0,EIFPR,,,MJ,Regional,EKCH,2022-07-03 20:14:13+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4bb18d,TCLLM,,,H,Mainline,EHAM,2022-07-06 19:36:51+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028f,HBAZF,E290,,MJ,Regional,EHAM,2022-07-08 21:24:29+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-11-13 19:28:52+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1805,HBJCN,,,MJ,Mainline,LSZH,2022-07-09 09:41:19+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0291,HBAZH,E290,,MJ,Regional,LIMC,2022-07-11 12:36:48+00:00,True,2,classification_only_missing,2022,1,1,E290,2021-03-12 19:15:32+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1809,HBJCR,,,MJ,Mainline,LSZH,2022-07-13 08:17:52+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+71c382,HL8382,,,H,Mainline,LFPG,2022-07-13 15:37:29+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a24,HBJXK,,,MJ,Lowcost,LSGG,2022-07-15 18:52:17+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+486258,PHNXB,E295,,MJ,Mainline,EHAM,2022-07-16 10:51:27+00:00,True,2,classification_only_missing,2022,1,1,E295,2021-02-28 14:37:43+00:00,0,,,not_missing,False,no_internal_candidate,False
+39cf00,FHTYA,,,H,Mainline,LFPG,2022-07-16 11:36:23+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1807,HBJCP,,,MJ,Mainline,LSGG,2022-07-16 19:12:26+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0291,HBAZH,E290,,MJ,Regional,LSZH,2022-07-17 14:49:23+00:00,True,2,classification_only_missing,2022,1,1,E290,2021-03-12 19:15:32+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b17fd,HBJCF,,,MJ,Mainline,EIDW,2022-07-17 18:14:29+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cacc8,EIFPT,,,MJ,Regional,EKCH,2022-07-18 05:03:52+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a25,HBJXL,,,MJ,Lowcost,LSGG,2022-07-22 20:59:29+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1803,HBJCL,,,MJ,Mainline,LSGG,2022-07-22 21:35:43+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fb,HBJCD,,,MJ,Mainline,LSGG,2022-07-22 21:37:55+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a24,HBJXK,,,MJ,Lowcost,LSGG,2022-07-23 09:50:53+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1800,HBJCI,,,MJ,Mainline,LSGG,2022-07-24 19:22:36+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+40749b,GZBKR,,,H,,EGLL,2022-07-25 06:15:21+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0291,HBAZH,E290,,MJ,Regional,LSZH,2022-07-27 14:19:56+00:00,True,2,classification_only_missing,2022,1,1,E290,2021-03-12 19:15:32+00:00,0,,,not_missing,False,no_internal_candidate,False
+39e680,FHZUA,,,MJ,Mainline,LFPG,2022-07-27 15:00:29+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a25,HBJXL,,,MJ,Lowcost,LSGG,2022-07-28 12:32:18+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+710125,HZAK44,,,H,Business,LFPG,2022-07-28 18:10:28+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fe,HBJCG,,,MJ,Mainline,LSZH,2022-07-29 13:54:23+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1804,HBJCM,,,MJ,Mainline,LSZH,2022-07-30 16:34:46+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+346045,ECMYA,,,H,Mainline,LEMD,2022-07-31 02:31:46+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+aadd64,N8CG,,,MJ,Other,LSGG,2022-07-31 10:30:51+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39cf0b,FHTYL,,,H,Mainline,LFPG,2022-08-01 18:13:52+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4bb0e4,TCLGD,,,H,Mainline,EGLL,2022-08-02 14:16:45+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cc510,TFICU,,,MJ,Mainline,EKCH,2022-08-04 04:17:54+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1801,HBJCJ,,,MJ,Mainline,LSGG,2022-08-04 13:12:44+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fb,HBJCD,,,MJ,Mainline,LSGG,2022-08-04 15:28:28+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+486257,PHNXA,E295,,MJ,Mainline,EHAM,2022-08-04 20:15:30+00:00,True,2,classification_only_missing,2022,1,1,E295,2021-02-25 16:16:51+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028d,HBAZD,E290,,MJ,Regional,LSZH,2022-08-05 18:29:23+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-06-27 14:49:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+345691,ECMXU,A320-251N,,MJ,Mainline,LEMD,2022-08-05 20:13:01+00:00,True,2,classification_only_missing,2022,1,1,A320-251N,2019-01-01 07:22:47+00:00,0,,,not_missing,False,no_internal_candidate,False
+a2b8db,N2748U,,,H,Mainline,EDDF,2022-08-06 07:35:09+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1809,HBJCR,,,MJ,Mainline,LSGG,2022-08-06 15:36:58+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+346057,ECMYX,,,H,Mainline,EGLL,2022-08-07 16:02:56+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+345691,ECMXU,A320-251N,,MJ,Mainline,LEMD,2022-08-08 18:43:40+00:00,True,2,classification_only_missing,2022,1,1,A320-251N,2019-01-01 07:22:47+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028f,HBAZF,E290,,MJ,Regional,LSZH,2022-08-11 09:46:48+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-11-13 19:28:52+00:00,0,,,not_missing,False,no_internal_candidate,False
+4cc530,TFICP,,,MJ,Mainline,EKCH,2022-08-12 04:04:28+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0290,HBAZG,E290,,MJ,Regional,EPWA,2022-08-12 17:52:55+00:00,True,2,classification_only_missing,2022,1,1,E290,2021-01-30 19:57:30+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b191e,HBJNI,,,H,,LSZH,2022-08-14 08:42:24+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+493289,CSLTI,,,MJ,Business,LSZH,2022-08-14 16:02:46+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b012f,HBALR,,,MT,Cargo,ESSA,2022-08-15 21:50:41+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028a,HBAZA,E290,,MJ,Regional,LSZH,2022-08-16 14:36:20+00:00,True,2,classification_only_missing,2022,1,1,E290,2019-10-29 19:26:03+00:00,0,,,not_missing,False,no_internal_candidate,False
+ab7268,N837AN,,,H,Mainline,EGLL,2022-08-17 08:53:40+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1805,HBJCN,,,MJ,Mainline,EDDF,2022-08-18 18:08:20+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+c038c8,CFVNB,,,H,Mainline,LOWW,2022-08-19 06:36:26+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4acaa3,SERUC,,,MJ,Mainline,ESSA,2022-08-19 16:47:26+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b18ba,HBJJM,,,MJ,Mainline,LSZH,2022-08-20 09:27:51+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028a,HBAZA,E290,,MJ,Regional,LSZH,2022-08-20 14:21:29+00:00,True,2,classification_only_missing,2022,1,1,E290,2019-10-29 19:26:03+00:00,0,,,not_missing,False,no_internal_candidate,False
+345691,ECMXU,A320-251N,,MJ,Mainline,LEMD,2022-08-25 14:06:58+00:00,True,2,classification_only_missing,2022,1,1,A320-251N,2019-01-01 07:22:47+00:00,0,,,not_missing,False,no_internal_candidate,False
+89655c,A6EVP,A380,,H,Mainline,EGLL,2022-08-25 17:35:36+00:00,True,2,classification_only_missing,2022,1,1,A380,2021-05-18 11:26:58+00:00,0,,,not_missing,False,no_internal_candidate,False
+345691,ECMXU,A320-251N,,MJ,Mainline,LEMD,2022-08-27 20:53:04+00:00,True,2,classification_only_missing,2022,1,1,A320-251N,2019-01-01 07:22:47+00:00,0,,,not_missing,False,no_internal_candidate,False
+39cf00,FHTYA,,,H,Mainline,LFPG,2022-08-29 06:05:29+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1804,HBJCM,,,MJ,Mainline,LFPG,2022-08-29 12:09:20+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39e680,FHZUA,,,MJ,Mainline,LOWW,2022-09-04 21:13:44+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9cb,EILRD,,,MJ,Mainline,EIDW,2022-09-05 07:50:35+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+407930,GTTNM,,,MJ,Mainline,EGLL,2022-09-05 21:58:18+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+407992,GSTBM,,,H,Mainline,EGLL,2022-09-06 07:13:24+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b191e,HBJNI,,,H,Mainline,LSZH,2022-09-07 08:59:29+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1800,HBJCI,,,MJ,Mainline,EDDB,2022-09-07 16:08:26+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39e680,FHZUA,,,MJ,Mainline,LIMC,2022-09-07 17:23:09+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+484f50,PHCTH,F2LX,,MJ,Business,EDDB,2022-09-07 17:56:42+00:00,True,2,classification_only_missing,2022,1,1,F2LX,2019-01-25 18:45:27+00:00,0,,,not_missing,False,no_internal_candidate,False
+39e680,FHZUA,,,MJ,Mainline,LFPG,2022-09-08 19:15:56+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+45ce57,OYSRW,,,H,Cargo,LFPG,2022-09-08 20:56:15+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cacca,EIFPV,,,MJ,Regional,ESSA,2022-09-09 11:53:25+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39cf0d,FHTYN,,,H,,LFPG,2022-09-10 04:06:59+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a25,HBJXL,,,MJ,Lowcost,LFPO,2022-09-11 14:43:25+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+407944,GXWBH,,,H,,EGLL,2022-09-12 05:57:51+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9cb,EILRD,,,MJ,Mainline,EGLL,2022-09-13 08:05:17+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a0e1e8,N156QS,,,MJ,Business,LFPG,2022-09-14 21:00:51+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b18b8,HBJJK,,,MJ,Mainline,LSZH,2022-09-17 13:26:49+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4d20d5,9HVJI,GL6T,,MJ,Business,LSZH,2022-09-20 11:01:17+00:00,True,2,classification_only_missing,2022,1,1,GL6T,2019-01-20 16:19:45+00:00,0,,,not_missing,False,no_internal_candidate,False
+06a2c7,A7BEX,,,H,Mainline,EGLL,2022-09-23 19:26:14+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf95,EIFPX,,,MJ,Regional,EKCH,2022-09-24 05:14:57+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a0ab8d,N142QS,GL6T,,MJ,Business,EHAM,2022-09-25 18:20:19+00:00,True,2,classification_only_missing,2022,1,1,GL6T,2019-03-21 10:40:51+00:00,0,,,not_missing,False,no_internal_candidate,False
+4cabd3,EILRG,,,MJ,Mainline,EGLL,2022-09-26 08:15:15+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1808,HBJCQ,,,MJ,Mainline,LSGG,2022-09-26 12:41:37+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+ab839d,N841AN,,,H,Mainline,LFPG,2022-09-27 07:03:34+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028b,HBAZB,E290,,MJ,Regional,LSZH,2022-09-27 14:50:34+00:00,True,2,classification_only_missing,2022,1,1,E290,2019-12-22 19:28:00+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028a,HBAZA,E290,,MJ,Regional,LSZH,2022-09-29 09:29:35+00:00,True,2,classification_only_missing,2022,1,1,E290,2019-10-29 19:26:03+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1808,HBJCQ,,,MJ,Mainline,LSGG,2022-10-01 09:30:57+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a5a99f,N464MW,,,LP,Other,LSZH,2022-10-03 15:58:23+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4bb186,TCLLF,,,H,Mainline,EGLL,2022-10-04 14:07:59+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9ba,EILRA,,,MJ,Mainline,EIDW,2022-10-05 10:20:59+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a6ff8b,N550BG,,,MJ,Business,EGSS,2022-10-05 16:39:04+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39e680,FHZUA,,,MJ,Mainline,EKCH,2022-10-05 21:13:08+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fd,HBJCF,,,MJ,Mainline,LSZH,2022-10-07 14:26:38+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a9178d,N685UA,,,H,Mainline,EGLL,2022-10-12 06:06:28+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+8964a2,A6EQJ,,,H,Mainline,EGSS,2022-10-13 12:32:59+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cabd1,EILRE,,,MJ,,EIDW,2022-10-17 04:19:56+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caa41,EIEIN,,,H,Mainline,EIDW,2022-10-17 14:08:17+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+3c6469,DAICI,,L2J,MJ,Lowcost,EDDF,2022-10-18 10:13:48+00:00,True,2,typecode_only_missing,2022,1,0,,,1,L2J,2020-03-16 10:54:17+00:00,no_internal_candidate,False,not_missing,False
+407992,GSTBM,,,H,Mainline,EGLL,2022-10-19 05:43:21+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+40771a,GVDOT,,,H,Mainline,EGLL,2022-10-21 05:27:59+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4077d3,GVTEA,,,H,Mainline,EGLL,2022-10-23 05:52:42+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caf82,EISIF,,,MJ,Mainline,EDDB,2022-10-24 13:19:23+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1808,HBJCQ,,,MJ,Mainline,EGLL,2022-10-24 18:22:54+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caa41,EIEIN,,,H,Mainline,EIDW,2022-10-27 10:15:26+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ac9e9,SEROI,,,MJ,Mainline,ESSA,2022-10-28 15:25:50+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+345691,ECMXU,A320-251N,,MJ,Mainline,LEMD,2022-10-28 17:04:43+00:00,True,2,classification_only_missing,2022,1,1,A320-251N,2019-01-01 07:22:47+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b028c,HBAZC,E290,,MJ,Regional,LEMD,2022-10-28 17:20:55+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-02-24 21:27:45+00:00,0,,,not_missing,False,no_internal_candidate,False
+7380ca,4XEDL,,,H,Mainline,EGLL,2022-10-30 20:07:27+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a402ee,N358EE,,,LJ,Business,EGSS,2022-11-02 14:45:33+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+71c382,HL8382,,,H,Mainline,EGLL,2022-11-02 17:53:19+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+c02fd8,CFSDB,,,MJ,Mainline,EGLL,2022-11-02 20:11:47+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028c,HBAZC,E290,,MJ,Regional,LSZH,2022-11-06 16:06:36+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-02-24 21:27:45+00:00,0,,,not_missing,False,no_internal_candidate,False
+4cabd3,EILRG,,,MJ,Mainline,EIDW,2022-11-07 05:31:59+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a254f7,N24980,,,H,Mainline,EGLL,2022-11-08 11:26:29+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a4d838,N411DX,,,H,Mainline,LIRF,2022-11-10 10:57:46+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+345691,ECMXU,A320-251N,,MJ,Mainline,LEMD,2022-11-11 16:36:46+00:00,True,2,classification_only_missing,2022,1,1,A320-251N,2019-01-01 07:22:47+00:00,0,,,not_missing,False,no_internal_candidate,False
+40780e,GNEOY,,,MJ,Mainline,EIDW,2022-11-14 20:21:47+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+ab7268,N837AN,,,H,Mainline,EGLL,2022-11-15 07:26:09+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a4b6b6,N4022J,,,MJ,Mainline,EGLL,2022-11-15 09:02:22+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028d,HBAZD,E290,,MJ,Regional,LSZH,2022-11-15 10:29:20+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-06-27 14:49:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+407992,GSTBM,,,H,Mainline,EGLL,2022-11-16 08:34:29+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cacc8,EIFPT,,,MJ,Regional,EKCH,2022-11-16 16:23:36+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+71c362,HL8362,,,H,Mainline,EGLL,2022-11-16 18:01:27+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+ac01fc,N873FD,,,H,Cargo,LFPG,2022-11-17 17:31:29+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cabd3,EILRG,,,MJ,Mainline,EIDW,2022-11-25 11:40:42+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39e680,FHZUA,,,MJ,Mainline,LFPG,2022-11-27 13:25:59+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1636,HBIKS,CL61,,MJ,Business,LOWW,2022-11-28 13:57:20+00:00,True,2,classification_only_missing,2022,1,1,CL61,2019-04-16 10:04:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+486257,PHNXA,E295,,MJ,Mainline,EHAM,2022-11-29 06:29:45+00:00,True,2,classification_only_missing,2022,1,1,E295,2021-02-25 16:16:51+00:00,0,,,not_missing,False,no_internal_candidate,False
+a4dbef,N412DX,,,H,,LFPG,2022-11-29 07:27:55+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a5969c,N4595K,,,MJ,Other,EDDF,2022-12-01 07:57:08+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a254f7,N24980,,,H,Mainline,EGLL,2022-12-01 11:34:34+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+3455d5,ECMUD,,,H,Mainline,LEMD,2022-12-05 21:26:21+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+aace63,N796AV,,,H,Mainline,LEMD,2022-12-11 13:18:06+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4d2135,9HYOU,CL85,,MJ,Non-Scheduled,EDDM,2022-12-11 18:23:29+00:00,True,2,classification_only_missing,2022,1,1,CL85,2019-10-20 16:36:09+00:00,0,,,not_missing,False,no_internal_candidate,False
+a0ab8d,N142QS,GL6T,,MJ,Business,EIDW,2022-12-12 09:19:18+00:00,True,3,classification_only_missing,2022,1,1,GL6T,2019-03-21 10:40:51+00:00,0,,,not_missing,False,no_internal_candidate,False
+49328b,CSLTK,,,MJ,Business,LSGG,2022-12-12 13:21:12+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b3911,HBVPX,,,MJ,Business,LSZH,2022-12-12 18:39:01+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028f,HBAZF,E290,,MJ,Regional,LIRF,2022-12-14 13:31:54+00:00,True,2,classification_only_missing,2022,1,1,E290,2020-11-13 19:28:52+00:00,0,,,not_missing,False,no_internal_candidate,False
+4cabd2,EILRF,,,MJ,Mainline,EIDW,2022-12-19 11:26:59+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9bc,EILRC,,,MJ,Mainline,EIDW,2022-12-19 11:33:41+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1a24,HBJXK,,,MJ,Lowcost,LSGG,2022-12-19 14:25:36+00:00,True,2,both_missing,2022,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b18b9,HBJJL,,,MJ,,LSZH,2023-01-01 10:42:20+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39cf0d,FHTYN,,,H,,LFPG,2023-01-01 18:43:20+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+486258,PHNXB,E295,,MJ,,EHAM,2023-01-04 08:35:08+00:00,True,2,classification_only_missing,2023,1,1,E295,2021-02-28 14:37:43+00:00,0,,,not_missing,False,no_internal_candidate,False
+710030,HZSK2,G450,,MJ,,LSZH,2023-01-04 19:00:10+00:00,True,2,classification_only_missing,2023,1,1,G450,2020-01-07 08:25:55+00:00,0,,,not_missing,False,no_internal_candidate,False
+39e680,FHZUA,,,MJ,,LFPG,2023-01-07 18:29:24+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+345691,ECMXU,A320-251N,,MJ,,LEMD,2023-01-12 13:51:59+00:00,True,2,classification_only_missing,2023,1,1,A320-251N,2019-01-01 07:22:47+00:00,0,,,not_missing,False,no_internal_candidate,False
+71ba03,HL7203,,,H,,EHAM,2023-01-12 17:00:45+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a254d7,N24973,,,H,,EGLL,2023-01-17 13:15:52+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+40780e,GNEOY,,,MJ,,LSGG,2023-01-18 17:19:51+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4073ce,GVBEL,,,H,,EGLL,2023-01-18 17:39:46+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+c030f7,CFSOC,,,MJ,,EGLL,2023-01-19 20:54:10+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+3cbdeb,DBOOK,F2LX,,MJ,,EDDF,2023-01-20 06:45:29+00:00,True,2,classification_only_missing,2023,1,1,F2LX,2019-01-07 07:29:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+4cc530,TFICP,,,MJ,,EGLL,2023-01-20 19:00:43+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a674e4,N515KA,G650,,MJ,,LOWW,2023-01-22 13:40:47+00:00,True,2,classification_only_missing,2023,1,1,G650,2019-01-04 13:34:33+00:00,0,,,not_missing,False,no_internal_candidate,False
+486258,PHNXB,E295,,MJ,,EDDM,2023-01-22 21:08:34+00:00,True,2,classification_only_missing,2023,1,1,E295,2021-02-28 14:37:43+00:00,0,,,not_missing,False,no_internal_candidate,False
+a2d2d1,N281MM,,,MJ,,EDDF,2023-01-25 15:21:13+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1807,HBJCP,,,MJ,,LSGG,2023-01-28 16:43:12+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+40780e,GNEOY,,,MJ,,EGLL,2023-01-29 21:38:03+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+c04fe4,CGEGP,,,H,,EGLL,2023-02-01 06:42:51+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+ac5c1f,N896FD,,,H,,LFPG,2023-02-02 15:56:54+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a9178d,N685UA,,,H,,EGLL,2023-02-03 06:17:25+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39e680,FHZUA,,,MJ,,LFPG,2023-02-03 08:02:20+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+40780e,GNEOY,,,MJ,,EDDB,2023-02-03 18:31:26+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4408a2,OEIJS,,,MJ,,LFPG,2023-02-03 21:19:39+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a4ce71,N409DX,,,H,,LFPG,2023-02-05 06:39:28+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b18ba,HBJJM,,,MJ,,LFPG,2023-02-05 18:21:59+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+0d0a9b,XAADH,,,H,,LEMD,2023-02-06 11:43:48+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+40771a,GVDOT,,,H,,EGLL,2023-02-07 08:30:40+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4d20d7,9HVJL,GL6T,,MJ,,EIDW,2023-02-09 15:18:28+00:00,True,2,classification_only_missing,2023,1,1,GL6T,2019-01-12 17:40:39+00:00,0,,,not_missing,False,no_internal_candidate,False
+407930,GTTNM,,,MJ,,EGLL,2023-02-12 15:00:16+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1636,HBIKS,CL61,,MJ,,LOWW,2023-02-13 13:38:43+00:00,True,2,classification_only_missing,2023,1,1,CL61,2019-04-16 10:04:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+ac9923,N91007,,,H,,LFPG,2023-02-21 07:10:43+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+491d83,CSGLC,GL6T,,MJ,,LSGG,2023-02-22 14:15:50+00:00,True,2,classification_only_missing,2023,1,1,GL6T,2019-01-25 08:28:35+00:00,0,,,not_missing,False,no_internal_candidate,False
+5110f3,ESACM,,,MJ,,EPWA,2023-02-22 16:56:54+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1807,HBJCP,,,MJ,,LSZH,2023-02-26 15:51:57+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1800,HBJCI,,,MJ,,LSGG,2023-02-26 16:58:29+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9bc,EILRC,,,MJ,,EIDW,2023-02-27 05:20:43+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1807,HBJCP,,,MJ,,LSZH,2023-02-27 11:09:50+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a49375,N394UP,,,H,,LOWW,2023-03-01 04:43:39+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a7eed3,N610AW,,,MJ,,EDDM,2023-03-01 10:47:16+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028e,HBAZE,E290,,MJ,,LSZH,2023-03-03 20:56:30+00:00,True,2,classification_only_missing,2023,1,1,E290,2020-07-02 18:49:00+00:00,0,,,not_missing,False,no_internal_candidate,False
+4cc52c,TFICN,,,MJ,,EGLL,2023-03-07 19:21:49+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39cf0c,FHTYM,,,H,,LFPG,2023-03-08 06:55:46+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a9178d,N685UA,,,H,,EGLL,2023-03-08 20:40:10+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fe,HBJCG,,,MJ,,LSZH,2023-03-09 07:51:52+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+3455d5,ECMUD,,,H,,LEMD,2023-03-10 05:49:18+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+c0611f,CGKUG,,,H,,EGLL,2023-03-10 07:39:24+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+ab7613,N838AA,,,H,,EGLL,2023-03-10 08:08:50+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0290,HBAZG,E290,,MJ,,LSZH,2023-03-10 16:13:45+00:00,True,2,classification_only_missing,2023,1,1,E290,2021-01-30 19:57:30+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1805,HBJCN,,,MJ,,EIDW,2023-03-11 16:40:59+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028d,HBAZD,E290,,MJ,,LSZH,2023-03-12 09:52:55+00:00,True,2,classification_only_missing,2023,1,1,E290,2020-06-27 14:49:42+00:00,0,,,not_missing,False,no_internal_candidate,False
+a4c2ad,N4058J,,,MJ,,EGLL,2023-03-13 05:59:55+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4408a2,OEIJS,,,MJ,,LFPO,2023-03-13 13:37:37+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1809,HBJCR,,,MJ,,LSGG,2023-03-14 16:07:26+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028e,HBAZE,E290,,MJ,,LSZH,2023-03-15 11:11:12+00:00,True,2,classification_only_missing,2023,1,1,E290,2020-07-02 18:49:00+00:00,0,,,not_missing,False,no_internal_candidate,False
+407993,GSTBN,,,H,,EGLL,2023-03-16 05:19:27+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+06a12b,A7ANO,,,H,,EGLL,2023-03-24 19:34:09+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+5110e7,ESATC,,,MT,,ESSA,2023-03-27 05:50:48+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fe,HBJCG,,,MJ,,LSZH,2023-03-29 14:33:45+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cafcd,EISIH,,,MJ,,ESSA,2023-03-31 08:11:35+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1809,HBJCR,,,MJ,,LSZH,2023-03-31 15:20:49+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0290,HBAZG,E290,,MJ,,LSZH,2023-03-31 16:12:42+00:00,True,2,classification_only_missing,2023,1,1,E290,2021-01-30 19:57:30+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1804,HBJCM,,,MJ,,LSZH,2023-03-31 16:16:35+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+345691,ECMXU,A320-251N,,MJ,,LEMD,2023-03-31 21:39:19+00:00,True,2,classification_only_missing,2023,1,1,A320-251N,2019-01-01 07:22:47+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b8664,TCASD,F2LX,,MJ,,LSGG,2023-04-02 12:26:53+00:00,True,2,classification_only_missing,2023,1,1,F2LX,2019-01-01 16:09:43+00:00,0,,,not_missing,False,no_internal_candidate,False
+c03068,CFSIP,,,MJ,,EGLL,2023-04-03 19:55:50+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a49375,N394UP,,,H,,EGSS,2023-04-04 03:29:59+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028c,HBAZC,E290,,MJ,,LIMC,2023-04-05 12:21:28+00:00,True,2,classification_only_missing,2023,1,1,E290,2020-02-24 21:27:45+00:00,0,,,not_missing,False,no_internal_candidate,False
+486258,PHNXB,E295,,MJ,,EIDW,2023-04-07 16:37:39+00:00,True,2,classification_only_missing,2023,1,1,E295,2021-02-28 14:37:43+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b1809,HBJCR,,,MJ,,LSZH,2023-04-09 09:48:18+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+407930,GTTNM,,,MJ,,EGLL,2023-04-12 13:10:43+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39cf0b,FHTYL,,,H,,LFPG,2023-04-14 11:12:58+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4ca9bb,EILRB,,,MJ,,EIDW,2023-04-15 12:05:38+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cabd3,EILRG,,,MJ,,EIDW,2023-04-16 12:01:15+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fd,HBJCF,,,MJ,,LSZH,2023-04-16 12:55:25+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b18ba,HBJJM,,,MJ,,LSZH,2023-04-16 20:28:19+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b17fe,HBJCG,,,MJ,,EGLL,2023-04-21 07:27:54+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+39e680,FHZUA,,,MJ,,LFPG,2023-04-22 20:41:38+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0291,HBAZH,E290,,MJ,,LIMC,2023-04-26 12:32:57+00:00,True,2,classification_only_missing,2023,1,1,E290,2021-03-12 19:15:32+00:00,0,,,not_missing,False,no_internal_candidate,False
+06a0e8,A7AMI,,,H,,LSZH,2023-04-27 11:41:26+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1805,HBJCN,,,MJ,,LSZH,2023-04-28 09:34:55+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+407371,GVNYL,,,H,,EGLL,2023-04-29 09:10:18+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cacc8,EIFPT,,,MJ,,ESSA,2023-04-30 10:50:21+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+7380c3,4XEDD,,,H,,EGLL,2023-05-01 19:58:48+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b18b9,HBJJL,,,MJ,,LSZH,2023-05-01 20:20:43+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+491187,CSDLG,F2EX,,MJ,,LEMD,2023-05-02 10:21:50+00:00,True,2,classification_only_missing,2023,1,1,F2EX,2019-05-31 06:57:39+00:00,0,,,not_missing,False,no_internal_candidate,False
+c0307c,CFSJJ,,,MJ,,EGLL,2023-05-02 20:22:40+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+407930,GTTNM,,,MJ,,EGLL,2023-05-04 11:07:54+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+5110f3,ESACM,,,MJ,,ESSA,2023-05-06 12:16:26+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+3455d5,ECMUD,,,H,,LEMD,2023-05-09 11:04:53+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028f,HBAZF,E290,,MJ,,LSZH,2023-05-09 19:23:56+00:00,True,2,classification_only_missing,2023,1,1,E290,2020-11-13 19:28:52+00:00,0,,,not_missing,False,no_internal_candidate,False
+4cafcd,EISIH,,,MJ,,ESSA,2023-05-10 05:40:24+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4408a2,OEIJS,,,MJ,,LFPG,2023-05-10 09:45:58+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028f,HBAZF,E290,,MJ,,LSZH,2023-05-10 14:31:53+00:00,True,2,classification_only_missing,2023,1,1,E290,2020-11-13 19:28:52+00:00,0,,,not_missing,False,no_internal_candidate,False
+aa4a1a,N762MS,G650,,MJ,,EGSS,2023-05-12 01:53:47+00:00,True,2,classification_only_missing,2023,1,1,G650,2019-05-13 07:16:14+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b17fb,HBJCD,,,MJ,,LOWW,2023-05-12 06:59:22+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4caa41,EIEIN,,,H,,EIDW,2023-05-13 13:51:50+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a88d05,N650D,,,MJ,,EGSS,2023-05-14 05:28:50+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b0291,HBAZH,E290,,MJ,,LSZH,2023-05-14 18:44:16+00:00,True,2,classification_only_missing,2023,1,1,E290,2021-03-12 19:15:32+00:00,0,,,not_missing,False,no_internal_candidate,False
+4b17fd,HBJCF,,,MJ,,EDDB,2023-05-15 17:44:19+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4cc52d,TFICO,,,MJ,,EGLL,2023-05-15 19:47:52+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+51110b,ESATI,,,MT,,ESSA,2023-05-16 08:55:14+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+440892,OEFMO,EA55,,LJ,,LOWW,2023-05-16 12:57:39+00:00,True,2,classification_only_missing,2023,1,1,EA55,2020-09-12 15:54:19+00:00,0,,,not_missing,False,no_internal_candidate,False
+4408a2,OEIJS,,,MJ,,LFPG,2023-05-20 21:31:26+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+a07176,N128AM,,,H,,LEMD,2023-05-22 11:59:43+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b028e,HBAZE,E290,,MJ,,LSZH,2023-05-22 15:41:32+00:00,True,2,classification_only_missing,2023,1,1,E290,2020-07-02 18:49:00+00:00,0,,,not_missing,False,no_internal_candidate,False
+407930,GTTNM,,,MJ,,EGLL,2023-05-25 13:00:55+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+8964a2,A6EQJ,,,H,,LSGG,2023-05-26 11:08:23+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+4b1807,HBJCP,,,MJ,,LSZH,2023-05-28 15:34:54+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False
+ab839d,N841AN,,,H,,EGLL,2023-05-29 09:31:24+00:00,True,2,both_missing,2023,1,0,,,0,,,no_internal_candidate,False,no_internal_candidate,False

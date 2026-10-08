@@ -1,0 +1,36 @@
+lookup_key,remaining_issue,rows,go_arounds,decision
+330-243MRTT,classification_unresolved,20,0,retain_unknown; no further historical aircraft lookup in this bounded review
+340,classification_unresolved,1,0,retain_unknown; no further historical aircraft lookup in this bounded review
+340B,classification_unresolved,242,0,retain_unknown; no further historical aircraft lookup in this bounded review
+A20B,classification_unresolved,694,2,retain_unknown; no further historical aircraft lookup in this bounded review
+A320-200,classification_unresolved,347,0,retain_unknown; no further historical aircraft lookup in this bounded review
+A32N,classification_unresolved,14,0,retain_unknown; no further historical aircraft lookup in this bounded review
+AN74,classification_unresolved,1,0,retain_unknown; no further historical aircraft lookup in this bounded review
+B77F,classification_unresolved,419,0,retain_unknown; no further historical aircraft lookup in this bounded review
+C255,classification_unresolved,32,0,retain_unknown; no further historical aircraft lookup in this bounded review
+CL4T,classification_unresolved,2,0,retain_unknown; no further historical aircraft lookup in this bounded review
+CL61,classification_unresolved,100,2,retain_unknown; no further historical aircraft lookup in this bounded review
+CL64,classification_unresolved,1906,0,retain_unknown; no further historical aircraft lookup in this bounded review
+CL65,classification_unresolved,3466,8,retain_unknown; no further historical aircraft lookup in this bounded review
+CL85,classification_unresolved,1522,5,retain_unknown; no further historical aircraft lookup in this bounded review
+CNJ,classification_unresolved,117,0,retain_unknown; no further historical aircraft lookup in this bounded review
+EA55,classification_unresolved,104,1,retain_unknown; no further historical aircraft lookup in this bounded review
+F2DX,classification_unresolved,4,0,retain_unknown; no further historical aircraft lookup in this bounded review
+F2EX,classification_unresolved,3324,4,retain_unknown; no further historical aircraft lookup in this bounded review
+F2LX,classification_unresolved,3092,8,retain_unknown; no further historical aircraft lookup in this bounded review
+F2TS,classification_unresolved,649,2,retain_unknown; no further historical aircraft lookup in this bounded review
+F5EX,classification_unresolved,129,0,retain_unknown; no further historical aircraft lookup in this bounded review
+F9DX,classification_unresolved,235,0,retain_unknown; no further historical aircraft lookup in this bounded review
+F9EX,classification_unresolved,1291,1,retain_unknown; no further historical aircraft lookup in this bounded review
+F9LX,classification_unresolved,514,1,retain_unknown; no further historical aircraft lookup in this bounded review
+G650ER,classification_unresolved,1,0,retain_unknown; no further historical aircraft lookup in this bounded review
+GL6T,classification_unresolved,6666,20,retain_unknown; no further historical aircraft lookup in this bounded review
+H750,classification_unresolved,302,0,retain_unknown; no further historical aircraft lookup in this bounded review
+H900,classification_unresolved,276,1,retain_unknown; no further historical aircraft lookup in this bounded review
+LJ36,classification_unresolved,19,0,retain_unknown; no further historical aircraft lookup in this bounded review
+LM1,classification_unresolved,6,0,retain_unknown; no further historical aircraft lookup in this bounded review
+T214,classification_unresolved,4,0,retain_unknown; no further historical aircraft lookup in this bounded review
+ULAC,classification_unresolved,2,0,retain_unknown; no further historical aircraft lookup in this bounded review
+V68A,classification_unresolved,217,0,retain_unknown; no further historical aircraft lookup in this bounded review
+,both_type_fields_missing,218080,688,retain_unknown; no further historical aircraft lookup in this bounded review
+,typecode_only_missing,3591,13,retain; broad classification cannot uniquely determine typecode

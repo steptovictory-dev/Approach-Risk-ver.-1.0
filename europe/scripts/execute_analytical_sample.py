@@ -15,7 +15,7 @@ filename = {'04_01': '04_01_task_definition.ipynb', '04_02': '04_02_feature_avai
             '04_07': '04_07_public_pair_check.ipynb', '04_08': '04_08_exclude_ambiguous_pairs.ipynb',
             '04_09': '04_09_c40_selection_audit.ipynb',
             '04_10': '04_10_apply_c40_selection.ipynb'}[args.step]
-path = Path(__file__).resolve().parents[1] / 'notebooks/c40' / filename
+path = Path(__file__).resolve().parents[1] / 'notebooks/04_с40' / filename
 notebook = nbformat.read(path, as_version=4)
 manager = KernelManager(kernel_name='python3')
 manager.kernel_spec.argv = [sys.executable, '-m', 'ipykernel_launcher', '-f', '{connection_file}']

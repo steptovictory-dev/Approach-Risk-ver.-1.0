@@ -1,0 +1,11 @@
+typecode,lookup_key,aircraft_description_restored,aircraft_restoration_status,rows,go_arounds
+A320-214,A320-214,L2J,restored_from_reviewed_family_description,274,0
+A320-251N,A320-251N,L2J,restored_from_reviewed_family_description,4318,15
+A321-231 ,A321-231,L2J,restored_from_reviewed_family_description,1324,9
+A330,A330,L2J,restored_from_reviewed_family_description,338,2
+A350,A350,L2J,restored_from_reviewed_family_description,474,1
+A380,A380,L4J,restored_from_reviewed_family_description,338,4
+B777,B777,L2J,restored_from_reviewed_family_description,567,1
+G400,G400,L2J,restored_from_reviewed_family_description,39,0
+G500,G500,L2J,restored_from_reviewed_family_description,49,0
+G600,G600,L2J,restored_from_reviewed_family_description,6,0
