@@ -1,0 +1,3 @@
+flight_id,icao24,airport,landing_time,n_attempts,GoA,C40_CROSS_TIME,first_attempt,present_in_current_sample,status
+ZXP24_100524,485b2f,EHAM,2021-06-04 06:48:05+00:00,3,True,,2021-06-04 06:22:36+00:00,False,c40_missing
+ZXP24_145897,485b2f,EHAM,2022-02-10 19:29:20+00:00,3,True,,2022-02-10 17:57:53+00:00,False,c40_missing

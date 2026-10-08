@@ -1,0 +1,19 @@
+flight_id,callsign,icao24,landing_time,registration,typecode,icaoaircrafttype,airport,country,attempt_times,ILS,n_attempts,GoA,market_segment,AC_CLASS,AP_C_RWY,C40_CROSS_TIME,C40_BEARING,C40_CROSS_LAT,C40_CROSS_LON,__index_level_0__,registration_was_empty_string,typecode_was_empty_string,icaoaircrafttype_was_empty_string,aircraft_description_reference,aircraft_reference_status,aircraft_reference_source,aircraft_reference_checked_date,c40_time_missing,c40_after_first_attempt,c40_after_landing,aircraft_description_restored,aircraft_restoration_status,aircraft_restoration_source,aircraft_restoration_checked_date
+KLM1386_51283,KLM1386,484f16,2020-02-09 15:43:28+00:00,PHBGW,B737,L2J,EHAM,Netherlands,"['2020-02-09T15:07:32.000000' '2020-02-09T15:20:30.000000'
+ '2020-02-09T15:31:22.000000' '2020-02-09T15:43:28.000000']",['18C' '18C' '22' '18C'],4,True,Mainline,MJ,18C,2020-02-09 14:48:08+00:00,67.51696001315291,52.559166666666655,5.77944444444444,2853414,False,False,False,,not_reviewed,,,False,False,False,,source_classification_present,,
+AOJ92R_7113,AOJ92R,4401a3,2020-04-22 13:56:21+00:00,OELDR,GLEX,L2J,EDDB,Germany,"['2020-04-22T13:18:06.000000' '2020-04-22T13:33:03.000000'
+ '2020-04-22T13:47:19.000000' '2020-04-22T13:56:04.000000']",['07L' '07L' '07L' '07L'],4,True,Business,MJ,07L,2020-04-22 13:02:33+00:00,48.49016871363943,52.80138888888887,14.326666666666659,3134190,False,False,False,,not_reviewed,,,False,False,False,,source_classification_present,,
+ENF04_4658,ENF04,30056b,2021-02-26 11:38:19+00:00,IENAV,P180,L2T,LIMC,Italy,"['2021-02-26T10:55:57.000000' '2021-02-26T11:06:28.000000'
+ '2021-02-26T11:17:30.000000' '2021-02-26T11:28:43.000000'
+ '2021-02-26T11:37:51.000000']",['35L' '35L' '35L' '35L' '35L'],5,True,,LT,35R,2021-02-26 09:18:48+00:00,125.079270958351,45.24444444444444,9.4975,3841763,False,False,False,,not_reviewed,,,False,False,False,,source_classification_present,,
+FHXRG_5452,FHXRG,39de26,2021-03-20 20:24:23+00:00,FHXRG,GLEX,L2J,LSGG,Switzerland,"['2021-03-20T19:37:52.000000' '2021-03-20T19:58:52.000000'
+ '2021-03-20T20:04:56.000000' '2021-03-20T20:24:16.000000']",['04' '22' '04' '04'],4,True,Business,MJ,04,2021-03-20 19:25:45+00:00,218.02791828422403,45.71277777777777,5.5225,3886077,False,False,False,,not_reviewed,,,False,False,False,,source_classification_present,,
+ECKJQ_17683,ECKJQ,34304f,2021-07-02 16:09:52+00:00,ECKJQ,B350,L2T,LEMD,Spain,"['2021-07-02T14:35:05.000000' '2021-07-02T15:12:43.000000'
+ '2021-07-02T15:49:42.000000' '2021-07-02T16:09:25.000000']",['18R' '18L' '18L' '18R'],4,True,Business,LT,18R,2021-07-02 14:10:29+00:00,242.383768351512,40.160000000000004,-4.33527777777778,4171219,False,False,False,,not_reviewed,,,False,False,False,,source_classification_present,,
+KLM28Q_91412,KLM28Q,484ee4,2022-01-31 08:57:25+00:00,PHHSD,B738,L2J,EHAM,Netherlands,"['2022-01-31T08:26:38.000000' '2022-01-31T08:36:05.000000'
+ '2022-01-31T08:47:00.000000' '2022-01-31T08:57:25.000000']",['27' '27' '27' '27'],4,True,Mainline,MJ,27,2022-01-31 08:13:02+00:00,66.00235160663536,52.573888888888874,5.76222222222222,5265146,False,False,False,,not_reviewed,,,False,False,False,,source_classification_present,,
+CFL12_27984,CFL12,4ab179,2022-11-12 10:07:17+00:00,SELKY,BE20,L2T,ESSA,Sweden,"['2022-11-12T07:47:14.000000' '2022-11-12T07:54:06.000000'
+ '2022-11-12T08:03:27.000000' '2022-11-12T08:10:41.000000'
+ '2022-11-12T08:19:40.000000' '2022-11-12T08:46:11.000000'
+ '2022-11-12T08:56:36.000000' '2022-11-12T09:28:41.000000'
+ '2022-11-12T09:37:43.000000']",['26' '26' '26' '26' '26' '08' '08' '19L' '19L'],9,True,Business,LT,19L,2022-11-12 07:22:31+00:00,194.38680434481603,59.00805555555555,17.598055555555547,7155263,False,False,False,,not_reviewed,,,False,False,False,,source_classification_present,,

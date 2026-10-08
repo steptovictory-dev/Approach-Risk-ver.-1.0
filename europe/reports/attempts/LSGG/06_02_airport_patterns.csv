@@ -1,0 +1,16 @@
+runway_sequence,hypothetical_sequence,GoA,observations
+04,04,False,80572
+04L,04,False,72
+04L|04,04|04,True,1
+04|04,04|04,True,170
+04|22,04|22,True,3
+04|22R,04|22,True,2
+04|22|04|04,04|22|04|04,True,1
+22,22,False,54046
+22R,22,False,70154
+22R|04,22|04,True,15
+22R|22,22|22,True,166
+22R|22R,22|22,True,45
+22|04,22|04,True,3
+22|22,22|22,True,105
+22|22R,22|22,True,18

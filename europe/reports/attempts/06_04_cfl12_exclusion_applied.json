@@ -1,0 +1,28 @@
+{
+  "applied_utc": "2026-10-08T21:37:06.244149+00:00",
+  "input": "europe\\data\\analytical\\06_02_lsgg_case_excluded.parquet",
+  "input_sha256": "db70efe02e17a54e5d5e57147c10d395059a027eb5490d387a08eb6ee8f8a71f",
+  "input_unchanged": true,
+  "output": "europe\\data\\analytical\\06_04_cfl12_excluded.parquet",
+  "output_sha256": "9e724ad201688f9232b3845db371b682889ea766518230e3c579a88a08564e29",
+  "excluded": "europe\\data\\review\\06_04_cfl12_excluded_record.parquet",
+  "excluded_sha256": "fca1c107187e83e237311f9307fe5c5bd702cd04c00166b9b606562fe539a9f0",
+  "exclusion_key": {
+    "flight_id": "CFL12_27984",
+    "icao24": "4ab179",
+    "airport": "ESSA",
+    "landing_time": "2022-11-12T10:07:17+00:00"
+  },
+  "reason": "По прямому решению пользователя CFL12 исключен как нетипичный для выбранной исследовательской популяции; конкретная историческая миссия независимо не подтверждена",
+  "rows_before": 6331493,
+  "rows_after": 6331492,
+  "go_arounds_before": 18357,
+  "go_arounds_after": 18356,
+  "more_than_two_attempt_rows": 147,
+  "more_than_three_attempt_rows": 6,
+  "rows_excluded": 1,
+  "retained_values_changed": 0,
+  "all_retained_fields_and_order_verified": true,
+  "physical_columns": 35,
+  "label_corrected": false
+}

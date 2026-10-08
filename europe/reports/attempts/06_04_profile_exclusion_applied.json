@@ -1,0 +1,48 @@
+{
+  "applied_utc": "2026-10-08T21:48:54.255546+00:00",
+  "input": "europe\\data\\analytical\\06_04_cfl12_excluded.parquet",
+  "input_sha256": "9e724ad201688f9232b3845db371b682889ea766518230e3c579a88a08564e29",
+  "input_unchanged": true,
+  "output": "europe\\data\\analytical\\06_04_profiles_excluded.parquet",
+  "output_sha256": "68d1750d918f2b534f415ef6355a65b41b378f8c5811e6d7bd0fde2082cf2aeb",
+  "excluded": "europe\\data\\review\\06_04_excluded_profile_records.parquet",
+  "excluded_sha256": "974ffff69ab2b107c957ffe0c83382fe173046209b1022baefbeae58765c4261",
+  "exclusion_keys": [
+    {
+      "flight_id": "AOJ92R_7113",
+      "icao24": "4401a3",
+      "airport": "EDDB",
+      "landing_time": "2020-04-22T13:56:21+00:00"
+    },
+    {
+      "flight_id": "FHXRG_5452",
+      "icao24": "39de26",
+      "airport": "LSGG",
+      "landing_time": "2021-03-20T20:24:23+00:00"
+    },
+    {
+      "flight_id": "ENF04_4658",
+      "icao24": "30056b",
+      "airport": "LIMC",
+      "landing_time": "2021-02-26T11:38:19+00:00"
+    },
+    {
+      "flight_id": "ECKJQ_17683",
+      "icao24": "34304f",
+      "airport": "LEMD",
+      "landing_time": "2021-07-02T16:09:52+00:00"
+    }
+  ],
+  "reason": "По прямому решению пользователя четыре записи исключены как нестандартный профиль захода; неисправность и конкретная историческая миссия не объявляются подтвержденными",
+  "rows_before": 6331492,
+  "rows_after": 6331488,
+  "go_arounds_before": 18356,
+  "go_arounds_after": 18352,
+  "more_than_two_attempt_rows": 143,
+  "more_than_three_attempt_rows": 2,
+  "rows_excluded": 4,
+  "retained_values_changed": 0,
+  "all_retained_fields_and_order_verified": true,
+  "physical_columns": 35,
+  "label_corrected": false
+}

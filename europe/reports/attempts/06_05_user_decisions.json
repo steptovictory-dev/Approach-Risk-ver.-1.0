@@ -1,0 +1,18 @@
+{
+  "exclude": [
+    "ECKJQ_25422",
+    "PGT1SC_148296",
+    "DLH419_20578"
+  ],
+  "retain": [
+    "EWG6RU_6968",
+    "EWG7ME_6453",
+    "FIN1AB_178077",
+    "DLH3TV_118179",
+    "AFL2306_70497"
+  ],
+  "pending_candidates": [],
+  "current_dataset": "europe/data/analytical/06_05_cases_excluded.parquet",
+  "rows": 6331485,
+  "go_arounds": 18349
+}

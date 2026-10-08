@@ -1,0 +1,49 @@
+{
+  "checked_date": "2026-10-09",
+  "queries": [
+    "\"OE-LDR\" \"2020\" \"April\" incident",
+    "\"F-HXRG\" \"20\" \"March\" \"2021\"",
+    "\"I-ENAV\" \"26\" \"2021\" febbraio",
+    "\"EC-KJQ\" \"2021\" \"julio\"",
+    "\"OE-LDR\" incident",
+    "\"F-HXRG\" incident",
+    "site.bfu.admin.ch \"F-HXRG\"",
+    "site.bfu-web.de \"OE-LDR\"",
+    "\"ENF04\" \"2021\" Malpensa",
+    "\"ECKJQ\" \"2\" \"julio\" \"2021\"",
+    "\"EC-KJQ\" site.senasa.es",
+    "\"I-ENAV\" site.enav.it",
+    "site.senasa.es \"EC-KJQ\" \"calibración\"",
+    "site.sust.admin.ch \"F-HXRG\"",
+    "\"AOJ92R\" \"2020\"",
+    "\"FHXRG\" \"2021\" \"Geneva\"",
+    "\"OE-LDR\" \"22.04.2020\"",
+    "\"F-HXRG\" \"20.03.2021\"",
+    "site.bfu-web.de \"22.04.2020\" Schönefeld",
+    "site.sust.admin.ch \"20.03.2021\" Genève"
+  ],
+  "sources": [
+    {
+      "file": "docs\\sources\\files\\06_04_incident_search\\enav_i_enav_flight_inspections_2014.pdf",
+      "url": "https://cdn-web.enav.it/content/2021-06/ENAV%20completa%20la%20flotta%20di%20P%20180.File%28ac9b9352-33e0-42d2-89f2-dd80064f8f38%29.JP4.pdf",
+      "status": "retrieved",
+      "sha256": "e2e2dfe091140c66813ce953170ddbed696e07d0d9e48f7f4eff80f4cab75de2"
+    },
+    {
+      "file": "docs\\sources\\files\\06_04_incident_search\\senasa_ec_kjq_fuel_contract_2023.pdf",
+      "url": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?DocumentIdParam=b0260171-00d6-4d9f-87eb-f28d55014765&cmpntname=GetDocumentsById&source=library&srv=cmpnt",
+      "status": "retrieved",
+      "sha256": "30b55a96dd1ffde063b352ccc45a844bf2a465ae6294def18893a8c789a314cb"
+    }
+  ],
+  "exact_event_report_found": false,
+  "technical_failure_confirmed": false,
+  "full_investigation_register_audit_performed": false,
+  "operator_role_evidence_found_for": [
+    "IENAV",
+    "ECKJQ"
+  ],
+  "specific_historical_mission_verified": false,
+  "rows_changed": 0,
+  "rows_deleted": 0
+}

@@ -1,0 +1,42 @@
+{
+  "applied_utc": "2026-10-08T22:03:10.926150+00:00",
+  "input": "europe\\data\\analytical\\06_04_profiles_excluded.parquet",
+  "input_sha256": "68d1750d918f2b534f415ef6355a65b41b378f8c5811e6d7bd0fde2082cf2aeb",
+  "input_unchanged": true,
+  "output": "europe\\data\\analytical\\06_05_cases_excluded.parquet",
+  "output_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "excluded": "europe\\data\\review\\06_05_excluded_records.parquet",
+  "excluded_sha256": "38e6f16de50f2d36715be14836fa5c879508d97d4f7bcfc30dd63b36a9a67e0e",
+  "exclusion_keys": [
+    {
+      "flight_id": "ECKJQ_25422",
+      "icao24": "34304f",
+      "airport": "LEMD",
+      "landing_time": "2022-02-17T12:32:33+00:00"
+    },
+    {
+      "flight_id": "PGT1SC_148296",
+      "icao24": "4bb84b",
+      "airport": "EDDF",
+      "landing_time": "2022-12-12T09:31:11+00:00"
+    },
+    {
+      "flight_id": "DLH419_20578",
+      "icao24": "3c4b24",
+      "airport": "EDDF",
+      "landing_time": "2022-07-12T06:44:27+00:00"
+    }
+  ],
+  "reason": "По решению пользователя: ECKJQ_25422 исключен; PGT1SC_148296 и DLH419_20578 исключены из-за коротких промежутков 88 и 146 секунд. Истинные исходы по траекториям не установлены",
+  "rows_before": 6331488,
+  "rows_after": 6331485,
+  "go_arounds_before": 18352,
+  "go_arounds_after": 18349,
+  "more_than_two_attempt_rows": 140,
+  "more_than_three_attempt_rows": 2,
+  "rows_excluded": 3,
+  "retained_values_changed": 0,
+  "all_retained_fields_and_order_verified": true,
+  "physical_columns": 35,
+  "label_corrected": false
+}

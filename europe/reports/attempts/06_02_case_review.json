@@ -1,0 +1,73 @@
+{
+  "input_sha256": "1918930dbbf8c410f36524a0f4c5c4e2d98c01ccafb1b2bcb2d579c1d6d70f72",
+  "input_unchanged": true,
+  "airport": "LSGG",
+  "airport_rows": 205374,
+  "airport_go_arounds": 530,
+  "case_flight_id": "TAP948_37820",
+  "case_gap_seconds": 12,
+  "case_runway_labels": [
+    "22R",
+    "22"
+  ],
+  "case_GoA": true,
+  "archived_materials": [
+    {
+      "member": "validation_sample/LSGG_04.html",
+      "sha256": "9ac0eac41945c8675ba506894d83ef9f94599ac47be814385e921345e48ff27b",
+      "target_identifier_found": false
+    },
+    {
+      "member": "validation_sample/LSGG_22.html",
+      "sha256": "ba0a034f0f573e1f52604fab4639c33cfee65bba79e7c1207c3c1689d0affc35",
+      "target_identifier_found": false
+    },
+    {
+      "member": "validation_sample/LSGG_22R.html",
+      "sha256": "1b8af8cdee74b7340420662a451322ce57cd1be6a4b5d012ee6d3894a86e9fa8",
+      "target_identifier_found": false
+    }
+  ],
+  "historical_notam_obtained": false,
+  "notam_target_utc": "2019-03-01 16:29:03 to 16:29:15",
+  "notam_search_result": "No primary historical NOTAM for target interval retrieved; absence of notice not established",
+  "exact_historical_AIP_runway_designations_verified": false,
+  "hypothesis": "Potential stale or inappropriate runway reference and overlapping event segmentation; not confirmed",
+  "rows_changed": 0,
+  "rows_deleted": 0,
+  "runway_corrected": false,
+  "label_corrected": false,
+  "checked_date": "2026-10-08",
+  "sources": [
+    {
+      "url": "https://www.gva.ch/en/Downloads/Aeroport/2017_Rapport_Annuel.pdf?ext=.",
+      "publication_year": 2017,
+      "printed_page": 38,
+      "evidence": "Airport reports end of aeronautical operations on grass strip in 2017",
+      "access": "official indexed passage reviewed; direct PDF download returned 404"
+    },
+    {
+      "url": "https://www.gva.ch/getmedia/7e61960f-cf6a-41fd-b489-ad788fbc39c3/2018_Rapport-Annuel_EN.pdf?ext=.pdf",
+      "publication_year": 2018,
+      "printed_page": 34,
+      "evidence": "Main runway renamed from 05-23 to 04-22 during night 12-13 September 2018; report states a NOTAM was published",
+      "access": "official indexed passage reviewed; direct PDF download returned 404"
+    },
+    {
+      "url": "https://www.eurocontrol.int/archive_download/all/node/12569",
+      "data_year": 2019,
+      "evidence": "Geneva single runway mixed operation with RWY04 and RWY22",
+      "access": "official indexed/search and PDF text available through web tool; local download returned 403"
+    },
+    {
+      "url": "https://skybriefing.com/documents/10156/94911/skybriefing_Folder/fbf81852-6f37-48f8-8fb2-eb2f6fe5846c",
+      "evidence": "Official service advertises NOTAM briefing; 2019 target notices not obtained",
+      "access": "web tool"
+    },
+    {
+      "url": "https://traffic-viz.github.io/api_reference/traffic.algorithms.navigation.html",
+      "evidence": "LandingAlignedOnILS detects aligned trajectory segments and assigns runway numbers",
+      "access": "current documentation; historical algorithm version not established"
+    }
+  ]
+}

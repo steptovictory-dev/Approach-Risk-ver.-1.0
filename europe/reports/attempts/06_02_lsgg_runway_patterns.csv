@@ -1,0 +1,16 @@
+runway_sequence,GoA,observations
+04,False,80572
+22R,False,70154
+22,False,54046
+04|04,True,170
+22R|22,True,167
+22|22,True,105
+04L,False,72
+22R|22R,True,45
+22|22R,True,18
+22R|04,True,15
+04|22,True,3
+22|04,True,3
+04|22R,True,2
+04|22|04|04,True,1
+04L|04,True,1

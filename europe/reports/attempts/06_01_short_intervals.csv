@@ -1,0 +1,2 @@
+flight_id,icao24,airport,landing_time,n_attempts,GoA,attempt_number_from,attempt_number_to,time_from,time_to,runway_from,runway_to,gap_seconds
+TAP948_37820,495295,LSGG,2019-03-01 16:29:15+00:00,2,True,1,2,2019-03-01 16:29:03+00:00,2019-03-01 16:29:15+00:00,22R,22,12.0

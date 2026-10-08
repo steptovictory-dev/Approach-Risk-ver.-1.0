@@ -1,0 +1,7 @@
+flight_id,airport,date_utc,daily_reports,daily_max_wind_speed_kt,daily_max_reported_gust_kt,event_metars,event_wind_speed_min_kt,event_wind_speed_max_kt,event_max_reported_gust_kt,event_max_metar_age_minutes,all_event_reports_CAVOK
+KLM1386_51283,EHAM,2020-02-09,48,41,60.0,2,36,41,60.0,25.5,False
+AOJ92R_7113,EDDB,2020-04-22,48,14,22.0,3,10,12,,28.1,True
+ENF04_4658,LIMC,2021-02-26,47,6,,2,2,3,,27.5,True
+FHXRG_5452,LSGG,2021-03-20,49,23,32.0,3,13,14,,17.866666666666667,True
+ECKJQ_17683,LEMD,2021-07-02,48,15,20.0,4,12,15,,19.7,True
+KLM28Q_91412,EHAM,2022-01-31,48,34,49.0,2,34,34,46.0,22.0,False

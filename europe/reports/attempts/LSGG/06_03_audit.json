@@ -1,0 +1,21 @@
+{
+  "input_sha256": "1918930dbbf8c410f36524a0f4c5c4e2d98c01ccafb1b2bcb2d579c1d6d70f72",
+  "input_unchanged": true,
+  "airport_rows": 205374,
+  "airport_go_arounds": 530,
+  "intervals": 532,
+  "pair_group_counts": {
+    "same_label": 321,
+    "22R_22_pair": 185,
+    "other_change": 25,
+    "04L_04_pair": 1
+  },
+  "addresses_with_both_22_labels": 3606,
+  "addresses_checked": 6729,
+  "rows_changed": 0,
+  "rows_deleted": 0,
+  "historical_runway_status_verified": false,
+  "trajectory_validation_performed": false,
+  "AP_C_RWY_is_independent_evidence": false,
+  "threshold_39_seconds_is_diagnostic_only": true
+}

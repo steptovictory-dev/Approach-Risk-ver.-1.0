@@ -1,0 +1,2 @@
+flight_id,icao24,callsign,typecode,airport,landing_time,attempt_times,ILS,AP_C_RWY,GoA,n_attempts,C40_CROSS_TIME,month
+TAP948_37820,495295,TAP948,A319,LSGG,2019-03-01 16:29:15+00:00,['2019-03-01T16:29:03.000000' '2019-03-01T16:29:15.000000'],['22R' '22'],22,True,2,2019-03-01 16:06:06+00:00,2019-03

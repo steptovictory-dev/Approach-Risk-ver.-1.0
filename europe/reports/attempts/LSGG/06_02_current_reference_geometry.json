@@ -1,0 +1,8 @@
+{
+  "main_axis_bearing_degrees": 225.41460111550967,
+  "grass_axis_bearing_degrees": 226.31254616652333,
+  "axis_difference_degrees": 0.8979450510136644,
+  "threshold_separation_m": 1917.0312443329792,
+  "approx_grass_threshold_offset_from_main_axis_m": 235.75630233379718,
+  "historical_geometry_verified": false
+}

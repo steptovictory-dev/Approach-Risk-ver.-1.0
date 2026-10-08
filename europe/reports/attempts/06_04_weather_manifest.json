@@ -1,0 +1,92 @@
+{
+  "checked_date": "2026-10-09",
+  "downloaded_or_verified_utc": "2026-10-08T21:36:08.774408+00:00",
+  "archive": "Iowa Environmental Mesonet, secondary archive of transmitted METAR",
+  "source_documentation": "https://mesonet.agron.iastate.edu/request/download.phtml",
+  "timezone": "UTC",
+  "full_days_requested": true,
+  "window_before_after_hours": 1,
+  "selection": "latest observation not after each event; no interpolation",
+  "cases": [
+    {
+      "flight_id": "KLM1386_51283",
+      "airport": "EHAM",
+      "date_utc": "2020-02-09",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EHAM&data=all&year1=2020&month1=2&day1=9&year2=2020&month2=2&day2=10&tz=Etc%2FUTC&format=onlycomma&latlon=yes&elev=yes&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\06_04_weather\\EHAM_2020-02-09.csv",
+      "sha256": "7aff9a944ab10f20f6311c12d1019a1a47f1f7ff4a857267b920298484267c7b",
+      "reports": 48,
+      "window_reports": 5,
+      "first_observation_utc": "2020-02-09T00:25:00+00:00",
+      "last_observation_utc": "2020-02-09T23:55:00+00:00",
+      "station_and_metar_timestamp_verified": true
+    },
+    {
+      "flight_id": "AOJ92R_7113",
+      "airport": "EDDB",
+      "date_utc": "2020-04-22",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDB&data=all&year1=2020&month1=4&day1=22&year2=2020&month2=4&day2=23&tz=Etc%2FUTC&format=onlycomma&latlon=yes&elev=yes&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\06_04_weather\\EDDB_2020-04-22.csv",
+      "sha256": "b69a923c31ba29b0ee09edd6c67aa688e4ff723e32e15f038f0d0c7db60059ab",
+      "reports": 48,
+      "window_reports": 6,
+      "first_observation_utc": "2020-04-22T00:20:00+00:00",
+      "last_observation_utc": "2020-04-22T23:50:00+00:00",
+      "station_and_metar_timestamp_verified": true
+    },
+    {
+      "flight_id": "ENF04_4658",
+      "airport": "LIMC",
+      "date_utc": "2021-02-26",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LIMC&data=all&year1=2021&month1=2&day1=26&year2=2021&month2=2&day2=27&tz=Etc%2FUTC&format=onlycomma&latlon=yes&elev=yes&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\06_04_weather\\LIMC_2021-02-26.csv",
+      "sha256": "69db4e4d83c0c4de1eaa220c6159e3ab151f32a5c305afaed7570a7ba8d06db4",
+      "reports": 47,
+      "window_reports": 5,
+      "first_observation_utc": "2021-02-26T00:20:00+00:00",
+      "last_observation_utc": "2021-02-26T23:50:00+00:00",
+      "station_and_metar_timestamp_verified": true
+    },
+    {
+      "flight_id": "FHXRG_5452",
+      "airport": "LSGG",
+      "date_utc": "2021-03-20",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LSGG&data=all&year1=2021&month1=3&day1=20&year2=2021&month2=3&day2=21&tz=Etc%2FUTC&format=onlycomma&latlon=yes&elev=yes&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\06_04_weather\\LSGG_2021-03-20.csv",
+      "sha256": "db47c2b63650b0e612e31d33d575f40c33a68ec2f0f0461eddd15aaeb5ee8b76",
+      "reports": 49,
+      "window_reports": 6,
+      "first_observation_utc": "2021-03-20T00:20:00+00:00",
+      "last_observation_utc": "2021-03-20T23:50:00+00:00",
+      "station_and_metar_timestamp_verified": true
+    },
+    {
+      "flight_id": "ECKJQ_17683",
+      "airport": "LEMD",
+      "date_utc": "2021-07-02",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LEMD&data=all&year1=2021&month1=7&day1=2&year2=2021&month2=7&day2=3&tz=Etc%2FUTC&format=onlycomma&latlon=yes&elev=yes&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\06_04_weather\\LEMD_2021-07-02.csv",
+      "sha256": "2688db5c90733cc9b7ea78b6aa8effc26437b8190d560ed15fe12d3c9c96ab0b",
+      "reports": 48,
+      "window_reports": 7,
+      "first_observation_utc": "2021-07-02T00:00:00+00:00",
+      "last_observation_utc": "2021-07-02T23:30:00+00:00",
+      "station_and_metar_timestamp_verified": true
+    },
+    {
+      "flight_id": "KLM28Q_91412",
+      "airport": "EHAM",
+      "date_utc": "2022-01-31",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EHAM&data=all&year1=2022&month1=1&day1=31&year2=2022&month2=2&day2=1&tz=Etc%2FUTC&format=onlycomma&latlon=yes&elev=yes&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\06_04_weather\\EHAM_2022-01-31.csv",
+      "sha256": "84bbc7809bad9a783cbdc776ba465dafe583990bb3660ae0038653c13d9dacc6",
+      "reports": 48,
+      "window_reports": 5,
+      "first_observation_utc": "2022-01-31T00:25:00+00:00",
+      "last_observation_utc": "2022-01-31T23:55:00+00:00",
+      "station_and_metar_timestamp_verified": true
+    }
+  ],
+  "causality_established": false,
+  "weather_added_to_model": false
+}

@@ -1,0 +1,11 @@
+pair_group,from_runway,to_runway,intervals,min_seconds,median_seconds,max_seconds,at_most_39_seconds,later_attempt_equals_landing
+04L_04_pair,04L,04,1,732.0,732.0,732.0,0,0
+22R_22_pair,22,22R,18,522.0,906.5,2094.0,0,2
+22R_22_pair,22R,22,167,12.0,869.0,2123.0,1,63
+other_change,04,22,4,634.0,944.5,1260.0,0,1
+other_change,04,22R,2,727.0,751.0,775.0,0,0
+other_change,22,04,4,364.0,791.0,896.0,0,1
+other_change,22R,04,15,669.0,928.0,2014.0,0,3
+same_label,04,04,171,397.0,948.0,1829.0,0,43
+same_label,22,22,105,557.0,881.0,1777.0,0,41
+same_label,22R,22R,45,407.0,827.0,1734.0,0,3

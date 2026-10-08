@@ -1,0 +1,53 @@
+{
+  "checked_date": "2026-10-09",
+  "downloaded_or_verified_utc": "2026-10-08T22:03:07.082906+00:00",
+  "archive": "Iowa Environmental Mesonet, secondary archive of transmitted METAR",
+  "source_documentation": "https://mesonet.agron.iastate.edu/request/download.phtml",
+  "timezone": "UTC",
+  "full_days_requested": true,
+  "window_before_after_hours": 1,
+  "selection": "latest observation not after each event; no interpolation",
+  "cases": [
+    {
+      "flight_id": "FIN1AB_178077",
+      "airport": "EDDF",
+      "date_utc": "2019-03-04",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDF&data=all&year1=2019&month1=3&day1=4&year2=2019&month2=3&day2=5&tz=Etc%2FUTC&format=onlycomma&latlon=yes&elev=yes&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\06_05_weather\\EDDF_2019-03-04.csv",
+      "sha256": "50fbeeb8722e7ea7f8214c6f3383e489c7ae60f1d354107f8a1f57ffdd36d937",
+      "reports": 48,
+      "window_reports": 5,
+      "first_observation_utc": "2019-03-04T00:20:00+00:00",
+      "last_observation_utc": "2019-03-04T23:50:00+00:00",
+      "station_and_metar_timestamp_verified": true
+    },
+    {
+      "flight_id": "DLH3TV_118179",
+      "airport": "EDDF",
+      "date_utc": "2019-04-26",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDF&data=all&year1=2019&month1=4&day1=26&year2=2019&month2=4&day2=27&tz=Etc%2FUTC&format=onlycomma&latlon=yes&elev=yes&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\06_05_weather\\EDDF_2019-04-26.csv",
+      "sha256": "ec986bd57b26a9a2ce3088314617854233c88470da8531f7d663584ce80ae3b8",
+      "reports": 48,
+      "window_reports": 6,
+      "first_observation_utc": "2019-04-26T00:20:00+00:00",
+      "last_observation_utc": "2019-04-26T23:50:00+00:00",
+      "station_and_metar_timestamp_verified": true
+    },
+    {
+      "flight_id": "AFL2306_70497",
+      "airport": "EDDF",
+      "date_utc": "2020-01-28",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDF&data=all&year1=2020&month1=1&day1=28&year2=2020&month2=1&day2=29&tz=Etc%2FUTC&format=onlycomma&latlon=yes&elev=yes&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\06_05_weather\\EDDF_2020-01-28.csv",
+      "sha256": "e76df45ddb080351b90ed69f05a0ab4929a8e7cc05770dcee8c237a157d5dae8",
+      "reports": 48,
+      "window_reports": 5,
+      "first_observation_utc": "2020-01-28T00:20:00+00:00",
+      "last_observation_utc": "2020-01-28T23:50:00+00:00",
+      "station_and_metar_timestamp_verified": true
+    }
+  ],
+  "causality_established": false,
+  "weather_added_to_model": false
+}

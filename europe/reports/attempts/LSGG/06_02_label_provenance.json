@@ -1,0 +1,54 @@
+{
+  "checked_date": "2026-10-09",
+  "author_commit": "f5aaaefc6ebeb2cff8048d9fa7b1f1da2d73851d",
+  "analysis_environment_traffic_version": "2.9.0",
+  "dataset_generation_traffic_version_verified": false,
+  "generation_code_found_in_current_author_tree": false,
+  "original_runways_cache_available": false,
+  "original_trajectory_available": false,
+  "source_sha256": {
+    "navigation.py": "9723c4d2682f156b5ce48b7c7ea6f35c1d8ddb26379f85759b45a559c6c9298d",
+    "OSN_paper_code.ipynb": "2dc1c76cfcc344c35d066ccb4bf4e19d28cafd7bdbe337c3df59f637e01f9f2d",
+    "poetry.lock": "de5d66d646cd5e7ec020b708a230069976c698a7b2116f8d82bf1ee0a185729d",
+    "pyproject.toml": "a02cb8dc182b0e0d7abb1b5da35d04b4c80fd4af50c42eeb47d67653987dc2d5",
+    "runways.py": "40bfdb2983cbb43d3561deee6796e7e45c9bf3bc90f061a17f286e8ac2a6a50d",
+    "wheel_manifest.json": "2aa97a7c5548857471188c10565d6fae9101dddd7f53949fc4fc1b66f2acba18"
+  },
+  "synthetic_check": {
+    "threshold_names": [
+      "A",
+      "B"
+    ],
+    "identical_mock_geometry": true,
+    "single_descending_segment": true,
+    "aligned_segments": 2,
+    "overlap_seconds": 120.0,
+    "go_around_segments": 0,
+    "limitation": "Искусственные одинаковые оси; координаты LSGG и реальная траектория не воспроизведены"
+  },
+  "case_decision": {
+    "flight_id": "TAP948_37820",
+    "status": "unresolved",
+    "change_ILS": false,
+    "change_n_attempts": false,
+    "change_GoA": false
+  },
+  "author_cells": [
+    {
+      "cell_index_zero_based": 3,
+      "source": "df_landings = pd.read_parquet(opj(\"data\", \"osn23_landings_merged.parquet.gzip\"))\nprint(f\"{len(df_landings)} landings are in the dataset\")\ndf_landings"
+    },
+    {
+      "cell_index_zero_based": 21,
+      "source": "df_goas = df_landings.query(\"GoA\")\nlist_goa_portions = []\nfor f in tqdm(t_gas):\n    t0, tf = df_goas.query(\"flight_id==@f.flight_id\")[\"attempt_times\"].iloc[0][:2]\n    t0 = pd.to_datetime(t0, utc=True)\n    tf = pd.to_datetime(tf, utc=True)\n    list_goa_portions.append(f.between(t0, tf))\ngoa_portions = Traffic.from_flights(list_goa_portions)\ngoa_portions"
+    },
+    {
+      "cell_index_zero_based": 29,
+      "source": "infoGoA_filtered = infoGoA.query(\"ga_time_s>200 & (d_start_end<2) & speed<300\")\ninfoGoA_filtered.sort_values(\"ga_time_s\", ascending=True)"
+    },
+    {
+      "cell_index_zero_based": 43,
+      "source": "# objective, find when the aircraft initialise the go around\ndef get_a320_portions(f):\n    try:\n        first, second, *_ = f.aligned_on_ils(f.destination, angle_tolerance=0.15)\n        # # find where the altitude is minimum\n        idx = first.data.geoaltitude.idxmin()\n        t0, d0 = first.data.loc[idx, [\"timestamp\", \"distance\"]]\n        tf = second.query(f\"distance>{d0}\").data.timestamp.iloc[-1]\n        # portion = f.between(t0, tf)\n        portion = f.after(t0)\n    except:\n        return\n    return portion.fuelflow(initial_mass=60000)\n\n\na320_portions = (\n    t_gas[infoGoA_filtered.query('typecode==\"A320\"').flight_id.unique()]\n    .iterate_lazy()\n    .pipe(get_a320_portions)\n    .eval(desc=\"computing fuel\", max_workers=1)\n)\na320_portions"
+    }
+  ]
+}

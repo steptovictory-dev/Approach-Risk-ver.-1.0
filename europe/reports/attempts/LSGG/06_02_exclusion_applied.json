@@ -1,0 +1,28 @@
+{
+  "applied_utc": "2026-10-08T21:10:14.946086+00:00",
+  "input": "europe\\data\\analytical\\05_aircraft_types_reviewed.parquet",
+  "input_sha256": "1918930dbbf8c410f36524a0f4c5c4e2d98c01ccafb1b2bcb2d579c1d6d70f72",
+  "input_unchanged": true,
+  "output": "europe\\data\\analytical\\06_02_lsgg_case_excluded.parquet",
+  "output_sha256": "db70efe02e17a54e5d5e57147c10d395059a027eb5490d387a08eb6ee8f8a71f",
+  "excluded": "europe\\data\\review\\06_02_lsgg_excluded_record.parquet",
+  "excluded_sha256": "9b68ae32f70e4863c1976bf9168d77b37db181dcf310423137c236a73d0d4bc7",
+  "exclusion_key": {
+    "flight_id": "TAP948_37820",
+    "icao24": "495295",
+    "airport": "LSGG",
+    "landing_time": "2019-03-01T16:29:15+00:00"
+  },
+  "reason": "Исключение по решению пользователя: неразрешенная неоднозначность разметки, дальнейшая проверка этого случая прекращена. Ошибочность GoA не доказана.",
+  "rows_before": 6331494,
+  "rows_after": 6331493,
+  "go_arounds_before": 18358,
+  "go_arounds_after": 18357,
+  "lsgg_rows_after": 205373,
+  "lsgg_go_arounds_after": 529,
+  "rows_excluded": 1,
+  "retained_values_changed": 0,
+  "all_retained_fields_and_order_verified": true,
+  "physical_columns": 35,
+  "label_corrected": false
+}

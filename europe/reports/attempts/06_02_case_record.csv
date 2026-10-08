@@ -1,0 +1,2 @@
+flight_id,icao24,airport,landing_time,attempt_times,ILS,n_attempts,GoA
+TAP948_37820,495295,LSGG,2019-03-01 16:29:15+00:00,['2019-03-01T16:29:03.000000' '2019-03-01T16:29:15.000000'],['22R' '22'],2,True

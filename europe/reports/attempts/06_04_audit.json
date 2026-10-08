@@ -1,0 +1,29 @@
+{
+  "checked_date": "2026-10-09",
+  "input": "europe\\data\\analytical\\06_02_lsgg_case_excluded.parquet",
+  "input_sha256": "db70efe02e17a54e5d5e57147c10d395059a027eb5490d387a08eb6ee8f8a71f",
+  "input_unchanged": true,
+  "rows_checked": 6331493,
+  "go_arounds": 18357,
+  "more_than_two_attempt_rows": 148,
+  "selected_rows": 7,
+  "selected_go_arounds": 7,
+  "attempt_count_distribution": {
+    "4": 5,
+    "5": 1,
+    "9": 1
+  },
+  "intervals_checked": 27,
+  "min_gap_seconds": 364.0,
+  "max_last_attempt_to_landing_seconds": 1774.0,
+  "author_callsign_prefix_filter_matches": 3,
+  "author_filter_also_requires_n_attempts_below_4": true,
+  "author_filter_applied": false,
+  "mission_verified": false,
+  "trajectory_validation_performed": false,
+  "rows_changed": 0,
+  "rows_deleted": 0,
+  "extract": "europe\\data\\review\\06_04_high_attempt_records.parquet",
+  "extract_sha256": "da66e8e638d71401d6cb267aad6cc8e86eab4fb892c27d33d0e840d404f50bfb",
+  "structural_checks_passed": true
+}

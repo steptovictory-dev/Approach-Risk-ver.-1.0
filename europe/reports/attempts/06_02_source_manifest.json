@@ -1,0 +1,29 @@
+{
+  "checked_date": "2026-10-08",
+  "sources": [
+    {
+      "name": "gva_annual_report_2017.pdf",
+      "url": "https://www.gva.ch/en/Downloads/Aeroport/2017_Rapport_Annuel.pdf?ext=.",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "gva_annual_report_2018.pdf",
+      "url": "https://www.gva.ch/getmedia/7e61960f-cf6a-41fd-b489-ad788fbc39c3/2018_Rapport-Annuel_EN.pdf?ext=.pdf",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "eurocontrol_runway_performance_2019.pdf",
+      "url": "https://www.eurocontrol.int/archive_download/all/node/12569",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "traffic_navigation.py",
+      "url": "https://raw.githubusercontent.com/xoolive/traffic/master/src/traffic/algorithms/navigation.py",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

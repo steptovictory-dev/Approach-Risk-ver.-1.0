@@ -1,0 +1,33 @@
+{
+  "input": "europe\\data\\analytical\\05_aircraft_types_reviewed.parquet",
+  "input_sha256": "1918930dbbf8c410f36524a0f4c5c4e2d98c01ccafb1b2bcb2d579c1d6d70f72",
+  "input_unchanged": true,
+  "historical_records_sha256": "b7afc9b484a896df2646eb1bcd7c4879127a53438e7165610b1a20188247ab49",
+  "historical_records_unchanged": true,
+  "rows_checked": 6331494,
+  "go_arounds": 18358,
+  "multiple_attempt_rows": 18358,
+  "more_than_two_attempt_rows": 148,
+  "max_attempts": 9,
+  "intervals_checked": 18519,
+  "min_gap_seconds": 12.0,
+  "diagnostic_cutoff_seconds": 39,
+  "short_interval_rows": 1,
+  "short_interval_observations": 1,
+  "historical_cases_retained": 0,
+  "structural_flags": {
+    "attempt_count_nonpositive": 0,
+    "attempt_length_mismatch": 0,
+    "ILS_length_mismatch": 0,
+    "GoA_differs_from_more_than_one_attempt": 0,
+    "null_attempt_element": 0,
+    "descending_attempt_times": 0,
+    "repeated_adjacent_attempt_time": 0,
+    "last_attempt_after_landing": 0
+  },
+  "rows_changed": 0,
+  "rows_deleted": 0,
+  "trajectory_validation_performed": false,
+  "short_interval_is_not_error_proof": true,
+  "n_attempts_is_not_confirmed_operational_go_around_count": true
+}
