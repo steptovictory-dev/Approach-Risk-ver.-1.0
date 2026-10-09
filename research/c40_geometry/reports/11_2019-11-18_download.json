@@ -1,0 +1,132 @@
+{
+  "url": "https://s3.opensky-network.org/data-samples/states/.2019-11-18/22/states_2019-11-18-22.csv.tar",
+  "bytes": 155371520,
+  "sha256": "6dde5f7b41a651fe643e14619886012d4d6b4e7dc6249d4b829ff9455862f68e",
+  "etag": "\"917e64c7f1250639120611c21f01c99e\"",
+  "checked_utc": "2026-10-09T19:13:41.675692+00:00",
+  "cases": [
+    "EZY67KA_21973",
+    "EZY85VA_35778",
+    "RYR11XB_54133",
+    "EZY69ME_13464",
+    "EZY16KQ_16238",
+    "RYR6SH_53870",
+    "EZY1920_18428",
+    "DLH9CK_5423",
+    "RYR100A_61469",
+    "RYR2WF_62067",
+    "EZY61VB_37924",
+    "DLH4TW_5877"
+  ],
+  "flights": [
+    {
+      "flight_id": "EZY67KA_21973",
+      "rows": 128,
+      "expected_callsign": "EZY67KA",
+      "callsigns": [
+        "EZY67KA"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY85VA_35778",
+      "rows": 126,
+      "expected_callsign": "EZY85VA",
+      "callsigns": [
+        "EZY85VA"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "RYR11XB_54133",
+      "rows": 130,
+      "expected_callsign": "RYR11XB",
+      "callsigns": [
+        "RYR11XB"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY69ME_13464",
+      "rows": 110,
+      "expected_callsign": "EZY69ME",
+      "callsigns": [
+        "EZY69ME"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY16KQ_16238",
+      "rows": 108,
+      "expected_callsign": "EZY16KQ",
+      "callsigns": [
+        "EZY16KQ"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "RYR6SH_53870",
+      "rows": 116,
+      "expected_callsign": "RYR6SH",
+      "callsigns": [
+        "RYR6SH"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY1920_18428",
+      "rows": 124,
+      "expected_callsign": "EZY1920",
+      "callsigns": [
+        "EZY1920"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "DLH9CK_5423",
+      "rows": 123,
+      "expected_callsign": "DLH9CK",
+      "callsigns": [
+        "DLH9CK"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "RYR100A_61469",
+      "rows": 117,
+      "expected_callsign": "RYR100A",
+      "callsigns": [
+        "RYR100A"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "RYR2WF_62067",
+      "rows": 119,
+      "expected_callsign": "RYR2WF",
+      "callsigns": [
+        "RYR2WF"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY61VB_37924",
+      "rows": 124,
+      "expected_callsign": "EZY61VB",
+      "callsigns": [
+        "EZY61VB"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "DLH4TW_5877",
+      "rows": 117,
+      "expected_callsign": "DLH4TW",
+      "callsigns": [
+        "DLH4TW"
+      ],
+      "callsign_present": true
+    }
+  ],
+  "selected_sha256": "78fe12ffab321856a0d5dfa83b6d601a950ff449fd724acafd3dbe3fa81f6f96"
+}

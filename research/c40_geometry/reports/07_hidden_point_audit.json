@@ -1,0 +1,67 @@
+{
+  "source": "research\\c40_geometry\\data\\public_pilot\\EPWA_control_geometry.csv",
+  "source_sha256": "008f54cd1cb54d0c30708f3c507f212ef4c3bb85198d5d65897d4eda622002fd",
+  "flights": [
+    {
+      "flight_id": "ENT73JH_21100",
+      "raw_rows": 121,
+      "eligible_rows": 109
+    },
+    {
+      "flight_id": "EXS4112_71377",
+      "raw_rows": 137,
+      "eligible_rows": 126
+    },
+    {
+      "flight_id": "EXS92K_22219",
+      "raw_rows": 120,
+      "eligible_rows": 107
+    },
+    {
+      "flight_id": "EZY1942_18429",
+      "raw_rows": 124,
+      "eligible_rows": 113
+    },
+    {
+      "flight_id": "EZY34MD_21230",
+      "raw_rows": 119,
+      "eligible_rows": 108
+    },
+    {
+      "flight_id": "EZY89BW_37984",
+      "raw_rows": 132,
+      "eligible_rows": 121
+    },
+    {
+      "flight_id": "RYR4117_60025",
+      "raw_rows": 123,
+      "eligible_rows": 112
+    },
+    {
+      "flight_id": "RYR67GT_63261",
+      "raw_rows": 124,
+      "eligible_rows": 113
+    },
+    {
+      "flight_id": "RYR72ZC_66456",
+      "raw_rows": 130,
+      "eligible_rows": 120
+    },
+    {
+      "flight_id": "RYR9BN_63693",
+      "raw_rows": 113,
+      "eligible_rows": 101
+    }
+  ],
+  "gaps_s": [
+    20,
+    30,
+    60,
+    120
+  ],
+  "max_position_age_s": 2,
+  "overlapping_windows": true,
+  "training_performed": false,
+  "evaluation_rows": 56703,
+  "truth": "held-out OpenSky observations, not independently measured true positions"
+}

@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 import pyarrow.parquet as pq
 import nbformat
+from notebook_output import write_overview
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -82,7 +83,7 @@ def main():
     (reports/'03_egcc_case_audit.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     fig,axs=plt.subplots(1,2,figsize=(13,5),layout='constrained')
     positions=np.arange(len(cases))
-    for field,label,color,shift in [('sphere_m','Сфера','#286b9e',-.15),('wgs84_m','WGS84','#d66737',.15)]:
+    for field,label,color,shift in [('sphere_m','Сфера','#7C3AED',-.15),('wgs84_m','WGS84','#059669',.15)]:
         axs[0].barh(positions+shift,cases[field],height=.28,label=label,color=color)
     axs[0].set_yticks(positions,cases.flight_id)
     axs[0].axvline(0,color='#555',linewidth=1)
@@ -122,7 +123,7 @@ $$\Delta t\approx |d-r|/|v_r|.$$
        nbformat.v4.new_code_cell("display(Image(filename=str(study/'figures/03_egcc_cases.png')))\ndisplay(pd.read_csv(study/'reports/03_egcc_sampling_scenarios.csv'))"),
        nbformat.v4.new_markdown_cell('Воспроизведение: `.\\.venv\\Scripts\\python.exe -u -X utf8 research/c40_geometry/scripts/investigate_egcc_cases.py`. Исторические координаты и ссылки – в 01_historical_arp. Геодезические методы – Vincenty (1975), https://www.ngs.noaa.gov/PUBS_LIB/inverse.pdf ; Karney (2013), https://doi.org/10.1007/s00190-012-0578-z . Формула временного сценария – наша локальная кинематическая оценка, не результат этих статей.')])
     notebook.metadata['kernelspec']=dict(display_name='Python 3',language='python',name='python3')
-    nbformat.write(notebook,STUDY/'notebooks/03_egcc_cases.ipynb')
+    write_overview(notebook,STUDY/'notebooks/03_egcc_cases.ipynb')
     print(json.dumps(summary,ensure_ascii=False),flush=True)
     print(cases[['flight_id','typecode','sphere_m','wgs84_m','minutes_to_landing','point_rows','same_board_other_rows_30d']].to_string(index=False),flush=True)
 

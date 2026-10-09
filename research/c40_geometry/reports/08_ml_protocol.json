@@ -1,0 +1,27 @@
+{
+  "version": "08-v1",
+  "split": {
+    "EZY34MD_21230": "train",
+    "EZY89BW_37984": "train",
+    "EXS4112_71377": "train",
+    "EZY1942_18429": "train",
+    "EXS92K_22219": "train",
+    "ENT73JH_21100": "train",
+    "RYR4117_60025": "validation",
+    "RYR67GT_63261": "validation",
+    "RYR9BN_63693": "test",
+    "RYR72ZC_66456": "test"
+  },
+  "alphas": [
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "selection_metric": "validation macro mean WGS84 error, equal flight weights",
+  "source_sha256": "008f54cd1cb54d0c30708f3c507f212ef4c3bb85198d5d65897d4eda622002fd",
+  "errors07_sha256": "6478a69510baf4fcbc04dae34142ef6ad148915bd46232362cc7156e8092e100",
+  "test_status": "preliminary, pilot previously inspected",
+  "refit_on_validation": false
+}

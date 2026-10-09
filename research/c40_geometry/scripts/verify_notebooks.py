@@ -7,7 +7,7 @@ STUDY = Path(__file__).resolve().parents[1]
 
 
 def main():
-    for path in sorted((STUDY/'notebooks').glob('*.ipynb')):
+    for path in sorted((STUDY/'notebooks').rglob('*.ipynb')):
         notebook = nbformat.read(path, as_version=4)
         nbformat.validate(notebook)
         namespace = {}

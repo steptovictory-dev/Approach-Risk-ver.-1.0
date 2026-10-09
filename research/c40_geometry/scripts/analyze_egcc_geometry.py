@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 import pyarrow.parquet as pq
 import nbformat
+from notebook_output import write_overview
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -114,7 +115,7 @@ $$|d(A,P)-d(A,\widehat P)|\le d(P,\widehat P)\le\epsilon.$$
         nbformat.v4.new_code_cell("display(Image(filename=str(study/'figures/02_egcc_geometry.png')))"),
         nbformat.v4.new_markdown_cell('Воспроизведение из корня: `.\\.venv\\Scripts\\python.exe -u -X utf8 research/c40_geometry/scripts/analyze_egcc_geometry.py`. Различия между GoA показаны описательно; причинный эффект и статистическая значимость не оценивались.')])
     nb.metadata['kernelspec']=dict(display_name='Python 3',language='python',name='python3')
-    nbformat.write(nb,STUDY/'notebooks/02_egcc_geometry.ipynb')
+    write_overview(nb,STUDY/'notebooks/02_egcc_geometry.ipynb')
     assert len(frame)==87435 and int(frame.GoA.sum())==306
     print(summary.to_string(),flush=True)
     print(json.dumps(result,ensure_ascii=False),flush=True)

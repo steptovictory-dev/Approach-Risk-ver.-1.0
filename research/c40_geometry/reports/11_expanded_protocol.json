@@ -1,0 +1,21 @@
+{
+  "version": "11-v1",
+  "train_days": [
+    "2019-11-04",
+    "2019-11-11",
+    "2019-11-18"
+  ],
+  "validation_day": "2019-11-25",
+  "test_day": "2019-12-02",
+  "existing_train": "six train flights from 08 plus all ten flights from inspected 10",
+  "selection": "first 30 chronological eligible EGCC/EPWA cases, hour 22 UTC",
+  "alphas": [
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "comparison": "same Ridge features; old 08, six-flight refit, expanded refit; one new test day",
+  "old_model_sha256": "595cbe06edbf32c7fdcc83f3914be436b60978d0468e2df0e0230f60ee92443b"
+}

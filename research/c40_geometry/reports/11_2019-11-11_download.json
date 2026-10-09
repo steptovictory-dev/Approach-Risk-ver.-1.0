@@ -1,0 +1,72 @@
+{
+  "url": "https://s3.opensky-network.org/data-samples/states/.2019-11-11/22/states_2019-11-11-22.csv.tar",
+  "bytes": 149258240,
+  "sha256": "f47777806d31b40ba6d8c06c07f44645bfad675e826428e5771f5ea3cc5ac1ed",
+  "etag": "\"5b59243df3b5bc7ad0376a6afebc26c0\"",
+  "checked_utc": "2026-10-09T19:12:20.222342+00:00",
+  "cases": [
+    "DLH9CK_6071",
+    "EZY14WF_22790",
+    "RYR100A_65906",
+    "RYR5LT_63609",
+    "DLH4TW_6924",
+    "RYR4117_55270"
+  ],
+  "flights": [
+    {
+      "flight_id": "DLH9CK_6071",
+      "rows": 120,
+      "expected_callsign": "DLH9CK",
+      "callsigns": [
+        "DLH9CK"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY14WF_22790",
+      "rows": 126,
+      "expected_callsign": "EZY14WF",
+      "callsigns": [
+        "EZY14WF"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "RYR100A_65906",
+      "rows": 143,
+      "expected_callsign": "RYR100A",
+      "callsigns": [
+        "RYR100A"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "RYR5LT_63609",
+      "rows": 128,
+      "expected_callsign": "RYR5LT",
+      "callsigns": [
+        "RYR5LT"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "DLH4TW_6924",
+      "rows": 132,
+      "expected_callsign": "DLH4TW",
+      "callsigns": [
+        "DLH4TW"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "RYR4117_55270",
+      "rows": 118,
+      "expected_callsign": "RYR4117",
+      "callsigns": [
+        "RYR4117"
+      ],
+      "callsign_present": true
+    }
+  ],
+  "selected_sha256": "5e6cc12834f72ff4c61fb322e3f2272ce8d165fb110d01c553143444c0d850af"
+}

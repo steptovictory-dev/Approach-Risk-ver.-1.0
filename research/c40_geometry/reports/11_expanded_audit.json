@@ -1,0 +1,16 @@
+{
+  "test_day": "2019-12-02",
+  "train_flights": 41,
+  "validation_flights": 8,
+  "test_flights": 9,
+  "train_tasks": 81874,
+  "test_tasks": 17439,
+  "six_refit_mean_m": 148.60748758048547,
+  "expanded_mean_m": 141.06852949784314,
+  "old08_mean_m": 148.60748758048547,
+  "linear_mean_m": 356.14115945295504,
+  "hermite_mean_m": 124.83535823419363,
+  "improvement_from_more_data_percent": 5.073067451301363,
+  "final_alpha": 1000.0,
+  "old_model_unchanged": true
+}

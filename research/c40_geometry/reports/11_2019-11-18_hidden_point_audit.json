@@ -1,0 +1,77 @@
+{
+  "source": "research\\c40_geometry\\data\\expanded_training\\2019-11-18\\external_geometry.csv",
+  "source_sha256": "78fe12ffab321856a0d5dfa83b6d601a950ff449fd724acafd3dbe3fa81f6f96",
+  "flights": [
+    {
+      "flight_id": "DLH4TW_5877",
+      "raw_rows": 117,
+      "eligible_rows": 106
+    },
+    {
+      "flight_id": "DLH9CK_5423",
+      "raw_rows": 123,
+      "eligible_rows": 112
+    },
+    {
+      "flight_id": "EZY16KQ_16238",
+      "raw_rows": 108,
+      "eligible_rows": 99
+    },
+    {
+      "flight_id": "EZY1920_18428",
+      "raw_rows": 124,
+      "eligible_rows": 112
+    },
+    {
+      "flight_id": "EZY61VB_37924",
+      "raw_rows": 124,
+      "eligible_rows": 113
+    },
+    {
+      "flight_id": "EZY67KA_21973",
+      "raw_rows": 128,
+      "eligible_rows": 117
+    },
+    {
+      "flight_id": "EZY69ME_13464",
+      "raw_rows": 110,
+      "eligible_rows": 98
+    },
+    {
+      "flight_id": "EZY85VA_35778",
+      "raw_rows": 126,
+      "eligible_rows": 116
+    },
+    {
+      "flight_id": "RYR100A_61469",
+      "raw_rows": 117,
+      "eligible_rows": 106
+    },
+    {
+      "flight_id": "RYR11XB_54133",
+      "raw_rows": 130,
+      "eligible_rows": 119
+    },
+    {
+      "flight_id": "RYR2WF_62067",
+      "raw_rows": 119,
+      "eligible_rows": 109
+    },
+    {
+      "flight_id": "RYR6SH_53870",
+      "raw_rows": 116,
+      "eligible_rows": 104
+    }
+  ],
+  "gaps_s": [
+    20,
+    30,
+    60,
+    120
+  ],
+  "max_position_age_s": 2,
+  "overlapping_windows": true,
+  "training_performed": false,
+  "evaluation_rows": 67257,
+  "truth": "held-out OpenSky observations, not independently measured true positions"
+}

@@ -1,0 +1,103 @@
+{
+  "url": "https://s3.opensky-network.org/data-samples/states/.2019-12-02/22/states_2019-12-02-22.csv.tar",
+  "bytes": 152227840,
+  "sha256": "5a3a7e120ca2e95c043e88b064748eb854a59280edadecb4502ea70a7b40eb33",
+  "etag": "\"bdea20440037a870d0899735b1a72f7b\"",
+  "checked_utc": "2026-10-09T19:15:48.063384+00:00",
+  "cases": [
+    "DLH5XK_3215",
+    "EZY69ME_16265",
+    "BEL7AW_9080",
+    "SAS2761_51223",
+    "EZY61VB_38193",
+    "RYR2WF_65796",
+    "DLH9CK_5266",
+    "EZY83KB_22882",
+    "RYR4117_61350"
+  ],
+  "flights": [
+    {
+      "flight_id": "DLH5XK_3215",
+      "rows": 119,
+      "expected_callsign": "DLH5XK",
+      "callsigns": [
+        "DLH5XK"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY69ME_16265",
+      "rows": 119,
+      "expected_callsign": "EZY69ME",
+      "callsigns": [
+        "EZY69ME"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "BEL7AW_9080",
+      "rows": 135,
+      "expected_callsign": "BEL7AW",
+      "callsigns": [
+        "",
+        "BEL7AW"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "SAS2761_51223",
+      "rows": 131,
+      "expected_callsign": "SAS2761",
+      "callsigns": [
+        "SAS2761"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY61VB_38193",
+      "rows": 150,
+      "expected_callsign": "EZY61VB",
+      "callsigns": [
+        "EZY61VB"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "RYR2WF_65796",
+      "rows": 108,
+      "expected_callsign": "RYR2WF",
+      "callsigns": [
+        "RYR2WF"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "DLH9CK_5266",
+      "rows": 133,
+      "expected_callsign": "DLH9CK",
+      "callsigns": [
+        "DLH9CK"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY83KB_22882",
+      "rows": 130,
+      "expected_callsign": "EZY83KB",
+      "callsigns": [
+        "EZY83KB"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "RYR4117_61350",
+      "rows": 126,
+      "expected_callsign": "RYR4117",
+      "callsigns": [
+        "RYR4117"
+      ],
+      "callsign_present": true
+    }
+  ],
+  "selected_sha256": "9f0b76ef60ac7e8106c348f797b7da11280f023139ded98000708ff451612d8a"
+}

@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np
 import pyarrow.parquet as pq
 import nbformat
+from notebook_output import write_overview
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -126,7 +127,7 @@ def main():
     (STUDY/'reports/06_epwa_controls.md').write_text(note+'\n```json\n'+json.dumps(summary,ensure_ascii=False,indent=2)+'\n```\n',encoding='utf8')
     nb=nbformat.v4.new_notebook(cells=[nbformat.v4.new_markdown_cell(note),nbformat.v4.new_code_cell("from pathlib import Path\nimport pandas as pd\nfrom IPython.display import display, Image\nroot=next(p for p in [Path.cwd(),*Path.cwd().parents] if (p/'research/c40_geometry/reports/06_epwa_control_comparison.csv').exists())\nstudy=root/'research/c40_geometry'\ntable=pd.read_csv(study/'reports/06_epwa_control_comparison.csv')\ndisplay(table)\ndisplay(Image(filename=str(study/'figures/06_epwa_controls.png')))"),nbformat.v4.new_markdown_cell('Воспроизведение: `.\\.venv\\Scripts\\python.exe -u -X utf8 research/c40_geometry/scripts/compare_public_epwa_controls.py`. Крупное расхождение – диагностическое наблюдение, не правило удаления. Следующая проверка: другая дата, исходное объединение полей, возможность систематической ошибки координат.')])
     nb.metadata['kernelspec']=dict(display_name='Python 3',language='python',name='python3')
-    nbformat.write(nb,STUDY/'notebooks/06_epwa_controls.ipynb')
+    write_overview(nb,STUDY/'notebooks/06_epwa_controls.ipynb')
     print(json.dumps(summary,ensure_ascii=False,indent=2),flush=True)
     print(good[['flight_id','airport','callsign_matches','nearest_time_offset_s','position_difference_m','interpolated_position_difference_m','interpolation_gap_s']].to_string(index=False),flush=True)
 

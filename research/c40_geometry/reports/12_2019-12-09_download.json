@@ -1,0 +1,82 @@
+{
+  "url": "https://s3.opensky-network.org/data-samples/states/.2019-12-09/22/states_2019-12-09-22.csv.tar",
+  "bytes": 154009600,
+  "sha256": "9f86c218dbe5977c3ce1198542cc25d877c934073c5c79365e0ee242a858a21e",
+  "etag": "\"abd4e521ecbf42f55eea21a2dad9683d\"",
+  "checked_utc": "2026-10-09T19:24:44.937852+00:00",
+  "cases": [
+    "RYR11XB_56514",
+    "EZY89KP_37985",
+    "DLH9CK_5308",
+    "LOT68_40786",
+    "EZY85VA_22895",
+    "RYR2WF_64434",
+    "EZY61VB_35740"
+  ],
+  "flights": [
+    {
+      "flight_id": "RYR11XB_56514",
+      "rows": 135,
+      "expected_callsign": "RYR11XB",
+      "callsigns": [
+        "RYR11XB"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY89KP_37985",
+      "rows": 135,
+      "expected_callsign": "EZY89KP",
+      "callsigns": [
+        "EZY89KP"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "DLH9CK_5308",
+      "rows": 115,
+      "expected_callsign": "DLH9CK",
+      "callsigns": [
+        "DLH9CK"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "LOT68_40786",
+      "rows": 123,
+      "expected_callsign": "LOT68",
+      "callsigns": [
+        "LOT68"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY85VA_22895",
+      "rows": 115,
+      "expected_callsign": "EZY85VA",
+      "callsigns": [
+        "EZY85VA"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "RYR2WF_64434",
+      "rows": 109,
+      "expected_callsign": "RYR2WF",
+      "callsigns": [
+        "RYR2WF"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY61VB_35740",
+      "rows": 120,
+      "expected_callsign": "EZY61VB",
+      "callsigns": [
+        "EZY61VB"
+      ],
+      "callsign_present": true
+    }
+  ],
+  "selected_sha256": "80df5aa5ad18f2eb1c2c44550abcd06431cea46755def7f4d94153e007f7cab4"
+}

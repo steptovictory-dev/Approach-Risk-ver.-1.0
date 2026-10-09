@@ -6,6 +6,7 @@ import math
 import re
 import pandas as pd
 import nbformat
+from notebook_output import write_overview
 
 ROOT = Path(__file__).resolve().parents[3]
 STUDY = ROOT / 'research/c40_geometry'
@@ -79,7 +80,7 @@ def main():
     notebook.metadata['kernelspec'] = dict(display_name='Python 3', language='python', name='python3')
     folder = STUDY / 'notebooks'
     folder.mkdir(exist_ok=True)
-    nbformat.write(notebook, folder / '01_historical_arp.ipynb')
+    write_overview(notebook, folder / '01_historical_arp.ipynb')
     scope = {}
     for cell in notebook.cells:
         if cell.cell_type == 'code':

@@ -1,0 +1,92 @@
+{
+  "url": "https://s3.opensky-network.org/data-samples/states/.2019-12-16/22/states_2019-12-16-22.csv.tar",
+  "bytes": 161116160,
+  "sha256": "d3432b23c23cec42d9307815e1df7707a495783d97bb198f19d3db644854cb1d",
+  "etag": "\"8349cf2ac567b2d4bc45e4d8054d98c0\"",
+  "checked_utc": "2026-10-09T19:26:45.305997+00:00",
+  "cases": [
+    "T7BRG_54853",
+    "DLH9CK_7153",
+    "EZY14WF_21186",
+    "RYR4117_62459",
+    "RYR2WF_59678",
+    "EZY83KB_34365",
+    "EZY61VB_18225",
+    "DLH4TW_6502"
+  ],
+  "flights": [
+    {
+      "flight_id": "T7BRG_54853",
+      "rows": 136,
+      "expected_callsign": "T7BRG",
+      "callsigns": [
+        "T7BRG"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "DLH9CK_7153",
+      "rows": 121,
+      "expected_callsign": "DLH9CK",
+      "callsigns": [
+        "DLH9CK"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY14WF_21186",
+      "rows": 115,
+      "expected_callsign": "EZY14WF",
+      "callsigns": [
+        "EZY14WF"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "RYR4117_62459",
+      "rows": 115,
+      "expected_callsign": "RYR4117",
+      "callsigns": [
+        "RYR4117"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "RYR2WF_59678",
+      "rows": 128,
+      "expected_callsign": "RYR2WF",
+      "callsigns": [
+        "RYR2WF"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY83KB_34365",
+      "rows": 118,
+      "expected_callsign": "EZY83KB",
+      "callsigns": [
+        "EZY83KB"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY61VB_18225",
+      "rows": 127,
+      "expected_callsign": "EZY61VB",
+      "callsigns": [
+        "EZY61VB"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "DLH4TW_6502",
+      "rows": 117,
+      "expected_callsign": "DLH4TW",
+      "callsigns": [
+        "DLH4TW"
+      ],
+      "callsign_present": true
+    }
+  ],
+  "selected_sha256": "d4b09fd96b12fa461224193b1504304f8d167413c8c48781153b8aab95482414"
+}

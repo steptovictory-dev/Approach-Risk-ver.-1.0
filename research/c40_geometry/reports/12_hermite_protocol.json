@@ -1,0 +1,26 @@
+{
+  "version": "12-v1",
+  "train_days": [
+    "2019-11-04",
+    "2019-11-11",
+    "2019-11-18"
+  ],
+  "validation_day": "2019-11-25",
+  "test_days": [
+    "2019-12-09",
+    "2019-12-16"
+  ],
+  "train_source": "same 41 flights as 11, validation same 8 flights",
+  "features": "same 19 endpoint features as 08-11",
+  "target": "observed local position minus cubic Hermite local position",
+  "alphas": [
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "selection_metric": "macro mean WGS84 validation error, equal flight weights",
+  "selection": "first 30 chronological eligible EGCC/EPWA cases, hour 22 UTC",
+  "model11_sha256": "77a832f74fbb1c84ff422a8f823e44b1d8cf8c64fc4550ace42b96c9739e703a"
+}

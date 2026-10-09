@@ -1,0 +1,19 @@
+{
+  "model_sha256": "595cbe06edbf32c7fdcc83f3914be436b60978d0468e2df0e0230f60ee92443b",
+  "test_tasks": 3689,
+  "test_windows": 815,
+  "model_modified": false,
+  "fraction_worse_by_flight": {
+    "RYR72ZC_66456": 0.36729857819905215,
+    "RYR9BN_63693": 0.21025965801139962
+  },
+  "worst_window": {
+    "flight_id": "RYR72ZC_66456",
+    "gap_s": 120,
+    "left_time": 1571697150,
+    "targets": 11,
+    "linear_mean_m": 137.25652477577216,
+    "model_mean_m": 408.4030559792009,
+    "improvement_m": -271.1465312034287
+  }
+}

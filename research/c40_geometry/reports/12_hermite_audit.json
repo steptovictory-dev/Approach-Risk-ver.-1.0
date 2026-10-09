@@ -1,0 +1,17 @@
+{
+  "test_days": [
+    "2019-12-09",
+    "2019-12-16"
+  ],
+  "train_flights": 41,
+  "validation_flights": 8,
+  "test_flights": 15,
+  "test_tasks": 28511,
+  "alpha": 1000.0,
+  "hermite_mean_m": 105.33958718854483,
+  "hermite_ml_mean_m": 105.70789140987003,
+  "model11_mean_m": 118.42666432559994,
+  "improvement_percent": -0.3496351477683169,
+  "macro_fraction_worse": 0.532055328464378,
+  "model11_unchanged": true
+}
