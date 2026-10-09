@@ -24,6 +24,7 @@ Thumbs.db
 .DS_Store
 /docs/sources/files/
 /europe/data/
+/research/c40_geometry/literature/files/
 
 # Полный объемный реестр контекстов воспроизводится скриптом аудита C40
 /europe/reports/analytical_sample/04_04_same_day_contexts.csv
