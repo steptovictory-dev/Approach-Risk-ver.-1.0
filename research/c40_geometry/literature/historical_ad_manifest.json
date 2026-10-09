@@ -1,0 +1,216 @@
+[
+  {
+    "airport": "EGCC",
+    "airac": "2018-12-06",
+    "url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2018-12-06-AIRAC/html/eAIP/EG-AD-2.EGCC-en-GB.html",
+    "checked_utc": "2026-10-09T17:09:50.041541+00:00",
+    "http_status": 404,
+    "final_url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2018-12-06-AIRAC/html/eAIP/EG-AD-2.EGCC-en-GB.html",
+    "status": "failed",
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.aurora.nats.co.uk/htmlAIP/Publications/2018-12-06-AIRAC/html/eAIP/EG-AD-2.EGCC-en-GB.html"
+  },
+  {
+    "airport": "EGCC",
+    "airac": "2019-01-03",
+    "url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2019-01-03-AIRAC/html/eAIP/EG-AD-2.EGCC-en-GB.html",
+    "checked_utc": "2026-10-09T17:09:50.041933+00:00",
+    "http_status": 404,
+    "final_url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2019-01-03-AIRAC/html/eAIP/EG-AD-2.EGCC-en-GB.html",
+    "status": "failed",
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.aurora.nats.co.uk/htmlAIP/Publications/2019-01-03-AIRAC/html/eAIP/EG-AD-2.EGCC-en-GB.html"
+  },
+  {
+    "airport": "EGCC",
+    "airac": "2019-11-07",
+    "url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2019-11-07-AIRAC/html/eAIP/EG-AD-2.EGCC-en-GB.html",
+    "checked_utc": "2026-10-09T17:09:50.042183+00:00",
+    "document_dates": [
+      "2019-09-26",
+      "2019-11-07"
+    ],
+    "status": "saved",
+    "file": "research\\c40_geometry\\literature\\files\\NATS_EGCC_AIRAC_2019-11-07_AD2.html",
+    "sha256": "48cf6470f4bb5d9c15785913735d698ba4318cd8cef5e132910fa9426f21ce35",
+    "bytes": 344672,
+    "document_metadata": {
+      "generator": "Eurocontrol MakeAIP; using Eurocontrol eAIP toolbox version 2.0",
+      "DC.title": "Aedrome/Heliport EGCC",
+      "DC.language": "en-GB",
+      "DC.publisher": "NATS",
+      "DC.coverage": "United Kingdom",
+      "DC.date": "2019-09-26",
+      "EM.effectiveDateStart": "2019-11-07",
+      "EM.effectiveDateEnd": "",
+      "EM.number": "",
+      "EM.year": "",
+      "EM.AIRAC": "",
+      "EM.documentType": "AIP",
+      "EM.series": ""
+    },
+    "effective_date_matches_requested": true,
+    "text_file": "research\\c40_geometry\\literature\\files\\NATS_EGCC_AIRAC_2019-11-07_AD2.txt",
+    "arp_context": " MANCHESTER EGCC\n       AD 2.2 AERODROME GEOGRAPHICAL AND ADMINISTRATIVE DATA 1 ARP coordinates and site at AD Lat: 532114N Long: 0021630W Mid point of Runway 05L/23R. 2 Direction and distance from city 7.5 NM SW of Manchester. 3 Elevation / Reference temperature 257 FT / 18 °C 4 Geoid undulation at AD ELEV PSN 167 FT 5 Magnetic Variation / Annual Change 1.13°W ( 2019 ) / 0.16°E 6 AD Administration MANCHESTER AIRPORT PLC Address Manchester Airport, Manchester M90 1QX Telephone 0161-209 2835 (ATC) 0161-489 3331 (Airfield Duty Manager) 0161-499 5502 (AFTN) 0871-271 0711 (Manchester Airport PLC - General Enquiries) 0161-493 1850 (Airport Co-ordination Ltd - PPR  Mon-Fri; 090"
+  },
+  {
+    "airport": "EGCC",
+    "airac": "2020-01-30",
+    "url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2020-01-30-AIRAC/html/eAIP/EG-AD-2.EGCC-en-GB.html",
+    "checked_utc": "2026-10-09T17:09:50.090396+00:00",
+    "document_dates": [
+      "2019-12-19",
+      "2020-01-30"
+    ],
+    "status": "saved",
+    "file": "research\\c40_geometry\\literature\\files\\NATS_EGCC_AIRAC_2020-01-30_AD2.html",
+    "sha256": "5aff75332b824d333186ef2c37ebd8f000ee8a529b479144e872641daba1818e",
+    "bytes": 344730,
+    "document_metadata": {
+      "generator": "Eurocontrol MakeAIP; using Eurocontrol eAIP toolbox version 2.0",
+      "DC.title": "Aedrome/Heliport EGCC",
+      "DC.language": "en-GB",
+      "DC.publisher": "NATS",
+      "DC.coverage": "United Kingdom",
+      "DC.date": "2019-12-19",
+      "EM.effectiveDateStart": "2020-01-30",
+      "EM.effectiveDateEnd": "",
+      "EM.number": "",
+      "EM.year": "",
+      "EM.AIRAC": "",
+      "EM.documentType": "AIP",
+      "EM.series": ""
+    },
+    "effective_date_matches_requested": true,
+    "text_file": "research\\c40_geometry\\literature\\files\\NATS_EGCC_AIRAC_2020-01-30_AD2.txt",
+    "arp_context": " MANCHESTER EGCC\n       AD 2.2 AERODROME GEOGRAPHICAL AND ADMINISTRATIVE DATA 1 ARP coordinates and site at AD Lat: 532114N Long: 0021630W Mid point of Runway 05L/23R. 2 Direction and distance from city 7.5 NM SW of Manchester. 3 Elevation / Reference temperature 257 FT / 18 °C 4 Geoid undulation at AD ELEV PSN 167 FT 5 Magnetic Variation / Annual Change 1.13°W ( 2019 ) / 0.16°E 6 AD Administration MANCHESTER AIRPORT PLC Address Manchester Airport, Manchester M90 1QX Telephone 0161-209 2835 (ATC) 0161-489 3331 (Airfield Duty Manager) 0161-499 5502 (AFTN) 0871-271 0711 (Manchester Airport PLC - General Enquiries) 0161-493 1850 (Airport Co-ordination Ltd - PPR  Mon-Fri; 090"
+  },
+  {
+    "airport": "EGCC",
+    "airac": "2020-02-27",
+    "url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2020-02-27-AIRAC/html/eAIP/EG-AD-2.EGCC-en-GB.html",
+    "checked_utc": "2026-10-09T17:09:50.137458+00:00",
+    "document_dates": [
+      "2020-01-16",
+      "2020-02-27"
+    ],
+    "status": "saved",
+    "file": "research\\c40_geometry\\literature\\files\\NATS_EGCC_AIRAC_2020-02-27_AD2.html",
+    "sha256": "4a47fe579e6671b60ab5f6ae25d14cfba0646868f52e14fb550d59edffbe1e24",
+    "bytes": 344730,
+    "document_metadata": {
+      "generator": "Eurocontrol MakeAIP; using Eurocontrol eAIP toolbox version 2.0",
+      "DC.title": "Aedrome/Heliport EGCC",
+      "DC.language": "en-GB",
+      "DC.publisher": "NATS",
+      "DC.coverage": "United Kingdom",
+      "DC.date": "2020-01-16",
+      "EM.effectiveDateStart": "2020-02-27",
+      "EM.effectiveDateEnd": "",
+      "EM.number": "",
+      "EM.year": "",
+      "EM.AIRAC": "",
+      "EM.documentType": "AIP",
+      "EM.series": ""
+    },
+    "effective_date_matches_requested": true,
+    "text_file": "research\\c40_geometry\\literature\\files\\NATS_EGCC_AIRAC_2020-02-27_AD2.txt",
+    "arp_context": " MANCHESTER EGCC\n       AD 2.2 AERODROME GEOGRAPHICAL AND ADMINISTRATIVE DATA 1 ARP coordinates and site at AD Lat: 532114N Long: 0021630W Mid point of Runway 05L/23R. 2 Direction and distance from city 7.5 NM SW of Manchester. 3 Elevation / Reference temperature 257 FT / 18 °C 4 Geoid undulation at AD ELEV PSN 167 FT 5 Magnetic Variation / Annual Change 1.13°W ( 2019 ) / 0.16°E 6 AD Administration MANCHESTER AIRPORT PLC Address Manchester Airport, Manchester M90 1QX Telephone 0161-209 2835 (ATC) 0161-489 3331 (Airfield Duty Manager) 0161-499 5502 (AFTN) 0871-271 0711 (Manchester Airport PLC - General Enquiries) 0161-493 1850 (Airport Co-ordination Ltd - PPR  Mon-Fri; 090",
+    "print_pdf_error": "HTTPError: 404 Client Error: Not Found for url: https://www.aurora.nats.co.uk/htmlAIP/Publications/2020-02-27-AIRAC/pdf/EG-AD-2.EGCC.pdf"
+  },
+  {
+    "airport": "EGCC",
+    "airac": "2021-02-25",
+    "url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2021-02-25-AIRAC/html/eAIP/EG-AD-2.EGCC-en-GB.html",
+    "checked_utc": "2026-10-09T17:09:50.760471+00:00",
+    "document_dates": [
+      "2021-01-14",
+      "2021-02-25"
+    ],
+    "status": "saved",
+    "file": "research\\c40_geometry\\literature\\files\\NATS_EGCC_AIRAC_2021-02-25_AD2.html",
+    "sha256": "a2db48e9eb56f83889de34207e7403a03c3bf6d25a6f510d55a6e879baecba99",
+    "bytes": 375403,
+    "document_metadata": {
+      "generator": "Eurocontrol MakeAIP; using Eurocontrol eAIP toolbox version 2.0",
+      "DC.title": "Aedrome/Heliport EGCC",
+      "DC.language": "en-GB",
+      "DC.publisher": "NATS",
+      "DC.coverage": "United Kingdom",
+      "DC.date": "2021-01-14",
+      "EM.effectiveDateStart": "2021-02-25",
+      "EM.effectiveDateEnd": "",
+      "EM.number": "",
+      "EM.year": "",
+      "EM.AIRAC": "",
+      "EM.documentType": "AIP",
+      "EM.series": ""
+    },
+    "effective_date_matches_requested": true,
+    "text_file": "research\\c40_geometry\\literature\\files\\NATS_EGCC_AIRAC_2021-02-25_AD2.txt",
+    "arp_context": "        MANCHESTER EGCC AD 2.2 AERODROME GEOGRAPHICAL AND ADMINISTRATIVE DATA 1 ARP coordinates and site at AD Lat: 532114N Long: 0021630W Mid point of Runway 05L/23R. 2 Direction and distance from city 7.5 NM SW of Manchester. 3 Elevation / Reference temperature / Mean Low Temperature 257 FT / 18 °C / - 4 Geoid undulation at AD ELEV PSN 167 FT 5 Magnetic Variation / Annual Change 0.43°W ( 2022 ) / 0.21°E 6 AD Administration MANCHESTER AIRPORT PLC Address Manchester Airport, Manchester M90 1QX Telephone 0161-209 2835 (ATC) 0161-489 3331 (Airfield Duty Manager) 0161-499 5502 (AFTN) 0871-271 0711 (Manchester Airport PLC - General Enquiries) 0161-493 1850 (Airport Co-ordinat"
+  },
+  {
+    "airport": "EGLL",
+    "airac": "2019-12-05",
+    "url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2019-12-05-AIRAC/html/eAIP/EG-AD-2.EGLL-en-GB.html",
+    "checked_utc": "2026-10-09T17:09:50.762663+00:00",
+    "document_dates": [
+      "2019-10-24",
+      "2019-12-05"
+    ],
+    "status": "saved",
+    "file": "research\\c40_geometry\\literature\\files\\NATS_EGLL_AIRAC_2019-12-05_AD2.html",
+    "sha256": "47494fb6259150622e1706089344787919171c98d030514336dccbc35dca7767",
+    "bytes": 673615,
+    "document_metadata": {
+      "generator": "Eurocontrol MakeAIP; using Eurocontrol eAIP toolbox version 2.0",
+      "DC.title": "Aedrome/Heliport EGLL",
+      "DC.language": "en-GB",
+      "DC.publisher": "NATS",
+      "DC.coverage": "United Kingdom",
+      "DC.date": "2019-10-24",
+      "EM.effectiveDateStart": "2019-12-05",
+      "EM.effectiveDateEnd": "",
+      "EM.number": "",
+      "EM.year": "",
+      "EM.AIRAC": "",
+      "EM.documentType": "AIP",
+      "EM.series": ""
+    },
+    "effective_date_matches_requested": true,
+    "text_file": "research\\c40_geometry\\literature\\files\\NATS_EGLL_AIRAC_2019-12-05_AD2.txt",
+    "arp_context": "ON HEATHROW EGLL\n       AD 2.2 AERODROME GEOGRAPHICAL AND ADMINISTRATIVE DATA 1 ARP coordinates and site at AD Lat: 512839N Long: 0002741W Mid point of Runway 09L/27R 2 Direction and distance from city 12 NM W of London. 3 Elevation / Reference temperature 83 FT / 20 °C 4 Geoid undulation at AD ELEV PSN 151 FT 5 Magnetic Variation / Annual Change 0.27°W ( 2019 ) / 0.15°E 6 AD Administration HEATHROW AIRPORT LIMITED Address The Compass Centre, Nelson Road, Heathrow Airport, Hounslow, TW2 2GW. Telephone 08700-000123 (HAL) 020-8750 2560 (NATS Ltd) Telefax 020-8745 4290 (HAL) 020-8750 2561 (NATS Ltd) Telex 934892 (HAL) 7 Type of Traffic permitted (IFR/VFR) IFR/VFR 8 Remarks T",
+    "print_pdf_error": "HTTPError: 404 Client Error: Not Found for url: https://www.aurora.nats.co.uk/htmlAIP/Publications/2019-12-05-AIRAC/pdf/EG-AD-2.EGLL.pdf"
+  },
+  {
+    "airport": "EGLL",
+    "airac": "2023-05-18",
+    "url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2023-05-18-AIRAC/html/eAIP/EG-AD-2.EGLL-en-GB.html",
+    "checked_utc": "2026-10-09T17:09:50.809136+00:00",
+    "document_dates": [
+      "2023-04-06",
+      "2023-05-18"
+    ],
+    "status": "saved",
+    "file": "research\\c40_geometry\\literature\\files\\NATS_EGLL_AIRAC_2023-05-18_AD2.html",
+    "sha256": "021dc11e2d79898ed52acc89503ad5eb0791ae2ddefb60ec03734ea046dc1b23",
+    "bytes": 896776,
+    "document_metadata": {
+      "generator": "Eurocontrol MakeAIP; using Eurocontrol eAIP toolbox version 2.0",
+      "DC.title": "Aedrome/Heliport EGLL",
+      "DC.language": "en-GB",
+      "DC.publisher": "NATS",
+      "DC.coverage": "United Kingdom",
+      "DC.date": "2023-04-06",
+      "EM.effectiveDateStart": "2023-05-18",
+      "EM.effectiveDateEnd": "",
+      "EM.number": "",
+      "EM.year": "",
+      "EM.AIRAC": "",
+      "EM.documentType": "AIP",
+      "EM.series": ""
+    },
+    "effective_date_matches_requested": true,
+    "text_file": "research\\c40_geometry\\literature\\files\\NATS_EGLL_AIRAC_2023-05-18_AD2.txt",
+    "arp_context": "   LONDON HEATHROW EGLL AD 2.2 AERODROME GEOGRAPHICAL AND ADMINISTRATIVE DATA 1 ARP coordinates and site at AD Lat: 512839N Long: 0002741W Mid point of Runway 09L/27R 2 Direction and distance from city 12 NM W of London. 3 Elevation / Reference temperature / Mean Low Temperature 83 FT / 20 °C / - 4 Geoid undulation at AD ELEV PSN 151 FT 5 Magnetic Variation / Annual Change 0.41°E ( 2022 ) / 0.20°E 6 AD Administration HEATHROW AIRPORT LIMITED Address The Compass Centre, Nelson Road, Heathrow Airport, Hounslow, TW2 2GW. Telephone 08700-000123 (HAL) 020-8750 2560 (NATS Ltd) Telefax 020-8745 4290 (HAL) 020-8750 2561 (NATS Ltd) Telex 934892 (HAL) 7 Type of Traffic permitted (I"
+  }
+]

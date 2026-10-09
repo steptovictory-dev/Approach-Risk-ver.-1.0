@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://api.github.com/repos/figuetbe/OSN23-GoA/git/trees/main?recursive=1",
+    "checked_utc": "2026-10-09T17:17:59.201703+00:00",
+    "status": "saved",
+    "file": "research\\c40_geometry\\literature\\files\\trajectory_search\\author_tree.json",
+    "sha256": "39977f2cd40f28f0a638a3b02578aea4566a01bcc4fb19cb38d8702a94e39163"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/figuetbe/OSN23-GoA/main/README.md",
+    "checked_utc": "2026-10-09T17:17:59.904831+00:00",
+    "status": "saved",
+    "file": "research\\c40_geometry\\literature\\files\\trajectory_search\\author_README.md",
+    "sha256": "cb3dc8df9c9d13aef35fa0779c58809e3a544c8a6d93f1fc597f0f2764c58e73"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/figuetbe/OSN23-GoA/main/OSN_paper_code.ipynb",
+    "checked_utc": "2026-10-09T17:18:00.672404+00:00",
+    "status": "saved",
+    "file": "research\\c40_geometry\\literature\\files\\trajectory_search\\author_notebook.ipynb",
+    "sha256": "2dc1c76cfcc344c35d066ccb4bf4e19d28cafd7bdbe337c3df59f637e01f9f2d"
+  },
+  {
+    "url": "https://zenodo.org/api/records/10210178",
+    "checked_utc": "2026-10-09T17:18:01.176813+00:00",
+    "status": "failed",
+    "error": "504 Server Error: Gateway Time-out for url: https://zenodo.org/api/records/10210178"
+  },
+  {
+    "url": "https://openskynetwork.github.io/opensky-api/trino.html",
+    "checked_utc": "2026-10-09T17:18:32.245169+00:00",
+    "status": "saved",
+    "file": "research\\c40_geometry\\literature\\files\\trajectory_search\\opensky_trino.html",
+    "sha256": "ade574e82961823277f04efe2024a7df41ab5d3745b9488fb595c714780a04a1"
+  },
+  {
+    "url": "https://opensky-network.org/data/scientific",
+    "checked_utc": "2026-10-09T17:18:32.799848+00:00",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://opensky-network.org/data/scientific"
+  }
+]

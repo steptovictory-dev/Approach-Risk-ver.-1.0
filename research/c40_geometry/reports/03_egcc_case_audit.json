@@ -1,0 +1,23 @@
+{
+  "rows": 87435,
+  "cases": 6,
+  "GoA": 0,
+  "sphere_gt_1km": 3,
+  "wgs84_gt_1km": 6,
+  "all_source_fields_exact": true,
+  "all_one_attempt": true,
+  "all_c40_before_attempt": true,
+  "unique_boards": 6,
+  "unique_dates": 6,
+  "same_point_counts": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "source_rows_egcc": 211299,
+  "formula": "abs(radial_deviation_m)/assumed_radial_speed_m_s",
+  "assumptions": "Constant local radial speed, same distance model; no observed speeds or sampling intervals."
+}

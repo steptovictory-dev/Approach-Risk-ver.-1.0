@@ -1,0 +1,13 @@
+{
+  "url": "https://s3.opensky-network.org/data-samples/states/.2019-10-21/23/states_2019-10-21-23.csv.tar",
+  "checked_utc": "2026-10-09T17:51:02.366568+00:00",
+  "bytes": 138301440,
+  "sha256": "6213843ab3689522f0569f26f2c81d3024d2f796277914b3d2ba264073aaf89c",
+  "catalog_etag": "\"68412cb8dc7b350b023101156b910ce2\"",
+  "archive": "data\\public_pilot\\states_2019-10-21-23.csv.tar",
+  "status": "downloaded",
+  "scanned_rows": 2200302,
+  "aircraft": "489221",
+  "selected_rows": 130,
+  "selected_file": "data\\public_pilot\\ENT73JH_21100_state_vectors_23.csv"
+}

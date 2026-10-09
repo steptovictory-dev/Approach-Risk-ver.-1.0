@@ -1,0 +1,3919 @@
+[
+  {
+    "day": "2019-02-11",
+    "prefix": "states/2019-02-11/",
+    "status": "listed",
+    "objects": []
+  },
+  {
+    "day": "2019-02-11",
+    "prefix": "states/.2019-02-11/",
+    "status": "listed",
+    "objects": [
+      {
+        "Key": "states/.2019-02-11/00/states_2019-02-11-00.avro.tar",
+        "LastModified": "2024-11-01T15:38:00.921Z",
+        "ETag": "\"0518032bc1d94c9b7acab32561ad7ee1\"",
+        "Size": "120647680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/00/states_2019-02-11-00.csv.tar",
+        "LastModified": "2024-11-01T15:38:01.605Z",
+        "ETag": "\"78a5e70b5082c4a57c84e9b01c3d051f\"",
+        "Size": "120043520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/00/states_2019-02-11-00.json.tar",
+        "LastModified": "2024-11-01T15:38:03.953Z",
+        "ETag": "\"6b4e817d0a279ecdc37dbb0c0eeb907b\"",
+        "Size": "131655680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/01/states_2019-02-11-01.avro.tar",
+        "LastModified": "2024-11-01T15:39:34.858Z",
+        "ETag": "\"31914d5c027abcab4612745515c4cb77\"",
+        "Size": "115722240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/01/states_2019-02-11-01.csv.tar",
+        "LastModified": "2024-11-01T15:39:35.466Z",
+        "ETag": "\"d94f30e04a5c45f2a46e4bc1862f9ea5\"",
+        "Size": "115097600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/01/states_2019-02-11-01.json.tar",
+        "LastModified": "2024-11-01T15:39:37.500Z",
+        "ETag": "\"856ba5c7f806d06e19f2edd03209ad92\"",
+        "Size": "126238720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/02/states_2019-02-11-02.avro.tar",
+        "LastModified": "2024-11-01T15:41:28.523Z",
+        "ETag": "\"8e839d476a140a3083ac8a1847da1770\"",
+        "Size": "108226560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/02/states_2019-02-11-02.csv.tar",
+        "LastModified": "2024-11-01T15:41:30.947Z",
+        "ETag": "\"ce3c42380932e84df0abb7766733f86c\"",
+        "Size": "107601920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/02/states_2019-02-11-02.json.tar",
+        "LastModified": "2024-11-01T15:41:31.466Z",
+        "ETag": "\"eb78bbf60e1a67f1bfd6beffcadd5fa9\"",
+        "Size": "118056960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/03/states_2019-02-11-03.avro.tar",
+        "LastModified": "2024-11-01T15:44:23.222Z",
+        "ETag": "\"2bc0e7904165c1697f6206811371a40f\"",
+        "Size": "100628480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/03/states_2019-02-11-03.csv.tar",
+        "LastModified": "2024-11-01T15:44:23.669Z",
+        "ETag": "\"d0168667190a965de12169b7aceacb62\"",
+        "Size": "100249600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/03/states_2019-02-11-03.json.tar",
+        "LastModified": "2024-11-01T15:44:24.561Z",
+        "ETag": "\"845ce9b0ab2c54f39766a5359f073616\"",
+        "Size": "109895680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/04/states_2019-02-11-04.avro.tar",
+        "LastModified": "2024-11-01T15:46:20.650Z",
+        "ETag": "\"39f08e541f18baac1568185691974267\"",
+        "Size": "93583360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/04/states_2019-02-11-04.csv.tar",
+        "LastModified": "2024-11-01T15:46:21.882Z",
+        "ETag": "\"21ef0fbc7ca67541164c2f6d25527fcf\"",
+        "Size": "93224960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/04/states_2019-02-11-04.json.tar",
+        "LastModified": "2024-11-01T15:46:25.272Z",
+        "ETag": "\"7ab4ba4d85d6bd1b722c386201c109f2\"",
+        "Size": "102266880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/05/states_2019-02-11-05.avro.tar",
+        "LastModified": "2024-11-01T15:47:25.547Z",
+        "ETag": "\"faef8213dedee927d935c5d78de71b05\"",
+        "Size": "90562560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/05/states_2019-02-11-05.csv.tar",
+        "LastModified": "2024-11-01T15:47:27.180Z",
+        "ETag": "\"bbeb7536073f5cd6d2271c478acd96c9\"",
+        "Size": "90050560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/05/states_2019-02-11-05.json.tar",
+        "LastModified": "2024-11-01T15:47:27.660Z",
+        "ETag": "\"07a3569b6789c71e7ae97f99f9de47e2\"",
+        "Size": "98990080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/06/states_2019-02-11-06.avro.tar",
+        "LastModified": "2024-11-01T15:48:26.233Z",
+        "ETag": "\"9060cd01cfeef2e85074ccdc3df752f4\"",
+        "Size": "97361920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/06/states_2019-02-11-06.csv.tar",
+        "LastModified": "2024-11-01T15:48:29.403Z",
+        "ETag": "\"d226904873e1344f736e5139aeef1239\"",
+        "Size": "96942080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/06/states_2019-02-11-06.json.tar",
+        "LastModified": "2024-11-01T15:48:31.591Z",
+        "ETag": "\"3b38bbcd81670204df33eeb8bd4c484b\"",
+        "Size": "106311680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/07/states_2019-02-11-07.avro.tar",
+        "LastModified": "2024-11-01T15:50:09.191Z",
+        "ETag": "\"322f383b1062e563c068861ff9ac7f4c\"",
+        "Size": "98723840",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/07/states_2019-02-11-07.csv.tar",
+        "LastModified": "2024-11-01T15:50:09.545Z",
+        "ETag": "\"a653a00de003bd481773fff7e06f81f9\"",
+        "Size": "98334720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/07/states_2019-02-11-07.json.tar",
+        "LastModified": "2024-11-01T15:50:10.219Z",
+        "ETag": "\"c8f798a548499aa068efbc4b467c486b\"",
+        "Size": "107745280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/08/states_2019-02-11-08.avro.tar",
+        "LastModified": "2024-11-01T15:50:56.121Z",
+        "ETag": "\"d9f3327fc063e60b63a050cef1345129\"",
+        "Size": "101253120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/08/states_2019-02-11-08.csv.tar",
+        "LastModified": "2024-11-01T15:50:56.417Z",
+        "ETag": "\"b03d61c9fa0844e93beb6618c39783b3\"",
+        "Size": "100730880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/08/states_2019-02-11-08.json.tar",
+        "LastModified": "2024-11-01T15:50:58.338Z",
+        "ETag": "\"cd28831af29253152b4472a68e6ed2c5\"",
+        "Size": "110489600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/09/states_2019-02-11-09.avro.tar",
+        "LastModified": "2024-11-01T15:53:16.885Z",
+        "ETag": "\"58c411ad540b9b00fa01003d13a1a017\"",
+        "Size": "103680000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/09/states_2019-02-11-09.csv.tar",
+        "LastModified": "2024-11-01T15:53:18.013Z",
+        "ETag": "\"4392f66ee1df249a3d1f772bc64c3a8e\"",
+        "Size": "103004160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/09/states_2019-02-11-09.json.tar",
+        "LastModified": "2024-11-01T15:53:18.768Z",
+        "ETag": "\"bf3c302fb090cc0ddea06f63385cc502\"",
+        "Size": "112988160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/10/states_2019-02-11-10.avro.tar",
+        "LastModified": "2024-11-01T15:56:02.385Z",
+        "ETag": "\"1dec095c97306e68bd2d38dc59b9123d\"",
+        "Size": "106342400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/10/states_2019-02-11-10.csv.tar",
+        "LastModified": "2024-11-01T15:56:02.477Z",
+        "ETag": "\"67eb34f2ed462140c044055cbf5cea59\"",
+        "Size": "105748480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/10/states_2019-02-11-10.json.tar",
+        "LastModified": "2024-11-01T15:56:03.561Z",
+        "ETag": "\"ac07b4751305908b7a99e5cf60069824\"",
+        "Size": "115855360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/11/states_2019-02-11-11.avro.tar",
+        "LastModified": "2024-11-01T15:59:02.808Z",
+        "ETag": "\"4a3a313c55c4388d442a8bf48d0409d8\"",
+        "Size": "114616320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/11/states_2019-02-11-11.csv.tar",
+        "LastModified": "2024-11-01T15:59:03.820Z",
+        "ETag": "\"082a152aa60433ab8f5e6b1c62edd5a4\"",
+        "Size": "113786880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/11/states_2019-02-11-11.json.tar",
+        "LastModified": "2024-11-01T15:59:04.960Z",
+        "ETag": "\"1951ceec5da5818a307d45d3fdb0d6e2\"",
+        "Size": "124928000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/12/states_2019-02-11-12.avro.tar",
+        "LastModified": "2024-11-01T16:00:56.662Z",
+        "ETag": "\"81244edc04b050c652113ebda8c0c66d\"",
+        "Size": "126873600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/12/states_2019-02-11-12.csv.tar",
+        "LastModified": "2024-11-01T16:00:57.577Z",
+        "ETag": "\"6e6181d0bbb76663886f7ee3186ee61d\"",
+        "Size": "126085120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/12/states_2019-02-11-12.json.tar",
+        "LastModified": "2024-11-01T16:00:59.637Z",
+        "ETag": "\"9c130f0ecc6ad1ceb1f92ea608fef6b3\"",
+        "Size": "138229760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/13/states_2019-02-11-13.avro.tar",
+        "LastModified": "2024-11-01T16:01:44.814Z",
+        "ETag": "\"966611aac054b1e8ad18140fa7e2051c\"",
+        "Size": "137533440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/13/states_2019-02-11-13.csv.tar",
+        "LastModified": "2024-11-01T16:01:46.802Z",
+        "ETag": "\"0813f597622d08b834cc6804010da7f3\"",
+        "Size": "136683520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/13/states_2019-02-11-13.json.tar",
+        "LastModified": "2024-11-01T16:01:47.411Z",
+        "ETag": "\"40c3d604235c4f16a3d00d65b651673d\"",
+        "Size": "149882880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/14/states_2019-02-11-14.avro.tar",
+        "LastModified": "2024-11-01T16:04:18.632Z",
+        "ETag": "\"09df1c731481a6ff8fb48f04e9a62189\"",
+        "Size": "152801280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/14/states_2019-02-11-14.csv.tar",
+        "LastModified": "2024-11-01T16:04:21.118Z",
+        "ETag": "\"2101b2151d48749ca60b77e25eaa465c\"",
+        "Size": "151920640",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/14/states_2019-02-11-14.json.tar",
+        "LastModified": "2024-11-01T16:04:23.132Z",
+        "ETag": "\"bacb20aaf584aab163487bb4df14cd93\"",
+        "Size": "166553600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/15/states_2019-02-11-15.avro.tar",
+        "LastModified": "2024-11-01T16:06:04.490Z",
+        "ETag": "\"b4b6a6dfea75ea1caaee0fdf0c87a2aa\"",
+        "Size": "160532480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/15/states_2019-02-11-15.csv.tar",
+        "LastModified": "2024-11-01T16:06:05.158Z",
+        "ETag": "\"ce7710cb42ee97cd5e025cc65da15c89\"",
+        "Size": "159815680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/15/states_2019-02-11-15.json.tar",
+        "LastModified": "2024-11-01T16:06:07.680Z",
+        "ETag": "\"ae83a4e24a616bcdce9cd0a27bee24d6\"",
+        "Size": "175073280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/16/states_2019-02-11-16.avro.tar",
+        "LastModified": "2024-11-01T16:07:14.107Z",
+        "ETag": "\"14b9cb8124b53f2e30cf2dbfafe2f458\"",
+        "Size": "159467520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/16/states_2019-02-11-16.csv.tar",
+        "LastModified": "2024-11-01T16:07:17.348Z",
+        "ETag": "\"ab8417d634cb9ffc7cd139590f344d62\"",
+        "Size": "158965760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/16/states_2019-02-11-16.json.tar",
+        "LastModified": "2024-11-01T16:07:17.738Z",
+        "ETag": "\"a90823a7a613c394337781600beda288\"",
+        "Size": "173916160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/17/states_2019-02-11-17.avro.tar",
+        "LastModified": "2024-11-01T16:08:37.908Z",
+        "ETag": "\"07290bc697f78cf8df78864f2a247538\"",
+        "Size": "160460800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/17/states_2019-02-11-17.csv.tar",
+        "LastModified": "2024-11-01T16:08:40.749Z",
+        "ETag": "\"2dea7f514744fe3fb314787ef15f9eef\"",
+        "Size": "160143360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/17/states_2019-02-11-17.json.tar",
+        "LastModified": "2024-11-01T16:08:42.854Z",
+        "ETag": "\"948b0297d386b0ce78461f902d3f3991\"",
+        "Size": "174991360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/18/states_2019-02-11-18.avro.tar",
+        "LastModified": "2024-11-01T16:09:38.973Z",
+        "ETag": "\"08dab56bf299bfd999fe54c8b7d428cf\"",
+        "Size": "163164160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/18/states_2019-02-11-18.csv.tar",
+        "LastModified": "2024-11-01T16:09:40.411Z",
+        "ETag": "\"50760555a1ab2468f1c5af712a95f316\"",
+        "Size": "162867200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/18/states_2019-02-11-18.json.tar",
+        "LastModified": "2024-11-01T16:09:42.987Z",
+        "ETag": "\"96ffe49eaa6e3af32dc87ac568bc261b\"",
+        "Size": "178073600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/19/states_2019-02-11-19.avro.tar",
+        "LastModified": "2024-11-01T16:11:15.385Z",
+        "ETag": "\"27e5518b694100f7668dcada42a68b9a\"",
+        "Size": "159016960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/19/states_2019-02-11-19.csv.tar",
+        "LastModified": "2024-11-01T16:11:15.885Z",
+        "ETag": "\"2d38c4c1ee5baf5e09c00feaac4026c4\"",
+        "Size": "158515200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/19/states_2019-02-11-19.json.tar",
+        "LastModified": "2024-11-01T16:11:19.350Z",
+        "ETag": "\"e5f4fed211674b8a20ff74fc2dc409c6\"",
+        "Size": "173588480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/20/states_2019-02-11-20.avro.tar",
+        "LastModified": "2024-11-01T16:12:43.002Z",
+        "ETag": "\"56a2cf7d0bc21ae89395c8ca311e0d41\"",
+        "Size": "158504960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/20/states_2019-02-11-20.csv.tar",
+        "LastModified": "2024-11-01T16:12:43.253Z",
+        "ETag": "\"8541547821932f54d229b95b73c46f52\"",
+        "Size": "158095360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/20/states_2019-02-11-20.json.tar",
+        "LastModified": "2024-11-01T16:12:45.853Z",
+        "ETag": "\"2231f564e00e68adac3e2dfba5be4485\"",
+        "Size": "173025280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/21/states_2019-02-11-21.avro.tar",
+        "LastModified": "2024-11-01T16:15:14.005Z",
+        "ETag": "\"b5cc195bb925a8c4e26413ce16eb96d7\"",
+        "Size": "150845440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/21/states_2019-02-11-21.csv.tar",
+        "LastModified": "2024-11-01T16:15:18.076Z",
+        "ETag": "\"e9de7145ba014fe1fbaba46bf5a63076\"",
+        "Size": "150558720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/21/states_2019-02-11-21.json.tar",
+        "LastModified": "2024-11-01T16:15:21.333Z",
+        "ETag": "\"5b074f7629cf19d0c529e2623ab91eb4\"",
+        "Size": "164710400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/22/states_2019-02-11-22.avro.tar",
+        "LastModified": "2024-11-01T16:15:21.893Z",
+        "ETag": "\"29672744df414f7938d911b18c055e1c\"",
+        "Size": "139427840",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/22/states_2019-02-11-22.csv.tar",
+        "LastModified": "2024-11-01T16:15:22.695Z",
+        "ETag": "\"59488651a82384bbddcf53eaf8b12f6e\"",
+        "Size": "139048960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/22/states_2019-02-11-22.json.tar",
+        "LastModified": "2024-11-01T16:15:24.072Z",
+        "ETag": "\"acee8b04dc4f894e7b0648f1d85715d1\"",
+        "Size": "152299520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/23/states_2019-02-11-23.avro.tar",
+        "LastModified": "2024-11-01T16:15:27.490Z",
+        "ETag": "\"0eb945e3263fc034e41955375bad79f4\"",
+        "Size": "130549760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/23/states_2019-02-11-23.csv.tar",
+        "LastModified": "2024-11-01T16:15:28.517Z",
+        "ETag": "\"76940a4d0f015c8fbfdad509500dd1ad\"",
+        "Size": "130088960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-02-11/23/states_2019-02-11-23.json.tar",
+        "LastModified": "2024-11-01T16:15:31.110Z",
+        "ETag": "\"5ddd23de826665b0406c41f56be63e5a\"",
+        "Size": "142643200",
+        "StorageClass": "STANDARD"
+      }
+    ]
+  },
+  {
+    "day": "2019-07-08",
+    "prefix": "states/2019-07-08/",
+    "status": "listed",
+    "objects": []
+  },
+  {
+    "day": "2019-07-08",
+    "prefix": "states/.2019-07-08/",
+    "status": "listed",
+    "objects": [
+      {
+        "Key": "states/.2019-07-08/00/states_2019-07-08-00.avro.tar",
+        "LastModified": "2024-11-01T16:15:50.016Z",
+        "ETag": "\"ab05f1dbb39b3f9e2753baf7fd0159a2\"",
+        "Size": "132218880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/00/states_2019-07-08-00.csv.tar",
+        "LastModified": "2024-11-01T16:16:00.707Z",
+        "ETag": "\"3a04940d2d3d75653678c581ca9df005\"",
+        "Size": "132689920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/00/states_2019-07-08-00.json.tar",
+        "LastModified": "2024-11-01T16:16:10.566Z",
+        "ETag": "\"915782d69b0388440a6c2f6a5a68d277\"",
+        "Size": "144691200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/01/states_2019-07-08-01.avro.tar",
+        "LastModified": "2024-11-01T16:17:36.696Z",
+        "ETag": "\"c2c3c8aa4d940e158d3b89ee9095546c\"",
+        "Size": "126382080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/01/states_2019-07-08-01.csv.tar",
+        "LastModified": "2024-11-01T16:17:51.278Z",
+        "ETag": "\"1f98fa567ae3e00951ed2279270a26b8\"",
+        "Size": "126945280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/01/states_2019-07-08-01.json.tar",
+        "LastModified": "2024-11-01T16:18:02.490Z",
+        "ETag": "\"eee2671f9a6ffcc565c8fe7da3054900\"",
+        "Size": "138332160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/02/states_2019-07-08-02.avro.tar",
+        "LastModified": "2024-11-01T16:19:25.471Z",
+        "ETag": "\"c047b613149160b3748e9ae6cca5f68f\"",
+        "Size": "118958080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/02/states_2019-07-08-02.csv.tar",
+        "LastModified": "2024-11-01T16:19:35.199Z",
+        "ETag": "\"e2597301da733871b701ba830f284d69\"",
+        "Size": "119429120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/02/states_2019-07-08-02.json.tar",
+        "LastModified": "2024-11-01T16:19:42.726Z",
+        "ETag": "\"d652ffc53908d37f1dcb30636845c158\"",
+        "Size": "130170880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/03/states_2019-07-08-03.avro.tar",
+        "LastModified": "2024-11-01T16:21:08.116Z",
+        "ETag": "\"ff309627c5c1dc2d9eae107dce22e855\"",
+        "Size": "112496640",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/03/states_2019-07-08-03.csv.tar",
+        "LastModified": "2024-11-01T16:21:21.848Z",
+        "ETag": "\"ea89449bd34224cd5a9a73dfbe58f67c\"",
+        "Size": "113029120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/03/states_2019-07-08-03.json.tar",
+        "LastModified": "2024-11-01T16:21:33.351Z",
+        "ETag": "\"fd59b83b50bd68bfcbcfa04fe8df3b10\"",
+        "Size": "123166720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/04/states_2019-07-08-04.avro.tar",
+        "LastModified": "2024-11-01T16:23:08.843Z",
+        "ETag": "\"227d09f6068954d138308337ce5d80c1\"",
+        "Size": "111882240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/04/states_2019-07-08-04.csv.tar",
+        "LastModified": "2024-11-01T16:23:21.544Z",
+        "ETag": "\"fbf47a9bdb572470bbb3b5c7c87f1893\"",
+        "Size": "112220160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/04/states_2019-07-08-04.json.tar",
+        "LastModified": "2024-11-01T16:23:33.154Z",
+        "ETag": "\"ef1d20543e589ad80979429508f15484\"",
+        "Size": "122439680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/05/states_2019-07-08-05.avro.tar",
+        "LastModified": "2024-11-01T16:25:05.783Z",
+        "ETag": "\"25a36919be76783a0e1faf4bbac6650d\"",
+        "Size": "123545600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/05/states_2019-07-08-05.csv.tar",
+        "LastModified": "2024-11-01T16:25:18.959Z",
+        "ETag": "\"26cbc365698b5e6cba043ee12a76acce\"",
+        "Size": "123852800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/05/states_2019-07-08-05.json.tar",
+        "LastModified": "2024-11-01T16:25:27.217Z",
+        "ETag": "\"c881104e878bbfd22a51860d14c2a9ad\"",
+        "Size": "134993920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/06/states_2019-07-08-06.avro.tar",
+        "LastModified": "2024-11-01T16:27:02.457Z",
+        "ETag": "\"29e6476297f03bd5469fb3695b14362c\"",
+        "Size": "124682240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/06/states_2019-07-08-06.csv.tar",
+        "LastModified": "2024-11-01T16:27:09.642Z",
+        "ETag": "\"a9827140f3d0d8d347cee23e4fa844b3\"",
+        "Size": "124907520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/06/states_2019-07-08-06.json.tar",
+        "LastModified": "2024-11-01T16:27:17.583Z",
+        "ETag": "\"c94034071607396d82813295f3f0bb27\"",
+        "Size": "136192000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/07/states_2019-07-08-07.avro.tar",
+        "LastModified": "2024-11-01T16:28:49.689Z",
+        "ETag": "\"b7b97eb3e29cf9f5b135cb2ecddfe2ee\"",
+        "Size": "123146240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/07/states_2019-07-08-07.csv.tar",
+        "LastModified": "2024-11-01T16:28:57.753Z",
+        "ETag": "\"cb2c33eefded8b1df0f0996d0b5da285\"",
+        "Size": "123023360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/07/states_2019-07-08-07.json.tar",
+        "LastModified": "2024-11-01T16:29:12.944Z",
+        "ETag": "\"492c3340608963f56032987e7cf0f57d\"",
+        "Size": "134420480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/08/states_2019-07-08-08.avro.tar",
+        "LastModified": "2024-11-01T16:30:39.222Z",
+        "ETag": "\"6f8302c96a440b7879ac0d8db3a19a09\"",
+        "Size": "125173760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/08/states_2019-07-08-08.csv.tar",
+        "LastModified": "2024-11-01T16:30:50.896Z",
+        "ETag": "\"c59963af5cfcef2da61306a5aeeb271e\"",
+        "Size": "124876800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/08/states_2019-07-08-08.json.tar",
+        "LastModified": "2024-11-01T16:31:02.070Z",
+        "ETag": "\"d2a6f5b0672c88cb85f1142d56f9050f\"",
+        "Size": "136540160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/09/states_2019-07-08-09.avro.tar",
+        "LastModified": "2024-11-01T16:32:34.507Z",
+        "ETag": "\"5c08ea1db37bc51f6ebbd017fd27afc6\"",
+        "Size": "130641920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/09/states_2019-07-08-09.csv.tar",
+        "LastModified": "2024-11-01T16:32:45.351Z",
+        "ETag": "\"69542f968d2a2a006ea0423899114e6a\"",
+        "Size": "130467840",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/09/states_2019-07-08-09.json.tar",
+        "LastModified": "2024-11-01T16:32:56.768Z",
+        "ETag": "\"d13ea409193489a0f2da47733ab73e89\"",
+        "Size": "142479360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/10/states_2019-07-08-10.avro.tar",
+        "LastModified": "2024-11-01T16:34:20.270Z",
+        "ETag": "\"439576544cc6c618d1c72531f0d241ce\"",
+        "Size": "141445120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/10/states_2019-07-08-10.csv.tar",
+        "LastModified": "2024-11-01T16:34:30.124Z",
+        "ETag": "\"1e9163a36e1e42ec6fbe97d94bd1cda2\"",
+        "Size": "141445120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/10/states_2019-07-08-10.json.tar",
+        "LastModified": "2024-11-01T16:34:43.225Z",
+        "ETag": "\"4757b36e713815e174df1dcfb76b16f2\"",
+        "Size": "154316800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/11/states_2019-07-08-11.avro.tar",
+        "LastModified": "2024-11-01T16:36:08.462Z",
+        "ETag": "\"e9ff28d864af8f345f075d2d1928f9fc\"",
+        "Size": "158023680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/11/states_2019-07-08-11.csv.tar",
+        "LastModified": "2024-11-01T16:36:20.942Z",
+        "ETag": "\"0493c875d1b9f1dddeba5cfe15cc2d60\"",
+        "Size": "158064640",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/11/states_2019-07-08-11.json.tar",
+        "LastModified": "2024-11-01T16:36:31.511Z",
+        "ETag": "\"5a9ec253d06ca126c9b464fd051ffe84\"",
+        "Size": "172462080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/12/states_2019-07-08-12.avro.tar",
+        "LastModified": "2024-11-01T16:37:56.461Z",
+        "ETag": "\"cca8aa4f9c3ab371813c72b17416684f\"",
+        "Size": "170004480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/12/states_2019-07-08-12.csv.tar",
+        "LastModified": "2024-11-01T16:38:09.684Z",
+        "ETag": "\"cf3b82e385c758726a7e09ce22933248\"",
+        "Size": "169963520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/12/states_2019-07-08-12.json.tar",
+        "LastModified": "2024-11-01T16:38:21.803Z",
+        "ETag": "\"822fff0fe99d8a9ef36ebc535a8324a9\"",
+        "Size": "185589760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/13/states_2019-07-08-13.avro.tar",
+        "LastModified": "2024-11-01T16:39:50.556Z",
+        "ETag": "\"04342afe726fd445ac1493db63afad9c\"",
+        "Size": "183480320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/13/states_2019-07-08-13.csv.tar",
+        "LastModified": "2024-11-01T16:39:59.437Z",
+        "ETag": "\"61bf88edb14bad7af95993f45b970d4e\"",
+        "Size": "183480320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/13/states_2019-07-08-13.json.tar",
+        "LastModified": "2024-11-01T16:40:12.622Z",
+        "ETag": "\"fd74b70a7072dde14246fd747420e4b8\"",
+        "Size": "200366080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/14/states_2019-07-08-14.avro.tar",
+        "LastModified": "2024-11-01T16:41:33.030Z",
+        "ETag": "\"7bb675753f2d7132474a14ec29dea0a7\"",
+        "Size": "192143360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/14/states_2019-07-08-14.csv.tar",
+        "LastModified": "2024-11-01T16:41:40.818Z",
+        "ETag": "\"382cfaedd6b24ced633872f1f1460354\"",
+        "Size": "192481280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/14/states_2019-07-08-14.json.tar",
+        "LastModified": "2024-11-01T16:42:01.024Z",
+        "ETag": "\"5af69d55a2466291cc4e674b42d29a6d-41\"",
+        "Size": "209960960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/15/states_2019-07-08-15.avro.tar",
+        "LastModified": "2024-11-01T16:43:12.749Z",
+        "ETag": "\"22580a849f566403f88a49ad7d5abdf3\"",
+        "Size": "193239040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/15/states_2019-07-08-15.csv.tar",
+        "LastModified": "2024-11-01T16:43:26.287Z",
+        "ETag": "\"58020a77a550ea9508c5db34994efcbc\"",
+        "Size": "193576960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/15/states_2019-07-08-15.json.tar",
+        "LastModified": "2024-11-01T16:43:44.645Z",
+        "ETag": "\"0d4a40374670149ac3ef309d7c895470-41\"",
+        "Size": "211107840",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/16/states_2019-07-08-16.avro.tar",
+        "LastModified": "2024-11-01T16:45:14.559Z",
+        "ETag": "\"b3f9c13fc247bfc566a41934ddc1552a\"",
+        "Size": "189163520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/16/states_2019-07-08-16.csv.tar",
+        "LastModified": "2024-11-01T16:45:30.426Z",
+        "ETag": "\"890e36ec2c500b5b204e8465710d716f\"",
+        "Size": "189480960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/16/states_2019-07-08-16.json.tar",
+        "LastModified": "2024-11-01T16:45:41.311Z",
+        "ETag": "\"40e57246b38626e7619f28029ab87cf2\"",
+        "Size": "206612480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/17/states_2019-07-08-17.avro.tar",
+        "LastModified": "2024-11-01T16:47:07.945Z",
+        "ETag": "\"f71f4d0af82b96f2e74ad2bebb747dd7\"",
+        "Size": "186122240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/17/states_2019-07-08-17.csv.tar",
+        "LastModified": "2024-11-01T16:47:17.234Z",
+        "ETag": "\"0f13cecd33649dbea97d69b5ddc21ce4\"",
+        "Size": "186818560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/17/states_2019-07-08-17.json.tar",
+        "LastModified": "2024-11-01T16:47:27.758Z",
+        "ETag": "\"f022daf20364916d121260d574032057\"",
+        "Size": "203345920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/18/states_2019-07-08-18.avro.tar",
+        "LastModified": "2024-11-01T16:49:00.031Z",
+        "ETag": "\"dd73f85ae86ccba40d8cb2642bffa247\"",
+        "Size": "178831360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/18/states_2019-07-08-18.csv.tar",
+        "LastModified": "2024-11-01T16:49:13.065Z",
+        "ETag": "\"d4ee744bdd2b019a9ded6b33a75ec3cc\"",
+        "Size": "179476480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/18/states_2019-07-08-18.json.tar",
+        "LastModified": "2024-11-01T16:49:26.874Z",
+        "ETag": "\"a4e68ecaeaa51ca0675b9d29fdf71bb1\"",
+        "Size": "195461120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/19/states_2019-07-08-19.avro.tar",
+        "LastModified": "2024-11-01T16:50:56.434Z",
+        "ETag": "\"cb3100dc1d4c261bc8d54bb8484185da\"",
+        "Size": "171397120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/19/states_2019-07-08-19.csv.tar",
+        "LastModified": "2024-11-01T16:51:09.889Z",
+        "ETag": "\"38cf4ac8439a6f0818c5e9d36bda42ce\"",
+        "Size": "172134400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/19/states_2019-07-08-19.json.tar",
+        "LastModified": "2024-11-01T16:51:22.351Z",
+        "ETag": "\"d62d36aaf8a2968db4555e0f32b570c2\"",
+        "Size": "187289600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/20/states_2019-07-08-20.avro.tar",
+        "LastModified": "2024-11-01T16:53:01.564Z",
+        "ETag": "\"8dbb164d59a784829cf006c31eda133b\"",
+        "Size": "166236160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/20/states_2019-07-08-20.csv.tar",
+        "LastModified": "2024-11-01T16:53:12.087Z",
+        "ETag": "\"125ef003ad9bc68304e43ccbbd217a09\"",
+        "Size": "167075840",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/20/states_2019-07-08-20.json.tar",
+        "LastModified": "2024-11-01T16:53:23.761Z",
+        "ETag": "\"2649709f188435adf9f263f26b42056d\"",
+        "Size": "181678080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/21/states_2019-07-08-21.avro.tar",
+        "LastModified": "2024-11-01T16:54:53.943Z",
+        "ETag": "\"0dac01dd384180615eb9490e56158422\"",
+        "Size": "154961920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/21/states_2019-07-08-21.csv.tar",
+        "LastModified": "2024-11-01T16:55:07.693Z",
+        "ETag": "\"9b01d76804d508635f45f4590476c28e\"",
+        "Size": "155627520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/21/states_2019-07-08-21.json.tar",
+        "LastModified": "2024-11-01T16:55:16.612Z",
+        "ETag": "\"b32338a962dfe2171c0f9f4c54ae3b5a\"",
+        "Size": "169390080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/22/states_2019-07-08-22.avro.tar",
+        "LastModified": "2024-11-01T16:56:49.425Z",
+        "ETag": "\"5f8d37ccdbe103c004aa224ce02bc031\"",
+        "Size": "144926720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/22/states_2019-07-08-22.csv.tar",
+        "LastModified": "2024-11-01T16:57:02.359Z",
+        "ETag": "\"76044b91690b9b2c08e2c9150f78a3ef\"",
+        "Size": "145418240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/22/states_2019-07-08-22.json.tar",
+        "LastModified": "2024-11-01T16:57:10.954Z",
+        "ETag": "\"2fb5734aae4de040be97909382ad5ce1\"",
+        "Size": "158464000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/23/states_2019-07-08-23.avro.tar",
+        "LastModified": "2024-11-01T16:58:48.048Z",
+        "ETag": "\"ed11871a8408e996fb64882ac8812c96\"",
+        "Size": "135055360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/23/states_2019-07-08-23.csv.tar",
+        "LastModified": "2024-11-01T16:59:00.310Z",
+        "ETag": "\"4c9f5c9ff6d062d14f3fba3ffe6bd7e3\"",
+        "Size": "135495680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-07-08/23/states_2019-07-08-23.json.tar",
+        "LastModified": "2024-11-01T16:59:09.359Z",
+        "ETag": "\"6d21c232ab3a6f4995832293ddd9798c\"",
+        "Size": "147681280",
+        "StorageClass": "STANDARD"
+      }
+    ]
+  },
+  {
+    "day": "2019-08-05",
+    "prefix": "states/2019-08-05/",
+    "status": "listed",
+    "objects": []
+  },
+  {
+    "day": "2019-08-05",
+    "prefix": "states/.2019-08-05/",
+    "status": "listed",
+    "objects": [
+      {
+        "Key": "states/.2019-08-05/00/states_2019-08-05-00.avro.tar",
+        "LastModified": "2024-11-01T16:21:45.890Z",
+        "ETag": "\"9b5d133779b8ef70270e82c3c926010b\"",
+        "Size": "136499200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/00/states_2019-08-05-00.csv.tar",
+        "LastModified": "2024-11-01T16:22:00.620Z",
+        "ETag": "\"21634025595cfa15b299ee0688b860dc\"",
+        "Size": "137154560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/00/states_2019-08-05-00.json.tar",
+        "LastModified": "2024-11-01T16:22:12.882Z",
+        "ETag": "\"de625a2494bcacb762e953f6488d6ed9\"",
+        "Size": "149248000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/01/states_2019-08-05-01.avro.tar",
+        "LastModified": "2024-11-01T16:23:45.482Z",
+        "ETag": "\"6ff72fd56c289928433d9013f10c635f\"",
+        "Size": "129013760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/01/states_2019-08-05-01.csv.tar",
+        "LastModified": "2024-11-01T16:23:54.968Z",
+        "ETag": "\"3a5b92c1d104ce69392748fcb9dbd07f\"",
+        "Size": "129525760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/01/states_2019-08-05-01.json.tar",
+        "LastModified": "2024-11-01T16:24:06.821Z",
+        "ETag": "\"e4ba1a1b4f70da0a680eccb2053c6c3d\"",
+        "Size": "141076480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/02/states_2019-08-05-02.avro.tar",
+        "LastModified": "2024-11-01T16:25:45.327Z",
+        "ETag": "\"84a4f55f54128ec9f7d1893da4dfa1b0\"",
+        "Size": "121272320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/02/states_2019-08-05-02.csv.tar",
+        "LastModified": "2024-11-01T16:25:54.486Z",
+        "ETag": "\"e5bc35fcce69a6d4e0b5b492dfdefd1f\"",
+        "Size": "121733120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/02/states_2019-08-05-02.json.tar",
+        "LastModified": "2024-11-01T16:26:05.637Z",
+        "ETag": "\"00478045d3f1c99cc02cb64df66e9bfe\"",
+        "Size": "132567040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/03/states_2019-08-05-03.avro.tar",
+        "LastModified": "2024-11-01T16:27:39.212Z",
+        "ETag": "\"db272e2d7d08392fecb182f2bc52429d\"",
+        "Size": "112824320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/03/states_2019-08-05-03.csv.tar",
+        "LastModified": "2024-11-01T16:27:47.101Z",
+        "ETag": "\"a6b2062fdfc70a747075599f669d5e59\"",
+        "Size": "113285120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/03/states_2019-08-05-03.json.tar",
+        "LastModified": "2024-11-01T16:27:58.867Z",
+        "ETag": "\"66134e970645f6994ab0753f2ee5997a\"",
+        "Size": "123340800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/04/states_2019-08-05-04.avro.tar",
+        "LastModified": "2024-11-01T16:29:33.959Z",
+        "ETag": "\"5d8d739c0cc40b05553641772f779337\"",
+        "Size": "110305280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/04/states_2019-08-05-04.csv.tar",
+        "LastModified": "2024-11-01T16:29:42.542Z",
+        "ETag": "\"ab62e31d09a57c8b65f179a1f7ce78c4\"",
+        "Size": "110458880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/04/states_2019-08-05-04.json.tar",
+        "LastModified": "2024-11-01T16:29:53.233Z",
+        "ETag": "\"314d37deb91be275044426d6fd832a84\"",
+        "Size": "120524800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/05/states_2019-08-05-05.avro.tar",
+        "LastModified": "2024-11-01T16:31:23.687Z",
+        "ETag": "\"614cc89f8e4f761f3b99e526fcfb9a1b\"",
+        "Size": "117698560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/05/states_2019-08-05-05.csv.tar",
+        "LastModified": "2024-11-01T16:31:34.852Z",
+        "ETag": "\"c3954b2178fe9aee47ec31e26e7cb77d\"",
+        "Size": "117944320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/05/states_2019-08-05-05.json.tar",
+        "LastModified": "2024-11-01T16:31:45.731Z",
+        "ETag": "\"e4610cfc023b01423d89cf3f20392be7\"",
+        "Size": "128471040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/06/states_2019-08-05-06.avro.tar",
+        "LastModified": "2024-11-01T16:33:23.045Z",
+        "ETag": "\"f304bc795383e2b44eb7de7a6afa1112\"",
+        "Size": "117381120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/06/states_2019-08-05-06.csv.tar",
+        "LastModified": "2024-11-01T16:33:32.124Z",
+        "ETag": "\"02eb74f0ec2801281761ab712ba0221f\"",
+        "Size": "117166080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/06/states_2019-08-05-06.json.tar",
+        "LastModified": "2024-11-01T16:33:42.898Z",
+        "ETag": "\"4dfd419d4b2bbac0f2592896c4b57db6\"",
+        "Size": "127928320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/07/states_2019-08-05-07.avro.tar",
+        "LastModified": "2024-11-01T16:35:14.289Z",
+        "ETag": "\"6d225891317c4a5473e2e05a071933e6\"",
+        "Size": "119603200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/07/states_2019-08-05-07.csv.tar",
+        "LastModified": "2024-11-01T16:35:25.564Z",
+        "ETag": "\"408d73f1ef89d856f042c1813d502876\"",
+        "Size": "119183360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/07/states_2019-08-05-07.json.tar",
+        "LastModified": "2024-11-01T16:35:36.254Z",
+        "ETag": "\"1dac238a330d6baa9417a73f6df3146f\"",
+        "Size": "130293760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/08/states_2019-08-05-08.avro.tar",
+        "LastModified": "2024-11-01T16:37:07.306Z",
+        "ETag": "\"c89eb103d0063c0e75a7727ff77cae23\"",
+        "Size": "123719680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/08/states_2019-08-05-08.csv.tar",
+        "LastModified": "2024-11-01T16:37:15.604Z",
+        "ETag": "\"dd6ed81d5d24b0b9ffad5fa82a48b847\"",
+        "Size": "123228160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/08/states_2019-08-05-08.json.tar",
+        "LastModified": "2024-11-01T16:37:27.043Z",
+        "ETag": "\"90b53fb4a547819691488b37250c5b83\"",
+        "Size": "134789120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/09/states_2019-08-05-09.avro.tar",
+        "LastModified": "2024-11-01T16:38:58.401Z",
+        "ETag": "\"b868ab4098a73cfe773a880171997b14\"",
+        "Size": "128256000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/09/states_2019-08-05-09.csv.tar",
+        "LastModified": "2024-11-01T16:39:06.856Z",
+        "ETag": "\"2859f36a96f1d6c381663a045707af56\"",
+        "Size": "128020480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/09/states_2019-08-05-09.json.tar",
+        "LastModified": "2024-11-01T16:39:16.256Z",
+        "ETag": "\"94763939cf4ef17dde55a3d31aaf1fa8\"",
+        "Size": "139765760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/10/states_2019-08-05-10.avro.tar",
+        "LastModified": "2024-11-01T16:40:45.402Z",
+        "ETag": "\"3780508ff387d7d9e1cd455878227039\"",
+        "Size": "139479040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/10/states_2019-08-05-10.csv.tar",
+        "LastModified": "2024-11-01T16:40:56.720Z",
+        "ETag": "\"44ae974f96f38df82d08a97109180081\"",
+        "Size": "139284480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/10/states_2019-08-05-10.json.tar",
+        "LastModified": "2024-11-01T16:41:04.324Z",
+        "ETag": "\"9be3b49a825485540d4e2fd12c02df8f\"",
+        "Size": "152033280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/11/states_2019-08-05-11.avro.tar",
+        "LastModified": "2024-11-01T16:42:42.236Z",
+        "ETag": "\"6e0a16391420fa72e216c95c2d7bdabe\"",
+        "Size": "160686080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/11/states_2019-08-05-11.csv.tar",
+        "LastModified": "2024-11-01T16:42:51.153Z",
+        "ETag": "\"f476bf2ee97051d1fd95ca156a6b8021\"",
+        "Size": "160655360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/11/states_2019-08-05-11.json.tar",
+        "LastModified": "2024-11-01T16:43:00.764Z",
+        "ETag": "\"20be783a236d0a494cafa795b1d03543\"",
+        "Size": "175247360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/12/states_2019-08-05-12.avro.tar",
+        "LastModified": "2024-11-01T16:44:31.470Z",
+        "ETag": "\"c376241643ca800579a728d40a3ed854\"",
+        "Size": "176558080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/12/states_2019-08-05-12.csv.tar",
+        "LastModified": "2024-11-01T16:44:46.322Z",
+        "ETag": "\"9c2a01fef5db0233f7228515e3d403ee\"",
+        "Size": "176486400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/12/states_2019-08-05-12.json.tar",
+        "LastModified": "2024-11-01T16:44:57.585Z",
+        "ETag": "\"b907587c8fc9a79200e2db67bc955aec\"",
+        "Size": "192532480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/13/states_2019-08-05-13.avro.tar",
+        "LastModified": "2024-11-01T16:46:35.428Z",
+        "ETag": "\"d6155f873eaf4cce72597c399e4fc86a\"",
+        "Size": "192215040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/13/states_2019-08-05-13.csv.tar",
+        "LastModified": "2024-11-01T16:46:44.026Z",
+        "ETag": "\"514c2bbbeb58838fbc63393703bf325a\"",
+        "Size": "192327680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/13/states_2019-08-05-13.json.tar",
+        "LastModified": "2024-11-01T16:47:00.594Z",
+        "ETag": "\"146d2d3676e6d11fd25580b09cfda64e-41\"",
+        "Size": "209786880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/14/states_2019-08-05-14.avro.tar",
+        "LastModified": "2024-11-01T16:48:30.377Z",
+        "ETag": "\"eb09f0d5da54274ad5365945e5c313af\"",
+        "Size": "201697280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/14/states_2019-08-05-14.csv.tar",
+        "LastModified": "2024-11-01T16:48:40.800Z",
+        "ETag": "\"bdf7a7f554f841f1c9686827d7ddcb6d\"",
+        "Size": "201973760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/14/states_2019-08-05-14.json.tar",
+        "LastModified": "2024-11-01T16:49:04.409Z",
+        "ETag": "\"984986269957a09747ff7f2ba05473ae-42\"",
+        "Size": "220160000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/15/states_2019-08-05-15.avro.tar",
+        "LastModified": "2024-11-01T16:50:37.258Z",
+        "ETag": "\"91409d09d01cb4178e3c8da1a730d7e5\"",
+        "Size": "203018240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/15/states_2019-08-05-15.csv.tar",
+        "LastModified": "2024-11-01T16:50:47.253Z",
+        "ETag": "\"4c3ca0517046587faffaecd840651894\"",
+        "Size": "203264000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/15/states_2019-08-05-15.json.tar",
+        "LastModified": "2024-11-01T16:51:06.111Z",
+        "ETag": "\"e83ced57b438c7bbe337fd67c5627f2f-43\"",
+        "Size": "221614080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/16/states_2019-08-05-16.avro.tar",
+        "LastModified": "2024-11-01T16:52:36.663Z",
+        "ETag": "\"2bf8a0dbecb9f03ff844a35185efb964\"",
+        "Size": "200898560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/16/states_2019-08-05-16.csv.tar",
+        "LastModified": "2024-11-01T16:52:45.068Z",
+        "ETag": "\"05e18a996d9d67bbbe2abbccc4810202\"",
+        "Size": "201185280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/16/states_2019-08-05-16.json.tar",
+        "LastModified": "2024-11-01T16:53:04.745Z",
+        "ETag": "\"b68489227695f04933e2bf3a4acf95e2-42\"",
+        "Size": "219146240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/17/states_2019-08-05-17.avro.tar",
+        "LastModified": "2024-11-01T16:54:27.536Z",
+        "ETag": "\"3b9bc230f409f9c719bb6684010efc2e\"",
+        "Size": "196966400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/17/states_2019-08-05-17.csv.tar",
+        "LastModified": "2024-11-01T16:54:43.189Z",
+        "ETag": "\"da39006584d3534aba2cb3db29289c5d\"",
+        "Size": "197498880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/17/states_2019-08-05-17.json.tar",
+        "LastModified": "2024-11-01T16:54:59.511Z",
+        "ETag": "\"36099c5d20ddd078782f8dbe084f50bd-41\"",
+        "Size": "214917120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/18/states_2019-08-05-18.avro.tar",
+        "LastModified": "2024-11-01T16:56:32.522Z",
+        "ETag": "\"9760327a5b9dd2c1cb5818b825bfa7fb\"",
+        "Size": "187985920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/18/states_2019-08-05-18.csv.tar",
+        "LastModified": "2024-11-01T16:56:46.442Z",
+        "ETag": "\"112a06a146bf75a163882f94989097b0\"",
+        "Size": "188641280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/18/states_2019-08-05-18.json.tar",
+        "LastModified": "2024-11-01T16:56:56.105Z",
+        "ETag": "\"bacc6110214ce66921bebdb1a16e18e5\"",
+        "Size": "205158400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/19/states_2019-08-05-19.avro.tar",
+        "LastModified": "2024-11-01T16:58:27.199Z",
+        "ETag": "\"9b5c1bb4ada29bc9c36fabdf504e4620\"",
+        "Size": "182302720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/19/states_2019-08-05-19.csv.tar",
+        "LastModified": "2024-11-01T16:58:41.061Z",
+        "ETag": "\"6c8a5aa049959f858864d90461b4ca11\"",
+        "Size": "182988800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/19/states_2019-08-05-19.json.tar",
+        "LastModified": "2024-11-01T16:58:50.806Z",
+        "ETag": "\"2b7304ca70d6eac87bc8fa42eab756aa\"",
+        "Size": "198891520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/20/states_2019-08-05-20.avro.tar",
+        "LastModified": "2024-11-01T17:00:39.222Z",
+        "ETag": "\"d40b9b20dee7d8b4e5ee230736c74442\"",
+        "Size": "175923200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/20/states_2019-08-05-20.csv.tar",
+        "LastModified": "2024-11-01T17:00:47.221Z",
+        "ETag": "\"feaa0415f22ec4b18856549166cb4c41\"",
+        "Size": "176721920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/20/states_2019-08-05-20.json.tar",
+        "LastModified": "2024-11-01T17:01:04.277Z",
+        "ETag": "\"afc1afcd55b112644c12c32fb394eaf7\"",
+        "Size": "192030720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/21/states_2019-08-05-21.avro.tar",
+        "LastModified": "2024-11-01T17:02:30.902Z",
+        "ETag": "\"d89e8daa5878636060d0b06feb6f51ea\"",
+        "Size": "162355200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/21/states_2019-08-05-21.csv.tar",
+        "LastModified": "2024-11-01T17:02:39.723Z",
+        "ETag": "\"6d98f5653d760e9ac7e44031e891ade3\"",
+        "Size": "163092480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/21/states_2019-08-05-21.json.tar",
+        "LastModified": "2024-11-01T17:02:52.762Z",
+        "ETag": "\"a258be20a69c1dc05ee3b96c5288f849\"",
+        "Size": "177397760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/22/states_2019-08-05-22.avro.tar",
+        "LastModified": "2024-11-01T17:04:21.935Z",
+        "ETag": "\"4542c014be9c4a599b852af5f1cba218\"",
+        "Size": "148500480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/22/states_2019-08-05-22.csv.tar",
+        "LastModified": "2024-11-01T17:04:30.874Z",
+        "ETag": "\"9764e845ac203e9b54780e44a4b93264\"",
+        "Size": "149073920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/22/states_2019-08-05-22.json.tar",
+        "LastModified": "2024-11-01T17:04:44.901Z",
+        "ETag": "\"42cd91dba5733c887a5fd34221e546b4\"",
+        "Size": "162273280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/23/states_2019-08-05-23.avro.tar",
+        "LastModified": "2024-11-01T17:06:17.168Z",
+        "ETag": "\"169cd115554fbe697b9a100ae407a478\"",
+        "Size": "136232960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/23/states_2019-08-05-23.csv.tar",
+        "LastModified": "2024-11-01T17:06:31.276Z",
+        "ETag": "\"e48dac5884782be73fc85d1383a56236\"",
+        "Size": "136806400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-05/23/states_2019-08-05-23.json.tar",
+        "LastModified": "2024-11-01T17:06:42.566Z",
+        "ETag": "\"d85bf4a28135fa6b5733bfaf8677499f\"",
+        "Size": "148961280",
+        "StorageClass": "STANDARD"
+      }
+    ]
+  },
+  {
+    "day": "2019-08-12",
+    "prefix": "states/2019-08-12/",
+    "status": "listed",
+    "objects": []
+  },
+  {
+    "day": "2019-08-12",
+    "prefix": "states/.2019-08-12/",
+    "status": "listed",
+    "objects": [
+      {
+        "Key": "states/.2019-08-12/00/states_2019-08-12-00.avro.tar",
+        "LastModified": "2024-11-01T16:44:23.046Z",
+        "ETag": "\"d900e65b0bae1e86551b739eab6b7740\"",
+        "Size": "137410560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/00/states_2019-08-12-00.csv.tar",
+        "LastModified": "2024-11-01T16:44:32.777Z",
+        "ETag": "\"a83f34205fc2ba61696143e11257c74e\"",
+        "Size": "138004480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/00/states_2019-08-12-00.json.tar",
+        "LastModified": "2024-11-01T16:44:46.773Z",
+        "ETag": "\"ea38565badf826ceeba80eb8e128ae20\"",
+        "Size": "150210560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/01/states_2019-08-12-01.avro.tar",
+        "LastModified": "2024-11-01T16:46:18.075Z",
+        "ETag": "\"b86b91791811b2e074d889c68014fefc\"",
+        "Size": "128276480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/01/states_2019-08-12-01.csv.tar",
+        "LastModified": "2024-11-01T16:46:25.327Z",
+        "ETag": "\"f08bb01dc18a26b8c78107aed88e2601\"",
+        "Size": "128727040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/01/states_2019-08-12-01.json.tar",
+        "LastModified": "2024-11-01T16:46:32.539Z",
+        "ETag": "\"b6a6dbb4f56bf28f38b90cc47a3a5045\"",
+        "Size": "140216320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/02/states_2019-08-12-02.avro.tar",
+        "LastModified": "2024-11-01T16:48:17.106Z",
+        "ETag": "\"7c1758d155cd8cb486057be7e9ff257d\"",
+        "Size": "120033280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/02/states_2019-08-12-02.csv.tar",
+        "LastModified": "2024-11-01T16:48:24.816Z",
+        "ETag": "\"c1f1ed7e770ea9cb7cc15305a722bde1\"",
+        "Size": "120463360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/02/states_2019-08-12-02.json.tar",
+        "LastModified": "2024-11-01T16:48:34.983Z",
+        "ETag": "\"e3a4ae9850612db8617db2f84e65295b\"",
+        "Size": "131174400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/03/states_2019-08-12-03.avro.tar",
+        "LastModified": "2024-11-01T16:50:25.647Z",
+        "ETag": "\"19e7350010419651ca33923786b19064\"",
+        "Size": "111564800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/03/states_2019-08-12-03.csv.tar",
+        "LastModified": "2024-11-01T16:50:36.153Z",
+        "ETag": "\"be4f4126188149dc06946cd4d03e78c9\"",
+        "Size": "112066560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/03/states_2019-08-12-03.json.tar",
+        "LastModified": "2024-11-01T16:50:50.067Z",
+        "ETag": "\"3d520fe32d166c92aa2bd4a92e785b51\"",
+        "Size": "121989120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/04/states_2019-08-12-04.avro.tar",
+        "LastModified": "2024-11-01T16:52:20.295Z",
+        "ETag": "\"27c06e37f5e7b8e388b47fd349b20384\"",
+        "Size": "108646400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/04/states_2019-08-12-04.csv.tar",
+        "LastModified": "2024-11-01T16:52:34.666Z",
+        "ETag": "\"ad03b40421cadfcbd68b02b852734494\"",
+        "Size": "108912640",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/04/states_2019-08-12-04.json.tar",
+        "LastModified": "2024-11-01T16:52:42.899Z",
+        "ETag": "\"da59fb462468860bd2950241a91f756f\"",
+        "Size": "118773760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/05/states_2019-08-12-05.avro.tar",
+        "LastModified": "2024-11-01T16:54:19.300Z",
+        "ETag": "\"393e2a542ea4147b2bd9293c365968cc\"",
+        "Size": "116254720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/05/states_2019-08-12-05.csv.tar",
+        "LastModified": "2024-11-01T16:54:28.514Z",
+        "ETag": "\"b6caa8424a24900cf32e7da9521c7603\"",
+        "Size": "116572160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/05/states_2019-08-12-05.json.tar",
+        "LastModified": "2024-11-01T16:54:42.343Z",
+        "ETag": "\"09877c1840aba00d2e30963d9d1034a9\"",
+        "Size": "127027200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/06/states_2019-08-12-06.avro.tar",
+        "LastModified": "2024-11-01T16:56:23.903Z",
+        "ETag": "\"9b7bb72e457459e79278e5220aa1065b\"",
+        "Size": "116684800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/06/states_2019-08-12-06.csv.tar",
+        "LastModified": "2024-11-01T16:56:34.903Z",
+        "ETag": "\"7db45d790a1a2f14994de3e72b1fed36\"",
+        "Size": "117053440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/06/states_2019-08-12-06.json.tar",
+        "LastModified": "2024-11-01T16:56:48.063Z",
+        "ETag": "\"49dd881be14dc09c11c2cad788ffb40c\"",
+        "Size": "127508480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/07/states_2019-08-12-07.avro.tar",
+        "LastModified": "2024-11-01T16:58:15.770Z",
+        "ETag": "\"ff91ca48cbc313c4d7bf7eb8ba5c4253\"",
+        "Size": "120616960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/07/states_2019-08-12-07.csv.tar",
+        "LastModified": "2024-11-01T16:58:25.558Z",
+        "ETag": "\"a3b229cf2288a0e18e1323741a7b6700\"",
+        "Size": "120637440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/07/states_2019-08-12-07.json.tar",
+        "LastModified": "2024-11-01T16:58:39.959Z",
+        "ETag": "\"26161335a75412fa38464c19efdcd23e\"",
+        "Size": "131686400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/08/states_2019-08-12-08.avro.tar",
+        "LastModified": "2024-11-01T17:00:22.532Z",
+        "ETag": "\"670bf0ab91c424196f8337c5c6d26736\"",
+        "Size": "123156480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/08/states_2019-08-12-08.csv.tar",
+        "LastModified": "2024-11-01T17:00:37.993Z",
+        "ETag": "\"ec4790c3009cd1b756b8d9db2e181cb0\"",
+        "Size": "123125760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/08/states_2019-08-12-08.json.tar",
+        "LastModified": "2024-11-01T17:00:51.100Z",
+        "ETag": "\"bb099a651ec9a25b3f72c356a48c2478\"",
+        "Size": "134338560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/09/states_2019-08-12-09.avro.tar",
+        "LastModified": "2024-11-01T17:02:22.217Z",
+        "ETag": "\"20a1e7163e0e4cfaf6b11e151b185d34\"",
+        "Size": "126976000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/09/states_2019-08-12-09.csv.tar",
+        "LastModified": "2024-11-01T17:02:31.453Z",
+        "ETag": "\"9bcb5e2e9d9fc5e635712709af78af28\"",
+        "Size": "126935040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/09/states_2019-08-12-09.json.tar",
+        "LastModified": "2024-11-01T17:02:43.955Z",
+        "ETag": "\"a0b9331cbb02b1fdad0373ef281489a6\"",
+        "Size": "138485760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/10/states_2019-08-12-10.avro.tar",
+        "LastModified": "2024-11-01T17:04:14.671Z",
+        "ETag": "\"e112687c1b2dc63a5ad16355ceb0d2d7\"",
+        "Size": "137871360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/10/states_2019-08-12-10.csv.tar",
+        "LastModified": "2024-11-01T17:04:24.798Z",
+        "ETag": "\"1715399f8165e62f7e64ac655e6f9acd\"",
+        "Size": "137953280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/10/states_2019-08-12-10.json.tar",
+        "LastModified": "2024-11-01T17:04:38.187Z",
+        "ETag": "\"860d4260bd5d6bc7ada0ead4957191bb\"",
+        "Size": "150446080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/11/states_2019-08-12-11.avro.tar",
+        "LastModified": "2024-11-01T17:06:15.404Z",
+        "ETag": "\"4d47f38ddfc8bab34a29235a3c9239dc\"",
+        "Size": "156334080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/11/states_2019-08-12-11.csv.tar",
+        "LastModified": "2024-11-01T17:06:31.080Z",
+        "ETag": "\"16d07819bbea8902cc5b4e1cd692af9b\"",
+        "Size": "156467200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/11/states_2019-08-12-11.json.tar",
+        "LastModified": "2024-11-01T17:06:39.902Z",
+        "ETag": "\"0df649bdfcc2c9eb985ed9b150bb4802\"",
+        "Size": "170588160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/12/states_2019-08-12-12.avro.tar",
+        "LastModified": "2024-11-01T17:08:13.355Z",
+        "ETag": "\"369f09c76ae0cd0e9145bb247011019d\"",
+        "Size": "172902400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/12/states_2019-08-12-12.csv.tar",
+        "LastModified": "2024-11-01T17:08:25.133Z",
+        "ETag": "\"8a73e48f952aba0971e40ca14eaec6f1\"",
+        "Size": "173230080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-08-12/12/states_2019-08-12-12.json.tar",
+        "LastModified": "2024-11-01T17:08:39.173Z",
+        "ETag": "\"ed221e3af66c98d8bbf1d36f120222de\"",
+        "Size": "188784640",
+        "StorageClass": "STANDARD"
+      }
+    ]
+  },
+  {
+    "day": "2019-10-21",
+    "prefix": "states/2019-10-21/",
+    "status": "listed",
+    "objects": []
+  },
+  {
+    "day": "2019-10-21",
+    "prefix": "states/.2019-10-21/",
+    "status": "listed",
+    "objects": [
+      {
+        "Key": "states/.2019-10-21/00/states_2019-10-21-00.avro.tar",
+        "LastModified": "2024-11-01T16:42:01.130Z",
+        "ETag": "\"55ab882420e8749ab7b6fe2440d8deab\"",
+        "Size": "131686400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/00/states_2019-10-21-00.csv.tar",
+        "LastModified": "2024-11-01T16:42:13.807Z",
+        "ETag": "\"b4a1b8a95594e14c1dd4eaa98beb655c\"",
+        "Size": "132792320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/00/states_2019-10-21-00.json.tar",
+        "LastModified": "2024-11-01T16:42:21.111Z",
+        "ETag": "\"a2062abed0261d83b5d445ee2232be2a\"",
+        "Size": "144250880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/01/states_2019-10-21-01.avro.tar",
+        "LastModified": "2024-11-01T16:43:49.658Z",
+        "ETag": "\"aae2fb741d19d26634d0382182f03fc6\"",
+        "Size": "122900480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/01/states_2019-10-21-01.csv.tar",
+        "LastModified": "2024-11-01T16:44:01.404Z",
+        "ETag": "\"ec6aaae2eac21d1c20aa91bb24678bd8\"",
+        "Size": "123934720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/01/states_2019-10-21-01.json.tar",
+        "LastModified": "2024-11-01T16:44:09.206Z",
+        "ETag": "\"14055493a04ea1899821145d7201880a\"",
+        "Size": "134584320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/02/states_2019-10-21-02.avro.tar",
+        "LastModified": "2024-11-01T16:45:42.506Z",
+        "ETag": "\"920e948bd428986b076a76ae2f68f7f6\"",
+        "Size": "114974720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/02/states_2019-10-21-02.csv.tar",
+        "LastModified": "2024-11-01T16:45:52.672Z",
+        "ETag": "\"a964322c0a1b8d1101c39f791cb196c0\"",
+        "Size": "115865600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/02/states_2019-10-21-02.json.tar",
+        "LastModified": "2024-11-01T16:45:59.657Z",
+        "ETag": "\"846cdc4c164db018073c545a2454cc1d\"",
+        "Size": "125890560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/03/states_2019-10-21-03.avro.tar",
+        "LastModified": "2024-11-01T16:47:33.130Z",
+        "ETag": "\"390fb10ce53cbc044ba0bf39706b1b68\"",
+        "Size": "107130880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/03/states_2019-10-21-03.csv.tar",
+        "LastModified": "2024-11-01T16:47:43.828Z",
+        "ETag": "\"7ee10fcb2e2846ee1bb05448ca7f7468\"",
+        "Size": "107847680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/03/states_2019-10-21-03.json.tar",
+        "LastModified": "2024-11-01T16:47:50.911Z",
+        "ETag": "\"9143eb435ed0e0e0d2e3584a5d308384\"",
+        "Size": "117309440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/04/states_2019-10-21-04.avro.tar",
+        "LastModified": "2024-11-01T16:49:25.584Z",
+        "ETag": "\"fb1f9ab8f3c50b7bff949efe68a48cfa\"",
+        "Size": "103495680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/04/states_2019-10-21-04.csv.tar",
+        "LastModified": "2024-11-01T16:49:35.818Z",
+        "ETag": "\"36f7b83c0335d7fedc001002a91b5666\"",
+        "Size": "104038400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/04/states_2019-10-21-04.json.tar",
+        "LastModified": "2024-11-01T16:49:48.350Z",
+        "ETag": "\"4c9e0d1123e8b5fe19ac8b764e9e2b18\"",
+        "Size": "113274880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/05/states_2019-10-21-05.avro.tar",
+        "LastModified": "2024-11-01T16:51:31.237Z",
+        "ETag": "\"2fdc16bf7a892900f1a9abff8172d4a5\"",
+        "Size": "114606080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/05/states_2019-10-21-05.csv.tar",
+        "LastModified": "2024-11-01T16:51:40.103Z",
+        "ETag": "\"771c59909f97797f5b79d989a3511756\"",
+        "Size": "115066880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/05/states_2019-10-21-05.json.tar",
+        "LastModified": "2024-11-01T16:51:52.905Z",
+        "ETag": "\"d97133a3b1d57ad94f3dc6c370f3642a\"",
+        "Size": "125245440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/06/states_2019-10-21-06.avro.tar",
+        "LastModified": "2024-11-01T16:53:20.727Z",
+        "ETag": "\"7a493c77f9537f3cd957eca64033dd78\"",
+        "Size": "114728960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/06/states_2019-10-21-06.csv.tar",
+        "LastModified": "2024-11-01T16:53:31.646Z",
+        "ETag": "\"be6c20095a4bbd62695a8397c1ae9cec\"",
+        "Size": "115128320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/06/states_2019-10-21-06.json.tar",
+        "LastModified": "2024-11-01T16:53:42.721Z",
+        "ETag": "\"1025b81ee2f90d29fb8a39d4dadbc5dd\"",
+        "Size": "125368320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/07/states_2019-10-21-07.avro.tar",
+        "LastModified": "2024-11-01T16:55:19.092Z",
+        "ETag": "\"429df7b7671255517e1f7a0f7fff7087\"",
+        "Size": "114155520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/07/states_2019-10-21-07.csv.tar",
+        "LastModified": "2024-11-01T16:55:29.341Z",
+        "ETag": "\"216d795c2ca93a7c2e297d34df9a46f8\"",
+        "Size": "114391040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/07/states_2019-10-21-07.json.tar",
+        "LastModified": "2024-11-01T16:55:36.490Z",
+        "ETag": "\"e174750e1eb816a5bada82c82a610fa5\"",
+        "Size": "124600320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/08/states_2019-10-21-08.avro.tar",
+        "LastModified": "2024-11-01T16:57:14.029Z",
+        "ETag": "\"694351cd3a8601b443d4175363bdcca8\"",
+        "Size": "116008960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/08/states_2019-10-21-08.csv.tar",
+        "LastModified": "2024-11-01T16:57:21.184Z",
+        "ETag": "\"9f9840ef78bde75fd90514d5317671d8\"",
+        "Size": "116183040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/08/states_2019-10-21-08.json.tar",
+        "LastModified": "2024-11-01T16:57:31.347Z",
+        "ETag": "\"7d6ac2279ea86dade91af8ddf4c18b64\"",
+        "Size": "126566400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/09/states_2019-10-21-09.avro.tar",
+        "LastModified": "2024-11-01T16:59:10.488Z",
+        "ETag": "\"100379394e0eb585786a3372ab793ff5\"",
+        "Size": "119449600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/09/states_2019-10-21-09.csv.tar",
+        "LastModified": "2024-11-01T16:59:21.191Z",
+        "ETag": "\"f152f807aed6d93241f26f0d5a64ac21\"",
+        "Size": "119695360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/09/states_2019-10-21-09.json.tar",
+        "LastModified": "2024-11-01T16:59:29.940Z",
+        "ETag": "\"2b4cfb896e4eaa41a983e91642ffa02a\"",
+        "Size": "130232320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/10/states_2019-10-21-10.avro.tar",
+        "LastModified": "2024-11-01T17:01:07.585Z",
+        "ETag": "\"00c060e26898de316b2630c78ffb319a\"",
+        "Size": "132444160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/10/states_2019-10-21-10.csv.tar",
+        "LastModified": "2024-11-01T17:01:16.061Z",
+        "ETag": "\"fd6a5dbcb0316b4102f55012f39adcf2\"",
+        "Size": "132853760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/10/states_2019-10-21-10.json.tar",
+        "LastModified": "2024-11-01T17:01:29.149Z",
+        "ETag": "\"485b39764a83c89a3b5e3bb1baba5c04\"",
+        "Size": "144435200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/11/states_2019-10-21-11.avro.tar",
+        "LastModified": "2024-11-01T17:02:58.717Z",
+        "ETag": "\"7f20e01ad049aef6a83f899c3c20c4e4\"",
+        "Size": "149790720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/11/states_2019-10-21-11.csv.tar",
+        "LastModified": "2024-11-01T17:03:09.197Z",
+        "ETag": "\"baecd2caff4f2c350f7c6cdfb9dcaa4e\"",
+        "Size": "150456320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/11/states_2019-10-21-11.json.tar",
+        "LastModified": "2024-11-01T17:03:19.722Z",
+        "ETag": "\"46eb860c7bfead76eeda13bda226d909\"",
+        "Size": "163420160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/12/states_2019-10-21-12.avro.tar",
+        "LastModified": "2024-11-01T17:04:47.821Z",
+        "ETag": "\"7059c9d760f4c4592d8c595a0d6e9c72\"",
+        "Size": "163655680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/12/states_2019-10-21-12.csv.tar",
+        "LastModified": "2024-11-01T17:04:56.996Z",
+        "ETag": "\"1446bebb355050a7a87b737a548c835b\"",
+        "Size": "164433920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/12/states_2019-10-21-12.json.tar",
+        "LastModified": "2024-11-01T17:05:11.257Z",
+        "ETag": "\"c3a21a96e2c3f4d95ccebd8489a3b701\"",
+        "Size": "178728960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/13/states_2019-10-21-13.avro.tar",
+        "LastModified": "2024-11-01T17:06:48.932Z",
+        "ETag": "\"41343a63e1566fac09370623618b803d\"",
+        "Size": "180090880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/13/states_2019-10-21-13.csv.tar",
+        "LastModified": "2024-11-01T17:06:57.104Z",
+        "ETag": "\"fa552aff66cde37b3eba2178489626fc\"",
+        "Size": "181002240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/13/states_2019-10-21-13.json.tar",
+        "LastModified": "2024-11-01T17:07:11.834Z",
+        "ETag": "\"753fb583301b0cd1e91e934beb0b9625\"",
+        "Size": "196730880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/14/states_2019-10-21-14.avro.tar",
+        "LastModified": "2024-11-01T17:08:44.610Z",
+        "ETag": "\"afd9b27f63bda70338a572e1931f38fa\"",
+        "Size": "192337920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/14/states_2019-10-21-14.csv.tar",
+        "LastModified": "2024-11-01T17:08:56.124Z",
+        "ETag": "\"6147404f9b0e533597c31e652c3ae36d\"",
+        "Size": "193351680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/14/states_2019-10-21-14.json.tar",
+        "LastModified": "2024-11-01T17:09:16.974Z",
+        "ETag": "\"0f969ab2d2039892b4f57ed97e91753c-41\"",
+        "Size": "210165760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/15/states_2019-10-21-15.avro.tar",
+        "LastModified": "2024-11-01T17:10:30.723Z",
+        "ETag": "\"53698995fce41693c26c249c3d16136f\"",
+        "Size": "192419840",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/15/states_2019-10-21-15.csv.tar",
+        "LastModified": "2024-11-01T17:10:40.772Z",
+        "ETag": "\"9ec13818f46c08f86fcf08cd5f88d43e\"",
+        "Size": "193689600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/15/states_2019-10-21-15.json.tar",
+        "LastModified": "2024-11-01T17:11:02.471Z",
+        "ETag": "\"8e13ad0358aaa8db14a193cd197c12cc-41\"",
+        "Size": "210380800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/16/states_2019-10-21-16.avro.tar",
+        "LastModified": "2024-11-01T17:12:19.722Z",
+        "ETag": "\"200f89d50330af700065e8bdcb127420\"",
+        "Size": "193730560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/16/states_2019-10-21-16.csv.tar",
+        "LastModified": "2024-11-01T17:12:31.801Z",
+        "ETag": "\"5a7d7ec47d5cff7ac8b53eeb0a627298\"",
+        "Size": "195235840",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/16/states_2019-10-21-16.json.tar",
+        "LastModified": "2024-11-01T17:12:52.922Z",
+        "ETag": "\"7623c4774f65d02895fb457750024e66-41\"",
+        "Size": "211855360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/17/states_2019-10-21-17.avro.tar",
+        "LastModified": "2024-11-01T17:14:13.839Z",
+        "ETag": "\"8568dc8117e5a7368852457b3bcb8b9e\"",
+        "Size": "193433600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/17/states_2019-10-21-17.csv.tar",
+        "LastModified": "2024-11-01T17:14:26.224Z",
+        "ETag": "\"5e314f60a3795e73721f5954e417f196\"",
+        "Size": "195194880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/17/states_2019-10-21-17.json.tar",
+        "LastModified": "2024-11-01T17:14:48.115Z",
+        "ETag": "\"a5d6e2b7d7db8c46213edc03d94fa867-41\"",
+        "Size": "211671040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/18/states_2019-10-21-18.avro.tar",
+        "LastModified": "2024-11-01T17:16:11.297Z",
+        "ETag": "\"74f07326bcf1ef7dea2c066ec393c567\"",
+        "Size": "187801600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/18/states_2019-10-21-18.csv.tar",
+        "LastModified": "2024-11-01T17:16:21.081Z",
+        "ETag": "\"eebd1f8eb262a9bcd53dd3b8de30a790\"",
+        "Size": "189593600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/18/states_2019-10-21-18.json.tar",
+        "LastModified": "2024-11-01T17:16:34.512Z",
+        "ETag": "\"fe50a537cbcb9a2476db916b2667dfad\"",
+        "Size": "205486080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/19/states_2019-10-21-19.avro.tar",
+        "LastModified": "2024-11-01T17:18:08.389Z",
+        "ETag": "\"1b8f14510d5f1aa7eb6fa7367937b3c8\"",
+        "Size": "182835200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/19/states_2019-10-21-19.csv.tar",
+        "LastModified": "2024-11-01T17:18:19.234Z",
+        "ETag": "\"70094001127ab89bfe4ab8b416ba1f51\"",
+        "Size": "184545280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/19/states_2019-10-21-19.json.tar",
+        "LastModified": "2024-11-01T17:18:31.769Z",
+        "ETag": "\"332d9c73d75c017c9ec80f0d6ea1dc61\"",
+        "Size": "200007680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/20/states_2019-10-21-20.avro.tar",
+        "LastModified": "2024-11-01T17:20:11.304Z",
+        "ETag": "\"d9ffe6bea42a83e4c3efd2d004bfb5c0\"",
+        "Size": "176680960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/20/states_2019-10-21-20.csv.tar",
+        "LastModified": "2024-11-01T17:20:20.616Z",
+        "ETag": "\"6ff4bf6798afead3719c88cb7746a823\"",
+        "Size": "178360320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/20/states_2019-10-21-20.json.tar",
+        "LastModified": "2024-11-01T17:20:34.223Z",
+        "ETag": "\"1f50a9685d3d41cfac1bcea19dbd9866\"",
+        "Size": "193351680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/21/states_2019-10-21-21.avro.tar",
+        "LastModified": "2024-11-01T17:22:04.205Z",
+        "ETag": "\"23f7419210f18e1a1f00dd4bca047dc5\"",
+        "Size": "161423360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/21/states_2019-10-21-21.csv.tar",
+        "LastModified": "2024-11-01T17:22:16.288Z",
+        "ETag": "\"40dd2158cae1ed80df286eaf53636cc9\"",
+        "Size": "162887680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/21/states_2019-10-21-21.json.tar",
+        "LastModified": "2024-11-01T17:22:30.388Z",
+        "ETag": "\"9cda76a4584e97626071ac9803f5366b\"",
+        "Size": "176732160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/22/states_2019-10-21-22.avro.tar",
+        "LastModified": "2024-11-01T17:24:14.276Z",
+        "ETag": "\"7ad16c774bb8630d19988a4e2c4da293\"",
+        "Size": "149780480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/22/states_2019-10-21-22.csv.tar",
+        "LastModified": "2024-11-01T17:24:22.539Z",
+        "ETag": "\"cfd1de73bb095d097a55b8d01bf9aa8d\"",
+        "Size": "151121920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/22/states_2019-10-21-22.json.tar",
+        "LastModified": "2024-11-01T17:24:37.723Z",
+        "ETag": "\"ff69feb0b686a99253b7113691dcae0d\"",
+        "Size": "164014080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/23/states_2019-10-21-23.avro.tar",
+        "LastModified": "2024-11-01T17:26:16.600Z",
+        "ETag": "\"0b5b035dcbccc15cd16d964c9d384dc0\"",
+        "Size": "137205760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/23/states_2019-10-21-23.csv.tar",
+        "LastModified": "2024-11-01T17:26:28.289Z",
+        "ETag": "\"68412cb8dc7b350b023101156b910ce2\"",
+        "Size": "138301440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2019-10-21/23/states_2019-10-21-23.json.tar",
+        "LastModified": "2024-11-01T17:26:44.715Z",
+        "ETag": "\"f4da29d8f6a5e27e0634d2bf54ec37e9\"",
+        "Size": "150261760",
+        "StorageClass": "STANDARD"
+      }
+    ]
+  },
+  {
+    "day": "2020-02-03",
+    "prefix": "states/2020-02-03/",
+    "status": "listed",
+    "objects": []
+  },
+  {
+    "day": "2020-02-03",
+    "prefix": "states/.2020-02-03/",
+    "status": "listed",
+    "objects": [
+      {
+        "Key": "states/.2020-02-03/00/states_2020-02-03-00.avro.tar",
+        "LastModified": "2024-11-01T17:11:02.890Z",
+        "ETag": "\"e24adf55f04b43dfb167c105c6e40a1f\"",
+        "Size": "120381440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/00/states_2020-02-03-00.csv.tar",
+        "LastModified": "2024-11-01T17:11:11.152Z",
+        "ETag": "\"8fd8b5d9138c6560f14ea74e170065ad\"",
+        "Size": "121323520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/00/states_2020-02-03-00.json.tar",
+        "LastModified": "2024-11-01T17:11:17.453Z",
+        "ETag": "\"71cff3d692b484f9eef9cd4a9b825d86\"",
+        "Size": "131799040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/01/states_2020-02-03-01.avro.tar",
+        "LastModified": "2024-11-01T17:13:00.131Z",
+        "ETag": "\"0b1996f808c10ecda5092d75bf26f9a4\"",
+        "Size": "117760000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/01/states_2020-02-03-01.csv.tar",
+        "LastModified": "2024-11-01T17:13:08.694Z",
+        "ETag": "\"74d9f3d83e38c30597c2ea89b6a65e47\"",
+        "Size": "118824960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/01/states_2020-02-03-01.json.tar",
+        "LastModified": "2024-11-01T17:13:19.145Z",
+        "ETag": "\"5ec9e50e024039ae3a3cb4dfc11c4e28\"",
+        "Size": "129044480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/02/states_2020-02-03-02.avro.tar",
+        "LastModified": "2024-11-01T17:15:00.547Z",
+        "ETag": "\"88db29ea916cd5f1f20c0ec8d2965b25\"",
+        "Size": "112117760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/02/states_2020-02-03-02.csv.tar",
+        "LastModified": "2024-11-01T17:15:09.111Z",
+        "ETag": "\"523b1c774e5b70ecba5735357601a85a\"",
+        "Size": "113172480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/02/states_2020-02-03-02.json.tar",
+        "LastModified": "2024-11-01T17:15:17.247Z",
+        "ETag": "\"646362a1f71ea4f7d863beb3fc2db0f6\"",
+        "Size": "122941440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/03/states_2020-02-03-03.avro.tar",
+        "LastModified": "2024-11-01T17:16:57.433Z",
+        "ETag": "\"8ba36a8b8c295a8c95b8a4237a34834e\"",
+        "Size": "106137600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/03/states_2020-02-03-03.csv.tar",
+        "LastModified": "2024-11-01T17:17:05.623Z",
+        "ETag": "\"7b9aa9ed7ade67c67627c68e15978068\"",
+        "Size": "107048960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/03/states_2020-02-03-03.json.tar",
+        "LastModified": "2024-11-01T17:17:13.668Z",
+        "ETag": "\"6ea8c9b3121197bc3a4948db5ae69716\"",
+        "Size": "116377600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/04/states_2020-02-03-04.avro.tar",
+        "LastModified": "2024-11-01T17:19:02.441Z",
+        "ETag": "\"b968acfcf2fe0c720ec4747451866ecb\"",
+        "Size": "97474560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/04/states_2020-02-03-04.csv.tar",
+        "LastModified": "2024-11-01T17:19:09.189Z",
+        "ETag": "\"0864a85ce77f9ca9bfd86305d922626d\"",
+        "Size": "98150400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/04/states_2020-02-03-04.json.tar",
+        "LastModified": "2024-11-01T17:19:19.119Z",
+        "ETag": "\"977e7f277a5e15d4779193d1fd7c30a0\"",
+        "Size": "106844160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/05/states_2020-02-03-05.avro.tar",
+        "LastModified": "2024-11-01T17:21:04.295Z",
+        "ETag": "\"a2f7ff92ea64643abafc8c99d9394d9e\"",
+        "Size": "93368320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/05/states_2020-02-03-05.csv.tar",
+        "LastModified": "2024-11-01T17:21:14.344Z",
+        "ETag": "\"e5abccaa0671b30ffd75f74ac03c451a\"",
+        "Size": "93675520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/05/states_2020-02-03-05.json.tar",
+        "LastModified": "2024-11-01T17:21:20.919Z",
+        "ETag": "\"8a5b6b805ab1c278268177c6754fd8d7\"",
+        "Size": "102297600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/06/states_2020-02-03-06.avro.tar",
+        "LastModified": "2024-11-01T17:23:06.613Z",
+        "ETag": "\"a480c0c1622155cac3abd3a17526994b\"",
+        "Size": "102758400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/06/states_2020-02-03-06.csv.tar",
+        "LastModified": "2024-11-01T17:23:15.200Z",
+        "ETag": "\"b19b77bc15d9d5c6e67e37866159af5e\"",
+        "Size": "103127040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/06/states_2020-02-03-06.json.tar",
+        "LastModified": "2024-11-01T17:23:23.199Z",
+        "ETag": "\"069a5224517c54a6218a130778eda05b\"",
+        "Size": "112496640",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/07/states_2020-02-03-07.avro.tar",
+        "LastModified": "2024-11-01T17:25:11.421Z",
+        "ETag": "\"6ddb3f6f8179682024ec67c14576c1e5\"",
+        "Size": "104048640",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/07/states_2020-02-03-07.csv.tar",
+        "LastModified": "2024-11-01T17:25:18.106Z",
+        "ETag": "\"216249401b61973e6ec28af9c0c34da8\"",
+        "Size": "104437760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/07/states_2020-02-03-07.json.tar",
+        "LastModified": "2024-11-01T17:25:25.495Z",
+        "ETag": "\"42702993d5d5c4709d1a3afc2d834a04\"",
+        "Size": "113827840",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/08/states_2020-02-03-08.avro.tar",
+        "LastModified": "2024-11-01T17:27:28.094Z",
+        "ETag": "\"eed21b2bb84cee54990554615664401b\"",
+        "Size": "103587840",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/08/states_2020-02-03-08.csv.tar",
+        "LastModified": "2024-11-01T17:27:35.797Z",
+        "ETag": "\"071e26d89045f37c10c0bee1babd1e2b\"",
+        "Size": "103854080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/08/states_2020-02-03-08.json.tar",
+        "LastModified": "2024-11-01T17:27:51.122Z",
+        "ETag": "\"4ef21e10d437d7af12c775bfe4a6dcb5\"",
+        "Size": "113285120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/09/states_2020-02-03-09.avro.tar",
+        "LastModified": "2024-11-01T17:29:20.851Z",
+        "ETag": "\"72fce88e4cc6e8c5c960c279d271d220\"",
+        "Size": "111114240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/09/states_2020-02-03-09.csv.tar",
+        "LastModified": "2024-11-01T17:29:32.013Z",
+        "ETag": "\"03a52107a1d74750aba462747b7abb47\"",
+        "Size": "111319040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/09/states_2020-02-03-09.json.tar",
+        "LastModified": "2024-11-01T17:29:47.464Z",
+        "ETag": "\"f398e7fe8a1fcbf357be82e609ed9bd6\"",
+        "Size": "121395200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/10/states_2020-02-03-10.avro.tar",
+        "LastModified": "2024-11-01T17:31:06.796Z",
+        "ETag": "\"982561defe1646f26d938181c2249514\"",
+        "Size": "112097280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/10/states_2020-02-03-10.csv.tar",
+        "LastModified": "2024-11-01T17:31:20.098Z",
+        "ETag": "\"55a77dcf6f3cd08b8c65653976bcf969\"",
+        "Size": "112281600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/10/states_2020-02-03-10.json.tar",
+        "LastModified": "2024-11-01T17:31:32.573Z",
+        "ETag": "\"bf99a6f12fbc8ed562beec3076927a60\"",
+        "Size": "122388480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/11/states_2020-02-03-11.avro.tar",
+        "LastModified": "2024-11-01T17:32:58.608Z",
+        "ETag": "\"4e7ed04461999b927cc04f76df3d2ed9\"",
+        "Size": "124825600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/11/states_2020-02-03-11.csv.tar",
+        "LastModified": "2024-11-01T17:33:13.467Z",
+        "ETag": "\"b8300838b77840389980877ac5bb88da\"",
+        "Size": "125286400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/11/states_2020-02-03-11.json.tar",
+        "LastModified": "2024-11-01T17:33:28.819Z",
+        "ETag": "\"04d422c34b60673b4759266280f40be4\"",
+        "Size": "136488960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/12/states_2020-02-03-12.avro.tar",
+        "LastModified": "2024-11-01T17:34:43.200Z",
+        "ETag": "\"19e33ca626f984a46590df128314933b\"",
+        "Size": "139786240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/12/states_2020-02-03-12.csv.tar",
+        "LastModified": "2024-11-01T17:34:57.994Z",
+        "ETag": "\"61d4f7776ff844235486e91d310adcc7\"",
+        "Size": "140554240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/12/states_2020-02-03-12.json.tar",
+        "LastModified": "2024-11-01T17:35:11.072Z",
+        "ETag": "\"7b4eb54f9c75c08e50ef009deee320d3\"",
+        "Size": "152842240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/13/states_2020-02-03-13.avro.tar",
+        "LastModified": "2024-11-01T17:36:25.301Z",
+        "ETag": "\"4a49037033fc926956aa3c50c8c46570\"",
+        "Size": "157839360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/13/states_2020-02-03-13.csv.tar",
+        "LastModified": "2024-11-01T17:36:40.540Z",
+        "ETag": "\"e309470c4f77326d1dda777ed995d5f6\"",
+        "Size": "158924800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/13/states_2020-02-03-13.json.tar",
+        "LastModified": "2024-11-01T17:36:55.982Z",
+        "ETag": "\"c846a777f86473e852ff3370f15ed75d\"",
+        "Size": "172728320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/14/states_2020-02-03-14.avro.tar",
+        "LastModified": "2024-11-01T17:38:06.479Z",
+        "ETag": "\"f330e21179a0114b762f63761deb306a\"",
+        "Size": "178145280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/14/states_2020-02-03-14.csv.tar",
+        "LastModified": "2024-11-01T17:38:22.349Z",
+        "ETag": "\"a6ae7efa040ba32a867cd1ab8a81372e\"",
+        "Size": "179404800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/14/states_2020-02-03-14.json.tar",
+        "LastModified": "2024-11-01T17:38:37.372Z",
+        "ETag": "\"785a703b97a655ed16345ba02dd48e97\"",
+        "Size": "194897920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/15/states_2020-02-03-15.avro.tar",
+        "LastModified": "2024-11-01T17:39:48.524Z",
+        "ETag": "\"cc220ff6e712d5b056469e7d5eba0380\"",
+        "Size": "190781440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/15/states_2020-02-03-15.csv.tar",
+        "LastModified": "2024-11-01T17:40:04.843Z",
+        "ETag": "\"8f0fa33d13a7e5c7034459d12fa60173\"",
+        "Size": "192573440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/15/states_2020-02-03-15.json.tar",
+        "LastModified": "2024-11-01T17:40:19.792Z",
+        "ETag": "\"5ca92a5a8a8ac4d0d0679d32bb1fff99\"",
+        "Size": "208947200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/16/states_2020-02-03-16.avro.tar",
+        "LastModified": "2024-11-01T17:41:26.697Z",
+        "ETag": "\"945a385dd9c07b44fb092459eaa56513\"",
+        "Size": "192798720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/16/states_2020-02-03-16.csv.tar",
+        "LastModified": "2024-11-01T17:41:40.900Z",
+        "ETag": "\"339fe86a6eb5f9d9af7b0bd4358b8b45\"",
+        "Size": "194775040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/16/states_2020-02-03-16.json.tar",
+        "LastModified": "2024-11-01T17:42:01.929Z",
+        "ETag": "\"66dd0b9fd713e19291eb1f19e40fe2ba-41\"",
+        "Size": "211200000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/17/states_2020-02-03-17.avro.tar",
+        "LastModified": "2024-11-01T17:43:06.325Z",
+        "ETag": "\"19f353dcaa4cc8ed58f60b5a0a225516\"",
+        "Size": "193781760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/17/states_2020-02-03-17.csv.tar",
+        "LastModified": "2024-11-01T17:43:19.295Z",
+        "ETag": "\"a64e07679142c11c924fecd33fba5079\"",
+        "Size": "195880960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/17/states_2020-02-03-17.json.tar",
+        "LastModified": "2024-11-01T17:43:41.421Z",
+        "ETag": "\"e75d60d4a1b5c85cf1124abb75ff51c0-41\"",
+        "Size": "212264960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/18/states_2020-02-03-18.avro.tar",
+        "LastModified": "2024-11-01T17:44:43.662Z",
+        "ETag": "\"1798c46a65973f0a3a45f222d9a7037e\"",
+        "Size": "195665920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/18/states_2020-02-03-18.csv.tar",
+        "LastModified": "2024-11-01T17:44:57.240Z",
+        "ETag": "\"c8d4fa9ffdc549be999292770dd6294c\"",
+        "Size": "197918720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/18/states_2020-02-03-18.json.tar",
+        "LastModified": "2024-11-01T17:45:17.375Z",
+        "ETag": "\"14dcace12bcaf27407127c7fabde3497-41\"",
+        "Size": "214394880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/19/states_2020-02-03-19.avro.tar",
+        "LastModified": "2024-11-01T17:46:19.299Z",
+        "ETag": "\"bdca8dc525211a3052c3be97b38b8cef\"",
+        "Size": "190095360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/19/states_2020-02-03-19.csv.tar",
+        "LastModified": "2024-11-01T17:46:31.809Z",
+        "ETag": "\"955b99539710875ee79d11760b005789\"",
+        "Size": "192440320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/19/states_2020-02-03-19.json.tar",
+        "LastModified": "2024-11-01T17:46:43.771Z",
+        "ETag": "\"b446a237a1a8d9a1049a3062bd3e1181\"",
+        "Size": "208455680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/20/states_2020-02-03-20.avro.tar",
+        "LastModified": "2024-11-01T17:47:46.928Z",
+        "ETag": "\"51f2ef82be8e45f0e1b195a029eb7faa\"",
+        "Size": "186757120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/20/states_2020-02-03-20.csv.tar",
+        "LastModified": "2024-11-01T17:47:59.461Z",
+        "ETag": "\"ebaa0e6bf5483b4a7c2b709f90417b11\"",
+        "Size": "189009920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/20/states_2020-02-03-20.json.tar",
+        "LastModified": "2024-11-01T17:48:11.767Z",
+        "ETag": "\"0ee25b5e68eb6209b434fc1161747f06\"",
+        "Size": "204718080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/21/states_2020-02-03-21.avro.tar",
+        "LastModified": "2024-11-01T17:49:15.601Z",
+        "ETag": "\"aff8e9dc1548276d698fa22872e96813\"",
+        "Size": "180326400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/21/states_2020-02-03-21.csv.tar",
+        "LastModified": "2024-11-01T17:49:28.689Z",
+        "ETag": "\"94d5c8189ec208f49ff9637f0c3fd44c\"",
+        "Size": "182507520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/21/states_2020-02-03-21.json.tar",
+        "LastModified": "2024-11-01T17:49:38.688Z",
+        "ETag": "\"d53ff041e87916b4b9bf2a6903d20f06\"",
+        "Size": "197734400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/22/states_2020-02-03-22.avro.tar",
+        "LastModified": "2024-11-01T17:50:42.113Z",
+        "ETag": "\"858fc09088cd00b7c446beec659878e7\"",
+        "Size": "162816000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/22/states_2020-02-03-22.csv.tar",
+        "LastModified": "2024-11-01T17:50:53.506Z",
+        "ETag": "\"f0e9c452b4c44d09c1995814cbbb45b4\"",
+        "Size": "164700160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/22/states_2020-02-03-22.json.tar",
+        "LastModified": "2024-11-01T17:51:03.352Z",
+        "ETag": "\"ed2743e10df38de1ed392181ebf4c8e6\"",
+        "Size": "178575360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/23/states_2020-02-03-23.avro.tar",
+        "LastModified": "2024-11-01T17:52:06.056Z",
+        "ETag": "\"14653566c4c29769f80e9f9572227ac7\"",
+        "Size": "152084480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/23/states_2020-02-03-23.csv.tar",
+        "LastModified": "2024-11-01T17:52:15.729Z",
+        "ETag": "\"ac8428f57eb119a01f67edf922388e02\"",
+        "Size": "153815040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/.2020-02-03/23/states_2020-02-03-23.json.tar",
+        "LastModified": "2024-11-01T17:52:26.402Z",
+        "ETag": "\"b1683542f5cb61adc957d4a76b453128\"",
+        "Size": "166840320",
+        "StorageClass": "STANDARD"
+      }
+    ]
+  },
+  {
+    "day": "2020-08-24",
+    "prefix": "states/2020-08-24/",
+    "status": "listed",
+    "objects": [
+      {
+        "Key": "states/2020-08-24/00/states_2020-08-24-00.avro.tar",
+        "LastModified": "2024-11-01T17:54:15.428Z",
+        "ETag": "\"99cab4422cbe64611983f88853047a6d\"",
+        "Size": "83107840",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/00/states_2020-08-24-00.csv.tar",
+        "LastModified": "2024-11-01T17:54:19.541Z",
+        "ETag": "\"ff3c00a50e44508f3673ae31f225cf73\"",
+        "Size": "83537920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/00/states_2020-08-24-00.json.tar",
+        "LastModified": "2024-11-01T17:54:25.603Z",
+        "ETag": "\"84e8046d52e3da6569ba4e69a6d76e22\"",
+        "Size": "90798080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/01/states_2020-08-24-01.avro.tar",
+        "LastModified": "2024-11-01T17:55:35.376Z",
+        "ETag": "\"32a83552d45460f6a564ba2d15ac8ab3\"",
+        "Size": "74557440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/01/states_2020-08-24-01.csv.tar",
+        "LastModified": "2024-11-01T17:55:42.152Z",
+        "ETag": "\"009de36afd55b83c76daf37ea6777bff\"",
+        "Size": "74967040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/01/states_2020-08-24-01.json.tar",
+        "LastModified": "2024-11-01T17:55:50.339Z",
+        "ETag": "\"549598fd8b45fd4ef65203eb6ef4a499\"",
+        "Size": "81408000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/02/states_2020-08-24-02.avro.tar",
+        "LastModified": "2024-11-01T17:56:46.152Z",
+        "ETag": "\"d6c31d74b28414086cd3a47702fb654d\"",
+        "Size": "64184320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/02/states_2020-08-24-02.csv.tar",
+        "LastModified": "2024-11-01T17:56:50.588Z",
+        "ETag": "\"455a147f70780e17e2fbc40d9dba7d93\"",
+        "Size": "64307200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/02/states_2020-08-24-02.json.tar",
+        "LastModified": "2024-11-01T17:56:55.906Z",
+        "ETag": "\"3b90aad8a9182c2e5bbb8c9799f28f37\"",
+        "Size": "70051840",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/03/states_2020-08-24-03.avro.tar",
+        "LastModified": "2024-11-01T17:57:45.152Z",
+        "ETag": "\"54e43615f95e19c4be9555b93b816a46\"",
+        "Size": "52879360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/03/states_2020-08-24-03.csv.tar",
+        "LastModified": "2024-11-01T17:57:50.853Z",
+        "ETag": "\"99ad64e7ebee6ed54c804ca80808897f\"",
+        "Size": "52654080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/03/states_2020-08-24-03.json.tar",
+        "LastModified": "2024-11-01T17:57:55.810Z",
+        "ETag": "\"429b0fa7e2bb497f982915693aa604f9\"",
+        "Size": "57702400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/04/states_2020-08-24-04.avro.tar",
+        "LastModified": "2024-11-01T17:58:38.876Z",
+        "ETag": "\"e7752bdc9fc9f9c98cab75ec7a88122e\"",
+        "Size": "53760000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/04/states_2020-08-24-04.csv.tar",
+        "LastModified": "2024-11-01T17:58:44.656Z",
+        "ETag": "\"ea5ca7d5f91474fe62bb9c05f06d2545\"",
+        "Size": "53473280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/04/states_2020-08-24-04.json.tar",
+        "LastModified": "2024-11-01T17:58:50.302Z",
+        "ETag": "\"d4a270d0937612f37a61463e319ea44e\"",
+        "Size": "58644480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/05/states_2020-08-24-05.avro.tar",
+        "LastModified": "2024-11-01T17:59:33.831Z",
+        "ETag": "\"3ced50ff17d5f012bfd7edc17967d0eb\"",
+        "Size": "60477440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/05/states_2020-08-24-05.csv.tar",
+        "LastModified": "2024-11-01T17:59:39.374Z",
+        "ETag": "\"418b8f3c5b8f4837544ca18fa68c7d3e\"",
+        "Size": "60221440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/05/states_2020-08-24-05.json.tar",
+        "LastModified": "2024-11-01T17:59:46.626Z",
+        "ETag": "\"4a6131bb1356f02741eb1548ea764221\"",
+        "Size": "65873920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/06/states_2020-08-24-06.avro.tar",
+        "LastModified": "2024-11-01T18:00:31.722Z",
+        "ETag": "\"e9360567ab9e60bed9dfea888787e77e\"",
+        "Size": "62474240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/06/states_2020-08-24-06.csv.tar",
+        "LastModified": "2024-11-01T18:00:37.329Z",
+        "ETag": "\"aa3f08f8c7647bb712d9dac163afd761\"",
+        "Size": "62095360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/06/states_2020-08-24-06.json.tar",
+        "LastModified": "2024-11-01T18:00:44.210Z",
+        "ETag": "\"f31c18bd654bfb9444bd706740d321c9\"",
+        "Size": "68044800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/07/states_2020-08-24-07.avro.tar",
+        "LastModified": "2024-11-01T18:01:30.543Z",
+        "ETag": "\"0fe724bdbdd10b6d363a748cfbb28422\"",
+        "Size": "66304000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/07/states_2020-08-24-07.csv.tar",
+        "LastModified": "2024-11-01T18:01:36.621Z",
+        "ETag": "\"6bbab9aa00ddf0e59bde2fe44c23fb67\"",
+        "Size": "65648640",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/07/states_2020-08-24-07.json.tar",
+        "LastModified": "2024-11-01T18:01:44.398Z",
+        "ETag": "\"166d5de3eae777bfd47ba8e57a8c0781\"",
+        "Size": "72130560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/08/states_2020-08-24-08.avro.tar",
+        "LastModified": "2024-11-01T18:02:32.778Z",
+        "ETag": "\"beb8dcb48ce77a2c17a049b17c636bc6\"",
+        "Size": "71987200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/08/states_2020-08-24-08.csv.tar",
+        "LastModified": "2024-11-01T18:02:39.716Z",
+        "ETag": "\"34ce7bde2f7e84a4340c7998c079d668\"",
+        "Size": "71147520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/08/states_2020-08-24-08.json.tar",
+        "LastModified": "2024-11-01T18:02:46.318Z",
+        "ETag": "\"7d10eca70a1d047b7098bb9b4ce15852\"",
+        "Size": "78192640",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/09/states_2020-08-24-09.avro.tar",
+        "LastModified": "2024-11-01T18:03:35.874Z",
+        "ETag": "\"299439410d56360f1530f56444d4a813\"",
+        "Size": "75018240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/09/states_2020-08-24-09.csv.tar",
+        "LastModified": "2024-11-01T18:03:43.991Z",
+        "ETag": "\"4de886f638ce9a71128f23273b2e33ef\"",
+        "Size": "73902080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/09/states_2020-08-24-09.json.tar",
+        "LastModified": "2024-11-01T18:03:52.734Z",
+        "ETag": "\"b4a2efdcda670d0ceed09a1f81482f40\"",
+        "Size": "81408000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/10/states_2020-08-24-10.avro.tar",
+        "LastModified": "2024-11-01T18:04:45.566Z",
+        "ETag": "\"6543dfa733a89d830350e9482d3bab55\"",
+        "Size": "79093760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/10/states_2020-08-24-10.csv.tar",
+        "LastModified": "2024-11-01T18:04:52.226Z",
+        "ETag": "\"1fe3b3b2b76b18d6135563524ed627ad\"",
+        "Size": "78080000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/10/states_2020-08-24-10.json.tar",
+        "LastModified": "2024-11-01T18:05:00.244Z",
+        "ETag": "\"e0dd3ff149034d2b63515ea8366b3aaf\"",
+        "Size": "85862400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/11/states_2020-08-24-11.avro.tar",
+        "LastModified": "2024-11-01T18:05:56.398Z",
+        "ETag": "\"238cf5dd11433aee5c2fcafa2c3b1ef3\"",
+        "Size": "92887040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/11/states_2020-08-24-11.csv.tar",
+        "LastModified": "2024-11-01T18:06:03.356Z",
+        "ETag": "\"9690d1715522ac14b88571234e955a0b\"",
+        "Size": "92129280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/11/states_2020-08-24-11.json.tar",
+        "LastModified": "2024-11-01T18:06:11.605Z",
+        "ETag": "\"48603bd5b2219ec08b9e3e52b0244e0f\"",
+        "Size": "101017600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/12/states_2020-08-24-12.avro.tar",
+        "LastModified": "2024-11-01T18:07:12.063Z",
+        "ETag": "\"7d58213cc7247e5e46ed169747b702ff\"",
+        "Size": "109783040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/12/states_2020-08-24-12.csv.tar",
+        "LastModified": "2024-11-01T18:07:19.935Z",
+        "ETag": "\"0498d221827982c7c5bd8b77779dab81\"",
+        "Size": "109322240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/12/states_2020-08-24-12.json.tar",
+        "LastModified": "2024-11-01T18:07:28.475Z",
+        "ETag": "\"005e469ec441e08f0ba829b0156d2527\"",
+        "Size": "119511040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/13/states_2020-08-24-13.avro.tar",
+        "LastModified": "2024-11-01T18:08:26.907Z",
+        "ETag": "\"790b14ae80ae1cbab5e77d2597d1658b\"",
+        "Size": "128245760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/13/states_2020-08-24-13.csv.tar",
+        "LastModified": "2024-11-01T18:08:37.170Z",
+        "ETag": "\"a4106debd6873d514cfb46a052a44d00\"",
+        "Size": "127969280",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/13/states_2020-08-24-13.json.tar",
+        "LastModified": "2024-11-01T18:08:45.386Z",
+        "ETag": "\"054ca3c819c53842db6510d7d7b2083a\"",
+        "Size": "139776000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/14/states_2020-08-24-14.avro.tar",
+        "LastModified": "2024-11-01T18:09:38.329Z",
+        "ETag": "\"8e87951009cd5f93edf7bfe419caf8d7\"",
+        "Size": "140216320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/14/states_2020-08-24-14.csv.tar",
+        "LastModified": "2024-11-01T18:09:49.711Z",
+        "ETag": "\"3e52121c7c7395265217fd6dc6b69ab4\"",
+        "Size": "140462080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/14/states_2020-08-24-14.json.tar",
+        "LastModified": "2024-11-01T18:09:59.684Z",
+        "ETag": "\"eab0ab6ac6e2b1403b56756ba1629572\"",
+        "Size": "153036800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/15/states_2020-08-24-15.avro.tar",
+        "LastModified": "2024-11-01T18:11:05.243Z",
+        "ETag": "\"c1fad02932760d296af5023a6fbb4a87\"",
+        "Size": "144885760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/15/states_2020-08-24-15.csv.tar",
+        "LastModified": "2024-11-01T18:11:14.560Z",
+        "ETag": "\"f6f471be20042a5a8059e2f42b037003\"",
+        "Size": "145264640",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/15/states_2020-08-24-15.json.tar",
+        "LastModified": "2024-11-01T18:11:25.251Z",
+        "ETag": "\"c98cbe6b897fc520fe9bc89dde7464dc\"",
+        "Size": "158064640",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/16/states_2020-08-24-16.avro.tar",
+        "LastModified": "2024-11-01T18:12:26.689Z",
+        "ETag": "\"001f54450fdea340c6dcf1e97451d996\"",
+        "Size": "144035840",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/16/states_2020-08-24-16.csv.tar",
+        "LastModified": "2024-11-01T18:12:38.131Z",
+        "ETag": "\"f13c66a07f91945ff19c223ce6c1cb9d\"",
+        "Size": "144578560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/16/states_2020-08-24-16.json.tar",
+        "LastModified": "2024-11-01T18:12:48.892Z",
+        "ETag": "\"07e5334e7a36c7c93a2a792b83caaa83\"",
+        "Size": "157132800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/17/states_2020-08-24-17.avro.tar",
+        "LastModified": "2024-11-01T18:13:49.802Z",
+        "ETag": "\"fe7c830a91f894419db75032931e519d\"",
+        "Size": "133662720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/17/states_2020-08-24-17.csv.tar",
+        "LastModified": "2024-11-01T18:13:59.604Z",
+        "ETag": "\"9ab5d4b2763e20cfd3de5cc1e412efd0\"",
+        "Size": "134359040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/17/states_2020-08-24-17.json.tar",
+        "LastModified": "2024-11-01T18:14:08.697Z",
+        "ETag": "\"31a0eb954bb341ac336e26609b06bc1e\"",
+        "Size": "145868800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/18/states_2020-08-24-18.avro.tar",
+        "LastModified": "2024-11-01T18:15:14.572Z",
+        "ETag": "\"f1ebc49306458871a51a17b89e1b4d4f\"",
+        "Size": "125941760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/18/states_2020-08-24-18.csv.tar",
+        "LastModified": "2024-11-01T18:15:27.694Z",
+        "ETag": "\"1b54aaa6e55e20686fc5b243d60d0205\"",
+        "Size": "126955520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/18/states_2020-08-24-18.json.tar",
+        "LastModified": "2024-11-01T18:15:38.304Z",
+        "ETag": "\"981fdd017838dc1c494b48cb0da41d72\"",
+        "Size": "137605120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/19/states_2020-08-24-19.avro.tar",
+        "LastModified": "2024-11-01T18:16:44.742Z",
+        "ETag": "\"11b7e7e7751a2e56e812ff086b8fb058\"",
+        "Size": "118005760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/19/states_2020-08-24-19.csv.tar",
+        "LastModified": "2024-11-01T18:16:55.856Z",
+        "ETag": "\"43bb56b10775f9e322262357683a5da7\"",
+        "Size": "118988800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/19/states_2020-08-24-19.json.tar",
+        "LastModified": "2024-11-01T18:17:06.795Z",
+        "ETag": "\"7462212e2398be93678d3ba17825594b\"",
+        "Size": "128931840",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/20/states_2020-08-24-20.avro.tar",
+        "LastModified": "2024-11-01T18:18:14.455Z",
+        "ETag": "\"7cd0cf165d1651a6315c8bf2dd3cc503\"",
+        "Size": "113704960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/20/states_2020-08-24-20.csv.tar",
+        "LastModified": "2024-11-01T18:18:22.445Z",
+        "ETag": "\"bbd1dd18fdcecd866ec74eba596f57f2\"",
+        "Size": "114841600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/20/states_2020-08-24-20.json.tar",
+        "LastModified": "2024-11-01T18:18:32.181Z",
+        "ETag": "\"6f29dd7f0eebd350228bf6025aa9968d\"",
+        "Size": "124252160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/21/states_2020-08-24-21.avro.tar",
+        "LastModified": "2024-11-01T18:19:30.780Z",
+        "ETag": "\"a6c95fb2094984a04a3d0f68a34c6347\"",
+        "Size": "105134080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/21/states_2020-08-24-21.csv.tar",
+        "LastModified": "2024-11-01T18:19:39.135Z",
+        "ETag": "\"752fc2b561e09c90c9cc8cea07107411\"",
+        "Size": "105984000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/21/states_2020-08-24-21.json.tar",
+        "LastModified": "2024-11-01T18:19:52.238Z",
+        "ETag": "\"250236c577e8deb31b1a509965fef171\"",
+        "Size": "114841600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/22/states_2020-08-24-22.avro.tar",
+        "LastModified": "2024-11-01T18:20:59.635Z",
+        "ETag": "\"5dcba3b39fe8f3c9a34ca785da456cc9\"",
+        "Size": "96788480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/22/states_2020-08-24-22.csv.tar",
+        "LastModified": "2024-11-01T18:21:05.950Z",
+        "ETag": "\"3152c1a61d5d9702090453876f323b79\"",
+        "Size": "97515520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/22/states_2020-08-24-22.json.tar",
+        "LastModified": "2024-11-01T18:21:15.974Z",
+        "ETag": "\"8b828c6c8a01dc52b663adcc6c99b4fd\"",
+        "Size": "105809920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/23/states_2020-08-24-23.avro.tar",
+        "LastModified": "2024-11-01T18:22:22.293Z",
+        "ETag": "\"d0642030a2a0f84765202873c291e0e4\"",
+        "Size": "86947840",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/23/states_2020-08-24-23.csv.tar",
+        "LastModified": "2024-11-01T18:22:26.946Z",
+        "ETag": "\"d48baa0775334c5f4a32b7a44a4fe092\"",
+        "Size": "87439360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2020-08-24/23/states_2020-08-24-23.json.tar",
+        "LastModified": "2024-11-01T18:22:35.866Z",
+        "ETag": "\"fcfe16618ab688ad53c5af2f0b62f655\"",
+        "Size": "95047680",
+        "StorageClass": "STANDARD"
+      }
+    ]
+  },
+  {
+    "day": "2020-08-24",
+    "prefix": "states/.2020-08-24/",
+    "status": "listed",
+    "objects": []
+  },
+  {
+    "day": "2021-05-17",
+    "prefix": "states/2021-05-17/",
+    "status": "listed",
+    "objects": [
+      {
+        "Key": "states/2021-05-17/00/states_2021-05-17-00.avro.tar",
+        "LastModified": "2024-11-01T18:40:08.685Z",
+        "ETag": "\"914a197b74a710145a36b49bc7304017\"",
+        "Size": "109598720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/00/states_2021-05-17-00.csv.tar",
+        "LastModified": "2024-11-01T18:40:16.314Z",
+        "ETag": "\"7f6630dd8ace2f54a13f467318c835b2\"",
+        "Size": "111042560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/00/states_2021-05-17-00.json.tar",
+        "LastModified": "2024-11-01T18:40:21.409Z",
+        "ETag": "\"add0780217b2d9f021fe4ee0fe386e4a\"",
+        "Size": "120125440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/01/states_2021-05-17-01.avro.tar",
+        "LastModified": "2024-11-01T18:41:21.482Z",
+        "ETag": "\"9ac31451cb4f140a13add96ee5f1ad4f\"",
+        "Size": "98027520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/01/states_2021-05-17-01.csv.tar",
+        "LastModified": "2024-11-01T18:41:30.299Z",
+        "ETag": "\"e2c97bc32e279596a2c153acc5ff2e1a\"",
+        "Size": "99112960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/01/states_2021-05-17-01.json.tar",
+        "LastModified": "2024-11-01T18:41:36.633Z",
+        "ETag": "\"5954408de643256f2c355f6fa5755ffc\"",
+        "Size": "107304960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/02/states_2021-05-17-02.avro.tar",
+        "LastModified": "2024-11-01T18:42:40.216Z",
+        "ETag": "\"19495b13362171c1b5a00c2b99bb562f\"",
+        "Size": "89784320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/02/states_2021-05-17-02.csv.tar",
+        "LastModified": "2024-11-01T18:42:49.857Z",
+        "ETag": "\"af498336d3f9522e04254ecd729b6ae6\"",
+        "Size": "90675200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/02/states_2021-05-17-02.json.tar",
+        "LastModified": "2024-11-01T18:42:55.839Z",
+        "ETag": "\"418d8e29171c4c84b2076a777f55064e\"",
+        "Size": "98304000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/03/states_2021-05-17-03.avro.tar",
+        "LastModified": "2024-11-01T18:44:03.388Z",
+        "ETag": "\"e0063b72778777a6d3732000389b0e5f\"",
+        "Size": "75161600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/03/states_2021-05-17-03.csv.tar",
+        "LastModified": "2024-11-01T18:44:11.306Z",
+        "ETag": "\"6c0064469de4b03869ae1033ed7a7c49\"",
+        "Size": "75765760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/03/states_2021-05-17-03.json.tar",
+        "LastModified": "2024-11-01T18:44:18.098Z",
+        "ETag": "\"51b5198be0018c225e4fb5523da17573\"",
+        "Size": "82298880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/04/states_2021-05-17-04.avro.tar",
+        "LastModified": "2024-11-01T18:45:24.093Z",
+        "ETag": "\"7dafbdb7bd307a98e9e80053c0f77344\"",
+        "Size": "64778240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/04/states_2021-05-17-04.csv.tar",
+        "LastModified": "2024-11-01T18:45:33.211Z",
+        "ETag": "\"77785dbc4363391406ce993c70f5c71f\"",
+        "Size": "65024000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/04/states_2021-05-17-04.json.tar",
+        "LastModified": "2024-11-01T18:45:41.808Z",
+        "ETag": "\"c840a484ad9839061ec21f13b2c444a8\"",
+        "Size": "70942720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/05/states_2021-05-17-05.avro.tar",
+        "LastModified": "2024-11-01T18:46:48.698Z",
+        "ETag": "\"0b9b402f58a7f8ee25f07edae27a1852\"",
+        "Size": "64829440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/05/states_2021-05-17-05.csv.tar",
+        "LastModified": "2024-11-01T18:46:55.171Z",
+        "ETag": "\"29b667898e032dc2e5a32c74401b9dd9\"",
+        "Size": "65044480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/05/states_2021-05-17-05.json.tar",
+        "LastModified": "2024-11-01T18:47:04.323Z",
+        "ETag": "\"5d4601c7120ddd7c4ae8c74f85c931f1\"",
+        "Size": "70993920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/06/states_2021-05-17-06.avro.tar",
+        "LastModified": "2024-11-01T18:48:04.814Z",
+        "ETag": "\"2df11a6c8a0be16da4b1258fcbd7dfb3\"",
+        "Size": "62525440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/06/states_2021-05-17-06.csv.tar",
+        "LastModified": "2024-11-01T18:48:13.144Z",
+        "ETag": "\"36f0bfcde7f3480514cf4f23f0488ebd\"",
+        "Size": "62597120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/06/states_2021-05-17-06.json.tar",
+        "LastModified": "2024-11-01T18:48:21.175Z",
+        "ETag": "\"9cfb5465cdd4cbfdb07ea7316cfbe48c\"",
+        "Size": "68403200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/07/states_2021-05-17-07.avro.tar",
+        "LastModified": "2024-11-01T18:49:25.690Z",
+        "ETag": "\"c8e97b59fdaa30c5936f695566e5d7be\"",
+        "Size": "63303680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/07/states_2021-05-17-07.csv.tar",
+        "LastModified": "2024-11-01T18:49:30.034Z",
+        "ETag": "\"a90398b9ad338dddf511f7bfce419bae\"",
+        "Size": "63252480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/07/states_2021-05-17-07.json.tar",
+        "LastModified": "2024-11-01T18:49:38.170Z",
+        "ETag": "\"dc4eaac8a8f8dc3815e621b98f225b7e\"",
+        "Size": "69212160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/08/states_2021-05-17-08.avro.tar",
+        "LastModified": "2024-11-01T18:50:53.182Z",
+        "ETag": "\"c78f5ce04ff0f50e0d6c20dad290826d\"",
+        "Size": "67348480",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/08/states_2021-05-17-08.csv.tar",
+        "LastModified": "2024-11-01T18:50:56.855Z",
+        "ETag": "\"fc8b31daba5e969738d2a75634c1a694\"",
+        "Size": "67205120",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/08/states_2021-05-17-08.json.tar",
+        "LastModified": "2024-11-01T18:51:05.214Z",
+        "ETag": "\"33a7833f3fbd384fe67d9442b7ca48c1\"",
+        "Size": "73502720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/09/states_2021-05-17-09.avro.tar",
+        "LastModified": "2024-11-01T18:52:17.044Z",
+        "ETag": "\"9f19c26692e7000a054e6aef6172c3b5\"",
+        "Size": "68515840",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/09/states_2021-05-17-09.csv.tar",
+        "LastModified": "2024-11-01T18:52:20.682Z",
+        "ETag": "\"6e57ef0b8c700430d55ba0821b99b850\"",
+        "Size": "68352000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/09/states_2021-05-17-09.json.tar",
+        "LastModified": "2024-11-01T18:52:29.002Z",
+        "ETag": "\"327a2676379fc685e910fd4c880e2db6\"",
+        "Size": "74782720",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/10/states_2021-05-17-10.avro.tar",
+        "LastModified": "2024-11-01T18:53:45.509Z",
+        "ETag": "\"24748ca3b36df12f8e8173d39ff04d56\"",
+        "Size": "75499520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/10/states_2021-05-17-10.csv.tar",
+        "LastModified": "2024-11-01T18:53:48.311Z",
+        "ETag": "\"b001d9125458b6513fec79d395443f3c\"",
+        "Size": "75223040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/10/states_2021-05-17-10.json.tar",
+        "LastModified": "2024-11-01T18:53:58.243Z",
+        "ETag": "\"4841e704e459e421b5569f2296f1d038\"",
+        "Size": "82391040",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/11/states_2021-05-17-11.avro.tar",
+        "LastModified": "2024-11-01T18:55:15.207Z",
+        "ETag": "\"dde170056d74d329865fbfc1719e09bf\"",
+        "Size": "94525440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/11/states_2021-05-17-11.csv.tar",
+        "LastModified": "2024-11-01T18:55:18.005Z",
+        "ETag": "\"70c9c1d2aa77f456d65140c0443948a8\"",
+        "Size": "94842880",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/11/states_2021-05-17-11.json.tar",
+        "LastModified": "2024-11-01T18:55:28.545Z",
+        "ETag": "\"7b0c153dbd76777c00d1c8e3f16429da\"",
+        "Size": "103239680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/12/states_2021-05-17-12.avro.tar",
+        "LastModified": "2024-11-01T18:56:27.908Z",
+        "ETag": "\"b422ea62f4e22263427a72c22ff86f16\"",
+        "Size": "114350080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/12/states_2021-05-17-12.csv.tar",
+        "LastModified": "2024-11-01T18:56:36.974Z",
+        "ETag": "\"7db45b0c6857f8d26580de9615d12d16\"",
+        "Size": "114923520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/12/states_2021-05-17-12.json.tar",
+        "LastModified": "2024-11-01T18:56:43.889Z",
+        "ETag": "\"f8d48035748a147180fb016ea1c2b941\"",
+        "Size": "124989440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/13/states_2021-05-17-13.avro.tar",
+        "LastModified": "2024-11-01T18:58:00.247Z",
+        "ETag": "\"8e66696418224d62c52aa728930d6568\"",
+        "Size": "135864320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/13/states_2021-05-17-13.csv.tar",
+        "LastModified": "2024-11-01T18:58:07.886Z",
+        "ETag": "\"c3a17ddcd89eeafaadd0bddcdcdfac6f\"",
+        "Size": "137052160",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/13/states_2021-05-17-13.json.tar",
+        "LastModified": "2024-11-01T18:58:18.109Z",
+        "ETag": "\"26155f82db77875f62c2e13b2be4b630\"",
+        "Size": "148684800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/14/states_2021-05-17-14.avro.tar",
+        "LastModified": "2024-11-01T18:59:31.085Z",
+        "ETag": "\"24de370f6540843a77f76bf4d0220e0b\"",
+        "Size": "150702080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/14/states_2021-05-17-14.csv.tar",
+        "LastModified": "2024-11-01T18:59:38.634Z",
+        "ETag": "\"1f716da5399c48d5ce207b5829597ab0\"",
+        "Size": "152299520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/14/states_2021-05-17-14.json.tar",
+        "LastModified": "2024-11-01T18:59:51.893Z",
+        "ETag": "\"2d9c49d99f3f050054c44bf488ae21c1\"",
+        "Size": "165099520",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/15/states_2021-05-17-15.avro.tar",
+        "LastModified": "2024-11-01T19:01:10.230Z",
+        "ETag": "\"de0afe6863334bd60056120e0cf7b6a6\"",
+        "Size": "154296320",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/15/states_2021-05-17-15.csv.tar",
+        "LastModified": "2024-11-01T19:01:18.683Z",
+        "ETag": "\"caa7ffffa5bc9946e13ac5861e766b6d\"",
+        "Size": "156108800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/15/states_2021-05-17-15.json.tar",
+        "LastModified": "2024-11-01T19:01:33.097Z",
+        "ETag": "\"6cdb725bf5a6dce066507026394a608e\"",
+        "Size": "169062400",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/16/states_2021-05-17-16.avro.tar",
+        "LastModified": "2024-11-01T19:03:01.222Z",
+        "ETag": "\"d3b0cb5c496b653544ad8571b2f4f8f3\"",
+        "Size": "156323840",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/16/states_2021-05-17-16.csv.tar",
+        "LastModified": "2024-11-01T19:03:16.006Z",
+        "ETag": "\"b65c95439f2d2ccaa8087251366f27d5\"",
+        "Size": "158248960",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/16/states_2021-05-17-16.json.tar",
+        "LastModified": "2024-11-01T19:03:25.078Z",
+        "ETag": "\"e31dd38cd84524ad9842c1969356f07b\"",
+        "Size": "171335680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/17/states_2021-05-17-17.avro.tar",
+        "LastModified": "2024-11-01T19:04:50.132Z",
+        "ETag": "\"3ae8271a37297c07fa6314e4a03c358b\"",
+        "Size": "150087680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/17/states_2021-05-17-17.csv.tar",
+        "LastModified": "2024-11-01T19:05:02.334Z",
+        "ETag": "\"be4d773ecb783d5d921dafba7362bc5a\"",
+        "Size": "152135680",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/17/states_2021-05-17-17.json.tar",
+        "LastModified": "2024-11-01T19:05:08.813Z",
+        "ETag": "\"addf1c28751c9896a774ff3e2393039f\"",
+        "Size": "164526080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/18/states_2021-05-17-18.avro.tar",
+        "LastModified": "2024-11-01T19:06:45.258Z",
+        "ETag": "\"a8d86423bca6b28660f2f8e9476b0daa\"",
+        "Size": "145408000",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/18/states_2021-05-17-18.csv.tar",
+        "LastModified": "2024-11-01T19:06:51.201Z",
+        "ETag": "\"5161508c78e9e1a8630f077dd8f68c6f\"",
+        "Size": "147507200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/18/states_2021-05-17-18.json.tar",
+        "LastModified": "2024-11-01T19:07:02.359Z",
+        "ETag": "\"5d3339ca8e3f800b37ec6311865052d4\"",
+        "Size": "159436800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/19/states_2021-05-17-19.avro.tar",
+        "LastModified": "2024-11-01T19:08:33.832Z",
+        "ETag": "\"048123747d38ea80a6ad09fc1ca1a9cd\"",
+        "Size": "139786240",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/19/states_2021-05-17-19.csv.tar",
+        "LastModified": "2024-11-01T19:08:46.061Z",
+        "ETag": "\"198b6cc6e5b4042c4d5fa9efc4f57184\"",
+        "Size": "141742080",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/19/states_2021-05-17-19.json.tar",
+        "LastModified": "2024-11-01T19:08:53.896Z",
+        "ETag": "\"5c0299ae2bccfb789e3ff5b018aa2fef\"",
+        "Size": "153231360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/20/states_2021-05-17-20.avro.tar",
+        "LastModified": "2024-11-01T19:10:19.406Z",
+        "ETag": "\"66f1c043695fd62abbb3375040697190\"",
+        "Size": "136785920",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/20/states_2021-05-17-20.csv.tar",
+        "LastModified": "2024-11-01T19:10:33.317Z",
+        "ETag": "\"58ec5c77e7a462433259f3dc1054b92c\"",
+        "Size": "138741760",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/20/states_2021-05-17-20.json.tar",
+        "LastModified": "2024-11-01T19:10:44.564Z",
+        "ETag": "\"4de4700c2bc2c08aef995bfe3deb838c\"",
+        "Size": "149964800",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/21/states_2021-05-17-21.avro.tar",
+        "LastModified": "2024-11-01T19:12:09.510Z",
+        "ETag": "\"391d53cd70cf8f6ac279a6eff6aa513b\"",
+        "Size": "133181440",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/21/states_2021-05-17-21.csv.tar",
+        "LastModified": "2024-11-01T19:12:23.863Z",
+        "ETag": "\"e15e0d38dc0785e26931262eab414f1a\"",
+        "Size": "135065600",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/21/states_2021-05-17-21.json.tar",
+        "LastModified": "2024-11-01T19:12:37.079Z",
+        "ETag": "\"38cc185123db47d524b54ac3594ae529\"",
+        "Size": "145971200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/22/states_2021-05-17-22.avro.tar",
+        "LastModified": "2024-11-01T19:14:00.481Z",
+        "ETag": "\"7f3d4975a6696214fcdda6e7ae69e7d7\"",
+        "Size": "125235200",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/22/states_2021-05-17-22.csv.tar",
+        "LastModified": "2024-11-01T19:14:11.687Z",
+        "ETag": "\"ad8f0dc11b6d916af453d4d88c28cf69\"",
+        "Size": "126914560",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/22/states_2021-05-17-22.json.tar",
+        "LastModified": "2024-11-01T19:14:26.979Z",
+        "ETag": "\"4ae1c3e69ef5600332092a53141b1914\"",
+        "Size": "137328640",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/23/states_2021-05-17-23.avro.tar",
+        "LastModified": "2024-11-01T19:15:59.081Z",
+        "ETag": "\"ce017a223ad6cf4227703a93fbfd0c59\"",
+        "Size": "116623360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/23/states_2021-05-17-23.csv.tar",
+        "LastModified": "2024-11-01T19:16:10.266Z",
+        "ETag": "\"3c11b653756c88703b0774fb01987cbf\"",
+        "Size": "117903360",
+        "StorageClass": "STANDARD"
+      },
+      {
+        "Key": "states/2021-05-17/23/states_2021-05-17-23.json.tar",
+        "LastModified": "2024-11-01T19:16:26.074Z",
+        "ETag": "\"8480235cca7f72362eb8c140203dc373\"",
+        "Size": "127764480",
+        "StorageClass": "STANDARD"
+      }
+    ]
+  },
+  {
+    "day": "2021-05-17",
+    "prefix": "states/.2021-05-17/",
+    "status": "listed",
+    "objects": []
+  },
+  {
+    "day": "2022-07-25",
+    "prefix": "states/2022-07-25/",
+    "status": "listed",
+    "objects": []
+  },
+  {
+    "day": "2022-07-25",
+    "prefix": "states/.2022-07-25/",
+    "status": "listed",
+    "objects": []
+  }
+]

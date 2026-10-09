@@ -25,6 +25,8 @@ Thumbs.db
 /docs/sources/files/
 /europe/data/
 /research/c40_geometry/literature/files/
+/research/c40_geometry/Checkpoint/
+/research/c40_geometry/data/
 
 # Полный объемный реестр контекстов воспроизводится скриптом аудита C40
 /europe/reports/analytical_sample/04_04_same_day_contexts.csv

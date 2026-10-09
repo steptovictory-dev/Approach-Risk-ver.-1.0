@@ -1,0 +1,74 @@
+[
+  {
+    "flight_id": "TOM24E_20390",
+    "icao24": "40647f",
+    "c40_utc": "2019-02-05T22:42:00+00:00",
+    "query_start_utc": "2019-02-05T22:37:00+00:00",
+    "query_end_utc": "2019-02-05T22:55:34+00:00",
+    "hour_partitions": [
+      1549404000
+    ],
+    "status": "not_executed_access_not_confirmed",
+    "query_file": "queries/TOM24E_20390.sql"
+  },
+  {
+    "flight_id": "DLH948_5982",
+    "icao24": "3c6645",
+    "c40_utc": "2019-04-30T21:41:48+00:00",
+    "query_start_utc": "2019-04-30T21:36:48+00:00",
+    "query_end_utc": "2019-04-30T21:52:54+00:00",
+    "hour_partitions": [
+      1556658000
+    ],
+    "status": "not_executed_access_not_confirmed",
+    "query_file": "queries/DLH948_5982.sql"
+  },
+  {
+    "flight_id": "EZY86TC_37562",
+    "icao24": "40756d",
+    "c40_utc": "2019-08-20T22:38:40+00:00",
+    "query_start_utc": "2019-08-20T22:33:40+00:00",
+    "query_end_utc": "2019-08-20T22:50:09+00:00",
+    "hour_partitions": [
+      1566338400
+    ],
+    "status": "not_executed_access_not_confirmed",
+    "query_file": "queries/EZY86TC_37562.sql"
+  },
+  {
+    "flight_id": "RYR646N_61363",
+    "icao24": "4ca75f",
+    "c40_utc": "2019-10-15T22:17:37+00:00",
+    "query_start_utc": "2019-10-15T22:12:37+00:00",
+    "query_end_utc": "2019-10-15T22:26:35+00:00",
+    "hour_partitions": [
+      1571176800
+    ],
+    "status": "not_executed_access_not_confirmed",
+    "query_file": "queries/RYR646N_61363.sql"
+  },
+  {
+    "flight_id": "TOM137F_28522",
+    "icao24": "406d70",
+    "c40_utc": "2019-11-07T12:14:59+00:00",
+    "query_start_utc": "2019-11-07T12:09:59+00:00",
+    "query_end_utc": "2019-11-07T12:38:01+00:00",
+    "hour_partitions": [
+      1573128000
+    ],
+    "status": "not_executed_access_not_confirmed",
+    "query_file": "queries/TOM137F_28522.sql"
+  },
+  {
+    "flight_id": "SHT2N_3852",
+    "icao24": "4009d8",
+    "c40_utc": "2020-09-18T17:18:00+00:00",
+    "query_start_utc": "2020-09-18T17:13:00+00:00",
+    "query_end_utc": "2020-09-18T17:30:27+00:00",
+    "hour_partitions": [
+      1600448400
+    ],
+    "status": "not_executed_access_not_confirmed",
+    "query_file": "queries/SHT2N_3852.sql"
+  }
+]
