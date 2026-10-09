@@ -1,0 +1,112 @@
+{
+  "url": "https://s3.opensky-network.org/data-samples/states/.2019-10-28/22/states_2019-10-28-22.csv.tar",
+  "bytes": 153579520,
+  "sha256": "6cb08684445d4a6d7ca3c60098efb5e1f04cce88e1b64ab97495fad37a47559d",
+  "etag": "\"0a5af8913a15a747bc48847574f30a8a\"",
+  "checked_utc": "2026-10-09T19:01:45.440022+00:00",
+  "cases": [
+    "RYR5LT_64706",
+    "SAS2761_9489",
+    "EZY16KQ_14918",
+    "RYR2WF_61517",
+    "EZY61VB_24426",
+    "BEL2UQ_43904",
+    "PGT7211_51297",
+    "DLH948_5597",
+    "EXS4TQ_30203",
+    "WZZ100D_15479"
+  ],
+  "flights": [
+    {
+      "flight_id": "RYR5LT_64706",
+      "rows": 128,
+      "expected_callsign": "RYR5LT",
+      "callsigns": [
+        "RYR5LT"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "SAS2761_9489",
+      "rows": 129,
+      "expected_callsign": "SAS2761",
+      "callsigns": [
+        "SAS2761"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY16KQ_14918",
+      "rows": 117,
+      "expected_callsign": "EZY16KQ",
+      "callsigns": [
+        "EZY16KQ"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "RYR2WF_61517",
+      "rows": 129,
+      "expected_callsign": "RYR2WF",
+      "callsigns": [
+        "RYR2WF"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY61VB_24426",
+      "rows": 138,
+      "expected_callsign": "EZY61VB",
+      "callsigns": [
+        "EZY61VB"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "BEL2UQ_43904",
+      "rows": 138,
+      "expected_callsign": "BEL2UQ",
+      "callsigns": [
+        "BEL2UQ"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "PGT7211_51297",
+      "rows": 144,
+      "expected_callsign": "PGT7211",
+      "callsigns": [
+        "PGT7211"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "DLH948_5597",
+      "rows": 142,
+      "expected_callsign": "DLH948",
+      "callsigns": [
+        "DLH948"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EXS4TQ_30203",
+      "rows": 168,
+      "expected_callsign": "EXS4TQ",
+      "callsigns": [
+        "EXS4TQ"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "WZZ100D_15479",
+      "rows": 126,
+      "expected_callsign": "WZZ100D",
+      "callsigns": [
+        "WZZ100D"
+      ],
+      "callsign_present": true
+    }
+  ],
+  "selected_sha256": "78721a3719f98eff616494485ff219af34384ab9c3136dd82699684adbc813da"
+}

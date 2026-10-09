@@ -1,0 +1,92 @@
+{
+  "url": "https://s3.opensky-network.org/data-samples/states/.2019-11-25/22/states_2019-11-25-22.csv.tar",
+  "bytes": 154859520,
+  "sha256": "e384d0c0f322b150eea5e4187f92ff2a7bbd466cf5d7f1f1b4f297d8eec0c24a",
+  "etag": "\"c5c01af0baff9f0784af50b48f80fa1b\"",
+  "checked_utc": "2026-10-09T19:14:14.868721+00:00",
+  "cases": [
+    "RYR2WF_55716",
+    "DLH2AA_4100",
+    "KLM59W_47968",
+    "EZY85WE_42190",
+    "RYR4117_64274",
+    "EZY61VB_35739",
+    "RYR100A_63548",
+    "DLH9CK_5499"
+  ],
+  "flights": [
+    {
+      "flight_id": "RYR2WF_55716",
+      "rows": 127,
+      "expected_callsign": "RYR2WF",
+      "callsigns": [
+        "RYR2WF"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "DLH2AA_4100",
+      "rows": 105,
+      "expected_callsign": "DLH2AA",
+      "callsigns": [
+        "DLH2AA"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "KLM59W_47968",
+      "rows": 115,
+      "expected_callsign": "KLM59W",
+      "callsigns": [
+        "KLM59W"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY85WE_42190",
+      "rows": 115,
+      "expected_callsign": "EZY85WE",
+      "callsigns": [
+        "EZY85WE"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "RYR4117_64274",
+      "rows": 115,
+      "expected_callsign": "RYR4117",
+      "callsigns": [
+        "RYR4117"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "EZY61VB_35739",
+      "rows": 116,
+      "expected_callsign": "EZY61VB",
+      "callsigns": [
+        "EZY61VB"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "RYR100A_63548",
+      "rows": 117,
+      "expected_callsign": "RYR100A",
+      "callsigns": [
+        "RYR100A"
+      ],
+      "callsign_present": true
+    },
+    {
+      "flight_id": "DLH9CK_5499",
+      "rows": 125,
+      "expected_callsign": "DLH9CK",
+      "callsigns": [
+        "DLH9CK"
+      ],
+      "callsign_present": true
+    }
+  ],
+  "selected_sha256": "f6a4f344e0059a864c4b52fa23ac2b98579c50da042c71891e3ff91ec9d7bcc3"
+}

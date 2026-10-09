@@ -1,0 +1,67 @@
+{
+  "source": "research\\c40_geometry\\data\\external_day\\external_geometry.csv",
+  "source_sha256": "78721a3719f98eff616494485ff219af34384ab9c3136dd82699684adbc813da",
+  "flights": [
+    {
+      "flight_id": "BEL2UQ_43904",
+      "raw_rows": 138,
+      "eligible_rows": 125
+    },
+    {
+      "flight_id": "DLH948_5597",
+      "raw_rows": 142,
+      "eligible_rows": 132
+    },
+    {
+      "flight_id": "EXS4TQ_30203",
+      "raw_rows": 168,
+      "eligible_rows": 156
+    },
+    {
+      "flight_id": "EZY16KQ_14918",
+      "raw_rows": 117,
+      "eligible_rows": 108
+    },
+    {
+      "flight_id": "EZY61VB_24426",
+      "raw_rows": 138,
+      "eligible_rows": 127
+    },
+    {
+      "flight_id": "PGT7211_51297",
+      "raw_rows": 144,
+      "eligible_rows": 131
+    },
+    {
+      "flight_id": "RYR2WF_61517",
+      "raw_rows": 129,
+      "eligible_rows": 114
+    },
+    {
+      "flight_id": "RYR5LT_64706",
+      "raw_rows": 128,
+      "eligible_rows": 116
+    },
+    {
+      "flight_id": "SAS2761_9489",
+      "raw_rows": 129,
+      "eligible_rows": 117
+    },
+    {
+      "flight_id": "WZZ100D_15479",
+      "raw_rows": 126,
+      "eligible_rows": 114
+    }
+  ],
+  "gaps_s": [
+    20,
+    30,
+    60,
+    120
+  ],
+  "max_position_age_s": 2,
+  "overlapping_windows": true,
+  "training_performed": false,
+  "evaluation_rows": 65181,
+  "truth": "held-out OpenSky observations, not independently measured true positions"
+}

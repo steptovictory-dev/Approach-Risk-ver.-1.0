@@ -1,0 +1,23 @@
+{
+  "version": "11-data-v1",
+  "day": "2019-12-09",
+  "hour": "22",
+  "airports": [
+    "EGCC",
+    "EPWA"
+  ],
+  "selection": "first 30 chronological C40 cases, C40 >=22:05, landing <=22:58 UTC",
+  "cases": [
+    "RYR11XB_56514",
+    "EZY89KP_37985",
+    "DLH9CK_5308",
+    "LOT68_40786",
+    "EZY85VA_22895",
+    "RYR2WF_64434",
+    "EZY61VB_35740"
+  ],
+  "model_sha256": "595cbe06edbf32c7fdcc83f3914be436b60978d0468e2df0e0230f60ee92443b",
+  "refit": false,
+  "max_archive_bytes": 419430400,
+  "written_utc": "2026-10-09T19:22:48.366741+00:00"
+}

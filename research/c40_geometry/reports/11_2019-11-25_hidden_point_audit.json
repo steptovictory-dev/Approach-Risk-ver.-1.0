@@ -1,0 +1,57 @@
+{
+  "source": "research\\c40_geometry\\data\\expanded_training\\2019-11-25\\external_geometry.csv",
+  "source_sha256": "f6a4f344e0059a864c4b52fa23ac2b98579c50da042c71891e3ff91ec9d7bcc3",
+  "flights": [
+    {
+      "flight_id": "DLH2AA_4100",
+      "raw_rows": 105,
+      "eligible_rows": 94
+    },
+    {
+      "flight_id": "DLH9CK_5499",
+      "raw_rows": 125,
+      "eligible_rows": 113
+    },
+    {
+      "flight_id": "EZY61VB_35739",
+      "raw_rows": 116,
+      "eligible_rows": 105
+    },
+    {
+      "flight_id": "EZY85WE_42190",
+      "raw_rows": 115,
+      "eligible_rows": 104
+    },
+    {
+      "flight_id": "KLM59W_47968",
+      "raw_rows": 115,
+      "eligible_rows": 103
+    },
+    {
+      "flight_id": "RYR100A_63548",
+      "raw_rows": 117,
+      "eligible_rows": 104
+    },
+    {
+      "flight_id": "RYR2WF_55716",
+      "raw_rows": 127,
+      "eligible_rows": 115
+    },
+    {
+      "flight_id": "RYR4117_64274",
+      "raw_rows": 115,
+      "eligible_rows": 103
+    }
+  ],
+  "gaps_s": [
+    20,
+    30,
+    60,
+    120
+  ],
+  "max_position_age_s": 2,
+  "overlapping_windows": true,
+  "training_performed": false,
+  "evaluation_rows": 43743,
+  "truth": "held-out OpenSky observations, not independently measured true positions"
+}

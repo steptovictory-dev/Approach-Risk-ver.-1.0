@@ -1,0 +1,52 @@
+{
+  "source": "research\\c40_geometry\\data\\hermite_validation\\2019-12-09\\external_geometry.csv",
+  "source_sha256": "80df5aa5ad18f2eb1c2c44550abcd06431cea46755def7f4d94153e007f7cab4",
+  "flights": [
+    {
+      "flight_id": "DLH9CK_5308",
+      "raw_rows": 115,
+      "eligible_rows": 102
+    },
+    {
+      "flight_id": "EZY61VB_35740",
+      "raw_rows": 120,
+      "eligible_rows": 103
+    },
+    {
+      "flight_id": "EZY85VA_22895",
+      "raw_rows": 115,
+      "eligible_rows": 105
+    },
+    {
+      "flight_id": "EZY89KP_37985",
+      "raw_rows": 135,
+      "eligible_rows": 124
+    },
+    {
+      "flight_id": "LOT68_40786",
+      "raw_rows": 123,
+      "eligible_rows": 112
+    },
+    {
+      "flight_id": "RYR11XB_56514",
+      "raw_rows": 135,
+      "eligible_rows": 125
+    },
+    {
+      "flight_id": "RYR2WF_64434",
+      "raw_rows": 109,
+      "eligible_rows": 99
+    }
+  ],
+  "gaps_s": [
+    20,
+    30,
+    60,
+    120
+  ],
+  "max_position_age_s": 2,
+  "overlapping_windows": true,
+  "training_performed": false,
+  "evaluation_rows": 39564,
+  "truth": "held-out OpenSky observations, not independently measured true positions"
+}

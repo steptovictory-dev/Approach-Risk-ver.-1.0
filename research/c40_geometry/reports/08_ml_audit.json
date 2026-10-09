@@ -1,0 +1,42 @@
+{
+  "alpha": 100.0,
+  "split": {
+    "EZY34MD_21230": "train",
+    "EZY89BW_37984": "train",
+    "EXS4112_71377": "train",
+    "EZY1942_18429": "train",
+    "EXS92K_22219": "train",
+    "ENT73JH_21100": "train",
+    "RYR4117_60025": "validation",
+    "RYR67GT_63261": "validation",
+    "RYR9BN_63693": "test",
+    "RYR72ZC_66456": "test"
+  },
+  "features": [
+    "gap_s",
+    "fraction",
+    "curve_time_s",
+    "speed_a",
+    "speed_b",
+    "heading_a_sin",
+    "heading_a_cos",
+    "heading_b_sin",
+    "heading_b_cos",
+    "age_a",
+    "age_b",
+    "east_span",
+    "north_span",
+    "forward_residual_e",
+    "forward_residual_n",
+    "backward_residual_e",
+    "backward_residual_n",
+    "velocity_change_e",
+    "velocity_change_n"
+  ],
+  "eligible_tasks": 18901,
+  "test_linear_macro_mean_m": 316.4428727293854,
+  "test_model_macro_mean_m": 124.57437303014018,
+  "improvement_percent": 60.632902882071456,
+  "source_sha256": "008f54cd1cb54d0c30708f3c507f212ef4c3bb85198d5d65897d4eda622002fd",
+  "independent_final_test": false
+}

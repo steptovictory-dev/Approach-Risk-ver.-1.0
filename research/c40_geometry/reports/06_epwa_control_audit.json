@@ -1,0 +1,16 @@
+{
+  "selected_cases": 10,
+  "found_cases": 10,
+  "call_sign_matches": 10,
+  "interpolated_difference_gt_1km": 1,
+  "median_interpolated_difference_m": 256.7228743023012,
+  "difference_gt_1km": 4,
+  "median_position_difference_m": 806.288732433153,
+  "min_position_difference_m": 269.4783426083882,
+  "max_position_difference_m": 43035.862589326345,
+  "selection": "All retained EPWA, EGCC, EDDF, EGLL cases with C40 in 2019-10-21 22:00–23:00 UTC; same public hours, not random or representative.",
+  "airports": [
+    "EGCC",
+    "EPWA"
+  ]
+}
