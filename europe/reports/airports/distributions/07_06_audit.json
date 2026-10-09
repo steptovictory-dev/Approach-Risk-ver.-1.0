@@ -1,0 +1,16 @@
+{
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "rows": 6331485,
+  "go_arounds": 18349,
+  "airports": 19,
+  "diagnostic_out_of_range": 0,
+  "selected_exact_repeat_groups": 22550,
+  "selected_exact_repeat_rows": 1315615,
+  "review_records": 114,
+  "profile_records": 1319933,
+  "rows_deleted": 0,
+  "values_changed": 0,
+  "feature_admission_finalized": false,
+  "rounded_profiles_not_duplicates": true,
+  "input_unchanged": true
+}

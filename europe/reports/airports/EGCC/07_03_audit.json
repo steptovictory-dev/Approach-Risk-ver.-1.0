@@ -1,0 +1,23 @@
+{
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "source_sha256": "1160bdbea6fa93249a00768452be64047c6d2461bb0843d5ecfc52e6942c7f02",
+  "rows": 4301,
+  "go_arounds": 45,
+  "unique_positive_aircraft": 39,
+  "unique_positive_types": 11,
+  "duplicate_positive_keys": 0,
+  "duplicate_positive_flight_ids": 0,
+  "positive_crosses_utc_day": 1,
+  "top_five_days": [
+    "2020-02-10",
+    "2020-02-11",
+    "2020-02-15",
+    "2020-02-24",
+    "2020-02-22"
+  ],
+  "top_five_go_arounds": 28,
+  "rows_deleted": 0,
+  "values_changed": 0,
+  "weather_status": "archive_verified_events_matched",
+  "causality_established": false
+}

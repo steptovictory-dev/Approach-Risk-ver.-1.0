@@ -1,0 +1,20 @@
+{
+  "decision_date": "2026-10-09",
+  "authorized_by": "user",
+  "airport": "EGCC",
+  "decision": "retain_available_c40_period",
+  "input": "europe/data/analytical/06_05_cases_excluded.parquet",
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "retained_rows": 87435,
+  "retained_go_arounds": 306,
+  "last_retained_landing_utc": "2021-02-28T21:20:45+00:00",
+  "new_exclusions": 0,
+  "values_changed": 0,
+  "late_missing_c40_descriptive_only": true,
+  "comparison_requires_common_calendar_period": true,
+  "sensitivity_required": true,
+  "sensitivity_status": "planned_not_executed",
+  "sensitivity_test_population": "identical observations of other airports",
+  "late_egcc_generalization_verified": false,
+  "split_boundaries": null
+}

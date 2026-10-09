@@ -1,0 +1,11 @@
+{
+  "decision_date": "2026-10-09",
+  "authorized_by": "user",
+  "decision": "retain_all_records_no_exclusion_for_missing_reference_fields",
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "rows_deleted": 0,
+  "values_changed": 0,
+  "feature_set_finalized": false,
+  "model_comparison": "compare variants with and without reference fields; handle missing values as appropriate for each model",
+  "modeling_status": "planned_not_executed"
+}

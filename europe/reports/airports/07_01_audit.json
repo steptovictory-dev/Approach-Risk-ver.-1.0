@@ -1,0 +1,43 @@
+{
+  "checked_date": "2026-10-09",
+  "generated_utc": "2026-10-08T22:33:25.806376+00:00",
+  "input": "europe\\data\\analytical\\06_05_cases_excluded.parquet",
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "source": "europe\\data\\source\\osn23_landings_merged.parquet.gzip",
+  "source_sha256": "1160bdbea6fa93249a00768452be64047c6d2461bb0843d5ecfc52e6942c7f02",
+  "rows": 6331485,
+  "go_arounds": 18349,
+  "goa_false": 6313136,
+  "airports": 19,
+  "source_rows": 7984254,
+  "first_date": "2019-01-01",
+  "last_date": "2023-05-30",
+  "input_unchanged": true,
+  "source_unchanged": true,
+  "rows_deleted": 0,
+  "values_changed": 0,
+  "labels_audited": [
+    false,
+    true
+  ],
+  "wilson_z": 1.959963984540054,
+  "confidence_level": 0.95,
+  "intervals_pointwise": true,
+  "independence_not_verified": true,
+  "automatic_airport_exclusion": false,
+  "old_precision_cutoff_applied": false,
+  "figures": [
+    "07_01_airport_volume.png",
+    "07_02_airport_rates.png",
+    "07_03_monthly_coverage.png",
+    "07_04_monthly_rates.png",
+    "07_05_selection_coverage.png",
+    "07_06_missing_by_label.png",
+    "07_07_airport_time_series.png"
+  ],
+  "method_source": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm",
+  "source_airports": 20,
+  "airports_without_retained_records": [
+    "LTFJ"
+  ]
+}

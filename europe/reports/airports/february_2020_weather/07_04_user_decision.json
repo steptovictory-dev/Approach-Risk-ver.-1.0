@@ -1,0 +1,14 @@
+{
+  "decision_date": "2026-10-09",
+  "authorized_by": "user",
+  "scope": "07_04 February 2020 weather comparison across airports",
+  "decision": "retain_all_records_no_new_exclusions",
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "rows_deleted": 0,
+  "values_changed": 0,
+  "accepted_interpretation": "gusty wind explains the observed spike",
+  "interpretation_author": "user",
+  "individual_event_causality_independently_verified": false,
+  "modeling_plan": "evaluate weather association using both labels and only information available at C40; model learns GoA probability, not causal attribution",
+  "modeling_status": "not_executed"
+}

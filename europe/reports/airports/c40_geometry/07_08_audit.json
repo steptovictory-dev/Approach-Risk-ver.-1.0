@@ -1,0 +1,33 @@
+{
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "source_sha256": "1160bdbea6fa93249a00768452be64047c6d2461bb0843d5ecfc52e6942c7f02",
+  "rows": 6331485,
+  "go_arounds": 18349,
+  "tail_1km": 178,
+  "tail_3km": 18,
+  "tail_go_arounds": 4,
+  "tail_percent": 0.002811346785153878,
+  "all_tail_values_match_source": true,
+  "all_tail_c40_before_first_attempt": true,
+  "dominant_point_rows": 29896,
+  "dominant_point_duplicate_landing_keys": 0,
+  "max_sphere_wgs84_difference_m": 272.0106426025666,
+  "distance_validation": {
+    "ngs_reference_m": 191872.119,
+    "ngs_computed_m": 191872.11902784643,
+    "geographiclib_reference_m": 5551759.400318678,
+    "geographiclib_computed_m": 5551759.400334103,
+    "tolerance_m": 0.002
+  },
+  "rows_deleted": 0,
+  "values_changed": 0,
+  "diagnostic_thresholds_km": [
+    1,
+    3
+  ],
+  "thresholds_not_cleanup_rules": true,
+  "estimated_centers_not_official": true,
+  "generated_utc": "2026-10-09T16:07:56.034747+00:00",
+  "input_unchanged": true,
+  "source_unchanged": true
+}

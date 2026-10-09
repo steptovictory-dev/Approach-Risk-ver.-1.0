@@ -1,0 +1,14 @@
+{
+  "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGCC&data=all&year1=2020&month1=2&day1=1&year2=2020&month2=3&day2=1&tz=Etc%2FUTC&format=onlycomma&latlon=yes&elev=yes&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+  "file": "docs\\sources\\files\\07_03_weather\\EGCC_2020-02.csv",
+  "sha256": "622fe94ed1c57a3623b1763d9b56929e9888a4f6e44c74149098175b1fe072ee",
+  "reports": 1391,
+  "verified_utc": "2026-10-09T15:23:26.076715+00:00",
+  "archive": "Iowa Environmental Mesonet; secondary archive of transmitted METAR",
+  "station_and_timestamp_verified": true,
+  "event_reports_missing_or_older_than_60min": 0,
+  "events": 136,
+  "matching": "latest report no later than event, maximum age 60 minutes",
+  "metoffice_context": "https://weather.metoffice.gov.uk/warnings-and-advice/uk-storm-centre/uk-storm-season-2019-20",
+  "causality_established": false
+}

@@ -1,0 +1,13 @@
+{
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "rows": 6331485,
+  "go_arounds": 18349,
+  "airports": 19,
+  "rows_deleted": 0,
+  "values_changed": 0,
+  "input_unchanged": true,
+  "original_classification_missing": 281738,
+  "effective_classification_missing": 243798,
+  "c40_missing": 0,
+  "null_empty_whitespace_separate": true
+}

@@ -1,0 +1,136 @@
+{
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "generated_utc": "2026-10-09T15:28:50.892368+00:00",
+  "selection": "five EGCC days with most GoA and ten airport daily count maxima in February; descriptive post hoc selection",
+  "weather": "latest METAR not after each attempt except final attempt, maximum age 60 minutes",
+  "units": "wind normalized to kt; original METAR retained",
+  "sources": [
+    {
+      "airport": "EGLL",
+      "landing_date": "2020-02-09",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGLL&data=all&year1=2020&month1=2&day1=9&year2=2020&month2=2&day2=10&tz=Etc%2FUTC&format=onlycomma&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\07_03_weather\\EGLL_2020-02-09_2020-02-10.csv",
+      "sha256": "e3df627a00a1abae0ea1b7a69197d07c875d58306de40e91640a5316589816b4",
+      "reports": 48,
+      "station_timestamp_verified": true
+    },
+    {
+      "airport": "EGSS",
+      "landing_date": "2020-02-09",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGSS&data=all&year1=2020&month1=2&day1=9&year2=2020&month2=2&day2=10&tz=Etc%2FUTC&format=onlycomma&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\07_03_weather\\EGSS_2020-02-09_2020-02-10.csv",
+      "sha256": "1d3dc7e1e3df9072efc0544ae33c65ce6291b149ffba8332ad9f865878ca71ae",
+      "reports": 48,
+      "station_timestamp_verified": true
+    },
+    {
+      "airport": "EHAM",
+      "landing_date": "2020-02-09",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EHAM&data=all&year1=2020&month1=2&day1=9&year2=2020&month2=2&day2=10&tz=Etc%2FUTC&format=onlycomma&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\07_03_weather\\EHAM_2020-02-09_2020-02-10.csv",
+      "sha256": "9979ecb1b57ae7eaa6bbaf12e134b3db00f5ebe8dc2810cef4abadd672a21257",
+      "reports": 48,
+      "station_timestamp_verified": true
+    },
+    {
+      "airport": "LFPG",
+      "landing_date": "2020-02-09",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LFPG&data=all&year1=2020&month1=2&day1=9&year2=2020&month2=2&day2=10&tz=Etc%2FUTC&format=onlycomma&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\07_03_weather\\LFPG_2020-02-09_2020-02-10.csv",
+      "sha256": "adb723d58ae9977ad9a3108cd212c36d07c38a7ee8db8c6afae37274a1ab3ab8",
+      "reports": 48,
+      "station_timestamp_verified": true
+    },
+    {
+      "airport": "EDDF",
+      "landing_date": "2020-02-10",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDF&data=all&year1=2020&month1=2&day1=10&year2=2020&month2=2&day2=11&tz=Etc%2FUTC&format=onlycomma&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\07_03_weather\\EDDF_2020-02-10_2020-02-11.csv",
+      "sha256": "e032d568fd1a62785692c62794b9cdae4af2fd2a05266693f54f442cb09f8aa4",
+      "reports": 48,
+      "station_timestamp_verified": true
+    },
+    {
+      "airport": "EGCC",
+      "landing_date": "2020-02-10",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGCC&data=all&year1=2020&month1=2&day1=9&year2=2020&month2=2&day2=11&tz=Etc%2FUTC&format=onlycomma&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\07_03_weather\\EGCC_2020-02-09_2020-02-11.csv",
+      "sha256": "bf743f3505968a436756e1b2358d93d4bb4c08e515fb31c666a368eac798d112",
+      "reports": 96,
+      "station_timestamp_verified": true
+    },
+    {
+      "airport": "LSZH",
+      "landing_date": "2020-02-10",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LSZH&data=all&year1=2020&month1=2&day1=10&year2=2020&month2=2&day2=11&tz=Etc%2FUTC&format=onlycomma&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\07_03_weather\\LSZH_2020-02-10_2020-02-11.csv",
+      "sha256": "dd48e85f1723f489daff3d1c054b6fa47436f2a212936c21bc7e923ee4f81255",
+      "reports": 47,
+      "station_timestamp_verified": true
+    },
+    {
+      "airport": "EGCC",
+      "landing_date": "2020-02-11",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGCC&data=all&year1=2020&month1=2&day1=11&year2=2020&month2=2&day2=12&tz=Etc%2FUTC&format=onlycomma&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\07_03_weather\\EGCC_2020-02-11_2020-02-12.csv",
+      "sha256": "5f298686f268c2b68a077eb698c937351a007b13e67dbc2ee746592543d7e5c7",
+      "reports": 48,
+      "station_timestamp_verified": true
+    },
+    {
+      "airport": "EGCC",
+      "landing_date": "2020-02-15",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGCC&data=all&year1=2020&month1=2&day1=15&year2=2020&month2=2&day2=16&tz=Etc%2FUTC&format=onlycomma&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\07_03_weather\\EGCC_2020-02-15_2020-02-16.csv",
+      "sha256": "9f3e70b905f591f31d6ecd90ee9ba93b2888a87a75ae3c8a5b2f2e8b72f411a8",
+      "reports": 48,
+      "station_timestamp_verified": true
+    },
+    {
+      "airport": "EIDW",
+      "landing_date": "2020-02-16",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EIDW&data=all&year1=2020&month1=2&day1=16&year2=2020&month2=2&day2=17&tz=Etc%2FUTC&format=onlycomma&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\07_03_weather\\EIDW_2020-02-16_2020-02-17.csv",
+      "sha256": "1b1de0eaf5d7edd82178d4614ca65ea9010363a2265ba4e5dc4c0298c88e467f",
+      "reports": 48,
+      "station_timestamp_verified": true
+    },
+    {
+      "airport": "EPWA",
+      "landing_date": "2020-02-16",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EPWA&data=all&year1=2020&month1=2&day1=16&year2=2020&month2=2&day2=17&tz=Etc%2FUTC&format=onlycomma&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\07_03_weather\\EPWA_2020-02-16_2020-02-17.csv",
+      "sha256": "f9c752af6ddb6456ed0548ef8ab94dadade73bb6d70f57944134e71de3bcb425",
+      "reports": 48,
+      "station_timestamp_verified": true
+    },
+    {
+      "airport": "EGCC",
+      "landing_date": "2020-02-22",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGCC&data=all&year1=2020&month1=2&day1=22&year2=2020&month2=2&day2=23&tz=Etc%2FUTC&format=onlycomma&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\07_03_weather\\EGCC_2020-02-22_2020-02-23.csv",
+      "sha256": "b76af207ef827de63f5ce884958fe5c23568590b9a8a234970317da59450a4aa",
+      "reports": 48,
+      "station_timestamp_verified": true
+    },
+    {
+      "airport": "EGCC",
+      "landing_date": "2020-02-24",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGCC&data=all&year1=2020&month1=2&day1=24&year2=2020&month2=2&day2=25&tz=Etc%2FUTC&format=onlycomma&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\07_03_weather\\EGCC_2020-02-24_2020-02-25.csv",
+      "sha256": "83dc7d7b729379d7ea3ff4fb770975567fe8a1bddf5a58940367e65db382873d",
+      "reports": 48,
+      "station_timestamp_verified": true
+    },
+    {
+      "airport": "EDDM",
+      "landing_date": "2020-02-27",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDM&data=all&year1=2020&month1=2&day1=27&year2=2020&month2=2&day2=28&tz=Etc%2FUTC&format=onlycomma&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+      "file": "docs\\sources\\files\\07_03_weather\\EDDM_2020-02-27_2020-02-28.csv",
+      "sha256": "d5324a01e41039feff5eee872f77b6bfb2d3973bb21b53e4597104c06198186f",
+      "reports": 48,
+      "station_timestamp_verified": true
+    }
+  ],
+  "causality_established": false
+}
