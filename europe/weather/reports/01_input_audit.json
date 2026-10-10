@@ -1,0 +1,17 @@
+{
+  "input": "europe\\data\\analytical\\06_05_cases_excluded.parquet",
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "checked_utc": "2026-10-10T19:32:05.393360+00:00",
+  "rows": 6331485,
+  "go_arounds": 18349,
+  "c40_missing": 0,
+  "selected_airports": [
+    "EGCC",
+    "EGLL",
+    "LFPG"
+  ],
+  "selection": "EGCC plus top two other airports by early C40 count; no GoA ranking",
+  "rows_changed": 0,
+  "rows_deleted": 0,
+  "input_unchanged": true
+}

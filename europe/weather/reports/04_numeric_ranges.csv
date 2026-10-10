@@ -1,0 +1,8 @@
+field,count,missing,minimum,maximum
+wind_speed_kt,76741,0,0.0,23.0
+wind_gust_kt,1494,75247,16.0,40.0
+visibility_m,76741,0,50.0,10000.0
+cloud_ceiling_ft,30858,45883,100.0,26000.0
+temperature_c,76732,9,-5.0,41.0
+dewpoint_c,76732,9,-7.0,22.0
+qnh_hpa,76732,9,983.0,1045.0

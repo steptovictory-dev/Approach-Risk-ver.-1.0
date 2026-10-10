@@ -1,0 +1,16 @@
+[
+  {
+    "notebook": "01_metar_coverage.ipynb",
+    "code_cells": 7,
+    "executed": true,
+    "embedded_figures": 3,
+    "html_outputs": 8
+  },
+  {
+    "notebook": "02_metar_decoding.ipynb",
+    "code_cells": 11,
+    "executed": true,
+    "embedded_figures": 4,
+    "html_outputs": 49
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "checked_utc": "2026-10-10T19:59:13.093155+00:00",
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "input_matches_sha256": "b7c8b3b8cc6cebad45ec0a49fb9cf4cfc2e7754ea5f72cdc6d5b2a7133dc78b7",
+  "original_inputs_unchanged": true,
+  "raw_reports": 9223,
+  "decoded_ok": 9213,
+  "residual_reports": 10,
+  "residual_matched_rows": 81,
+  "residual_matched_go_arounds": 3,
+  "residual_categories": {
+    "unsupported_runway_state_group": 5,
+    "unlabelled_weather_after_qnh": 2,
+    "unclassified_five_slashes": 2,
+    "temperature_and_qnh_absent": 1
+  },
+  "rows": 76741,
+  "go_arounds": 307,
+  "rows_deleted": 0,
+  "candidate_rows_60min": 76660,
+  "candidate_rows_60min_without_cor": 76523,
+  "candidate_go_arounds_without_cor": 303,
+  "absent_example_categories": [],
+  "availability_verified": false,
+  "parser": "python-metar",
+  "parser_version": "2.0.1",
+  "environment": {
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1",
+    "requests": "2.34.2",
+    "metar": "2.0.1"
+  },
+  "python_version": "3.14.6",
+  "decoder_sha256": "fd0924408aba7db677231ec88dc485324777154bbcf008a32aad75cf92aa8c2d",
+  "pipeline_sha256": "7d79db7debf52278ad2edf4a6a80b06273c5b14ba65331c92d6939fa7cc0fa95",
+  "limitations": [
+    "Observation time does not establish availability time",
+    "Destination airport may be outcome information",
+    "No runway wind components or operational thresholds inferred",
+    "No imputation; trend and remarks excluded from observed predictors"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "input_unchanged": true,
+  "rows": 76741,
+  "go_arounds": 307,
+  "downloads": [
+    {
+      "airport": "EGCC",
+      "month": "2019-01",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGCC&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2019-02-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+      "sha256": "6ffde5d7ac18d1441993c9726bbb2047e8e057c3ae7560eb427cffb6f643f2d6",
+      "downloaded_utc": "2026-10-10T19:33:37.856274+00:00",
+      "raw_reports": 1535,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "correction_reports": 6
+    },
+    {
+      "airport": "EGCC",
+      "month": "2019-07",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGCC&data=metar&sts=2019-06-30T00%3A00%3A00%2B00%3A00&ets=2019-08-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+      "sha256": "caeb1f5ad8399963603b90bfb36c3f317fb71b5993620ce9b8915443e205d0f1",
+      "downloaded_utc": "2026-10-10T19:34:11.942231+00:00",
+      "raw_reports": 1536,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "correction_reports": 2
+    },
+    {
+      "airport": "EGLL",
+      "month": "2019-01",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGLL&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2019-02-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+      "sha256": "971bee18f5cb3237cfb9f439baea19b3d3e69143a859a9defc2e36e22e7c1ae4",
+      "downloaded_utc": "2026-10-10T19:34:14.197476+00:00",
+      "raw_reports": 1535,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "correction_reports": 6
+    },
+    {
+      "airport": "EGLL",
+      "month": "2019-07",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGLL&data=metar&sts=2019-06-30T00%3A00%3A00%2B00%3A00&ets=2019-08-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+      "sha256": "c473bad7823f28da772b55e1387f292c9e862e0cca21066f88258c02888e74ff",
+      "downloaded_utc": "2026-10-10T19:34:16.338513+00:00",
+      "raw_reports": 1536,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "correction_reports": 2
+    },
+    {
+      "airport": "LFPG",
+      "month": "2019-01",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LFPG&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2019-02-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+      "sha256": "fb352e2a7d6dcfd40959144ce6a5424e34761df71575abc440ee4af45dbbb5ec",
+      "downloaded_utc": "2026-10-10T19:34:18.513577+00:00",
+      "raw_reports": 1544,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "correction_reports": 0
+    },
+    {
+      "airport": "LFPG",
+      "month": "2019-07",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LFPG&data=metar&sts=2019-06-30T00%3A00%3A00%2B00%3A00&ets=2019-08-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+      "sha256": "4224e2f934903ebe23b42ade3a4f13c281175ca3090071f84ea96a052ac73cb1",
+      "downloaded_utc": "2026-10-10T19:34:20.601915+00:00",
+      "raw_reports": 1537,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "correction_reports": 0
+    }
+  ],
+  "availability_verified": false,
+  "matching": "strictly previous observation; 60 min primary; ambiguous texts rejected",
+  "checked_utc": "2026-10-10T19:34:22.130275+00:00",
+  "rows_deleted": 0
+}

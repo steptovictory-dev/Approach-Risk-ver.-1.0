@@ -1,0 +1,171 @@
+{
+  "created_utc": "2026-10-10T20:16:32.602611+00:00",
+  "status": "protocol_frozen_before_new_metar_download",
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "previous_airports": [
+    "EGCC",
+    "EGLL",
+    "LFPG"
+  ],
+  "selected_airports": [
+    "EDDF",
+    "EHAM",
+    "LEMD"
+  ],
+  "selection": "Top three previously untested airports by early C40 record count; ICAO alphabetical tie-break; GoA not used",
+  "months": [
+    "2019-01",
+    "2019-07"
+  ],
+  "groups": [
+    {
+      "airport": "EDDF",
+      "month": "2019-01",
+      "rows": 15297,
+      "go_arounds": 35
+    },
+    {
+      "airport": "EDDF",
+      "month": "2019-07",
+      "rows": 20126,
+      "go_arounds": 81
+    },
+    {
+      "airport": "EHAM",
+      "month": "2019-01",
+      "rows": 12561,
+      "go_arounds": 24
+    },
+    {
+      "airport": "EHAM",
+      "month": "2019-07",
+      "rows": 16752,
+      "go_arounds": 21
+    },
+    {
+      "airport": "LEMD",
+      "month": "2019-01",
+      "rows": 13633,
+      "go_arounds": 12
+    },
+    {
+      "airport": "LEMD",
+      "month": "2019-07",
+      "rows": 16015,
+      "go_arounds": 28
+    }
+  ],
+  "station_metadata": [
+    {
+      "station": "EDDF",
+      "network": "DE__ASOS",
+      "properties": {
+        "elevation": 103.0,
+        "sname": "Frankfurt",
+        "time_domain": "(1928-Now)",
+        "archive_begin": "1928-01-01",
+        "archive_end": null,
+        "state": "  ",
+        "country": "DE",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Berlin",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "EDDF",
+        "network": "DE__ASOS",
+        "online": true,
+        "synop": null,
+        "attributes": {
+          "HAS_PHOUR": "1",
+          "METAR_RESET_MINUTE": "50"
+        }
+      },
+      "coordinates": [
+        8.5214,
+        50.0258
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/DE__ASOS.geojson",
+      "sha256": "efbf41bd895e7eca7ee91fc60a781f95a17433467e974e3b9817c934403e67af",
+      "downloaded_utc": "2026-10-10T20:14:50.960801+00:00"
+    },
+    {
+      "station": "EHAM",
+      "network": "NL__ASOS",
+      "properties": {
+        "elevation": 9.0,
+        "sname": "Amsterdam",
+        "time_domain": "(1932-Now)",
+        "archive_begin": "1932-05-03",
+        "archive_end": null,
+        "state": null,
+        "country": "NL",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Amsterdam",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "EHAM",
+        "network": "NL__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "METAR_RESET_MINUTE": "55",
+          "HAS_PHOUR": "1"
+        }
+      },
+      "coordinates": [
+        4.7902,
+        52.3154
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/NL__ASOS.geojson",
+      "sha256": "238e3ec0466e0d9592b0140be244e705fe1cad5ca66eaa5f5333e01e31d24c5d",
+      "downloaded_utc": "2026-10-10T20:14:51.652718+00:00"
+    },
+    {
+      "station": "LEMD",
+      "network": "ES__ASOS",
+      "properties": {
+        "elevation": 582.0,
+        "sname": "Madrid",
+        "time_domain": "(1931-Now)",
+        "archive_begin": "1931-01-02",
+        "archive_end": null,
+        "state": null,
+        "country": "ES",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Madrid",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "LEMD",
+        "network": "ES__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "METAR_RESET_MINUTE": "0",
+          "HAS_PHOUR": "1"
+        }
+      },
+      "coordinates": [
+        -3.5556,
+        40.4667
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/ES__ASOS.geojson",
+      "sha256": "29fcc0262c510535756241071be02ecaca35105445b410e23791b8655c434160",
+      "downloaded_utc": "2026-10-10T20:14:52.376469+00:00"
+    }
+  ],
+  "metar_download_executed": false,
+  "training_executed": false,
+  "input_unchanged": true
+}
