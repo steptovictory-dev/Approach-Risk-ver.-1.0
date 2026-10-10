@@ -1,0 +1,36 @@
+field,dtype,policy,availability_evidence,operationally_verified,missing_rows,missing_pct
+flight_id,string,identifier,Соединения / группировка; не базовый предиктор,False,0,0.0
+callsign,string,identifier,Соединения / группировка; не базовый предиктор,False,0,0.0
+icao24,string,identifier,Соединения / группировка; не базовый предиктор,False,0,0.0
+landing_time,"timestamp[ns, tz=UTC]",future,Результат или сведения о завершенных заходах,False,0,0.0
+registration,string,identifier,Соединения / группировка; не базовый предиктор,False,0,0.0
+typecode,string,conditional_metadata,Нет исторической версии и времени получения метаданных,False,221671,3.5010901865834003
+icaoaircrafttype,string,conditional_metadata,Нет исторической версии и времени получения метаданных,False,281738,4.449793373908332
+airport,string,conditional_context,"Нужно подтвердить предполагаемый аэропорт на C40, а не конечный пункт",False,0,0.0
+country,string,conditional_context,"Нужно подтвердить предполагаемый аэропорт на C40, а не конечный пункт",False,0,0.0
+attempt_times,"list<element: timestamp[us, tz=UTC]>",future,Результат или сведения о завершенных заходах,False,0,0.0
+ILS,list<element: string>,future,Результат или сведения о завершенных заходах,False,0,0.0
+n_attempts,int64,future,Результат или сведения о завершенных заходах,False,0,0.0
+GoA,bool,target,Метка результата; только оценка и обучение как y,False,0,0.0
+market_segment,string,conditional_metadata,Нет исторической версии и времени получения метаданных,False,1030118,16.269769256343498
+AC_CLASS,string,conditional_metadata,Нет исторической версии и времени получения метаданных,False,0,0.0
+AP_C_RWY,string,unresolved,Семантика и время формирования требуют подтверждения,False,0,0.0
+C40_CROSS_TIME,"timestamp[ns, tz=UTC]",conditional_event,Время события есть; время получения и задержка не записаны,False,0,0.0
+C40_BEARING,double,conditional_event,Время события есть; время получения и задержка не записаны,False,0,0.0
+C40_CROSS_LAT,double,conditional_event,Время события есть; время получения и задержка не записаны,False,0,0.0
+C40_CROSS_LON,double,conditional_event,Время события есть; время получения и задержка не записаны,False,0,0.0
+__index_level_0__,int64,identifier,Соединения / группировка; не базовый предиктор,False,0,0.0
+registration_was_empty_string,bool,audit_only,Происхождение / диагностика; не базовый предиктор,False,0,0.0
+typecode_was_empty_string,bool,audit_only,Происхождение / диагностика; не базовый предиктор,False,0,0.0
+icaoaircrafttype_was_empty_string,bool,audit_only,Происхождение / диагностика; не базовый предиктор,False,0,0.0
+aircraft_description_reference,string,retrospective_enrichment,Обогащение требует исторического справочника; не включено в сценарии,False,6327063,99.93015856469691
+aircraft_reference_status,string,audit_only,Происхождение / диагностика; не базовый предиктор,False,0,0.0
+aircraft_reference_source,string,audit_only,Происхождение / диагностика; не базовый предиктор,False,6327063,99.93015856469691
+aircraft_reference_checked_date,string,audit_only,Происхождение / диагностика; не базовый предиктор,False,6327063,99.93015856469691
+c40_time_missing,bool,audit_only,Происхождение / диагностика; не базовый предиктор,False,0,0.0
+c40_after_first_attempt,bool,future_diagnostic,Сравнение с будущим заходом / посадкой,False,0,0.0
+c40_after_landing,bool,future_diagnostic,Сравнение с будущим заходом / посадкой,False,0,0.0
+aircraft_description_restored,string,retrospective_enrichment,Обогащение требует исторического справочника; не включено в сценарии,False,6293545,99.4007724886026
+aircraft_restoration_status,string,audit_only,Происхождение / диагностика; не базовый предиктор,False,0,0.0
+aircraft_restoration_source,string,audit_only,Происхождение / диагностика; не базовый предиктор,False,6293545,99.4007724886026
+aircraft_restoration_checked_date,string,audit_only,Происхождение / диагностика; не базовый предиктор,False,6293545,99.4007724886026

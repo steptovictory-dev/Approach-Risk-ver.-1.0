@@ -46,6 +46,9 @@ import pyarrow as pa
 import pyarrow.compute as pc
 import pyarrow.parquet as pq
 import matplotlib.pyplot as plt
+from cycler import cycler
+plt.rcParams['axes.prop_cycle']=cycler(color=['#D65A4A','#00897B','#E69A90','#80CBC4'])
+
 from IPython.display import display, Markdown
 
 # Для самостоятельного проекта задайте SAMPLE_SELECTION_DATA_ROOT – каталог,
@@ -61,7 +64,7 @@ REPORTS.mkdir(exist_ok=True); FIGURES.mkdir(exist_ok=True)
 plt.rcParams.update({'figure.figsize': (11, 5), 'figure.dpi': 120,
                      'axes.spines.top': False, 'axes.spines.right': False,
                      'axes.grid': True, 'grid.alpha': .18, 'font.size': 11})
-COLORS = ['#263b56', '#607d9c', '#37a59a', '#277b71', '#d18a48']
+COLORS = ['#00897B', '#E69A90', '#00897B', '#00897B', '#D65A4A']
 STAGES = ['source', 'pairs', 'complete', 'temporal', 'final']
 LABELS = dict(zip(STAGES, ['Источник', 'Без неоднозначных пар', 'Полный конечный C40',
                           'C40 раньше попытки', 'Итоговая выборка']))
@@ -249,8 +252,8 @@ axes[1].set_xticks(range(5), ['Источник','Без пар','Полнота
 axes[1].set_ylabel('GoA, %'); axes[1].set_title('Частота исходной метки')
 savefig('01_population_flow')
 plt.figure(figsize=(10,4))
-plt.plot([LABELS[s] for s in STAGES], summary.positive_retained_pct, 'o-', label='GoA=True', color='#c16b39')
-plt.plot([LABELS[s] for s in STAGES], summary.negative_retained_pct, 'o-', label='GoA=False', color='#277b71')
+plt.plot([LABELS[s] for s in STAGES], summary.positive_retained_pct, 'o-', label='GoA=True', color='#D65A4A')
+plt.plot([LABELS[s] for s in STAGES], summary.negative_retained_pct, 'o-', label='GoA=False', color='#00897B')
 plt.xticks(rotation=15); plt.ylabel('Сохранено от источника, %'); plt.legend()
 plt.title('Отбор по-разному сохраняет две метки'); savefig('02_label_retention')
 ''')

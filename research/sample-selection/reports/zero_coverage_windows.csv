@@ -1,0 +1,3 @@
+airport,start_month,end_month,observed_months,rows_source,goa_source,reasons
+EGCC,2021-03,2023-01,23,106096,401,missing_c40
+LTFJ,2019-01,2023-05,53,387368,2414,missing_c40

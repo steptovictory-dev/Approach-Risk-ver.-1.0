@@ -17,6 +17,9 @@ import json
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from cycler import cycler
+plt.rcParams['axes.prop_cycle']=cycler(color=['#D65A4A','#00897B','#E69A90','#80CBC4'])
+
 from IPython.display import display, Markdown
 ROOT = Path.cwd().resolve()
 while not (ROOT/'reports/selection_summary.csv').exists():
@@ -87,7 +90,7 @@ display(losses['year'].style.format(precision=3))
 или события; причинная трактовка требует отдельной проверки.'''), nbf.v4.new_code_cell('''p=losses['airport'].pivot(index='airport',columns='step',values='goa_removed').reindex(columns=names)
 top=p.sum(axis=1).nlargest(15).index
 q=p.loc[top].iloc[::-1]
-q.plot.barh(stacked=True,figsize=(12,7),color=['#d18a48','#263b56','#37a59a','#956d9c'])
+q.plot.barh(stacked=True,figsize=(12,7),color=['#D65A4A','#E69A90','#00897B','#80CBC4'])
 plt.xlabel('Не вошедшие метки GoA=True'); plt.ylabel('Аэропорт')
 plt.title('Где сосредоточены потери GoA'); plt.legend(loc='lower right',fontsize=9)
 save('07_positive_losses_by_stage')
@@ -106,7 +109,7 @@ for ax,group,limit in [(axes[0],'airport',20),(axes[1],'year',10)]:
     p=a.pivot(index=group,columns='stage',values='rows').reindex(columns=stages).fillna(0)
     p=p.loc[p.source.nlargest(limit).index] if group=='airport' else p.sort_index()
     retention=100*p.iloc[:,1:].div(p.source,axis=0)
-    im=ax.imshow(retention,aspect='auto',vmin=0,vmax=100,cmap='YlGnBu')
+    im=ax.imshow(retention,aspect='auto',vmin=0,vmax=100,cmap='Greens')
     ax.set_yticks(range(len(p)),p.index)
     ax.set_xticks(range(4),['Без пар','Полнота','Время','Финал'],rotation=35,ha='right')
     ax.set_title('Аэропорты' if group=='airport' else 'Годы UTC'); ax.grid(False)
