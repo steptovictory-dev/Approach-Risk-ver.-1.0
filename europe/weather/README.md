@@ -44,3 +44,5 @@
 [Ноутбук 08](notebooks/08_full_weather_coverage.ipynb): результаты всей базы и сценарии покрытия. [Отчет](reports/12_full_coverage_review.md).
 
 [Ноутбук 09](notebooks/09_numeric_anomaly_audit.ipynb): отдельный числовой аудит с исходными сообщениями, соседями и графиком. [Отчет](reports/15_numeric_audit_review.md). Значения сохранены без исправления.
+
+[Проект протокола числового качества](reports/17_numeric_quality_protocol.md): предлагаемые правила и оценка воздействия; согласование ожидается, маски к признакам не применены. [Наглядная расшифровка METAR](reports/16_metar_eham_explained.md).

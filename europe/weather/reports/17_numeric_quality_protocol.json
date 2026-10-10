@@ -1,0 +1,30 @@
+{
+  "version": "numeric-quality-v1-draft",
+  "status": "proposed_pending_user_decision",
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "candidates_sha256": "bd789950432fb73ebd56eb17510bf651001d601a7bc030680f7718288d0268ae",
+  "unique_candidate_messages": 18,
+  "baseline_linked_rows": 44,
+  "baseline_linked_go_arounds": 0,
+  "baseline": {
+    "max_age_minutes": 60,
+    "assumed_latency_minutes": 0,
+    "include_cor": true
+  },
+  "rules": {
+    "audited_extremes": "proposed_field_mask_by_metar_id",
+    "dewpoint_above_temperature": "proposed_mask_both_temperature_and_dewpoint",
+    "qnh_diagnostic_interval_hpa": [
+      850,
+      1100
+    ],
+    "diagnostic_range_alone": "review_only"
+  },
+  "source_values_changed": false,
+  "feature_masks_applied": false,
+  "rows_deleted": 0,
+  "quality_flags_as_predictors_approved": false,
+  "training_executed": false,
+  "retrospective_audit_registry": true,
+  "future_neighbors_as_features": false
+}
