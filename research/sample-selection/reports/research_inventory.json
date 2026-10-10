@@ -1,7 +1,7 @@
 {
   "scope": "public research files; local data and checkpoints are separate",
   "local_data_files": 15,
-  "local_checkpoint_files": 11,
+  "local_checkpoint_files": 12,
   "inventory": [
     {
       "file": ".gitignore",
@@ -15,8 +15,8 @@
     },
     {
       "file": "README.md",
-      "bytes": 18358,
-      "sha256": "0e116a2fb76a21949fc04da17ce1967df05eca56b515fdb3204d8e694aa19f88"
+      "bytes": 18858,
+      "sha256": "5dc4f84755eb83698e9b987c35ad6fc16455f6eb6422ad74860e0f9bc5b76416"
     },
     {
       "file": "requirements-lock.txt",
