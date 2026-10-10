@@ -51,4 +51,4 @@
 
 [Аудит остаточных форматов](reports/19_residual_format_review.md): все 2425 случаев воспроизведены, установлен дефект коротких CB/TCU; данные пока не изменены. [Выполненный ноутбук 11](notebooks/11_residual_format_audit.ipynb).
 
-[Методологическая заметка для диссертации](reports/20_dissertation_metar_cloud_semantics.md): Météo-France, семантика коротких CB/TCU, дефект первоначального декодера и след доказательств до исправления.
+[Методологическая заметка для диссертации](reports/20_dissertation_metar_cloud_semantics.md): Météo-France, неполнота облачных наблюдений и аномальные значения в исходных METAR.
