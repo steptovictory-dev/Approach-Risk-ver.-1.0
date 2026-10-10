@@ -1,0 +1,27 @@
+{
+  "version": "final-c40-weather-v1",
+  "status": "accepted",
+  "user_decision_date_local": "2026-10-11",
+  "timezone": "Europe/Moscow",
+  "maximum_age_minutes": 60,
+  "assumed_latency_minutes": 15,
+  "include_cor": true,
+  "cor_separate_flag": true,
+  "imputation": false,
+  "historical_receipt_time_verified": false,
+  "airport_known_at_c40": "accepted_study_assumption",
+  "observed_core_policy": "use_full_decoded_or_validated_core; otherwise model fields missing",
+  "unparsed_tail_policy": "preserve_raw; no model features reconstructed",
+  "numerical_quality": "accepted numeric-quality-v1 masks by metar_id",
+  "selection": "latest strictly preceding assumed availability; no fallback by quality",
+  "temporal_split": {
+    "status": "accepted_and_applied_as_separate_mapping",
+    "time_field": "C40_CROSS_TIME",
+    "timezone": "UTC",
+    "train": "before 2022-01-01",
+    "validation": "2022",
+    "test": "2023",
+    "independent_confirmatory_test": false
+  },
+  "training_authorized": false
+}

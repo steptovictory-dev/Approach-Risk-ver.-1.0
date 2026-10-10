@@ -1,0 +1,380 @@
+{
+  "rows": 6331485,
+  "source_input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "files": [
+    {
+      "name": "EDDB_2019.parquet",
+      "sha256": "83c6bc7d3e32c0690a1ac532948e3a4c4c837851f870475b250599a692171b8e"
+    },
+    {
+      "name": "EDDB_2020.parquet",
+      "sha256": "44f794bb207cb754c07abbf0d123a7f2318d5b86444e79d32ff2c7c68fea1841"
+    },
+    {
+      "name": "EDDB_2021.parquet",
+      "sha256": "144d7e9888e2aa04d899eea16bda7131b23c6fea0d9e42b9f5e5c3330f2c5165"
+    },
+    {
+      "name": "EDDB_2022.parquet",
+      "sha256": "8c16441a007ac37a5c58caa83a2f1e0a4f01d06eb5002698bf86bceae7012951"
+    },
+    {
+      "name": "EDDB_2023.parquet",
+      "sha256": "0038af573d0e2fb8d6fb7f3f7ccbdb4af48876fb4066eff421a506fe444a2e86"
+    },
+    {
+      "name": "EDDF_2019.parquet",
+      "sha256": "d6a350ab423eff9e8f4cd24bab5dfe38efaf4f709129a671c0c2870562f882a1"
+    },
+    {
+      "name": "EDDF_2020.parquet",
+      "sha256": "140c3bacd273925d68ef28f6a4c28a76b6c3f7b0df78de3eae24abf81a757787"
+    },
+    {
+      "name": "EDDF_2021.parquet",
+      "sha256": "776e2a204b6843f3704469f6763a91345a7d51dd93f4b54e30cf037eab659084"
+    },
+    {
+      "name": "EDDF_2022.parquet",
+      "sha256": "e92da3f1666110f94b99d8e8fc722692a1322698b1db781772de9595faeae65e"
+    },
+    {
+      "name": "EDDF_2023.parquet",
+      "sha256": "dca52f7d0cea4ad3ba046c61ddb4bc3a3ebfb28ec7e9556e03e43b2e8bcf8f26"
+    },
+    {
+      "name": "EDDM_2019.parquet",
+      "sha256": "0a20640a08f6fe2682d4b369de2723185331556d8f717f4ce449feb32392a399"
+    },
+    {
+      "name": "EDDM_2020.parquet",
+      "sha256": "9c6a3a73992ea16c862655fd793137d7846c32779ca46e9850bec988d2266813"
+    },
+    {
+      "name": "EDDM_2021.parquet",
+      "sha256": "a7107ef7502341ed555569cdbc51d2c15175607ec130351ac006550a7c826b3f"
+    },
+    {
+      "name": "EDDM_2022.parquet",
+      "sha256": "fc3225c3266266cedac31be823db49c98b7eff46fa4956c88d762e1f820fc8ff"
+    },
+    {
+      "name": "EDDM_2023.parquet",
+      "sha256": "620ddc697d67153a35db1d975667baf6c0677976be1542688ffb69e02cbe2371"
+    },
+    {
+      "name": "EGCC_2019.parquet",
+      "sha256": "1b20e20ea73cf646b3136cc21a0f5539426aa1fea2f2cdc5ddca3a51bc75d750"
+    },
+    {
+      "name": "EGCC_2020.parquet",
+      "sha256": "c0da5298a2463f06e190b39af7c1fc8d388efa78114586dd1dae39f9daab4ee8"
+    },
+    {
+      "name": "EGCC_2021.parquet",
+      "sha256": "6e0b24737ed30ccebebecdbbc69366867c65426e8f903c41ee0211c0113ba252"
+    },
+    {
+      "name": "EGLL_2019.parquet",
+      "sha256": "1fcd78d364f191967c08ba83207e0e692a8f08a1a94fd04de3d5a2b4af0d7e0b"
+    },
+    {
+      "name": "EGLL_2020.parquet",
+      "sha256": "929c4a321c359ff638bd8ecf247168ced1668ba5ef436f9ada2cb8eeb2c53506"
+    },
+    {
+      "name": "EGLL_2021.parquet",
+      "sha256": "1be9aa7f87d19b94603eca72494e2c161fafe24ca632fab6ac3e3e0c791a73e4"
+    },
+    {
+      "name": "EGLL_2022.parquet",
+      "sha256": "af8c3b2decf7d3079b008c648a24a45194ddf6ba4677ed9e144152357afd8a1f"
+    },
+    {
+      "name": "EGLL_2023.parquet",
+      "sha256": "f0e0192d8028327951b4ac12278c4d53983f07ce044e62cb4a45c2be1a79c5c2"
+    },
+    {
+      "name": "EGSS_2019.parquet",
+      "sha256": "0544e1c6ee232014b89a61c764b9f25b4642577599fbe6ca4f99969d63967777"
+    },
+    {
+      "name": "EGSS_2020.parquet",
+      "sha256": "797eb70557b84fa91e14eaedb08e088ebca7837525ae99bcac2d772339c93d2f"
+    },
+    {
+      "name": "EGSS_2021.parquet",
+      "sha256": "6ac354cc7285908df36f62a4cf651512abbcfa8e67f1d8aefd39f099e8971b99"
+    },
+    {
+      "name": "EGSS_2022.parquet",
+      "sha256": "8757b553b407a625537be6c03f39c7f330a16cfd08d91898624cccc136ffe812"
+    },
+    {
+      "name": "EGSS_2023.parquet",
+      "sha256": "9a41e4b86b48978dcdbb12a4ec6359f5ba910b5190611da083b6402e19ee9d7a"
+    },
+    {
+      "name": "EHAM_2019.parquet",
+      "sha256": "dad0bf18e971e5948ff87dff84448dca2d20eb6b55f349075c21aa1438f07b9e"
+    },
+    {
+      "name": "EHAM_2020.parquet",
+      "sha256": "0ecf78475ef829062ccb9daa441d6d324ca6462d7c6db750a30f0c60ca10cdb7"
+    },
+    {
+      "name": "EHAM_2021.parquet",
+      "sha256": "a09c7e72faadc6af95dbb7cb7d13443af1573e245a179e5ee7c07de480d47264"
+    },
+    {
+      "name": "EHAM_2022.parquet",
+      "sha256": "1daca8d1e3e4618a495900c524ab210addd583cb3d6dae2a83dc52ce2c5d25ae"
+    },
+    {
+      "name": "EHAM_2023.parquet",
+      "sha256": "3430964c089c7942b0dc2399a338a3dca70bf22926333d7acb139e80f48d3ad4"
+    },
+    {
+      "name": "EIDW_2019.parquet",
+      "sha256": "bbd1d231d40475b39c14178881610d0a1fe16be47aaec94cddccf65d53d6496d"
+    },
+    {
+      "name": "EIDW_2020.parquet",
+      "sha256": "ac2ae324f8c4616075d094e8c2d55d62d689ebefa8c01e194fd76b8a9f3ade20"
+    },
+    {
+      "name": "EIDW_2021.parquet",
+      "sha256": "c8b1c0c8b7ec52dc469c40b5b9043bbeb1de80f657bedeb84b272306f518fa92"
+    },
+    {
+      "name": "EIDW_2022.parquet",
+      "sha256": "f9876ca43d17b1a5888ede386544fa5823043cae47b9940b69a0a9bd3f16e4be"
+    },
+    {
+      "name": "EIDW_2023.parquet",
+      "sha256": "53316115d6c01f04d8e1ed37ab16c9ae0ee65901ca01796f9db105af8790c3aa"
+    },
+    {
+      "name": "EKCH_2019.parquet",
+      "sha256": "771c89457ad7ffbd1d21381ea6926b65ac83bc62c3bbf7b5fdcd9f45d719a13d"
+    },
+    {
+      "name": "EKCH_2020.parquet",
+      "sha256": "cff9e1b45a061cc403a19ca0a59e8523bdc1c3cf7101b048979df26854a53a34"
+    },
+    {
+      "name": "EKCH_2021.parquet",
+      "sha256": "1c7584e6049888a3384946fb5953e4ad76684c015893e9f489e25aebb3767681"
+    },
+    {
+      "name": "EKCH_2022.parquet",
+      "sha256": "f45e8a4e7293cd017f2e9981ff0bcc4f3a78e07026bfbf719954e79934aa3a9b"
+    },
+    {
+      "name": "EKCH_2023.parquet",
+      "sha256": "9a17ab97fee6358dcbb6e7b639b7266797fb9666f57b9af1cf4297773539a1a4"
+    },
+    {
+      "name": "EPWA_2019.parquet",
+      "sha256": "a16d66a92336295de37a934efeb49aa4031b1fc9fd852f5131bcd164616fa0d0"
+    },
+    {
+      "name": "EPWA_2020.parquet",
+      "sha256": "b1c1a78d7e3087c54a47f4f3308cd5df63ba062c3c4ceb6127ab7e00896673af"
+    },
+    {
+      "name": "EPWA_2021.parquet",
+      "sha256": "3a873dde20d0df69d5e8372649e261ef24c204f6ab6aad4bfbbc9690e0f97f9a"
+    },
+    {
+      "name": "EPWA_2022.parquet",
+      "sha256": "b1f4c949f445c3a7281e1435b9ca5437829aa767ce4ed903e684b55d891be9f3"
+    },
+    {
+      "name": "EPWA_2023.parquet",
+      "sha256": "f3bbaa9a28c88f269e0428d15264fa2e06d8dd46dff625d4f26980376ad9096a"
+    },
+    {
+      "name": "ESSA_2019.parquet",
+      "sha256": "3c0a006e227be42f2bdadc57048fce6ac7005fa5888e769e0b8bd210c460689b"
+    },
+    {
+      "name": "ESSA_2020.parquet",
+      "sha256": "e3c7854b16c4a6203fa91d16ffd07d08a3aae76e2010aa3df30510488f1f0253"
+    },
+    {
+      "name": "ESSA_2021.parquet",
+      "sha256": "f190f7d97c7453f809a8bcfb38567b6d215d751cee8fa4fec7e7da121d8d7eec"
+    },
+    {
+      "name": "ESSA_2022.parquet",
+      "sha256": "8d060ca39b7fd506955ec845ea6f78f49244bbabb5c14bf9923881f0af4324d4"
+    },
+    {
+      "name": "ESSA_2023.parquet",
+      "sha256": "8492e527c2dc5fb42171ad0d1b4d332a63f3217cc61e2030d77fc54531dd2a53"
+    },
+    {
+      "name": "LEMD_2019.parquet",
+      "sha256": "c46833a9a05f0d014a5c8d6865962803e1b4746f39e8dc0ceae1543d98b0a388"
+    },
+    {
+      "name": "LEMD_2020.parquet",
+      "sha256": "b9276026b6dae4a382c3c98d440775760e01f21b2803b927b038207f41399fbc"
+    },
+    {
+      "name": "LEMD_2021.parquet",
+      "sha256": "5974517ea0c9e60f98241b5a3a434cbe49763c9461d4290a6053955574adc831"
+    },
+    {
+      "name": "LEMD_2022.parquet",
+      "sha256": "92f733a0fee890fcb043f283e4b90d73fa48558470caa12bd724331a6b45619e"
+    },
+    {
+      "name": "LEMD_2023.parquet",
+      "sha256": "7faaafbef68a86eda121d045fbeed5c1528c5687cc0043e3ea0ddb9e0d87f8f6"
+    },
+    {
+      "name": "LFPG_2019.parquet",
+      "sha256": "3e29a05adf639ab5571c9696a7fcc91d44af6683e71c913fc0b990907f6acf7d"
+    },
+    {
+      "name": "LFPG_2020.parquet",
+      "sha256": "e427841aa5ea61d487ccc7c1fe29c6ec7c88e2def3e3b5dc5d45b477e3bd9aae"
+    },
+    {
+      "name": "LFPG_2021.parquet",
+      "sha256": "b93a71acc7f736ce3feaa5c68a4f9b3816d6404babb73043e9e632651fdc60f4"
+    },
+    {
+      "name": "LFPG_2022.parquet",
+      "sha256": "6f9b33dcbc1383f5d7f12639ec2a955ed73194ead11ef85250f5eec313cf19d6"
+    },
+    {
+      "name": "LFPG_2023.parquet",
+      "sha256": "68531c0c02133f88a74eda8f8402ae7accc605e7937c2d55d43f680ca141cd45"
+    },
+    {
+      "name": "LFPO_2019.parquet",
+      "sha256": "dfd38d7ddf7fcffeabd65df2d04455ee678d53649b3e94fe834a63b8fd305c7d"
+    },
+    {
+      "name": "LFPO_2020.parquet",
+      "sha256": "a23057a564501e4783b7f927f85936276a266e81f66c75105b626aa63bf3ad6f"
+    },
+    {
+      "name": "LFPO_2021.parquet",
+      "sha256": "e0f18c195a16d1766de546a896271c7474d5257b930fecd869d4d75247128bbb"
+    },
+    {
+      "name": "LFPO_2022.parquet",
+      "sha256": "a88290c50bd074e4ceca826d7f59e12406699c90cd485bde99e977624036521b"
+    },
+    {
+      "name": "LFPO_2023.parquet",
+      "sha256": "1ebbbd4d6896f0d0b7e5e2820ad1eb60bac0a5c470ad83897170ec4cc98d9820"
+    },
+    {
+      "name": "LIMC_2019.parquet",
+      "sha256": "bdf7e71216eb2b823435fb2a6d3a388fe696e18ff1e380edade98441b6f8c38c"
+    },
+    {
+      "name": "LIMC_2020.parquet",
+      "sha256": "3ee71e03e06629252cc05e3661b3ae63ee29518ac4f79f3381a1f94dd5649af0"
+    },
+    {
+      "name": "LIMC_2021.parquet",
+      "sha256": "db7a8021ed6cd3c11a8a1cbf5e91d5d8dbef482e51e512e72cc92a39884af02b"
+    },
+    {
+      "name": "LIMC_2022.parquet",
+      "sha256": "eb16159e5dfa6a0c92bb30a3578295900a7be16df3d69e39e2d9c23db80d816e"
+    },
+    {
+      "name": "LIMC_2023.parquet",
+      "sha256": "59c21f659bc68539b7b3a62f444831c3e7690494c143dc2ec1a1a7f4940663c0"
+    },
+    {
+      "name": "LIRF_2019.parquet",
+      "sha256": "d202aa1e6c11373948109ca2b6cd0b4a963ae53125bf8d5dd9b0ead9eccc721a"
+    },
+    {
+      "name": "LIRF_2020.parquet",
+      "sha256": "d1f1314f51b76d16018ffcd739f0724c93676585f364531fb9aa0625f7b29ae4"
+    },
+    {
+      "name": "LIRF_2021.parquet",
+      "sha256": "5190e239c18fa17d6bd0735ef33007121ad8951632e1fb1caba2ea9682bad60b"
+    },
+    {
+      "name": "LIRF_2022.parquet",
+      "sha256": "86deef1319d1e56e9d35243a7976afa4185b728fdac724e9973c5b76842afee5"
+    },
+    {
+      "name": "LIRF_2023.parquet",
+      "sha256": "997569510f7f6dcc680c5f9171457e3f40c876c763266eb239d2694b315efc62"
+    },
+    {
+      "name": "LOWW_2019.parquet",
+      "sha256": "d7bfeb95f64e6320d3cc39af9c1f6db30b082dd640c2bbc67383e9c835c5dc57"
+    },
+    {
+      "name": "LOWW_2020.parquet",
+      "sha256": "2762b80b293bdbb11a2f8e9b727f0a8c3539bab147f4764874df79f1c7525aeb"
+    },
+    {
+      "name": "LOWW_2021.parquet",
+      "sha256": "23df3868d6fb4e798f8f00f0d8ed6c39298fedcf4e47473d22acbacfee3fbfec"
+    },
+    {
+      "name": "LOWW_2022.parquet",
+      "sha256": "b20ea7c69c0e1847b51b10e8669db82f211cef577443fd1f8d121815e2ec9955"
+    },
+    {
+      "name": "LOWW_2023.parquet",
+      "sha256": "82e724703b2523d0d503a5711f0ff804a668bf5e51729c2bb7eb86ba59116554"
+    },
+    {
+      "name": "LSGG_2019.parquet",
+      "sha256": "03bbb9b11bebbf5bc0f9bc8f2ea04085f21fafd06eb651b67dbf93a8a036adf3"
+    },
+    {
+      "name": "LSGG_2020.parquet",
+      "sha256": "4247be76a6a46ca66bfdbf13b41708626cc3f2efdb59c4aff913befe9211770b"
+    },
+    {
+      "name": "LSGG_2021.parquet",
+      "sha256": "2fbc4dc47ed685de9ae4028afcc912d4609e2f04ccbc5e1529f6f3e2defd2d7d"
+    },
+    {
+      "name": "LSGG_2022.parquet",
+      "sha256": "8a8643059aa0e7958e5829d53ec209d0b9be4564fb4b63f0afaefdf5fb858233"
+    },
+    {
+      "name": "LSGG_2023.parquet",
+      "sha256": "2553b7c7e90cc64fc8c434007f55ffeb92ac6c92e08c1b5d58dd93c5d4bc3502"
+    },
+    {
+      "name": "LSZH_2019.parquet",
+      "sha256": "e651899183164117d2f30f94da6ebde35b4fd7b66c9959924a3bf90795914892"
+    },
+    {
+      "name": "LSZH_2020.parquet",
+      "sha256": "f0fce7ef40be5461138f1e77241b832a03457816b15fca231e4ff601b7e1fed5"
+    },
+    {
+      "name": "LSZH_2021.parquet",
+      "sha256": "9d89d6671fad20f62fcc39f295fc6fc2b13ea8a82b70cf7736bd489427aa5611"
+    },
+    {
+      "name": "LSZH_2022.parquet",
+      "sha256": "83b306365c01379871492c06864604b63a10150a0259e9e4cfd93b9ff2fbe0d6"
+    },
+    {
+      "name": "LSZH_2023.parquet",
+      "sha256": "e4a00a9bf38164b09f7381d2f64794074b497967590d1208b8d394126dab8f55"
+    }
+  ],
+  "training_executed": false,
+  "model_table_join": "drop placeholder temporal_split then merge mapping on source_row; validate one_to_one"
+}

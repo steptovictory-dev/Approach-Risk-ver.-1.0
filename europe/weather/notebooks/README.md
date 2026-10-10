@@ -46,3 +46,6 @@
 12. [12. Обновление облачных групп](12_cloud_format_update.ipynb): сравнение cloud-v2, совместимость пилотов, сохранность числовых масок и 26 тестов. 2 рисунка.
 
 Воспроизведение cloud-v2: europe/weather/scripts/rebuild_cloud_v2.py, затем europe/weather/scripts/build_cloud_v2_notebook.py через .venv/Scripts/python.exe из корня проекта. Исходные архивы не загружаются повторно; предыдущие версии данных сохраняются.
+
+13. [Правила использования остаточных форматов](13_residual_usage_protocol.ipynb).
+14. [Итоговая таблица погодных признаков на C40](14_final_c40_weather_features.ipynb), независимая проверка и временное разделение.

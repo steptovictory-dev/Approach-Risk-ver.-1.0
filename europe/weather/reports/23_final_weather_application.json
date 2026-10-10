@@ -1,0 +1,583 @@
+{
+  "version": "final-c40-weather-v1",
+  "rows": 6331485,
+  "go_arounds": 18349,
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "all_source_rows_present_once": true,
+  "events_and_labels_unchanged": true,
+  "source_reports_unchanged": true,
+  "strict_assumed_availability_before_c40": true,
+  "max_age_minutes": 60,
+  "assumed_latency_minutes": 15,
+  "include_cor": true,
+  "imputation": false,
+  "availability_verified": false,
+  "numeric_mask_registry_preserved": true,
+  "numeric_flagged_rows": 50,
+  "numeric_masked_cells": 96,
+  "rows_deleted": 0,
+  "training_executed": false,
+  "temporal_split_assigned": false,
+  "created_utc": "2026-10-10T21:43:27.277710+00:00",
+  "implementation_sha256": "3e71c8b6966fbbba25784ce19974ad23c0bd4aac68a0c111c79f420c488c034a",
+  "files": [
+    {
+      "name": "EDDB_2019.parquet",
+      "sha256": "8a394f5780e914fa876be9d13d2400c86cbf5f7d8a4c28a0164b9a195c9f96b2",
+      "source_reports_sha256": "9ad4df4360557d20097965d6fbc1ac1aa9c9f701000eff80e88692a11bf9b318",
+      "rows": 28762
+    },
+    {
+      "name": "EDDB_2020.parquet",
+      "sha256": "4179880d5e063d8c3783707adaecf5b4c0293cbba34ca0ad3cd2efe41629c454",
+      "source_reports_sha256": "0743f53342362ebc1e99006ccacbc467fe15588eadcc14d1afd48ac087b5100f",
+      "rows": 13117
+    },
+    {
+      "name": "EDDB_2021.parquet",
+      "sha256": "97b7fc26041bd24805355be01cd43da59eed4eaa541e0492b38d9ddb3dee1b87",
+      "source_reports_sha256": "63e41b41a81c2d42b6c92b264a92f2e120493630b519002606f35637ffb99e4e",
+      "rows": 35640
+    },
+    {
+      "name": "EDDB_2022.parquet",
+      "sha256": "8da8d99807ebb8cff9a6117088002b15f68ff09f6ec4d5b2e327472cea09a67f",
+      "source_reports_sha256": "1b030c689d84042812acd6fbfeac44213583f6d21e354683a04296d59e528d07",
+      "rows": 50306
+    },
+    {
+      "name": "EDDB_2023.parquet",
+      "sha256": "c69f4d370ffd6c2f7d38e6deaebb93c1b68f202094d1b5ff3f3701882695a277",
+      "source_reports_sha256": "3098bec99f16cf60be59d3c49332c52d98b944414fb522ee1cb05f5fc31c438a",
+      "rows": 20511
+    },
+    {
+      "name": "EDDF_2019.parquet",
+      "sha256": "54806cc2cf701aba7cd74e9aceba0390bf9cd42ea68fb8ced58680d21eca71a6",
+      "source_reports_sha256": "204b3879f3f17dee3ed0ea9412e53ac38b456ceadbdba0ad3cfdd8aad8189872",
+      "rows": 218773
+    },
+    {
+      "name": "EDDF_2020.parquet",
+      "sha256": "a438d5141258a781adb6dba04f2e46becf2f628138ad71dd43f3cc99d2e9c311",
+      "source_reports_sha256": "076faf4f6d36c2b5173a757332fcb12346ed3b0eeb096a3b71ea796b2997d65f",
+      "rows": 96515
+    },
+    {
+      "name": "EDDF_2021.parquet",
+      "sha256": "3349850f7e720c849619881e199b702eda8065b14d62c36f9961e10cd4e1e758",
+      "source_reports_sha256": "b2827fb1d525a574c598c385fb5f0d0f9bffaca79ff420045c989d29204a075f",
+      "rows": 118807
+    },
+    {
+      "name": "EDDF_2022.parquet",
+      "sha256": "ad751b946013671f751d1bb0ec1f16e085ad9836710c294e241e3f92c17f5417",
+      "source_reports_sha256": "b76bc43c1690a89d6a1b71e64cd75d9356a11f68e8fcecbd44b78ce192ee6346",
+      "rows": 159344
+    },
+    {
+      "name": "EDDF_2023.parquet",
+      "sha256": "d2499cfaa7196de3fbf010c2e95cb59672e8ef27494776289f3e7cf8e25a9bac",
+      "source_reports_sha256": "a281a782b0ab9e55d68d7d382dbcd37a475849f9e950a12c7e799960779118cb",
+      "rows": 11521
+    },
+    {
+      "name": "EDDM_2019.parquet",
+      "sha256": "35a1aa33a10d23103e2aafb62a221b6e98d87fbf2cd4e7acb6fe31261849d5bd",
+      "source_reports_sha256": "10bf2373818db3f7784c733cb3d7247f9f3913a10a3a4e75e2934dcb1a542bae",
+      "rows": 163062
+    },
+    {
+      "name": "EDDM_2020.parquet",
+      "sha256": "3506fa08777409b5bf8151cfb242f7a64f876f6c1f706cd8460ea449a8964db9",
+      "source_reports_sha256": "1d415ea597fb73be6692df3a35bc6861fc9840e1d462534c186eb17e0b730783",
+      "rows": 60295
+    },
+    {
+      "name": "EDDM_2021.parquet",
+      "sha256": "2309605a1308a8e6cf3a705259c238fad51b9b3df45b4706b22d1a90d5e3ec6a",
+      "source_reports_sha256": "87475f4689580ae5bbcbf53cd5739dc26d09f154f3d7a31aec4a27c4cde773d4",
+      "rows": 64783
+    },
+    {
+      "name": "EDDM_2022.parquet",
+      "sha256": "f3fd94f289e59263e2852a48d597c92d0c64b9efab9123ff1b43af5812220a6a",
+      "source_reports_sha256": "05b26185b2b1344d81078f042d231d429354fc018274fea17b32b064718201a4",
+      "rows": 111816
+    },
+    {
+      "name": "EDDM_2023.parquet",
+      "sha256": "5841c23a6e573357a5353bc2f0d50bc205e3fc8fd0bfb4d1520e0508771255dc",
+      "source_reports_sha256": "93e82d631fab77f514819c58870f8b3e8f27f26c08ffe6e1ac66fed42c769e2a",
+      "rows": 43247
+    },
+    {
+      "name": "EGCC_2019.parquet",
+      "sha256": "f341c175a8fd5680b65b55e0808b3db255f77661496b6ce73007a4761575ba8e",
+      "source_reports_sha256": "bcbabb6c747f07abee18c1073088cd7115180844dd4664cbd7e68d28fdcf93df",
+      "rows": 62459
+    },
+    {
+      "name": "EGCC_2020.parquet",
+      "sha256": "b8bb67dcc9529fdc7e66bb47ebbb7f0d5b27971911b5fb69e6199488b357d9e0",
+      "source_reports_sha256": "26a3d586b4d479b5a1a269b57bcf3b470d60d68a8cf8a695721aa4c49b0de010",
+      "rows": 23746
+    },
+    {
+      "name": "EGCC_2021.parquet",
+      "sha256": "ff06d5d0e7b6f923746828a84620b141f0f619f487d7c7b4137a38f831fec0b4",
+      "source_reports_sha256": "a68d33effe400c770e7e251596a760d5a2fd43253247b00413b42aafea384fdf",
+      "rows": 1230
+    },
+    {
+      "name": "EGLL_2019.parquet",
+      "sha256": "327bd298fe6763cafe3b40ef20a8e70ed9a7e0f881c063c80803eaaad2e5f22f",
+      "source_reports_sha256": "52fbd0632d8bdbc6a2bbad5eb10ad24a0a0c8b2195b6d7b2c02664b480cedb7d",
+      "rows": 218410
+    },
+    {
+      "name": "EGLL_2020.parquet",
+      "sha256": "6e5410cb8e235162097a12f6ade44c6f6f2bb3f86d20747d22fe6419d6fa92d7",
+      "source_reports_sha256": "7d3407c4d9f0172225bb9c8f803e07273308bede2fc596babbe6e254dafd8d99",
+      "rows": 95585
+    },
+    {
+      "name": "EGLL_2021.parquet",
+      "sha256": "62711949cd8b93af06b0f8ff279eaa2924002c7dc018034a3f587eb5921094e0",
+      "source_reports_sha256": "4ed29d40ed74b230b14d623ea0ee7de1688ad45d0db5c647a5033bd1568fa42f",
+      "rows": 88747
+    },
+    {
+      "name": "EGLL_2022.parquet",
+      "sha256": "8ff76a8cbd684acd1fae0343017e8ad22664a2c3aa6f27dbe14c249258ba213d",
+      "source_reports_sha256": "3d1527cf724ddb2641a89196e66f5bf236b4e27d3e1f0a345c7674f938c463e0",
+      "rows": 156855
+    },
+    {
+      "name": "EGLL_2023.parquet",
+      "sha256": "d8a21e318af22e0dd1bac3d8d46e669e6a0bb61f3f34109490cfd8401a39adc7",
+      "source_reports_sha256": "93cdd2ccff543762734cfba81904abd8113466f16d10d5390c803e7e061e2a4d",
+      "rows": 72121
+    },
+    {
+      "name": "EGSS_2019.parquet",
+      "sha256": "40e0d25e37c7cdc4d1de1b8d951591e82637067d02e36d0cc18cc57f2a54e887",
+      "source_reports_sha256": "9c8c2ade4135e92b1c9aa1a16a34c1b620b00768e5535b196e21e0b74e27337b",
+      "rows": 77944
+    },
+    {
+      "name": "EGSS_2020.parquet",
+      "sha256": "8402dae817550b4ba828b62b92791aa18a748ff86252293610f106859d9e45a9",
+      "source_reports_sha256": "bb4cd59404d8c5c679a33ced73772be378a2cb051aa0d03b2739d556eb3c87d2",
+      "rows": 32849
+    },
+    {
+      "name": "EGSS_2021.parquet",
+      "sha256": "d16ea8b3d1eee94a62574d8133be808ba0cbab0eb4496daf72d711300ae5aa7d",
+      "source_reports_sha256": "ab4a1e99f2a1c8b9ce715ea1b589ea7d424b04b7a6c9f3a8207be221dbd2320b",
+      "rows": 33575
+    },
+    {
+      "name": "EGSS_2022.parquet",
+      "sha256": "54e4a53f26287fdcab3ec1712a2337e70037f12a138bd47e89517695a571e60e",
+      "source_reports_sha256": "b5db1de03efb6260844ee5585b2d5b77a3fd3d308ec0e1f9e21691356bfb36e6",
+      "rows": 55050
+    },
+    {
+      "name": "EGSS_2023.parquet",
+      "sha256": "dd7ad8c23a57427c1101495a3d4149f1f52e02feda0180e8605ac3a57ca14073",
+      "source_reports_sha256": "eed1d44e628e044e358c41b69365cdec4e9ea9fe30d77ea48383df346c794508",
+      "rows": 21930
+    },
+    {
+      "name": "EHAM_2019.parquet",
+      "sha256": "132e3ee5cd160f15d024024f3e4908fa3b7ba70d35123ac86040efdca32105f4",
+      "source_reports_sha256": "32bef3643e2630d518eb03a97e1b1cf6113b71b3fe300640f8c3a78ba0dd350f",
+      "rows": 184177
+    },
+    {
+      "name": "EHAM_2020.parquet",
+      "sha256": "657c1ccd8c9fc92dab8b8fe5b5f404a3b51af6c89fb2662ebe67eafad02581f5",
+      "source_reports_sha256": "7ef0fc990ce6d3ad5e4e3f89336986386fe46ee70952cbe665dacdd06ad7e2a5",
+      "rows": 92058
+    },
+    {
+      "name": "EHAM_2021.parquet",
+      "sha256": "7c2fe2d8c8d02c2f1c0be6a035be3758f6a71bf7ba819f88eddb98002e7def20",
+      "source_reports_sha256": "6a3562041f2075e1b669a1acf0bf68313af31155810ad8f47397b41d90b6fc96",
+      "rows": 115235
+    },
+    {
+      "name": "EHAM_2022.parquet",
+      "sha256": "0879147632e22e27183ef90c21e4d1958119ad6bd0a9903819d4f93daf11d4eb",
+      "source_reports_sha256": "ddda1290637d81216a4fe81934180dc61341cd5d3f68d82d0d75acacd2b8eeff",
+      "rows": 158396
+    },
+    {
+      "name": "EHAM_2023.parquet",
+      "sha256": "13c0e26c75313547ea52bb9d5dfb7dfbe6a2a77d78d8853e368e5a06aff0fa97",
+      "source_reports_sha256": "ee8ad75eaff5cc894c4fd30a73024dd3f43ac4e1b4d64bbf2b1331d14b3727c9",
+      "rows": 11615
+    },
+    {
+      "name": "EIDW_2019.parquet",
+      "sha256": "c4184be3435ae2eab474e5b514b3c913adbd069d2ed857bb15afcd84438702f7",
+      "source_reports_sha256": "1732ed06008a924bb68d5df0d22431437d9415499721d63bc47a0b2be319472f",
+      "rows": 80395
+    },
+    {
+      "name": "EIDW_2020.parquet",
+      "sha256": "ff3e53d25a32a5929169bd95e96d89bc0c49f7a20285f13bf0838462aa33ac04",
+      "source_reports_sha256": "fa62d48d03afe8babdbc7a94fb6e6959567d624481d5b5307de751c2a8c7dfc7",
+      "rows": 36578
+    },
+    {
+      "name": "EIDW_2021.parquet",
+      "sha256": "124a365817ada7326777f7148c77716862014744dff6b8ac610574c59c777b4f",
+      "source_reports_sha256": "b46f6630e742320e22c6362ff69e6f1e55e2253ebe8b60fad720239a7918f18f",
+      "rows": 38701
+    },
+    {
+      "name": "EIDW_2022.parquet",
+      "sha256": "62c7cf08bed66e601dda4e83cd254304ba9b0eb6928a37e6e84bac5763b837b4",
+      "source_reports_sha256": "9a0267142238c2713d036dcc8ac938607c114b4abb64f19d389a43e29bbc2b52",
+      "rows": 75671
+    },
+    {
+      "name": "EIDW_2023.parquet",
+      "sha256": "763c8d94d43a7ffc5b799e1b8bd12dab3514c5093c02f2f51fe23447b8941bc5",
+      "source_reports_sha256": "18c33c60a6d0634882f01c203149bb70406d6ed84224df22fa44e7787c6a2145",
+      "rows": 32534
+    },
+    {
+      "name": "EKCH_2019.parquet",
+      "sha256": "4074f515a72173920a17a09b0524d807d6c63bd39b8ded25f236cf878b5b80f8",
+      "source_reports_sha256": "cfd4456ac238a0b56fd3111f128e6ada84ea9e678cac85f4a1b1cd4e6a4ba26d",
+      "rows": 97694
+    },
+    {
+      "name": "EKCH_2020.parquet",
+      "sha256": "69bf0b361b6bb22e955ce568086c0f3b6ed7199333e2c02ff70f4133e57f6312",
+      "source_reports_sha256": "da0df83fbc79519418e7c3a5fd597b8cc3bc58ff09a315b0efc7d1d558be30fd",
+      "rows": 37844
+    },
+    {
+      "name": "EKCH_2021.parquet",
+      "sha256": "439d68574128566cab625bbdc247ec77494906f59e095448badff4fc9d491444",
+      "source_reports_sha256": "e094f8a201868874743bedc3eab2f0e0f9a5f52e5c89b6a3d25f6694aeae61fd",
+      "rows": 41410
+    },
+    {
+      "name": "EKCH_2022.parquet",
+      "sha256": "1fd16fe249f3cd96de40b2fa81fe7a6fd86b5434cdeae281d1294880c3c9fc16",
+      "source_reports_sha256": "9b9aa9877d135b69223821c404d7354e86e65624fb26fc5950a9d8e6e323ab34",
+      "rows": 62677
+    },
+    {
+      "name": "EKCH_2023.parquet",
+      "sha256": "b8e0f6de7723252b28c7ef66748a2be73b923fe8ba1dcf8dc7dde9bc2a66276c",
+      "source_reports_sha256": "281391f8365d4be62c3e15bc14facb58b4cc36a7cd3002e77a6e0fd47266954f",
+      "rows": 3647
+    },
+    {
+      "name": "EPWA_2019.parquet",
+      "sha256": "43cd7ec99a5534b15b6dc5060ab9052962e915a1ba8d21fdf66c42206024068a",
+      "source_reports_sha256": "53327871bb499334571e9c322153544aa930c56dc92cdaeab10b5bdafb4ec9e4",
+      "rows": 45176
+    },
+    {
+      "name": "EPWA_2020.parquet",
+      "sha256": "3e67569eb0331ba5a01ee59f97ace6e6723a79de884708ebafdcc56491231ead",
+      "source_reports_sha256": "1656f0d28ed58d84468bbe7b52cd583e652d2ed05ff6e7b2f2360aeecdf7d981",
+      "rows": 26788
+    },
+    {
+      "name": "EPWA_2021.parquet",
+      "sha256": "9f121a03a3c1f48140fb4f95e4eb579db00d4f8bbd531645bf7f583abcf8a5b2",
+      "source_reports_sha256": "081325aab480516a4743af310a163aa1fa01cf4c061a016b64d93ad2971df0a8",
+      "rows": 35079
+    },
+    {
+      "name": "EPWA_2022.parquet",
+      "sha256": "2a157c9c868fb9f34de668808901320b77dd61770881d56eaea5e637d5424800",
+      "source_reports_sha256": "b4e7528378312a770b2bab1cf1db0d3d911781901d12d9a85873d7de196a15ff",
+      "rows": 51109
+    },
+    {
+      "name": "EPWA_2023.parquet",
+      "sha256": "05e74e4a74e40556272d3405b41c0c2170e93bb9cd51f3deca5cda19358d6eac",
+      "source_reports_sha256": "9fd691bb260b5e32570a1a9a64c9a10de99d7537793291e1879ee55bf125da23",
+      "rows": 19600
+    },
+    {
+      "name": "ESSA_2019.parquet",
+      "sha256": "1f1a8c469cddb22a9cfa6ab4d1f2395b7f159e5ce8002d300b6bda1bb83c1b7a",
+      "source_reports_sha256": "d39885c8bf8de6c523035456b04bc125226bc251e4805ebe63ae1bf9c4e26c11",
+      "rows": 95368
+    },
+    {
+      "name": "ESSA_2020.parquet",
+      "sha256": "1f122aa8088931b23717913d5aff44de6ec66ad4ccb088679d1232c021927a61",
+      "source_reports_sha256": "9ec13170ce8c94b5fc81283dba6b09dea9ae8273ac7cef1c0a0279b727c77291",
+      "rows": 34633
+    },
+    {
+      "name": "ESSA_2021.parquet",
+      "sha256": "9305fec843f5e114b35482991b6fd909527ed86a4804bc8434077d08681fecde",
+      "source_reports_sha256": "26e61203e496fcc89359518ac62a1b35132c7dbf8dff142921cdb0816b6e8071",
+      "rows": 34673
+    },
+    {
+      "name": "ESSA_2022.parquet",
+      "sha256": "555abddbbe58956ac59e532d6f247c5c280d9e3b84dbd067bd32ffb967afdb36",
+      "source_reports_sha256": "4a746b22c9cc24b33defab34e6e4a9960493237df4a8de0e0f69f0dec0440289",
+      "rows": 55798
+    },
+    {
+      "name": "ESSA_2023.parquet",
+      "sha256": "9e2e2079a1e93bc0e45265545fc3be412e2cb885867edd2b673ea6de7cf4d8e7",
+      "source_reports_sha256": "adbe4e95b614de784d497998f39ad51d85201a38889b7a4538841f1ecab20530",
+      "rows": 23351
+    },
+    {
+      "name": "LEMD_2019.parquet",
+      "sha256": "b1e3c691c4514eadfbead506c6461d80720dc91d786f73d6dd91a60797232e1c",
+      "source_reports_sha256": "db8db06282134e7a5d49ccd5ee4cb5219c7e72823c4f0e20a5572466b1a9fe09",
+      "rows": 166569
+    },
+    {
+      "name": "LEMD_2020.parquet",
+      "sha256": "196e69c8bf9383f80fb56d450d7cb8dd3964b7b9e97d0ad3dd84d630fa6d8a4f",
+      "source_reports_sha256": "a1bbfeb6b8b2a3710e6d1d1c6225ee04b85230daf69cfc545b4d1d3eba9d00ab",
+      "rows": 63866
+    },
+    {
+      "name": "LEMD_2021.parquet",
+      "sha256": "21acf7fab8b0f4a3eaaf337ae4bf0d34e903b7f42f10ec88fa4d13ea5bf19270",
+      "source_reports_sha256": "d80290a2830c376b108dfaa1461037c02591fc339f639a417d238e9bf590552a",
+      "rows": 93002
+    },
+    {
+      "name": "LEMD_2022.parquet",
+      "sha256": "23438c7f47424ed09663fd076bf28b3e115ae318fa623fab3365864aad084d7f",
+      "source_reports_sha256": "af013a87845932393e0f43391ffe9b7ff224cb9b18bcdcea42733702005ffcb9",
+      "rows": 134761
+    },
+    {
+      "name": "LEMD_2023.parquet",
+      "sha256": "143afebaf7e0ecbcb9a59b46053832a599919dec7a20f418545d67cdf2786717",
+      "source_reports_sha256": "d73709cec395b3a8b6abf5cf3f82396af8b132b5564cc37ed6ee747f7c1f1cce",
+      "rows": 56846
+    },
+    {
+      "name": "LFPG_2019.parquet",
+      "sha256": "6f98eac63455084143c09d1930f9bc67d1176c81afee27d879855d5e7867c849",
+      "source_reports_sha256": "3c7e39e2b2c08aa083d42d76b18cd333cc05ac5ec3b70b84aee2bdc7a0efb356",
+      "rows": 196950
+    },
+    {
+      "name": "LFPG_2020.parquet",
+      "sha256": "d181bd1038d14d4d5754cebe4ce6f1fdabc5d38cf1861b73d09dc80aef1c9222",
+      "source_reports_sha256": "085a344816e124a96f1bdca00f242515f23b6c83e4202b1bd21baa0666390ec0",
+      "rows": 92471
+    },
+    {
+      "name": "LFPG_2021.parquet",
+      "sha256": "db86b5bb367933e455654df6bb3ad8dd53ac8bf7fd75a7bc31fa7111d60198b8",
+      "source_reports_sha256": "39980cce696f68bd1b06d741602a7264d9871a8e94c50f48c25288a438762b35",
+      "rows": 106498
+    },
+    {
+      "name": "LFPG_2022.parquet",
+      "sha256": "81f5b54ccb689b7c1fb332f76ed3d11fdafae321cde40e8cb5cf2a2a65362469",
+      "source_reports_sha256": "20341eaf2995a1f1c20e859e1a8875b7268e8fa38cbe08bbb1cb4717f57e88d7",
+      "rows": 155753
+    },
+    {
+      "name": "LFPG_2023.parquet",
+      "sha256": "73419716bba6183a779e504013c2a8d8661769f0f9d53d1765cfa4c94461d892",
+      "source_reports_sha256": "1ce6d0173c60ce197ce974cc3ec267a2d083c9e9a672ea5149fd0ac71d641255",
+      "rows": 65890
+    },
+    {
+      "name": "LFPO_2019.parquet",
+      "sha256": "49d2dccd1cf1be7ef27ffdb8c50eec26a5ff928103e17a2e3f109f5767ce3fee",
+      "source_reports_sha256": "6f0356d46711cf52ca2db02882e17b9a7c8949eac45822d2962655214f3dd681",
+      "rows": 68925
+    },
+    {
+      "name": "LFPO_2020.parquet",
+      "sha256": "76c25c04671629a36a19a33ee718600293f4c767db2e012931aa3cc2b8f39d11",
+      "source_reports_sha256": "6b55e9850f9e74662b1beca110989680ab13177c633a5036a63a68f034a39ade",
+      "rows": 31014
+    },
+    {
+      "name": "LFPO_2021.parquet",
+      "sha256": "bf51cfadc10f442b970beeba6becf724f046beb186da710001cfe8542d54567c",
+      "source_reports_sha256": "f2cf14aedaa4f048643472428e468c817d074e9a31267e826bff52d6cd01fc5a",
+      "rows": 44865
+    },
+    {
+      "name": "LFPO_2022.parquet",
+      "sha256": "d3d64c15a4c30d47031741c6be5754448d6aa01c0c33e31d276188d41039b540",
+      "source_reports_sha256": "b9577213a1b5540741fbd83f5761ab65c170790cc551ee12f5e0cd26565194d3",
+      "rows": 65840
+    },
+    {
+      "name": "LFPO_2023.parquet",
+      "sha256": "a4ec2d6654c348d21c4fd37aed000132a5017a91b3ea601a52d46a0ae84e7226",
+      "source_reports_sha256": "de866a5cbca8f671d9265ea1c2171798f9d3ae0e00b66400ad100d4e041b46fb",
+      "rows": 25959
+    },
+    {
+      "name": "LIMC_2019.parquet",
+      "sha256": "2cc319964f2d93d96ff629b93ce6a8744cb43bb02e4edc6eda46c26a919895a7",
+      "source_reports_sha256": "ae80e6b38d5330bc1dc3898e18a935fb2e27c00bcd56f538063918ee78dd764d",
+      "rows": 56888
+    },
+    {
+      "name": "LIMC_2020.parquet",
+      "sha256": "7742a86de332a37cd3f84a8bdb0cad47ec61208ddcf9d875d5ed09ee13c88d32",
+      "source_reports_sha256": "4c23f2fe2acc9276980c4cabd7427a0e2c6d9fdc5ff85e21f4bfd8ce27ece4e0",
+      "rows": 29983
+    },
+    {
+      "name": "LIMC_2021.parquet",
+      "sha256": "a1454d4947085aa3d4e71f73c99317a08f11e24749a858dd00d060aab685d1b4",
+      "source_reports_sha256": "0cf6ea5926802c78a6f89081165de28db0707e129b3ff74911ae9b8b82a70277",
+      "rows": 37278
+    },
+    {
+      "name": "LIMC_2022.parquet",
+      "sha256": "4513ba17e611f201fe43a3b89010aef6353291e8c2c2c5dd9d7c80eb8212b70a",
+      "source_reports_sha256": "4226a2d11493bca58b6cbd84afbdd6d108cb82919457a8af510ca0f65915a643",
+      "rows": 52641
+    },
+    {
+      "name": "LIMC_2023.parquet",
+      "sha256": "a158931ee6056895b9de19db036625b774a24add7be22d3fcdbfdc5b42c409a9",
+      "source_reports_sha256": "6c5458337f03a906e19f3c765d038c4aa9271e68e494abe041b5d14ee311b016",
+      "rows": 19607
+    },
+    {
+      "name": "LIRF_2019.parquet",
+      "sha256": "bfd4d46102d6beda59d38dd37fee396eba054e9d0ec1b0c6689059d39c11d869",
+      "source_reports_sha256": "03e31e0538a485d9aa53c73b0f9cdb29a320216359f477658514ea18c4717e81",
+      "rows": 129063
+    },
+    {
+      "name": "LIRF_2020.parquet",
+      "sha256": "045b4fcd8e6335fa64b8de9b927da85efadc09c1ce1487e06eed8a06a8c6657b",
+      "source_reports_sha256": "6d863b9932d1d2ef3005e3fb90f5584fbe9972eccf179d34e45589baac6cb796",
+      "rows": 43867
+    },
+    {
+      "name": "LIRF_2021.parquet",
+      "sha256": "c1633cb4594867a1e096782203f5aeb657a48e9644c7ee9ef3b89ca8f47914fe",
+      "source_reports_sha256": "cdd5aab6788a4068ad2c1feefddcad226917710c60d42c48a3dced62e98d1daf",
+      "rows": 45088
+    },
+    {
+      "name": "LIRF_2022.parquet",
+      "sha256": "51d7d0dbd586a459dbbdec24ac74662a9a1a73def7b1210e8fcc9f5f43d88ae4",
+      "source_reports_sha256": "7c01ae1762f6cb8d8849e84e0406ab5f7a4dfdc7a4f806f82881ee305213cd7d",
+      "rows": 74160
+    },
+    {
+      "name": "LIRF_2023.parquet",
+      "sha256": "7cbd2113c798490fbfac39211c06daec357e1eb958b3eb922058fbaebc225e83",
+      "source_reports_sha256": "c54d7c2aab1c228392a0c507906b9f06b38c18e806fc292861f12d02eb00aa65",
+      "rows": 30571
+    },
+    {
+      "name": "LOWW_2019.parquet",
+      "sha256": "7af251cf5b8249921134e868dd2b8cd4b78bb2ce9ecb6c2ed887d9ca0dddb3b0",
+      "source_reports_sha256": "32f507a3806effd679dcc75dc659dc1d29cf4715815d127db1baf141cda37af5",
+      "rows": 102830
+    },
+    {
+      "name": "LOWW_2020.parquet",
+      "sha256": "bc668ce84e826fe4a1da0e989e409180160aa53f844c21fb7750c4333d5e5265",
+      "source_reports_sha256": "88248bce2637395fa66980c056b9ad10b2dac1e3da58f8776e473f289b97584f",
+      "rows": 38551
+    },
+    {
+      "name": "LOWW_2021.parquet",
+      "sha256": "e0c21797cfc6ce8c697dbd385dca3b88defab033294ea386a5f8f47d75e36b80",
+      "source_reports_sha256": "ff9018f23b6d7a9c79513359c468cf47390b82f0310ab2bbbc3e067ad7c7f697",
+      "rows": 49106
+    },
+    {
+      "name": "LOWW_2022.parquet",
+      "sha256": "e1a4f121a89cab5fa40a1d5a43deae1711383a39f817a12d86f37f2248f1af29",
+      "source_reports_sha256": "1cb0625d9e85b434361800c54e5222b7abad082a48a8df149f41d9a8c0117ea8",
+      "rows": 72226
+    },
+    {
+      "name": "LOWW_2023.parquet",
+      "sha256": "741fffcd22801eea37431751b81cbae7b46a679d47e11d577814930cd6b04d90",
+      "source_reports_sha256": "973b4fbce9a269c65d62e8e82efa950df544b1aac05d7309bb4d5edc85fcbbdb",
+      "rows": 30865
+    },
+    {
+      "name": "LSGG_2019.parquet",
+      "sha256": "ce52a8e3ca53c9a3b2cd4249c8d95a65482ea992480c768912f5b7e3841414ed",
+      "source_reports_sha256": "add462412502d1cd77ae194ce66705d8c91d8d95bf69f7f3b7be6c30b50e6305",
+      "rows": 68810
+    },
+    {
+      "name": "LSGG_2020.parquet",
+      "sha256": "05d3784a35c508ce25679e42cab0f488e738fb940fb9246dae587bb9a1c48fbf",
+      "source_reports_sha256": "74e5954a52501f6523af42c32bd07e673c430fc6923e2cb9328d8388562e051c",
+      "rows": 30391
+    },
+    {
+      "name": "LSGG_2021.parquet",
+      "sha256": "3b9b4da4fa2f06267a5229fc82bc9184365052548d4cc658b3c34b974766356e",
+      "source_reports_sha256": "37732e9cbb0f16caadb26f4e96242ede33c5dbd255efd708e617268968723528",
+      "rows": 34183
+    },
+    {
+      "name": "LSGG_2022.parquet",
+      "sha256": "9e826e28f1e7de2feeb8773ab18fab0e393629a7faa1fcc94186a1ef3217231b",
+      "source_reports_sha256": "a64b4a306918841661f6291caedc0318cc9c2c6343c4261b24dd78163c00f5b3",
+      "rows": 48687
+    },
+    {
+      "name": "LSGG_2023.parquet",
+      "sha256": "34b5e0780c049a16f4e4a51f1629c72a1a6305f5eda14cb9f6917690f2f084d4",
+      "source_reports_sha256": "002e5f219ec9570b0e8bbfd8cd8fadd9bdd81c7fc219fa568a6f4feba5c2d46a",
+      "rows": 23301
+    },
+    {
+      "name": "LSZH_2019.parquet",
+      "sha256": "9a719f25b1fb1731cea2506eddd3a19e7805205920b3a9d19ba3e373b00ef2b4",
+      "source_reports_sha256": "9ed7905e04a2d9b1516aacc6466365ae12c7d31be48fcfdde20f5a5866a879b8",
+      "rows": 110036
+    },
+    {
+      "name": "LSZH_2020.parquet",
+      "sha256": "f09946f8cd045650f2fccfa21a18f59d679a319887083a88f977f67a5341558b",
+      "source_reports_sha256": "171c25a5256a800679fa41b2cb1a1891bf3fe2e6d9fbe745d3c5ebdac5143b53",
+      "rows": 43458
+    },
+    {
+      "name": "LSZH_2021.parquet",
+      "sha256": "2be5a0ab9c9e9cdd6cc248ec909f515bacb9c77495d2f174a3e79bd5f85abf77",
+      "source_reports_sha256": "3604ec2ba1b5cd1d35560aa3e3c16f4de39417f71b077f4b9a2596408dc4dd8d",
+      "rows": 51260
+    },
+    {
+      "name": "LSZH_2022.parquet",
+      "sha256": "3012473a6036d7578e9597e8474482e0ac92f3e5141382b9f3d15ab83cbc7c4b",
+      "source_reports_sha256": "fabeb5632c6e8fb382436e30b56a04b87c57e717cc69b301fe81d292e42796d7",
+      "rows": 78758
+    },
+    {
+      "name": "LSZH_2023.parquet",
+      "sha256": "913eec75e890a851b5caee32cbacfa79fc84ba0a8089f3b95964ba85384aadbf",
+      "source_reports_sha256": "fdd84f98592034a46a0e07094352496de3cca3de24faa3f5089896f905316428",
+      "rows": 33461
+    }
+  ]
+}
