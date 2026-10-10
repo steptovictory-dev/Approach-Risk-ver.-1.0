@@ -1,0 +1,100 @@
+{
+  "status": "retrospective_evaluation_plan_not_executed",
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "split_file_sha256": "8db6b8ddb0b4f849a56ab761a0db507710b5c4af1518e4c2fe1bb1ff78db35de",
+  "feature_sets": {
+    "geometry": [
+      "airport",
+      "C40_CROSS_LAT",
+      "C40_CROSS_LON",
+      "utc_time_sin",
+      "utc_time_cos",
+      "utc_weekday"
+    ],
+    "geometry_aircraft": [
+      "airport",
+      "C40_CROSS_LAT",
+      "C40_CROSS_LON",
+      "utc_time_sin",
+      "utc_time_cos",
+      "utc_weekday",
+      "typecode",
+      "icaoaircrafttype"
+    ],
+    "conditional_bearing": [
+      "airport",
+      "C40_CROSS_LAT",
+      "C40_CROSS_LON",
+      "utc_time_sin",
+      "utc_time_cos",
+      "utc_weekday",
+      "bearing_sin",
+      "bearing_cos"
+    ],
+    "conditional_raw_class": [
+      "airport",
+      "C40_CROSS_LAT",
+      "C40_CROSS_LON",
+      "utc_time_sin",
+      "utc_time_cos",
+      "utc_weekday",
+      "typecode",
+      "icaoaircrafttype",
+      "AC_CLASS"
+    ]
+  },
+  "primary_comparison": [
+    "geometry",
+    "geometry_aircraft"
+  ],
+  "conditional_features": [
+    "bearing_sin",
+    "bearing_cos",
+    "AC_CLASS"
+  ],
+  "raw_values_preserved": true,
+  "fit_categories_split": "train",
+  "vocabulary_sizes": {
+    "airport": 19,
+    "typecode": 309,
+    "icaoaircrafttype": 35,
+    "AC_CLASS": 8
+  },
+  "missing_id": -1,
+  "unseen_id": -2,
+  "encoding": "sparse one-hot; separate missing/unseen columns",
+  "metrics": [
+    "average_precision",
+    "ROC_AUC",
+    "Brier",
+    "calibration"
+  ],
+  "threshold_selection": "validation maximum F1; ties choose higher threshold",
+  "model_plan": {
+    "baseline": "train prevalence constant",
+    "candidate": "logistic regression L2",
+    "C_grid": [
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "selection": "validation AP; ties lower C",
+    "class_weight": null,
+    "refit_train_validation": false
+  },
+  "numeric_scaler_fit_split": "train",
+  "utc_transform_implemented": true,
+  "bootstrap_plan": {
+    "block": "C40 ISO week UTC",
+    "replicates": 1000,
+    "seed": 42,
+    "paired": true,
+    "executed": false
+  },
+  "operational_availability_verified": false,
+  "classifier_training_performed": false,
+  "test_metrics_computed": false,
+  "category_balances_passed": true,
+  "input_unchanged": true
+}

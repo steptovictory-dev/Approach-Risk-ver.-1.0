@@ -1,0 +1,20 @@
+{
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "prediction_sha256": "2adefba0e3ba23d0bcf6132c89ddbaae167f0c4b29cd7f9f388277181cefd74f",
+  "selection_sha256": "21ba3cb389315d1f3e663fc8c75fbcc34031042231ab73d56831f644009b1ae4",
+  "rows_test": 546577,
+  "goa_test": 1739,
+  "group_balances_passed": true,
+  "Brier_decomposition_passed": true,
+  "input_unchanged": true,
+  "prediction_unchanged": true,
+  "thresholds_unchanged": true,
+  "retraining_performed": false,
+  "threshold_search_performed": false,
+  "diagnostic_groups": [
+    "airport",
+    "month",
+    "typecode_state",
+    "icaoaircrafttype_state"
+  ]
+}

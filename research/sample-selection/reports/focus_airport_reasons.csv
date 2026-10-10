@@ -1,0 +1,7 @@
+airport,reason,rows,goa
+EGCC,ambiguous_pair,6,0
+EGCC,missing_c40,123858,485
+EGCC,retained,87435,306
+EIDW,missing_c40,49129,430
+EIDW,retained,263879,922
+LTFJ,missing_c40,387368,2414

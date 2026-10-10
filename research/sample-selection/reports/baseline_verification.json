@@ -1,0 +1,35 @@
+{
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "split_sha256": "8db6b8ddb0b4f849a56ab761a0db507710b5c4af1518e4c2fe1bb1ff78db35de",
+  "signature": "0aa09258c0ce451af9216f9b910c03f2d08b2231fccde096fb85f0c9b911b9ac",
+  "prediction_sha256": "2adefba0e3ba23d0bcf6132c89ddbaae167f0c4b29cd7f9f388277181cefd74f",
+  "environment": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "threadpoolctl": "3.7.0",
+    "pyarrow": "25.0.1"
+  },
+  "rows_train": 4161493,
+  "rows_validation": 1619847,
+  "rows_test": 546577,
+  "goa_test": 1739,
+  "fit_split": "train",
+  "selection_split": "validation",
+  "test_used_for_selection": false,
+  "converged_all": true,
+  "same_test_rows_all_models": true,
+  "airport_balances_passed": true,
+  "weighted_metrics_match_sklearn": true,
+  "bootstrap_replicates": 1000,
+  "bootstrap_weeks": 23,
+  "operational_availability_verified": false,
+  "baseline_training_performed": true,
+  "input_unchanged": true,
+  "models": [
+    "constant",
+    "geometry",
+    "geometry_aircraft"
+  ]
+}

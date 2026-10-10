@@ -1,0 +1,4 @@
+metric,contrast,lower,upper,valid_replicates
+AP,geometry_aircraft minus geometry,2.4152358057245025e-05,0.0004763646460754885,1000
+ROC_AUC,geometry_aircraft minus geometry,0.002290235611771377,0.018112404471677394,1000
+Brier,geometry_aircraft minus geometry,-2.0140840171861642e-07,2.6901829514188403e-08,1000

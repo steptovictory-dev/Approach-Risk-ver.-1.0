@@ -1,0 +1,10 @@
+{
+  "source_sha256": "1160bdbea6fa93249a00768452be64047c6d2461bb0843d5ecfc52e6942c7f02",
+  "final_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "source_rows": 7984254,
+  "source_goa": 26253,
+  "pair_matches": 294,
+  "manual_matches": 9,
+  "all_stage_totals_match": true,
+  "actual_final_joint_groups_match": true
+}

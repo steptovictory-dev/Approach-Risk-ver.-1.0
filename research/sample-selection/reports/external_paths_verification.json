@@ -1,0 +1,32 @@
+[
+  {
+    "notebook": "04_temporal_feature_availability.ipynb",
+    "setup_reexecuted": true,
+    "external_root_honored": true,
+    "downstream_calculations_changed": false
+  },
+  {
+    "notebook": "05_metadata_calendar_audit.ipynb",
+    "setup_reexecuted": true,
+    "external_root_honored": true,
+    "downstream_calculations_changed": false
+  },
+  {
+    "notebook": "06_time_split.ipynb",
+    "setup_reexecuted": true,
+    "external_root_honored": true,
+    "downstream_calculations_changed": false
+  },
+  {
+    "notebook": "07_feature_preparation.ipynb",
+    "setup_reexecuted": true,
+    "external_root_honored": true,
+    "downstream_calculations_changed": false
+  },
+  {
+    "notebook": "08_baseline.ipynb",
+    "setup_reexecuted": true,
+    "external_root_honored": true,
+    "downstream_calculations_changed": false
+  }
+]

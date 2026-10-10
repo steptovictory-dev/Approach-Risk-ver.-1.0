@@ -1,0 +1,9 @@
+type_missing,reason,rows,goa
+False,ambiguous_pair,266,3
+False,c40_not_before_first_attempt,84,45
+False,manual_case,9,9
+False,missing_c40,539989,3735
+False,retained,6109814,17648
+True,ambiguous_pair,28,0
+True,missing_c40,1112393,4112
+True,retained,221671,701

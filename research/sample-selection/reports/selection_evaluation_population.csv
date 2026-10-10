@@ -1,0 +1,4 @@
+population,rows,goa,row_coverage,positive_coverage
+source_landing_period,792225,2810,1.0,1.0
+final_landing_period,546578,1739,0.6899277351762442,0.6188612099644129
+scored_test,546577,1739,0.6899264729085802,0.6188612099644129

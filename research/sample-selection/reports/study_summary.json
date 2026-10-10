@@ -1,0 +1,19 @@
+{
+  "status": "retrospective study; extensions exploratory after test inspection",
+  "source_rows_all": 7984254,
+  "source_goa_all": 26253,
+  "final_rows_all": 6331485,
+  "final_goa_all": 18349,
+  "source_rows_period": 792225,
+  "source_goa_period": 2810,
+  "scored_goa_period": 1739,
+  "positive_coverage_period": 0.6188612099644129,
+  "uncovered_goa_period": 1071,
+  "metadata_bundle_rows_test": 92,
+  "metadata_bundle_goa_test": 0,
+  "aircraft_AP_difference_positive_all_block_lengths": true,
+  "geometry_beats_airport_prior_AP": false,
+  "operational_availability_verified": false,
+  "source_model_AP_identified": false,
+  "new_training_performed": false
+}

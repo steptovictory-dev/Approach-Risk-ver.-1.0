@@ -1,0 +1,10 @@
+{
+  "common_strata": 1043,
+  "source_rows_in_common_strata": 7984249,
+  "standardized_type_present_pct": 90.97819677310555,
+  "standardized_type_missing_pct": 19.454119871628382,
+  "standardized_gap_pp": -71.52407690147717,
+  "raw_type_present_pct": 91.87466410592704,
+  "raw_type_missing_pct": 16.61587056964587,
+  "interpretation": "descriptive common airport-month standardization; not causal or model correction"
+}

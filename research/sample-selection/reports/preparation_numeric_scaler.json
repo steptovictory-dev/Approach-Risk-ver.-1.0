@@ -1,0 +1,16 @@
+{
+  "fit_split": "train",
+  "parameters": {
+    "C40_CROSS_LAT": {
+      "mean": 49.4423423567909,
+      "scale": 4.316989947725103,
+      "fit_rows": 4161493
+    },
+    "C40_CROSS_LON": {
+      "mean": 6.290925882716717,
+      "scale": 6.681873309973728,
+      "fit_rows": 4161493
+    }
+  },
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719"
+}

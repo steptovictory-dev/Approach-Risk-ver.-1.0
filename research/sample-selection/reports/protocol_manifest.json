@@ -1,0 +1,42 @@
+{
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "split_file_sha256": "8db6b8ddb0b4f849a56ab761a0db507710b5c4af1518e4c2fe1bb1ff78db35de",
+  "time_field": "C40_CROSS_TIME",
+  "train_start": "2019-01-01 00:00:00+00:00",
+  "validation_start": "2022-01-01 00:00:00+00:00",
+  "test_start": "2023-01-01 00:00:00+00:00",
+  "embargo_hours": 24,
+  "boundary_purge": "landing_time or last attempt >= next cutoff",
+  "feature_sets": {
+    "C40_core": [
+      "airport",
+      "C40_BEARING",
+      "C40_CROSS_LAT",
+      "C40_CROSS_LON"
+    ],
+    "C40_aircraft": [
+      "airport",
+      "C40_BEARING",
+      "C40_CROSS_LAT",
+      "C40_CROSS_LON",
+      "typecode",
+      "icaoaircrafttype",
+      "AC_CLASS"
+    ]
+  },
+  "calendar_features_planned": [
+    "UTC hour cyclic",
+    "UTC day of week"
+  ],
+  "missing_metadata_drops_rows": false,
+  "rows": 6331485,
+  "goa": 18349,
+  "balances_passed": true,
+  "input_unchanged": true,
+  "composite_key_unique": true,
+  "event_proxy_cross_split_keys": 0,
+  "operational_availability_verified": false,
+  "training_performed": false,
+  "status": "candidate_retrospective_protocol",
+  "structural_checks_passed": true
+}

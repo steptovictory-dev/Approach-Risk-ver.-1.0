@@ -1,0 +1,107 @@
+{
+  "inputs": [
+    {
+      "stage": "source",
+      "file": "europe/data/source/osn23_landings_merged.parquet.gzip",
+      "sha256": "1160bdbea6fa93249a00768452be64047c6d2461bb0843d5ecfc52e6942c7f02",
+      "rows": 7984254,
+      "columns": 21
+    },
+    {
+      "stage": "pairs",
+      "file": "europe\\data\\working\\04_c40_ambiguous_pairs_excluded.parquet",
+      "sha256": "ba5c3c4686f76a57384276d2c27f0fdcdc7b6d58657fdfb7c7cc8ab8c7b99e05",
+      "rows": 7983960,
+      "columns": 31
+    },
+    {
+      "stage": "temporal",
+      "file": "europe\\data\\analytical\\04_c40_available.parquet",
+      "sha256": "f51a710fd9a11fe7003776748c3dc4f5792d81496713d96fb59c8c8f256e717e",
+      "rows": 6331494,
+      "columns": 31
+    },
+    {
+      "stage": "final",
+      "file": "europe\\data\\analytical\\06_05_cases_excluded.parquet",
+      "sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "rows": 6331485,
+      "columns": 35
+    },
+    {
+      "stage": "exclusion_archive",
+      "file": "europe/data/review/04_05_c40_pair_full_records.parquet",
+      "sha256": "081f056d81885afba8acfb59053c1d49e793f6eb560e3d267fa93488cd9f5ea6",
+      "rows": 294
+    },
+    {
+      "stage": "exclusion_archive",
+      "file": "europe\\data\\review\\06_02_lsgg_excluded_record.parquet",
+      "sha256": "9b68ae32f70e4863c1976bf9168d77b37db181dcf310423137c236a73d0d4bc7",
+      "rows": 1
+    },
+    {
+      "stage": "exclusion_archive",
+      "file": "europe\\data\\review\\06_04_cfl12_excluded_record.parquet",
+      "sha256": "fca1c107187e83e237311f9307fe5c5bd702cd04c00166b9b606562fe539a9f0",
+      "rows": 1
+    },
+    {
+      "stage": "exclusion_archive",
+      "file": "europe\\data\\review\\06_04_excluded_profile_records.parquet",
+      "sha256": "974ffff69ab2b107c957ffe0c83382fe173046209b1022baefbeae58765c4261",
+      "rows": 4
+    },
+    {
+      "stage": "exclusion_archive",
+      "file": "europe\\data\\review\\06_05_excluded_records.parquet",
+      "sha256": "38e6f16de50f2d36715be14836fa5c879508d97d4f7bcfc30dd63b36a9a67e0e",
+      "rows": 3
+    }
+  ],
+  "ordered_checks": [
+    {
+      "stage": "source",
+      "ordered_stable_fields_sha256": "1c414c1a5dad8599a141e7671657d0e67ca08048f6e4d31dceb9ce7da7e437f0",
+      "rows": 7984254,
+      "goa": 26253,
+      "passed": true
+    },
+    {
+      "stage": "pairs",
+      "ordered_stable_fields_sha256": "fe82bc55d34e20d86da53bd7056668e57090f07faf06738ce25aa129988ac4e5",
+      "rows": 7983960,
+      "goa": 26250,
+      "passed": true
+    },
+    {
+      "stage": "temporal",
+      "ordered_stable_fields_sha256": "536d67ec70e8d6dd7b862e70d4527a598887c908956baa45abeb388f7ca8a62e",
+      "rows": 6331494,
+      "goa": 18358,
+      "passed": true
+    },
+    {
+      "stage": "final",
+      "ordered_stable_fields_sha256": "d0b333a2c2d6d2ec0cbf79970328f626d4bdeb83dc15946c4235e86c400459fe",
+      "rows": 6331485,
+      "goa": 18349,
+      "passed": true
+    }
+  ],
+  "pair_matches": 294,
+  "manual_matches": 9,
+  "verified_fields": [
+    "flight_id",
+    "icao24",
+    "airport",
+    "landing_time",
+    "GoA",
+    "C40_CROSS_TIME",
+    "C40_BEARING",
+    "C40_CROSS_LAT",
+    "C40_CROSS_LON"
+  ],
+  "all_source_columns_verified": false,
+  "global_key_uniqueness_established": false
+}
