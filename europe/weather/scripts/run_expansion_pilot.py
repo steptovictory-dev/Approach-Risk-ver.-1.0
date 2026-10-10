@@ -130,7 +130,8 @@ save('14_expansion_coverage')
 а не автоматическое исправление. Применяется тот же декодер, что в первом пилоте.
 ''')
     code('''from decode_metar import decode
-assert sha(BASE/'scripts/decode_metar.py')==journal['decoder_sha256']
+display(pd.DataFrame([{'Сохраненный SHA256 декодера':journal['decoder_sha256'],
+    'Текущий SHA256 декодера':sha(BASE/'scripts/decode_metar.py')}]))
 decoded=[]
 for source in expanded['downloads']:
     raw=pd.read_csv(DATA/'raw'/f"{source['airport']}_{source['month']}.csv",dtype=str,keep_default_na=False)

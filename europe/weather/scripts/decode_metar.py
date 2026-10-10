@@ -15,7 +15,7 @@ WIND = re.compile(r'^(?P<direction>\d{3}|VRB|///)(?P<speed>P?\d{2,3}|//)'
                   r'(?:G(?P<gust>P?\d{2,3}|//))?(?P<unit>KT|MPS|KMH)$')
 VARIATION = re.compile(r'^(\d{3})V(\d{3})$')
 CLOUD = re.compile(r'^(FEW|SCT|BKN|OVC|VV|///)(\d{3}|///)(CB|TCU|///)?$')
-TEMPERATURE = re.compile(r'^(?:M?\d{2}|//)/(?:M?\d{2}|//)$')
+TEMPERATURE = re.compile(r'^(?P<temperature>M?\d{2}|//)/(?P<dewpoint>M?\d{2}|//)$')
 PRESSURE = re.compile(r'^[QA](?:\d{4}|////)$')
 WEATHER = re.compile(r'^(?:[+-]?(?:VC)?(?:MI|PR|BC|DR|BL|SH|TS|FZ)?'
                      r'(?:DZ|RA|SN|SG|IC|PL|GR|GS|UP|BR|FG|FU|VA|DU|SA|HZ|PY|PO|SQ|FC|SS|DS){1,3}'
@@ -113,13 +113,15 @@ def decode(raw, station, observation_time):
     vis_token = tokens[vi] if vi < len(tokens) else None
     vis_value, vis_relation, vis_unit = None, 'missing', None
     cavok = vis_token == 'CAVOK'
-    if cavok or vis_token == '9999':
+    # NDV не меняет числовую часть и границу специального кода видимости.
+    vis_code = vis_token[:-3] if vis_token and vis_token.endswith('NDV') else vis_token
+    if cavok or vis_code == '9999':
         vis_value, vis_relation, vis_unit = 10000.0, 'ge', 'M'
-    elif vis_token == '0000':
+    elif vis_code == '0000':
         vis_value, vis_relation, vis_unit = 50.0, 'lt', 'M'
     elif vis_token and re.fullmatch(r'\d{4}(?:NDV)?', vis_token):
         vis_value, vis_relation, vis_unit = float(vis_token[:4]), 'eq', 'M'
-    elif vis_token == '////':
+    elif vis_code == '////':
         vis_relation, vis_unit = 'missing', 'M'
     else:
         # Дробные SM не встречались в европейском пилоте; не угадывать их по позиции.
@@ -179,9 +181,10 @@ def decode(raw, station, observation_time):
     temp = temp_tokens[0] if len(temp_tokens) == 1 else None
     def temp_value(value):
         return None if value == '//' else float(value.replace('M', '-'))
+    temperature_match = TEMPERATURE.fullmatch(temp) if temp else None
     result.update(temperature_token=temp,
-        temperature_c=temp_value(temp.split('/')[0]) if temp else None,
-        dewpoint_c=temp_value(temp.split('/', 1)[1]) if temp else None)
+        temperature_c=temp_value(temperature_match['temperature']) if temperature_match else None,
+        dewpoint_c=temp_value(temperature_match['dewpoint']) if temperature_match else None)
     pressure_tokens = [t for t in tokens if PRESSURE.fullmatch(t)]
     pressure = pressure_tokens[0] if len(pressure_tokens) == 1 else None
     if len(pressure_tokens) != 1:

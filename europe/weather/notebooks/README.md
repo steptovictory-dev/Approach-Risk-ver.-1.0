@@ -9,6 +9,7 @@
 4. [04. Протокол расширения пилота](04_expansion_protocol.ipynb): ранжирование ранее не исследованных станций без частоты GoA, проверка каталога IEM, группы по времени C40 UTC и ограничения дизайна. 3 рисунка. Сохранен дизайн до загрузки; результаты приведены в ноутбуке 05.
 5. [05. Покрытие и декодирование расширенного пилота](05_expansion_coverage_and_decoding.ipynb): шесть выгрузок, повторная верификация сопоставления и всех декодированных полей, два сообщения с замечаниями, заполненность и сценарии качества. 3 рисунка.
 6. [06. Качество и чувствительность покрытия шести аэропортов](06_combined_quality_and_availability.ipynb): проверка префикса до QNH, реестр 14 записей LEMD, повторный выбор при задержках 0/5/10/15 минут, сравнение шести станций и проверки сохранения данных. 4 рисунка.
+7. [07. Протокол полного покрытия](07_full_coverage_protocol.ipynb): полный охват актуального входа, проверка 19 станций, месячные границы, план 93 запросов и 20 семантических тестов. 3 рисунка.
 
 Для обозначения групп используются красный и зеленый цвета; значения обозначений приведены в легендах рисунков. Рисунки дополнительно сохранены в `../figures/` в PNG и SVG. Основные поля описаны в [словаре](../reports/04_field_dictionary.md).
 
@@ -21,6 +22,15 @@
 .\.venv\Scripts\python.exe europe/weather/scripts/build_expansion_protocol.py
 .\.venv\Scripts\python.exe europe/weather/scripts/run_expansion_pilot.py
 .\.venv\Scripts\python.exe europe/weather/scripts/build_combined_quality_notebook.py
+.\.venv\Scripts\python.exe europe/weather/scripts/full_weather_pipeline.py prepare
+.\.venv\Scripts\python.exe europe/weather/scripts/build_full_weather_notebooks.py protocol
+.\.venv\Scripts\python.exe europe/weather/scripts/full_weather_pipeline.py run
+.\.venv\Scripts\python.exe europe/weather/scripts/build_full_weather_notebooks.py results
 ```
 
 Скрипт сборки не скачивает данные и не обучает модели. С нуля сначала выполнить `audit_pilot_input.py`, `run_coverage_pilot.py`, `decode_pilot.py`. Сборка заново создает и выполняет оба ноутбука; редакторские изменения следует вносить в скрипт сборки.
+
+8. [08. Полное погодное покрытие](08_full_weather_coverage.ipynb): 6 331 485 записей, целостность и сценарии доступности. 3 рисунка.
+9. [09. Аудит числовых аномалий](09_numeric_anomaly_audit.ipynb): 18 кандидатов, соседние сообщения и почасовой архив. 1 рисунок.
+
+Дополнительные команды воспроизведения из корня: verify_full_weather_results.py, audit_full_extreme_values.py, audit_numeric_anomalies.py, build_numeric_audit_notebook.py из europe/weather/scripts; запуск через .venv/Scripts/python.exe. Последний скрипт выполняет ноутбук, аудит загружает ограниченный архив при отсутствии кеша.

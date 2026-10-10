@@ -1,0 +1,12 @@
+{
+  "scope": "93 station-year blocks; QNH diagnostic interval and dewpoint-temperature consistency; four observed extremes with +/-3h neighbors",
+  "unique_candidates": 18,
+  "candidate_reason_counts": {
+    "dewpoint_above_temperature": 14,
+    "observed_extreme": 4,
+    "qnh_outside_diagnostic_interval": 2
+  },
+  "rows_changed": 0,
+  "rows_deleted": 0,
+  "independent_source_verified": false
+}

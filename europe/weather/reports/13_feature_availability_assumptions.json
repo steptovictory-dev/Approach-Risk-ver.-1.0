@@ -1,0 +1,10 @@
+{
+  "airport_known_at_c40": true,
+  "airport_availability_status": "study_assumption_not_verified_from_retrospective_input",
+  "required_operational_source": "independent_destination_source_available_by_C40",
+  "metar_receipt_time_verified": false,
+  "assumed_latency_minutes": [0, 5, 10, 15],
+  "runway_wind_components_computed": false,
+  "model_missingness_policy_decided": false,
+  "training_executed": false
+}

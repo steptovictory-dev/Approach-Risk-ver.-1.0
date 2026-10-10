@@ -100,6 +100,24 @@ class DecodeSemantics(unittest.TestCase):
         self.assertEqual(row['temperature_c'], 0)
         self.assertEqual(row['dewpoint_c'], 0)
 
+    def test_missing_temperature_components_preserve_slash_codes(self):
+        for token,temperature,dewpoint in [('/////',None,None),('///M02',None,-2),('03///',3,None)]:
+            with self.subTest(token=token):
+                row=report(f'31007KT 9999 FEW033 {token} Q////')
+                self.assertEqual(row['temperature_token'],token)
+                self.assertEqual(row['temperature_c'],temperature)
+                self.assertEqual(row['dewpoint_c'],dewpoint)
+                self.assertIsNone(row['qnh_hpa'])
+
+    def test_ndv_suffix_preserves_special_visibility_bounds(self):
+        for token,value,relation in [('9999NDV',10000,'ge'),('0000NDV',50,'lt'),('////NDV',None,'missing'),('8000NDV',8000,'eq')]:
+            with self.subTest(token=token):
+                row=report(f'15014KT {token} FEW020/// 00/M05 Q1007')
+                self.assertEqual(row['visibility_token'],token)
+                self.assertEqual(row['visibility_m'],value)
+                self.assertEqual(row['visibility_relation'],relation)
+                self.assertTrue(row['visibility_ndv'])
+
 
 if __name__ == '__main__':
     unittest.main()

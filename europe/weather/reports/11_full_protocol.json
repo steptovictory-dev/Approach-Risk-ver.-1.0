@@ -1,0 +1,2615 @@
+{
+  "created_utc": "2026-10-10T20:31:56.811510+00:00",
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "rows": 6331485,
+  "go_arounds": 18349,
+  "airports": 19,
+  "groups": 968,
+  "selection": "All nonempty airport-month groups in the current analytical input, by C40 UTC; no label-based selection",
+  "primary_age_minutes": 60,
+  "sensitivity_age_minutes": [
+    30,
+    60,
+    90
+  ],
+  "assumed_latency_minutes": [
+    0,
+    5,
+    10,
+    15
+  ],
+  "observation_time_is_availability": false,
+  "training_executed": false,
+  "station_metadata": [
+    {
+      "airport": "EDDB",
+      "network": "DE__ASOS",
+      "properties": {
+        "elevation": 48.0,
+        "sname": "Berlin",
+        "time_domain": "(1940-Now)",
+        "archive_begin": "1940-04-08",
+        "archive_end": null,
+        "state": null,
+        "country": "DE",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Berlin",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "EDDB",
+        "network": "DE__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "METAR_RESET_MINUTE": "50",
+          "HAS_PHOUR": "1",
+          "GHCNH_ID": "GMI0000EDDB"
+        }
+      },
+      "coordinates": [
+        13.5325,
+        52.3822
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/DE__ASOS.geojson",
+      "sha256": "efbf41bd895e7eca7ee91fc60a781f95a17433467e974e3b9817c934403e67af",
+      "downloaded_utc": "2026-10-10T20:14:50.960801+00:00"
+    },
+    {
+      "airport": "EDDF",
+      "network": "DE__ASOS",
+      "properties": {
+        "elevation": 103.0,
+        "sname": "Frankfurt",
+        "time_domain": "(1928-Now)",
+        "archive_begin": "1928-01-01",
+        "archive_end": null,
+        "state": "  ",
+        "country": "DE",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Berlin",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "EDDF",
+        "network": "DE__ASOS",
+        "online": true,
+        "synop": null,
+        "attributes": {
+          "HAS_PHOUR": "1",
+          "METAR_RESET_MINUTE": "50"
+        }
+      },
+      "coordinates": [
+        8.5214,
+        50.0258
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/DE__ASOS.geojson",
+      "sha256": "efbf41bd895e7eca7ee91fc60a781f95a17433467e974e3b9817c934403e67af",
+      "downloaded_utc": "2026-10-10T20:14:50.960801+00:00"
+    },
+    {
+      "airport": "EDDM",
+      "network": "DE__ASOS",
+      "properties": {
+        "elevation": 447.0,
+        "sname": "Munich",
+        "time_domain": "(1929-Now)",
+        "archive_begin": "1929-08-01",
+        "archive_end": null,
+        "state": null,
+        "country": "DE",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Berlin",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "EDDM",
+        "network": "DE__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "METAR_RESET_MINUTE": "50",
+          "HAS_PHOUR": "1"
+        }
+      },
+      "coordinates": [
+        11.8092,
+        48.3583
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/DE__ASOS.geojson",
+      "sha256": "efbf41bd895e7eca7ee91fc60a781f95a17433467e974e3b9817c934403e67af",
+      "downloaded_utc": "2026-10-10T20:14:50.960801+00:00"
+    },
+    {
+      "airport": "EGCC",
+      "network": "GB__ASOS",
+      "properties": {
+        "elevation": 78.0,
+        "sname": "Manchester",
+        "time_domain": "(1933-Now)",
+        "archive_begin": "1933-09-30",
+        "archive_end": null,
+        "state": null,
+        "country": "GB",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/London",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "EGCC",
+        "network": "GB__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "HAS_PHOUR": "1",
+          "METAR_RESET_MINUTE": "50",
+          "GHCNH_ID": "UKI0000EGCC"
+        }
+      },
+      "coordinates": [
+        -2.275,
+        53.3537
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/GB__ASOS.geojson",
+      "sha256": "45679b847ae2de58fdd438a44aef83353ac84c66e8092e2ae1f642306fe85f44",
+      "downloaded_utc": "2026-10-10T20:31:50.891832+00:00"
+    },
+    {
+      "airport": "EGLL",
+      "network": "GB__ASOS",
+      "properties": {
+        "elevation": 26.786364,
+        "sname": "London",
+        "time_domain": "(1948-Now)",
+        "archive_begin": "1948-11-30",
+        "archive_end": null,
+        "state": null,
+        "country": "GB",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/London",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "EGLL",
+        "network": "GB__ASOS",
+        "online": true,
+        "synop": null,
+        "attributes": {
+          "METAR_RESET_MINUTE": "50",
+          "HAS_PHOUR": "1"
+        }
+      },
+      "coordinates": [
+        -0.4614,
+        51.4785
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/GB__ASOS.geojson",
+      "sha256": "45679b847ae2de58fdd438a44aef83353ac84c66e8092e2ae1f642306fe85f44",
+      "downloaded_utc": "2026-10-10T20:31:50.891832+00:00"
+    },
+    {
+      "airport": "EGSS",
+      "network": "GB__ASOS",
+      "properties": {
+        "elevation": 106.0,
+        "sname": "London",
+        "time_domain": "(1972-Now)",
+        "archive_begin": "1972-12-31",
+        "archive_end": null,
+        "state": null,
+        "country": "GB",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/London",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "EGSS",
+        "network": "GB__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "HAS_PHOUR": "1",
+          "METAR_RESET_MINUTE": "50"
+        }
+      },
+      "coordinates": [
+        0.2232,
+        51.8812
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/GB__ASOS.geojson",
+      "sha256": "45679b847ae2de58fdd438a44aef83353ac84c66e8092e2ae1f642306fe85f44",
+      "downloaded_utc": "2026-10-10T20:31:50.891832+00:00"
+    },
+    {
+      "airport": "EHAM",
+      "network": "NL__ASOS",
+      "properties": {
+        "elevation": 9.0,
+        "sname": "Amsterdam",
+        "time_domain": "(1932-Now)",
+        "archive_begin": "1932-05-03",
+        "archive_end": null,
+        "state": null,
+        "country": "NL",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Amsterdam",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "EHAM",
+        "network": "NL__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "METAR_RESET_MINUTE": "55",
+          "HAS_PHOUR": "1"
+        }
+      },
+      "coordinates": [
+        4.7902,
+        52.3154
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/NL__ASOS.geojson",
+      "sha256": "238e3ec0466e0d9592b0140be244e705fe1cad5ca66eaa5f5333e01e31d24c5d",
+      "downloaded_utc": "2026-10-10T20:14:51.652718+00:00"
+    },
+    {
+      "airport": "EIDW",
+      "network": "IE__ASOS",
+      "properties": {
+        "elevation": 85.0,
+        "sname": "Dublin",
+        "time_domain": "(1972-Now)",
+        "archive_begin": "1972-12-31",
+        "archive_end": null,
+        "state": null,
+        "country": "IE",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Dublin",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "EIDW",
+        "network": "IE__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "METAR_RESET_MINUTE": "0",
+          "GHCNH_ID": "EII0000EIDW",
+          "HAS_PHOUR": "1"
+        }
+      },
+      "coordinates": [
+        -6.2977,
+        53.4215
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/IE__ASOS.geojson",
+      "sha256": "a53fc9609dc7076f6a554a8baf1856e4bc773b339c61a2ed3a5c0f015076be64",
+      "downloaded_utc": "2026-10-10T20:31:51.734787+00:00"
+    },
+    {
+      "airport": "EKCH",
+      "network": "DK__ASOS",
+      "properties": {
+        "elevation": 5.0,
+        "sname": "Copenhagen",
+        "time_domain": "(1929-Now)",
+        "archive_begin": "1929-08-01",
+        "archive_end": null,
+        "state": null,
+        "country": "DK",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Copenhagen",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "EKCH",
+        "network": "DK__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "HAS_PHOUR": "1",
+          "METAR_RESET_MINUTE": "50"
+        }
+      },
+      "coordinates": [
+        12.6453,
+        55.6142
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/DK__ASOS.geojson",
+      "sha256": "16aeaf98525d44c5e3c7ac88144a3d289607b24b28efe6ec2a1e8ab4d406188f",
+      "downloaded_utc": "2026-10-10T20:31:52.542181+00:00"
+    },
+    {
+      "airport": "EPWA",
+      "network": "PL__ASOS",
+      "properties": {
+        "elevation": 107.0,
+        "sname": "Warsaw",
+        "time_domain": "(1928-Now)",
+        "archive_begin": "1928-01-02",
+        "archive_end": null,
+        "state": null,
+        "country": "PL",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Warsaw",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "EPWA",
+        "network": "PL__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "HAS_PHOUR": "1",
+          "METAR_RESET_MINUTE": "0"
+        }
+      },
+      "coordinates": [
+        20.9611,
+        52.1628
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/PL__ASOS.geojson",
+      "sha256": "249664bc3f394e482106b03fc27bd0ef004801d919a0668a6522dd536aef7cf2",
+      "downloaded_utc": "2026-10-10T20:31:53.136582+00:00"
+    },
+    {
+      "airport": "ESSA",
+      "network": "SE__ASOS",
+      "properties": {
+        "elevation": 61.0,
+        "sname": "Stockholm",
+        "time_domain": "(1977-Now)",
+        "archive_begin": "1977-06-30",
+        "archive_end": null,
+        "state": null,
+        "country": "SE",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Stockholm",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "ESSA",
+        "network": "SE__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "METAR_RESET_MINUTE": "50",
+          "HAS_PHOUR": "1"
+        }
+      },
+      "coordinates": [
+        17.9508,
+        59.6264
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/SE__ASOS.geojson",
+      "sha256": "0b0c8048f6d830498245d723c2bc8fdfb3268e2a81a93a64f37a5146e2fa75aa",
+      "downloaded_utc": "2026-10-10T20:31:53.856060+00:00"
+    },
+    {
+      "airport": "LEMD",
+      "network": "ES__ASOS",
+      "properties": {
+        "elevation": 582.0,
+        "sname": "Madrid",
+        "time_domain": "(1931-Now)",
+        "archive_begin": "1931-01-02",
+        "archive_end": null,
+        "state": null,
+        "country": "ES",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Madrid",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "LEMD",
+        "network": "ES__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "METAR_RESET_MINUTE": "0",
+          "HAS_PHOUR": "1"
+        }
+      },
+      "coordinates": [
+        -3.5556,
+        40.4667
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/ES__ASOS.geojson",
+      "sha256": "29fcc0262c510535756241071be02ecaca35105445b410e23791b8655c434160",
+      "downloaded_utc": "2026-10-10T20:14:52.376469+00:00"
+    },
+    {
+      "airport": "LFPG",
+      "network": "FR__ASOS",
+      "properties": {
+        "elevation": 109.0,
+        "sname": "Paris",
+        "time_domain": "(1974-Now)",
+        "archive_begin": "1974-04-18",
+        "archive_end": null,
+        "state": null,
+        "country": "FR",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Paris",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "LFPG",
+        "network": "FR__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "METAR_RESET_MINUTE": "0",
+          "GHCNH_ID": "FRI0000LFPG",
+          "HAS_PHOUR": "1"
+        }
+      },
+      "coordinates": [
+        2.5344,
+        49.0153
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/FR__ASOS.geojson",
+      "sha256": "121bdcf322c665c174d212d47b79e912d2fe6b5e7b92f8df155c4f2443b53569",
+      "downloaded_utc": "2026-10-10T20:31:54.815893+00:00"
+    },
+    {
+      "airport": "LFPO",
+      "network": "FR__ASOS",
+      "properties": {
+        "elevation": 96.0,
+        "sname": "Paris",
+        "time_domain": "(1937-Now)",
+        "archive_begin": "1937-06-01",
+        "archive_end": null,
+        "state": null,
+        "country": "FR",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Paris",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "LFPO",
+        "network": "FR__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "HAS_PHOUR": "1",
+          "METAR_RESET_MINUTE": "0"
+        }
+      },
+      "coordinates": [
+        2.3833,
+        48.7167
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/FR__ASOS.geojson",
+      "sha256": "121bdcf322c665c174d212d47b79e912d2fe6b5e7b92f8df155c4f2443b53569",
+      "downloaded_utc": "2026-10-10T20:31:54.815893+00:00"
+    },
+    {
+      "airport": "LIMC",
+      "network": "IT__ASOS",
+      "properties": {
+        "elevation": 211.0,
+        "sname": "Milano",
+        "time_domain": "(1965-Now)",
+        "archive_begin": "1965-02-03",
+        "archive_end": null,
+        "state": null,
+        "country": "IT",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Rome",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "LIMC",
+        "network": "IT__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "HAS_PHOUR": "1",
+          "METAR_RESET_MINUTE": "50"
+        }
+      },
+      "coordinates": [
+        8.7231,
+        45.63
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/IT__ASOS.geojson",
+      "sha256": "625f62cb244a093ca2d87587608f693a14a8a2d67da37c7b867cb60315ad3cfa",
+      "downloaded_utc": "2026-10-10T20:31:55.640332+00:00"
+    },
+    {
+      "airport": "LIRF",
+      "network": "IT__ASOS",
+      "properties": {
+        "elevation": 3.0,
+        "sname": "Rome",
+        "time_domain": "(1965-Now)",
+        "archive_begin": "1965-06-30",
+        "archive_end": null,
+        "state": null,
+        "country": "IT",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Rome",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "LIRF",
+        "network": "IT__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "METAR_RESET_MINUTE": "50",
+          "HAS_PHOUR": "1"
+        }
+      },
+      "coordinates": [
+        12.2389,
+        41.8003
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/IT__ASOS.geojson",
+      "sha256": "625f62cb244a093ca2d87587608f693a14a8a2d67da37c7b867cb60315ad3cfa",
+      "downloaded_utc": "2026-10-10T20:31:55.640332+00:00"
+    },
+    {
+      "airport": "LOWW",
+      "network": "AT__ASOS",
+      "properties": {
+        "elevation": 190.0,
+        "sname": "Vienna",
+        "time_domain": "(1952-Now)",
+        "archive_begin": "1952-01-01",
+        "archive_end": null,
+        "state": null,
+        "country": "AT",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Vienna",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "LOWW",
+        "network": "AT__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "HAS_PHOUR": "1",
+          "METAR_RESET_MINUTE": "50",
+          "GHCNH_ID": "AUI0000LOWW"
+        }
+      },
+      "coordinates": [
+        16.5708,
+        48.1108
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/AT__ASOS.geojson",
+      "sha256": "a962e747ff5ef1fcf4868bb034fd04aaad04409891057728277090c6b1f8a7af",
+      "downloaded_utc": "2026-10-10T20:31:56.192265+00:00"
+    },
+    {
+      "airport": "LSGG",
+      "network": "CH__ASOS",
+      "properties": {
+        "elevation": 416.0,
+        "sname": "Geneva",
+        "time_domain": "(1935-Now)",
+        "archive_begin": "1935-01-01",
+        "archive_end": null,
+        "state": null,
+        "country": "CH",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Zurich",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "LSGG",
+        "network": "CH__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "GHCNH_ID": "SZI0000LSGG",
+          "METAR_RESET_MINUTE": "50",
+          "HAS_PHOUR": "1"
+        }
+      },
+      "coordinates": [
+        6.1278,
+        46.2475
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/CH__ASOS.geojson",
+      "sha256": "0597fb35fe38c8885424d1fdc037c669db90dc234ae89eb0415ae70519979b00",
+      "downloaded_utc": "2026-10-10T20:31:56.775520+00:00"
+    },
+    {
+      "airport": "LSZH",
+      "network": "CH__ASOS",
+      "properties": {
+        "elevation": 432.0,
+        "sname": "Zurich",
+        "time_domain": "(1954-Now)",
+        "archive_begin": "1954-12-31",
+        "archive_end": null,
+        "state": null,
+        "country": "CH",
+        "climate_site": null,
+        "wfo": null,
+        "tzname": "Europe/Zurich",
+        "ncdc81": null,
+        "ncei91": null,
+        "ugc_county": null,
+        "ugc_zone": null,
+        "county": null,
+        "sid": "LSZH",
+        "network": "CH__ASOS",
+        "online": true,
+        "synop": 99999,
+        "attributes": {
+          "METAR_RESET_MINUTE": "50",
+          "HAS_PHOUR": "1"
+        }
+      },
+      "coordinates": [
+        8.5302,
+        47.4784
+      ],
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/CH__ASOS.geojson",
+      "sha256": "0597fb35fe38c8885424d1fdc037c669db90dc234ae89eb0415ae70519979b00",
+      "downloaded_utc": "2026-10-10T20:31:56.775520+00:00"
+    }
+  ],
+  "jobs": [
+    {
+      "airport": "EDDB",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 28762,
+      "go_arounds": 65
+    },
+    {
+      "airport": "EDDB",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 13117,
+      "go_arounds": 35
+    },
+    {
+      "airport": "EDDB",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 35640,
+      "go_arounds": 99
+    },
+    {
+      "airport": "EDDB",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 50306,
+      "go_arounds": 153
+    },
+    {
+      "airport": "EDDB",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-06-01T00:00:00+00:00",
+      "months": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05"
+      ],
+      "rows": 20511,
+      "go_arounds": 75
+    },
+    {
+      "airport": "EDDF",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 218773,
+      "go_arounds": 639
+    },
+    {
+      "airport": "EDDF",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 96515,
+      "go_arounds": 314
+    },
+    {
+      "airport": "EDDF",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 118807,
+      "go_arounds": 352
+    },
+    {
+      "airport": "EDDF",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 159344,
+      "go_arounds": 548
+    },
+    {
+      "airport": "EDDF",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-02-01T00:00:00+00:00",
+      "months": [
+        "2023-01"
+      ],
+      "rows": 11521,
+      "go_arounds": 31
+    },
+    {
+      "airport": "EDDM",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 163062,
+      "go_arounds": 478
+    },
+    {
+      "airport": "EDDM",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 60295,
+      "go_arounds": 148
+    },
+    {
+      "airport": "EDDM",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 64783,
+      "go_arounds": 206
+    },
+    {
+      "airport": "EDDM",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 111816,
+      "go_arounds": 348
+    },
+    {
+      "airport": "EDDM",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-06-01T00:00:00+00:00",
+      "months": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05"
+      ],
+      "rows": 43247,
+      "go_arounds": 113
+    },
+    {
+      "airport": "EGCC",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 62459,
+      "go_arounds": 215
+    },
+    {
+      "airport": "EGCC",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 23746,
+      "go_arounds": 88
+    },
+    {
+      "airport": "EGCC",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2021-03-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02"
+      ],
+      "rows": 1230,
+      "go_arounds": 3
+    },
+    {
+      "airport": "EGLL",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 218410,
+      "go_arounds": 825
+    },
+    {
+      "airport": "EGLL",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 95585,
+      "go_arounds": 380
+    },
+    {
+      "airport": "EGLL",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 88747,
+      "go_arounds": 266
+    },
+    {
+      "airport": "EGLL",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 156855,
+      "go_arounds": 624
+    },
+    {
+      "airport": "EGLL",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-06-01T00:00:00+00:00",
+      "months": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05"
+      ],
+      "rows": 72121,
+      "go_arounds": 305
+    },
+    {
+      "airport": "EGSS",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 77944,
+      "go_arounds": 210
+    },
+    {
+      "airport": "EGSS",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 32849,
+      "go_arounds": 97
+    },
+    {
+      "airport": "EGSS",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 33575,
+      "go_arounds": 91
+    },
+    {
+      "airport": "EGSS",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 55050,
+      "go_arounds": 171
+    },
+    {
+      "airport": "EGSS",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-06-01T00:00:00+00:00",
+      "months": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05"
+      ],
+      "rows": 21930,
+      "go_arounds": 62
+    },
+    {
+      "airport": "EHAM",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 184177,
+      "go_arounds": 309
+    },
+    {
+      "airport": "EHAM",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 92058,
+      "go_arounds": 226
+    },
+    {
+      "airport": "EHAM",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 115235,
+      "go_arounds": 170
+    },
+    {
+      "airport": "EHAM",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 158396,
+      "go_arounds": 291
+    },
+    {
+      "airport": "EHAM",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-02-01T00:00:00+00:00",
+      "months": [
+        "2023-01"
+      ],
+      "rows": 11615,
+      "go_arounds": 42
+    },
+    {
+      "airport": "EIDW",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 80395,
+      "go_arounds": 270
+    },
+    {
+      "airport": "EIDW",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 36578,
+      "go_arounds": 176
+    },
+    {
+      "airport": "EIDW",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 38701,
+      "go_arounds": 98
+    },
+    {
+      "airport": "EIDW",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 75671,
+      "go_arounds": 265
+    },
+    {
+      "airport": "EIDW",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-06-01T00:00:00+00:00",
+      "months": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05"
+      ],
+      "rows": 32534,
+      "go_arounds": 113
+    },
+    {
+      "airport": "EKCH",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 97694,
+      "go_arounds": 234
+    },
+    {
+      "airport": "EKCH",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 37844,
+      "go_arounds": 80
+    },
+    {
+      "airport": "EKCH",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 41410,
+      "go_arounds": 89
+    },
+    {
+      "airport": "EKCH",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 62677,
+      "go_arounds": 150
+    },
+    {
+      "airport": "EKCH",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-02-01T00:00:00+00:00",
+      "months": [
+        "2023-01"
+      ],
+      "rows": 3647,
+      "go_arounds": 9
+    },
+    {
+      "airport": "EPWA",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 45176,
+      "go_arounds": 135
+    },
+    {
+      "airport": "EPWA",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 26788,
+      "go_arounds": 83
+    },
+    {
+      "airport": "EPWA",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 35079,
+      "go_arounds": 112
+    },
+    {
+      "airport": "EPWA",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 51109,
+      "go_arounds": 178
+    },
+    {
+      "airport": "EPWA",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-06-01T00:00:00+00:00",
+      "months": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05"
+      ],
+      "rows": 19600,
+      "go_arounds": 59
+    },
+    {
+      "airport": "ESSA",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 95368,
+      "go_arounds": 238
+    },
+    {
+      "airport": "ESSA",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 34633,
+      "go_arounds": 100
+    },
+    {
+      "airport": "ESSA",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 34673,
+      "go_arounds": 80
+    },
+    {
+      "airport": "ESSA",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 55798,
+      "go_arounds": 153
+    },
+    {
+      "airport": "ESSA",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-06-01T00:00:00+00:00",
+      "months": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05"
+      ],
+      "rows": 23351,
+      "go_arounds": 66
+    },
+    {
+      "airport": "LEMD",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 166569,
+      "go_arounds": 258
+    },
+    {
+      "airport": "LEMD",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 63866,
+      "go_arounds": 122
+    },
+    {
+      "airport": "LEMD",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 93002,
+      "go_arounds": 172
+    },
+    {
+      "airport": "LEMD",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 134761,
+      "go_arounds": 322
+    },
+    {
+      "airport": "LEMD",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-06-01T00:00:00+00:00",
+      "months": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05"
+      ],
+      "rows": 56846,
+      "go_arounds": 112
+    },
+    {
+      "airport": "LFPG",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 196950,
+      "go_arounds": 699
+    },
+    {
+      "airport": "LFPG",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 92471,
+      "go_arounds": 312
+    },
+    {
+      "airport": "LFPG",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 106498,
+      "go_arounds": 408
+    },
+    {
+      "airport": "LFPG",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 155753,
+      "go_arounds": 661
+    },
+    {
+      "airport": "LFPG",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-06-01T00:00:00+00:00",
+      "months": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05"
+      ],
+      "rows": 65890,
+      "go_arounds": 266
+    },
+    {
+      "airport": "LFPO",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 68925,
+      "go_arounds": 249
+    },
+    {
+      "airport": "LFPO",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 31014,
+      "go_arounds": 85
+    },
+    {
+      "airport": "LFPO",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 44865,
+      "go_arounds": 106
+    },
+    {
+      "airport": "LFPO",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 65840,
+      "go_arounds": 216
+    },
+    {
+      "airport": "LFPO",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-06-01T00:00:00+00:00",
+      "months": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05"
+      ],
+      "rows": 25959,
+      "go_arounds": 88
+    },
+    {
+      "airport": "LIMC",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 56888,
+      "go_arounds": 115
+    },
+    {
+      "airport": "LIMC",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 29983,
+      "go_arounds": 79
+    },
+    {
+      "airport": "LIMC",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 37278,
+      "go_arounds": 77
+    },
+    {
+      "airport": "LIMC",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 52641,
+      "go_arounds": 133
+    },
+    {
+      "airport": "LIMC",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-06-01T00:00:00+00:00",
+      "months": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05"
+      ],
+      "rows": 19607,
+      "go_arounds": 43
+    },
+    {
+      "airport": "LIRF",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 129063,
+      "go_arounds": 179
+    },
+    {
+      "airport": "LIRF",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 43867,
+      "go_arounds": 73
+    },
+    {
+      "airport": "LIRF",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 45088,
+      "go_arounds": 46
+    },
+    {
+      "airport": "LIRF",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 74160,
+      "go_arounds": 115
+    },
+    {
+      "airport": "LIRF",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-06-01T00:00:00+00:00",
+      "months": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05"
+      ],
+      "rows": 30571,
+      "go_arounds": 53
+    },
+    {
+      "airport": "LOWW",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 102830,
+      "go_arounds": 335
+    },
+    {
+      "airport": "LOWW",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 38551,
+      "go_arounds": 176
+    },
+    {
+      "airport": "LOWW",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 49106,
+      "go_arounds": 174
+    },
+    {
+      "airport": "LOWW",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 72226,
+      "go_arounds": 233
+    },
+    {
+      "airport": "LOWW",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-06-01T00:00:00+00:00",
+      "months": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05"
+      ],
+      "rows": 30865,
+      "go_arounds": 103
+    },
+    {
+      "airport": "LSGG",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 68810,
+      "go_arounds": 154
+    },
+    {
+      "airport": "LSGG",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 30391,
+      "go_arounds": 81
+    },
+    {
+      "airport": "LSGG",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 34183,
+      "go_arounds": 84
+    },
+    {
+      "airport": "LSGG",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 48687,
+      "go_arounds": 141
+    },
+    {
+      "airport": "LSGG",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-06-01T00:00:00+00:00",
+      "months": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05"
+      ],
+      "rows": 23301,
+      "go_arounds": 68
+    },
+    {
+      "airport": "LSZH",
+      "year": "2019",
+      "start_utc": "2019-01-01T00:00:00+00:00",
+      "end_utc": "2020-01-01T00:00:00+00:00",
+      "months": [
+        "2019-01",
+        "2019-02",
+        "2019-03",
+        "2019-04",
+        "2019-05",
+        "2019-06",
+        "2019-07",
+        "2019-08",
+        "2019-09",
+        "2019-10",
+        "2019-11",
+        "2019-12"
+      ],
+      "rows": 110036,
+      "go_arounds": 366
+    },
+    {
+      "airport": "LSZH",
+      "year": "2020",
+      "start_utc": "2020-01-01T00:00:00+00:00",
+      "end_utc": "2021-01-01T00:00:00+00:00",
+      "months": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "rows": 43458,
+      "go_arounds": 190
+    },
+    {
+      "airport": "LSZH",
+      "year": "2021",
+      "start_utc": "2021-01-01T00:00:00+00:00",
+      "end_utc": "2022-01-01T00:00:00+00:00",
+      "months": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12"
+      ],
+      "rows": 51260,
+      "go_arounds": 175
+    },
+    {
+      "airport": "LSZH",
+      "year": "2022",
+      "start_utc": "2022-01-01T00:00:00+00:00",
+      "end_utc": "2023-01-01T00:00:00+00:00",
+      "months": [
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "rows": 78758,
+      "go_arounds": 282
+    },
+    {
+      "airport": "LSZH",
+      "year": "2023",
+      "start_utc": "2023-01-01T00:00:00+00:00",
+      "end_utc": "2023-06-01T00:00:00+00:00",
+      "months": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05"
+      ],
+      "rows": 33461,
+      "go_arounds": 131
+    }
+  ]
+}

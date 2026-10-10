@@ -1,0 +1,3983 @@
+{
+  "completed": 93,
+  "planned": 93,
+  "rows_processed": 6331485,
+  "jobs": [
+    {
+      "airport": "EDDB",
+      "year": "2019",
+      "rows": 28762,
+      "go_arounds": 65,
+      "raw_reports": 17555,
+      "unique_reports": 17555,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 57,
+      "core_failed_reports": 57,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDB&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "17e7b29add2f18b37d31a7eab9943e39904ebb71a83d18df2ec34250c5cd247c",
+        "downloaded_utc": "2026-10-10T20:33:47.860781+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EDDB_2019_reports.parquet",
+          "sha256": "1b202027ac14c299b67530643b8ed9684b1939e0a0829d4a0aa2326e67a8d941"
+        },
+        {
+          "name": "EDDB_2019_features.parquet",
+          "sha256": "1a583008e9049ef0b77bf2cb1ab2ed96c922468ed5c150ab24d1a39b5254d4c6"
+        },
+        {
+          "name": "EDDB_2019_scenarios.csv",
+          "sha256": "c2f50620a1a394faea2368ed349e8e8d5740779b4f144e0f8de9d472692b1ada"
+        },
+        {
+          "name": "EDDB_2019_residuals.csv",
+          "sha256": "e11d26267294b718450d4015f3f53fca5e67cd885c558337524457406da563a8"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EDDB",
+      "year": "2020",
+      "rows": 13117,
+      "go_arounds": 35,
+      "raw_reports": 17609,
+      "unique_reports": 17609,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 58,
+      "core_failed_reports": 58,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDB&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "9aadc07fbbeab110a64b2df1903e6be1264588e197403c6c8f554e4f8ba79033",
+        "downloaded_utc": "2026-10-10T20:33:56.202779+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EDDB_2020_reports.parquet",
+          "sha256": "298008c1c901f88147b8dec61f2ad7fd160021b1139fcb38024da5c248941992"
+        },
+        {
+          "name": "EDDB_2020_features.parquet",
+          "sha256": "925ca60f50a1ee29db58e8a3c5086dfc158070813e842a21e2d1bef06a9d49a1"
+        },
+        {
+          "name": "EDDB_2020_scenarios.csv",
+          "sha256": "1933178374b80116669948ec89fe90122f6153d1c5afeb5456d09668ef03959f"
+        },
+        {
+          "name": "EDDB_2020_residuals.csv",
+          "sha256": "b9ab2e647dc6cfcb695468afa41e0af09143c345a8ec7d14f85803dab3f1d54b"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EDDB",
+      "year": "2021",
+      "rows": 35640,
+      "go_arounds": 99,
+      "raw_reports": 17561,
+      "unique_reports": 17561,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 44,
+      "core_failed_reports": 40,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDB&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "d42751ab20c2dfd1cef0696734340096c367d05a843e27c9142d487b325c46cc",
+        "downloaded_utc": "2026-10-10T20:34:05.485204+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EDDB_2021_reports.parquet",
+          "sha256": "d34272c55256bca2b87a16eeae4ab9a6649d6e40e70443efea84f7be7e6312e0"
+        },
+        {
+          "name": "EDDB_2021_features.parquet",
+          "sha256": "4326400f2e2ed1dfc40491126df2699d7c7a56973ac6a3fadc76deb26a6c8a23"
+        },
+        {
+          "name": "EDDB_2021_scenarios.csv",
+          "sha256": "ec485b4137319f1a56b0256661e9d8b835440a689ada96db60e553de782bec45"
+        },
+        {
+          "name": "EDDB_2021_residuals.csv",
+          "sha256": "f203a754342716dff89a1248febee6582bc27daad34a20247ad4c7a8c249559e"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EDDB",
+      "year": "2022",
+      "rows": 50306,
+      "go_arounds": 153,
+      "raw_reports": 17558,
+      "unique_reports": 17558,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 19,
+      "core_failed_reports": 16,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDB&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "4cb5b4fa1c2dfb7d2f0e082a1182cb2256e5e774fea7abe2e6563af7a7ce5b02",
+        "downloaded_utc": "2026-10-10T20:34:16.189606+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EDDB_2022_reports.parquet",
+          "sha256": "e4366c84ddcb1232cc0dbefd6dec535edd2bca803a50d70039938bc1cb899c97"
+        },
+        {
+          "name": "EDDB_2022_features.parquet",
+          "sha256": "ce9c7a20599b813bb8e07172622be65ab0a7073a814d1148a83f9bd3b214ba99"
+        },
+        {
+          "name": "EDDB_2022_scenarios.csv",
+          "sha256": "ea712e7960a38d5837ed94866e538dd4f1f4851d9e665730b7b8736c48f988c3"
+        },
+        {
+          "name": "EDDB_2022_residuals.csv",
+          "sha256": "53bd080cc1f8ae8d3aaeb4d767f3d5a72efe43fcd0682a27147cc4f27a99af92"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EDDB",
+      "year": "2023",
+      "rows": 20511,
+      "go_arounds": 75,
+      "raw_reports": 7295,
+      "unique_reports": 7295,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 2,
+      "core_failed_reports": 1,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDB&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-06-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "53f98883b3321cb3707c7407a4a26274d31f0ae29f13338e1e7d54e9a70a64ae",
+        "downloaded_utc": "2026-10-10T20:34:24.703337+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EDDB_2023_reports.parquet",
+          "sha256": "3b98f09921a7164f27e9c23b7f5df513f3be61237635b02e1b20de3ed68cfec3"
+        },
+        {
+          "name": "EDDB_2023_features.parquet",
+          "sha256": "e63c7c3a46ecaed7a6bdca38ff877233dd08364b7dbcf454523094e5641a4658"
+        },
+        {
+          "name": "EDDB_2023_scenarios.csv",
+          "sha256": "08325d1d5c26b62c46dff3b0b617f2b0119c1d1562f95ae229c8302eec01e9e8"
+        },
+        {
+          "name": "EDDB_2023_residuals.csv",
+          "sha256": "625c66bf7df69dbaed5fbe218c6b73ad9a2d841e651e96a963b20c51f73d0149"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EDDF",
+      "year": "2019",
+      "rows": 218773,
+      "go_arounds": 639,
+      "raw_reports": 17558,
+      "unique_reports": 17558,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 12,
+      "core_failed_reports": 11,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDF&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "217a19afe1ad9410b188f1840b6e635469b01bbdb768d3113609bee292dd3b48",
+        "downloaded_utc": "2026-10-10T20:34:31.009334+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EDDF_2019_reports.parquet",
+          "sha256": "9690cb36171cedca6a82bd75f924c9518b8b7bb611f3673ef1d69a2b6f78c0ac"
+        },
+        {
+          "name": "EDDF_2019_features.parquet",
+          "sha256": "2bd54c223369fa2efeebfb30da6412277ef91cc080cd6520f8e8994a88cf018b"
+        },
+        {
+          "name": "EDDF_2019_scenarios.csv",
+          "sha256": "c22a7e1790aae8d533875d6416246c8e267ce175904154070e83fa3a93a43b47"
+        },
+        {
+          "name": "EDDF_2019_residuals.csv",
+          "sha256": "2bec8ad08f8210988f8a43f78a157dfdf18ab2ed04e79e8d3a815277dc05757d"
+        }
+      ],
+      "pilot_snapshot_comparison": [
+        {
+          "month": "2019-01",
+          "old_only": 0,
+          "new_only": 0
+        },
+        {
+          "month": "2019-07",
+          "old_only": 0,
+          "new_only": 0
+        }
+      ]
+    },
+    {
+      "airport": "EDDF",
+      "year": "2020",
+      "rows": 96515,
+      "go_arounds": 314,
+      "raw_reports": 17609,
+      "unique_reports": 17609,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 26,
+      "core_failed_reports": 25,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDF&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "ebdf9f26b07380dc1cabc17db73c6bc2f0de1c6a6e686e4110c663bc5f1deb37",
+        "downloaded_utc": "2026-10-10T20:34:43.124563+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EDDF_2020_reports.parquet",
+          "sha256": "d105145a694563a0db255824862b7a926c6a2ef4028d98afa18c6c917f7062b4"
+        },
+        {
+          "name": "EDDF_2020_features.parquet",
+          "sha256": "b6dbd5a9584cb8011b4d26cb5555dc1ec65204ca349ab7840d317864eca055b7"
+        },
+        {
+          "name": "EDDF_2020_scenarios.csv",
+          "sha256": "5c525742db93fb687899b29642314417c88d5050a4a993d5158008b55bdd7e2d"
+        },
+        {
+          "name": "EDDF_2020_residuals.csv",
+          "sha256": "f0046f27f259c4c2ad5bf5079f207032204360cf48346371df70c6962c67cd16"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EDDF",
+      "year": "2021",
+      "rows": 118807,
+      "go_arounds": 352,
+      "raw_reports": 17561,
+      "unique_reports": 17561,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 18,
+      "core_failed_reports": 18,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDF&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "00ceb78ad9a2f9ba7d1441d281772b475a334fccf05442a1f8059086f2cb4026",
+        "downloaded_utc": "2026-10-10T20:34:54.953478+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EDDF_2021_reports.parquet",
+          "sha256": "9457919fba0fa8aca49e9ccf852e97efdc5baf821725de9d00f0cadaa9161128"
+        },
+        {
+          "name": "EDDF_2021_features.parquet",
+          "sha256": "422c86488c695435259cd52f01c8512c9a0c75fb7ba155f2094e364bc42e912e"
+        },
+        {
+          "name": "EDDF_2021_scenarios.csv",
+          "sha256": "966137aad6feb31d83b001892707e63e14bd367efb08ef3058b19e163c8fdaee"
+        },
+        {
+          "name": "EDDF_2021_residuals.csv",
+          "sha256": "769aada8bc0359d56676161eb8f0dbbb55effde349f8920b661b164ca228ec6e"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EDDF",
+      "year": "2022",
+      "rows": 159344,
+      "go_arounds": 548,
+      "raw_reports": 17561,
+      "unique_reports": 17561,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 24,
+      "core_failed_reports": 14,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDF&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "5e366b8a00a6e0e7487e3afff4392064de680b01bc4909037c231e5c4acf142f",
+        "downloaded_utc": "2026-10-10T20:35:05.859046+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EDDF_2022_reports.parquet",
+          "sha256": "3fc48dd966562117661fb07276378d7ad44d0a9cce6c886e3a9a2c5f74bd0dcc"
+        },
+        {
+          "name": "EDDF_2022_features.parquet",
+          "sha256": "da12ba9e1e11f100f3d166eace541de05b6bac8204da35b714e6dd38274a2705"
+        },
+        {
+          "name": "EDDF_2022_scenarios.csv",
+          "sha256": "ecb2a4936bf877c077baa0119a7898237b0f6521c100c1c54e7f55aca6baae0f"
+        },
+        {
+          "name": "EDDF_2022_residuals.csv",
+          "sha256": "93eda0317258ea938c116c5e15f38021e5a678f8bcbf55224f49ab3d3e9a3d16"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EDDF",
+      "year": "2023",
+      "rows": 11521,
+      "go_arounds": 31,
+      "raw_reports": 1536,
+      "unique_reports": 1536,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 5,
+      "core_failed_reports": 4,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDF&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-02-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "ee661c4e8ee61afbbe893e5a9259df1b96189a6c122e9f70921f102f1e557fd5",
+        "downloaded_utc": "2026-10-10T20:35:15.194483+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EDDF_2023_reports.parquet",
+          "sha256": "965dc6f5aa421416fbc788be5a93c931a9acb752268a1f8d57dca5fde1aebeaa"
+        },
+        {
+          "name": "EDDF_2023_features.parquet",
+          "sha256": "a93bbbc9addd5c261a4f1130e46dccf3be041470251bfe130da415c38b58d474"
+        },
+        {
+          "name": "EDDF_2023_scenarios.csv",
+          "sha256": "c614e4ca6a115cf046c3b9e3b32c8a40632f9a6a2e1d7658797031fb594c717d"
+        },
+        {
+          "name": "EDDF_2023_residuals.csv",
+          "sha256": "6fad77af4d570e560d62b0f53e22dab1613f8427d9df34427fc13cf3917c3203"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EDDM",
+      "year": "2019",
+      "rows": 163062,
+      "go_arounds": 478,
+      "raw_reports": 17556,
+      "unique_reports": 17556,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 49,
+      "core_failed_reports": 49,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDM&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "93b04bb386f8094a750258c5669544d787192bf194926fc45a31cfd34a5c45cf",
+        "downloaded_utc": "2026-10-10T20:35:19.608860+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EDDM_2019_reports.parquet",
+          "sha256": "83508eb67bfa1f40f6a113e608a4a38cb48e95f547fcb761782291197f94bb09"
+        },
+        {
+          "name": "EDDM_2019_features.parquet",
+          "sha256": "6a0c47904b1057241dc8ccc114bbbc5234d4239ed52f418d12a172c47eb4912c"
+        },
+        {
+          "name": "EDDM_2019_scenarios.csv",
+          "sha256": "957f049fdd55589d797ef4dbab23b5a47af0ba15f9d3979f2d43f384b0ccab46"
+        },
+        {
+          "name": "EDDM_2019_residuals.csv",
+          "sha256": "9c8344e0745e4d513857e7c7a2fdb3fbc557e6aaf2d745f706a6c5261b04ef2c"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EDDM",
+      "year": "2020",
+      "rows": 60295,
+      "go_arounds": 148,
+      "raw_reports": 17608,
+      "unique_reports": 17608,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 62,
+      "core_failed_reports": 62,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDM&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "86d3316503cc14bd43f0233d788a0d72d639a082707a6740977a53475a84fc1d",
+        "downloaded_utc": "2026-10-10T20:35:30.988902+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EDDM_2020_reports.parquet",
+          "sha256": "78f09a26b05eee772cde964524ffb489dc5f128d91b953d5a66c5d22baa900b8"
+        },
+        {
+          "name": "EDDM_2020_features.parquet",
+          "sha256": "faf6c087fe84f3c5304ab9cb39381900f2d1f939dc9dbc5c63d5fe516b1df976"
+        },
+        {
+          "name": "EDDM_2020_scenarios.csv",
+          "sha256": "b9d46225cacf06a11c98eb60b6ef39cad18a9be55761c3625182302c03878a8d"
+        },
+        {
+          "name": "EDDM_2020_residuals.csv",
+          "sha256": "802ad1c4140f75072d449f07434bb68abe99e5b28d6b1f1e1849a50f5dbb680b"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EDDM",
+      "year": "2021",
+      "rows": 64783,
+      "go_arounds": 206,
+      "raw_reports": 17560,
+      "unique_reports": 17560,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 78,
+      "core_failed_reports": 76,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDM&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "3dd4056532caa0fec8c00c816eaa9cfc6efa35e904a4f8fd0a540005e50566d6",
+        "downloaded_utc": "2026-10-10T20:35:40.339562+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EDDM_2021_reports.parquet",
+          "sha256": "dc38e3d249c4e9abe70c1473ad21d5355908520b32b2940b05390fdf1ccb9ef7"
+        },
+        {
+          "name": "EDDM_2021_features.parquet",
+          "sha256": "76a0cd7f654c9ecfe31fa0ac86fa417d7eb0604fa791590175e4618382537f38"
+        },
+        {
+          "name": "EDDM_2021_scenarios.csv",
+          "sha256": "3cb4d478f234f9af6c51b2cd5963bb2ca323b89586572b05e9eb6ef3f1e248fe"
+        },
+        {
+          "name": "EDDM_2021_residuals.csv",
+          "sha256": "c03e3bbfd1ebce535ebc23b961627e069e10c71fe2d3fb55f48b462b36a257b7"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EDDM",
+      "year": "2022",
+      "rows": 111816,
+      "go_arounds": 348,
+      "raw_reports": 17561,
+      "unique_reports": 17561,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 53,
+      "core_failed_reports": 46,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDM&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "3d6240ac29648353b0b216b37a21ab875e16063bc5c6ac174825f6315663d119",
+        "downloaded_utc": "2026-10-10T20:38:33.814829+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EDDM_2022_reports.parquet",
+          "sha256": "cfe212620ac40aa4240e2bedcb6747a73780f7fc6c33ef2c0e2edb85fc1a5130"
+        },
+        {
+          "name": "EDDM_2022_features.parquet",
+          "sha256": "b6fc915f174746c7a698ff2ef7003caa5ce8994520c711ad333b995f3d340905"
+        },
+        {
+          "name": "EDDM_2022_scenarios.csv",
+          "sha256": "2d67fa1487abbd11d8449822e240261fbc9dddf006b7eb4a866bb552c5263180"
+        },
+        {
+          "name": "EDDM_2022_residuals.csv",
+          "sha256": "c9d2d43c397af47d686136605ab80ddcc8779854e4b5abedeb039c3080a14136"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EDDM",
+      "year": "2023",
+      "rows": 43247,
+      "go_arounds": 113,
+      "raw_reports": 7295,
+      "unique_reports": 7295,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 1,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDM&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-06-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "ea7e9a09e6757994fab931fe02f4432b2acac2cdfd0303f232b51b247ba6a3dc",
+        "downloaded_utc": "2026-10-10T20:38:43.067793+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EDDM_2023_reports.parquet",
+          "sha256": "93e82d631fab77f514819c58870f8b3e8f27f26c08ffe6e1ac66fed42c769e2a"
+        },
+        {
+          "name": "EDDM_2023_features.parquet",
+          "sha256": "579d92bf0e548814d40c3b17e075b01e94c18ce964c11d9262bd77f6dd4287bf"
+        },
+        {
+          "name": "EDDM_2023_scenarios.csv",
+          "sha256": "bd38ef193caf00c865d02b0227512ec778c2c1b76ff916592752c368ec83f166"
+        },
+        {
+          "name": "EDDM_2023_residuals.csv",
+          "sha256": "7668e91cb10a6e0f6a9397fbbbf4d4d6507c69937278214cd8300fa1fc219856"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EGCC",
+      "year": "2019",
+      "rows": 62459,
+      "go_arounds": 215,
+      "raw_reports": 17556,
+      "unique_reports": 17556,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 7,
+      "core_failed_reports": 1,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGCC&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "f8792eebc3c3933bd27ac0cc174e70875f8ca8d6fd2ae51517a09af8f23a4ec6",
+        "downloaded_utc": "2026-10-10T20:38:49.325216+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EGCC_2019_reports.parquet",
+          "sha256": "bcbabb6c747f07abee18c1073088cd7115180844dd4664cbd7e68d28fdcf93df"
+        },
+        {
+          "name": "EGCC_2019_features.parquet",
+          "sha256": "b2a9f3f4a8c625939c85c5e715d8a9d07c91ce4aa0c2aaa37df0daa74050d5d9"
+        },
+        {
+          "name": "EGCC_2019_scenarios.csv",
+          "sha256": "68f8be94d8fa426951fddc86d3f1c6ae563e439f74d1274eb2e5b81dfb221551"
+        },
+        {
+          "name": "EGCC_2019_residuals.csv",
+          "sha256": "81274a09c459ec2e0e1c44aeb28634e66e76dddb2b04e9386448b36ce00e869c"
+        }
+      ],
+      "pilot_snapshot_comparison": [
+        {
+          "month": "2019-01",
+          "old_only": 0,
+          "new_only": 0
+        },
+        {
+          "month": "2019-07",
+          "old_only": 0,
+          "new_only": 0
+        }
+      ]
+    },
+    {
+      "airport": "EGCC",
+      "year": "2020",
+      "rows": 23746,
+      "go_arounds": 88,
+      "raw_reports": 17605,
+      "unique_reports": 17605,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 10,
+      "core_failed_reports": 1,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGCC&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "4e5966d9c145d555ba37b928079f24377779d8657da653b34c167f038bb683c7",
+        "downloaded_utc": "2026-10-10T20:38:59.948563+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EGCC_2020_reports.parquet",
+          "sha256": "26a3d586b4d479b5a1a269b57bcf3b470d60d68a8cf8a695721aa4c49b0de010"
+        },
+        {
+          "name": "EGCC_2020_features.parquet",
+          "sha256": "f52021751468d1c6fd69b049d15e24ee12c7445b77c07ff1312c5ba62f31f151"
+        },
+        {
+          "name": "EGCC_2020_scenarios.csv",
+          "sha256": "ca750a4f3d8c807e844895fc8464f9e75f6a6e587c177a169692936f01e749cc"
+        },
+        {
+          "name": "EGCC_2020_residuals.csv",
+          "sha256": "9bb2277401e232aaffa200ca2adf210faa528637c1ee48956833f92b0b2d8f30"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EGCC",
+      "year": "2021",
+      "rows": 1230,
+      "go_arounds": 3,
+      "raw_reports": 2879,
+      "unique_reports": 2879,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 4,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGCC&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2021-03-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "a5a879c22180adec853bc6ef00911e86f2473c8e431d1b5d584c44467fb182ba",
+        "downloaded_utc": "2026-10-10T20:39:07.320957+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EGCC_2021_reports.parquet",
+          "sha256": "a68d33effe400c770e7e251596a760d5a2fd43253247b00413b42aafea384fdf"
+        },
+        {
+          "name": "EGCC_2021_features.parquet",
+          "sha256": "9e7710a395bcb748da371955efe2f0ac714aff136b3b476f2de1f48edba019e8"
+        },
+        {
+          "name": "EGCC_2021_scenarios.csv",
+          "sha256": "cdb79fae3d0c19721f933410aabfb0fd440e8ee4170cd8801ee87a83a3575229"
+        },
+        {
+          "name": "EGCC_2021_residuals.csv",
+          "sha256": "39c83d09e3389f292f38d4d4ab57d85af28ace78e67b179f4f4df1305c89ce04"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EGLL",
+      "year": "2019",
+      "rows": 218410,
+      "go_arounds": 825,
+      "raw_reports": 17553,
+      "unique_reports": 17553,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 7,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGLL&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "bee3a424af735503068aac0b1d3dd0d0f06f2ba620b233fb023473732ab72270",
+        "downloaded_utc": "2026-10-10T20:39:14.152492+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EGLL_2019_reports.parquet",
+          "sha256": "52fbd0632d8bdbc6a2bbad5eb10ad24a0a0c8b2195b6d7b2c02664b480cedb7d"
+        },
+        {
+          "name": "EGLL_2019_features.parquet",
+          "sha256": "faf66f592a5a7e1c03ae577f96a308351098c662466a9ea18db64b40b251acbe"
+        },
+        {
+          "name": "EGLL_2019_scenarios.csv",
+          "sha256": "5f2653eced3b78554b51db89d09491b17021d7741aa9ca8e198dd237fb0bfedb"
+        },
+        {
+          "name": "EGLL_2019_residuals.csv",
+          "sha256": "2e7a65339592d23ceda98a58093b621f28a7523feb7446ddb9918ec3946e962e"
+        }
+      ],
+      "pilot_snapshot_comparison": [
+        {
+          "month": "2019-01",
+          "old_only": 0,
+          "new_only": 0
+        },
+        {
+          "month": "2019-07",
+          "old_only": 0,
+          "new_only": 0
+        }
+      ]
+    },
+    {
+      "airport": "EGLL",
+      "year": "2020",
+      "rows": 95585,
+      "go_arounds": 380,
+      "raw_reports": 17600,
+      "unique_reports": 17600,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 13,
+      "core_failed_reports": 2,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGLL&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "4f3c3268d16196b142cb56d1cdb621dbd5c4fe6fc446e95615f3a25ff64ff085",
+        "downloaded_utc": "2026-10-10T20:39:27.156594+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EGLL_2020_reports.parquet",
+          "sha256": "7d3407c4d9f0172225bb9c8f803e07273308bede2fc596babbe6e254dafd8d99"
+        },
+        {
+          "name": "EGLL_2020_features.parquet",
+          "sha256": "1863ec0711b5dd07a09524c04e0137d9c18e2844145ac2b23e3689d6ac62b2c3"
+        },
+        {
+          "name": "EGLL_2020_scenarios.csv",
+          "sha256": "55f1d3867063948557202e2c1d93887ad130a0071b12bbe3ed120ef004899f29"
+        },
+        {
+          "name": "EGLL_2020_residuals.csv",
+          "sha256": "7e37f069c31777b5a0cdcef5f796f4450ef16b2590248ada226a32e68707aba7"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EGLL",
+      "year": "2021",
+      "rows": 88747,
+      "go_arounds": 266,
+      "raw_reports": 17560,
+      "unique_reports": 17560,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 9,
+      "core_failed_reports": 5,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGLL&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "c77f3fbeb7fda3e1c62e7c8a888c83cf7512488c0f5035358fc59aca0e70f2a6",
+        "downloaded_utc": "2026-10-10T20:39:37.626473+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EGLL_2021_reports.parquet",
+          "sha256": "4ed29d40ed74b230b14d623ea0ee7de1688ad45d0db5c647a5033bd1568fa42f"
+        },
+        {
+          "name": "EGLL_2021_features.parquet",
+          "sha256": "2e069e714a7907282e8b68ffc134314a30bc333ff20f770e7024e703febe3650"
+        },
+        {
+          "name": "EGLL_2021_scenarios.csv",
+          "sha256": "a512e7ba4ed92afe9341d557de7cd25530fc80efb6a543fe0a363cb4c57a4a2f"
+        },
+        {
+          "name": "EGLL_2021_residuals.csv",
+          "sha256": "bc1e942c08ac2588c227bfcbcc5cdb4477dcb5acfb8b47471af190a635be7faf"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EGLL",
+      "year": "2022",
+      "rows": 156855,
+      "go_arounds": 624,
+      "raw_reports": 17561,
+      "unique_reports": 17561,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 10,
+      "core_failed_reports": 2,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGLL&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "4cceedd392a15b76d43b321e546d774c2c4fca43a22a4ba4ed76eb3fc73501d3",
+        "downloaded_utc": "2026-10-10T20:39:47.200005+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EGLL_2022_reports.parquet",
+          "sha256": "3d1527cf724ddb2641a89196e66f5bf236b4e27d3e1f0a345c7674f938c463e0"
+        },
+        {
+          "name": "EGLL_2022_features.parquet",
+          "sha256": "00c19c78f398163a6044dab3a2288d36041ec119846893ddb4e60eb06013f058"
+        },
+        {
+          "name": "EGLL_2022_scenarios.csv",
+          "sha256": "76c1c6b0630a82b5be8db7d327456f0ab912f92c3af120dd485a5341ab5c3782"
+        },
+        {
+          "name": "EGLL_2022_residuals.csv",
+          "sha256": "331fcab8230fdd2ed1178554b4ac23b581f76c864d3f51b2a90cae15572cf794"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EGLL",
+      "year": "2023",
+      "rows": 72121,
+      "go_arounds": 305,
+      "raw_reports": 7295,
+      "unique_reports": 7295,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 2,
+      "core_failed_reports": 1,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGLL&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-06-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "8a39bbf1b4cd68550adb5d2e8f6d0c3f1e3c343cafe5237e947b2c8f32177f54",
+        "downloaded_utc": "2026-10-10T20:39:57.658295+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EGLL_2023_reports.parquet",
+          "sha256": "93cdd2ccff543762734cfba81904abd8113466f16d10d5390c803e7e061e2a4d"
+        },
+        {
+          "name": "EGLL_2023_features.parquet",
+          "sha256": "0d3ac5fdd7d1890cc7a4423c3e460b2065fa7c0295f9bee75a14441ad523372c"
+        },
+        {
+          "name": "EGLL_2023_scenarios.csv",
+          "sha256": "a2474ac577a05610f8f49d9dfb79a034bb1bad05c440d3c3814d6b2c81d95a89"
+        },
+        {
+          "name": "EGLL_2023_residuals.csv",
+          "sha256": "446aeb482c8c1affc94504f4f1d37f7c92b0ac96cba505189ea31268f7abcf73"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EGSS",
+      "year": "2019",
+      "rows": 77944,
+      "go_arounds": 210,
+      "raw_reports": 17556,
+      "unique_reports": 17556,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 0,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGSS&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "fd1eb7ce77a06d73a97c8c0c95e835eb767929cdba848327dfb4aff67e58d170",
+        "downloaded_utc": "2026-10-10T20:40:04.691701+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EGSS_2019_reports.parquet",
+          "sha256": "9c8c2ade4135e92b1c9aa1a16a34c1b620b00768e5535b196e21e0b74e27337b"
+        },
+        {
+          "name": "EGSS_2019_features.parquet",
+          "sha256": "2c602ced53926e080130f347f5fd11a71099f5e41743dbc23893acc6b8343a6d"
+        },
+        {
+          "name": "EGSS_2019_scenarios.csv",
+          "sha256": "7cad10aeea64eaa44ebee320b9b37e0edce6a774924cb9fb4104e754405536f7"
+        },
+        {
+          "name": "EGSS_2019_residuals.csv",
+          "sha256": "79bb1700b348d8ab95253ae70b432a2e418aae8d850996f4f069fbcfd3ad0bd1"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EGSS",
+      "year": "2020",
+      "rows": 32849,
+      "go_arounds": 97,
+      "raw_reports": 17602,
+      "unique_reports": 17602,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 0,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGSS&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "a6510797d72f310acb6a595db39df39dd5822c2e228b7fdcc11e98067493a48c",
+        "downloaded_utc": "2026-10-10T20:40:14.155019+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EGSS_2020_reports.parquet",
+          "sha256": "bb4cd59404d8c5c679a33ced73772be378a2cb051aa0d03b2739d556eb3c87d2"
+        },
+        {
+          "name": "EGSS_2020_features.parquet",
+          "sha256": "0cc8cb7388c9a9663f02707810a143a9e6648adc6e251e1989d1c1d74f07b4ef"
+        },
+        {
+          "name": "EGSS_2020_scenarios.csv",
+          "sha256": "5ad8ef14220a0a67cee2d26f5e9003cc4acbd445c5dd7e87057e9ee6280a19fc"
+        },
+        {
+          "name": "EGSS_2020_residuals.csv",
+          "sha256": "79bb1700b348d8ab95253ae70b432a2e418aae8d850996f4f069fbcfd3ad0bd1"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EGSS",
+      "year": "2021",
+      "rows": 33575,
+      "go_arounds": 91,
+      "raw_reports": 17559,
+      "unique_reports": 17559,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 1,
+      "core_failed_reports": 1,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGSS&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "d35ab98c7d16fb99c79b3f057ff748a4bacc0be463ddb0ac791ee712844865bf",
+        "downloaded_utc": "2026-10-10T20:40:22.651195+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EGSS_2021_reports.parquet",
+          "sha256": "584d4f7fa8ef2e4ab10c63c2a8378a76054bcd5e9139aa6a010cd937535a0961"
+        },
+        {
+          "name": "EGSS_2021_features.parquet",
+          "sha256": "d71c38a93f0d47fa4439666ebd8059b2f623b44f6edf13c7a4c29f611f026404"
+        },
+        {
+          "name": "EGSS_2021_scenarios.csv",
+          "sha256": "2f7a434d740a3ce7268f619301bc47cfd0e54e1ca995dde2169a89c7cca82a53"
+        },
+        {
+          "name": "EGSS_2021_residuals.csv",
+          "sha256": "b322288f51b65ebca5951feecf36ecd2815a5627caf4d40e479fb650fa18c2cf"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EGSS",
+      "year": "2022",
+      "rows": 55050,
+      "go_arounds": 171,
+      "raw_reports": 17561,
+      "unique_reports": 17561,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 0,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGSS&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "15de1902ed818408a1fada898ea8eda5159c816b9aa979b02ced2d1bf024e4d1",
+        "downloaded_utc": "2026-10-10T20:40:31.274348+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EGSS_2022_reports.parquet",
+          "sha256": "b5db1de03efb6260844ee5585b2d5b77a3fd3d308ec0e1f9e21691356bfb36e6"
+        },
+        {
+          "name": "EGSS_2022_features.parquet",
+          "sha256": "077b514187ea4dbccab98afac13c9f248fb960d8ae6e4cc1eb6f3669f80ead85"
+        },
+        {
+          "name": "EGSS_2022_scenarios.csv",
+          "sha256": "c995078fb7e7398d688c9588385583f189fbe6a15118510d9a1f32bde2f1a59f"
+        },
+        {
+          "name": "EGSS_2022_residuals.csv",
+          "sha256": "79bb1700b348d8ab95253ae70b432a2e418aae8d850996f4f069fbcfd3ad0bd1"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EGSS",
+      "year": "2023",
+      "rows": 21930,
+      "go_arounds": 62,
+      "raw_reports": 7295,
+      "unique_reports": 7295,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 0,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EGSS&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-06-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "1272c2ef5c16358eb40079c231e42e38e392436d7d536913d63a3f1b6eb06ea2",
+        "downloaded_utc": "2026-10-10T20:40:39.361919+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EGSS_2023_reports.parquet",
+          "sha256": "eed1d44e628e044e358c41b69365cdec4e9ea9fe30d77ea48383df346c794508"
+        },
+        {
+          "name": "EGSS_2023_features.parquet",
+          "sha256": "efe549875d3a56d1bb3af61502e193c806d349f0083aa38b10bbc4497627ec07"
+        },
+        {
+          "name": "EGSS_2023_scenarios.csv",
+          "sha256": "da16dff626339fb47b35415402ff8a8a3446846c1b45106a4f9d050a58ae6532"
+        },
+        {
+          "name": "EGSS_2023_residuals.csv",
+          "sha256": "79bb1700b348d8ab95253ae70b432a2e418aae8d850996f4f069fbcfd3ad0bd1"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EHAM",
+      "year": "2019",
+      "rows": 184177,
+      "go_arounds": 309,
+      "raw_reports": 17552,
+      "unique_reports": 17552,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 4,
+      "core_failed_reports": 3,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EHAM&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "a6ae49f0b0ba521ff40f4c0b60dd72517cf48848e1d964e79b88860dbd117304",
+        "downloaded_utc": "2026-10-10T20:40:46.561750+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EHAM_2019_reports.parquet",
+          "sha256": "32bef3643e2630d518eb03a97e1b1cf6113b71b3fe300640f8c3a78ba0dd350f"
+        },
+        {
+          "name": "EHAM_2019_features.parquet",
+          "sha256": "b5f3f7b01d180f4d04ee782a05002fd552ac5ff5bc3d114be30648d75e78431a"
+        },
+        {
+          "name": "EHAM_2019_scenarios.csv",
+          "sha256": "ea7f2984542f88a9d45bbe99198d2ad070dd39c3e0bac015edf02a78bea2d305"
+        },
+        {
+          "name": "EHAM_2019_residuals.csv",
+          "sha256": "cf50af8dea29a36ae8ceda25bb6124cb372c1ece9c9ee02c9b31b9f20245de71"
+        }
+      ],
+      "pilot_snapshot_comparison": [
+        {
+          "month": "2019-01",
+          "old_only": 0,
+          "new_only": 0
+        },
+        {
+          "month": "2019-07",
+          "old_only": 0,
+          "new_only": 0
+        }
+      ]
+    },
+    {
+      "airport": "EHAM",
+      "year": "2020",
+      "rows": 92058,
+      "go_arounds": 226,
+      "raw_reports": 17591,
+      "unique_reports": 17591,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 5,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EHAM&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "4a1cb99e76faf08e6b39283a294ecad06354767e5b0b134bd69af683605bdc49",
+        "downloaded_utc": "2026-10-10T20:40:58.619828+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EHAM_2020_reports.parquet",
+          "sha256": "7ef0fc990ce6d3ad5e4e3f89336986386fe46ee70952cbe665dacdd06ad7e2a5"
+        },
+        {
+          "name": "EHAM_2020_features.parquet",
+          "sha256": "a8a6e956738fcd80a0fa464e053a3f1c31c572ebf103a1166c17ebf8d347d819"
+        },
+        {
+          "name": "EHAM_2020_scenarios.csv",
+          "sha256": "a682e4d046271c731d607b0e9b9e5a8452c694a7c8027702cbcc2243571558cc"
+        },
+        {
+          "name": "EHAM_2020_residuals.csv",
+          "sha256": "c5fea02028f41d79d3501650ed8253c5ecc9ccd5ff2320b5b7d6cdc7541354e6"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EHAM",
+      "year": "2021",
+      "rows": 115235,
+      "go_arounds": 170,
+      "raw_reports": 17520,
+      "unique_reports": 17520,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 9,
+      "core_failed_reports": 6,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EHAM&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "bbf739b207a2b3ce3e7ba5d2b343ed7809c69afe00210e0264559610536e559d",
+        "downloaded_utc": "2026-10-10T20:41:08.795746+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EHAM_2021_reports.parquet",
+          "sha256": "6a3562041f2075e1b669a1acf0bf68313af31155810ad8f47397b41d90b6fc96"
+        },
+        {
+          "name": "EHAM_2021_features.parquet",
+          "sha256": "2c6f2d80d142f66ba03d32f2baad9a45ce94f29679add0c53e5e143f27f755c5"
+        },
+        {
+          "name": "EHAM_2021_scenarios.csv",
+          "sha256": "cf37b0f06c0afda5d99256c550a05893764b2e925c952b46de664377ff317bb1"
+        },
+        {
+          "name": "EHAM_2021_residuals.csv",
+          "sha256": "7f43e200e89d4c20ecc85d85b4ea5742fa9101a2265c7976b45b661582a03381"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EHAM",
+      "year": "2022",
+      "rows": 158396,
+      "go_arounds": 291,
+      "raw_reports": 17521,
+      "unique_reports": 17521,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 3,
+      "core_failed_reports": 3,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EHAM&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "36f323a2abecf274b85ffe0438d04a5546b70144c01319a9da3c2709d2de2c4e",
+        "downloaded_utc": "2026-10-10T20:41:19.507047+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EHAM_2022_reports.parquet",
+          "sha256": "ddda1290637d81216a4fe81934180dc61341cd5d3f68d82d0d75acacd2b8eeff"
+        },
+        {
+          "name": "EHAM_2022_features.parquet",
+          "sha256": "fda1f707adeeceb98069cc7ddc93bdff59a785a24a37f0576bc33cdc3a5f549d"
+        },
+        {
+          "name": "EHAM_2022_scenarios.csv",
+          "sha256": "4cfe8f20788d023a21a8db1969a1e5f14c52f5953c8b02dbed003a0a5824f9cf"
+        },
+        {
+          "name": "EHAM_2022_residuals.csv",
+          "sha256": "808e714006d99c850b7483c069a84c54e4b73cd98c7f63a8b1de5164f9503b31"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EHAM",
+      "year": "2023",
+      "rows": 11615,
+      "go_arounds": 42,
+      "raw_reports": 1532,
+      "unique_reports": 1532,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 0,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EHAM&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-02-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "1319c92d08ac003d7bab695351686755effadb94f3a4830619d828f49a1c2d87",
+        "downloaded_utc": "2026-10-10T20:41:29.606620+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EHAM_2023_reports.parquet",
+          "sha256": "ee8ad75eaff5cc894c4fd30a73024dd3f43ac4e1b4d64bbf2b1331d14b3727c9"
+        },
+        {
+          "name": "EHAM_2023_features.parquet",
+          "sha256": "14a533a3b7f4001c068d309729d07662cacbe827eca96954f7bcc8b1367127dd"
+        },
+        {
+          "name": "EHAM_2023_scenarios.csv",
+          "sha256": "bf6010382c61aa578f9aee2ebce51cf87f0f3da7e3755a855c6ec2a364e4f7f2"
+        },
+        {
+          "name": "EHAM_2023_residuals.csv",
+          "sha256": "79bb1700b348d8ab95253ae70b432a2e418aae8d850996f4f069fbcfd3ad0bd1"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EIDW",
+      "year": "2019",
+      "rows": 80395,
+      "go_arounds": 270,
+      "raw_reports": 17563,
+      "unique_reports": 17563,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 27,
+      "core_failed_reports": 13,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EIDW&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "c6fb56d07dc31004acb9ecc166139e3289932c21408e0100ae8dc2bb679696c5",
+        "downloaded_utc": "2026-10-10T20:41:34.450594+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EIDW_2019_reports.parquet",
+          "sha256": "1732ed06008a924bb68d5df0d22431437d9415499721d63bc47a0b2be319472f"
+        },
+        {
+          "name": "EIDW_2019_features.parquet",
+          "sha256": "c2197190f4142c2f093a4758af255106db4e5c6a55123a146ac86ed83928e742"
+        },
+        {
+          "name": "EIDW_2019_scenarios.csv",
+          "sha256": "d1f8b0715c02a5d14476955b0b423f6648da1a669625008a1cc63b6a284f0aea"
+        },
+        {
+          "name": "EIDW_2019_residuals.csv",
+          "sha256": "eb6cf2a730568cb6fbdd8ad3a694a58fc7e358bb1d8681b08c3ca1ffa16d0de8"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EIDW",
+      "year": "2020",
+      "rows": 36578,
+      "go_arounds": 176,
+      "raw_reports": 17605,
+      "unique_reports": 17605,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 18,
+      "core_failed_reports": 12,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EIDW&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "a4f5b2adef28fea90db12a599ce9ff37565d8ecba15de0d67d3b33cc725f5e9b",
+        "downloaded_utc": "2026-10-10T20:41:47.389417+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EIDW_2020_reports.parquet",
+          "sha256": "fa62d48d03afe8babdbc7a94fb6e6959567d624481d5b5307de751c2a8c7dfc7"
+        },
+        {
+          "name": "EIDW_2020_features.parquet",
+          "sha256": "54f6b043ecc8bfbddb11a17488dec08a5ade9d6a6585c30d98c9ba5d553ef607"
+        },
+        {
+          "name": "EIDW_2020_scenarios.csv",
+          "sha256": "2f41add6cba72debd9b02a2df5250a8ad440232a009f19e7b1709015545d48e1"
+        },
+        {
+          "name": "EIDW_2020_residuals.csv",
+          "sha256": "4b21f86a872a587eddf321b74223645ad5cf52c93dce09c4432c313cf70444f6"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EIDW",
+      "year": "2021",
+      "rows": 38701,
+      "go_arounds": 98,
+      "raw_reports": 17563,
+      "unique_reports": 17563,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 53,
+      "core_failed_reports": 39,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EIDW&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "b55f532e74f1fb43aff58738bc9db42cdab79ab75440c9eda01cf61edf77454a",
+        "downloaded_utc": "2026-10-10T20:41:58.530836+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EIDW_2021_reports.parquet",
+          "sha256": "b46f6630e742320e22c6362ff69e6f1e55e2253ebe8b60fad720239a7918f18f"
+        },
+        {
+          "name": "EIDW_2021_features.parquet",
+          "sha256": "ca84e62205aa2b755e61e770739d8a965f2f3158bed4f39adea50320d1f7cd35"
+        },
+        {
+          "name": "EIDW_2021_scenarios.csv",
+          "sha256": "0a109b46c8aead10a7b2658d0eaa1b6e15ea2c0a9bed04a7de312225b18cda66"
+        },
+        {
+          "name": "EIDW_2021_residuals.csv",
+          "sha256": "82c5e7842c81971a09af8ba432da116d8c10c95be9749a676762c77bb9a7adfb"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EIDW",
+      "year": "2022",
+      "rows": 75671,
+      "go_arounds": 265,
+      "raw_reports": 17547,
+      "unique_reports": 17547,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 44,
+      "core_failed_reports": 32,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EIDW&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "6d498ccc4701c1cf4e779893379841483ba510ac79fe033f9f1dfd5f30ba52d5",
+        "downloaded_utc": "2026-10-10T20:42:10.150374+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EIDW_2022_reports.parquet",
+          "sha256": "9a0267142238c2713d036dcc8ac938607c114b4abb64f19d389a43e29bbc2b52"
+        },
+        {
+          "name": "EIDW_2022_features.parquet",
+          "sha256": "3a6a5e8608ad4698a542ec63be8c63ca40f0d2fca35b93ba226f85d1cd1206f5"
+        },
+        {
+          "name": "EIDW_2022_scenarios.csv",
+          "sha256": "7b4899dd7caddaded9580555ac54bdd06c2173eed7cbf5e6d935b32ed3b26074"
+        },
+        {
+          "name": "EIDW_2022_residuals.csv",
+          "sha256": "06a47c2c2b02ce8c27f4cff54d8340597ef679e7508bc1b7cf27b7808351559d"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EIDW",
+      "year": "2023",
+      "rows": 32534,
+      "go_arounds": 113,
+      "raw_reports": 7279,
+      "unique_reports": 7279,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 18,
+      "core_failed_reports": 18,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EIDW&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-06-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "43813b27e91ca0470f07b235afffd857f067b6bef49e34dde0b388d5721c2edf",
+        "downloaded_utc": "2026-10-10T20:42:20.129815+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EIDW_2023_reports.parquet",
+          "sha256": "18c33c60a6d0634882f01c203149bb70406d6ed84224df22fa44e7787c6a2145"
+        },
+        {
+          "name": "EIDW_2023_features.parquet",
+          "sha256": "52337607dd7af55869e950c6165070cc940f8b42fea5b8f38e1b61684676b739"
+        },
+        {
+          "name": "EIDW_2023_scenarios.csv",
+          "sha256": "33f0c1cddfb73127340555edd84f5d928bd576d86f6acfa2647896ba3dc77d95"
+        },
+        {
+          "name": "EIDW_2023_residuals.csv",
+          "sha256": "422fc80ee894f9950bea69f2b61da4e24e3e3a8086d8ef1d4da4569e106c9437"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EKCH",
+      "year": "2019",
+      "rows": 97694,
+      "go_arounds": 234,
+      "raw_reports": 17607,
+      "unique_reports": 17607,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 36,
+      "core_failed_reports": 2,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EKCH&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "bae2bb003a4a0ed2c6f90f4e87cc85a52f95a02e7e2e6cad79b5dd2439db0ffe",
+        "downloaded_utc": "2026-10-10T20:42:27.162893+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EKCH_2019_reports.parquet",
+          "sha256": "9b7f4e048e3fc731c095fc3dba3acac78e94a27199d44eff6b4a5759fa253124"
+        },
+        {
+          "name": "EKCH_2019_features.parquet",
+          "sha256": "62d71ee43a861327f76c912f57283e4b8a71933bab1abe5bd00301d5df723c08"
+        },
+        {
+          "name": "EKCH_2019_scenarios.csv",
+          "sha256": "0296961d0c07daf39f876778173027522ad999d78f8d8e28265b4c00d51a2e71"
+        },
+        {
+          "name": "EKCH_2019_residuals.csv",
+          "sha256": "1bd3090c7e168b93bc078eb961f541024e2b52e3dba6aa3d6089e56b2b0a347b"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EKCH",
+      "year": "2020",
+      "rows": 37844,
+      "go_arounds": 80,
+      "raw_reports": 17581,
+      "unique_reports": 17581,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 21,
+      "core_failed_reports": 2,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EKCH&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "23f586232642acbd126e7164a0f7e1c211c3cb6af93b5b956c257c2e68a271cf",
+        "downloaded_utc": "2026-10-10T20:42:37.451502+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EKCH_2020_reports.parquet",
+          "sha256": "b062315a678b15f7e42908dad253fc01832948139ccb51498603896b9f0cb129"
+        },
+        {
+          "name": "EKCH_2020_features.parquet",
+          "sha256": "94d5f8b709bb79901a94f1f2ccc7be2bae4d58d8eb3538e0faf57197b67ec9b9"
+        },
+        {
+          "name": "EKCH_2020_scenarios.csv",
+          "sha256": "a7efe368f261e288c22754cec60f137ddeed587edf92cc9a803eb2e756717192"
+        },
+        {
+          "name": "EKCH_2020_residuals.csv",
+          "sha256": "211d27ef6b9035efe80234bd63c5061db8fb94352b35990170d2ceffd9b594b3"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EKCH",
+      "year": "2021",
+      "rows": 41410,
+      "go_arounds": 89,
+      "raw_reports": 17541,
+      "unique_reports": 17541,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 30,
+      "core_failed_reports": 1,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EKCH&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "1b0d1be57bc9a3eb8d76a95f9b4e2e9c54a54710e63887bc78e9563b986479f7",
+        "downloaded_utc": "2026-10-10T20:42:46.883789+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EKCH_2021_reports.parquet",
+          "sha256": "e094f8a201868874743bedc3eab2f0e0f9a5f52e5c89b6a3d25f6694aeae61fd"
+        },
+        {
+          "name": "EKCH_2021_features.parquet",
+          "sha256": "46e163e2aba2fcc1b3e552462b6cd95e5c6d81feaf78a557d7d5d457ff247b5d"
+        },
+        {
+          "name": "EKCH_2021_scenarios.csv",
+          "sha256": "b7551d63d7b60f1c5d6db80f99fc1c8507ad711412cfd84eaaf1366852326a63"
+        },
+        {
+          "name": "EKCH_2021_residuals.csv",
+          "sha256": "d9f673868fb85ac54ad3d5989442a11e14f8f71870c544c7a08f9e7f3a8a3227"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EKCH",
+      "year": "2022",
+      "rows": 62677,
+      "go_arounds": 150,
+      "raw_reports": 17585,
+      "unique_reports": 17585,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 16,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EKCH&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "ce486d534e31abfc551231773d0f652bc102eb354b9c4814258fbf7642b35f39",
+        "downloaded_utc": "2026-10-10T20:42:55.808075+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EKCH_2022_reports.parquet",
+          "sha256": "9b9aa9877d135b69223821c404d7354e86e65624fb26fc5950a9d8e6e323ab34"
+        },
+        {
+          "name": "EKCH_2022_features.parquet",
+          "sha256": "2c7e06573e8744ecf649fafca043e205c200e57ea568431be5257048dcc93307"
+        },
+        {
+          "name": "EKCH_2022_scenarios.csv",
+          "sha256": "9972ab949ccabfae9efd23382d379bb7608602458efdd655803618fdeb289c45"
+        },
+        {
+          "name": "EKCH_2022_residuals.csv",
+          "sha256": "d4f26c3924879ba4786e0f31772b820bdd22e60a416c837a520377020e57c1d7"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EKCH",
+      "year": "2023",
+      "rows": 3647,
+      "go_arounds": 9,
+      "raw_reports": 1524,
+      "unique_reports": 1524,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 0,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EKCH&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-02-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "49012876836d2f25ec4cfc4798c745d4d1f0bc86451a3d9a1a7048f9e8ad6809",
+        "downloaded_utc": "2026-10-10T20:43:03.964270+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EKCH_2023_reports.parquet",
+          "sha256": "281391f8365d4be62c3e15bc14facb58b4cc36a7cd3002e77a6e0fd47266954f"
+        },
+        {
+          "name": "EKCH_2023_features.parquet",
+          "sha256": "28472c6452c9d57db5c84e3208c005311929d8eda1c6960f60fe100c2e8bd34e"
+        },
+        {
+          "name": "EKCH_2023_scenarios.csv",
+          "sha256": "109a5eaab20720995b0c1823bc18a9d919e4ab6d9c28f16199ec6612635a242f"
+        },
+        {
+          "name": "EKCH_2023_residuals.csv",
+          "sha256": "79bb1700b348d8ab95253ae70b432a2e418aae8d850996f4f069fbcfd3ad0bd1"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EPWA",
+      "year": "2019",
+      "rows": 45176,
+      "go_arounds": 135,
+      "raw_reports": 17554,
+      "unique_reports": 17554,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 1,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EPWA&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "1e2a602ef71a80b97917b89ee770b927e3c71c441b6317cfd939b5349e6417cb",
+        "downloaded_utc": "2026-10-10T20:43:08.813847+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EPWA_2019_reports.parquet",
+          "sha256": "53327871bb499334571e9c322153544aa930c56dc92cdaeab10b5bdafb4ec9e4"
+        },
+        {
+          "name": "EPWA_2019_features.parquet",
+          "sha256": "31ca755444c13bb4e9d5ad7759a692070b9d9fd587c8ddf25e280eaeb45cb475"
+        },
+        {
+          "name": "EPWA_2019_scenarios.csv",
+          "sha256": "af9c43d55eea1322b5694230b7bae2df3dfa373e44911871b664c943b0a50ad7"
+        },
+        {
+          "name": "EPWA_2019_residuals.csv",
+          "sha256": "606ad4b530ce48a4961c3f74a3218838d1c44520467e7a76440b587fc5133c06"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EPWA",
+      "year": "2020",
+      "rows": 26788,
+      "go_arounds": 83,
+      "raw_reports": 17592,
+      "unique_reports": 17592,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 0,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EPWA&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "8e1fadd866fa8acf20ee420a1ef80ab7774f0b8de8be2c6c13bfb8d390f92bbb",
+        "downloaded_utc": "2026-10-10T20:43:17.749432+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EPWA_2020_reports.parquet",
+          "sha256": "1656f0d28ed58d84468bbe7b52cd583e652d2ed05ff6e7b2f2360aeecdf7d981"
+        },
+        {
+          "name": "EPWA_2020_features.parquet",
+          "sha256": "094720848f04751b06b7e6f69f12e2ebafacf164ed5a509f5d5748b4d11c274b"
+        },
+        {
+          "name": "EPWA_2020_scenarios.csv",
+          "sha256": "726f1b7dc0401a04a4e281bfcba48e433186a9f029bac8a0b7b1e76ee2d24945"
+        },
+        {
+          "name": "EPWA_2020_residuals.csv",
+          "sha256": "79bb1700b348d8ab95253ae70b432a2e418aae8d850996f4f069fbcfd3ad0bd1"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EPWA",
+      "year": "2021",
+      "rows": 35079,
+      "go_arounds": 112,
+      "raw_reports": 17534,
+      "unique_reports": 17534,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 0,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EPWA&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "879f9f5d7a6d47b9e9d4291ea11a82266322aa5e466aa1b9206a5a4bda8195e6",
+        "downloaded_utc": "2026-10-10T20:43:27.135119+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EPWA_2021_reports.parquet",
+          "sha256": "081325aab480516a4743af310a163aa1fa01cf4c061a016b64d93ad2971df0a8"
+        },
+        {
+          "name": "EPWA_2021_features.parquet",
+          "sha256": "505c685fab0776089aa502df9da5c3f67bb1793b30cffa2816198d5259a39494"
+        },
+        {
+          "name": "EPWA_2021_scenarios.csv",
+          "sha256": "a14dd6d513aa6de797551f6f3e40e14481fa9c29c85cc0f26607fcf497bbed66"
+        },
+        {
+          "name": "EPWA_2021_residuals.csv",
+          "sha256": "79bb1700b348d8ab95253ae70b432a2e418aae8d850996f4f069fbcfd3ad0bd1"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EPWA",
+      "year": "2022",
+      "rows": 51109,
+      "go_arounds": 178,
+      "raw_reports": 17558,
+      "unique_reports": 17558,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 0,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EPWA&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "0b57911211e91d697a56fad1ec4cbe6902c4fa082b41d1da308d14dd8feac4a3",
+        "downloaded_utc": "2026-10-10T20:43:36.592867+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EPWA_2022_reports.parquet",
+          "sha256": "b4e7528378312a770b2bab1cf1db0d3d911781901d12d9a85873d7de196a15ff"
+        },
+        {
+          "name": "EPWA_2022_features.parquet",
+          "sha256": "57edda493b22e11fa35eef1c216b1f2e7fea3f1eb06c6d7103021e3e5b2315b0"
+        },
+        {
+          "name": "EPWA_2022_scenarios.csv",
+          "sha256": "c106fb16b59798a2453df98377ad4831470e44d863b9d47dfb23f9be07b52999"
+        },
+        {
+          "name": "EPWA_2022_residuals.csv",
+          "sha256": "79bb1700b348d8ab95253ae70b432a2e418aae8d850996f4f069fbcfd3ad0bd1"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "EPWA",
+      "year": "2023",
+      "rows": 19600,
+      "go_arounds": 59,
+      "raw_reports": 7293,
+      "unique_reports": 7293,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 0,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EPWA&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-06-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "ca4eba861eb1f627d57ab05d623e21e9201d26f6c00d7a70daae808067ddc309",
+        "downloaded_utc": "2026-10-10T20:43:45.247289+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "EPWA_2023_reports.parquet",
+          "sha256": "9fd691bb260b5e32570a1a9a64c9a10de99d7537793291e1879ee55bf125da23"
+        },
+        {
+          "name": "EPWA_2023_features.parquet",
+          "sha256": "d2e8eaaa49b6f28930bf64db706d6b74164dba33e56672c09600eb97b8147bcd"
+        },
+        {
+          "name": "EPWA_2023_scenarios.csv",
+          "sha256": "8ec96a4708e96c0a4d6c9cc500b7360f9b7ae83b10e4eeb15ac18b54476ce929"
+        },
+        {
+          "name": "EPWA_2023_residuals.csv",
+          "sha256": "79bb1700b348d8ab95253ae70b432a2e418aae8d850996f4f069fbcfd3ad0bd1"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "ESSA",
+      "year": "2019",
+      "rows": 95368,
+      "go_arounds": 238,
+      "raw_reports": 17530,
+      "unique_reports": 17530,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 27,
+      "core_failed_reports": 6,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=ESSA&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "37ba9ba4714fa7d6f27338709945688dbbfef19b90de1bd509dfc5a3feb51748",
+        "downloaded_utc": "2026-10-10T20:43:51.678189+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "ESSA_2019_reports.parquet",
+          "sha256": "d39885c8bf8de6c523035456b04bc125226bc251e4805ebe63ae1bf9c4e26c11"
+        },
+        {
+          "name": "ESSA_2019_features.parquet",
+          "sha256": "f62fdc799938c42ea939dc7b5bbd5c31eca50aa284ade5dc9fc18908e293da6a"
+        },
+        {
+          "name": "ESSA_2019_scenarios.csv",
+          "sha256": "5361a7f9d554164dd2987ce51c39fed6a43a3035293c6dc10acc438aa82d52e4"
+        },
+        {
+          "name": "ESSA_2019_residuals.csv",
+          "sha256": "f7b653b4162be0fcf90b7fd91134729329f8b3bb2cdc9c9ab200f328d723fa11"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "ESSA",
+      "year": "2020",
+      "rows": 34633,
+      "go_arounds": 100,
+      "raw_reports": 17587,
+      "unique_reports": 17587,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 5,
+      "core_failed_reports": 5,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=ESSA&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "ea90d4c641ad4f135c7d75bc000e5400348c9d6f9201643b22c638b6482d1c65",
+        "downloaded_utc": "2026-10-10T20:44:01.564098+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "ESSA_2020_reports.parquet",
+          "sha256": "9ec13170ce8c94b5fc81283dba6b09dea9ae8273ac7cef1c0a0279b727c77291"
+        },
+        {
+          "name": "ESSA_2020_features.parquet",
+          "sha256": "1c2cda255c8b097f7835f366cc2069ea6cbc0c3806dac17772f878783aefb763"
+        },
+        {
+          "name": "ESSA_2020_scenarios.csv",
+          "sha256": "15f85c2fd5f6f5d5b0aece556f3cd9b83bc60c209ca065d87c70f4d4fb4e8170"
+        },
+        {
+          "name": "ESSA_2020_residuals.csv",
+          "sha256": "270bb5618540ed0b9248c7a1951dee770f529379ead5246d0ffe24f9456770e5"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "ESSA",
+      "year": "2021",
+      "rows": 34673,
+      "go_arounds": 80,
+      "raw_reports": 17532,
+      "unique_reports": 17532,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 57,
+      "core_failed_reports": 5,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=ESSA&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "9d762d6270684146d0194e6d6e8ce42571a1fa99975ae0864d2293d328b19e68",
+        "downloaded_utc": "2026-10-10T20:44:10.524167+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "ESSA_2021_reports.parquet",
+          "sha256": "26e61203e496fcc89359518ac62a1b35132c7dbf8dff142921cdb0816b6e8071"
+        },
+        {
+          "name": "ESSA_2021_features.parquet",
+          "sha256": "79afe6ab71b1564bfd899ca5c4ff177d12a835d5565ab5b3cd95e2556e803e1d"
+        },
+        {
+          "name": "ESSA_2021_scenarios.csv",
+          "sha256": "aa0be7f3cccc3eb97b9307e12e5803c93606c312ab775ad73f1e9f233d007174"
+        },
+        {
+          "name": "ESSA_2021_residuals.csv",
+          "sha256": "4df907b1d8ced16e6a93a7ec539bd88d0ef5b5888cddfb578c47c2dbb9707f42"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "ESSA",
+      "year": "2022",
+      "rows": 55798,
+      "go_arounds": 153,
+      "raw_reports": 17502,
+      "unique_reports": 17502,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 17,
+      "core_failed_reports": 4,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=ESSA&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "7d9dc23e93638416f4d54b08b51745dfd840cd2792e269a048ee05c0f9de80f9",
+        "downloaded_utc": "2026-10-10T20:44:19.934753+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "ESSA_2022_reports.parquet",
+          "sha256": "4a746b22c9cc24b33defab34e6e4a9960493237df4a8de0e0f69f0dec0440289"
+        },
+        {
+          "name": "ESSA_2022_features.parquet",
+          "sha256": "cbd31e07172d1f1c38cbcfa4563489fac2c0809cf97f8cafe88c4ecafe3e4e22"
+        },
+        {
+          "name": "ESSA_2022_scenarios.csv",
+          "sha256": "282809b6183a6167fe72b1c6c9d64aebe5ce69ddd053805af8df7f9f4e4c9681"
+        },
+        {
+          "name": "ESSA_2022_residuals.csv",
+          "sha256": "454d94e66a64421a90d218d42d49996440f309c440f53009c603a78d74996a32"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "ESSA",
+      "year": "2023",
+      "rows": 23351,
+      "go_arounds": 66,
+      "raw_reports": 7268,
+      "unique_reports": 7268,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 10,
+      "core_failed_reports": 1,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=ESSA&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-06-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "be52ba76f351f489a385ffa4a4552895d1cc853d1c1f6d744910c79693d9c7b6",
+        "downloaded_utc": "2026-10-10T20:49:01.802349+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "ESSA_2023_reports.parquet",
+          "sha256": "adbe4e95b614de784d497998f39ad51d85201a38889b7a4538841f1ecab20530"
+        },
+        {
+          "name": "ESSA_2023_features.parquet",
+          "sha256": "0a24293adb6d6785683f0b4c706edf2a7e9725472e6ac897b7cc57ef21501082"
+        },
+        {
+          "name": "ESSA_2023_scenarios.csv",
+          "sha256": "6b63c97feac50c3b15fee9c041dfa643fd559632df268eb7c2b406e0a46b3292"
+        },
+        {
+          "name": "ESSA_2023_residuals.csv",
+          "sha256": "032520e2db145c8034de19e23246c26e34a39206f0927b1b53fdedae836aff4e"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LEMD",
+      "year": "2019",
+      "rows": 166569,
+      "go_arounds": 258,
+      "raw_reports": 17667,
+      "unique_reports": 17667,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 24,
+      "core_failed_reports": 10,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LEMD&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "a77a9a79add589bbcc641e22af030c8c00b43601e884b0abadbb8484481bcc6a",
+        "downloaded_utc": "2026-10-10T20:49:08.048432+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LEMD_2019_reports.parquet",
+          "sha256": "db8db06282134e7a5d49ccd5ee4cb5219c7e72823c4f0e20a5572466b1a9fe09"
+        },
+        {
+          "name": "LEMD_2019_features.parquet",
+          "sha256": "90fcd18398c20185bcf47e2c2dbd92019ba9703f8802c66e6cce8c4c2b54e671"
+        },
+        {
+          "name": "LEMD_2019_scenarios.csv",
+          "sha256": "ebba44eade7e5f093a4b09086c789cfe57994cc29ac78278d6b8a457fd042bc0"
+        },
+        {
+          "name": "LEMD_2019_residuals.csv",
+          "sha256": "a28c895d6f1ad8e3d16ca06942835158857cbcc5754c6cfb13faea6417e27925"
+        }
+      ],
+      "pilot_snapshot_comparison": [
+        {
+          "month": "2019-01",
+          "old_only": 0,
+          "new_only": 0
+        },
+        {
+          "month": "2019-07",
+          "old_only": 0,
+          "new_only": 0
+        }
+      ]
+    },
+    {
+      "airport": "LEMD",
+      "year": "2020",
+      "rows": 63866,
+      "go_arounds": 122,
+      "raw_reports": 17844,
+      "unique_reports": 17844,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 25,
+      "core_failed_reports": 11,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LEMD&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "e492f4db81b164a5d7069875a575371a63b37e4ed90818163abec733fb458023",
+        "downloaded_utc": "2026-10-10T20:49:20.432911+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LEMD_2020_reports.parquet",
+          "sha256": "a1bbfeb6b8b2a3710e6d1d1c6225ee04b85230daf69cfc545b4d1d3eba9d00ab"
+        },
+        {
+          "name": "LEMD_2020_features.parquet",
+          "sha256": "53ea271d95edabfcd9e4d6947c285561cb466b764538ea800eb501da278bec9b"
+        },
+        {
+          "name": "LEMD_2020_scenarios.csv",
+          "sha256": "e2b968775f96ce666f3605c6f5bc7476e75fcef12814674b0e62683523ba90aa"
+        },
+        {
+          "name": "LEMD_2020_residuals.csv",
+          "sha256": "492eb8985d9b207580a8b607b59e81ca95023a46961cddd4f2745b320d49cdcf"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LEMD",
+      "year": "2021",
+      "rows": 93002,
+      "go_arounds": 172,
+      "raw_reports": 17727,
+      "unique_reports": 17727,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 111,
+      "core_failed_reports": 33,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LEMD&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "7ebd7b82f31752704d265dfcf84f0b14cd22a1e5cab657809133060909b7954c",
+        "downloaded_utc": "2026-10-10T20:49:30.223241+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LEMD_2021_reports.parquet",
+          "sha256": "d80290a2830c376b108dfaa1461037c02591fc339f639a417d238e9bf590552a"
+        },
+        {
+          "name": "LEMD_2021_features.parquet",
+          "sha256": "db914a06b16af1edaa841f1f75a2456d281b40b216d71b1a01161e98bdf96511"
+        },
+        {
+          "name": "LEMD_2021_scenarios.csv",
+          "sha256": "fa396a53c4dfecaec70ea8449345d93bd10bfaa2c01ac951cc1f1686c0bd983c"
+        },
+        {
+          "name": "LEMD_2021_residuals.csv",
+          "sha256": "f099149354b005abfe74c2a7991a8d7981ade41a58891363f8a93b2790bf45ee"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LEMD",
+      "year": "2022",
+      "rows": 134761,
+      "go_arounds": 322,
+      "raw_reports": 17740,
+      "unique_reports": 17740,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 2,
+      "core_failed_reports": 2,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LEMD&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "d93a86d70cd8859231eb51b20186473630bc0117e7ad41a37bec0fdd2d1a01e4",
+        "downloaded_utc": "2026-10-10T20:49:40.332790+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LEMD_2022_reports.parquet",
+          "sha256": "af013a87845932393e0f43391ffe9b7ff224cb9b18bcdcea42733702005ffcb9"
+        },
+        {
+          "name": "LEMD_2022_features.parquet",
+          "sha256": "a478720fcf13d4cec48f813e661281a24cdc80f48625b7e573077288e789c149"
+        },
+        {
+          "name": "LEMD_2022_scenarios.csv",
+          "sha256": "d8d48ed48b47186b56b460b6ae94669ec4b352dc5dccfccc8f1e2bab8f156d95"
+        },
+        {
+          "name": "LEMD_2022_residuals.csv",
+          "sha256": "e89d1ce5ad59008f5c7211de71fa200baa7748070e851df7aff9fafadbb93361"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LEMD",
+      "year": "2023",
+      "rows": 56846,
+      "go_arounds": 112,
+      "raw_reports": 7369,
+      "unique_reports": 7369,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 0,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LEMD&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-06-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "e6cea540d77fe82dbe95b1f23937b318ede24eb33d030ff43231169832d12bef",
+        "downloaded_utc": "2026-10-10T20:49:50.029908+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LEMD_2023_reports.parquet",
+          "sha256": "d73709cec395b3a8b6abf5cf3f82396af8b132b5564cc37ed6ee747f7c1f1cce"
+        },
+        {
+          "name": "LEMD_2023_features.parquet",
+          "sha256": "ade4949cae56a6a58b59b4c033c5fff9c9e61b9a3cc8dde23bc179c57549ea1a"
+        },
+        {
+          "name": "LEMD_2023_scenarios.csv",
+          "sha256": "7762c778a46234a48731b7e4079069a42e974a0645b6ea49c206d4612342ba51"
+        },
+        {
+          "name": "LEMD_2023_residuals.csv",
+          "sha256": "79bb1700b348d8ab95253ae70b432a2e418aae8d850996f4f069fbcfd3ad0bd1"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LFPG",
+      "year": "2019",
+      "rows": 196950,
+      "go_arounds": 699,
+      "raw_reports": 17610,
+      "unique_reports": 17610,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 19,
+      "core_failed_reports": 14,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LFPG&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "92ac6857de2fe847a0484d67a0787b697a5a25c5d3d6b98fe82467839e863b51",
+        "downloaded_utc": "2026-10-10T20:49:56.418464+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LFPG_2019_reports.parquet",
+          "sha256": "9530deb17bc0845d7660f16925ffb2e77cbd7e7efe96d49ea9e686fdef1c1fa0"
+        },
+        {
+          "name": "LFPG_2019_features.parquet",
+          "sha256": "2b569b37996e2a09dea952c5ad06711aaf22b2ba41da78e81e32fad0061f9f4a"
+        },
+        {
+          "name": "LFPG_2019_scenarios.csv",
+          "sha256": "ee3d39551a7aadb486eb1056b29bd3d8b95269fb580269c62e3279d2bd737235"
+        },
+        {
+          "name": "LFPG_2019_residuals.csv",
+          "sha256": "a1f0ec1dcd23667d5123e29518392eea21ff7f1b938c8a3b957bf388b1b74632"
+        }
+      ],
+      "pilot_snapshot_comparison": [
+        {
+          "month": "2019-01",
+          "old_only": 0,
+          "new_only": 0
+        },
+        {
+          "month": "2019-07",
+          "old_only": 0,
+          "new_only": 0
+        }
+      ]
+    },
+    {
+      "airport": "LFPG",
+      "year": "2020",
+      "rows": 92471,
+      "go_arounds": 312,
+      "raw_reports": 17642,
+      "unique_reports": 17642,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 387,
+      "core_failed_reports": 387,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LFPG&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "f430d192e8608b82acd437dd7242819811a1387686c8fdb02992ebb0e27dd56b",
+        "downloaded_utc": "2026-10-10T20:50:08.805877+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LFPG_2020_reports.parquet",
+          "sha256": "c044ac847e8e9506b841a917f142e4d4176526a838b7d0eec8084bdcea4f86ea"
+        },
+        {
+          "name": "LFPG_2020_features.parquet",
+          "sha256": "b34736226c9541a8f8b3620e328414ad8e6b68362b3bbb1d7b324d7c8bfe1fa3"
+        },
+        {
+          "name": "LFPG_2020_scenarios.csv",
+          "sha256": "50de56734f6aec6a02814536b0138cb2f3ff736b792e63d06a2486276e23b253"
+        },
+        {
+          "name": "LFPG_2020_residuals.csv",
+          "sha256": "7cc7e22186a229e0e7a6248d97a015f3f9456426a115a834fe30354264f504f2"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LFPG",
+      "year": "2021",
+      "rows": 106498,
+      "go_arounds": 408,
+      "raw_reports": 17587,
+      "unique_reports": 17587,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 5,
+      "core_failed_reports": 2,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LFPG&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "341dc81f1d7f4f960b45f68e86191d872b69246ea42240333c2bf3d09316e6c1",
+        "downloaded_utc": "2026-10-10T20:50:19.930386+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LFPG_2021_reports.parquet",
+          "sha256": "39980cce696f68bd1b06d741602a7264d9871a8e94c50f48c25288a438762b35"
+        },
+        {
+          "name": "LFPG_2021_features.parquet",
+          "sha256": "83247c29b5ec1e0fea490a1d742072c6aa5e517303c1d1ec61b5dc9203654a69"
+        },
+        {
+          "name": "LFPG_2021_scenarios.csv",
+          "sha256": "6455dcf284ee3cf0512911869852edc6a3ea94d2550370ce8cee616175d279b5"
+        },
+        {
+          "name": "LFPG_2021_residuals.csv",
+          "sha256": "0e25d9efb20216ab886ad4d70aa391f81ca6505cd01978cdf6f4f07f8c09c43b"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LFPG",
+      "year": "2022",
+      "rows": 155753,
+      "go_arounds": 661,
+      "raw_reports": 17582,
+      "unique_reports": 17582,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 10,
+      "core_failed_reports": 9,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LFPG&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "4d210998cf0cda5fab0024884f3df3ec58292b50f76983a9520a0fef0937c3db",
+        "downloaded_utc": "2026-10-10T20:50:30.723777+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LFPG_2022_reports.parquet",
+          "sha256": "20341eaf2995a1f1c20e859e1a8875b7268e8fa38cbe08bbb1cb4717f57e88d7"
+        },
+        {
+          "name": "LFPG_2022_features.parquet",
+          "sha256": "e450b024b877df2bcb35931d3d5e6e99e285f10e294de341ae8a0150f7601940"
+        },
+        {
+          "name": "LFPG_2022_scenarios.csv",
+          "sha256": "f4b63fc185c92e3e2ebacd0a31a5e319dc92b5fa8397c15eb2da4f5bc8cb0730"
+        },
+        {
+          "name": "LFPG_2022_residuals.csv",
+          "sha256": "2a83ad9086eddc799686606c64789d5485af5a1a0c913747090782d237e9ce9f"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LFPG",
+      "year": "2023",
+      "rows": 65890,
+      "go_arounds": 266,
+      "raw_reports": 7305,
+      "unique_reports": 7305,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 0,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LFPG&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-06-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "978c59bce6d5ad0c14b3703958efdfc6507683074f7b23536398ba3307054f99",
+        "downloaded_utc": "2026-10-10T20:50:41.664924+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LFPG_2023_reports.parquet",
+          "sha256": "1ce6d0173c60ce197ce974cc3ec267a2d083c9e9a672ea5149fd0ac71d641255"
+        },
+        {
+          "name": "LFPG_2023_features.parquet",
+          "sha256": "b684d18c2f6927bad605a721bd5a043af8f89cd419db60c7a730b732f16a572b"
+        },
+        {
+          "name": "LFPG_2023_scenarios.csv",
+          "sha256": "e2c4c6d2614b159fe475adcccd493c41d921a37f9b12320b22cec2a084078d39"
+        },
+        {
+          "name": "LFPG_2023_residuals.csv",
+          "sha256": "79bb1700b348d8ab95253ae70b432a2e418aae8d850996f4f069fbcfd3ad0bd1"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LFPO",
+      "year": "2019",
+      "rows": 68925,
+      "go_arounds": 249,
+      "raw_reports": 17297,
+      "unique_reports": 17297,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 1,
+      "core_failed_reports": 1,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LFPO&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "475919ccb693b2635e27b85880ac766410d93ec5472214d72e005ccf18f1dfe0",
+        "downloaded_utc": "2026-10-10T20:50:48.473263+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LFPO_2019_reports.parquet",
+          "sha256": "643850aa6610455f62173e1d495a347333c82ee97fb32ed1d43c2a5851b3dc6d"
+        },
+        {
+          "name": "LFPO_2019_features.parquet",
+          "sha256": "14af27d84ff8cdbb97759a4e648bfa22c787a8a59596b959b49a7f2c0cfc95bf"
+        },
+        {
+          "name": "LFPO_2019_scenarios.csv",
+          "sha256": "c04d8207b36d6f8f32d2cb387011743c550ba3fa56c24c58544b340c61127207"
+        },
+        {
+          "name": "LFPO_2019_residuals.csv",
+          "sha256": "50c0333358c5eeb23ceef822a1f9bf2c21cb0b51c9aa75ce709e1193cfc76eb2"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LFPO",
+      "year": "2020",
+      "rows": 31014,
+      "go_arounds": 85,
+      "raw_reports": 17370,
+      "unique_reports": 17370,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 373,
+      "core_failed_reports": 373,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LFPO&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "e5ace2be2a1798ebca55d5bd073215f557e6e0616380c8dc2c871a3238157d65",
+        "downloaded_utc": "2026-10-10T20:50:57.726383+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LFPO_2020_reports.parquet",
+          "sha256": "ef26cc355ba125fc00f9c7e0e8f0e955225a6365065e91d1a3e467ae700e7552"
+        },
+        {
+          "name": "LFPO_2020_features.parquet",
+          "sha256": "a4048e701765283f5381d23df942061ef36f42077b3b11e0caecbdc26cf7cbf7"
+        },
+        {
+          "name": "LFPO_2020_scenarios.csv",
+          "sha256": "f22a0f44ed0508c88b15ac6892e8f4bdac148fb7fb1ea662b070e761bfda6062"
+        },
+        {
+          "name": "LFPO_2020_residuals.csv",
+          "sha256": "29bc463a66981d75207416ed988428cd7e25aed65777a5a154fb4c33693416bc"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LFPO",
+      "year": "2021",
+      "rows": 44865,
+      "go_arounds": 106,
+      "raw_reports": 17223,
+      "unique_reports": 17223,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 1,
+      "core_failed_reports": 1,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LFPO&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "9fec55cf805eb831cb6d77a26a5e15ed989170edb97529b8dda5d6cc0678b9d1",
+        "downloaded_utc": "2026-10-10T20:51:06.904540+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LFPO_2021_reports.parquet",
+          "sha256": "f2cf14aedaa4f048643472428e468c817d074e9a31267e826bff52d6cd01fc5a"
+        },
+        {
+          "name": "LFPO_2021_features.parquet",
+          "sha256": "ddbec5db77599a902ba5743599a68504b53f3ccfc75c219f396ca4ec1143664c"
+        },
+        {
+          "name": "LFPO_2021_scenarios.csv",
+          "sha256": "75f4c90bbc98b2d4850acace3c53346d9e3d6ade7dc4ab078aff44793d3f675b"
+        },
+        {
+          "name": "LFPO_2021_residuals.csv",
+          "sha256": "96b22467a8708dde77d1c7c3cfe81ca73286a09a1194ca17abbf1f16a2ebbd65"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LFPO",
+      "year": "2022",
+      "rows": 65840,
+      "go_arounds": 216,
+      "raw_reports": 17349,
+      "unique_reports": 17349,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 104,
+      "core_failed_reports": 103,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LFPO&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "af3188490599c52ad3dc1838ff744aeeaa1d751292073e81b2f364745f748d20",
+        "downloaded_utc": "2026-10-10T20:51:15.847543+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LFPO_2022_reports.parquet",
+          "sha256": "ad9514a1196f6e69a0e48ed20f254fc2d8b6b1174c84f5dc1b1459b3376c9575"
+        },
+        {
+          "name": "LFPO_2022_features.parquet",
+          "sha256": "c3b5880f2e54964788b55330d97e92c6dbbeb20a6abab641995ccc6640db6c19"
+        },
+        {
+          "name": "LFPO_2022_scenarios.csv",
+          "sha256": "22618bb6fa5559b546fb7d0b03208ddecb10d020ed3b83bb5509acd2e824b8c0"
+        },
+        {
+          "name": "LFPO_2022_residuals.csv",
+          "sha256": "5c927d14ca19d7ba654a22b4ecdc993f0410fbb3c6af4e4e30a0769ba4badd59"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LFPO",
+      "year": "2023",
+      "rows": 25959,
+      "go_arounds": 88,
+      "raw_reports": 7205,
+      "unique_reports": 7205,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 3,
+      "core_failed_reports": 3,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LFPO&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-06-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "0c0d7cf9a35805038984c31130533843342b9a9d0e9122f4563fd48feafec867",
+        "downloaded_utc": "2026-10-10T20:51:24.117926+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LFPO_2023_reports.parquet",
+          "sha256": "fe4e72b16ef6a94db1c029e065a44ba7c994d6dbee9f56d2d0d8ab20f2f4d397"
+        },
+        {
+          "name": "LFPO_2023_features.parquet",
+          "sha256": "926ec689f56f060ddf4008791114ee9733b6b84f091074c0ce453cebfa0022cc"
+        },
+        {
+          "name": "LFPO_2023_scenarios.csv",
+          "sha256": "1b3f4f6c3cd6eaf9e027c9131df74299b83203706b5bfb457ff12c8f56ce4f84"
+        },
+        {
+          "name": "LFPO_2023_residuals.csv",
+          "sha256": "bb2fde49022fe5acbc00b0409d0dff839eb5033b8f82685b7aa22d337470f0e4"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LIMC",
+      "year": "2019",
+      "rows": 56888,
+      "go_arounds": 115,
+      "raw_reports": 17454,
+      "unique_reports": 17454,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 26,
+      "core_failed_reports": 2,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LIMC&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "2c487ee67d8c85fb41cbb4f49d76926e775ce67b741dda6de15673997f0056fb",
+        "downloaded_utc": "2026-10-10T20:51:30.829506+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LIMC_2019_reports.parquet",
+          "sha256": "ae80e6b38d5330bc1dc3898e18a935fb2e27c00bcd56f538063918ee78dd764d"
+        },
+        {
+          "name": "LIMC_2019_features.parquet",
+          "sha256": "3fcc468e10e83cf4e817d2132058a505ac3db61c203a5bbb11e3ab0abf798112"
+        },
+        {
+          "name": "LIMC_2019_scenarios.csv",
+          "sha256": "6e5858337165f258b46e66c35588cdf80258e59717133a60db35b3ade6226fff"
+        },
+        {
+          "name": "LIMC_2019_residuals.csv",
+          "sha256": "8e41d79f10684377950b88584ec7031ec2287504817c6e154dd12d8f7d85aa35"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LIMC",
+      "year": "2020",
+      "rows": 29983,
+      "go_arounds": 79,
+      "raw_reports": 17498,
+      "unique_reports": 17498,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 27,
+      "core_failed_reports": 4,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LIMC&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "e3f845596394bad46a1a214c182d9eccd7e1494870c88f5bb89c45602005fb50",
+        "downloaded_utc": "2026-10-10T20:51:39.511937+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LIMC_2020_reports.parquet",
+          "sha256": "4c23f2fe2acc9276980c4cabd7427a0e2c6d9fdc5ff85e21f4bfd8ce27ece4e0"
+        },
+        {
+          "name": "LIMC_2020_features.parquet",
+          "sha256": "f8b509e1a9936a7258160f90ef928080ad7a94e34c58549195d0fb90a4c1d0fc"
+        },
+        {
+          "name": "LIMC_2020_scenarios.csv",
+          "sha256": "2fb6d931c7ae0a35a33d9e56873e8d24fc0c91480f4635bd3e2990db892a097d"
+        },
+        {
+          "name": "LIMC_2020_residuals.csv",
+          "sha256": "8b8dd54bb4c9058c8a677aa0c43d92a9cd4ccd07b8452065ad94e31463b68d97"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LIMC",
+      "year": "2021",
+      "rows": 37278,
+      "go_arounds": 77,
+      "raw_reports": 17464,
+      "unique_reports": 17464,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 13,
+      "core_failed_reports": 4,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LIMC&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "4411f43e4b00b883b28686182e25494737da88d54cae34eedfc8a4e1e7d3c4fd",
+        "downloaded_utc": "2026-10-10T20:51:49.737543+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LIMC_2021_reports.parquet",
+          "sha256": "0cf6ea5926802c78a6f89081165de28db0707e129b3ff74911ae9b8b82a70277"
+        },
+        {
+          "name": "LIMC_2021_features.parquet",
+          "sha256": "2a280baf92ad2a7fc327aeb0ace533361468693ada074805000b54049a57bfda"
+        },
+        {
+          "name": "LIMC_2021_scenarios.csv",
+          "sha256": "ada8584549c3b49971d56cd5f6281c39b522fef04c920198b11f2fdd5fab18a9"
+        },
+        {
+          "name": "LIMC_2021_residuals.csv",
+          "sha256": "c750f485c40b9b38db6c22efcc7b5914b447a4c1a6b5014ad6388874ac815959"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LIMC",
+      "year": "2022",
+      "rows": 52641,
+      "go_arounds": 133,
+      "raw_reports": 17471,
+      "unique_reports": 17471,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 9,
+      "core_failed_reports": 2,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LIMC&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "4f49c029d9e8b40417923a66266fa3349e69df36449566e848fd14c4554205e9",
+        "downloaded_utc": "2026-10-10T20:51:59.075791+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LIMC_2022_reports.parquet",
+          "sha256": "4226a2d11493bca58b6cbd84afbdd6d108cb82919457a8af510ca0f65915a643"
+        },
+        {
+          "name": "LIMC_2022_features.parquet",
+          "sha256": "640068820648b4df7162c49f8f62d429130f9228f07594e01ef76fd61fbd4d41"
+        },
+        {
+          "name": "LIMC_2022_scenarios.csv",
+          "sha256": "460d0b29319f1069ab00bc537fad8ea68da9aa56fe61b6da5a2eb1cbf9414512"
+        },
+        {
+          "name": "LIMC_2022_residuals.csv",
+          "sha256": "6e264225685487b58417da1bcca2fb613e7a4f2ce55168c913dc690d925dd59f"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LIMC",
+      "year": "2023",
+      "rows": 19607,
+      "go_arounds": 43,
+      "raw_reports": 7282,
+      "unique_reports": 7282,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 4,
+      "core_failed_reports": 3,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LIMC&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-06-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "76e85c3b92450b5aa375069c943dc40c0135fa5e4fadc907286fc530fce32e16",
+        "downloaded_utc": "2026-10-10T20:52:07.179180+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LIMC_2023_reports.parquet",
+          "sha256": "6c5458337f03a906e19f3c765d038c4aa9271e68e494abe041b5d14ee311b016"
+        },
+        {
+          "name": "LIMC_2023_features.parquet",
+          "sha256": "177783d1219a4f8726946523b09e74f76b54a96afdd1053f52df5fac91fee01b"
+        },
+        {
+          "name": "LIMC_2023_scenarios.csv",
+          "sha256": "649ec9ff9d49353aa1efe45657b15ce32bff79ea3f37db8736ae71a1227b4ae5"
+        },
+        {
+          "name": "LIMC_2023_residuals.csv",
+          "sha256": "c354db5321dcfce4611778525d2394d91499e4731d8e159e958f87e69c4201e1"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LIRF",
+      "year": "2019",
+      "rows": 129063,
+      "go_arounds": 179,
+      "raw_reports": 17464,
+      "unique_reports": 17464,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 58,
+      "core_failed_reports": 5,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LIRF&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "ffaddfa375d9c429772271f43c46f2c6a446326537f2270aeddb8072ca9291a5",
+        "downloaded_utc": "2026-10-10T20:52:14.722149+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LIRF_2019_reports.parquet",
+          "sha256": "03e31e0538a485d9aa53c73b0f9cdb29a320216359f477658514ea18c4717e81"
+        },
+        {
+          "name": "LIRF_2019_features.parquet",
+          "sha256": "0332fc9c9827f10ef112afc223c146d4fbd3f1f68f92bf40d6289330ca94cc5b"
+        },
+        {
+          "name": "LIRF_2019_scenarios.csv",
+          "sha256": "31136e3e36454edcfd428014c1325ca031a74bb27dd575e56453eb283ae6c39e"
+        },
+        {
+          "name": "LIRF_2019_residuals.csv",
+          "sha256": "fa1e64a1171d3c35d39b712457ecede40f2a78acf11a58056fe83479f1874c79"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LIRF",
+      "year": "2020",
+      "rows": 43867,
+      "go_arounds": 73,
+      "raw_reports": 17536,
+      "unique_reports": 17536,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 15,
+      "core_failed_reports": 2,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LIRF&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "73937059b086760d331b4211a8e40f039f0e9bf09e6f67d2cb8c082b4e49eb1c",
+        "downloaded_utc": "2026-10-10T20:52:24.679463+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LIRF_2020_reports.parquet",
+          "sha256": "6d863b9932d1d2ef3005e3fb90f5584fbe9972eccf179d34e45589baac6cb796"
+        },
+        {
+          "name": "LIRF_2020_features.parquet",
+          "sha256": "12fca29331f3723bbdbf877ddec8a34d4a62449676d9c8e6498065ac90a8f1b6"
+        },
+        {
+          "name": "LIRF_2020_scenarios.csv",
+          "sha256": "4d366836a88c526060e9597a262bbcb7470ffbb857fde3c4ee96351972b6e36b"
+        },
+        {
+          "name": "LIRF_2020_residuals.csv",
+          "sha256": "914ff7dd33c27bc6e278f8bbb820c012e9708f4936962dc600d736b267fdb3f0"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LIRF",
+      "year": "2021",
+      "rows": 45088,
+      "go_arounds": 46,
+      "raw_reports": 17454,
+      "unique_reports": 17454,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 13,
+      "core_failed_reports": 1,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LIRF&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "f43e88e0c92233e790f08cf32265c00f18b8fe5da957a4ae046cffe8a226f47b",
+        "downloaded_utc": "2026-10-10T20:52:33.875018+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LIRF_2021_reports.parquet",
+          "sha256": "cdd5aab6788a4068ad2c1feefddcad226917710c60d42c48a3dced62e98d1daf"
+        },
+        {
+          "name": "LIRF_2021_features.parquet",
+          "sha256": "bb9e0e818c1fd35ff62ac2a1ac4a733a2694f4ab942f7e2710804d2802c028f8"
+        },
+        {
+          "name": "LIRF_2021_scenarios.csv",
+          "sha256": "170fe6194cd1e9bb05f9fa439859cd8a97cedd48f2ca6cf1ba5095b2b3c96e8c"
+        },
+        {
+          "name": "LIRF_2021_residuals.csv",
+          "sha256": "5581d492ef8d0bcaa661297dd347b85cc4728b657013673e2c4d168676d0e450"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LIRF",
+      "year": "2022",
+      "rows": 74160,
+      "go_arounds": 115,
+      "raw_reports": 17495,
+      "unique_reports": 17495,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 13,
+      "core_failed_reports": 2,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LIRF&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "e98fffd173a5d522fc7f416cda862bb790397f8620e686cc23a0132da74f556a",
+        "downloaded_utc": "2026-10-10T20:52:43.028965+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LIRF_2022_reports.parquet",
+          "sha256": "7c01ae1762f6cb8d8849e84e0406ab5f7a4dfdc7a4f806f82881ee305213cd7d"
+        },
+        {
+          "name": "LIRF_2022_features.parquet",
+          "sha256": "b714e9714e7e3f2d5e7ce31a61e6395eb7a4b053d1427fb2324cc8edd2286850"
+        },
+        {
+          "name": "LIRF_2022_scenarios.csv",
+          "sha256": "d82978242b3d711ff897a78b365519e28eb1eddc5adb39ab85869f3f0730913c"
+        },
+        {
+          "name": "LIRF_2022_residuals.csv",
+          "sha256": "6a814e32d72e83d5d39cefd42c47880784a2cda11a4670e98db81014c3cb1dbc"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LIRF",
+      "year": "2023",
+      "rows": 30571,
+      "go_arounds": 53,
+      "raw_reports": 7279,
+      "unique_reports": 7279,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 6,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LIRF&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-06-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "00bb49c757c48db88ff09170589ea65a82a51d726308be9711aea6885dd0e2c3",
+        "downloaded_utc": "2026-10-10T20:52:51.290345+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LIRF_2023_reports.parquet",
+          "sha256": "c54d7c2aab1c228392a0c507906b9f06b38c18e806fc292861f12d02eb00aa65"
+        },
+        {
+          "name": "LIRF_2023_features.parquet",
+          "sha256": "2e3f8b73a0b809f22704c7569e056f7b82f0dcdd78d760376bf849adbf458797"
+        },
+        {
+          "name": "LIRF_2023_scenarios.csv",
+          "sha256": "fa9e7b86875c610e3c6e57810d00e25535b4e62868233280053be64d063e7f26"
+        },
+        {
+          "name": "LIRF_2023_residuals.csv",
+          "sha256": "6e443adef910c727241ef1f2a350ffd2b1b4919b138b008b99585ac4d30f39d0"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LOWW",
+      "year": "2019",
+      "rows": 102830,
+      "go_arounds": 335,
+      "raw_reports": 17550,
+      "unique_reports": 17550,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 30,
+      "core_failed_reports": 30,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LOWW&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "292733f0ab56b3c824ec62e841cff5e7e31629e4216d0053ce9f5ec4a186b483",
+        "downloaded_utc": "2026-10-10T20:52:57.615450+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LOWW_2019_reports.parquet",
+          "sha256": "32f507a3806effd679dcc75dc659dc1d29cf4715815d127db1baf141cda37af5"
+        },
+        {
+          "name": "LOWW_2019_features.parquet",
+          "sha256": "a77072d0494ddaa55a7c0d69b1abf9e59178653378b1fe4effd50e48420382db"
+        },
+        {
+          "name": "LOWW_2019_scenarios.csv",
+          "sha256": "0341a69dc5119adad016d5d581dfdff9d2d7b3c2b224a53de80ff30088d678c7"
+        },
+        {
+          "name": "LOWW_2019_residuals.csv",
+          "sha256": "5335debce9f017b1af621710e7a42e2c9ed38c98cb9b5fd98094ff50be085a04"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LOWW",
+      "year": "2020",
+      "rows": 38551,
+      "go_arounds": 176,
+      "raw_reports": 17606,
+      "unique_reports": 17606,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 69,
+      "core_failed_reports": 69,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LOWW&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "4e105a93dfe442ab71b808a88d21010cb5cb46785a9ca2794a303a1e00324265",
+        "downloaded_utc": "2026-10-10T20:53:07.461401+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LOWW_2020_reports.parquet",
+          "sha256": "88248bce2637395fa66980c056b9ad10b2dac1e3da58f8776e473f289b97584f"
+        },
+        {
+          "name": "LOWW_2020_features.parquet",
+          "sha256": "79ad14978bf972eb511d73814e68dff14caaf8f091bd85d5785c57fd852f1fc1"
+        },
+        {
+          "name": "LOWW_2020_scenarios.csv",
+          "sha256": "fd2db32d20399494be7eee0d2a6e2a9f4c84c7e8ac85d7c366c23aa4d51d1ec9"
+        },
+        {
+          "name": "LOWW_2020_residuals.csv",
+          "sha256": "b4fd6288309cb0f9bfe9eadef76473cac298b83756ee988159e57881f53c39ff"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LOWW",
+      "year": "2021",
+      "rows": 49106,
+      "go_arounds": 174,
+      "raw_reports": 17542,
+      "unique_reports": 17542,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 24,
+      "core_failed_reports": 24,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LOWW&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "f0e0825ecc9c97da2c9bafb87304b4332afcbd87532c66c2f8f6ef3b3b825861",
+        "downloaded_utc": "2026-10-10T20:53:16.356093+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LOWW_2021_reports.parquet",
+          "sha256": "ff9018f23b6d7a9c79513359c468cf47390b82f0310ab2bbbc3e067ad7c7f697"
+        },
+        {
+          "name": "LOWW_2021_features.parquet",
+          "sha256": "c3312f08be1b94dcbcfaf25c1043504faeca4215b2d49b1b4f8108d1c3e0bb36"
+        },
+        {
+          "name": "LOWW_2021_scenarios.csv",
+          "sha256": "cd96d078de095beeeda815113a2eb3357c42534e677216d5c41a823c28013b4a"
+        },
+        {
+          "name": "LOWW_2021_residuals.csv",
+          "sha256": "fed8ff38fedcc2201f513fd23536c2045530933004518ac95589c5e6a3cee1bf"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LOWW",
+      "year": "2022",
+      "rows": 72226,
+      "go_arounds": 233,
+      "raw_reports": 17557,
+      "unique_reports": 17557,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 0,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LOWW&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "8e51dfb81152aaaef53609d8e49e7944e3e09846de6670370b7b6c07ae22893c",
+        "downloaded_utc": "2026-10-10T20:53:25.479882+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LOWW_2022_reports.parquet",
+          "sha256": "1cb0625d9e85b434361800c54e5222b7abad082a48a8df149f41d9a8c0117ea8"
+        },
+        {
+          "name": "LOWW_2022_features.parquet",
+          "sha256": "02c7b5121f6e6c981e787c8d54f59916237129e934cbe562d3ec74a59132d039"
+        },
+        {
+          "name": "LOWW_2022_scenarios.csv",
+          "sha256": "9b23b69ffb18117ebf7cc5e11aa0a04075fe33fb113019e6e44f10bd9d7af022"
+        },
+        {
+          "name": "LOWW_2022_residuals.csv",
+          "sha256": "79bb1700b348d8ab95253ae70b432a2e418aae8d850996f4f069fbcfd3ad0bd1"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LOWW",
+      "year": "2023",
+      "rows": 30865,
+      "go_arounds": 103,
+      "raw_reports": 7293,
+      "unique_reports": 7293,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 0,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LOWW&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-06-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "9a0c92fbc7b7074dc968951e554099c60e8bf12a93c913fbf4f97b29955847c4",
+        "downloaded_utc": "2026-10-10T20:53:34.200205+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LOWW_2023_reports.parquet",
+          "sha256": "973b4fbce9a269c65d62e8e82efa950df544b1aac05d7309bb4d5edc85fcbbdb"
+        },
+        {
+          "name": "LOWW_2023_features.parquet",
+          "sha256": "1992208f6701fb69a753083d030919f06744bd5e51994217e1e665c09c7dee55"
+        },
+        {
+          "name": "LOWW_2023_scenarios.csv",
+          "sha256": "f1a60a4347dfedb42b8fb7d15effa1415dabe374f7d608222ae04eb4beef7090"
+        },
+        {
+          "name": "LOWW_2023_residuals.csv",
+          "sha256": "79bb1700b348d8ab95253ae70b432a2e418aae8d850996f4f069fbcfd3ad0bd1"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LSGG",
+      "year": "2019",
+      "rows": 68810,
+      "go_arounds": 154,
+      "raw_reports": 17563,
+      "unique_reports": 17563,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 2,
+      "core_failed_reports": 2,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LSGG&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "662881fc76f0e3f32abf4bf1b01273fd331e4b5f039f1674a78cf35be8ebd735",
+        "downloaded_utc": "2026-10-10T20:53:40.638577+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LSGG_2019_reports.parquet",
+          "sha256": "add462412502d1cd77ae194ce66705d8c91d8d95bf69f7f3b7be6c30b50e6305"
+        },
+        {
+          "name": "LSGG_2019_features.parquet",
+          "sha256": "e48dfb752207a5d7f873d649815a0ad0648bd1a19cff045afd0b30bf813b3be9"
+        },
+        {
+          "name": "LSGG_2019_scenarios.csv",
+          "sha256": "30dbd80740388db6871f28bb0990e8294480a8e82b18fb8e9b4b4da884fded11"
+        },
+        {
+          "name": "LSGG_2019_residuals.csv",
+          "sha256": "73179dc211b6ff3694c379e020c5b07379d50fd94eddc8597bd139fe85442aef"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LSGG",
+      "year": "2020",
+      "rows": 30391,
+      "go_arounds": 81,
+      "raw_reports": 17609,
+      "unique_reports": 17609,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 3,
+      "core_failed_reports": 2,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LSGG&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "fbc4c0ad161f6516199e94f5d2cad73b98f2c12558592fb78cdaf09dfc45daca",
+        "downloaded_utc": "2026-10-10T20:53:49.713854+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LSGG_2020_reports.parquet",
+          "sha256": "74e5954a52501f6523af42c32bd07e673c430fc6923e2cb9328d8388562e051c"
+        },
+        {
+          "name": "LSGG_2020_features.parquet",
+          "sha256": "245dd28310d62185662bdf1a5863e458467a9a514faf078d1645f1240043741a"
+        },
+        {
+          "name": "LSGG_2020_scenarios.csv",
+          "sha256": "76ba40ecc89f7944f210f54436bae4251c99be222ef8327e7be0caa127781095"
+        },
+        {
+          "name": "LSGG_2020_residuals.csv",
+          "sha256": "7ae16f3ba000932321e5d4bd92ffa5a62cd1fd5fa5ca4efc7b274d4f1a7004dc"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LSGG",
+      "year": "2021",
+      "rows": 34183,
+      "go_arounds": 84,
+      "raw_reports": 17567,
+      "unique_reports": 17567,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 18,
+      "core_failed_reports": 1,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LSGG&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "64d0163a9f48f95bdf492a4f2a8c31f8c51e95db74a84b67b79409797e97c011",
+        "downloaded_utc": "2026-10-10T20:53:58.233511+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LSGG_2021_reports.parquet",
+          "sha256": "37732e9cbb0f16caadb26f4e96242ede33c5dbd255efd708e617268968723528"
+        },
+        {
+          "name": "LSGG_2021_features.parquet",
+          "sha256": "f69d3459160749105dcce3689bf759d35bc1989a7688daad3492902e08f53b31"
+        },
+        {
+          "name": "LSGG_2021_scenarios.csv",
+          "sha256": "09ae47c0e3da91fa00dd25d7dc75be67b5f79729dbeec316eba4c69e310b6a40"
+        },
+        {
+          "name": "LSGG_2021_residuals.csv",
+          "sha256": "b3da775057cc287ca54a373be9b5757c24efa14f5dde56457d06787187aa186b"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LSGG",
+      "year": "2022",
+      "rows": 48687,
+      "go_arounds": 141,
+      "raw_reports": 17562,
+      "unique_reports": 17562,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 2,
+      "core_failed_reports": 2,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LSGG&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "e36602a75ea6f29fd1f9b0b47bf465d57ff71770629a8b0e6ade07a3107695d6",
+        "downloaded_utc": "2026-10-10T20:54:06.644075+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LSGG_2022_reports.parquet",
+          "sha256": "a64b4a306918841661f6291caedc0318cc9c2c6343c4261b24dd78163c00f5b3"
+        },
+        {
+          "name": "LSGG_2022_features.parquet",
+          "sha256": "7d07b0dea35dbcb3962be826d813323751c312a26cbbe00b092717b89c198c2b"
+        },
+        {
+          "name": "LSGG_2022_scenarios.csv",
+          "sha256": "7c17d7246af46fcac9688d675c5264e7ea643db3a25eb876f16c3d37ee0aeac8"
+        },
+        {
+          "name": "LSGG_2022_residuals.csv",
+          "sha256": "483b5d94836433245597dd2d0a957f4fde43f298448e37c4d2182aab071e3b96"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LSGG",
+      "year": "2023",
+      "rows": 23301,
+      "go_arounds": 68,
+      "raw_reports": 7291,
+      "unique_reports": 7291,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 1,
+      "core_failed_reports": 1,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LSGG&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-06-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "786c49e7588a37d99d6290dce186245718cb1a9f4ab1052d25f570fbc2dcc432",
+        "downloaded_utc": "2026-10-10T20:54:14.596004+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LSGG_2023_reports.parquet",
+          "sha256": "002e5f219ec9570b0e8bbfd8cd8fadd9bdd81c7fc219fa568a6f4feba5c2d46a"
+        },
+        {
+          "name": "LSGG_2023_features.parquet",
+          "sha256": "d22bcec3b9d2ba02723b1679f05dd3c66822de1b0af9a7dfc130cb967677b84c"
+        },
+        {
+          "name": "LSGG_2023_scenarios.csv",
+          "sha256": "8c873f9002371b5f8480c08dbfc16e202499beaad972da972297636190cbad45"
+        },
+        {
+          "name": "LSGG_2023_residuals.csv",
+          "sha256": "e31e4b50a36f24659da5bf59db9da5805e947af8074efb67bd2b8103aa8be439"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LSZH",
+      "year": "2019",
+      "rows": 110036,
+      "go_arounds": 366,
+      "raw_reports": 17194,
+      "unique_reports": 17194,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 0,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LSZH&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2020-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "aa1b4e753fc5196fc72237ef763088580843809325aff40c28e05d1f69cdb7da",
+        "downloaded_utc": "2026-10-10T20:54:20.309702+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LSZH_2019_reports.parquet",
+          "sha256": "9ed7905e04a2d9b1516aacc6466365ae12c7d31be48fcfdde20f5a5866a879b8"
+        },
+        {
+          "name": "LSZH_2019_features.parquet",
+          "sha256": "32ce0ef5e2beb274fa26b057dae241f150afdb9d18123b432186e7893c8c351b"
+        },
+        {
+          "name": "LSZH_2019_scenarios.csv",
+          "sha256": "f444bb1adb3b631d965c2a3e0c75f5646a31c679fee5aa86a22261039baad48b"
+        },
+        {
+          "name": "LSZH_2019_residuals.csv",
+          "sha256": "79bb1700b348d8ab95253ae70b432a2e418aae8d850996f4f069fbcfd3ad0bd1"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LSZH",
+      "year": "2020",
+      "rows": 43458,
+      "go_arounds": 190,
+      "raw_reports": 17238,
+      "unique_reports": 17238,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 9,
+      "core_failed_reports": 1,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LSZH&data=metar&sts=2019-12-31T00%3A00%3A00%2B00%3A00&ets=2021-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "1a7e3e78b2c352f7b83ce246e990bd07b7e6a139de6a65f16d2358bcb0e7e410",
+        "downloaded_utc": "2026-10-10T20:54:30.425166+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LSZH_2020_reports.parquet",
+          "sha256": "171c25a5256a800679fa41b2cb1a1891bf3fe2e6d9fbe745d3c5ebdac5143b53"
+        },
+        {
+          "name": "LSZH_2020_features.parquet",
+          "sha256": "42bd5801b14341a666d1845abd06f885b67d6337ba99fedf12c4535198a3be2e"
+        },
+        {
+          "name": "LSZH_2020_scenarios.csv",
+          "sha256": "5e790228ed3bd4edb1cd124a841fe73af6de95698d40015a41da59a4cf9528e7"
+        },
+        {
+          "name": "LSZH_2020_residuals.csv",
+          "sha256": "0516bb6a0eb02ad4e2334e72531cc70b514f8fdfa9182061c9832d9934c07592"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LSZH",
+      "year": "2021",
+      "rows": 51260,
+      "go_arounds": 175,
+      "raw_reports": 17466,
+      "unique_reports": 17466,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 53,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LSZH&data=metar&sts=2020-12-31T00%3A00%3A00%2B00%3A00&ets=2022-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "e7f4236a6afbb98c4b3bf259fc3420bff41b82a416b4c2f58c9c907ed335236f",
+        "downloaded_utc": "2026-10-10T20:54:38.853702+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LSZH_2021_reports.parquet",
+          "sha256": "3604ec2ba1b5cd1d35560aa3e3c16f4de39417f71b077f4b9a2596408dc4dd8d"
+        },
+        {
+          "name": "LSZH_2021_features.parquet",
+          "sha256": "f12aac2d92c306b25d6f67ad283f396924d1fec403aa6b4aafefe7846e0a6e2d"
+        },
+        {
+          "name": "LSZH_2021_scenarios.csv",
+          "sha256": "d2d8940be17e8248f75a1ccce4afdb0b45324d9b339be89a07fdeb03064dbcfd"
+        },
+        {
+          "name": "LSZH_2021_residuals.csv",
+          "sha256": "e202d80be3192151fd10dcda6388db3e00926ef80ccbfcce03f736dcb85ace50"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LSZH",
+      "year": "2022",
+      "rows": 78758,
+      "go_arounds": 282,
+      "raw_reports": 17557,
+      "unique_reports": 17557,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 3,
+      "core_failed_reports": 3,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LSZH&data=metar&sts=2021-12-31T00%3A00%3A00%2B00%3A00&ets=2023-01-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "a130ef8272f7b90df744a0ebf97adcd29bb22f95e42bd70b55b9dfc3610e16bb",
+        "downloaded_utc": "2026-10-10T20:54:47.661585+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LSZH_2022_reports.parquet",
+          "sha256": "fabeb5632c6e8fb382436e30b56a04b87c57e717cc69b301fe81d292e42796d7"
+        },
+        {
+          "name": "LSZH_2022_features.parquet",
+          "sha256": "52255c97bc284140d95ba5799157677b45d499e46bd5809dda203400b61f96ea"
+        },
+        {
+          "name": "LSZH_2022_scenarios.csv",
+          "sha256": "f1ca517e247f2e9c713826d2bccdc50210b0793a065164733df24341137d113d"
+        },
+        {
+          "name": "LSZH_2022_residuals.csv",
+          "sha256": "ad419076144c0842f2302794de8222f191e982d8386f6f386e15c39fc38f51a4"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    },
+    {
+      "airport": "LSZH",
+      "year": "2023",
+      "rows": 33461,
+      "go_arounds": 131,
+      "raw_reports": 7294,
+      "unique_reports": 7294,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "residual_reports": 0,
+      "core_failed_reports": 0,
+      "source": {
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LSZH&data=metar&sts=2022-12-31T00%3A00%3A00%2B00%3A00&ets=2023-06-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+        "sha256": "8b43f3aaa6d6597839ca57a5547eb1b3e35841bcca03370b8ecda2a9a18aad21",
+        "downloaded_utc": "2026-10-10T20:54:56.342094+00:00"
+      },
+      "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+      "implementation": {
+        "decoder": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+        "core_audit": "1b8c5f83edb1f913f5909fbac1f4dda24b8ccfbf656c3a056963f97975b3c206",
+        "pipeline": "3ef88cadbf47c908b72d9b94de963a29d587da8625f0873be7b9b2f8651e9ccd"
+      },
+      "files": [
+        {
+          "name": "LSZH_2023_reports.parquet",
+          "sha256": "fdd84f98592034a46a0e07094352496de3cca3de24faa3f5089896f905316428"
+        },
+        {
+          "name": "LSZH_2023_features.parquet",
+          "sha256": "9f03c1e76e13b2dc43d3fd5e0b6c820ae84eaba3c49fb4913e3a9ecfd2f76656"
+        },
+        {
+          "name": "LSZH_2023_scenarios.csv",
+          "sha256": "568d1b4d6f77a8bcf04d6982a7fdaa0bfacbc36f9fbf47d32f7b580a219f9c77"
+        },
+        {
+          "name": "LSZH_2023_residuals.csv",
+          "sha256": "79bb1700b348d8ab95253ae70b432a2e418aae8d850996f4f069fbcfd3ad0bd1"
+        }
+      ],
+      "pilot_snapshot_comparison": []
+    }
+  ],
+  "complete": true,
+  "input_unchanged": true,
+  "rows_deleted": 0,
+  "training_executed": false
+}
