@@ -10,8 +10,14 @@ import requests
 from audit_pilot_input import ROOT, BASE, INPUT, digest
 
 
-def main():
+def main(expansion=False):
     audit = json.loads((BASE / 'reports/01_input_audit.json').read_text(encoding='utf8'))
+    prefix = '08' if expansion else '03'
+    if expansion:
+        protocol = json.loads((BASE / 'reports/07_expansion_protocol.json').read_text(encoding='utf8'))
+        assert protocol['input_sha256'] == audit['input_sha256']
+        assert protocol['status'] == 'protocol_frozen_before_new_metar_download'
+        audit['selected_airports'] = protocol['selected_airports']
     assert digest(INPUT) == audit['input_sha256']
     frames = []
     offset = 0
@@ -25,6 +31,10 @@ def main():
                                 & month.isin(['2019-01', '2019-07'])].copy())
     events = pd.concat(frames, ignore_index=True)
     assert events.source_row.is_unique
+    if expansion:
+        actual = events.assign(month=events.C40_CROSS_TIME.dt.strftime('%Y-%m')).groupby(
+            ['airport','month']).agg(rows=('GoA','size'),go_arounds=('GoA','sum')).reset_index()
+        pd.testing.assert_frame_equal(actual,pd.DataFrame(protocol['groups']),check_dtype=False)
     rawdir = BASE / 'data/raw'
     rawdir.mkdir(parents=True, exist_ok=True)
     manifests, outputs = [], []
@@ -95,14 +105,14 @@ def main():
                 max_age_minutes=age, rows=len(part), covered=int(covered.sum()),
                 coverage_percent=100*covered.mean(), ambiguous=int(part.ambiguous.eq(True).sum()),
                 correction_matches=int((covered & part.correction.eq(True)).sum())))
-    result.to_parquet(BASE / 'data/03_pilot_matches.parquet', index=False)
-    pd.DataFrame(summaries).to_csv(BASE / 'reports/03_coverage.csv', index=False)
+    result.to_parquet(BASE / f'data/{prefix}_pilot_matches.parquet', index=False)
+    pd.DataFrame(summaries).to_csv(BASE / f'reports/{prefix}_coverage.csv', index=False)
     assert digest(INPUT) == audit['input_sha256']
     journal = dict(input_sha256=audit['input_sha256'], input_unchanged=True, rows=len(result),
         go_arounds=int(result.GoA.sum()), downloads=manifests, availability_verified=False,
         matching='strictly previous observation; 60 min primary; ambiguous texts rejected',
         checked_utc=datetime.now(timezone.utc).isoformat(), rows_deleted=0)
-    (BASE / 'reports/03_pilot_manifest.json').write_text(
+    (BASE / f'reports/{prefix}_pilot_manifest.json').write_text(
         json.dumps(journal, ensure_ascii=False, indent=2)+'\n', encoding='utf8')
     print(pd.DataFrame(summaries).query('max_age_minutes == 60').to_string(index=False))
 

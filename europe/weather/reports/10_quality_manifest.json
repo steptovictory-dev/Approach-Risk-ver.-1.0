@@ -1,0 +1,13 @@
+{
+  "rows": 171125,
+  "go_arounds": 508,
+  "reports": 18439,
+  "residual_reports": 12,
+  "core_validated_residual_reports": 11,
+  "aged_expansion_rows": 14,
+  "rows_deleted": 0,
+  "input_unchanged": true,
+  "previous_files_unchanged": true,
+  "availability_verified": false,
+  "training_executed": false
+}

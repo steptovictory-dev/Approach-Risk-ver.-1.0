@@ -61,7 +61,15 @@ def main():
         months=['2019-01','2019-07'],groups=groups.to_dict('records'),
         station_metadata=metadata,metar_download_executed=False,training_executed=False,
         input_unchanged=True)
-    (BASE/'reports/07_expansion_protocol.json').write_text(json.dumps(protocol,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+    protocol_path=BASE/'reports/07_expansion_protocol.json'
+    if protocol_path.exists():
+        frozen=json.loads(protocol_path.read_text(encoding='utf8'))
+        for key in ['input_sha256','selected_airports','months','groups','station_metadata']:
+            assert frozen[key]==protocol[key], f'Изменение зафиксированного протокола: {key}'
+        # Повторное выполнение не меняет дату фиксации исходного дизайна.
+    else:
+        assert not (BASE/'reports/08_pilot_manifest.json').exists(), 'Нельзя фиксировать протокол после загрузки'
+        protocol_path.write_text(json.dumps(protocol,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     build_notebook()
 
 def build_notebook():

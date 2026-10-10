@@ -1,0 +1,18 @@
+{
+  "rows": 94384,
+  "go_arounds": 201,
+  "raw_reports": 9216,
+  "unique_reports": 9216,
+  "reports_with_issues": 2,
+  "matched_residual_rows": 22,
+  "matched_residual_go_arounds": 0,
+  "candidates": 94348,
+  "candidate_go_arounds": 201,
+  "candidates_without_cor": 94348,
+  "candidate_go_arounds_without_cor": 201,
+  "input_unchanged": true,
+  "previous_pilot_unchanged": true,
+  "rows_deleted": 0,
+  "availability_verified": false,
+  "decoder_sha256": "fd0924408aba7db677231ec88dc485324777154bbcf008a32aad75cf92aa8c2d"
+}

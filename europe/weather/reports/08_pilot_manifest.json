@@ -1,0 +1,78 @@
+{
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "input_unchanged": true,
+  "rows": 94384,
+  "go_arounds": 201,
+  "downloads": [
+    {
+      "airport": "EDDF",
+      "month": "2019-01",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDF&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2019-02-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+      "sha256": "b11362d224ab269e0c06ee069930ed51a02d1754dbbc7b994364fe59e550614d",
+      "downloaded_utc": "2026-10-10T20:19:38.230263+00:00",
+      "raw_reports": 1535,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "correction_reports": 0
+    },
+    {
+      "airport": "EDDF",
+      "month": "2019-07",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EDDF&data=metar&sts=2019-06-30T00%3A00%3A00%2B00%3A00&ets=2019-08-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+      "sha256": "9014985b97182891ba288a68cc940748aea803e6ebb216193bb125c0f0281bf5",
+      "downloaded_utc": "2026-10-10T20:19:40.478352+00:00",
+      "raw_reports": 1536,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "correction_reports": 0
+    },
+    {
+      "airport": "EHAM",
+      "month": "2019-01",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EHAM&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2019-02-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+      "sha256": "664718268b295ba20a9ec5f749b1c2177e1b77699acbe16234623eb3b40417f0",
+      "downloaded_utc": "2026-10-10T20:19:42.791255+00:00",
+      "raw_reports": 1534,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "correction_reports": 0
+    },
+    {
+      "airport": "EHAM",
+      "month": "2019-07",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EHAM&data=metar&sts=2019-06-30T00%3A00%3A00%2B00%3A00&ets=2019-08-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+      "sha256": "59934663b12be6d231956393681714d7052a5abb6e70a440872dc3643929b526",
+      "downloaded_utc": "2026-10-10T20:19:45.058962+00:00",
+      "raw_reports": 1535,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "correction_reports": 0
+    },
+    {
+      "airport": "LEMD",
+      "month": "2019-01",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LEMD&data=metar&sts=2018-12-31T00%3A00%3A00%2B00%3A00&ets=2019-02-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+      "sha256": "85a67534626d46b5cca88361eeb1e6819e41d4a4284a4a6ef10d0262ca88aa89",
+      "downloaded_utc": "2026-10-10T20:19:47.888643+00:00",
+      "raw_reports": 1536,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "correction_reports": 0
+    },
+    {
+      "airport": "LEMD",
+      "month": "2019-07",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LEMD&data=metar&sts=2019-06-30T00%3A00%3A00%2B00%3A00&ets=2019-08-01T00%3A00%3A00%2B00%3A00&tz=Etc%2FUTC&format=onlycomma&report_type=3&report_type=4&direct=no",
+      "sha256": "38f0554fc17d3432c20c39e473cf0b8c19d4fcb84a026db31eccfc21ae190637",
+      "downloaded_utc": "2026-10-10T20:19:50.205103+00:00",
+      "raw_reports": 1540,
+      "identical_duplicates": 0,
+      "ambiguous_times": 0,
+      "correction_reports": 0
+    }
+  ],
+  "availability_verified": false,
+  "matching": "strictly previous observation; 60 min primary; ambiguous texts rejected",
+  "checked_utc": "2026-10-10T20:19:51.749001+00:00",
+  "rows_deleted": 0
+}
