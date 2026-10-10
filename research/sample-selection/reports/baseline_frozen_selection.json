@@ -1,0 +1,21 @@
+{
+  "signature": "0aa09258c0ce451af9216f9b910c03f2d08b2231fccde096fb85f0c9b911b9ac",
+  "chosen": {
+    "geometry": {
+      "C": 0.01,
+      "validation_AP": 0.0037315399258409294,
+      "threshold": 0.0033228162658535385,
+      "validation_F1": 0.007987271571805435
+    },
+    "geometry_aircraft": {
+      "C": 0.1,
+      "validation_AP": 0.004143784066095269,
+      "threshold": 0.004727519408348664,
+      "validation_F1": 0.010109519797809604
+    }
+  },
+  "constant_probability": 0.0027917865054681097,
+  "constant_threshold": 0.0027917865054681097,
+  "selection_split": "validation",
+  "test_used_for_selection": false
+}

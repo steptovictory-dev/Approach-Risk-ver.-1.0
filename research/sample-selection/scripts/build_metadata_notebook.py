@@ -26,7 +26,7 @@ OpenSky / EUROCONTROL и поля market_segment, AC_CLASS. Она не уста
 финале не доказывает механизм ошибки или изменение системы EUROCONTROL.''')
 code('''from pathlib import Path
 from collections import Counter
-import hashlib,json
+import os,hashlib,json
 import numpy as np
 import pandas as pd
 import pyarrow.parquet as pq
@@ -37,7 +37,7 @@ ROOT=Path.cwd().resolve()
 while not (ROOT/'reports/verification.json').exists():
     if ROOT==ROOT.parent: raise FileNotFoundError('Нет отчета A')
     ROOT=ROOT.parent
-R=ROOT/'reports'; F=ROOT/'figures'; PROJECT=ROOT.parents[1]
+R=ROOT/'reports'; F=ROOT/'figures'; PROJECT=Path(os.environ.get('SAMPLE_SELECTION_DATA_ROOT',ROOT.parents[1]))
 manifest=json.loads((R/'verification.json').read_text(encoding='utf-8'))
 FIELDS=['typecode','icaoaircrafttype','market_segment','AC_CLASS']
 plt.rcParams.update({'figure.dpi':120,'font.size':11,'axes.spines.top':False,

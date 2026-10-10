@@ -28,7 +28,7 @@ md('''# Эксперимент B: что известно на момент C40
 Поля C40 получены из коррелированных позиций EUROCONTROL; ретроспективное
 соединение источников само по себе не устанавливает задержку доступности.''')
 code('''from pathlib import Path
-import hashlib, json
+import os,hashlib, json
 import numpy as np
 import pandas as pd
 import pyarrow.parquet as pq
@@ -44,7 +44,7 @@ while not (ROOT/'reports/verification.json').exists():
 R=ROOT/'reports'; F=ROOT/'figures'
 manifest=json.loads((R/'verification.json').read_text(encoding='utf-8'))
 entry=next(x for x in manifest['inputs'] if x['stage']=='final')
-PROJECT=ROOT.parents[1]
+PROJECT=Path(os.environ.get('SAMPLE_SELECTION_DATA_ROOT',ROOT.parents[1]))
 DATA=PROJECT/entry['file'].replace(chr(92),'/')
 # Для отдельного репозитория положите финальный parquet в data/ или задайте путь.
 if not DATA.exists(): DATA=ROOT/'data/06_05_cases_excluded.parquet'

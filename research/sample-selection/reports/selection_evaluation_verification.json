@@ -1,0 +1,27 @@
+{
+  "source_sha256": "1160bdbea6fa93249a00768452be64047c6d2461bb0843d5ecfc52e6942c7f02",
+  "final_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "prediction_sha256": "2adefba0e3ba23d0bcf6132c89ddbaae167f0c4b29cd7f9f388277181cefd74f",
+  "selection_sha256": "21ba3cb389315d1f3e663fc8c75fbcc34031042231ab73d56831f644009b1ae4",
+  "period_start": "2023-01-01 00:00:00+00:00",
+  "period_end_exclusive": "2023-06-01 00:00:00+00:00",
+  "status": "exploratory_after_test_inspection",
+  "source_rows": 792225,
+  "source_goa": 2810,
+  "scored_rows": 546577,
+  "scored_goa": 1739,
+  "exact_join_passed": true,
+  "group_balances_passed": true,
+  "coverage_identity_passed": true,
+  "baseline_metrics_match": true,
+  "attempt_order_audit": {
+    "rows": 7984254,
+    "unsorted_lists": 0,
+    "first_not_minimum": 0
+  },
+  "inputs_unchanged": true,
+  "predictions_unchanged": true,
+  "thresholds_unchanged": true,
+  "retraining_performed": false,
+  "source_model_AP_identified": false
+}

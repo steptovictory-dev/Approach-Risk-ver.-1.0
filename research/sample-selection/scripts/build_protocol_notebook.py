@@ -38,7 +38,7 @@ md('''# Признаки и разделение по времени
 Текущая таблица дает время событий, но не время публикации метки: проверка
 landing / attempts не доказывает, что метка действительно была получена к cutoff.''')
 code('''from pathlib import Path
-import hashlib,json
+import os,hashlib,json
 import numpy as np
 import pandas as pd
 import pyarrow as pa
@@ -52,7 +52,7 @@ while not (ROOT/'reports/verification.json').exists():
 R=ROOT/'reports'; F=ROOT/'figures'; LOCAL=ROOT/'data'; LOCAL.mkdir(exist_ok=True)
 manifest=json.loads((R/'verification.json').read_text(encoding='utf-8'))
 entry=next(x for x in manifest['inputs'] if x['stage']=='final')
-DATA=ROOT.parents[1]/entry['file'].replace(chr(92),'/')
+DATA=Path(os.environ.get('SAMPLE_SELECTION_DATA_ROOT',ROOT.parents[1]))/entry['file'].replace(chr(92),'/')
 if not DATA.exists(): DATA=LOCAL/'06_05_cases_excluded.parquet'
 def sha(path):
     h=hashlib.sha256()

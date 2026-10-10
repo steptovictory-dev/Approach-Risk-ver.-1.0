@@ -1,0 +1,9 @@
+GoA,alert_overlap,rows
+False,aircraft_only,1484
+False,both,8016
+False,geometry_only,179332
+False,neither,356006
+True,aircraft_only,6
+True,both,29
+True,geometry_only,739
+True,neither,965

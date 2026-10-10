@@ -1,0 +1,25 @@
+{
+  "status": "exploratory_after_test_inspection",
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "prediction_sha256": "2adefba0e3ba23d0bcf6132c89ddbaae167f0c4b29cd7f9f388277181cefd74f",
+  "selection_sha256": "21ba3cb389315d1f3e663fc8c75fbcc34031042231ab73d56831f644009b1ae4",
+  "models_unchanged": true,
+  "inputs_unchanged": true,
+  "retraining_performed": false,
+  "coefficient_replay_passed": true,
+  "airport_prior_fit_split": "train",
+  "budget_selection_split": "validation",
+  "budget_selection_uses_labels": false,
+  "test_ranking_is_retrospective": true,
+  "weighted_metric_parity_passed": true,
+  "bootstrap_replicates_per_length": 1000,
+  "block_lengths_weeks": [
+    1,
+    2,
+    4
+  ],
+  "test_prediction_maximum_error": {
+    "geometry": 7.806255641895632e-18,
+    "geometry_aircraft": 2.0816681711721685e-17
+  }
+}

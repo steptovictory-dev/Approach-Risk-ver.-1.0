@@ -1,0 +1,4 @@
+split,rows,columns,nnz
+train,4161493,380,33291939
+validation,1619847,380,12958774
+test,546577,380,4372614

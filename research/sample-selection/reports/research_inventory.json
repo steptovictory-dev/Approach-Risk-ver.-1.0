@@ -1,0 +1,1267 @@
+{
+  "scope": "public research files; local data and checkpoints are separate",
+  "local_data_files": 15,
+  "local_checkpoint_files": 11,
+  "inventory": [
+    {
+      "file": ".gitignore",
+      "bytes": 75,
+      "sha256": "468177f359f7f820ea2f7ca9128a1711f8e071106e403538cd61939ffae50d93"
+    },
+    {
+      "file": "DATA_REQUIREMENTS.md",
+      "bytes": 19839,
+      "sha256": "6dbcf8eab53c43cc8143336aff2c4bf206adf8fe4f09a701ced1a85e5ec33f9b"
+    },
+    {
+      "file": "README.md",
+      "bytes": 18358,
+      "sha256": "0e116a2fb76a21949fc04da17ce1967df05eca56b515fdb3204d8e694aa19f88"
+    },
+    {
+      "file": "requirements-lock.txt",
+      "bytes": 247,
+      "sha256": "82fe927a21d6f99fc206bd805aa45db9c047aad5fbb7103b0b24f54188b1817e"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 155,
+      "sha256": "e3adb95c9aec4f777e41879ab0f25a73363297683bb3d25b4207db3673710e8a"
+    },
+    {
+      "file": "scripts/build_baseline_notebook.py",
+      "bytes": 27874,
+      "sha256": "8c7dfbc85af839bfa75a03bdb57af80f16da736d3302b587c07dd212cf1bceaa"
+    },
+    {
+      "file": "scripts/build_comparison_notebook.py",
+      "bytes": 18465,
+      "sha256": "86d56bb4a2e81ef28fd928b364528a33829c3adc887226b56277dab3f3cd4816"
+    },
+    {
+      "file": "scripts/build_error_notebook.py",
+      "bytes": 16537,
+      "sha256": "8644f132c4982190f6b27adab41858aec8860751bd63981427cb1847d8c62f9b"
+    },
+    {
+      "file": "scripts/build_group_notebook.py",
+      "bytes": 12164,
+      "sha256": "8b0951bda6681a496d103b9e2603aef3832f860f73fa6a74f896b4c2a0c297f3"
+    },
+    {
+      "file": "scripts/build_metadata_notebook.py",
+      "bytes": 13920,
+      "sha256": "a581ba83cee0f3aebcc0403782be5153fbad56f4bc54c716508fd2d0df488b2d"
+    },
+    {
+      "file": "scripts/build_notebook.py",
+      "bytes": 25789,
+      "sha256": "910bcf79ae132669e698e56d1563ed174c958a812ad1c19502446d12745d13a3"
+    },
+    {
+      "file": "scripts/build_preparation_notebook.py",
+      "bytes": 20819,
+      "sha256": "5f9ab1e19b933b087bc91b68c182077f221e2eaf255515da2e6ef2034a1f31f5"
+    },
+    {
+      "file": "scripts/build_protocol_notebook.py",
+      "bytes": 19199,
+      "sha256": "b9a5a77ba8f9094b1241da658483ce8d05111aa2132a1f09f187b8514f1586e6"
+    },
+    {
+      "file": "scripts/build_results_notebook.py",
+      "bytes": 13074,
+      "sha256": "6172dc7cb5e6e87a69b3a157d2b04411c654d2d1d30ee56374f20d383e46347b"
+    },
+    {
+      "file": "scripts/build_selection_evaluation_notebook.py",
+      "bytes": 17908,
+      "sha256": "2177828ba72aaecfee95f51742ac781f7491b417c2f5c62ea8b36e3976e0883f"
+    },
+    {
+      "file": "scripts/build_structure_notebook.py",
+      "bytes": 30082,
+      "sha256": "cc618df6b531c24b2add7936c02dc8a9a0d98e117409b46457d00b8f027b6683"
+    },
+    {
+      "file": "scripts/build_temporal_notebook.py",
+      "bytes": 16823,
+      "sha256": "47add3d0fb6f5106b69e0b0cf125363d4bea4b9b973f196d4e4f9d40cf28914c"
+    },
+    {
+      "file": "scripts/execute_notebook.py",
+      "bytes": 1209,
+      "sha256": "164bb31fbab76dff5e77172af16ed8146e49bf49b4ea6ce2edbab82c3a871452"
+    },
+    {
+      "file": "scripts/refresh_baseline_figures.py",
+      "bytes": 2457,
+      "sha256": "e71c37dd0159321759ae87f0165ffe4a4362ac3bf2df54baa961ada239a68b83"
+    },
+    {
+      "file": "scripts/refresh_preparation_figure.py",
+      "bytes": 2657,
+      "sha256": "07c036c0e70e6112eb9d463e4c366ec3d9a7e999e08c1faa152d464dc310f4c0"
+    },
+    {
+      "file": "scripts/refresh_selection_figures.py",
+      "bytes": 1969,
+      "sha256": "77de7c481cb480309a301065453ea702a5046fa1d5916ceed499c38c7f874b46"
+    },
+    {
+      "file": "scripts/review_artifacts.py",
+      "bytes": 2681,
+      "sha256": "d473f13f40317ee4af26f47b19aa7a680fc2a3aeb6c6e28fd5857124dc95cd98"
+    },
+    {
+      "file": "scripts/update_palette.py",
+      "bytes": 1915,
+      "sha256": "4bc587c203b8d77cd92e61821cbc8f73c70d561db10d579bb065402ba5c071eb"
+    },
+    {
+      "file": "scripts/verify_artifacts.py",
+      "bytes": 14537,
+      "sha256": "99d6627c59a91567c7e2e175866e0d7a8afd7dd9178f864472e29d48d9d1eb21"
+    },
+    {
+      "file": "scripts/verify_external_paths.py",
+      "bytes": 1876,
+      "sha256": "47644f0a9f0585fd37a0b000996188a559340d2c852b76845dc481ac2b61fd43"
+    },
+    {
+      "file": "notebooks/01_selection_effects.ipynb",
+      "bytes": 614375,
+      "sha256": "fd5b3231acbc9c3d2b0b3147194a1352d49bf5bac0fe876dcf6359695b975762"
+    },
+    {
+      "file": "notebooks/02_group_effects.ipynb",
+      "bytes": 273258,
+      "sha256": "b12edd14a70307fd64eac99b97168206d05c89c8a7497e8227d2548430e4b3d1"
+    },
+    {
+      "file": "notebooks/03_selection_structure.ipynb",
+      "bytes": 704025,
+      "sha256": "9ad7ba0d4a519019df249182eb43c5ffa442b7f4baf2492562b170d0dbccc328"
+    },
+    {
+      "file": "notebooks/04_temporal_feature_availability.ipynb",
+      "bytes": 316896,
+      "sha256": "4cc9f45bc6a089ca93023421f6ba4a393ad5599f93c99972d7a49d43c39300b4"
+    },
+    {
+      "file": "notebooks/05_metadata_calendar_audit.ipynb",
+      "bytes": 353589,
+      "sha256": "12db8e0e8df67a6d7557d8d541e68c2dfc5d08af7b67ac6a968c6f22adf299eb"
+    },
+    {
+      "file": "notebooks/06_time_split.ipynb",
+      "bytes": 167424,
+      "sha256": "0227c008168c9360b60fe20d9bebb9d5510649c95226ffdef99c3d0de20c6bcd"
+    },
+    {
+      "file": "notebooks/07_feature_preparation.ipynb",
+      "bytes": 295177,
+      "sha256": "0df12fb98da44dbedbc9d7da68553ec2e2f027cf257ee31ea18198ba5e761574"
+    },
+    {
+      "file": "notebooks/08_baseline.ipynb",
+      "bytes": 369221,
+      "sha256": "2413955567eed94a346c080bdda55a07d98fd1279a0e1ac5f2d8e5e86e1d71e6"
+    },
+    {
+      "file": "notebooks/09_errors.ipynb",
+      "bytes": 389402,
+      "sha256": "ef316a7887eca60f16ae27a5069fba11f1f1f63a687057eca95f55a848ffb319"
+    },
+    {
+      "file": "notebooks/10_selection_evaluation.ipynb",
+      "bytes": 332802,
+      "sha256": "1d1f875768b95d08900f7003572756f66e7f28701246ba986a97c5a7268d0da2"
+    },
+    {
+      "file": "notebooks/11_model_comparison.ipynb",
+      "bytes": 286355,
+      "sha256": "a281f278749bcc943a627a5f3e7fdf32246c24a70b5809d384afae133f1581be"
+    },
+    {
+      "file": "notebooks/12_results.ipynb",
+      "bytes": 74833,
+      "sha256": "05537e8e0653af24b202cc0388aae231f3e21e9ee8616a52ebfee5b7dae63cfa"
+    },
+    {
+      "file": "reports/airports_without_final_coverage.csv",
+      "bytes": 67,
+      "sha256": "55d84d0800bfc45c78d3dc2b3e708f2b2a359741653680097c7798c861f7a849"
+    },
+    {
+      "file": "reports/baseline_airport_metrics.csv",
+      "bytes": 10574,
+      "sha256": "e5a8e50332f9f1d1c5d41e3621ea4276e5e38508ab226dd753b3c4c313dbf542"
+    },
+    {
+      "file": "reports/baseline_bootstrap.csv",
+      "bytes": 221089,
+      "sha256": "6f9178411ccf8377b6accf4a4ad2831939e789f35bd8087e4d1ec56c8385706c"
+    },
+    {
+      "file": "reports/baseline_calibration.csv",
+      "bytes": 1816,
+      "sha256": "1b46b8f5831ff85cff2d5841f071493ae78c87a69b5842c57fd9ed12c3494425"
+    },
+    {
+      "file": "reports/baseline_findings.md",
+      "bytes": 2214,
+      "sha256": "fe9af70b000c198b85e29d85171986d70ed333f838a4e0bb2aec0d87bb823e28"
+    },
+    {
+      "file": "reports/baseline_frozen_selection.json",
+      "bytes": 644,
+      "sha256": "21ba3cb389315d1f3e663fc8c75fbcc34031042231ab73d56831f644009b1ae4"
+    },
+    {
+      "file": "reports/baseline_interpretation.md",
+      "bytes": 3540,
+      "sha256": "06b5ffaf7cf7c0bc101c6704cb0b9411089e16a2bd341882118215167cba9653"
+    },
+    {
+      "file": "reports/baseline_intervals.csv",
+      "bytes": 629,
+      "sha256": "e396a4226ee04b3bb9f6e153ea6190b523a221c9d9ed036870880cd27e3682c6"
+    },
+    {
+      "file": "reports/baseline_matrix_summary.csv",
+      "bytes": 110,
+      "sha256": "7021edf5502516376642ca917969eff7d9f7e156f1bbfae7a4d32a29d160901d"
+    },
+    {
+      "file": "reports/baseline_metrics.csv",
+      "bytes": 1467,
+      "sha256": "03d85e8f5cea28744520d9f4af721fb7cc4f3ca4d0bcfb8b0960ec60d6c6af31"
+    },
+    {
+      "file": "reports/baseline_paired_differences.csv",
+      "bytes": 314,
+      "sha256": "dacd7331e52b5418a74e249ce430504852bfdf04a949673a215652656f9ff68e"
+    },
+    {
+      "file": "reports/baseline_validation_search.csv",
+      "bytes": 805,
+      "sha256": "e5a497b1fb1272ce6c45791f4f59d9a7908c7518a03c0a8987db285bd2e53743"
+    },
+    {
+      "file": "reports/baseline_verification.json",
+      "bytes": 1133,
+      "sha256": "a6e15e2967b79fa78881263ce37b52af8c75ed3304a9757e902f6d9052489a7d"
+    },
+    {
+      "file": "reports/by_airport_all_stages.csv",
+      "bytes": 6109,
+      "sha256": "1f381d8634046553a113a7af64a6d2ec82df53ed3e974d93e6542766135cf9ee"
+    },
+    {
+      "file": "reports/by_market_segment_all_stages.csv",
+      "bytes": 3340,
+      "sha256": "730f484eac639192862e811205b9205ddb2bcd38d9b75d445a4302dead4d7344"
+    },
+    {
+      "file": "reports/by_month_all_stages.csv",
+      "bytes": 17326,
+      "sha256": "29d180ab18df3eec4d041f1db55d4e3d17579aa1ed9ab08f3439858b589c5548"
+    },
+    {
+      "file": "reports/by_typecode_all_stages.csv",
+      "bytes": 90624,
+      "sha256": "9543c12c1a2447ae7fd61ce164814bf40f564ef4154261b6e8380fe41c56fefb"
+    },
+    {
+      "file": "reports/by_year_all_stages.csv",
+      "bytes": 1646,
+      "sha256": "6107433f915061dfc444a66497b5903ec5bb15786352b746648bd40d769bbd8d"
+    },
+    {
+      "file": "reports/comparison_airport.csv",
+      "bytes": 4877,
+      "sha256": "fa979591de1b76192438027f568d1b7d70d2ff747a95c86fb9678c9ce61674cc"
+    },
+    {
+      "file": "reports/comparison_block_bootstrap.csv",
+      "bytes": 546844,
+      "sha256": "80824acb203ee2e585b9b5ff3d93952986be864bc43987f4759350410f7c2ca0"
+    },
+    {
+      "file": "reports/comparison_block_intervals.csv",
+      "bytes": 2099,
+      "sha256": "ec06bf604905754573f99eca507de4acdbc9d211da17cdfe49a721bf05289cde"
+    },
+    {
+      "file": "reports/comparison_budget_metrics.csv",
+      "bytes": 1460,
+      "sha256": "aaf5ecb4edc7625b1cd6eeb322335a90d6d767d34335e759bfbdb2e14537828d"
+    },
+    {
+      "file": "reports/comparison_budget_thresholds.json",
+      "bytes": 2211,
+      "sha256": "fd70c22abe692cc9b37d3f0c7b363fe424beea832f8bb6132a23a4b3878bd1a9"
+    },
+    {
+      "file": "reports/comparison_equal_budget.csv",
+      "bytes": 1309,
+      "sha256": "41539bf7e015f2803b28280e01b58448ae7320069fc0f44caffc7f28081f825a"
+    },
+    {
+      "file": "reports/comparison_findings.md",
+      "bytes": 5124,
+      "sha256": "7ff9769580d3ce2ebac4ec2cc1a02da6d79679dd2241946496b9f5feee003f06"
+    },
+    {
+      "file": "reports/comparison_market_segment.csv",
+      "bytes": 2518,
+      "sha256": "dff2cb9d38f9a84ee166c5496568b15d2bb6a6a514f01e41e6129b4e757b63eb"
+    },
+    {
+      "file": "reports/comparison_month.csv",
+      "bytes": 12491,
+      "sha256": "cd2ed10b8c00904f999c673a5dba3533e660a7487389f4b0f177c176e1fec2cc"
+    },
+    {
+      "file": "reports/comparison_reference_metrics.csv",
+      "bytes": 615,
+      "sha256": "0588d48fc295f47e3d98b151799fe22199c6b763f1e8744f89432ec03134d994"
+    },
+    {
+      "file": "reports/comparison_typecode.csv",
+      "bytes": 64565,
+      "sha256": "249313697decb68dc6afe55ac9cb0c1df4eaf323965607de8f6cc9188f20e1a0"
+    },
+    {
+      "file": "reports/comparison_verification.json",
+      "bytes": 897,
+      "sha256": "c9d355af454febbacbc6ec4cea4fb9f7b2c8e9c30bfcde6d87abf1cc2a44a1fa"
+    },
+    {
+      "file": "reports/comparison_year.csv",
+      "bytes": 1419,
+      "sha256": "99252ddb19e42be9ca0eb000394316d1930611e8b55ef256bde86a4a25ae9c9b"
+    },
+    {
+      "file": "reports/composition_distance.csv",
+      "bytes": 183,
+      "sha256": "5db5977f4b994af1cdc4639c630d164ed8c6abf101dff5b79c3f0fcbd0138a60"
+    },
+    {
+      "file": "reports/environment.json",
+      "bytes": 322,
+      "sha256": "5fb68619045ff8f5cd3bb53a6eed81fd8aac86a91d226f92c9e55fbd436afc34"
+    },
+    {
+      "file": "reports/errors_airport_comparison.csv",
+      "bytes": 3201,
+      "sha256": "4a8e0d8eb1b1c197d60d8952934853a1fd95f76474718a6ad414cb6fc3d7ecb0"
+    },
+    {
+      "file": "reports/errors_alert_overlap.csv",
+      "bytes": 195,
+      "sha256": "56ae14932d14828084ca48d1fb34f6c47388ed784f93877c2eb6b9df7cc0044c"
+    },
+    {
+      "file": "reports/errors_by_airport.csv",
+      "bytes": 8278,
+      "sha256": "8be040c9c135a1d7f2a2990e0217a7302dbb491aa8fbb27d4b8017aeac2226db"
+    },
+    {
+      "file": "reports/errors_by_icaoaircrafttype_state.csv",
+      "bytes": 1324,
+      "sha256": "3593ffe1abec5b7154b19536d236096a73f3eb12855f5e28dc40ec8ba4064d76"
+    },
+    {
+      "file": "reports/errors_by_month.csv",
+      "bytes": 3083,
+      "sha256": "f3639a55271a26073a2577b5820ab8348e951cadc578c28fa8497454ca7fd50b"
+    },
+    {
+      "file": "reports/errors_by_typecode_state.csv",
+      "bytes": 1546,
+      "sha256": "ccc654b7cd4e24bd542a9d27d55addf435175a068e61d8adc8157263956773f3"
+    },
+    {
+      "file": "reports/errors_findings.md",
+      "bytes": 2082,
+      "sha256": "1c55a77d9d90d843bbb236de94b4ec47641a5db68b3a09adbdfb2881e9918dce"
+    },
+    {
+      "file": "reports/errors_interpretation.md",
+      "bytes": 2813,
+      "sha256": "506a15d200ab3277efdf3c605c8a8f8b965c4720cd6458b3b99592aed8d00683"
+    },
+    {
+      "file": "reports/errors_positive_overlap_groups.csv",
+      "bytes": 3157,
+      "sha256": "7d8cdf356f9024bd05abe2a1d6bf62ed80ed4c41f83dd8f18e3382626cd40128"
+    },
+    {
+      "file": "reports/errors_verification.json",
+      "bytes": 674,
+      "sha256": "343341fa3981aa1f508745a80fbc2f450a4069720b7b5668b615e6df89b0e362"
+    },
+    {
+      "file": "reports/exclusive_reasons.csv",
+      "bytes": 233,
+      "sha256": "323a4c2d1bc92431cc32146a4c4df06d1dee4f3b7dc6712c5c76282b69454cfd"
+    },
+    {
+      "file": "reports/external_paths_verification.json",
+      "bytes": 862,
+      "sha256": "34c9a418d99711b1aeaa434495d65b0e99606ff15ddfdad8a68294de115a48d9"
+    },
+    {
+      "file": "reports/findings.md",
+      "bytes": 1204,
+      "sha256": "906daafd68f6d6efeca038670fe100b5f84bbcd0576348b5d9e33e250cfe7d17"
+    },
+    {
+      "file": "reports/focus_airport_reasons.csv",
+      "bytes": 188,
+      "sha256": "010adc63c94a07078ca3581d3fe10ece49a80aae665826c60bad9537bb6819c0"
+    },
+    {
+      "file": "reports/focus_month_decomposition.csv",
+      "bytes": 218,
+      "sha256": "338b7daa0326e114cb56f9aa58fda1d70329972c6b186500c3e2e5198f69f032"
+    },
+    {
+      "file": "reports/group_findings.md",
+      "bytes": 1739,
+      "sha256": "174d46d92c3f9d563cdd36598e426348d6dac921ae1ed3b7a8885f00fe095dfb"
+    },
+    {
+      "file": "reports/input_manifest.csv",
+      "bytes": 582,
+      "sha256": "f127bb4e16e31a763137037cab047cbb871f69a2f06428628875855993c961fe"
+    },
+    {
+      "file": "reports/joint_all_stages.csv",
+      "bytes": 336871,
+      "sha256": "8de68886313a048ee215de908bf906b9d5ce3dce614a8b4d0ca66897bc7ef2fa"
+    },
+    {
+      "file": "reports/joint_c40_missing_patterns.csv",
+      "bytes": 114380,
+      "sha256": "52c88896e87d742af15982d3ccba74bee251c73156677610eb025ca123ff5ea9"
+    },
+    {
+      "file": "reports/joint_exclusion_reasons.csv",
+      "bytes": 152638,
+      "sha256": "388f9789f5958c1b43fb76236ebb5e47b19c709ce3a587c4a95d3e6bf67aca3a"
+    },
+    {
+      "file": "reports/metadata_boundaries.csv",
+      "bytes": 632,
+      "sha256": "b2c7548501fa7c781d7a4fb5431486a52c32a99bb5609ba9b59ebb3f1fe84274"
+    },
+    {
+      "file": "reports/metadata_exclusive_reasons.csv",
+      "bytes": 16868,
+      "sha256": "31f2030df1631ae40d7ff3ef672bf433811713c2fd67e27bb4535e57e237a2aa"
+    },
+    {
+      "file": "reports/metadata_findings.md",
+      "bytes": 2542,
+      "sha256": "ec7412137435279fe0156d7ed3aa4a02aa311bd9dfd92f2ab292a93f4a583ef6"
+    },
+    {
+      "file": "reports/metadata_market_segment_zero_months.csv",
+      "bytes": 233,
+      "sha256": "54d6635c54b5c9aa388de7d0012ca0a78f9cb2406a10e3e26aedf316a17e8736"
+    },
+    {
+      "file": "reports/metadata_monthly.csv",
+      "bytes": 6413,
+      "sha256": "489b658ec701aad93b66e6e6aa2457aacac370cb2a61701260b5ddee89355a47"
+    },
+    {
+      "file": "reports/metadata_patterns.csv",
+      "bytes": 485841,
+      "sha256": "8f26b411a45055144ac716ce0fe379193a3a47830966d4443d81d51eb335e869"
+    },
+    {
+      "file": "reports/metadata_value_counts.csv",
+      "bytes": 43142,
+      "sha256": "89751a2ad756df8460b05948636e3e59f613b72fb9c4a215c28f822aed75fe12"
+    },
+    {
+      "file": "reports/metadata_verification.json",
+      "bytes": 664,
+      "sha256": "3f3134fe878c1408bc78402e4c433d7815a42b227cdf11faaf726736de1e7a36"
+    },
+    {
+      "file": "reports/preparation_category_counts.csv",
+      "bytes": 26315,
+      "sha256": "868eb8d12d6b1ceaf9b1c923aefe762f4c6249441db5a08eae0ec744e303d268"
+    },
+    {
+      "file": "reports/preparation_category_states.csv",
+      "bytes": 1479,
+      "sha256": "2bba033440c1c0d2fcc997eb0d5fc1f46340293bc40292461e70b361348cad2e"
+    },
+    {
+      "file": "reports/preparation_findings.md",
+      "bytes": 3192,
+      "sha256": "1616cce2c665909f1b1c1e9bade8f6a1f4bc7f551ae06f39e37fb0b38cad8c4b"
+    },
+    {
+      "file": "reports/preparation_numeric_audit.csv",
+      "bytes": 1074,
+      "sha256": "1dc1150b74a023681b95b9e1729e7114b7aac2d9110d1ed6fdb414bff1a87900"
+    },
+    {
+      "file": "reports/preparation_numeric_scaler.json",
+      "bytes": 394,
+      "sha256": "7654ae6420f652c390c2360873ae598e6cc34b95d34992c23100bcbb6072c475"
+    },
+    {
+      "file": "reports/preparation_plan.json",
+      "bytes": 2455,
+      "sha256": "afe086bc286869858b820e33bb66eec74139e414e5130bc0398d1e0c86cb2ba1"
+    },
+    {
+      "file": "reports/preparation_train_vocabulary.json",
+      "bytes": 6012,
+      "sha256": "bf55eb0b95369b160602c00e9c07a2305506a99519f272164d3ac003345af9c2"
+    },
+    {
+      "file": "reports/protocol_aircraft_overlap.csv",
+      "bytes": 150,
+      "sha256": "8e98fd9cf1ca35dec5471fa2c105ad74224931db6453257b870e46589b355b4e"
+    },
+    {
+      "file": "reports/protocol_airport_coverage.csv",
+      "bytes": 1319,
+      "sha256": "de9d448acf7b0b727a0ef5e0872799ebce1ffd686ac8c8fde24b5824f01748aa"
+    },
+    {
+      "file": "reports/protocol_decisions.md",
+      "bytes": 4469,
+      "sha256": "26ec49bd1bf381498619e6cc929fe5cb796fa56efa116788fb9a18577aa7a6e7"
+    },
+    {
+      "file": "reports/protocol_feature_sets.csv",
+      "bytes": 1989,
+      "sha256": "e298766bf252ca15d658480d786f057060e290f2296be3555e9673cfbc4cf1d3"
+    },
+    {
+      "file": "reports/protocol_findings.md",
+      "bytes": 2909,
+      "sha256": "f75bf1ecbffab8a156edc0df5c0fe09749a802ef29314cc1cd22c367573e2600"
+    },
+    {
+      "file": "reports/protocol_key_audit.csv",
+      "bytes": 145,
+      "sha256": "d411c79b658a2ca96ab3fa6c50ed18ba89cbdb7ea3afd9050735d63bf29c1545"
+    },
+    {
+      "file": "reports/protocol_manifest.json",
+      "bytes": 1234,
+      "sha256": "921da7ba21d7bd238a4bf64b27a49a46007e952bfd21ca62ee3f6cc62869f7bd"
+    },
+    {
+      "file": "reports/protocol_metadata_completeness.csv",
+      "bytes": 97,
+      "sha256": "f4da3d6bbce0f90e780ad1327d8b3dce5d0bb9f67b38cb2fc4f7c5c26179771c"
+    },
+    {
+      "file": "reports/protocol_month_coverage.csv",
+      "bytes": 1493,
+      "sha256": "dec431c80c3176f8f2a7d4b7e21d1f407d0971d8b15beba7fce2d0e5a7906a0f"
+    },
+    {
+      "file": "reports/protocol_split_summary.csv",
+      "bytes": 491,
+      "sha256": "b727750138fad07064c7994fa0786db61835db19b99889bb6ec50ad80ec92be4"
+    },
+    {
+      "file": "reports/rate_decomposition.csv",
+      "bytes": 857,
+      "sha256": "e7f9e96d7c4912bd991193db5a6518416dfb83ee4eb06d128789a6330e764abd"
+    },
+    {
+      "file": "reports/research_extension_protocol.md",
+      "bytes": 5831,
+      "sha256": "bd2fa76eacb44a0bb04b0e5239383b383c59ffca4dc8f9a8e12a7d7d56805500"
+    },
+    {
+      "file": "reports/research_review.md",
+      "bytes": 10552,
+      "sha256": "11b611f6daff8e994e013a9224743b43aff9e7886b40b58135156ce2261bd231"
+    },
+    {
+      "file": "reports/rule_overlap.csv",
+      "bytes": 211,
+      "sha256": "9943a23006844cf7927aa545901ecf436ff60760a0f119d1cc1a66d7316af0bb"
+    },
+    {
+      "file": "reports/selection_evaluation_findings.md",
+      "bytes": 2137,
+      "sha256": "5e89d39ec120bcfba0d7565e086d045104aaa3aa22e7a7d6009ec69c03768adf"
+    },
+    {
+      "file": "reports/selection_evaluation_metrics.csv",
+      "bytes": 2227,
+      "sha256": "9b08eef405d53acba8e3028abe3ea1277b12170c0fbe38135c126f73f12d35aa"
+    },
+    {
+      "file": "reports/selection_evaluation_population.csv",
+      "bytes": 230,
+      "sha256": "c333fd5acee0bc02dbfa23adb26bae28ed9249d92ce54ab87c2f1c757053de4e"
+    },
+    {
+      "file": "reports/selection_evaluation_source_groups.csv",
+      "bytes": 5323,
+      "sha256": "cbbb18bdbe7270779c05d5bde280f9561a2acfd40bd968c6f34fdad2c454e4ed"
+    },
+    {
+      "file": "reports/selection_evaluation_verification.json",
+      "bytes": 1029,
+      "sha256": "dbde121fcdbf37841463e12fdf45cbd3d8b3212fc8b0f694bd0c3e6339e52474"
+    },
+    {
+      "file": "reports/selection_summary.csv",
+      "bytes": 733,
+      "sha256": "d76a9df4f376c2c8f32f7545b25c2dfad6e2a53a854fb46e0832fbb4922646b7"
+    },
+    {
+      "file": "reports/stage_registry.csv",
+      "bytes": 4248,
+      "sha256": "9bf5befc78c2999e855d6a90fdda1bb12cc31fde3c87a05b65099a0929c0444b"
+    },
+    {
+      "file": "reports/stage_registry_completed.csv",
+      "bytes": 4474,
+      "sha256": "689ed43321f381996b5571a91a562ee817c7b0fc72b716a98d578b19b78d6df0"
+    },
+    {
+      "file": "reports/structure_airport.csv",
+      "bytes": 5459,
+      "sha256": "0626563ef39272547a8b908db30ca0e964b4136971f4a78ceba4ccc8c7008683"
+    },
+    {
+      "file": "reports/structure_airport_month.csv",
+      "bytes": 267435,
+      "sha256": "e70bb6d09e259af3f4c43013b4202bd3aae84762449f738ef7b8aa59034e6005"
+    },
+    {
+      "file": "reports/structure_airport_month_type_missing.csv",
+      "bytes": 512173,
+      "sha256": "42d3f8fada2adfd7fff061644ce899238f2889c1152a1d266267b8d42dbd13d6"
+    },
+    {
+      "file": "reports/structure_findings.md",
+      "bytes": 2510,
+      "sha256": "ca2869492291a446e251c03f670b158fe314216073090d9f3b7f493202c8a9ec"
+    },
+    {
+      "file": "reports/structure_month.csv",
+      "bytes": 14205,
+      "sha256": "fa0077c6e0cb0ea9ce768546767f360b9f0af59d6d05f9fa5a25300bc9257c49"
+    },
+    {
+      "file": "reports/structure_verification.json",
+      "bytes": 356,
+      "sha256": "6ed2b6df58e9dd77f3fa2cd783482238f45c61834610dd2271f084e8a9a55014"
+    },
+    {
+      "file": "reports/study_findings.md",
+      "bytes": 2004,
+      "sha256": "c6d5d7d3d395cfa3d56e596ed2deba7cf5c4a33170f4023a5845dc4d43df93b1"
+    },
+    {
+      "file": "reports/study_summary.csv",
+      "bytes": 383,
+      "sha256": "49b824ef369e17a8a9ae650559cd208fd4432a1aaf76b93dba6f4fa6924a247f"
+    },
+    {
+      "file": "reports/study_summary.json",
+      "bytes": 678,
+      "sha256": "f545a78af6b18801d0d761cdc6ea96fb1bede9d0f47ad2e91a006a41ee784701"
+    },
+    {
+      "file": "reports/temporal_field_contract.csv",
+      "bytes": 5516,
+      "sha256": "56045483179c5a1ab89f2b4ae2454282a0c086a6cd24f0aa66339d1db483d9c2"
+    },
+    {
+      "file": "reports/temporal_findings.md",
+      "bytes": 2671,
+      "sha256": "31c64b2b9f937c3265454882b1502c7aa97ffc04718b9caf0763beb1a9ca88c7"
+    },
+    {
+      "file": "reports/temporal_group_coverage.csv",
+      "bytes": 11791,
+      "sha256": "36cddc637cb3f30dec19c526033a444f60c3c1a26537412a140f264d26ad23c0"
+    },
+    {
+      "file": "reports/temporal_horizon_coverage.csv",
+      "bytes": 111,
+      "sha256": "af701e7c7d79935501fbb3173759d0796336c39a46da66aef70b15fc3e1cf9f4"
+    },
+    {
+      "file": "reports/temporal_lead_quantiles.csv",
+      "bytes": 376,
+      "sha256": "4c97e83dee2c6ddc1839895a336954d4c23ca8ab64a6e5ae915b9a00668be841"
+    },
+    {
+      "file": "reports/temporal_scenario_coverage.csv",
+      "bytes": 389,
+      "sha256": "541b859c2ebe23b28f86d1fc59a79b2532f3daf67738bd67dd63c10274e8d183"
+    },
+    {
+      "file": "reports/temporal_verification.json",
+      "bytes": 327,
+      "sha256": "46066ea032d10b8b8a48004f20bd9b2b068487b694f8c9be035cd36975689aa2"
+    },
+    {
+      "file": "reports/transition_losses_airport.csv",
+      "bytes": 6368,
+      "sha256": "11972ee6764b57b6d91fba49f0cc83e57060902f800904331c66a6d15dc0c377"
+    },
+    {
+      "file": "reports/transition_losses_market_segment.csv",
+      "bytes": 3311,
+      "sha256": "904aaf296c93d1794f0e0c912f8fc9f81dd365a2905ce61b5309ed822d24ecbf"
+    },
+    {
+      "file": "reports/transition_losses_month.csv",
+      "bytes": 16118,
+      "sha256": "486d6255b4bd913b9c6704465389138963a73145144c9e8eeeb1bb0ba54887f2"
+    },
+    {
+      "file": "reports/transition_losses_typecode.csv",
+      "bytes": 100563,
+      "sha256": "1413ada56075918872dbca66fd373b355512d034b4b6bc4f1d609eb8d6466208"
+    },
+    {
+      "file": "reports/transition_losses_year.csv",
+      "bytes": 1681,
+      "sha256": "d299a960643a2e730012ec62e8778530703902bc5e1432e22163b4f88b670410"
+    },
+    {
+      "file": "reports/type_c40_missing_patterns.csv",
+      "bytes": 129,
+      "sha256": "27465dc4ef7c06ac959e41089537da1891d010ae1f02f2bcb811006efa593156"
+    },
+    {
+      "file": "reports/type_missing_reason_cross.csv",
+      "bytes": 267,
+      "sha256": "3708f254668acf98a64f6b3511031f8a422b106bc364ff05de24e085cfb9aca1"
+    },
+    {
+      "file": "reports/type_missing_standardization.json",
+      "bytes": 427,
+      "sha256": "cd4a275f78a2c0ddd0f62ea88075900ee1d9f221cd554b3645c38ca62a4ee4e8"
+    },
+    {
+      "file": "reports/verification.json",
+      "bytes": 3370,
+      "sha256": "ed69cf66fadb3eccbb6a79befbaa3d68e894a26716e0237fdcf854410c7800d3"
+    },
+    {
+      "file": "reports/zero_coverage_windows.csv",
+      "bytes": 175,
+      "sha256": "d14d67d3175636b9bcd977c932cd4b70738a87b8ee11bc8d88596d92cbe4a268"
+    },
+    {
+      "file": "literature/01_selection_review.md",
+      "bytes": 7695,
+      "sha256": "fbc4ab19e5ac1e07adfe1b931500a9a93b01e4cf7c6979b5a69f2674b2f06739"
+    },
+    {
+      "file": "literature/02_metadata_provenance.md",
+      "bytes": 2704,
+      "sha256": "97b8abf1fc2b67e382a9fb589ec3f679573d0f0f6dfff059225db1d5f0a11bb6"
+    },
+    {
+      "file": "literature/03_feature_semantics.md",
+      "bytes": 2597,
+      "sha256": "a766c80af01135c574ce80f1e2a5c3a10fc228e5e0847646afb00631a2ec8092"
+    },
+    {
+      "file": "literature/04_evaluation_review.md",
+      "bytes": 6468,
+      "sha256": "cd926ac0c48af2e9cba9288d2f37d8a90e5f9b3477c08dfd9becae52b6f577c1"
+    },
+    {
+      "file": "literature/references.bib",
+      "bytes": 2857,
+      "sha256": "430e1cb8727de5be527bc10bb7f95cb01f18f9af6aa492334702c056c0734b62"
+    },
+    {
+      "file": "figures/01_population_flow.png",
+      "bytes": 65871,
+      "sha256": "48e821d136686063954f2958a757dff6caae5d1cdf5885c8cf758b952fce32d2"
+    },
+    {
+      "file": "figures/01_population_flow.svg",
+      "bytes": 61974,
+      "sha256": "dc1e05115eb7d965d51f510bed9d9b028e4c8042a65fb9eb6e7fdb0a99ce572b"
+    },
+    {
+      "file": "figures/02_label_retention.png",
+      "bytes": 56450,
+      "sha256": "2fbc4e0975bd39035366535fc1534a83d0c3c88e689b460904f461f8ce2c55f1"
+    },
+    {
+      "file": "figures/02_label_retention.svg",
+      "bytes": 48242,
+      "sha256": "7d360c9f26e6778c877052b1660510b92032a8d25e96d8684007dbb2fd435f43"
+    },
+    {
+      "file": "figures/03_airport_coverage.png",
+      "bytes": 42801,
+      "sha256": "2d5951db3750d0f1534f13280f35352b7bf58b2f86a9109bfb685c1e579fbcba"
+    },
+    {
+      "file": "figures/03_airport_coverage.svg",
+      "bytes": 54735,
+      "sha256": "ddaf3608436175c7fa454a6df7f56fd7616ae72231a1f2d4a54b902349c48647"
+    },
+    {
+      "file": "figures/04_airport_label_shift.png",
+      "bytes": 39017,
+      "sha256": "ba3b818018c921a9215e6f2fa6d02ea231fcb0261a2e9be93c8681ab12cd5c66"
+    },
+    {
+      "file": "figures/04_airport_label_shift.svg",
+      "bytes": 54105,
+      "sha256": "422ad122743809c87df0d18082ddbe6c879a2864c9425b9224856c3e3ab488ac"
+    },
+    {
+      "file": "figures/05_monthly_selection.png",
+      "bytes": 127691,
+      "sha256": "dafd3229d9b4331a91a499cd667702e6f8e5951277ec2a11b0abc2edf9198186"
+    },
+    {
+      "file": "figures/05_monthly_selection.svg",
+      "bytes": 56324,
+      "sha256": "4928d77e3374d0eefb5a44af59b8659457c8ab9c5d102f46ad5ddfb9c444fe66"
+    },
+    {
+      "file": "figures/06_source_type_coverage.png",
+      "bytes": 38875,
+      "sha256": "d1ffc12ea6272f40c59ed86118dc85263f0dd24a79023fe0129a4c2e5da33c76"
+    },
+    {
+      "file": "figures/06_source_type_coverage.svg",
+      "bytes": 46711,
+      "sha256": "c505da9eedff660200df77be4ff0991fec9f7406bc09409e654dba3746a90209"
+    },
+    {
+      "file": "figures/07_positive_losses_by_stage.png",
+      "bytes": 44607,
+      "sha256": "7d03c67f5f1fe10c1990ba837b30ac7dec1698767c15582f078adf2e74970444"
+    },
+    {
+      "file": "figures/07_positive_losses_by_stage.svg",
+      "bytes": 64965,
+      "sha256": "863e8df886f2cc6b34022033a632504ab2aca7383a660a6a1a370b1bdf92508c"
+    },
+    {
+      "file": "figures/08_retention_heatmap.png",
+      "bytes": 110024,
+      "sha256": "87f3348638475b29950a73ed4a39cc4ee248b329acb424a89bb3dc676dd3f774"
+    },
+    {
+      "file": "figures/08_retention_heatmap.svg",
+      "bytes": 109520,
+      "sha256": "401ac1f10bebcfae5b067254727cb8b86d92cb7335a2389b02ceaf4a3cb45244"
+    },
+    {
+      "file": "figures/09_rate_decomposition.png",
+      "bytes": 58856,
+      "sha256": "36902df1a3fcc68d15cc01a86f5942a1c5193ac65fd629f694ccaf9f6011193b"
+    },
+    {
+      "file": "figures/09_rate_decomposition.svg",
+      "bytes": 60716,
+      "sha256": "5a275e3e759d9c76ed958f148b8ff7c22cac134e13eb9783a0b1bb7e99631cca"
+    },
+    {
+      "file": "figures/10_airport_month_coverage.png",
+      "bytes": 119103,
+      "sha256": "6da902d51062f40c683c04ca0e4bd81cd420cb230a55ae74c7d414197e25c23c"
+    },
+    {
+      "file": "figures/10_airport_month_coverage.svg",
+      "bytes": 111538,
+      "sha256": "5c21512255d3367c48a0abebe9c99aff5da7e88c766e155360ebdf91aacbfd4f"
+    },
+    {
+      "file": "figures/11_focus_airport_months.png",
+      "bytes": 250247,
+      "sha256": "ce249c8b0e36905fc0e71c4ce30844dcf987722ad05b12d21fed43602f56470b"
+    },
+    {
+      "file": "figures/11_focus_airport_months.svg",
+      "bytes": 107163,
+      "sha256": "4d1268948967bce4ba6081735934dfe0140cde5e98f1653ce3af1822913cfa4b"
+    },
+    {
+      "file": "figures/12_type_missing_standardization.png",
+      "bytes": 27606,
+      "sha256": "2c6e723925c9bb4c3d385ebbda87c9895bc96c988e77ea6814ac534ad32e3bd2"
+    },
+    {
+      "file": "figures/12_type_missing_standardization.svg",
+      "bytes": 34884,
+      "sha256": "47b75d632a1125e66a87bcd7a6d9cef17d99e2fceac180fd2cc32a6c5f2c0bb8"
+    },
+    {
+      "file": "figures/13_temporal_metadata_coverage.png",
+      "bytes": 32636,
+      "sha256": "cd578c4b64ef645c776f997289fc243a5021f0ac81f7fdf7b64cc32865717a2e"
+    },
+    {
+      "file": "figures/13_temporal_metadata_coverage.svg",
+      "bytes": 48598,
+      "sha256": "f750f18594491dab5db65ca5fedc7290068a244d1e6191fd5eaf44a95c3086bd"
+    },
+    {
+      "file": "figures/14_temporal_airport_coverage.png",
+      "bytes": 50612,
+      "sha256": "a12e3c112e47c8f21be823b78c6f362357a2b2675f4642c2ee8e3c82b165b3e8"
+    },
+    {
+      "file": "figures/14_temporal_airport_coverage.svg",
+      "bytes": 63020,
+      "sha256": "458aab11f013dad7f5f87f5ca96e8428aece5b547177355bf534c032babf8c7d"
+    },
+    {
+      "file": "figures/15_temporal_month_coverage.png",
+      "bytes": 54125,
+      "sha256": "ddd7790f1abe787bf8849e46613f9748e1f49854483d7de709c7f506a275f8d5"
+    },
+    {
+      "file": "figures/15_temporal_month_coverage.svg",
+      "bytes": 55180,
+      "sha256": "399dab9569f1f83f93a5c5c5568f1ac3c15e42487c1cf59a00f7e7e93f156653"
+    },
+    {
+      "file": "figures/16_temporal_lead_distribution.png",
+      "bytes": 57662,
+      "sha256": "d2930da11213d984b21db9934c4414f3a2e7b155d1d19146d9e7b6782a731f69"
+    },
+    {
+      "file": "figures/16_temporal_lead_distribution.svg",
+      "bytes": 78674,
+      "sha256": "5e615a4d8e052c4a1c1e917129fde7c59436fe5dbaca099aca59a8a2f8fb2eb2"
+    },
+    {
+      "file": "figures/17_metadata_calendar_fields.png",
+      "bytes": 123850,
+      "sha256": "4069980446ce289e26cd40310ce764b520766c0ddb8a52bd0be48a683e870d43"
+    },
+    {
+      "file": "figures/17_metadata_calendar_fields.svg",
+      "bytes": 101481,
+      "sha256": "e66ee881029f1c0fc0c5e0240b215f3cbee4ef0e417a1fe296e91281459ea280"
+    },
+    {
+      "file": "figures/18_metadata_field_heatmap.png",
+      "bytes": 39661,
+      "sha256": "9772c7c57d051c08672b7afd2ceda86e2348f89766e0e43b99af5bb90a696d3b"
+    },
+    {
+      "file": "figures/18_metadata_field_heatmap.svg",
+      "bytes": 45164,
+      "sha256": "c30c80ac81730858a4ed50fa39d0c8f9aab489a631d93b1177e650d9edcac096"
+    },
+    {
+      "file": "figures/19_metadata_exclusive_losses.png",
+      "bytes": 59056,
+      "sha256": "2210b08e4b92fbd8cd0a684c45af788c49bcd3514bd4987cf27ae57bf3439021"
+    },
+    {
+      "file": "figures/19_metadata_exclusive_losses.svg",
+      "bytes": 75266,
+      "sha256": "b33c6ae48b69aca9aef91daf700d1d93006116cb3950ef693b23f500d072eef7"
+    },
+    {
+      "file": "figures/20_protocol_calendar_split.png",
+      "bytes": 50493,
+      "sha256": "225b2a0e4dcd0e41151a0b3218ef7162643d13c7ab5ff8eace902af171b1eceb"
+    },
+    {
+      "file": "figures/20_protocol_calendar_split.svg",
+      "bytes": 104710,
+      "sha256": "34e99d40b9429a69b54a90737486c4f3b9eaf892043d49c949ab3572c5754f37"
+    },
+    {
+      "file": "figures/21_protocol_airport_composition.png",
+      "bytes": 41211,
+      "sha256": "03acc1477ce58ba47929f0e15dc13cafe2bb51cc76825222ebb238d936c8625a"
+    },
+    {
+      "file": "figures/21_protocol_airport_composition.svg",
+      "bytes": 56804,
+      "sha256": "1947d44af2c46b7f30d16fcdda78c37e9f7fcaa82baedc5d137a797c1f46a7db"
+    },
+    {
+      "file": "figures/22_category_missing_and_unseen.png",
+      "bytes": 84261,
+      "sha256": "cc0be44769f2a0e3c6a8992b1cea2e3b72d798079bd0b544202027b230304339"
+    },
+    {
+      "file": "figures/22_category_missing_and_unseen.svg",
+      "bytes": 93693,
+      "sha256": "fad07322f3ba14741c62b73335c860b193eb84b780e670a4c53570dcd8adb943"
+    },
+    {
+      "file": "figures/23_bearing_by_period.png",
+      "bytes": 100581,
+      "sha256": "c93718823101a6ff703fc280f9547fbe5d4e40ce39dbaca560c46a8ee50f0810"
+    },
+    {
+      "file": "figures/23_bearing_by_period.svg",
+      "bytes": 54868,
+      "sha256": "0fe751a953075fceef5fba7ae34d7c5fb7f2ed6ce2382bf92146d94247d1f3f3"
+    },
+    {
+      "file": "figures/24_baseline_pr_roc.png",
+      "bytes": 92279,
+      "sha256": "6201ea5ab9b98e8e6191c7df4681fb6fa0e9e1facfb8ba1974b67e1e3bc2a6c6"
+    },
+    {
+      "file": "figures/24_baseline_pr_roc.svg",
+      "bytes": 238236,
+      "sha256": "bb010de5d6c91c1c1d0e1574991589cd2e1167425eca479c0b84ab86d90cf610"
+    },
+    {
+      "file": "figures/25_baseline_calibration.png",
+      "bytes": 51933,
+      "sha256": "1464b3004bd612c4f505c50a4571556841243d9c76497714838efac35ae0a537"
+    },
+    {
+      "file": "figures/25_baseline_calibration.svg",
+      "bytes": 49393,
+      "sha256": "2787f60dd792fbf4682e0d44c895277a5aacf680a50688412e271c85a41922b6"
+    },
+    {
+      "file": "figures/26_baseline_intervals.png",
+      "bytes": 34910,
+      "sha256": "2aa74c70144e557c381837b78ced90e684aac20416d81be6d91e5cbe3b6a6461"
+    },
+    {
+      "file": "figures/26_baseline_intervals.svg",
+      "bytes": 47359,
+      "sha256": "e6b3fb31efd4b6bcc512d1b04ff6fb0c3365c8b252d0593367e9d2256416cd03"
+    },
+    {
+      "file": "figures/27_baseline_airport_ap.png",
+      "bytes": 48231,
+      "sha256": "73e6e6acd36d776179a68754dd92f6196019939a39fccbfc3b808ea7c968ccd7"
+    },
+    {
+      "file": "figures/27_baseline_airport_ap.svg",
+      "bytes": 62995,
+      "sha256": "8f1f8c165a73100dd8fd93acf6c7e7aa00caf3d4c3090c02e9dd67ecabe46aea"
+    },
+    {
+      "file": "figures/28_errors_by_month.png",
+      "bytes": 70639,
+      "sha256": "4d31fa8d27a17aa8a0dfc6a6a74ebf427d71a3c62bebfddf57bb8243e0f80862"
+    },
+    {
+      "file": "figures/28_errors_by_month.svg",
+      "bytes": 70835,
+      "sha256": "6281257aa0b34dd81fdc1c20250e1f476c50804743b177e00b5bb181c4c30644"
+    },
+    {
+      "file": "figures/29_errors_false_alerts_airports.png",
+      "bytes": 44328,
+      "sha256": "e2bc13eece71ecbffb290049d6df25d4db95a0d6134f5610ecc889785622f940"
+    },
+    {
+      "file": "figures/29_errors_false_alerts_airports.svg",
+      "bytes": 60829,
+      "sha256": "8e6669207e6be5e1c7cca7521c6686b2787fbe36a1818cee9a549dcb1a37355a"
+    },
+    {
+      "file": "figures/30_errors_airport_differences.png",
+      "bytes": 65053,
+      "sha256": "2a84360334380a0f834de0e258f874bd901b3b7a056743dc2c7fbebe5c6fca08"
+    },
+    {
+      "file": "figures/30_errors_airport_differences.svg",
+      "bytes": 84554,
+      "sha256": "c52f4f30eafd90ac8c97f93c8a3412ecc06dce17bc00c67733d3ed89b3bb9394"
+    },
+    {
+      "file": "figures/31_errors_typecode_states.png",
+      "bytes": 50322,
+      "sha256": "ccc0a839f6425880c1434c0fc7d4770f51310e8826f14a2ac44987bd0c2b123e"
+    },
+    {
+      "file": "figures/31_errors_typecode_states.svg",
+      "bytes": 64438,
+      "sha256": "bdecbc777830b6885ad34bb6b35d68b25901498e341991a3434f10ae909bee74"
+    },
+    {
+      "file": "figures/32_selection_quality_coverage.png",
+      "bytes": 80811,
+      "sha256": "43ab9c250273404dcf70ef8905abb245998e4a94fa0d3f6ed04f862fd1f7197a"
+    },
+    {
+      "file": "figures/32_selection_quality_coverage.svg",
+      "bytes": 70705,
+      "sha256": "3d2e934e248e6ff31312a284434ca8bb533746b926b51499e50f4922bdd2ecac"
+    },
+    {
+      "file": "figures/33_selection_metric_denominators.png",
+      "bytes": 88899,
+      "sha256": "c861f0134a80f33c3658278b20e24d0d8eb2f92265ab43981c491d89ceeec3bd"
+    },
+    {
+      "file": "figures/33_selection_metric_denominators.svg",
+      "bytes": 82260,
+      "sha256": "010decf84f40b030a92b897ef7876aa5d78664dda4c3ae681dba9208a2aaff4a"
+    },
+    {
+      "file": "figures/34_source_scoring_coverage.png",
+      "bytes": 44862,
+      "sha256": "537f9f73848ff2e602af76a377268bfb9a2efa08502221e78540718f226b5a5c"
+    },
+    {
+      "file": "figures/34_source_scoring_coverage.svg",
+      "bytes": 64059,
+      "sha256": "ea6db1aac314eb785fe261b1dcef99e3cd3c14d9bfed54a7f0bb126047f868c3"
+    },
+    {
+      "file": "figures/35_equal_budget_comparison.png",
+      "bytes": 115189,
+      "sha256": "06513972510adbe82aa39b6b094c53df9230c792cf395852bc373b655be9dedd"
+    },
+    {
+      "file": "figures/35_equal_budget_comparison.svg",
+      "bytes": 77245,
+      "sha256": "a5aa7b5a7f09ea2c5ae9bb90b886e4777fa2aec48bf92a80a4c45b3c7fdcee2b"
+    },
+    {
+      "file": "figures/36_block_sensitivity.png",
+      "bytes": 42324,
+      "sha256": "0d03015b395e9823e7a6260d6ca42fd4fafaa4e00890607335458af6e1524286"
+    },
+    {
+      "file": "figures/36_block_sensitivity.svg",
+      "bytes": 53078,
+      "sha256": "50f341efd819221b0b1a4548d7e20cad697aacf7aef34792872f9b5f0093f293"
+    },
+    {
+      "file": "figures/37_source_goa_outcomes.png",
+      "bytes": 32369,
+      "sha256": "8975819cc835cc4278b4b7863dd22d72902fbb9f38afc9259c730148fdb12f78"
+    },
+    {
+      "file": "figures/37_source_goa_outcomes.svg",
+      "bytes": 43056,
+      "sha256": "d73d3f9b250a482b28ede80b5519753d6b92d852aeb6a8dc31100b76f79c974e"
+    }
+  ],
+  "notebook_sources": [
+    {
+      "generator": "build_baseline_notebook.py",
+      "notebook": "08_baseline.ipynb",
+      "source_matches_generator": true,
+      "cells": 13,
+      "error_outputs": 0,
+      "all_code_cells_executed": true
+    },
+    {
+      "generator": "build_comparison_notebook.py",
+      "notebook": "11_model_comparison.ipynb",
+      "source_matches_generator": true,
+      "cells": 8,
+      "error_outputs": 0,
+      "all_code_cells_executed": true
+    },
+    {
+      "generator": "build_error_notebook.py",
+      "notebook": "09_errors.ipynb",
+      "source_matches_generator": true,
+      "cells": 10,
+      "error_outputs": 0,
+      "all_code_cells_executed": true
+    },
+    {
+      "generator": "build_group_notebook.py",
+      "notebook": "02_group_effects.ipynb",
+      "source_matches_generator": true,
+      "cells": 10,
+      "error_outputs": 0,
+      "all_code_cells_executed": true
+    },
+    {
+      "generator": "build_metadata_notebook.py",
+      "notebook": "05_metadata_calendar_audit.ipynb",
+      "source_matches_generator": true,
+      "cells": 10,
+      "error_outputs": 0,
+      "all_code_cells_executed": true
+    },
+    {
+      "generator": "build_notebook.py",
+      "notebook": "01_selection_effects.ipynb",
+      "source_matches_generator": true,
+      "cells": 13,
+      "error_outputs": 0,
+      "all_code_cells_executed": true
+    },
+    {
+      "generator": "build_preparation_notebook.py",
+      "notebook": "07_feature_preparation.ipynb",
+      "source_matches_generator": true,
+      "cells": 9,
+      "error_outputs": 0,
+      "all_code_cells_executed": true
+    },
+    {
+      "generator": "build_protocol_notebook.py",
+      "notebook": "06_time_split.ipynb",
+      "source_matches_generator": true,
+      "cells": 10,
+      "error_outputs": 0,
+      "all_code_cells_executed": true
+    },
+    {
+      "generator": "build_results_notebook.py",
+      "notebook": "12_results.ipynb",
+      "source_matches_generator": true,
+      "cells": 7,
+      "error_outputs": 0,
+      "all_code_cells_executed": true
+    },
+    {
+      "generator": "build_selection_evaluation_notebook.py",
+      "notebook": "10_selection_evaluation.ipynb",
+      "source_matches_generator": true,
+      "cells": 10,
+      "error_outputs": 0,
+      "all_code_cells_executed": true
+    },
+    {
+      "generator": "build_structure_notebook.py",
+      "notebook": "03_selection_structure.ipynb",
+      "source_matches_generator": true,
+      "cells": 15,
+      "error_outputs": 0,
+      "all_code_cells_executed": true
+    },
+    {
+      "generator": "build_temporal_notebook.py",
+      "notebook": "04_temporal_feature_availability.ipynb",
+      "source_matches_generator": true,
+      "cells": 10,
+      "error_outputs": 0,
+      "all_code_cells_executed": true
+    }
+  ],
+  "python_syntax_passed": true,
+  "scientific_review": "reports/research_review.md"
+}

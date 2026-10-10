@@ -1,0 +1,79 @@
+{
+  "status": "exploratory_after_test_inspection",
+  "selection_uses_outcomes": false,
+  "selection_split": "validation",
+  "thresholds": [
+    {
+      "model": "airport_prior",
+      "budget_validation": 0.001,
+      "threshold": 0.0036553485875593906,
+      "validation_alert_rate": 0.0
+    },
+    {
+      "model": "airport_prior",
+      "budget_validation": 0.005,
+      "threshold": 0.0036553485875593906,
+      "validation_alert_rate": 0.0
+    },
+    {
+      "model": "airport_prior",
+      "budget_validation": 0.01,
+      "threshold": 0.0036553485875593906,
+      "validation_alert_rate": 0.0
+    },
+    {
+      "model": "airport_prior",
+      "budget_validation": 0.05,
+      "threshold": 0.0036553485875593906,
+      "validation_alert_rate": 0.0
+    },
+    {
+      "model": "geometry",
+      "budget_validation": 0.001,
+      "threshold": 0.003994773478021788,
+      "validation_alert_rate": 0.0009994771111098764
+    },
+    {
+      "model": "geometry",
+      "budget_validation": 0.005,
+      "threshold": 0.003926567442212702,
+      "validation_alert_rate": 0.004999854924570037
+    },
+    {
+      "model": "geometry",
+      "budget_validation": 0.01,
+      "threshold": 0.003869137493186012,
+      "validation_alert_rate": 0.009999709849140073
+    },
+    {
+      "model": "geometry",
+      "budget_validation": 0.05,
+      "threshold": 0.003729880852457364,
+      "validation_alert_rate": 0.04999978393021069
+    },
+    {
+      "model": "geometry_aircraft",
+      "budget_validation": 0.001,
+      "threshold": 0.00662288007547507,
+      "validation_alert_rate": 0.0009994771111098764
+    },
+    {
+      "model": "geometry_aircraft",
+      "budget_validation": 0.005,
+      "threshold": 0.005637377525875394,
+      "validation_alert_rate": 0.004999854924570037
+    },
+    {
+      "model": "geometry_aircraft",
+      "budget_validation": 0.01,
+      "threshold": 0.004898923021302753,
+      "validation_alert_rate": 0.009999709849140073
+    },
+    {
+      "model": "geometry_aircraft",
+      "budget_validation": 0.05,
+      "threshold": 0.004226721923555369,
+      "validation_alert_rate": 0.04999978393021069
+    }
+  ]
+}

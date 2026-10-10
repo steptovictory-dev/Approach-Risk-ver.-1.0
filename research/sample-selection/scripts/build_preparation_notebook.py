@@ -27,7 +27,7 @@ bearing курсом самолета и не предполагаем совп�
 доступность C40 / метаданных остается предположением ретроспективного анализа.''')
 code('''from pathlib import Path
 from collections import Counter
-import hashlib,json
+import os,hashlib,json
 import numpy as np
 import pandas as pd
 import pyarrow.parquet as pq
@@ -40,7 +40,7 @@ while not (ROOT/'reports/protocol_manifest.json').exists():
 R=ROOT/'reports'; F=ROOT/'figures'; LOCAL=ROOT/'data'
 protocol=json.loads((R/'protocol_manifest.json').read_text(encoding='utf-8'))
 entry=next(x for x in json.loads((R/'verification.json').read_text(encoding='utf-8'))['inputs'] if x['stage']=='final')
-DATA=ROOT.parents[1]/entry['file'].replace(chr(92),'/')
+DATA=Path(os.environ.get('SAMPLE_SELECTION_DATA_ROOT',ROOT.parents[1]))/entry['file'].replace(chr(92),'/')
 if not DATA.exists(): DATA=LOCAL/'06_05_cases_excluded.parquet'
 def sha(path):
     h=hashlib.sha256()
@@ -138,11 +138,35 @@ for s in parts:
  {'fit_split':'train','input_sha256':protocol['input_sha256'],'vocabulary':vocab,
   'missing_id':-1,'unseen_id':-2,'category_indices_are_nominal':True},ensure_ascii=False,indent=2),encoding='utf-8')
 display(states[states.state.ne('seen')].pivot(index=['field','split'],columns='state',values='pct').style.format(precision=3))
-fig,axes=plt.subplots(1,2,figsize=(12,5),sharey=True)
-for ax,s in zip(axes,['validation','test']):
-    p=states[states.split.eq(s)&states.state.ne('seen')].pivot(index='field',columns='state',values='pct')
-    p.reindex(columns=['missing','unseen']).plot.bar(ax=ax,color=['#D65A4A','#00897B'])
-    ax.set_title(s);ax.set_xlabel('');ax.set_ylabel('Доля записей, %');ax.tick_params(axis='x',rotation=20)
+from matplotlib.ticker import FuncFormatter
+fields=['typecode','icaoaircrafttype','AC_CLASS','airport']
+fig,axes=plt.subplots(1,2,figsize=(13,5),sharey=True)
+for ax,state,color,title,digits in zip(axes,['missing','unseen'],['#D65A4A','#00897B'],
+        ['Пропуски','Категории, которых не было в train'],[2,4]):
+    panel=states[states.state.eq(state)&states.split.isin(['validation','test'])]
+    maximum=float(panel.pct.max())
+    span=maximum if maximum>0 else 1.0
+    for split,offset,hatch,alpha in [('validation',-.18,'///',.75),('test',.18,None,1.0)]:
+        values=panel[panel.split.eq(split)].set_index('field').reindex(fields)
+        positions=np.arange(len(fields))+offset
+        ax.barh(positions,values.pct,height=.32,color=color,alpha=alpha,
+                hatch=hatch,edgecolor='white',linewidth=.6,label=split,zorder=3)
+        for y,n,pct in zip(positions,values.rows,values.pct):
+            percent=(f'{pct:.{digits}f}' if pct else '0').replace('.',',')
+            count=f'{int(n):,}'.replace(',',' ')
+            ax.text(float(pct)+span*.025,y,f'{percent}% · {count} записей',
+                    va='center',fontsize=9,color='#37423D')
+            if pct==0:ax.scatter([0],[y],marker='|',s=60,color=color,zorder=4)
+    ax.set_yticks(np.arange(len(fields)),fields)
+    ax.set_xlim(0,span*1.75)
+    ax.set_title(title,pad=16,fontsize=13)
+    ax.set_xlabel('Доля записей, %')
+    ax.xaxis.set_major_formatter(FuncFormatter(lambda x,pos,d=digits:f'{x:.{d}f}'.replace('.',',')))
+    ax.grid(axis='y',visible=False);ax.grid(axis='x',alpha=.18)
+    ax.legend(loc='lower right',fontsize=9,frameon=False)
+axes[0].invert_yaxis()
+fig.text(.5,-.035,'Шкалы панелей различаются. Новые typecode: 37 записей в validation и 28 в test.',
+         ha='center',fontsize=10,color='#546E63')
 save('22_category_missing_and_unseen')
 ''')
 code('''fig,ax=plt.subplots(figsize=(11,4))
@@ -182,7 +206,7 @@ Test используется один раз после фиксации мод
 
 Пороговый план: заранее выбрать на validation максимальный F1, при равенстве
 взять более высокий порог. Это исследовательский критерий, не эксплуатационная
-полезность и не стоимость ложной тревоги. Отчет включает precision, recall,
+полезность и не стоимость ошибки FP. Отчет включает precision, recall,
 число и долю тревог; возможный рабочий порог потребует требований применения.
 
 Публиковать pooled-метрики и таблицу по аэропортам с числом GoA. Для группы без
