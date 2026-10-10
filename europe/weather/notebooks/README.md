@@ -42,3 +42,7 @@
 11. [11. Аудит остаточных форматов](11_residual_format_audit.ipynb): 2425 сообщений, основные категории, исходные примеры, дефект коротких CB/TCU и сохранность CP-10. 2 рисунка.
 
 Воспроизведение: europe/weather/scripts/audit_residual_formats.py, затем europe/weather/scripts/build_residual_format_notebook.py через .venv/Scripts/python.exe из корня проекта.
+
+12. [12. Обновление облачных групп](12_cloud_format_update.ipynb): сравнение cloud-v2, совместимость пилотов, сохранность числовых масок и 26 тестов. 2 рисунка.
+
+Воспроизведение cloud-v2: europe/weather/scripts/rebuild_cloud_v2.py, затем europe/weather/scripts/build_cloud_v2_notebook.py через .venv/Scripts/python.exe из корня проекта. Исходные архивы не загружаются повторно; предыдущие версии данных сохраняются.

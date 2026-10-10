@@ -1,0 +1,2441 @@
+{
+  "version": "cloud-v2",
+  "rows": 6331485,
+  "go_arounds": 18349,
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "unique_target_messages": 1339,
+  "unique_changed_messages": 1339,
+  "resolved_full_messages": 1323,
+  "remaining_residual_messages": 1102,
+  "pilot_rows_unchanged": 18439,
+  "all_source_rows_present_once": true,
+  "previous_files_unchanged": true,
+  "numeric_masks_preserved": true,
+  "station_time_and_metar_links_unchanged": true,
+  "non_cloud_numeric_values_unchanged": true,
+  "rows_deleted": 0,
+  "training_executed": false,
+  "implementation_sha256": "cf04f5427525c152df25707b81076390846e70ab3d26f4639648b857fdf8eed3",
+  "decoder_sha256": "54afeeb8bf99def8d6f1a4dd880691cdc34c01a890903b8108d1fdd11322b8e1",
+  "original_decoder_sha256": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+  "jobs": [
+    {
+      "airport": "EDDB",
+      "year": "2019",
+      "rows": 28762,
+      "target_messages": 57,
+      "linked_target_rows": 89,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 28673,
+      "new_decoded_rows": 28762,
+      "old_core_rows": 28673,
+      "new_core_rows": 28762,
+      "files": [
+        {
+          "path": "reports\\EDDB_2019_reports.parquet",
+          "sha256": "9ad4df4360557d20097965d6fbc1ac1aa9c9f701000eff80e88692a11bf9b318"
+        },
+        {
+          "path": "features\\EDDB_2019_features.parquet",
+          "sha256": "783ffed7519cc667926bd4f176fe94cff80843895454264a4664f77b0e63b979"
+        },
+        {
+          "path": "numeric_features\\EDDB_2019_features.parquet",
+          "sha256": "9fcc89172e8379bd470123e5395ac22471d2fcc2cd2911cb5c64ca24af08ff0d"
+        }
+      ]
+    },
+    {
+      "airport": "EDDB",
+      "year": "2020",
+      "rows": 13117,
+      "target_messages": 58,
+      "linked_target_rows": 30,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 13087,
+      "new_decoded_rows": 13117,
+      "old_core_rows": 13087,
+      "new_core_rows": 13117,
+      "files": [
+        {
+          "path": "reports\\EDDB_2020_reports.parquet",
+          "sha256": "0743f53342362ebc1e99006ccacbc467fe15588eadcc14d1afd48ac087b5100f"
+        },
+        {
+          "path": "features\\EDDB_2020_features.parquet",
+          "sha256": "33d47c86e6dfde752c8a4fe7a207ea1776d5e1b744d1f3434cde6f34c8f121ea"
+        },
+        {
+          "path": "numeric_features\\EDDB_2020_features.parquet",
+          "sha256": "02b2a942ba2a9a835d1d602dc860358ec20fc6ea46c99ad446020784466a6537"
+        }
+      ]
+    },
+    {
+      "airport": "EDDB",
+      "year": "2021",
+      "rows": 35640,
+      "target_messages": 40,
+      "linked_target_rows": 47,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 35582,
+      "new_decoded_rows": 35629,
+      "old_core_rows": 35582,
+      "new_core_rows": 35629,
+      "files": [
+        {
+          "path": "reports\\EDDB_2021_reports.parquet",
+          "sha256": "63e41b41a81c2d42b6c92b264a92f2e120493630b519002606f35637ffb99e4e"
+        },
+        {
+          "path": "features\\EDDB_2021_features.parquet",
+          "sha256": "0c07a848b72c4eb9398cadcc345801c3b11bf7cd26b6662824a1e9a82b96c290"
+        },
+        {
+          "path": "numeric_features\\EDDB_2021_features.parquet",
+          "sha256": "a2cf77e536de69deb7425004f69a556da586ae56d5caeefc98504cfbf61973f0"
+        }
+      ]
+    },
+    {
+      "airport": "EDDB",
+      "year": "2022",
+      "rows": 50306,
+      "target_messages": 16,
+      "linked_target_rows": 52,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 50227,
+      "new_decoded_rows": 50274,
+      "old_core_rows": 50242,
+      "new_core_rows": 50294,
+      "files": [
+        {
+          "path": "reports\\EDDB_2022_reports.parquet",
+          "sha256": "1b030c689d84042812acd6fbfeac44213583f6d21e354683a04296d59e528d07"
+        },
+        {
+          "path": "features\\EDDB_2022_features.parquet",
+          "sha256": "f4e812218997349397108ad6f883abd3b7ea403cfe887c20480e2af4394fe22d"
+        },
+        {
+          "path": "numeric_features\\EDDB_2022_features.parquet",
+          "sha256": "cbdfb9b521587b1d2b4b854a6893509d543fd06c0dc3ea427afbab97fb187951"
+        }
+      ]
+    },
+    {
+      "airport": "EDDB",
+      "year": "2023",
+      "rows": 20511,
+      "target_messages": 1,
+      "linked_target_rows": 4,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 20505,
+      "new_decoded_rows": 20509,
+      "old_core_rows": 20507,
+      "new_core_rows": 20511,
+      "files": [
+        {
+          "path": "reports\\EDDB_2023_reports.parquet",
+          "sha256": "3098bec99f16cf60be59d3c49332c52d98b944414fb522ee1cb05f5fc31c438a"
+        },
+        {
+          "path": "features\\EDDB_2023_features.parquet",
+          "sha256": "3c861b1dcd71095c4e4eee42311ad80904c5cd5c569c8a1f20f8b0a598c3c6c8"
+        },
+        {
+          "path": "numeric_features\\EDDB_2023_features.parquet",
+          "sha256": "d547c2e09af02768cd463c0a884d7a817aabeba3f792d2f0bb6d7656861ccdbb"
+        }
+      ]
+    },
+    {
+      "airport": "EDDF",
+      "year": "2019",
+      "rows": 218773,
+      "target_messages": 11,
+      "linked_target_rows": 104,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 218655,
+      "new_decoded_rows": 218759,
+      "old_core_rows": 218669,
+      "new_core_rows": 218773,
+      "files": [
+        {
+          "path": "reports\\EDDF_2019_reports.parquet",
+          "sha256": "204b3879f3f17dee3ed0ea9412e53ac38b456ceadbdba0ad3cfdd8aad8189872"
+        },
+        {
+          "path": "features\\EDDF_2019_features.parquet",
+          "sha256": "da6fb53cb4fa5d96016e9c1756495de8069a3cf05b3066b37f840cfb0b9f3f7d"
+        },
+        {
+          "path": "numeric_features\\EDDF_2019_features.parquet",
+          "sha256": "73fd18574db45feb6cf977deb3ee2ae5d64b20f4338e35b4dc8f6f9c19735b00"
+        }
+      ]
+    },
+    {
+      "airport": "EDDF",
+      "year": "2020",
+      "rows": 96515,
+      "target_messages": 25,
+      "linked_target_rows": 94,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 96421,
+      "new_decoded_rows": 96515,
+      "old_core_rows": 96421,
+      "new_core_rows": 96515,
+      "files": [
+        {
+          "path": "reports\\EDDF_2020_reports.parquet",
+          "sha256": "076faf4f6d36c2b5173a757332fcb12346ed3b0eeb096a3b71ea796b2997d65f"
+        },
+        {
+          "path": "features\\EDDF_2020_features.parquet",
+          "sha256": "dd1c152ae2b2bb04c988c83c3aca35199c460146ed41dde16a73fabce30ddbfe"
+        },
+        {
+          "path": "numeric_features\\EDDF_2020_features.parquet",
+          "sha256": "ca2f85ed78ca1a4ef4bc5ae145c3127af7a4a6754d4d292a21742cdb50e9a7e6"
+        }
+      ]
+    },
+    {
+      "airport": "EDDF",
+      "year": "2021",
+      "rows": 118807,
+      "target_messages": 18,
+      "linked_target_rows": 121,
+      "linked_target_go_arounds": 3,
+      "old_decoded_rows": 118635,
+      "new_decoded_rows": 118756,
+      "old_core_rows": 118635,
+      "new_core_rows": 118756,
+      "files": [
+        {
+          "path": "reports\\EDDF_2021_reports.parquet",
+          "sha256": "b2827fb1d525a574c598c385fb5f0d0f9bffaca79ff420045c989d29204a075f"
+        },
+        {
+          "path": "features\\EDDF_2021_features.parquet",
+          "sha256": "0488c28c94c6715a7555d4e817b1a4e89e972237b0ff87502e2e67972c268dbc"
+        },
+        {
+          "path": "numeric_features\\EDDF_2021_features.parquet",
+          "sha256": "51862d99417a767d309b05786b2db27ec3281de562ea683a5cb911a17fd0cd38"
+        }
+      ]
+    },
+    {
+      "airport": "EDDF",
+      "year": "2022",
+      "rows": 159344,
+      "target_messages": 14,
+      "linked_target_rows": 162,
+      "linked_target_go_arounds": 1,
+      "old_decoded_rows": 159082,
+      "new_decoded_rows": 159142,
+      "old_core_rows": 159176,
+      "new_core_rows": 159338,
+      "files": [
+        {
+          "path": "reports\\EDDF_2022_reports.parquet",
+          "sha256": "b76bc43c1690a89d6a1b71e64cd75d9356a11f68e8fcecbd44b78ce192ee6346"
+        },
+        {
+          "path": "features\\EDDF_2022_features.parquet",
+          "sha256": "bf157b6725b47eadd59c69b2eb0479a1679f58931bb351e1178915a29a66c406"
+        },
+        {
+          "path": "numeric_features\\EDDF_2022_features.parquet",
+          "sha256": "1d56cae8b4c875310e79b54debcfb9371b88adbcb7d7e9138b5d94672bd9b120"
+        }
+      ]
+    },
+    {
+      "airport": "EDDF",
+      "year": "2023",
+      "rows": 11521,
+      "target_messages": 4,
+      "linked_target_rows": 45,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 11467,
+      "new_decoded_rows": 11502,
+      "old_core_rows": 11476,
+      "new_core_rows": 11521,
+      "files": [
+        {
+          "path": "reports\\EDDF_2023_reports.parquet",
+          "sha256": "a281a782b0ab9e55d68d7d382dbcd37a475849f9e950a12c7e799960779118cb"
+        },
+        {
+          "path": "features\\EDDF_2023_features.parquet",
+          "sha256": "bd7367cf347869cdef17bdc36ab8e8c8e93b92e9586927ffb0839b3e0c706da7"
+        },
+        {
+          "path": "numeric_features\\EDDF_2023_features.parquet",
+          "sha256": "c6824c69f543b0562ae0e8f5208d928b627a2bfff04a73c88474b37ba17c284a"
+        }
+      ]
+    },
+    {
+      "airport": "EDDM",
+      "year": "2019",
+      "rows": 163062,
+      "target_messages": 49,
+      "linked_target_rows": 408,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 162654,
+      "new_decoded_rows": 163062,
+      "old_core_rows": 162654,
+      "new_core_rows": 163062,
+      "files": [
+        {
+          "path": "reports\\EDDM_2019_reports.parquet",
+          "sha256": "10bf2373818db3f7784c733cb3d7247f9f3913a10a3a4e75e2934dcb1a542bae"
+        },
+        {
+          "path": "features\\EDDM_2019_features.parquet",
+          "sha256": "1e678d26087f57c4f39e25071ae368861cf343cc129d1b47d67a4938962fee42"
+        },
+        {
+          "path": "numeric_features\\EDDM_2019_features.parquet",
+          "sha256": "5592b6977a6fb967507fcac8abb3b53287bbfcac5443211fd394be78121d7cd2"
+        }
+      ]
+    },
+    {
+      "airport": "EDDM",
+      "year": "2020",
+      "rows": 60295,
+      "target_messages": 58,
+      "linked_target_rows": 104,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 60186,
+      "new_decoded_rows": 60290,
+      "old_core_rows": 60186,
+      "new_core_rows": 60290,
+      "files": [
+        {
+          "path": "reports\\EDDM_2020_reports.parquet",
+          "sha256": "1d415ea597fb73be6692df3a35bc6861fc9840e1d462534c186eb17e0b730783"
+        },
+        {
+          "path": "features\\EDDM_2020_features.parquet",
+          "sha256": "51cb9d14abfd2c0296671f175ea1359d77c2cb06c60e371fff3dc2a903468282"
+        },
+        {
+          "path": "numeric_features\\EDDM_2020_features.parquet",
+          "sha256": "2d6b1166893076e5400ae1b7aee358cfa477b709f5d6b2dde5258a1d011fa72d"
+        }
+      ]
+    },
+    {
+      "airport": "EDDM",
+      "year": "2021",
+      "rows": 64783,
+      "target_messages": 72,
+      "linked_target_rows": 284,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 64467,
+      "new_decoded_rows": 64751,
+      "old_core_rows": 64469,
+      "new_core_rows": 64753,
+      "files": [
+        {
+          "path": "reports\\EDDM_2021_reports.parquet",
+          "sha256": "87475f4689580ae5bbcbf53cd5739dc26d09f154f3d7a31aec4a27c4cde773d4"
+        },
+        {
+          "path": "features\\EDDM_2021_features.parquet",
+          "sha256": "044930aa0842a4004e5a289712d0c9dd67c9c7341ea7cd842c4bdf78964d49b1"
+        },
+        {
+          "path": "numeric_features\\EDDM_2021_features.parquet",
+          "sha256": "3c00786e19ff06d2ce3adbeeb21d5401b414e15af31811018a554724f3c94c2f"
+        }
+      ]
+    },
+    {
+      "airport": "EDDM",
+      "year": "2022",
+      "rows": 111816,
+      "target_messages": 46,
+      "linked_target_rows": 314,
+      "linked_target_go_arounds": 1,
+      "old_decoded_rows": 111429,
+      "new_decoded_rows": 111675,
+      "old_core_rows": 111492,
+      "new_core_rows": 111806,
+      "files": [
+        {
+          "path": "reports\\EDDM_2022_reports.parquet",
+          "sha256": "05b26185b2b1344d81078f042d231d429354fc018274fea17b32b064718201a4"
+        },
+        {
+          "path": "features\\EDDM_2022_features.parquet",
+          "sha256": "a497103d0437c7d981f4b12224c95e5818eae97adda38b9d9cdef7f5b1b6514a"
+        },
+        {
+          "path": "numeric_features\\EDDM_2022_features.parquet",
+          "sha256": "de82f29e1495478f2cc17547e3d698f941b705d273f9c996a3f5bfe5d566c863"
+        }
+      ]
+    },
+    {
+      "airport": "EDDM",
+      "year": "2023",
+      "rows": 43247,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 43240,
+      "new_decoded_rows": 43240,
+      "old_core_rows": 43247,
+      "new_core_rows": 43247,
+      "files": [
+        {
+          "path": "reports\\EDDM_2023_reports.parquet",
+          "sha256": "93e82d631fab77f514819c58870f8b3e8f27f26c08ffe6e1ac66fed42c769e2a"
+        },
+        {
+          "path": "features\\EDDM_2023_features.parquet",
+          "sha256": "579d92bf0e548814d40c3b17e075b01e94c18ce964c11d9262bd77f6dd4287bf"
+        },
+        {
+          "path": "numeric_features\\EDDM_2023_features.parquet",
+          "sha256": "e06b12f3b291d000af1c2617cb88bd607f7cf8f88f1f94a41023497063f422d9"
+        }
+      ]
+    },
+    {
+      "airport": "EGCC",
+      "year": "2019",
+      "rows": 62459,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 62427,
+      "new_decoded_rows": 62427,
+      "old_core_rows": 62444,
+      "new_core_rows": 62444,
+      "files": [
+        {
+          "path": "reports\\EGCC_2019_reports.parquet",
+          "sha256": "bcbabb6c747f07abee18c1073088cd7115180844dd4664cbd7e68d28fdcf93df"
+        },
+        {
+          "path": "features\\EGCC_2019_features.parquet",
+          "sha256": "b2a9f3f4a8c625939c85c5e715d8a9d07c91ce4aa0c2aaa37df0daa74050d5d9"
+        },
+        {
+          "path": "numeric_features\\EGCC_2019_features.parquet",
+          "sha256": "07d2ea57044b725310d65a703713b73d6643aa04250da50a0b529ad0c83c614e"
+        }
+      ]
+    },
+    {
+      "airport": "EGCC",
+      "year": "2020",
+      "rows": 23746,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 23734,
+      "new_decoded_rows": 23734,
+      "old_core_rows": 23742,
+      "new_core_rows": 23742,
+      "files": [
+        {
+          "path": "reports\\EGCC_2020_reports.parquet",
+          "sha256": "26a3d586b4d479b5a1a269b57bcf3b470d60d68a8cf8a695721aa4c49b0de010"
+        },
+        {
+          "path": "features\\EGCC_2020_features.parquet",
+          "sha256": "f52021751468d1c6fd69b049d15e24ee12c7445b77c07ff1312c5ba62f31f151"
+        },
+        {
+          "path": "numeric_features\\EGCC_2020_features.parquet",
+          "sha256": "e8d7fac0081077a59368f0d05292822286f9777fe0b7eb176cd5268361543960"
+        }
+      ]
+    },
+    {
+      "airport": "EGCC",
+      "year": "2021",
+      "rows": 1230,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 1227,
+      "new_decoded_rows": 1227,
+      "old_core_rows": 1230,
+      "new_core_rows": 1230,
+      "files": [
+        {
+          "path": "reports\\EGCC_2021_reports.parquet",
+          "sha256": "a68d33effe400c770e7e251596a760d5a2fd43253247b00413b42aafea384fdf"
+        },
+        {
+          "path": "features\\EGCC_2021_features.parquet",
+          "sha256": "9e7710a395bcb748da371955efe2f0ac714aff136b3b476f2de1f48edba019e8"
+        },
+        {
+          "path": "numeric_features\\EGCC_2021_features.parquet",
+          "sha256": "ae6cee7a6447adeacb4d006c7186047fe3e06188608545913cf94ddb764eeb77"
+        }
+      ]
+    },
+    {
+      "airport": "EGLL",
+      "year": "2019",
+      "rows": 218410,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 218311,
+      "new_decoded_rows": 218311,
+      "old_core_rows": 218388,
+      "new_core_rows": 218388,
+      "files": [
+        {
+          "path": "reports\\EGLL_2019_reports.parquet",
+          "sha256": "52fbd0632d8bdbc6a2bbad5eb10ad24a0a0c8b2195b6d7b2c02664b480cedb7d"
+        },
+        {
+          "path": "features\\EGLL_2019_features.parquet",
+          "sha256": "faf66f592a5a7e1c03ae577f96a308351098c662466a9ea18db64b40b251acbe"
+        },
+        {
+          "path": "numeric_features\\EGLL_2019_features.parquet",
+          "sha256": "a290784c047257e91f29e5ec3a720de70f3289ce7b4ecbf8ac29b9e623f23c21"
+        }
+      ]
+    },
+    {
+      "airport": "EGLL",
+      "year": "2020",
+      "rows": 95585,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 95524,
+      "new_decoded_rows": 95524,
+      "old_core_rows": 95581,
+      "new_core_rows": 95581,
+      "files": [
+        {
+          "path": "reports\\EGLL_2020_reports.parquet",
+          "sha256": "7d3407c4d9f0172225bb9c8f803e07273308bede2fc596babbe6e254dafd8d99"
+        },
+        {
+          "path": "features\\EGLL_2020_features.parquet",
+          "sha256": "1863ec0711b5dd07a09524c04e0137d9c18e2844145ac2b23e3689d6ac62b2c3"
+        },
+        {
+          "path": "numeric_features\\EGLL_2020_features.parquet",
+          "sha256": "add1d722c9cfc7b9d4adafc2ef443a3f3972fc1fed2637a9f683dea243191ff8"
+        }
+      ]
+    },
+    {
+      "airport": "EGLL",
+      "year": "2021",
+      "rows": 88747,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 88684,
+      "new_decoded_rows": 88684,
+      "old_core_rows": 88704,
+      "new_core_rows": 88704,
+      "files": [
+        {
+          "path": "reports\\EGLL_2021_reports.parquet",
+          "sha256": "4ed29d40ed74b230b14d623ea0ee7de1688ad45d0db5c647a5033bd1568fa42f"
+        },
+        {
+          "path": "features\\EGLL_2021_features.parquet",
+          "sha256": "2e069e714a7907282e8b68ffc134314a30bc333ff20f770e7024e703febe3650"
+        },
+        {
+          "path": "numeric_features\\EGLL_2021_features.parquet",
+          "sha256": "a196139adb8d6472a2ba38a74a3cc2e4d8d596aaffcc9402dea6aab0a65bb4a9"
+        }
+      ]
+    },
+    {
+      "airport": "EGLL",
+      "year": "2022",
+      "rows": 156855,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 156792,
+      "new_decoded_rows": 156792,
+      "old_core_rows": 156820,
+      "new_core_rows": 156820,
+      "files": [
+        {
+          "path": "reports\\EGLL_2022_reports.parquet",
+          "sha256": "3d1527cf724ddb2641a89196e66f5bf236b4e27d3e1f0a345c7674f938c463e0"
+        },
+        {
+          "path": "features\\EGLL_2022_features.parquet",
+          "sha256": "00c19c78f398163a6044dab3a2288d36041ec119846893ddb4e60eb06013f058"
+        },
+        {
+          "path": "numeric_features\\EGLL_2022_features.parquet",
+          "sha256": "6ee02e1b262e485092a699a89c2707c0a1c3c4b1696ef2fae170bc155b4c2314"
+        }
+      ]
+    },
+    {
+      "airport": "EGLL",
+      "year": "2023",
+      "rows": 72121,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 72109,
+      "new_decoded_rows": 72109,
+      "old_core_rows": 72111,
+      "new_core_rows": 72111,
+      "files": [
+        {
+          "path": "reports\\EGLL_2023_reports.parquet",
+          "sha256": "93cdd2ccff543762734cfba81904abd8113466f16d10d5390c803e7e061e2a4d"
+        },
+        {
+          "path": "features\\EGLL_2023_features.parquet",
+          "sha256": "0d3ac5fdd7d1890cc7a4423c3e460b2065fa7c0295f9bee75a14441ad523372c"
+        },
+        {
+          "path": "numeric_features\\EGLL_2023_features.parquet",
+          "sha256": "e795cb656f85af28c3272b542ecfeb27f1bf067cfe9ca8d7d97df975e927e2da"
+        }
+      ]
+    },
+    {
+      "airport": "EGSS",
+      "year": "2019",
+      "rows": 77944,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 77941,
+      "new_decoded_rows": 77941,
+      "old_core_rows": 77941,
+      "new_core_rows": 77941,
+      "files": [
+        {
+          "path": "reports\\EGSS_2019_reports.parquet",
+          "sha256": "9c8c2ade4135e92b1c9aa1a16a34c1b620b00768e5535b196e21e0b74e27337b"
+        },
+        {
+          "path": "features\\EGSS_2019_features.parquet",
+          "sha256": "2c602ced53926e080130f347f5fd11a71099f5e41743dbc23893acc6b8343a6d"
+        },
+        {
+          "path": "numeric_features\\EGSS_2019_features.parquet",
+          "sha256": "b254b93652b4790233b60ca7371c5ca69a9016ece7e8c3d5ca761ebfe3b55502"
+        }
+      ]
+    },
+    {
+      "airport": "EGSS",
+      "year": "2020",
+      "rows": 32849,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 32844,
+      "new_decoded_rows": 32844,
+      "old_core_rows": 32844,
+      "new_core_rows": 32844,
+      "files": [
+        {
+          "path": "reports\\EGSS_2020_reports.parquet",
+          "sha256": "bb4cd59404d8c5c679a33ced73772be378a2cb051aa0d03b2739d556eb3c87d2"
+        },
+        {
+          "path": "features\\EGSS_2020_features.parquet",
+          "sha256": "0cc8cb7388c9a9663f02707810a143a9e6648adc6e251e1989d1c1d74f07b4ef"
+        },
+        {
+          "path": "numeric_features\\EGSS_2020_features.parquet",
+          "sha256": "61bbd2f9a98a11d97e70752847f85333f0e2260f6252b430abc0167701feeaae"
+        }
+      ]
+    },
+    {
+      "airport": "EGSS",
+      "year": "2021",
+      "rows": 33575,
+      "target_messages": 1,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 33575,
+      "new_decoded_rows": 33575,
+      "old_core_rows": 33575,
+      "new_core_rows": 33575,
+      "files": [
+        {
+          "path": "reports\\EGSS_2021_reports.parquet",
+          "sha256": "ab4a1e99f2a1c8b9ce715ea1b589ea7d424b04b7a6c9f3a8207be221dbd2320b"
+        },
+        {
+          "path": "features\\EGSS_2021_features.parquet",
+          "sha256": "d71c38a93f0d47fa4439666ebd8059b2f623b44f6edf13c7a4c29f611f026404"
+        },
+        {
+          "path": "numeric_features\\EGSS_2021_features.parquet",
+          "sha256": "fbd0927fc42b37490a035614811dd77cbd69afd5db8fc11f4aa39d25b8ec1893"
+        }
+      ]
+    },
+    {
+      "airport": "EGSS",
+      "year": "2022",
+      "rows": 55050,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 55040,
+      "new_decoded_rows": 55040,
+      "old_core_rows": 55040,
+      "new_core_rows": 55040,
+      "files": [
+        {
+          "path": "reports\\EGSS_2022_reports.parquet",
+          "sha256": "b5db1de03efb6260844ee5585b2d5b77a3fd3d308ec0e1f9e21691356bfb36e6"
+        },
+        {
+          "path": "features\\EGSS_2022_features.parquet",
+          "sha256": "077b514187ea4dbccab98afac13c9f248fb960d8ae6e4cc1eb6f3669f80ead85"
+        },
+        {
+          "path": "numeric_features\\EGSS_2022_features.parquet",
+          "sha256": "b936f1ab85bc2ae87ca131ada6826a5ef0af255916ac7bc2b46c996c5b771b9f"
+        }
+      ]
+    },
+    {
+      "airport": "EGSS",
+      "year": "2023",
+      "rows": 21930,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 21930,
+      "new_decoded_rows": 21930,
+      "old_core_rows": 21930,
+      "new_core_rows": 21930,
+      "files": [
+        {
+          "path": "reports\\EGSS_2023_reports.parquet",
+          "sha256": "eed1d44e628e044e358c41b69365cdec4e9ea9fe30d77ea48383df346c794508"
+        },
+        {
+          "path": "features\\EGSS_2023_features.parquet",
+          "sha256": "efe549875d3a56d1bb3af61502e193c806d349f0083aa38b10bbc4497627ec07"
+        },
+        {
+          "path": "numeric_features\\EGSS_2023_features.parquet",
+          "sha256": "ebbeed2666f0b00f92e5e371b3163c3f05e13d9c1862f5ab4def040ef9c05976"
+        }
+      ]
+    },
+    {
+      "airport": "EHAM",
+      "year": "2019",
+      "rows": 184177,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 184142,
+      "new_decoded_rows": 184142,
+      "old_core_rows": 184147,
+      "new_core_rows": 184147,
+      "files": [
+        {
+          "path": "reports\\EHAM_2019_reports.parquet",
+          "sha256": "32bef3643e2630d518eb03a97e1b1cf6113b71b3fe300640f8c3a78ba0dd350f"
+        },
+        {
+          "path": "features\\EHAM_2019_features.parquet",
+          "sha256": "b5f3f7b01d180f4d04ee782a05002fd552ac5ff5bc3d114be30648d75e78431a"
+        },
+        {
+          "path": "numeric_features\\EHAM_2019_features.parquet",
+          "sha256": "412e428828e6dae745465b212d8e4ba6422d8e5b118a0a2ea8b51e12b2a20d7b"
+        }
+      ]
+    },
+    {
+      "airport": "EHAM",
+      "year": "2020",
+      "rows": 92058,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 92021,
+      "new_decoded_rows": 92021,
+      "old_core_rows": 92057,
+      "new_core_rows": 92057,
+      "files": [
+        {
+          "path": "reports\\EHAM_2020_reports.parquet",
+          "sha256": "7ef0fc990ce6d3ad5e4e3f89336986386fe46ee70952cbe665dacdd06ad7e2a5"
+        },
+        {
+          "path": "features\\EHAM_2020_features.parquet",
+          "sha256": "a8a6e956738fcd80a0fa464e053a3f1c31c572ebf103a1166c17ebf8d347d819"
+        },
+        {
+          "path": "numeric_features\\EHAM_2020_features.parquet",
+          "sha256": "a07c999906dc0761915475d40a74e225fa81a9e704bb819746d7acbf506093f9"
+        }
+      ]
+    },
+    {
+      "airport": "EHAM",
+      "year": "2021",
+      "rows": 115235,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 115156,
+      "new_decoded_rows": 115156,
+      "old_core_rows": 115158,
+      "new_core_rows": 115158,
+      "files": [
+        {
+          "path": "reports\\EHAM_2021_reports.parquet",
+          "sha256": "6a3562041f2075e1b669a1acf0bf68313af31155810ad8f47397b41d90b6fc96"
+        },
+        {
+          "path": "features\\EHAM_2021_features.parquet",
+          "sha256": "2c6f2d80d142f66ba03d32f2baad9a45ce94f29679add0c53e5e143f27f755c5"
+        },
+        {
+          "path": "numeric_features\\EHAM_2021_features.parquet",
+          "sha256": "df3acd14c5c4bbf99dea37dbe4e215381353b9a774034fba99c0723889a46171"
+        }
+      ]
+    },
+    {
+      "airport": "EHAM",
+      "year": "2022",
+      "rows": 158396,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 158357,
+      "new_decoded_rows": 158357,
+      "old_core_rows": 158357,
+      "new_core_rows": 158357,
+      "files": [
+        {
+          "path": "reports\\EHAM_2022_reports.parquet",
+          "sha256": "ddda1290637d81216a4fe81934180dc61341cd5d3f68d82d0d75acacd2b8eeff"
+        },
+        {
+          "path": "features\\EHAM_2022_features.parquet",
+          "sha256": "fda1f707adeeceb98069cc7ddc93bdff59a785a24a37f0576bc33cdc3a5f549d"
+        },
+        {
+          "path": "numeric_features\\EHAM_2022_features.parquet",
+          "sha256": "b3c5da3830422710bcd3761e553412ea464277c6ccbfffcf93910e55b539e195"
+        }
+      ]
+    },
+    {
+      "airport": "EHAM",
+      "year": "2023",
+      "rows": 11615,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 11615,
+      "new_decoded_rows": 11615,
+      "old_core_rows": 11615,
+      "new_core_rows": 11615,
+      "files": [
+        {
+          "path": "reports\\EHAM_2023_reports.parquet",
+          "sha256": "ee8ad75eaff5cc894c4fd30a73024dd3f43ac4e1b4d64bbf2b1331d14b3727c9"
+        },
+        {
+          "path": "features\\EHAM_2023_features.parquet",
+          "sha256": "14a533a3b7f4001c068d309729d07662cacbe827eca96954f7bcc8b1367127dd"
+        },
+        {
+          "path": "numeric_features\\EHAM_2023_features.parquet",
+          "sha256": "29dd6363a209150c9f135433d0d0dcb5319d04c8250f4b42df2a853cf86e889b"
+        }
+      ]
+    },
+    {
+      "airport": "EIDW",
+      "year": "2019",
+      "rows": 80395,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 80273,
+      "new_decoded_rows": 80273,
+      "old_core_rows": 80331,
+      "new_core_rows": 80331,
+      "files": [
+        {
+          "path": "reports\\EIDW_2019_reports.parquet",
+          "sha256": "1732ed06008a924bb68d5df0d22431437d9415499721d63bc47a0b2be319472f"
+        },
+        {
+          "path": "features\\EIDW_2019_features.parquet",
+          "sha256": "c2197190f4142c2f093a4758af255106db4e5c6a55123a146ac86ed83928e742"
+        },
+        {
+          "path": "numeric_features\\EIDW_2019_features.parquet",
+          "sha256": "5b13546ca533b3b05c6ad9809356ae8258ceebf787e509736274a90f0643b57e"
+        }
+      ]
+    },
+    {
+      "airport": "EIDW",
+      "year": "2020",
+      "rows": 36578,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 36541,
+      "new_decoded_rows": 36541,
+      "old_core_rows": 36556,
+      "new_core_rows": 36556,
+      "files": [
+        {
+          "path": "reports\\EIDW_2020_reports.parquet",
+          "sha256": "fa62d48d03afe8babdbc7a94fb6e6959567d624481d5b5307de751c2a8c7dfc7"
+        },
+        {
+          "path": "features\\EIDW_2020_features.parquet",
+          "sha256": "54f6b043ecc8bfbddb11a17488dec08a5ade9d6a6585c30d98c9ba5d553ef607"
+        },
+        {
+          "path": "numeric_features\\EIDW_2020_features.parquet",
+          "sha256": "8dd88893759fe13f8c715b5cfc2531ad3dfb05c3b2af8d1159d4999b76d24cca"
+        }
+      ]
+    },
+    {
+      "airport": "EIDW",
+      "year": "2021",
+      "rows": 38701,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 38579,
+      "new_decoded_rows": 38579,
+      "old_core_rows": 38589,
+      "new_core_rows": 38589,
+      "files": [
+        {
+          "path": "reports\\EIDW_2021_reports.parquet",
+          "sha256": "b46f6630e742320e22c6362ff69e6f1e55e2253ebe8b60fad720239a7918f18f"
+        },
+        {
+          "path": "features\\EIDW_2021_features.parquet",
+          "sha256": "ca84e62205aa2b755e61e770739d8a965f2f3158bed4f39adea50320d1f7cd35"
+        },
+        {
+          "path": "numeric_features\\EIDW_2021_features.parquet",
+          "sha256": "cb828b9954a03777efdd719bc8040ae71a5b42c052bb41bd4a631de5fb9d9fad"
+        }
+      ]
+    },
+    {
+      "airport": "EIDW",
+      "year": "2022",
+      "rows": 75671,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 75489,
+      "new_decoded_rows": 75489,
+      "old_core_rows": 75543,
+      "new_core_rows": 75543,
+      "files": [
+        {
+          "path": "reports\\EIDW_2022_reports.parquet",
+          "sha256": "9a0267142238c2713d036dcc8ac938607c114b4abb64f19d389a43e29bbc2b52"
+        },
+        {
+          "path": "features\\EIDW_2022_features.parquet",
+          "sha256": "3a6a5e8608ad4698a542ec63be8c63ca40f0d2fca35b93ba226f85d1cd1206f5"
+        },
+        {
+          "path": "numeric_features\\EIDW_2022_features.parquet",
+          "sha256": "5822b6d184576ee29708e98d50bb28e27ab68cf12289c5e28b5ea406a3f877ce"
+        }
+      ]
+    },
+    {
+      "airport": "EIDW",
+      "year": "2023",
+      "rows": 32534,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 32452,
+      "new_decoded_rows": 32452,
+      "old_core_rows": 32450,
+      "new_core_rows": 32450,
+      "files": [
+        {
+          "path": "reports\\EIDW_2023_reports.parquet",
+          "sha256": "18c33c60a6d0634882f01c203149bb70406d6ed84224df22fa44e7787c6a2145"
+        },
+        {
+          "path": "features\\EIDW_2023_features.parquet",
+          "sha256": "52337607dd7af55869e950c6165070cc940f8b42fea5b8f38e1b61684676b739"
+        },
+        {
+          "path": "numeric_features\\EIDW_2023_features.parquet",
+          "sha256": "7003a552db8d10ce67601a1b3f10e42ad446c7dcdf424f5913ce9dca9a6989ef"
+        }
+      ]
+    },
+    {
+      "airport": "EKCH",
+      "year": "2019",
+      "rows": 97694,
+      "target_messages": 1,
+      "linked_target_rows": 8,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 97436,
+      "new_decoded_rows": 97444,
+      "old_core_rows": 97637,
+      "new_core_rows": 97645,
+      "files": [
+        {
+          "path": "reports\\EKCH_2019_reports.parquet",
+          "sha256": "cfd4456ac238a0b56fd3111f128e6ada84ea9e678cac85f4a1b1cd4e6a4ba26d"
+        },
+        {
+          "path": "features\\EKCH_2019_features.parquet",
+          "sha256": "4b54e9faf585aa19e463187b305c7ca3fd1eaff76301454de4d5dcd5aaae8ab7"
+        },
+        {
+          "path": "numeric_features\\EKCH_2019_features.parquet",
+          "sha256": "90b85f6aa63bbece035b211a3c8116256d7f317413837da2d186142a15fe75f1"
+        }
+      ]
+    },
+    {
+      "airport": "EKCH",
+      "year": "2020",
+      "rows": 37844,
+      "target_messages": 1,
+      "linked_target_rows": 2,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 37814,
+      "new_decoded_rows": 37816,
+      "old_core_rows": 37832,
+      "new_core_rows": 37834,
+      "files": [
+        {
+          "path": "reports\\EKCH_2020_reports.parquet",
+          "sha256": "da0df83fbc79519418e7c3a5fd597b8cc3bc58ff09a315b0efc7d1d558be30fd"
+        },
+        {
+          "path": "features\\EKCH_2020_features.parquet",
+          "sha256": "9504ca346d700b580227b867a3539e782780abe7e9bdde8492bec63951e729cf"
+        },
+        {
+          "path": "numeric_features\\EKCH_2020_features.parquet",
+          "sha256": "dd8d22ac0e18f133966d0bb99c564146f66eb24c9b74e89a5ce183a8410ce2f1"
+        }
+      ]
+    },
+    {
+      "airport": "EKCH",
+      "year": "2021",
+      "rows": 41410,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 41332,
+      "new_decoded_rows": 41332,
+      "old_core_rows": 41381,
+      "new_core_rows": 41381,
+      "files": [
+        {
+          "path": "reports\\EKCH_2021_reports.parquet",
+          "sha256": "e094f8a201868874743bedc3eab2f0e0f9a5f52e5c89b6a3d25f6694aeae61fd"
+        },
+        {
+          "path": "features\\EKCH_2021_features.parquet",
+          "sha256": "46e163e2aba2fcc1b3e552462b6cd95e5c6d81feaf78a557d7d5d457ff247b5d"
+        },
+        {
+          "path": "numeric_features\\EKCH_2021_features.parquet",
+          "sha256": "fac856312dcc1f0174cdd3b18785412211a51e1280b9bb7070b3a0321ea93cad"
+        }
+      ]
+    },
+    {
+      "airport": "EKCH",
+      "year": "2022",
+      "rows": 62677,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 62607,
+      "new_decoded_rows": 62607,
+      "old_core_rows": 62645,
+      "new_core_rows": 62645,
+      "files": [
+        {
+          "path": "reports\\EKCH_2022_reports.parquet",
+          "sha256": "9b9aa9877d135b69223821c404d7354e86e65624fb26fc5950a9d8e6e323ab34"
+        },
+        {
+          "path": "features\\EKCH_2022_features.parquet",
+          "sha256": "2c7e06573e8744ecf649fafca043e205c200e57ea568431be5257048dcc93307"
+        },
+        {
+          "path": "numeric_features\\EKCH_2022_features.parquet",
+          "sha256": "9a89db14a24f5846285e8d62b05578e8b43be70d8f666b6368e32d496eeaf7bd"
+        }
+      ]
+    },
+    {
+      "airport": "EKCH",
+      "year": "2023",
+      "rows": 3647,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 3646,
+      "new_decoded_rows": 3646,
+      "old_core_rows": 3646,
+      "new_core_rows": 3646,
+      "files": [
+        {
+          "path": "reports\\EKCH_2023_reports.parquet",
+          "sha256": "281391f8365d4be62c3e15bc14facb58b4cc36a7cd3002e77a6e0fd47266954f"
+        },
+        {
+          "path": "features\\EKCH_2023_features.parquet",
+          "sha256": "28472c6452c9d57db5c84e3208c005311929d8eda1c6960f60fe100c2e8bd34e"
+        },
+        {
+          "path": "numeric_features\\EKCH_2023_features.parquet",
+          "sha256": "6e9bc9ffabdfa1857c7622c10c1b7cc0538772fec096c75e61348a18b89578dd"
+        }
+      ]
+    },
+    {
+      "airport": "EPWA",
+      "year": "2019",
+      "rows": 45176,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 45173,
+      "new_decoded_rows": 45173,
+      "old_core_rows": 45175,
+      "new_core_rows": 45175,
+      "files": [
+        {
+          "path": "reports\\EPWA_2019_reports.parquet",
+          "sha256": "53327871bb499334571e9c322153544aa930c56dc92cdaeab10b5bdafb4ec9e4"
+        },
+        {
+          "path": "features\\EPWA_2019_features.parquet",
+          "sha256": "31ca755444c13bb4e9d5ad7759a692070b9d9fd587c8ddf25e280eaeb45cb475"
+        },
+        {
+          "path": "numeric_features\\EPWA_2019_features.parquet",
+          "sha256": "52c61cd4b739eeef649a961b45b10f9bb2cfa8688d8a3cf313d7840c2e4546b1"
+        }
+      ]
+    },
+    {
+      "airport": "EPWA",
+      "year": "2020",
+      "rows": 26788,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 26775,
+      "new_decoded_rows": 26775,
+      "old_core_rows": 26775,
+      "new_core_rows": 26775,
+      "files": [
+        {
+          "path": "reports\\EPWA_2020_reports.parquet",
+          "sha256": "1656f0d28ed58d84468bbe7b52cd583e652d2ed05ff6e7b2f2360aeecdf7d981"
+        },
+        {
+          "path": "features\\EPWA_2020_features.parquet",
+          "sha256": "094720848f04751b06b7e6f69f12e2ebafacf164ed5a509f5d5748b4d11c274b"
+        },
+        {
+          "path": "numeric_features\\EPWA_2020_features.parquet",
+          "sha256": "68f0ff2df0983815adac60612f31a3227bdfb336712200f593de6cf65430151c"
+        }
+      ]
+    },
+    {
+      "airport": "EPWA",
+      "year": "2021",
+      "rows": 35079,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 35019,
+      "new_decoded_rows": 35019,
+      "old_core_rows": 35019,
+      "new_core_rows": 35019,
+      "files": [
+        {
+          "path": "reports\\EPWA_2021_reports.parquet",
+          "sha256": "081325aab480516a4743af310a163aa1fa01cf4c061a016b64d93ad2971df0a8"
+        },
+        {
+          "path": "features\\EPWA_2021_features.parquet",
+          "sha256": "505c685fab0776089aa502df9da5c3f67bb1793b30cffa2816198d5259a39494"
+        },
+        {
+          "path": "numeric_features\\EPWA_2021_features.parquet",
+          "sha256": "89c9337131bca5814fdb6201f49956a8ed4e70f1cd4827eb05ea8619efe0eb47"
+        }
+      ]
+    },
+    {
+      "airport": "EPWA",
+      "year": "2022",
+      "rows": 51109,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 51088,
+      "new_decoded_rows": 51088,
+      "old_core_rows": 51088,
+      "new_core_rows": 51088,
+      "files": [
+        {
+          "path": "reports\\EPWA_2022_reports.parquet",
+          "sha256": "b4e7528378312a770b2bab1cf1db0d3d911781901d12d9a85873d7de196a15ff"
+        },
+        {
+          "path": "features\\EPWA_2022_features.parquet",
+          "sha256": "57edda493b22e11fa35eef1c216b1f2e7fea3f1eb06c6d7103021e3e5b2315b0"
+        },
+        {
+          "path": "numeric_features\\EPWA_2022_features.parquet",
+          "sha256": "c5d756555d00a2cf7aab2519450637194fc7a88ce179270c9b20be41d453753e"
+        }
+      ]
+    },
+    {
+      "airport": "EPWA",
+      "year": "2023",
+      "rows": 19600,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 19600,
+      "new_decoded_rows": 19600,
+      "old_core_rows": 19600,
+      "new_core_rows": 19600,
+      "files": [
+        {
+          "path": "reports\\EPWA_2023_reports.parquet",
+          "sha256": "9fd691bb260b5e32570a1a9a64c9a10de99d7537793291e1879ee55bf125da23"
+        },
+        {
+          "path": "features\\EPWA_2023_features.parquet",
+          "sha256": "d2e8eaaa49b6f28930bf64db706d6b74164dba33e56672c09600eb97b8147bcd"
+        },
+        {
+          "path": "numeric_features\\EPWA_2023_features.parquet",
+          "sha256": "11da0e435381c56c4b366381b22c9a90c1edf4322cc3018005e56f447ac5433f"
+        }
+      ]
+    },
+    {
+      "airport": "ESSA",
+      "year": "2019",
+      "rows": 95368,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 95178,
+      "new_decoded_rows": 95178,
+      "old_core_rows": 95286,
+      "new_core_rows": 95286,
+      "files": [
+        {
+          "path": "reports\\ESSA_2019_reports.parquet",
+          "sha256": "d39885c8bf8de6c523035456b04bc125226bc251e4805ebe63ae1bf9c4e26c11"
+        },
+        {
+          "path": "features\\ESSA_2019_features.parquet",
+          "sha256": "f62fdc799938c42ea939dc7b5bbd5c31eca50aa284ade5dc9fc18908e293da6a"
+        },
+        {
+          "path": "numeric_features\\ESSA_2019_features.parquet",
+          "sha256": "a3a11e146a03abb74e2add8f356aba01cc3bf6c332ca3c64330c72196d067199"
+        }
+      ]
+    },
+    {
+      "airport": "ESSA",
+      "year": "2020",
+      "rows": 34633,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 34613,
+      "new_decoded_rows": 34613,
+      "old_core_rows": 34613,
+      "new_core_rows": 34613,
+      "files": [
+        {
+          "path": "reports\\ESSA_2020_reports.parquet",
+          "sha256": "9ec13170ce8c94b5fc81283dba6b09dea9ae8273ac7cef1c0a0279b727c77291"
+        },
+        {
+          "path": "features\\ESSA_2020_features.parquet",
+          "sha256": "1c2cda255c8b097f7835f366cc2069ea6cbc0c3806dac17772f878783aefb763"
+        },
+        {
+          "path": "numeric_features\\ESSA_2020_features.parquet",
+          "sha256": "ba4a1891301a5c0dc97f09d3d3068e326d931ef2cfa398e2118454b959c24c9c"
+        }
+      ]
+    },
+    {
+      "airport": "ESSA",
+      "year": "2021",
+      "rows": 34673,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 34591,
+      "new_decoded_rows": 34591,
+      "old_core_rows": 34647,
+      "new_core_rows": 34647,
+      "files": [
+        {
+          "path": "reports\\ESSA_2021_reports.parquet",
+          "sha256": "26e61203e496fcc89359518ac62a1b35132c7dbf8dff142921cdb0816b6e8071"
+        },
+        {
+          "path": "features\\ESSA_2021_features.parquet",
+          "sha256": "79afe6ab71b1564bfd899ca5c4ff177d12a835d5565ab5b3cd95e2556e803e1d"
+        },
+        {
+          "path": "numeric_features\\ESSA_2021_features.parquet",
+          "sha256": "fe6ad96ad7cf0cdad22bc411f02445d967076260df184e8f1c444801712f7785"
+        }
+      ]
+    },
+    {
+      "airport": "ESSA",
+      "year": "2022",
+      "rows": 55798,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 55753,
+      "new_decoded_rows": 55753,
+      "old_core_rows": 55773,
+      "new_core_rows": 55773,
+      "files": [
+        {
+          "path": "reports\\ESSA_2022_reports.parquet",
+          "sha256": "4a746b22c9cc24b33defab34e6e4a9960493237df4a8de0e0f69f0dec0440289"
+        },
+        {
+          "path": "features\\ESSA_2022_features.parquet",
+          "sha256": "cbd31e07172d1f1c38cbcfa4563489fac2c0809cf97f8cafe88c4ecafe3e4e22"
+        },
+        {
+          "path": "numeric_features\\ESSA_2022_features.parquet",
+          "sha256": "d8f9a88f6df49f8b1995a7ddf18e8a341a724ed04c65340697bfcf0229abd35c"
+        }
+      ]
+    },
+    {
+      "airport": "ESSA",
+      "year": "2023",
+      "rows": 23351,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 23329,
+      "new_decoded_rows": 23329,
+      "old_core_rows": 23333,
+      "new_core_rows": 23333,
+      "files": [
+        {
+          "path": "reports\\ESSA_2023_reports.parquet",
+          "sha256": "adbe4e95b614de784d497998f39ad51d85201a38889b7a4538841f1ecab20530"
+        },
+        {
+          "path": "features\\ESSA_2023_features.parquet",
+          "sha256": "0a24293adb6d6785683f0b4c706edf2a7e9725472e6ac897b7cc57ef21501082"
+        },
+        {
+          "path": "numeric_features\\ESSA_2023_features.parquet",
+          "sha256": "4ad9cf9a4cf3ddd15df3bdc16c3606037467fa15c701b0f3342cd2b4cbbce944"
+        }
+      ]
+    },
+    {
+      "airport": "LEMD",
+      "year": "2019",
+      "rows": 166569,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 166224,
+      "new_decoded_rows": 166224,
+      "old_core_rows": 166410,
+      "new_core_rows": 166410,
+      "files": [
+        {
+          "path": "reports\\LEMD_2019_reports.parquet",
+          "sha256": "db8db06282134e7a5d49ccd5ee4cb5219c7e72823c4f0e20a5572466b1a9fe09"
+        },
+        {
+          "path": "features\\LEMD_2019_features.parquet",
+          "sha256": "90fcd18398c20185bcf47e2c2dbd92019ba9703f8802c66e6cce8c4c2b54e671"
+        },
+        {
+          "path": "numeric_features\\LEMD_2019_features.parquet",
+          "sha256": "0d3082068195325988d0008358b733f30f3ac5a6305b3e3d7122e524af67671e"
+        }
+      ]
+    },
+    {
+      "airport": "LEMD",
+      "year": "2020",
+      "rows": 63866,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 63756,
+      "new_decoded_rows": 63756,
+      "old_core_rows": 63802,
+      "new_core_rows": 63802,
+      "files": [
+        {
+          "path": "reports\\LEMD_2020_reports.parquet",
+          "sha256": "a1bbfeb6b8b2a3710e6d1d1c6225ee04b85230daf69cfc545b4d1d3eba9d00ab"
+        },
+        {
+          "path": "features\\LEMD_2020_features.parquet",
+          "sha256": "53ea271d95edabfcd9e4d6947c285561cb466b764538ea800eb501da278bec9b"
+        },
+        {
+          "path": "numeric_features\\LEMD_2020_features.parquet",
+          "sha256": "255c658bfc364e0d9f731d5652e091bc207d7da5c0a2393e88de0ee1bb2192cb"
+        }
+      ]
+    },
+    {
+      "airport": "LEMD",
+      "year": "2021",
+      "rows": 93002,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 92643,
+      "new_decoded_rows": 92643,
+      "old_core_rows": 92658,
+      "new_core_rows": 92658,
+      "files": [
+        {
+          "path": "reports\\LEMD_2021_reports.parquet",
+          "sha256": "d80290a2830c376b108dfaa1461037c02591fc339f639a417d238e9bf590552a"
+        },
+        {
+          "path": "features\\LEMD_2021_features.parquet",
+          "sha256": "17be9acf542dbbe932690bb0912510573d133dd0009548c085f9e519bfcf88b6"
+        },
+        {
+          "path": "numeric_features\\LEMD_2021_features.parquet",
+          "sha256": "2cd97bb975d9849dec7fd341a96c9aae66690765a3129674ae1f3f2a51fb69bc"
+        }
+      ]
+    },
+    {
+      "airport": "LEMD",
+      "year": "2022",
+      "rows": 134761,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 134703,
+      "new_decoded_rows": 134703,
+      "old_core_rows": 134703,
+      "new_core_rows": 134703,
+      "files": [
+        {
+          "path": "reports\\LEMD_2022_reports.parquet",
+          "sha256": "af013a87845932393e0f43391ffe9b7ff224cb9b18bcdcea42733702005ffcb9"
+        },
+        {
+          "path": "features\\LEMD_2022_features.parquet",
+          "sha256": "a478720fcf13d4cec48f813e661281a24cdc80f48625b7e573077288e789c149"
+        },
+        {
+          "path": "numeric_features\\LEMD_2022_features.parquet",
+          "sha256": "71d09b63d95af4c833fdf03de82b4f6789054c2f4b90947975c930bcdd85fd76"
+        }
+      ]
+    },
+    {
+      "airport": "LEMD",
+      "year": "2023",
+      "rows": 56846,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 56846,
+      "new_decoded_rows": 56846,
+      "old_core_rows": 56846,
+      "new_core_rows": 56846,
+      "files": [
+        {
+          "path": "reports\\LEMD_2023_reports.parquet",
+          "sha256": "d73709cec395b3a8b6abf5cf3f82396af8b132b5564cc37ed6ee747f7c1f1cce"
+        },
+        {
+          "path": "features\\LEMD_2023_features.parquet",
+          "sha256": "ade4949cae56a6a58b59b4c033c5fff9c9e61b9a3cc8dde23bc179c57549ea1a"
+        },
+        {
+          "path": "numeric_features\\LEMD_2023_features.parquet",
+          "sha256": "93d5629c2d007df5aac3afb04f3ae52168eebfbb217cdea5979b15cbcd58c500"
+        }
+      ]
+    },
+    {
+      "airport": "LFPG",
+      "year": "2019",
+      "rows": 196950,
+      "target_messages": 9,
+      "linked_target_rows": 139,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 196721,
+      "new_decoded_rows": 196860,
+      "old_core_rows": 196748,
+      "new_core_rows": 196887,
+      "files": [
+        {
+          "path": "reports\\LFPG_2019_reports.parquet",
+          "sha256": "3c7e39e2b2c08aa083d42d76b18cd333cc05ac5ec3b70b84aee2bdc7a0efb356"
+        },
+        {
+          "path": "features\\LFPG_2019_features.parquet",
+          "sha256": "07e3440c31463c609e01b731f3597693e4c238126947bdea395ee42efb4f6c12"
+        },
+        {
+          "path": "numeric_features\\LFPG_2019_features.parquet",
+          "sha256": "1b80bf1f0ea7c42fbc55fccce41a90c55d533d0f0a7acd298a82897f74a4d618"
+        }
+      ]
+    },
+    {
+      "airport": "LFPG",
+      "year": "2020",
+      "rows": 92471,
+      "target_messages": 386,
+      "linked_target_rows": 850,
+      "linked_target_go_arounds": 5,
+      "old_decoded_rows": 91593,
+      "new_decoded_rows": 92443,
+      "old_core_rows": 91593,
+      "new_core_rows": 92443,
+      "files": [
+        {
+          "path": "reports\\LFPG_2020_reports.parquet",
+          "sha256": "085a344816e124a96f1bdca00f242515f23b6c83e4202b1bd21baa0666390ec0"
+        },
+        {
+          "path": "features\\LFPG_2020_features.parquet",
+          "sha256": "3119126c5ef8d49286151da8895dabfb578e9564b7d3386618e6685a60836db1"
+        },
+        {
+          "path": "numeric_features\\LFPG_2020_features.parquet",
+          "sha256": "3b9673310af673003737ee26be9b93ef2a5e50741cfc31f9c014f38ac15cfa6f"
+        }
+      ]
+    },
+    {
+      "airport": "LFPG",
+      "year": "2021",
+      "rows": 106498,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 106462,
+      "new_decoded_rows": 106462,
+      "old_core_rows": 106469,
+      "new_core_rows": 106469,
+      "files": [
+        {
+          "path": "reports\\LFPG_2021_reports.parquet",
+          "sha256": "39980cce696f68bd1b06d741602a7264d9871a8e94c50f48c25288a438762b35"
+        },
+        {
+          "path": "features\\LFPG_2021_features.parquet",
+          "sha256": "83247c29b5ec1e0fea490a1d742072c6aa5e517303c1d1ec61b5dc9203654a69"
+        },
+        {
+          "path": "numeric_features\\LFPG_2021_features.parquet",
+          "sha256": "3a983bb9b89d851c633739e53b62ca4cbe51b6d41cea3526cfe9ba49b5f56418"
+        }
+      ]
+    },
+    {
+      "airport": "LFPG",
+      "year": "2022",
+      "rows": 155753,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 155652,
+      "new_decoded_rows": 155652,
+      "old_core_rows": 155654,
+      "new_core_rows": 155654,
+      "files": [
+        {
+          "path": "reports\\LFPG_2022_reports.parquet",
+          "sha256": "20341eaf2995a1f1c20e859e1a8875b7268e8fa38cbe08bbb1cb4717f57e88d7"
+        },
+        {
+          "path": "features\\LFPG_2022_features.parquet",
+          "sha256": "e450b024b877df2bcb35931d3d5e6e99e285f10e294de341ae8a0150f7601940"
+        },
+        {
+          "path": "numeric_features\\LFPG_2022_features.parquet",
+          "sha256": "bb11c6c2c4837c5367c3cc68459d8f7b182764e25ded0977a086e3f70dda3d21"
+        }
+      ]
+    },
+    {
+      "airport": "LFPG",
+      "year": "2023",
+      "rows": 65890,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 65890,
+      "new_decoded_rows": 65890,
+      "old_core_rows": 65890,
+      "new_core_rows": 65890,
+      "files": [
+        {
+          "path": "reports\\LFPG_2023_reports.parquet",
+          "sha256": "1ce6d0173c60ce197ce974cc3ec267a2d083c9e9a672ea5149fd0ac71d641255"
+        },
+        {
+          "path": "features\\LFPG_2023_features.parquet",
+          "sha256": "b684d18c2f6927bad605a721bd5a043af8f89cd419db60c7a730b732f16a572b"
+        },
+        {
+          "path": "numeric_features\\LFPG_2023_features.parquet",
+          "sha256": "a0a57a76e8042cf1bbcfe54697d83a27ee0f82ba8da0ec8b0f66590b0545f769"
+        }
+      ]
+    },
+    {
+      "airport": "LFPO",
+      "year": "2019",
+      "rows": 68925,
+      "target_messages": 1,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 68890,
+      "new_decoded_rows": 68890,
+      "old_core_rows": 68890,
+      "new_core_rows": 68890,
+      "files": [
+        {
+          "path": "reports\\LFPO_2019_reports.parquet",
+          "sha256": "6f0356d46711cf52ca2db02882e17b9a7c8949eac45822d2962655214f3dd681"
+        },
+        {
+          "path": "features\\LFPO_2019_features.parquet",
+          "sha256": "14af27d84ff8cdbb97759a4e648bfa22c787a8a59596b959b49a7f2c0cfc95bf"
+        },
+        {
+          "path": "numeric_features\\LFPO_2019_features.parquet",
+          "sha256": "29e01b7a4d015c42a5c84303e4270bd6d3cac4e2c7cb7925f14bf2a41224568c"
+        }
+      ]
+    },
+    {
+      "airport": "LFPO",
+      "year": "2020",
+      "rows": 31014,
+      "target_messages": 368,
+      "linked_target_rows": 34,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 30932,
+      "new_decoded_rows": 30966,
+      "old_core_rows": 30932,
+      "new_core_rows": 30966,
+      "files": [
+        {
+          "path": "reports\\LFPO_2020_reports.parquet",
+          "sha256": "6b55e9850f9e74662b1beca110989680ab13177c633a5036a63a68f034a39ade"
+        },
+        {
+          "path": "features\\LFPO_2020_features.parquet",
+          "sha256": "5beecbe185de95e6a7072cdfdea1fe692f5b1112a57d50b3e90f836c3782efa9"
+        },
+        {
+          "path": "numeric_features\\LFPO_2020_features.parquet",
+          "sha256": "3ae2f549fd80b8206a1abc58f4afced90017939a48c1772ff6fff6d39693e7d6"
+        }
+      ]
+    },
+    {
+      "airport": "LFPO",
+      "year": "2021",
+      "rows": 44865,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 44813,
+      "new_decoded_rows": 44813,
+      "old_core_rows": 44813,
+      "new_core_rows": 44813,
+      "files": [
+        {
+          "path": "reports\\LFPO_2021_reports.parquet",
+          "sha256": "f2cf14aedaa4f048643472428e468c817d074e9a31267e826bff52d6cd01fc5a"
+        },
+        {
+          "path": "features\\LFPO_2021_features.parquet",
+          "sha256": "61c9df2d52c4669cd66ff54cb896b2e2ff4a3eaa28139ac24d9a927fcd636175"
+        },
+        {
+          "path": "numeric_features\\LFPO_2021_features.parquet",
+          "sha256": "42c873f13097e015d1d26efb3378e6142ff29d4019d0df87cd95751adbdc68db"
+        }
+      ]
+    },
+    {
+      "airport": "LFPO",
+      "year": "2022",
+      "rows": 65840,
+      "target_messages": 102,
+      "linked_target_rows": 170,
+      "linked_target_go_arounds": 2,
+      "old_decoded_rows": 65567,
+      "new_decoded_rows": 65737,
+      "old_core_rows": 65576,
+      "new_core_rows": 65746,
+      "files": [
+        {
+          "path": "reports\\LFPO_2022_reports.parquet",
+          "sha256": "b9577213a1b5540741fbd83f5761ab65c170790cc551ee12f5e0cd26565194d3"
+        },
+        {
+          "path": "features\\LFPO_2022_features.parquet",
+          "sha256": "93528f1d4928025b9cd0ba0712b643c3b11072673301631e983682dcb6dd205b"
+        },
+        {
+          "path": "numeric_features\\LFPO_2022_features.parquet",
+          "sha256": "04bc32fbb9e2b85a873cf5d7244c20354f8fdcdbb2f94d5093b3867d4fe97573"
+        }
+      ]
+    },
+    {
+      "airport": "LFPO",
+      "year": "2023",
+      "rows": 25959,
+      "target_messages": 1,
+      "linked_target_rows": 11,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 25935,
+      "new_decoded_rows": 25946,
+      "old_core_rows": 25935,
+      "new_core_rows": 25946,
+      "files": [
+        {
+          "path": "reports\\LFPO_2023_reports.parquet",
+          "sha256": "de866a5cbca8f671d9265ea1c2171798f9d3ae0e00b66400ad100d4e041b46fb"
+        },
+        {
+          "path": "features\\LFPO_2023_features.parquet",
+          "sha256": "a9b599097d2c03b8620a9792013c2887927cc6c3c570c83db9175874992532ec"
+        },
+        {
+          "path": "numeric_features\\LFPO_2023_features.parquet",
+          "sha256": "744c791551d22c0de9c1eba6e64018085bf25250b843a000b58f3f012d0d7403"
+        }
+      ]
+    },
+    {
+      "airport": "LIMC",
+      "year": "2019",
+      "rows": 56888,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 56757,
+      "new_decoded_rows": 56757,
+      "old_core_rows": 56846,
+      "new_core_rows": 56846,
+      "files": [
+        {
+          "path": "reports\\LIMC_2019_reports.parquet",
+          "sha256": "ae80e6b38d5330bc1dc3898e18a935fb2e27c00bcd56f538063918ee78dd764d"
+        },
+        {
+          "path": "features\\LIMC_2019_features.parquet",
+          "sha256": "3fcc468e10e83cf4e817d2132058a505ac3db61c203a5bbb11e3ab0abf798112"
+        },
+        {
+          "path": "numeric_features\\LIMC_2019_features.parquet",
+          "sha256": "a1397c2fc11dbcf75e5025fd5c948015dd66d9f745b73827f5b2f4af1c140187"
+        }
+      ]
+    },
+    {
+      "airport": "LIMC",
+      "year": "2020",
+      "rows": 29983,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 29876,
+      "new_decoded_rows": 29876,
+      "old_core_rows": 29905,
+      "new_core_rows": 29905,
+      "files": [
+        {
+          "path": "reports\\LIMC_2020_reports.parquet",
+          "sha256": "4c23f2fe2acc9276980c4cabd7427a0e2c6d9fdc5ff85e21f4bfd8ce27ece4e0"
+        },
+        {
+          "path": "features\\LIMC_2020_features.parquet",
+          "sha256": "bce0fe2f53f3f7c54fbcd8102f7508701ccb52158f2e8b75816371eb54e5a57f"
+        },
+        {
+          "path": "numeric_features\\LIMC_2020_features.parquet",
+          "sha256": "ecec4c865a94df97841febd2269efec5ac8c96477414d1eeeb22232287acc7a5"
+        }
+      ]
+    },
+    {
+      "airport": "LIMC",
+      "year": "2021",
+      "rows": 37278,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 37173,
+      "new_decoded_rows": 37173,
+      "old_core_rows": 37201,
+      "new_core_rows": 37201,
+      "files": [
+        {
+          "path": "reports\\LIMC_2021_reports.parquet",
+          "sha256": "0cf6ea5926802c78a6f89081165de28db0707e129b3ff74911ae9b8b82a70277"
+        },
+        {
+          "path": "features\\LIMC_2021_features.parquet",
+          "sha256": "2a280baf92ad2a7fc327aeb0ace533361468693ada074805000b54049a57bfda"
+        },
+        {
+          "path": "numeric_features\\LIMC_2021_features.parquet",
+          "sha256": "f3a0d1c8332a758f5ef6d571d7aec9b5d94584c6e319dd8a44bbd05cd4d9fcf2"
+        }
+      ]
+    },
+    {
+      "airport": "LIMC",
+      "year": "2022",
+      "rows": 52641,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 52498,
+      "new_decoded_rows": 52498,
+      "old_core_rows": 52528,
+      "new_core_rows": 52528,
+      "files": [
+        {
+          "path": "reports\\LIMC_2022_reports.parquet",
+          "sha256": "4226a2d11493bca58b6cbd84afbdd6d108cb82919457a8af510ca0f65915a643"
+        },
+        {
+          "path": "features\\LIMC_2022_features.parquet",
+          "sha256": "a9a7c7426da944feefd8c763b54ed66362026f009f25300265f054dc3f69d033"
+        },
+        {
+          "path": "numeric_features\\LIMC_2022_features.parquet",
+          "sha256": "846c1c9f57d9c69ed76e637eae40d74cc5b23dff50c899858c5ecbaf6c6108d5"
+        }
+      ]
+    },
+    {
+      "airport": "LIMC",
+      "year": "2023",
+      "rows": 19607,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 19601,
+      "new_decoded_rows": 19601,
+      "old_core_rows": 19605,
+      "new_core_rows": 19605,
+      "files": [
+        {
+          "path": "reports\\LIMC_2023_reports.parquet",
+          "sha256": "6c5458337f03a906e19f3c765d038c4aa9271e68e494abe041b5d14ee311b016"
+        },
+        {
+          "path": "features\\LIMC_2023_features.parquet",
+          "sha256": "177783d1219a4f8726946523b09e74f76b54a96afdd1053f52df5fac91fee01b"
+        },
+        {
+          "path": "numeric_features\\LIMC_2023_features.parquet",
+          "sha256": "64991d2385e469555122569173b7fbae0541f9c8e072ea09db8859300087a82d"
+        }
+      ]
+    },
+    {
+      "airport": "LIRF",
+      "year": "2019",
+      "rows": 129063,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 128377,
+      "new_decoded_rows": 128377,
+      "old_core_rows": 128935,
+      "new_core_rows": 128935,
+      "files": [
+        {
+          "path": "reports\\LIRF_2019_reports.parquet",
+          "sha256": "03e31e0538a485d9aa53c73b0f9cdb29a320216359f477658514ea18c4717e81"
+        },
+        {
+          "path": "features\\LIRF_2019_features.parquet",
+          "sha256": "0332fc9c9827f10ef112afc223c146d4fbd3f1f68f92bf40d6289330ca94cc5b"
+        },
+        {
+          "path": "numeric_features\\LIRF_2019_features.parquet",
+          "sha256": "f4ad9ed4f288ffca935c41288d77c950fd310e02bf7bcfa76351055ae054ee38"
+        }
+      ]
+    },
+    {
+      "airport": "LIRF",
+      "year": "2020",
+      "rows": 43867,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 43721,
+      "new_decoded_rows": 43721,
+      "old_core_rows": 43782,
+      "new_core_rows": 43782,
+      "files": [
+        {
+          "path": "reports\\LIRF_2020_reports.parquet",
+          "sha256": "6d863b9932d1d2ef3005e3fb90f5584fbe9972eccf179d34e45589baac6cb796"
+        },
+        {
+          "path": "features\\LIRF_2020_features.parquet",
+          "sha256": "12fca29331f3723bbdbf877ddec8a34d4a62449676d9c8e6498065ac90a8f1b6"
+        },
+        {
+          "path": "numeric_features\\LIRF_2020_features.parquet",
+          "sha256": "306b6c2c71b47733c1a83fb6e766e51e63a267b37e5e694644143f999c865b84"
+        }
+      ]
+    },
+    {
+      "airport": "LIRF",
+      "year": "2021",
+      "rows": 45088,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 44958,
+      "new_decoded_rows": 44958,
+      "old_core_rows": 44977,
+      "new_core_rows": 44977,
+      "files": [
+        {
+          "path": "reports\\LIRF_2021_reports.parquet",
+          "sha256": "cdd5aab6788a4068ad2c1feefddcad226917710c60d42c48a3dced62e98d1daf"
+        },
+        {
+          "path": "features\\LIRF_2021_features.parquet",
+          "sha256": "bb9e0e818c1fd35ff62ac2a1ac4a733a2694f4ab942f7e2710804d2802c028f8"
+        },
+        {
+          "path": "numeric_features\\LIRF_2021_features.parquet",
+          "sha256": "29eab66725f016d7b30547842d9caa496dfa8b46c9e745900cd903d55daab445"
+        }
+      ]
+    },
+    {
+      "airport": "LIRF",
+      "year": "2022",
+      "rows": 74160,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 73952,
+      "new_decoded_rows": 73952,
+      "old_core_rows": 74005,
+      "new_core_rows": 74005,
+      "files": [
+        {
+          "path": "reports\\LIRF_2022_reports.parquet",
+          "sha256": "7c01ae1762f6cb8d8849e84e0406ab5f7a4dfdc7a4f806f82881ee305213cd7d"
+        },
+        {
+          "path": "features\\LIRF_2022_features.parquet",
+          "sha256": "b714e9714e7e3f2d5e7ce31a61e6395eb7a4b053d1427fb2324cc8edd2286850"
+        },
+        {
+          "path": "numeric_features\\LIRF_2022_features.parquet",
+          "sha256": "10f2cd4a051cc2c0cf1df66647a7de1d4123201862c739fc0f59c772bc53527f"
+        }
+      ]
+    },
+    {
+      "airport": "LIRF",
+      "year": "2023",
+      "rows": 30571,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 30524,
+      "new_decoded_rows": 30524,
+      "old_core_rows": 30561,
+      "new_core_rows": 30561,
+      "files": [
+        {
+          "path": "reports\\LIRF_2023_reports.parquet",
+          "sha256": "c54d7c2aab1c228392a0c507906b9f06b38c18e806fc292861f12d02eb00aa65"
+        },
+        {
+          "path": "features\\LIRF_2023_features.parquet",
+          "sha256": "2e3f8b73a0b809f22704c7569e056f7b82f0dcdd78d760376bf849adbf458797"
+        },
+        {
+          "path": "numeric_features\\LIRF_2023_features.parquet",
+          "sha256": "0d121f3f8998a378259f07532d27f967e2d0419ca5e27f76a59cdb5712648441"
+        }
+      ]
+    },
+    {
+      "airport": "LOWW",
+      "year": "2019",
+      "rows": 102830,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 102724,
+      "new_decoded_rows": 102724,
+      "old_core_rows": 102724,
+      "new_core_rows": 102724,
+      "files": [
+        {
+          "path": "reports\\LOWW_2019_reports.parquet",
+          "sha256": "32f507a3806effd679dcc75dc659dc1d29cf4715815d127db1baf141cda37af5"
+        },
+        {
+          "path": "features\\LOWW_2019_features.parquet",
+          "sha256": "a77072d0494ddaa55a7c0d69b1abf9e59178653378b1fe4effd50e48420382db"
+        },
+        {
+          "path": "numeric_features\\LOWW_2019_features.parquet",
+          "sha256": "4ef56f1f9ca49f2fa923f3717e10acebcf0bda6f0205a580db871346bdf0a65a"
+        }
+      ]
+    },
+    {
+      "airport": "LOWW",
+      "year": "2020",
+      "rows": 38551,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 38344,
+      "new_decoded_rows": 38344,
+      "old_core_rows": 38344,
+      "new_core_rows": 38344,
+      "files": [
+        {
+          "path": "reports\\LOWW_2020_reports.parquet",
+          "sha256": "88248bce2637395fa66980c056b9ad10b2dac1e3da58f8776e473f289b97584f"
+        },
+        {
+          "path": "features\\LOWW_2020_features.parquet",
+          "sha256": "79ad14978bf972eb511d73814e68dff14caaf8f091bd85d5785c57fd852f1fc1"
+        },
+        {
+          "path": "numeric_features\\LOWW_2020_features.parquet",
+          "sha256": "3b6742f5b16382fef64b11d6e737ff8dd01fbbb19be7bde08db2465848b4c89e"
+        }
+      ]
+    },
+    {
+      "airport": "LOWW",
+      "year": "2021",
+      "rows": 49106,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 49073,
+      "new_decoded_rows": 49073,
+      "old_core_rows": 49073,
+      "new_core_rows": 49073,
+      "files": [
+        {
+          "path": "reports\\LOWW_2021_reports.parquet",
+          "sha256": "ff9018f23b6d7a9c79513359c468cf47390b82f0310ab2bbbc3e067ad7c7f697"
+        },
+        {
+          "path": "features\\LOWW_2021_features.parquet",
+          "sha256": "c3312f08be1b94dcbcfaf25c1043504faeca4215b2d49b1b4f8108d1c3e0bb36"
+        },
+        {
+          "path": "numeric_features\\LOWW_2021_features.parquet",
+          "sha256": "ab9ceb82db479fadc26119c7dcf3f92bc8cb92d9bdcea54a4632f8b272bee1bf"
+        }
+      ]
+    },
+    {
+      "airport": "LOWW",
+      "year": "2022",
+      "rows": 72226,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 72209,
+      "new_decoded_rows": 72209,
+      "old_core_rows": 72209,
+      "new_core_rows": 72209,
+      "files": [
+        {
+          "path": "reports\\LOWW_2022_reports.parquet",
+          "sha256": "1cb0625d9e85b434361800c54e5222b7abad082a48a8df149f41d9a8c0117ea8"
+        },
+        {
+          "path": "features\\LOWW_2022_features.parquet",
+          "sha256": "02c7b5121f6e6c981e787c8d54f59916237129e934cbe562d3ec74a59132d039"
+        },
+        {
+          "path": "numeric_features\\LOWW_2022_features.parquet",
+          "sha256": "b851c3861e8f76ad0e571ff21b02b253c67dcf7ab394ee763d9f1a3e0cf39be3"
+        }
+      ]
+    },
+    {
+      "airport": "LOWW",
+      "year": "2023",
+      "rows": 30865,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 30865,
+      "new_decoded_rows": 30865,
+      "old_core_rows": 30865,
+      "new_core_rows": 30865,
+      "files": [
+        {
+          "path": "reports\\LOWW_2023_reports.parquet",
+          "sha256": "973b4fbce9a269c65d62e8e82efa950df544b1aac05d7309bb4d5edc85fcbbdb"
+        },
+        {
+          "path": "features\\LOWW_2023_features.parquet",
+          "sha256": "1992208f6701fb69a753083d030919f06744bd5e51994217e1e665c09c7dee55"
+        },
+        {
+          "path": "numeric_features\\LOWW_2023_features.parquet",
+          "sha256": "db550646b0bd24830cba52bb0f4b77614acc9488f5aa16313c8f664b18bf239c"
+        }
+      ]
+    },
+    {
+      "airport": "LSGG",
+      "year": "2019",
+      "rows": 68810,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 68810,
+      "new_decoded_rows": 68810,
+      "old_core_rows": 68810,
+      "new_core_rows": 68810,
+      "files": [
+        {
+          "path": "reports\\LSGG_2019_reports.parquet",
+          "sha256": "add462412502d1cd77ae194ce66705d8c91d8d95bf69f7f3b7be6c30b50e6305"
+        },
+        {
+          "path": "features\\LSGG_2019_features.parquet",
+          "sha256": "d27eae00208a1b7ef5070cf5eb359239fa94510e6db3051e4e0c7760f50e7f3a"
+        },
+        {
+          "path": "numeric_features\\LSGG_2019_features.parquet",
+          "sha256": "6e10c6df8513a916e9b4af7257aa3e613969c66f71d311b7fae0e7ebbf6cd2b9"
+        }
+      ]
+    },
+    {
+      "airport": "LSGG",
+      "year": "2020",
+      "rows": 30391,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 30389,
+      "new_decoded_rows": 30389,
+      "old_core_rows": 30391,
+      "new_core_rows": 30391,
+      "files": [
+        {
+          "path": "reports\\LSGG_2020_reports.parquet",
+          "sha256": "74e5954a52501f6523af42c32bd07e673c430fc6923e2cb9328d8388562e051c"
+        },
+        {
+          "path": "features\\LSGG_2020_features.parquet",
+          "sha256": "245dd28310d62185662bdf1a5863e458467a9a514faf078d1645f1240043741a"
+        },
+        {
+          "path": "numeric_features\\LSGG_2020_features.parquet",
+          "sha256": "c03e2dea4135096898281a3c45609c9393711d9a819aadf466ee077282cdb018"
+        }
+      ]
+    },
+    {
+      "airport": "LSGG",
+      "year": "2021",
+      "rows": 34183,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 34157,
+      "new_decoded_rows": 34157,
+      "old_core_rows": 34183,
+      "new_core_rows": 34183,
+      "files": [
+        {
+          "path": "reports\\LSGG_2021_reports.parquet",
+          "sha256": "37732e9cbb0f16caadb26f4e96242ede33c5dbd255efd708e617268968723528"
+        },
+        {
+          "path": "features\\LSGG_2021_features.parquet",
+          "sha256": "f69d3459160749105dcce3689bf759d35bc1989a7688daad3492902e08f53b31"
+        },
+        {
+          "path": "numeric_features\\LSGG_2021_features.parquet",
+          "sha256": "70d131c5e66e63a5553487e9efa7919ff08a88201731e5c299aac6b0c4123da4"
+        }
+      ]
+    },
+    {
+      "airport": "LSGG",
+      "year": "2022",
+      "rows": 48687,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 48685,
+      "new_decoded_rows": 48685,
+      "old_core_rows": 48685,
+      "new_core_rows": 48685,
+      "files": [
+        {
+          "path": "reports\\LSGG_2022_reports.parquet",
+          "sha256": "a64b4a306918841661f6291caedc0318cc9c2c6343c4261b24dd78163c00f5b3"
+        },
+        {
+          "path": "features\\LSGG_2022_features.parquet",
+          "sha256": "7d07b0dea35dbcb3962be826d813323751c312a26cbbe00b092717b89c198c2b"
+        },
+        {
+          "path": "numeric_features\\LSGG_2022_features.parquet",
+          "sha256": "e5f09e969a5e253f167106aba4003dfac678515b61cf32955b6d24535ccd74f5"
+        }
+      ]
+    },
+    {
+      "airport": "LSGG",
+      "year": "2023",
+      "rows": 23301,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 23295,
+      "new_decoded_rows": 23295,
+      "old_core_rows": 23295,
+      "new_core_rows": 23295,
+      "files": [
+        {
+          "path": "reports\\LSGG_2023_reports.parquet",
+          "sha256": "002e5f219ec9570b0e8bbfd8cd8fadd9bdd81c7fc219fa568a6f4feba5c2d46a"
+        },
+        {
+          "path": "features\\LSGG_2023_features.parquet",
+          "sha256": "d22bcec3b9d2ba02723b1679f05dd3c66822de1b0af9a7dfc130cb967677b84c"
+        },
+        {
+          "path": "numeric_features\\LSGG_2023_features.parquet",
+          "sha256": "5fc51851281f8068620b8a0159516bc430e9a79c10d403734e805ad0e6c33ad8"
+        }
+      ]
+    },
+    {
+      "airport": "LSZH",
+      "year": "2019",
+      "rows": 110036,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 110036,
+      "new_decoded_rows": 110036,
+      "old_core_rows": 110036,
+      "new_core_rows": 110036,
+      "files": [
+        {
+          "path": "reports\\LSZH_2019_reports.parquet",
+          "sha256": "9ed7905e04a2d9b1516aacc6466365ae12c7d31be48fcfdde20f5a5866a879b8"
+        },
+        {
+          "path": "features\\LSZH_2019_features.parquet",
+          "sha256": "32ce0ef5e2beb274fa26b057dae241f150afdb9d18123b432186e7893c8c351b"
+        },
+        {
+          "path": "numeric_features\\LSZH_2019_features.parquet",
+          "sha256": "dc0bbe1283f8998abed3b4f626aef896b5fdeedfd839b83b2e3a210fa0fd386a"
+        }
+      ]
+    },
+    {
+      "airport": "LSZH",
+      "year": "2020",
+      "rows": 43458,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 43452,
+      "new_decoded_rows": 43452,
+      "old_core_rows": 43454,
+      "new_core_rows": 43454,
+      "files": [
+        {
+          "path": "reports\\LSZH_2020_reports.parquet",
+          "sha256": "171c25a5256a800679fa41b2cb1a1891bf3fe2e6d9fbe745d3c5ebdac5143b53"
+        },
+        {
+          "path": "features\\LSZH_2020_features.parquet",
+          "sha256": "12039500f1176bd527db3d10514fe34d741dfc1c8f1bdb336d1a0aff7cb86495"
+        },
+        {
+          "path": "numeric_features\\LSZH_2020_features.parquet",
+          "sha256": "b95a54e25da69ef55adae353c0ec473593aec005a4a494116fe6c0fc74254385"
+        }
+      ]
+    },
+    {
+      "airport": "LSZH",
+      "year": "2021",
+      "rows": 51260,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 51204,
+      "new_decoded_rows": 51204,
+      "old_core_rows": 51252,
+      "new_core_rows": 51252,
+      "files": [
+        {
+          "path": "reports\\LSZH_2021_reports.parquet",
+          "sha256": "3604ec2ba1b5cd1d35560aa3e3c16f4de39417f71b077f4b9a2596408dc4dd8d"
+        },
+        {
+          "path": "features\\LSZH_2021_features.parquet",
+          "sha256": "f12aac2d92c306b25d6f67ad283f396924d1fec403aa6b4aafefe7846e0a6e2d"
+        },
+        {
+          "path": "numeric_features\\LSZH_2021_features.parquet",
+          "sha256": "986955541db2926f3bb486305c3e3c02a9c1af11bbef10ed707dc48f21ab8e3f"
+        }
+      ]
+    },
+    {
+      "airport": "LSZH",
+      "year": "2022",
+      "rows": 78758,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 78703,
+      "new_decoded_rows": 78703,
+      "old_core_rows": 78703,
+      "new_core_rows": 78703,
+      "files": [
+        {
+          "path": "reports\\LSZH_2022_reports.parquet",
+          "sha256": "fabeb5632c6e8fb382436e30b56a04b87c57e717cc69b301fe81d292e42796d7"
+        },
+        {
+          "path": "features\\LSZH_2022_features.parquet",
+          "sha256": "52255c97bc284140d95ba5799157677b45d499e46bd5809dda203400b61f96ea"
+        },
+        {
+          "path": "numeric_features\\LSZH_2022_features.parquet",
+          "sha256": "b4e4199b3712fc876e4b2a2f0a0219fc8a68199efb29311d22f1e74fa73ecdb5"
+        }
+      ]
+    },
+    {
+      "airport": "LSZH",
+      "year": "2023",
+      "rows": 33461,
+      "target_messages": 0,
+      "linked_target_rows": 0,
+      "linked_target_go_arounds": 0,
+      "old_decoded_rows": 33461,
+      "new_decoded_rows": 33461,
+      "old_core_rows": 33461,
+      "new_core_rows": 33461,
+      "files": [
+        {
+          "path": "reports\\LSZH_2023_reports.parquet",
+          "sha256": "fdd84f98592034a46a0e07094352496de3cca3de24faa3f5089896f905316428"
+        },
+        {
+          "path": "features\\LSZH_2023_features.parquet",
+          "sha256": "9f03c1e76e13b2dc43d3fd5e0b6c820ae84eaba3c49fb4913e3a9ecfd2f76656"
+        },
+        {
+          "path": "numeric_features\\LSZH_2023_features.parquet",
+          "sha256": "5cab3c97fa754d737fa114855c8d796254b7f723ffd89a467357869256bd2685"
+        }
+      ]
+    }
+  ]
+}

@@ -52,3 +52,5 @@
 [Аудит остаточных форматов](reports/19_residual_format_review.md): все 2425 случаев воспроизведены, установлен дефект коротких CB/TCU; данные пока не изменены. [Выполненный ноутбук 11](notebooks/11_residual_format_audit.ipynb).
 
 [Методологическая заметка для диссертации](reports/20_dissertation_metar_cloud_semantics.md): Météo-France, неполнота облачных наблюдений и аномальные значения в исходных METAR.
+
+[Версия облачных групп cloud-v2](reports/21_cloud_v2_review.md): известный CB/TCU при неизвестных количестве и высоте, сравнение облачных пропусков и сохраненные предыдущие версии. [Ноутбук 12](notebooks/12_cloud_format_update.ipynb). Данные: data/full_cloud_v2/.
