@@ -5,6 +5,9 @@ import pandas as pd
 from audit_pilot_input import BASE
 
 R = BASE / 'reports'
+existing = R / '17_numeric_quality_protocol.json'
+if existing.exists() and json.loads(existing.read_text(encoding='utf8'))['status']=='accepted':
+    raise SystemExit('Протокол уже принят: сборка проекта не должна перезаписывать решение пользователя.')
 source = R / '15_numeric_candidates.csv'
 extremes = pd.read_csv(R / '12_full_extreme_value_examples.csv').set_index('metar_id')
 candidates = pd.read_csv(source)

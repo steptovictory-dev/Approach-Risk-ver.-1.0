@@ -34,3 +34,7 @@
 9. [09. Аудит числовых аномалий](09_numeric_anomaly_audit.ipynb): 18 кандидатов, соседние сообщения и почасовой архив. 1 рисунок.
 
 Дополнительные команды воспроизведения из корня: verify_full_weather_results.py, audit_full_extreme_values.py, audit_numeric_anomalies.py, build_numeric_audit_notebook.py из europe/weather/scripts; запуск через .venv/Scripts/python.exe. Последний скрипт выполняет ноутбук, аудит загружает ограниченный архив при отсутствии кеша.
+
+10. [10. Применение числового качества](10_numeric_quality_application.ipynb): принятые маски, журнал 84 ячеек в 44 строках, проверка сохранности всей базы. 1 рисунок.
+
+Воспроизведение: запуск scripts/apply_numeric_quality.py, затем scripts/build_numeric_mask_notebook.py через .venv/Scripts/python.exe из корня проекта (пути скриптов начинаются с europe/weather/). Принятый протокол не перезаписывать сборщиком проекта протокола.

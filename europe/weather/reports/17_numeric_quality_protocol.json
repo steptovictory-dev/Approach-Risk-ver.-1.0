@@ -1,6 +1,6 @@
 {
-  "version": "numeric-quality-v1-draft",
-  "status": "proposed_pending_user_decision",
+  "version": "numeric-quality-v1",
+  "status": "accepted",
   "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
   "candidates_sha256": "bd789950432fb73ebd56eb17510bf651001d601a7bc030680f7718288d0268ae",
   "unique_candidate_messages": 18,
@@ -21,10 +21,14 @@
     "diagnostic_range_alone": "review_only"
   },
   "source_values_changed": false,
-  "feature_masks_applied": false,
+  "feature_masks_applied": true,
   "rows_deleted": 0,
   "quality_flags_as_predictors_approved": false,
   "training_executed": false,
   "retrospective_audit_registry": true,
-  "future_neighbors_as_features": false
+  "future_neighbors_as_features": false,
+  "user_decision": "accept_proposed_field_masks",
+  "decision_date_local": "2026-10-11",
+  "decision_timezone": "Europe/Moscow",
+  "application_report": "18_numeric_mask_application.json"
 }
