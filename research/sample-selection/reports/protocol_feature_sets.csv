@@ -1,0 +1,12 @@
+set,field,policy,availability,missing_policy
+C40_core,airport,conditional_context,не подтверждена исторически,сохранить запись; обработка fit только на train
+C40_core,C40_BEARING,conditional_event,не подтверждена исторически,сохранить запись; обработка fit только на train
+C40_core,C40_CROSS_LAT,conditional_event,не подтверждена исторически,сохранить запись; обработка fit только на train
+C40_core,C40_CROSS_LON,conditional_event,не подтверждена исторически,сохранить запись; обработка fit только на train
+C40_aircraft,airport,conditional_context,не подтверждена исторически,сохранить запись; обработка fit только на train
+C40_aircraft,C40_BEARING,conditional_event,не подтверждена исторически,сохранить запись; обработка fit только на train
+C40_aircraft,C40_CROSS_LAT,conditional_event,не подтверждена исторически,сохранить запись; обработка fit только на train
+C40_aircraft,C40_CROSS_LON,conditional_event,не подтверждена исторически,сохранить запись; обработка fit только на train
+C40_aircraft,typecode,conditional_metadata,не подтверждена исторически,сохранить запись; обработка fit только на train
+C40_aircraft,icaoaircrafttype,conditional_metadata,не подтверждена исторически,сохранить запись; обработка fit только на train
+C40_aircraft,AC_CLASS,conditional_metadata,не подтверждена исторически,сохранить запись; обработка fit только на train

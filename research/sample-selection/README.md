@@ -10,6 +10,21 @@
 
 ## Что сравниваем
 
+[`notebooks/07_feature_preparation.ipynb`](notebooks/07_feature_preparation.ipynb)
+проверяет диапазоны и категории, рассчитывает словари / параметры стандартизации
+только train и фиксирует план оценки. До подтверждения семантики bearing и
+AC_CLASS они остаются отдельными условными вариантами. Основные кандидаты
+содержат геометрию C40, UTC-признаки и, во втором варианте, исходные типы самолетов.
+
+[`notebooks/06_time_split.ipynb`](notebooks/06_time_split.ipynb)
+оформляет условные наборы C40 с метаданными самолета / без них, единые
+календарные части и проверку повторных записей. market_segment не обязателен;
+пропуски метаданных не удаляют строки. Обучение не выполняется.
+
+[`notebooks/05_metadata_calendar_audit.ipynb`](notebooks/05_metadata_calendar_audit.ipynb)
+сравнивает календарную полноту четырех исходных полей в источнике и финале,
+совместные пропуски, словарь сырых значений и границы наблюдаемого покрытия.
+
 1. Полный исходный массив событий.
 2. Массив без ранее согласованных неоднозначных пар C40.
 3. Записи с заполненными конечными числовыми полями C40.
@@ -28,6 +43,9 @@ python research/sample-selection/scripts/execute_notebook.py
 python research/sample-selection/scripts/execute_notebook.py 02_group_effects.ipynb
 python research/sample-selection/scripts/execute_notebook.py 03_selection_structure.ipynb
 python research/sample-selection/scripts/execute_notebook.py 04_temporal_feature_availability.ipynb
+python research/sample-selection/scripts/execute_notebook.py 05_metadata_calendar_audit.ipynb
+python research/sample-selection/scripts/execute_notebook.py 06_time_split.ipynb
+python research/sample-selection/scripts/execute_notebook.py 07_feature_preparation.ipynb
 ```
 
 Ноутбуки также можно открыть в Jupyter и выполнить все ячейки сверху вниз. Сборка через `scripts/build_notebook.py` нужна только после редактирования генератора; она очищает старые результаты первого ноутбука. Полный пересчет может занять десятки минут: читается полный массив, проверяются контрольные суммы и все записи четырех ключевых этапов. В память загружается один блок по 100 000 записей и агрегаты. Второй ноутбук работает за несколько секунд на готовых таблицах. Проверенные версии прямых зависимостей записаны в `requirements-lock.txt`.
