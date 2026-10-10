@@ -1,0 +1,10 @@
+primary_category,messages,core_validated_messages,linked_rows,linked_go_arounds,matched_60min_rows,matched_60min_go_arounds
+convective_type_without_amount_height,867,0,1204,7,1204,7
+strict_parser_error,578,515,2112,15,2083,15
+nine_slash_cloud_placeholder,472,0,1868,5,1868,5
+weather_parser_disagreement,180,0,413,7,413,7
+unclassified_tail_after_qnh,167,167,597,3,597,3
+visibility_outside_current_scope,144,0,553,0,553,0
+other_issue_requires_individual_review,11,0,71,0,71,0
+other_cloud_parser_disagreement,4,0,19,0,19,0
+six_slash_placeholder,2,0,0,0,0,0

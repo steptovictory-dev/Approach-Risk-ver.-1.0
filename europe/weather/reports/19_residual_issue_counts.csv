@@ -1,0 +1,10 @@
+issue,messages,linked_rows
+parser_value_disagreement_cloud_layers,1327,2906
+parser_error,822,3122
+parser_value_disagreement_weather,180,413
+unclassified_weather_after_qnh,167,597
+visibility_format_outside_pilot_scope,146,553
+wind_group_missing_or_multiple,29,162
+qnh_group_missing_or_multiple,26,111
+parser_value_disagreement_qnh,2,27
+cavok_with_explicit_weather_or_cloud,1,5

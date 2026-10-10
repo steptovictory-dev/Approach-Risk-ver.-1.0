@@ -48,3 +48,5 @@
 [Принятый протокол числового качества](reports/17_numeric_quality_protocol.md): правила и оценка воздействия; маски применены в отдельной числовой копии. [Наглядная расшифровка METAR](reports/16_metar_eham_explained.md).
 
 [Применение числового качества](reports/18_numeric_mask_review.md): согласованные маски выполнены в отдельной числовой копии; исходные данные сохранены. [Выполненный ноутбук 10](notebooks/10_numeric_quality_application.ipynb).
+
+[Аудит остаточных форматов](reports/19_residual_format_review.md): все 2425 случаев воспроизведены, установлен дефект коротких CB/TCU; данные пока не изменены. [Выполненный ноутбук 11](notebooks/11_residual_format_audit.ipynb).

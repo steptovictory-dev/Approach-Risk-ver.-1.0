@@ -38,3 +38,7 @@
 10. [10. Применение числового качества](10_numeric_quality_application.ipynb): принятые маски, журнал 84 ячеек в 44 строках, проверка сохранности всей базы. 1 рисунок.
 
 Воспроизведение: запуск scripts/apply_numeric_quality.py, затем scripts/build_numeric_mask_notebook.py через .venv/Scripts/python.exe из корня проекта (пути скриптов начинаются с europe/weather/). Принятый протокол не перезаписывать сборщиком проекта протокола.
+
+11. [11. Аудит остаточных форматов](11_residual_format_audit.ipynb): 2425 сообщений, основные категории, исходные примеры, дефект коротких CB/TCU и сохранность CP-10. 2 рисунка.
+
+Воспроизведение: europe/weather/scripts/audit_residual_formats.py, затем europe/weather/scripts/build_residual_format_notebook.py через .venv/Scripts/python.exe из корня проекта.

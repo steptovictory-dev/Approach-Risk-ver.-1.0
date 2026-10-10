@@ -1,0 +1,20 @@
+{
+  "messages": 2425,
+  "exclusive_category_total": 2425,
+  "all_residuals_replayed": true,
+  "all_saved_issue_strings_reproduced": true,
+  "all_saved_core_flags_reproduced": true,
+  "source_sha256": "fb5a917bd8dfc59106dc1645d308315a81690933063a3da3b0a2e0eba3d51803",
+  "decoder_sha256": "6c1fc46f433a30a870d48d20c0c0e9c7d342e40a8612194a412ba1b618faf9bb",
+  "audit_script_sha256": "6b9d916c0a6ba280ae99028ef38ec7d6f98aba592535eca77188938e094b1886",
+  "decoder_changed": false,
+  "weather_features_changed": false,
+  "rows_deleted": 0,
+  "training_executed": false,
+  "links_scope": "all baseline statuses; no 60-minute filter in source residual aggregate",
+  "format_flags_overlap": true,
+  "primary_categories_exclusive": true,
+  "matched_60min_rows": 6808,
+  "matched_60min_go_arounds": 37,
+  "matched_60min_core_validated_rows": 2429
+}
