@@ -1,0 +1,22 @@
+case,metar,field,expected,actual,agrees
+partial_cb,LFPG 191155Z 24010KT 9999 ///CB 10/08 Q1002,cumulonimbus_reported,True,True,True
+partial_cb,LFPG 191155Z 24010KT 9999 ///CB 10/08 Q1002,cloud_amount_unavailable,True,True,True
+partial_cb,LFPG 191155Z 24010KT 9999 ///CB 10/08 Q1002,cloud_ceiling_ft,,,True
+partial_tcu,LFPG 191155Z 24010KT 9999 ///TCU 10/08 Q1002,towering_cumulus_reported,True,True,True
+partial_tcu,LFPG 191155Z 24010KT 9999 ///TCU 10/08 Q1002,cloud_amount_unavailable,True,True,True
+partial_tcu,LFPG 191155Z 24010KT 9999 ///TCU 10/08 Q1002,cloud_ceiling_ft,,,True
+all_cloud_unknown,LFPG 191155Z 24010KT 9999 ///////// 10/08 Q1002,cloud_amount_unavailable,True,True,True
+all_cloud_unknown,LFPG 191155Z 24010KT 9999 ///////// 10/08 Q1002,cloud_type_unavailable,True,True,True
+all_cloud_unknown,LFPG 191155Z 24010KT 9999 ///////// 10/08 Q1002,cloud_ceiling_ft,,,True
+all_cloud_unknown,LFPG 191155Z 24010KT 9999 ///////// 10/08 Q1002,cavok,False,False,True
+known_low_cloud,LFPG 191155Z 24010KT 9999 BKN008 10/08 Q1002,cloud_ceiling_ft,800,800,True
+known_low_cloud,LFPG 191155Z 24010KT 9999 BKN008 10/08 Q1002,lowest_known_cloud_base_ft,800,800,True
+vertical_visibility,LFPG 191155Z 24010KT 0100 VV002 10/08 Q1002,vertical_visibility_ft,200,200,True
+vertical_visibility,LFPG 191155Z 24010KT 0100 VV002 10/08 Q1002,cloud_ceiling_ft,,,True
+visibility_lower_bound,LFPG 191155Z 24010KT 9999 FEW020 10/08 Q1002,visibility_m,10000,10000.0,True
+visibility_lower_bound,LFPG 191155Z 24010KT 9999 FEW020 10/08 Q1002,visibility_relation,ge,ge,True
+negative_temperature,LFPG 191155Z 24010KT 8000 FEW020 M03/M05 Q1002,temperature_c,-3,-3.0,True
+negative_temperature,LFPG 191155Z 24010KT 8000 FEW020 M03/M05 Q1002,dewpoint_c,-5,-5.0,True
+negative_temperature,LFPG 191155Z 24010KT 8000 FEW020 M03/M05 Q1002,qnh_hpa,1002,1002.0,True
+trend_separation,LFPG 191155Z 24010KT 9999 FEW020 10/08 Q1002 TEMPO BKN004CB,cumulonimbus_reported,False,False,True
+trend_separation,LFPG 191155Z 24010KT 9999 FEW020 10/08 Q1002 TEMPO BKN004CB,cloud_ceiling_ft,,,True

@@ -1,0 +1,715 @@
+{
+  "rows": 6331485,
+  "go_arounds": 18349,
+  "jobs": 93,
+  "input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "protocol_sha256": "a053fac15dc77208c4d543f72fb4335fb107f047e3d4b08b5f6ec7bc2390d325",
+  "implementation_sha256": "b1e9a90012459d26ad2cb71d0f84e53563abc5aa6352fe3a1f9fbbac5b91af41",
+  "sources": [
+    {
+      "job": "EDDB_2019",
+      "event_sha256": "012e81724f68e72f6c67f1145e78e722d5e65235ce1c27ee9d2b379d4909e5a3",
+      "reports_sha256": "9ad4df4360557d20097965d6fbc1ac1aa9c9f701000eff80e88692a11bf9b318",
+      "final_sha256": "8a394f5780e914fa876be9d13d2400c86cbf5f7d8a4c28a0164b9a195c9f96b2",
+      "rows": 28762
+    },
+    {
+      "job": "EDDB_2020",
+      "event_sha256": "7352a9bfbc17fb6022f945480fcb3334b3e69276af7f73e4756f4f6504729b21",
+      "reports_sha256": "0743f53342362ebc1e99006ccacbc467fe15588eadcc14d1afd48ac087b5100f",
+      "final_sha256": "4179880d5e063d8c3783707adaecf5b4c0293cbba34ca0ad3cd2efe41629c454",
+      "rows": 13117
+    },
+    {
+      "job": "EDDB_2021",
+      "event_sha256": "581dd1c91ce588010f16935497fa5957fd8c64814342cb3ceff6c02adc892a60",
+      "reports_sha256": "63e41b41a81c2d42b6c92b264a92f2e120493630b519002606f35637ffb99e4e",
+      "final_sha256": "97b7fc26041bd24805355be01cd43da59eed4eaa541e0492b38d9ddb3dee1b87",
+      "rows": 35640
+    },
+    {
+      "job": "EDDB_2022",
+      "event_sha256": "b291d3d60a4e7ac5515e0ed5274c67f72deeef83fea52d0958ffe3e0fcdcbda4",
+      "reports_sha256": "1b030c689d84042812acd6fbfeac44213583f6d21e354683a04296d59e528d07",
+      "final_sha256": "8da8d99807ebb8cff9a6117088002b15f68ff09f6ec4d5b2e327472cea09a67f",
+      "rows": 50306
+    },
+    {
+      "job": "EDDB_2023",
+      "event_sha256": "63c402571023e68f790d58f845ba0fda01d1691bb9aa9bd064201866ea23407b",
+      "reports_sha256": "3098bec99f16cf60be59d3c49332c52d98b944414fb522ee1cb05f5fc31c438a",
+      "final_sha256": "c69f4d370ffd6c2f7d38e6deaebb93c1b68f202094d1b5ff3f3701882695a277",
+      "rows": 20511
+    },
+    {
+      "job": "EDDF_2019",
+      "event_sha256": "32ff6c06cbf9e32c37b22808282bf21e5f3552870287c25da15ba319eccf70ff",
+      "reports_sha256": "204b3879f3f17dee3ed0ea9412e53ac38b456ceadbdba0ad3cfdd8aad8189872",
+      "final_sha256": "54806cc2cf701aba7cd74e9aceba0390bf9cd42ea68fb8ced58680d21eca71a6",
+      "rows": 218773
+    },
+    {
+      "job": "EDDF_2020",
+      "event_sha256": "713873a475ecfedba0bf71be52c22a96a25157d00343635cebbebcec87ab0de2",
+      "reports_sha256": "076faf4f6d36c2b5173a757332fcb12346ed3b0eeb096a3b71ea796b2997d65f",
+      "final_sha256": "a438d5141258a781adb6dba04f2e46becf2f628138ad71dd43f3cc99d2e9c311",
+      "rows": 96515
+    },
+    {
+      "job": "EDDF_2021",
+      "event_sha256": "65f423931479cde563524479ade60db55953f26b70f70734d2c445cbadc0d399",
+      "reports_sha256": "b2827fb1d525a574c598c385fb5f0d0f9bffaca79ff420045c989d29204a075f",
+      "final_sha256": "3349850f7e720c849619881e199b702eda8065b14d62c36f9961e10cd4e1e758",
+      "rows": 118807
+    },
+    {
+      "job": "EDDF_2022",
+      "event_sha256": "a11ce7e2e1fa07a21f9d82bdebde9d35c8b11e3ec035ad36ad79bcfcb5df3324",
+      "reports_sha256": "b76bc43c1690a89d6a1b71e64cd75d9356a11f68e8fcecbd44b78ce192ee6346",
+      "final_sha256": "ad751b946013671f751d1bb0ec1f16e085ad9836710c294e241e3f92c17f5417",
+      "rows": 159344
+    },
+    {
+      "job": "EDDF_2023",
+      "event_sha256": "a518b67e8422c75fd8091b953f394ee40683d3600056caf1cb3f9c7adc0ec6df",
+      "reports_sha256": "a281a782b0ab9e55d68d7d382dbcd37a475849f9e950a12c7e799960779118cb",
+      "final_sha256": "d2499cfaa7196de3fbf010c2e95cb59672e8ef27494776289f3e7cf8e25a9bac",
+      "rows": 11521
+    },
+    {
+      "job": "EDDM_2019",
+      "event_sha256": "593d535d06c452ecae2c759f0863e97a2183a25f346876252639da00fa36338c",
+      "reports_sha256": "10bf2373818db3f7784c733cb3d7247f9f3913a10a3a4e75e2934dcb1a542bae",
+      "final_sha256": "35a1aa33a10d23103e2aafb62a221b6e98d87fbf2cd4e7acb6fe31261849d5bd",
+      "rows": 163062
+    },
+    {
+      "job": "EDDM_2020",
+      "event_sha256": "29d7426f6a29856b05b922e95f0b1229517ca29a56c69ea811a24eaf52fce7a2",
+      "reports_sha256": "1d415ea597fb73be6692df3a35bc6861fc9840e1d462534c186eb17e0b730783",
+      "final_sha256": "3506fa08777409b5bf8151cfb242f7a64f876f6c1f706cd8460ea449a8964db9",
+      "rows": 60295
+    },
+    {
+      "job": "EDDM_2021",
+      "event_sha256": "4375153d4f873c145e4a20d273f1f7700d4ea94d1b09383ff8b4617daff08795",
+      "reports_sha256": "87475f4689580ae5bbcbf53cd5739dc26d09f154f3d7a31aec4a27c4cde773d4",
+      "final_sha256": "2309605a1308a8e6cf3a705259c238fad51b9b3df45b4706b22d1a90d5e3ec6a",
+      "rows": 64783
+    },
+    {
+      "job": "EDDM_2022",
+      "event_sha256": "f82c00c1ce724525ae6babee084f9fc86bfd99ea652025d318f9d0b7f9da1d24",
+      "reports_sha256": "05b26185b2b1344d81078f042d231d429354fc018274fea17b32b064718201a4",
+      "final_sha256": "f3fd94f289e59263e2852a48d597c92d0c64b9efab9123ff1b43af5812220a6a",
+      "rows": 111816
+    },
+    {
+      "job": "EDDM_2023",
+      "event_sha256": "b2347f00257615317722c8bc6db8b6ed449536b6344a557f7adc7ef4e1827e12",
+      "reports_sha256": "93e82d631fab77f514819c58870f8b3e8f27f26c08ffe6e1ac66fed42c769e2a",
+      "final_sha256": "5841c23a6e573357a5353bc2f0d50bc205e3fc8fd0bfb4d1520e0508771255dc",
+      "rows": 43247
+    },
+    {
+      "job": "EGCC_2019",
+      "event_sha256": "bdfe2865118ad7655143e33e04d028a3f2635bdef6cc430a50946b7c5b590885",
+      "reports_sha256": "bcbabb6c747f07abee18c1073088cd7115180844dd4664cbd7e68d28fdcf93df",
+      "final_sha256": "f341c175a8fd5680b65b55e0808b3db255f77661496b6ce73007a4761575ba8e",
+      "rows": 62459
+    },
+    {
+      "job": "EGCC_2020",
+      "event_sha256": "3de57d3e8bf602a4c2c82f2e0dc57243aef372b11c2caaf6cb37ca4d5a859a83",
+      "reports_sha256": "26a3d586b4d479b5a1a269b57bcf3b470d60d68a8cf8a695721aa4c49b0de010",
+      "final_sha256": "b8bb67dcc9529fdc7e66bb47ebbb7f0d5b27971911b5fb69e6199488b357d9e0",
+      "rows": 23746
+    },
+    {
+      "job": "EGCC_2021",
+      "event_sha256": "b0099a3b3c59a957afbc4824b656e64c4104e726193f0ea76e48681ad2eb5c30",
+      "reports_sha256": "a68d33effe400c770e7e251596a760d5a2fd43253247b00413b42aafea384fdf",
+      "final_sha256": "ff06d5d0e7b6f923746828a84620b141f0f619f487d7c7b4137a38f831fec0b4",
+      "rows": 1230
+    },
+    {
+      "job": "EGLL_2019",
+      "event_sha256": "5368628353be7ff88689dc575ab1f90f9300f04d124d7f5e1e03dd25f307468d",
+      "reports_sha256": "52fbd0632d8bdbc6a2bbad5eb10ad24a0a0c8b2195b6d7b2c02664b480cedb7d",
+      "final_sha256": "327bd298fe6763cafe3b40ef20a8e70ed9a7e0f881c063c80803eaaad2e5f22f",
+      "rows": 218410
+    },
+    {
+      "job": "EGLL_2020",
+      "event_sha256": "8b77b529f739b2adf5571f3caa05a547f4a757476ebd92621153bb7fe7b83012",
+      "reports_sha256": "7d3407c4d9f0172225bb9c8f803e07273308bede2fc596babbe6e254dafd8d99",
+      "final_sha256": "6e5410cb8e235162097a12f6ade44c6f6f2bb3f86d20747d22fe6419d6fa92d7",
+      "rows": 95585
+    },
+    {
+      "job": "EGLL_2021",
+      "event_sha256": "6e899acfd4e34513911e99ae61f124ed61e673ba4d572c7ade0c64591630ffe4",
+      "reports_sha256": "4ed29d40ed74b230b14d623ea0ee7de1688ad45d0db5c647a5033bd1568fa42f",
+      "final_sha256": "62711949cd8b93af06b0f8ff279eaa2924002c7dc018034a3f587eb5921094e0",
+      "rows": 88747
+    },
+    {
+      "job": "EGLL_2022",
+      "event_sha256": "17aa24d6cc7b6eaa314541f6bb07966518133b0b6dfe58ee271db07205de4e87",
+      "reports_sha256": "3d1527cf724ddb2641a89196e66f5bf236b4e27d3e1f0a345c7674f938c463e0",
+      "final_sha256": "8ff76a8cbd684acd1fae0343017e8ad22664a2c3aa6f27dbe14c249258ba213d",
+      "rows": 156855
+    },
+    {
+      "job": "EGLL_2023",
+      "event_sha256": "a84758168dd75cce5b114b61ae3425f495ff0432a74b9bb93cc221eb0b89e271",
+      "reports_sha256": "93cdd2ccff543762734cfba81904abd8113466f16d10d5390c803e7e061e2a4d",
+      "final_sha256": "d8a21e318af22e0dd1bac3d8d46e669e6a0bb61f3f34109490cfd8401a39adc7",
+      "rows": 72121
+    },
+    {
+      "job": "EGSS_2019",
+      "event_sha256": "faaa1f684347e9b820cda8d1377bcef5f55d8715a6d9a9690680945c3be97d1f",
+      "reports_sha256": "9c8c2ade4135e92b1c9aa1a16a34c1b620b00768e5535b196e21e0b74e27337b",
+      "final_sha256": "40e0d25e37c7cdc4d1de1b8d951591e82637067d02e36d0cc18cc57f2a54e887",
+      "rows": 77944
+    },
+    {
+      "job": "EGSS_2020",
+      "event_sha256": "2fc46d497e00083d18570a006240a45f00fcc734df0af80bcb6c9887e7e883b2",
+      "reports_sha256": "bb4cd59404d8c5c679a33ced73772be378a2cb051aa0d03b2739d556eb3c87d2",
+      "final_sha256": "8402dae817550b4ba828b62b92791aa18a748ff86252293610f106859d9e45a9",
+      "rows": 32849
+    },
+    {
+      "job": "EGSS_2021",
+      "event_sha256": "82e821a9871092ece731f77bbcc5e1023f5e4b9f27d127e7dac3a75634732881",
+      "reports_sha256": "ab4a1e99f2a1c8b9ce715ea1b589ea7d424b04b7a6c9f3a8207be221dbd2320b",
+      "final_sha256": "d16ea8b3d1eee94a62574d8133be808ba0cbab0eb4496daf72d711300ae5aa7d",
+      "rows": 33575
+    },
+    {
+      "job": "EGSS_2022",
+      "event_sha256": "6412e3e533df8bcedd02ef59433542727aeb9750e0a6e48b236262de28a8fc82",
+      "reports_sha256": "b5db1de03efb6260844ee5585b2d5b77a3fd3d308ec0e1f9e21691356bfb36e6",
+      "final_sha256": "54e4a53f26287fdcab3ec1712a2337e70037f12a138bd47e89517695a571e60e",
+      "rows": 55050
+    },
+    {
+      "job": "EGSS_2023",
+      "event_sha256": "c9f53934696f6adca880ef7bd3e40aed8ad26568002d4ce6c92c8b27f0c800b7",
+      "reports_sha256": "eed1d44e628e044e358c41b69365cdec4e9ea9fe30d77ea48383df346c794508",
+      "final_sha256": "dd7ad8c23a57427c1101495a3d4149f1f52e02feda0180e8605ac3a57ca14073",
+      "rows": 21930
+    },
+    {
+      "job": "EHAM_2019",
+      "event_sha256": "b9c9a8b64775a7e75ea64ef4df8751a8217eae59d9576c08b1bf256b11546dbc",
+      "reports_sha256": "32bef3643e2630d518eb03a97e1b1cf6113b71b3fe300640f8c3a78ba0dd350f",
+      "final_sha256": "132e3ee5cd160f15d024024f3e4908fa3b7ba70d35123ac86040efdca32105f4",
+      "rows": 184177
+    },
+    {
+      "job": "EHAM_2020",
+      "event_sha256": "a1c7807ac5bf3075f6141a89d6b67ea7f134a1b8250a57b8d9f86ab637aeef1f",
+      "reports_sha256": "7ef0fc990ce6d3ad5e4e3f89336986386fe46ee70952cbe665dacdd06ad7e2a5",
+      "final_sha256": "657c1ccd8c9fc92dab8b8fe5b5f404a3b51af6c89fb2662ebe67eafad02581f5",
+      "rows": 92058
+    },
+    {
+      "job": "EHAM_2021",
+      "event_sha256": "671673755733bfcc13895698c4354d13d018a399519651657cdca36993fadf54",
+      "reports_sha256": "6a3562041f2075e1b669a1acf0bf68313af31155810ad8f47397b41d90b6fc96",
+      "final_sha256": "7c2fe2d8c8d02c2f1c0be6a035be3758f6a71bf7ba819f88eddb98002e7def20",
+      "rows": 115235
+    },
+    {
+      "job": "EHAM_2022",
+      "event_sha256": "2eebaa339f6c4dd688ac17111983e3f33c17256309383067e9db7f8a1918d3a5",
+      "reports_sha256": "ddda1290637d81216a4fe81934180dc61341cd5d3f68d82d0d75acacd2b8eeff",
+      "final_sha256": "0879147632e22e27183ef90c21e4d1958119ad6bd0a9903819d4f93daf11d4eb",
+      "rows": 158396
+    },
+    {
+      "job": "EHAM_2023",
+      "event_sha256": "b7031650e714e90244fb889d04117cbdcc6f330b4f0ee01ec53243b7d916ec57",
+      "reports_sha256": "ee8ad75eaff5cc894c4fd30a73024dd3f43ac4e1b4d64bbf2b1331d14b3727c9",
+      "final_sha256": "13c0e26c75313547ea52bb9d5dfb7dfbe6a2a77d78d8853e368e5a06aff0fa97",
+      "rows": 11615
+    },
+    {
+      "job": "EIDW_2019",
+      "event_sha256": "984be97178f47d12fa8e062d240884632f18a58643f6128b5a49ea0ad0859b4d",
+      "reports_sha256": "1732ed06008a924bb68d5df0d22431437d9415499721d63bc47a0b2be319472f",
+      "final_sha256": "c4184be3435ae2eab474e5b514b3c913adbd069d2ed857bb15afcd84438702f7",
+      "rows": 80395
+    },
+    {
+      "job": "EIDW_2020",
+      "event_sha256": "6c71a13360e9549219c6567e95bf922676bbd6fd010e9607636d38a6349e8219",
+      "reports_sha256": "fa62d48d03afe8babdbc7a94fb6e6959567d624481d5b5307de751c2a8c7dfc7",
+      "final_sha256": "ff3e53d25a32a5929169bd95e96d89bc0c49f7a20285f13bf0838462aa33ac04",
+      "rows": 36578
+    },
+    {
+      "job": "EIDW_2021",
+      "event_sha256": "8933b2e8f3c0ba2113f34f2ddbbd2eca43d9f8ec55d24e6970aa6b90f0b55ed6",
+      "reports_sha256": "b46f6630e742320e22c6362ff69e6f1e55e2253ebe8b60fad720239a7918f18f",
+      "final_sha256": "124a365817ada7326777f7148c77716862014744dff6b8ac610574c59c777b4f",
+      "rows": 38701
+    },
+    {
+      "job": "EIDW_2022",
+      "event_sha256": "a6af11cf4009b2d1b95535abb73fd314b5d7b4acb0989bb97bab10af426c792b",
+      "reports_sha256": "9a0267142238c2713d036dcc8ac938607c114b4abb64f19d389a43e29bbc2b52",
+      "final_sha256": "62c7cf08bed66e601dda4e83cd254304ba9b0eb6928a37e6e84bac5763b837b4",
+      "rows": 75671
+    },
+    {
+      "job": "EIDW_2023",
+      "event_sha256": "62dea6128c35d125da5c6ca17f07ecbd89ef1b6a70c6b9ad8a3aa1c3a918ebf1",
+      "reports_sha256": "18c33c60a6d0634882f01c203149bb70406d6ed84224df22fa44e7787c6a2145",
+      "final_sha256": "763c8d94d43a7ffc5b799e1b8bd12dab3514c5093c02f2f51fe23447b8941bc5",
+      "rows": 32534
+    },
+    {
+      "job": "EKCH_2019",
+      "event_sha256": "bf7cc806ab469bd90b85d11f4da9287cbe6ede65e15ffe7ea04e1e53ba6b7a6c",
+      "reports_sha256": "cfd4456ac238a0b56fd3111f128e6ada84ea9e678cac85f4a1b1cd4e6a4ba26d",
+      "final_sha256": "4074f515a72173920a17a09b0524d807d6c63bd39b8ded25f236cf878b5b80f8",
+      "rows": 97694
+    },
+    {
+      "job": "EKCH_2020",
+      "event_sha256": "02e6bd194cca221ef67ccc9b6dc54baaf6cc94fb51ac5bee3491f313563ff87b",
+      "reports_sha256": "da0df83fbc79519418e7c3a5fd597b8cc3bc58ff09a315b0efc7d1d558be30fd",
+      "final_sha256": "69bf0b361b6bb22e955ce568086c0f3b6ed7199333e2c02ff70f4133e57f6312",
+      "rows": 37844
+    },
+    {
+      "job": "EKCH_2021",
+      "event_sha256": "9043f3fd32ce391e68017533265c3ca2c65866e642a627bbc201cd6dbc9054ed",
+      "reports_sha256": "e094f8a201868874743bedc3eab2f0e0f9a5f52e5c89b6a3d25f6694aeae61fd",
+      "final_sha256": "439d68574128566cab625bbdc247ec77494906f59e095448badff4fc9d491444",
+      "rows": 41410
+    },
+    {
+      "job": "EKCH_2022",
+      "event_sha256": "15351f9ecd9d77e2c7fc011b035ba22174656a7a9ad74d63e8e425fbfdd6e7e1",
+      "reports_sha256": "9b9aa9877d135b69223821c404d7354e86e65624fb26fc5950a9d8e6e323ab34",
+      "final_sha256": "1fd16fe249f3cd96de40b2fa81fe7a6fd86b5434cdeae281d1294880c3c9fc16",
+      "rows": 62677
+    },
+    {
+      "job": "EKCH_2023",
+      "event_sha256": "e482065a21f6e02531286745fa282db650723fa56b2e20a2a9692f35d3bcf795",
+      "reports_sha256": "281391f8365d4be62c3e15bc14facb58b4cc36a7cd3002e77a6e0fd47266954f",
+      "final_sha256": "b8e0f6de7723252b28c7ef66748a2be73b923fe8ba1dcf8dc7dde9bc2a66276c",
+      "rows": 3647
+    },
+    {
+      "job": "EPWA_2019",
+      "event_sha256": "ac6f2c7c3b0327a223e3f8097366ec6040aaef818c74ca00f156d137a4a21ea6",
+      "reports_sha256": "53327871bb499334571e9c322153544aa930c56dc92cdaeab10b5bdafb4ec9e4",
+      "final_sha256": "43cd7ec99a5534b15b6dc5060ab9052962e915a1ba8d21fdf66c42206024068a",
+      "rows": 45176
+    },
+    {
+      "job": "EPWA_2020",
+      "event_sha256": "ffd25302d4523f2a1d0b6c957fc1a5a8a1168afdcad6e9ff0744911a77e5e4d6",
+      "reports_sha256": "1656f0d28ed58d84468bbe7b52cd583e652d2ed05ff6e7b2f2360aeecdf7d981",
+      "final_sha256": "3e67569eb0331ba5a01ee59f97ace6e6723a79de884708ebafdcc56491231ead",
+      "rows": 26788
+    },
+    {
+      "job": "EPWA_2021",
+      "event_sha256": "04bbe45574b81ec0ab5b37bcbc65c07ea7e0357c1a4cdd8ec56eb226ea7e3539",
+      "reports_sha256": "081325aab480516a4743af310a163aa1fa01cf4c061a016b64d93ad2971df0a8",
+      "final_sha256": "9f121a03a3c1f48140fb4f95e4eb579db00d4f8bbd531645bf7f583abcf8a5b2",
+      "rows": 35079
+    },
+    {
+      "job": "EPWA_2022",
+      "event_sha256": "c5f2057f20a6d23ac6af7761bdbc858f8de1d39c06dbe0a3778eee1128ad9079",
+      "reports_sha256": "b4e7528378312a770b2bab1cf1db0d3d911781901d12d9a85873d7de196a15ff",
+      "final_sha256": "2a157c9c868fb9f34de668808901320b77dd61770881d56eaea5e637d5424800",
+      "rows": 51109
+    },
+    {
+      "job": "EPWA_2023",
+      "event_sha256": "1282a2d3288754969a340f0273e2ecb35f776251f396d7b457b9a859eb43ce87",
+      "reports_sha256": "9fd691bb260b5e32570a1a9a64c9a10de99d7537793291e1879ee55bf125da23",
+      "final_sha256": "05e74e4a74e40556272d3405b41c0c2170e93bb9cd51f3deca5cda19358d6eac",
+      "rows": 19600
+    },
+    {
+      "job": "ESSA_2019",
+      "event_sha256": "19b75fd9e32e241f70b2a1a293359caa80e15a48f270a2466a3850b79152cdb7",
+      "reports_sha256": "d39885c8bf8de6c523035456b04bc125226bc251e4805ebe63ae1bf9c4e26c11",
+      "final_sha256": "1f1a8c469cddb22a9cfa6ab4d1f2395b7f159e5ce8002d300b6bda1bb83c1b7a",
+      "rows": 95368
+    },
+    {
+      "job": "ESSA_2020",
+      "event_sha256": "6e426253aaf875e523c0a2318d3c184a51aeaaa177df928085a4fce1d7ecbd5d",
+      "reports_sha256": "9ec13170ce8c94b5fc81283dba6b09dea9ae8273ac7cef1c0a0279b727c77291",
+      "final_sha256": "1f122aa8088931b23717913d5aff44de6ec66ad4ccb088679d1232c021927a61",
+      "rows": 34633
+    },
+    {
+      "job": "ESSA_2021",
+      "event_sha256": "83556ac1b2153799da4e8ee58043352e4cc8518627c853624132c6e85fa2247b",
+      "reports_sha256": "26e61203e496fcc89359518ac62a1b35132c7dbf8dff142921cdb0816b6e8071",
+      "final_sha256": "9305fec843f5e114b35482991b6fd909527ed86a4804bc8434077d08681fecde",
+      "rows": 34673
+    },
+    {
+      "job": "ESSA_2022",
+      "event_sha256": "1b1cceb4c67962715b136fdd828e95b75d9f22341a6e5a2f08bb33a87d9cfab6",
+      "reports_sha256": "4a746b22c9cc24b33defab34e6e4a9960493237df4a8de0e0f69f0dec0440289",
+      "final_sha256": "555abddbbe58956ac59e532d6f247c5c280d9e3b84dbd067bd32ffb967afdb36",
+      "rows": 55798
+    },
+    {
+      "job": "ESSA_2023",
+      "event_sha256": "e50e71e7c29b0d7c50f0b612e36f423aa3f8033797e24427b0e386f05e79504d",
+      "reports_sha256": "adbe4e95b614de784d497998f39ad51d85201a38889b7a4538841f1ecab20530",
+      "final_sha256": "9e2e2079a1e93bc0e45265545fc3be412e2cb885867edd2b673ea6de7cf4d8e7",
+      "rows": 23351
+    },
+    {
+      "job": "LEMD_2019",
+      "event_sha256": "8c8384fd5dcdc97b23ffc466c3271c749e7c1be0780f197f80361fd098c7b0dd",
+      "reports_sha256": "db8db06282134e7a5d49ccd5ee4cb5219c7e72823c4f0e20a5572466b1a9fe09",
+      "final_sha256": "b1e3c691c4514eadfbead506c6461d80720dc91d786f73d6dd91a60797232e1c",
+      "rows": 166569
+    },
+    {
+      "job": "LEMD_2020",
+      "event_sha256": "ec807daaa2d9d9e0862a679f5780ac04062daac307d3e5cf0d8083185eb4e382",
+      "reports_sha256": "a1bbfeb6b8b2a3710e6d1d1c6225ee04b85230daf69cfc545b4d1d3eba9d00ab",
+      "final_sha256": "196e69c8bf9383f80fb56d450d7cb8dd3964b7b9e97d0ad3dd84d630fa6d8a4f",
+      "rows": 63866
+    },
+    {
+      "job": "LEMD_2021",
+      "event_sha256": "e7b708c0e8fad5f6947e3205c00c910897a3211fa6313224a78a611b9334cdfe",
+      "reports_sha256": "d80290a2830c376b108dfaa1461037c02591fc339f639a417d238e9bf590552a",
+      "final_sha256": "21acf7fab8b0f4a3eaaf337ae4bf0d34e903b7f42f10ec88fa4d13ea5bf19270",
+      "rows": 93002
+    },
+    {
+      "job": "LEMD_2022",
+      "event_sha256": "eedfe8b3ae3f179f39e4a2afb3bd9ad9a031d9ea62aa175aad81682e6fabe203",
+      "reports_sha256": "af013a87845932393e0f43391ffe9b7ff224cb9b18bcdcea42733702005ffcb9",
+      "final_sha256": "23438c7f47424ed09663fd076bf28b3e115ae318fa623fab3365864aad084d7f",
+      "rows": 134761
+    },
+    {
+      "job": "LEMD_2023",
+      "event_sha256": "18b32ba0c40db9e7134c9bd691af873a3475834f5fdb8fdbc2da55dde4b273fc",
+      "reports_sha256": "d73709cec395b3a8b6abf5cf3f82396af8b132b5564cc37ed6ee747f7c1f1cce",
+      "final_sha256": "143afebaf7e0ecbcb9a59b46053832a599919dec7a20f418545d67cdf2786717",
+      "rows": 56846
+    },
+    {
+      "job": "LFPG_2019",
+      "event_sha256": "4e6354a3b1926ffa2387770ec5928185fc56f10324d9349bedb94128e28685ff",
+      "reports_sha256": "3c7e39e2b2c08aa083d42d76b18cd333cc05ac5ec3b70b84aee2bdc7a0efb356",
+      "final_sha256": "6f98eac63455084143c09d1930f9bc67d1176c81afee27d879855d5e7867c849",
+      "rows": 196950
+    },
+    {
+      "job": "LFPG_2020",
+      "event_sha256": "ca6452f804755177522bc749341092214184aa403896fda441220a4e94c9ae96",
+      "reports_sha256": "085a344816e124a96f1bdca00f242515f23b6c83e4202b1bd21baa0666390ec0",
+      "final_sha256": "d181bd1038d14d4d5754cebe4ce6f1fdabc5d38cf1861b73d09dc80aef1c9222",
+      "rows": 92471
+    },
+    {
+      "job": "LFPG_2021",
+      "event_sha256": "035348bc9efd00dcc7433da30aa4a793662bdaafb3a1bd8bb6d957c6efb84026",
+      "reports_sha256": "39980cce696f68bd1b06d741602a7264d9871a8e94c50f48c25288a438762b35",
+      "final_sha256": "db86b5bb367933e455654df6bb3ad8dd53ac8bf7fd75a7bc31fa7111d60198b8",
+      "rows": 106498
+    },
+    {
+      "job": "LFPG_2022",
+      "event_sha256": "660ee39345282a88e0ae26c36c67a78aa2e68f4f8e818924f4666bdbd3f4af1f",
+      "reports_sha256": "20341eaf2995a1f1c20e859e1a8875b7268e8fa38cbe08bbb1cb4717f57e88d7",
+      "final_sha256": "81f5b54ccb689b7c1fb332f76ed3d11fdafae321cde40e8cb5cf2a2a65362469",
+      "rows": 155753
+    },
+    {
+      "job": "LFPG_2023",
+      "event_sha256": "3a72ef6f048ab8b5bc5e404ad8d6f3a04e5a7ea05f9ada4fa2f03fa48edf16c5",
+      "reports_sha256": "1ce6d0173c60ce197ce974cc3ec267a2d083c9e9a672ea5149fd0ac71d641255",
+      "final_sha256": "73419716bba6183a779e504013c2a8d8661769f0f9d53d1765cfa4c94461d892",
+      "rows": 65890
+    },
+    {
+      "job": "LFPO_2019",
+      "event_sha256": "c2880eb4faca785109249a7833122b96ea1f30bbf870ecdecebbac48acbad9d9",
+      "reports_sha256": "6f0356d46711cf52ca2db02882e17b9a7c8949eac45822d2962655214f3dd681",
+      "final_sha256": "49d2dccd1cf1be7ef27ffdb8c50eec26a5ff928103e17a2e3f109f5767ce3fee",
+      "rows": 68925
+    },
+    {
+      "job": "LFPO_2020",
+      "event_sha256": "ad990aa275bb436d29120553089fc22c7666847a14a58569788e597a985995a3",
+      "reports_sha256": "6b55e9850f9e74662b1beca110989680ab13177c633a5036a63a68f034a39ade",
+      "final_sha256": "76c25c04671629a36a19a33ee718600293f4c767db2e012931aa3cc2b8f39d11",
+      "rows": 31014
+    },
+    {
+      "job": "LFPO_2021",
+      "event_sha256": "d3884f8e5d2d5c8a5ec011cc0ce369b714e46ac58020fb7f7ac2f5fe13716e6c",
+      "reports_sha256": "f2cf14aedaa4f048643472428e468c817d074e9a31267e826bff52d6cd01fc5a",
+      "final_sha256": "bf51cfadc10f442b970beeba6becf724f046beb186da710001cfe8542d54567c",
+      "rows": 44865
+    },
+    {
+      "job": "LFPO_2022",
+      "event_sha256": "05dc3a60b3d741c79ea1c2f79673eb3f9dbffb807ed475edf456c49c5305afe0",
+      "reports_sha256": "b9577213a1b5540741fbd83f5761ab65c170790cc551ee12f5e0cd26565194d3",
+      "final_sha256": "d3d64c15a4c30d47031741c6be5754448d6aa01c0c33e31d276188d41039b540",
+      "rows": 65840
+    },
+    {
+      "job": "LFPO_2023",
+      "event_sha256": "5215f95910b14f32d2223c86d23883d0539aff1246759d3a7657412e4e98419d",
+      "reports_sha256": "de866a5cbca8f671d9265ea1c2171798f9d3ae0e00b66400ad100d4e041b46fb",
+      "final_sha256": "a4ec2d6654c348d21c4fd37aed000132a5017a91b3ea601a52d46a0ae84e7226",
+      "rows": 25959
+    },
+    {
+      "job": "LIMC_2019",
+      "event_sha256": "91aa189ae20c7a3932408dcd412ba663b2688fefd21ac2001decf5faad9f8fb6",
+      "reports_sha256": "ae80e6b38d5330bc1dc3898e18a935fb2e27c00bcd56f538063918ee78dd764d",
+      "final_sha256": "2cc319964f2d93d96ff629b93ce6a8744cb43bb02e4edc6eda46c26a919895a7",
+      "rows": 56888
+    },
+    {
+      "job": "LIMC_2020",
+      "event_sha256": "88268f835d51d81783fe7f5dd2c6b51b790626ea283fdd22cfe26f7b0eaa5b31",
+      "reports_sha256": "4c23f2fe2acc9276980c4cabd7427a0e2c6d9fdc5ff85e21f4bfd8ce27ece4e0",
+      "final_sha256": "7742a86de332a37cd3f84a8bdb0cad47ec61208ddcf9d875d5ed09ee13c88d32",
+      "rows": 29983
+    },
+    {
+      "job": "LIMC_2021",
+      "event_sha256": "57ec2b265828aac34427a007660fe96e460e40de63d06fa22eeab4d08a86328f",
+      "reports_sha256": "0cf6ea5926802c78a6f89081165de28db0707e129b3ff74911ae9b8b82a70277",
+      "final_sha256": "a1454d4947085aa3d4e71f73c99317a08f11e24749a858dd00d060aab685d1b4",
+      "rows": 37278
+    },
+    {
+      "job": "LIMC_2022",
+      "event_sha256": "99bab916e92ad3de002bfff5d4a616b6743c66fdd346d62cfad8e02205c2cbde",
+      "reports_sha256": "4226a2d11493bca58b6cbd84afbdd6d108cb82919457a8af510ca0f65915a643",
+      "final_sha256": "4513ba17e611f201fe43a3b89010aef6353291e8c2c2c5dd9d7c80eb8212b70a",
+      "rows": 52641
+    },
+    {
+      "job": "LIMC_2023",
+      "event_sha256": "9275a588b7131c3707730462fee5ca65fa3bf4837a73b8c3791c9db2d83f4676",
+      "reports_sha256": "6c5458337f03a906e19f3c765d038c4aa9271e68e494abe041b5d14ee311b016",
+      "final_sha256": "a158931ee6056895b9de19db036625b774a24add7be22d3fcdbfdc5b42c409a9",
+      "rows": 19607
+    },
+    {
+      "job": "LIRF_2019",
+      "event_sha256": "17fd7b9eab5b091c254423824f7c54d533a8d402b444254bdf8f4ee7332652b4",
+      "reports_sha256": "03e31e0538a485d9aa53c73b0f9cdb29a320216359f477658514ea18c4717e81",
+      "final_sha256": "bfd4d46102d6beda59d38dd37fee396eba054e9d0ec1b0c6689059d39c11d869",
+      "rows": 129063
+    },
+    {
+      "job": "LIRF_2020",
+      "event_sha256": "7d82158fb26fc2d3b54588c22fc6168f063598013ae74599857b49dc27831c55",
+      "reports_sha256": "6d863b9932d1d2ef3005e3fb90f5584fbe9972eccf179d34e45589baac6cb796",
+      "final_sha256": "045b4fcd8e6335fa64b8de9b927da85efadc09c1ce1487e06eed8a06a8c6657b",
+      "rows": 43867
+    },
+    {
+      "job": "LIRF_2021",
+      "event_sha256": "4a07fb29a54eeb6a363287565eebef8297bbd67e931954ee8b772232b1c7aecb",
+      "reports_sha256": "cdd5aab6788a4068ad2c1feefddcad226917710c60d42c48a3dced62e98d1daf",
+      "final_sha256": "c1633cb4594867a1e096782203f5aeb657a48e9644c7ee9ef3b89ca8f47914fe",
+      "rows": 45088
+    },
+    {
+      "job": "LIRF_2022",
+      "event_sha256": "7df6203bdb99c27926ad2e6ad94c8912908565f4ec21eb4398253af506cd3689",
+      "reports_sha256": "7c01ae1762f6cb8d8849e84e0406ab5f7a4dfdc7a4f806f82881ee305213cd7d",
+      "final_sha256": "51d7d0dbd586a459dbbdec24ac74662a9a1a73def7b1210e8fcc9f5f43d88ae4",
+      "rows": 74160
+    },
+    {
+      "job": "LIRF_2023",
+      "event_sha256": "eec86ad02c0c9bf315eec2184aff873e15c7ab56f4d6a010e309ebf6cc371c91",
+      "reports_sha256": "c54d7c2aab1c228392a0c507906b9f06b38c18e806fc292861f12d02eb00aa65",
+      "final_sha256": "7cbd2113c798490fbfac39211c06daec357e1eb958b3eb922058fbaebc225e83",
+      "rows": 30571
+    },
+    {
+      "job": "LOWW_2019",
+      "event_sha256": "bcbe59b8fc8ffb2c39d7f1894c4f5c1c89268585831492cf20f8c2dfe1fa1779",
+      "reports_sha256": "32f507a3806effd679dcc75dc659dc1d29cf4715815d127db1baf141cda37af5",
+      "final_sha256": "7af251cf5b8249921134e868dd2b8cd4b78bb2ce9ecb6c2ed887d9ca0dddb3b0",
+      "rows": 102830
+    },
+    {
+      "job": "LOWW_2020",
+      "event_sha256": "13bebf739db9068ecc8974409af03e73a546f1f7974516e5b1e3877836b49c0b",
+      "reports_sha256": "88248bce2637395fa66980c056b9ad10b2dac1e3da58f8776e473f289b97584f",
+      "final_sha256": "bc668ce84e826fe4a1da0e989e409180160aa53f844c21fb7750c4333d5e5265",
+      "rows": 38551
+    },
+    {
+      "job": "LOWW_2021",
+      "event_sha256": "f1c9fae24732208e2018031812abdc4607c5f6bb62a26a53455bde81d7be26ba",
+      "reports_sha256": "ff9018f23b6d7a9c79513359c468cf47390b82f0310ab2bbbc3e067ad7c7f697",
+      "final_sha256": "e0c21797cfc6ce8c697dbd385dca3b88defab033294ea386a5f8f47d75e36b80",
+      "rows": 49106
+    },
+    {
+      "job": "LOWW_2022",
+      "event_sha256": "56fb6d59bbc94499b9663198bc7a85dee482e1ebf42d678c38dc91e77239ee2b",
+      "reports_sha256": "1cb0625d9e85b434361800c54e5222b7abad082a48a8df149f41d9a8c0117ea8",
+      "final_sha256": "e1a4f121a89cab5fa40a1d5a43deae1711383a39f817a12d86f37f2248f1af29",
+      "rows": 72226
+    },
+    {
+      "job": "LOWW_2023",
+      "event_sha256": "186aeb2b8bc7f59b4b02c88f63aa5fb9cedb41bdbc564f594e110b8b5e51baeb",
+      "reports_sha256": "973b4fbce9a269c65d62e8e82efa950df544b1aac05d7309bb4d5edc85fcbbdb",
+      "final_sha256": "741fffcd22801eea37431751b81cbae7b46a679d47e11d577814930cd6b04d90",
+      "rows": 30865
+    },
+    {
+      "job": "LSGG_2019",
+      "event_sha256": "930e8ee1cdda79b3828d5a027fd9eec5cbcb4b4a44a3c8ef5908905d5ab85495",
+      "reports_sha256": "add462412502d1cd77ae194ce66705d8c91d8d95bf69f7f3b7be6c30b50e6305",
+      "final_sha256": "ce52a8e3ca53c9a3b2cd4249c8d95a65482ea992480c768912f5b7e3841414ed",
+      "rows": 68810
+    },
+    {
+      "job": "LSGG_2020",
+      "event_sha256": "1025ae6b275d1eca6cdf3b41a49d67654c6a88b4433a65f5beef11dcc77108a0",
+      "reports_sha256": "74e5954a52501f6523af42c32bd07e673c430fc6923e2cb9328d8388562e051c",
+      "final_sha256": "05d3784a35c508ce25679e42cab0f488e738fb940fb9246dae587bb9a1c48fbf",
+      "rows": 30391
+    },
+    {
+      "job": "LSGG_2021",
+      "event_sha256": "87644a3fc863e936fdd80c4c3c51eea903627b40a87737aaa578cbd88c7c2ab1",
+      "reports_sha256": "37732e9cbb0f16caadb26f4e96242ede33c5dbd255efd708e617268968723528",
+      "final_sha256": "3b9b4da4fa2f06267a5229fc82bc9184365052548d4cc658b3c34b974766356e",
+      "rows": 34183
+    },
+    {
+      "job": "LSGG_2022",
+      "event_sha256": "8ae6cc5d658372fb7d77f822956e9e30fc460f78d87181749be1f9c95191c6a0",
+      "reports_sha256": "a64b4a306918841661f6291caedc0318cc9c2c6343c4261b24dd78163c00f5b3",
+      "final_sha256": "9e826e28f1e7de2feeb8773ab18fab0e393629a7faa1fcc94186a1ef3217231b",
+      "rows": 48687
+    },
+    {
+      "job": "LSGG_2023",
+      "event_sha256": "10044663371893824df1bcb6d5bfbb27d078afe63b0819c7f5c2055df2c5c44f",
+      "reports_sha256": "002e5f219ec9570b0e8bbfd8cd8fadd9bdd81c7fc219fa568a6f4feba5c2d46a",
+      "final_sha256": "34b5e0780c049a16f4e4a51f1629c72a1a6305f5eda14cb9f6917690f2f084d4",
+      "rows": 23301
+    },
+    {
+      "job": "LSZH_2019",
+      "event_sha256": "3aa448caa9661f8050d39d56dc6b4fd5312e0f90091e0a3c0134a9c4068b853f",
+      "reports_sha256": "9ed7905e04a2d9b1516aacc6466365ae12c7d31be48fcfdde20f5a5866a879b8",
+      "final_sha256": "9a719f25b1fb1731cea2506eddd3a19e7805205920b3a9d19ba3e373b00ef2b4",
+      "rows": 110036
+    },
+    {
+      "job": "LSZH_2020",
+      "event_sha256": "936325439f5f9875610c1d70949e516003ed629fb30f8f7165a452e46fd461e6",
+      "reports_sha256": "171c25a5256a800679fa41b2cb1a1891bf3fe2e6d9fbe745d3c5ebdac5143b53",
+      "final_sha256": "f09946f8cd045650f2fccfa21a18f59d679a319887083a88f977f67a5341558b",
+      "rows": 43458
+    },
+    {
+      "job": "LSZH_2021",
+      "event_sha256": "89f72fb82265ed28c993dc55ae4e7076594c73497c4dd5eedc3162fbf972e394",
+      "reports_sha256": "3604ec2ba1b5cd1d35560aa3e3c16f4de39417f71b077f4b9a2596408dc4dd8d",
+      "final_sha256": "2be5a0ab9c9e9cdd6cc248ec909f515bacb9c77495d2f174a3e79bd5f85abf77",
+      "rows": 51260
+    },
+    {
+      "job": "LSZH_2022",
+      "event_sha256": "2394eb9810f41822c0437aaa146526c7f7648cf39e04411bca9e4a11e01166fd",
+      "reports_sha256": "fabeb5632c6e8fb382436e30b56a04b87c57e717cc69b301fe81d292e42796d7",
+      "final_sha256": "3012473a6036d7578e9597e8474482e0ac92f3e5141382b9f3d15ab83cbc7c4b",
+      "rows": 78758
+    },
+    {
+      "job": "LSZH_2023",
+      "event_sha256": "4c69346ee110b08979bc73b97d4e7ff7cc417e874e512f4a17c964472eaffd02",
+      "reports_sha256": "fdd84f98592034a46a0e07094352496de3cca3de24faa3f5089896f905316428",
+      "final_sha256": "913eec75e890a851b5caee32cbacfa79fc84ba0a8089f3b95964ba85384aadbf",
+      "rows": 33461
+    }
+  ],
+  "primary_reproduced": true,
+  "sources_unchanged": true,
+  "all_rows_once": true,
+  "training_executed": false,
+  "audit_messages": 19636,
+  "scenarios": [
+    {
+      "name": "primary",
+      "age": 60,
+      "delay": 15,
+      "include_cor": true
+    },
+    {
+      "name": "delay0",
+      "age": 60,
+      "delay": 0,
+      "include_cor": true
+    },
+    {
+      "name": "delay5",
+      "age": 60,
+      "delay": 5,
+      "include_cor": true
+    },
+    {
+      "name": "delay30",
+      "age": 60,
+      "delay": 30,
+      "include_cor": true
+    },
+    {
+      "name": "age30",
+      "age": 30,
+      "delay": 15,
+      "include_cor": true
+    },
+    {
+      "name": "age90",
+      "age": 90,
+      "delay": 15,
+      "include_cor": true
+    },
+    {
+      "name": "no_cor",
+      "age": 60,
+      "delay": 15,
+      "include_cor": false
+    }
+  ],
+  "packages": {
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3"
+  }
+}

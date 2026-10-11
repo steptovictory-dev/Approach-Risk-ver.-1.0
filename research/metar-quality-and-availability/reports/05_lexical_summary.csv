@@ -1,0 +1,10 @@
+field,agrees,comparisons
+dewpoint_c,True,19614
+qnh_hpa,True,19602
+temperature_c,True,19614
+visibility_m,False,4
+visibility_m,True,18461
+visibility_relation,False,4
+visibility_relation,True,18461
+wind_direction_deg,True,18183
+wind_speed_kt,True,19604
