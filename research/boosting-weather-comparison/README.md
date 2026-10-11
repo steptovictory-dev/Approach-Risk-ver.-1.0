@@ -5,13 +5,19 @@
 бустингом по деревьям. Первое семейство — CatBoostClassifier.
 Статус: структура и протокол созданы, обучение в этом этапе еще не запускалось.
 
-Используем проверенную таблицу ../weather-model-comparison/data/model_table_v1
-и реестр ../weather-model-comparison/reports/02_feature_registry.csv.
+Используем версию europe_c40_model_v1 через approach_risk.data.registry.
+Физические пути и контрольные суммы заданы в configs/datasets.json,
+настройки моделей — configs/boosting_weather.json. Новый код не импортирует
+сценарии соседнего исследования. Модели новых запусков —
+artifacts/boosting-weather-comparison, вне Git.
 Исходные данные и завершенные результаты не меняем и не дублируем.
 Логистические модели остаются фиксированной исходной точкой сравнения.
 
 План: проверить среду, реализовать запуск пары без погоды / с погодой,
 исполнить ноутбук обучения, затем ограниченную настройку только по validation.
 Точные условия записаны в protocol.md до первого fit.
+Архитектурная проверка scripts/verify_shared_architecture.py прошла по
+93 файлам и воспроизвела сохраненные test-метрики старых моделей без fit.
+Исполненный отчет — notebooks/00_architecture.ipynb.
 Публичные артефакты: notebooks, scripts, reports, figures.
 Локальные data (модели, прогнозы) и Checkpoint исключены из Git.

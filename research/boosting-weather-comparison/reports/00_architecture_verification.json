@@ -1,0 +1,19 @@
+{
+  "verified": true,
+  "dataset": "europe_c40_model_v1",
+  "files_verified": 93,
+  "rows": 6331485,
+  "split_rows": {
+    "train": 4165060,
+    "validation": 1619848,
+    "test": 546577
+  },
+  "labels": {
+    "train": 11626,
+    "validation": 4984,
+    "test": 1739
+  },
+  "legacy_feature_equivalence": true,
+  "saved_test_metrics_reproduced": true,
+  "fit_executed": false
+}
