@@ -40,6 +40,7 @@ display(json.loads((BASE/'reports/05_bootstrap_manifest.json').read_text()))
 for ax,metric in zip(axes,['AP','ROC_AUC']):
     summary.pivot(index='scenario',columns='model',values=metric).plot.bar(ax=ax,rot=0,color=['#64748b','#2563eb'])
     ax.set_title(metric+' · test 2023');ax.set_xlabel('')
+    ax.legend(title='Модель',loc='upper left',bbox_to_anchor=(0,1.27),ncol=2)
 fig.tight_layout()
 for ext in ['png','svg']:
     path=BASE/f'figures/05_sensitivity_comparison.{ext}'
