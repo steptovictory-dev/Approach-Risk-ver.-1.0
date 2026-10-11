@@ -9,5 +9,8 @@ description = "Reproducible aviation GoA research infrastructure"
 requires-python = ">=3.11"
 dependencies = ["numpy", "pandas==3.0.6", "pyarrow==25.0.1", "scikit-learn==1.9.1", "joblib", "threadpoolctl"]
 
+[project.optional-dependencies]
+boosting = ["catboost==1.2.10"]
+
 [tool.setuptools.packages.find]
 where = ["src"]
