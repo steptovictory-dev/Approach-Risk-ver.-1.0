@@ -21,7 +21,7 @@ def _weighted(pre,counts,day):
 
 def paired_intervals(y,a,b,times,replicates=2000,seed=20261011):
     y,a=validate_scores(y,a);_,b=validate_scores(y,b);y=y.astype(float)
-    days=pd.to_datetime(times,utc=True).floor('D')
+    days=pd.DatetimeIndex(pd.to_datetime(times,utc=True)).floor('D')
     if len(days)!=len(y) or days.isna().any():raise ValueError('Invalid UTC blocks')
     day,dates=pd.factorize(days);A=_prepared(y,a,day);B=_prepared(y,b,day)
     rng=np.random.default_rng(seed)

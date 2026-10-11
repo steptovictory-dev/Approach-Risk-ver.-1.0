@@ -1,0 +1,180 @@
+{
+  "verified": true,
+  "fingerprint": "ca87eaf6b653ff7b87f424efa75cfba7e4baddc847d338681b468d72470380ea",
+  "selected": {
+    "baseline": "d8_lr0.1",
+    "weather": "d4_lr0.1"
+  },
+  "candidate_count": 10,
+  "test_after_selection": true,
+  "files": [
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/d4_lr0.03/actual_parameters.json",
+      "sha256": "3fb988e74a92911c6e66bdde56f3e91b9c933e839a5fbdff2dafb88f47d8ac96"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/d4_lr0.03/complete.json",
+      "sha256": "0e049084994622a08098c7043558e5e248e3285bc812076d44e5b441d8a74d03"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/d4_lr0.03/model.cbm",
+      "sha256": "72043f1708c4e4938de9b3adea34abbbe7252b9549ca174bd1adb507fc1edd8b"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/d4_lr0.03/validation_predictions.parquet",
+      "sha256": "5b44df0cf70e8b0a6939deea8b2459c1cd7563adbc71557d635365fd0eb71988"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/d4_lr0.1/actual_parameters.json",
+      "sha256": "db22268d05b24bdf616d33736c7f25b8729cd0aa0ce1bca62bc0891abf833e14"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/d4_lr0.1/complete.json",
+      "sha256": "e73edcdcfb2da6eb73214657740a836b72c9aef193463c6489a0393ce5ec9805"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/d4_lr0.1/model.cbm",
+      "sha256": "852051c62384f4fd3ff5178815da630ad6ec4987b5143fb275e5cd1f80fe5db3"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/d4_lr0.1/validation_predictions.parquet",
+      "sha256": "15013f9b853a6f21e0dbc2987f5186688cb62425af5bbd3cf582cf47feec59ce"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/d8_lr0.03/actual_parameters.json",
+      "sha256": "1987ca171ab263966a586020bfcea4c823ed7fd5556f669d5b8d44424da58561"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/d8_lr0.03/complete.json",
+      "sha256": "dd843950cd77bc42c9c730dc8ac3f19e60c2bc6f19fbda73dd176bb5428fb1b2"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/d8_lr0.03/model.cbm",
+      "sha256": "2b56a4fa82ea8e21ccdcb8f3ed5e5793c2056427f1336b5ef13fe8e358f68969"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/d8_lr0.03/validation_predictions.parquet",
+      "sha256": "a4eb2a093745c0bb4769a6948f439def70810229d47dac9442c25d8193b0e9ba"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/d8_lr0.1/actual_parameters.json",
+      "sha256": "3b7a1c554d0c2e0b1d7a3b253ee069f33a43209a98c9c11fa1a5ef2ed3003818"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/d8_lr0.1/complete.json",
+      "sha256": "19516984a2508cae118f1d91bd46918a22b5dacda6dd4da0d81553d533339a7f"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/d8_lr0.1/model.cbm",
+      "sha256": "18826702871afe8cc64e427b86518db9441b7c466469c07e3f20428c82b85d08"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/d8_lr0.1/validation_predictions.parquet",
+      "sha256": "bc8fcbb1c15f210192126bfd11acf20fd6e763c5fe9ae6959ed9af6ceed74ea7"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/fixed/actual_parameters.json",
+      "sha256": "b07bd28b432054e18119d0951ea3f695ff58e8e0f4eae9099e4cc29152234b1b"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/fixed/complete.json",
+      "sha256": "28e3dab5d0c392510b1d49a72a07a783dd08f2025b7630e589000b596c88e286"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/fixed/model.cbm",
+      "sha256": "0c976469cb699edd08c39c924cf03b93c9e4bff22f60d6a3f0b603730d7f483e"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline/fixed/validation_predictions.parquet",
+      "sha256": "3851837e0da020fe9f5786da12644f7a850e3b052e74cb62077ac2ffffb443a1"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/baseline_test_predictions.parquet",
+      "sha256": "2c8b17e6077e38f27dffd176e1d20c8f8b7d0bb68e4c95342f0010bc30d8f7ca"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/d4_lr0.03/actual_parameters.json",
+      "sha256": "3fb988e74a92911c6e66bdde56f3e91b9c933e839a5fbdff2dafb88f47d8ac96"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/d4_lr0.03/complete.json",
+      "sha256": "fc3511b1dd635c6d70645df25e9301f1e9b93af2d28145f568b76943f1137878"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/d4_lr0.03/model.cbm",
+      "sha256": "52e91204bf967c292db011dfd88d6a5e6e02a94c3c72c259a9981d941cdbdf48"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/d4_lr0.03/validation_predictions.parquet",
+      "sha256": "a03210a4ad5270d658809af0c96d3a7775e9b44514f292397060a371c8f82905"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/d4_lr0.1/actual_parameters.json",
+      "sha256": "db22268d05b24bdf616d33736c7f25b8729cd0aa0ce1bca62bc0891abf833e14"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/d4_lr0.1/complete.json",
+      "sha256": "de403df1bb5f6999870b389974b7d67be116d14c9070e9734e38e56897b101bb"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/d4_lr0.1/model.cbm",
+      "sha256": "f916bd8d776c8cc2cdecd0333418f36048ef01aa7bf191445b72b39310ca1696"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/d4_lr0.1/validation_predictions.parquet",
+      "sha256": "d667193fe114b700b8f04d8f109a75d74d496e77f92f9291828aa9cd38177cb3"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/d8_lr0.03/actual_parameters.json",
+      "sha256": "1987ca171ab263966a586020bfcea4c823ed7fd5556f669d5b8d44424da58561"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/d8_lr0.03/complete.json",
+      "sha256": "0ff65671a2c5fde8b7b77046ce759c71deb88dccfca43bca128fcf1214913130"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/d8_lr0.03/model.cbm",
+      "sha256": "a4341bbc31d9dc02ba96b1cf0f491aea3e5fcc8325c1c4c5bb4dd1978e6448af"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/d8_lr0.03/validation_predictions.parquet",
+      "sha256": "4e095dfcead84439afe276b8aa9e8d3085ed1806bc4c618a753b80190b663a5d"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/d8_lr0.1/actual_parameters.json",
+      "sha256": "3b7a1c554d0c2e0b1d7a3b253ee069f33a43209a98c9c11fa1a5ef2ed3003818"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/d8_lr0.1/complete.json",
+      "sha256": "386a0de1f3bb355919365f41afe039bf6761c941e05c692838816cc280ee5915"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/d8_lr0.1/model.cbm",
+      "sha256": "16b496a11f4dd1df186f829bf16e6f8cf5439810d679478b41dbed1675210254"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/d8_lr0.1/validation_predictions.parquet",
+      "sha256": "2077b9c49822a5518d9338aaf79344272fe7079556bf47586195de2c8f25681b"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/fixed/actual_parameters.json",
+      "sha256": "b07bd28b432054e18119d0951ea3f695ff58e8e0f4eae9099e4cc29152234b1b"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/fixed/complete.json",
+      "sha256": "8dc6e921cec7cc8dc09944a61c7a499b99833e5f42f4cecbd7a1569e9d106241"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/fixed/model.cbm",
+      "sha256": "2ed167aea912b682a187e6b2381cbf34cb97b772d17ffc539328fb7299ce20fb"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather/fixed/validation_predictions.parquet",
+      "sha256": "59b75539e2e2afe2d94a2c2573450cdb0b45b3e5e6ec3d4dd272a6e7ee433e4d"
+    },
+    {
+      "path": "artifacts/boosting-weather-comparison/weather_test_predictions.parquet",
+      "sha256": "239d9a2851f53a4e1daa0470c366ebf7cb003524c422230d5d8755a521827827"
+    }
+  ]
+}

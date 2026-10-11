@@ -17,6 +17,8 @@ for x in families.itertuples():
 ap=intervals[intervals.metric=='AP'].iloc[0]
 ops=operating[operating.validation_FPR_budget==.01]
 optext='\n'.join(f'- {x.variant}: полнота {x.test_recall:.2%}, фактический FPR {x.test_FPR:.2%}, точность {x.test_precision:.2%}, TP={x.TP}, FP={x.FP}.' for x in ops.itertuples())
+cb=families[(families.family=='CatBoost') & (families.variant=='weather')].iloc[0]
+logistic=families[(families.family=='Logistic') & (families.variant=='weather')].iloc[0]
 claim='Интервал AP целиком выше нуля.' if ap.lower_95>0 else 'Интервал AP включает ноль; устойчивое преимущество погоды по этому интервалу не установлено.'
 report=f'''# CatBoost на C40: результат исследовательского сравнения
 
@@ -71,6 +73,19 @@ Test уже просматривался в логистическом иссл�
 Не расширять подбор по этим test-результатам. Следующий научный вопрос –
 переносимость выбранной пары и порогов при ограничениях доступности погоды;
 его следует оформить отдельным протоколом до новых экспериментов.
+
+## Ответ на исследовательский вопрос
+
+Добавление погоды улучшило выбранную пару CatBoost по AP, ROC-AUC и Brier;
+дневные интервалы этой пары не пересекают ноль. При переходе от погодной
+логистической модели к погодному CatBoost точечный прирост AP составляет
+{cb.AP-logistic.AP:.6f}, или {(cb.AP/logistic.AP-1):.2%} относительно исходного AP.
+ROC-AUC вырос на {cb.ROC_AUC-logistic.ROC_AUC:.4f}; Brier немного ухудшился.
+На этой точечной оценке крупного скачка качества от смены семейства не видно.
+Статистическая значимость разницы семейств отдельно не проверялась.
+Низкая полнота и перенос порогов остаются проблемой; этот этап не подтверждает
+эксплуатационную пригодность. Результат заслуживает сохранения, дальнейший
+поиск должен отвечать отдельному вопросу, а не повышать метрики этого test.
 '''
 (R/'08_research_answer.md').write_text(report,encoding='utf8')
 checkpoint=f'''# CP-03. CatBoost: обучение и исследовательская оценка завершены
@@ -123,4 +138,4 @@ text=text.replace('Статус: обучение CatBoost запущено в n
 readme.write_text(text,encoding='utf8')
 status=json.loads((R/'01_run_status.json').read_text(encoding='utf8'));status['status']='completed_verified'
 (R/'01_run_status.json').write_text(json.dumps(status,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
-print(report)
+print('Research summary and checkpoint maps saved.')

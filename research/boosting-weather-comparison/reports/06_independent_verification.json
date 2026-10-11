@@ -1,0 +1,12 @@
+{
+  "verified": true,
+  "candidate_count": 10,
+  "hashed_files": 42,
+  "executed_cells": 7,
+  "validation_metrics_reproduced": true,
+  "test_metrics_reproduced": true,
+  "selected_test_predictions_reproduced_rows": 1000,
+  "selection_matches_validation_AP": true,
+  "executed_diagnostic_cells": 6,
+  "feature_importance_checked": true
+}

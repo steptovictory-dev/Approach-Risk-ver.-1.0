@@ -37,6 +37,10 @@ for name in ['baseline','weather']:
         for metric in ['AP','ROC_AUC','Brier']:
             np.testing.assert_allclose(actual[metric],getattr(row,metric),rtol=1e-12)
     pred=pd.read_parquet(DEST/f'{name}_test_predictions.parquet').set_index('source_row')
+    summary=pd.read_csv(BASE/'reports/03_family_comparison.csv')
+    saved=summary[(summary.family=='CatBoost') & (summary.variant==name)].iloc[0]
+    for metric,value in metrics(pred.GoA,pred.probability).items():
+        np.testing.assert_allclose(saved[metric],value,rtol=1e-12)
     model=CatBoostClassifier()
     model.load_model(str(DEST/name/best.candidate/'model.cbm'))
     assert model.tree_count_==500 and len(model.feature_names_)==(34 if name=='weather' else 8)
@@ -46,6 +50,16 @@ notebook=nbformat.read(BASE/'notebooks/01_catboost_training.ipynb',as_version=4)
 code=[c for c in notebook.cells if c.cell_type=='code']
 assert all(c.execution_count is not None for c in code)
 assert not any(o.output_type=='error' for c in code for o in c.outputs)
-report={'verified':True,'candidate_count':len(rows),'hashed_files':len(manifest['files']),'executed_cells':len(code),'validation_metrics_reproduced':True,'selected_test_predictions_reproduced_rows':1000,'selection_matches_validation_AP':True}
+diagnostics=nbformat.read(BASE/'notebooks/02_catboost_diagnostics.ipynb',as_version=4)
+diagnostic_code=[c for c in diagnostics.cells if c.cell_type=='code']
+assert all(c.execution_count is not None for c in diagnostic_code)
+assert not any(o.output_type=='error' for c in diagnostic_code for o in c.outputs)
+for name,count in [('baseline',8),('weather',34)]:
+    importance=pd.read_csv(BASE/f'reports/03_{name}_importance.csv')
+    assert len(importance)==count and np.isfinite(importance.importance).all()
+    np.testing.assert_allclose(importance.importance.sum(),100,rtol=1e-10)
+report={'verified':True,'candidate_count':len(rows),'hashed_files':len(manifest['files']),'executed_cells':len(code),'validation_metrics_reproduced':True,'test_metrics_reproduced':True,'selected_test_predictions_reproduced_rows':1000,'selection_matches_validation_AP':True}
+report['executed_diagnostic_cells']=len(diagnostic_code)
+report['feature_importance_checked']=True
 (BASE/'reports/06_independent_verification.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf8')
 print(json.dumps(report,indent=2))

@@ -1,0 +1,9 @@
+{
+  "fingerprint": "ca87eaf6b653ff7b87f424efa75cfba7e4baddc847d338681b468d72470380ea",
+  "criterion": "validation AP, then smaller depth, then learning rate",
+  "selected": {
+    "baseline": "d8_lr0.1",
+    "weather": "d4_lr0.1"
+  },
+  "test_used_for_selection": false
+}

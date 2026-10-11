@@ -23,6 +23,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from IPython.display import display
+from catboost import CatBoostClassifier
 from sklearn.metrics import precision_recall_curve
 ROOT=Path.cwd();BASE=ROOT/'research/boosting-weather-comparison';DEST=ROOT/'artifacts/boosting-weather-comparison'
 sys.path.insert(0,str(ROOT/'src'))
@@ -35,7 +36,10 @@ evaluation=pd.read_csv(BASE/'reports/03_test_evaluation.csv')
 display(pd.read_csv(BASE/'reports/01_validation_candidates.csv')[['variant','candidate','depth','learning_rate','AP','ROC_AUC','Brier']])
 display(selection)
 def save(fig,name):
-    for ext in ['png','svg']:fig.savefig(BASE/f'figures/{name}.{ext}',dpi=160,bbox_inches='tight')
+    for ext in ['png','svg']:
+        path=BASE/f'figures/{name}.{ext}'
+        fig.savefig(path,dpi=160,bbox_inches='tight')
+        if ext=='svg':path.write_text('\\n'.join(line.rstrip() for line in path.read_text(encoding='utf8').splitlines())+'\\n',encoding='utf8')
 ''')
 md('''## Precision–recall на test
 
@@ -115,7 +119,13 @@ md('''## Важности признаков и ограничения инте�
 ''')
 code('''fig,axes=plt.subplots(1,2,figsize=(12,6))
 for ax,name,title in zip(axes,['baseline','weather'],['Без погоды','С погодой']):
-    importance=pd.read_csv(BASE/f'reports/03_{name}_importance.csv').nlargest(12,'importance').sort_values('importance')
+    model=CatBoostClassifier();model.load_model(str(DEST/name/selection['selected'][name]/'model.cbm'))
+    values=model.get_feature_importance(type='PredictionValuesChange')
+    assert len(values)==len(model.feature_names_) and np.isfinite(values).all() and values.sum()>0
+    full=pd.DataFrame({'feature':model.feature_names_,'importance':values})
+    full.to_csv(BASE/f'reports/03_{name}_importance.csv',index=False)
+    display(full.sort_values('importance',ascending=False))
+    importance=full.nlargest(12,'importance').sort_values('importance')
     ax.barh(importance.feature,importance.importance,color='#64748b' if name=='baseline' else '#2563eb')
     ax.set_title(title);ax.set_xlabel('Важность CatBoost');ax.grid(axis='x',alpha=.2)
 fig.tight_layout();save(fig,'07_feature_importance');plt.show()

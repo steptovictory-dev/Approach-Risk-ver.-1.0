@@ -3,7 +3,9 @@
 Независимый этап от main f4454ae. Ветка research/boosting-weather-comparison.
 Методика – обучение с учителем, бинарная классификация GoA градиентным
 бустингом по деревьям. Первое семейство – CatBoostClassifier.
-Статус: обучение CatBoost запущено в notebooks/01_catboost_training.ipynb.
+Статус: все 10 CatBoost обучены; оценка и независимые проверки завершены.
+Исполненные ноутбуки: 01_catboost_training.ipynb, 02_catboost_diagnostics.ipynb.
+Итог: reports/08_research_answer.md.
 Пять заранее заданных конфигураций для каждого варианта сравниваются по
 validation AP. Обе модели выбираются до расчета test; test уже известен из
 предыдущего исследования, поэтому сравнение семейств остается исследовательским.
@@ -27,3 +29,23 @@ Train упорядочен по C40, has_time сохраняет порядок 
 Исполненный отчет – notebooks/00_architecture.ipynb.
 Публичные артефакты: notebooks, scripts, reports, figures.
 Локальные data (модели, прогнозы) и Checkpoint исключены из Git.
+
+## Воспроизведение из корня проекта
+
+Установить дополнительную зависимость CatBoost 1.2.10 из pyproject.toml.
+Порядок исполнения:
+
+```powershell
+.venv/Scripts/python.exe research/boosting-weather-comparison/scripts/build_training_notebook.py
+.venv/Scripts/python.exe research/boosting-weather-comparison/scripts/build_diagnostics_notebook.py
+.venv/Scripts/python.exe research/boosting-weather-comparison/scripts/verify_bootstrap.py
+.venv/Scripts/python.exe research/boosting-weather-comparison/scripts/verify_training.py
+.venv/Scripts/python.exe research/boosting-weather-comparison/scripts/write_research_summary.py
+```
+
+Обучающий сценарий возобновляет завершенные кандидаты только при совпадении
+fingerprint и хеша модели. Диагностический ноутбук явно вычисляет
+PredictionValuesChange из сохраненных моделей и обновляет таблицы важностей;
+его нужно исполнять после обучающего ноутбука. finish_training_notebook.py
+сохранен как точечное восстановление двух отчетных ячеек первого запуска после
+исправления обработки Series с датами; повторный fit при восстановлении не делался.

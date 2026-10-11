@@ -25,4 +25,6 @@ for tied in [False,True]:
     np.testing.assert_allclose(result.upper_95,hi,rtol=1e-10,atol=1e-12)
     np.testing.assert_allclose(result.difference,score(y,b)-score(y,a),rtol=1e-10,atol=1e-12)
     assert metadata['valid']==len(reference)
+    series_result,_=paired_intervals(y,a,b,pd.Series(pd.Timestamp('2023-01-01',tz='UTC')+pd.to_timedelta(days,unit='D')),replicates=200,seed=7)
+    pd.testing.assert_frame_equal(series_result,result)
 print('Block intervals match explicit sklearn resampling, with and without ties.')
