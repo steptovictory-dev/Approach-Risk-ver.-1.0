@@ -1,0 +1,10 @@
+{
+  "replicates": 2000,
+  "valid": 2000,
+  "skipped": 0,
+  "days": 148,
+  "seed": 20261011,
+  "rows": 546577,
+  "seconds": 121.69775128364563,
+  "weighted_formulas_checked": true
+}
