@@ -1,0 +1,46 @@
+{
+  "tracked_files": 1482,
+  "notebooks": 97,
+  "saved_errors": [
+    {
+      "file": "europe/notebooks/06_attempts/multiple_attempts/06_05_three_attempt_cases.ipynb",
+      "cell": 3,
+      "error": "ModuleNotFoundError",
+      "message": "No module named 'pyarrow'"
+    }
+  ],
+  "unexecuted_notebooks": [
+    "europe/notebooks/07_airports/07_04_weather_comparison.ipynb",
+    "europe/notebooks/07_airports/07_05_composition_missing.ipynb",
+    "europe/notebooks/07_airports/07_06_c40_distributions.ipynb",
+    "europe/notebooks/07_airports/07_07_c40_geometry.ipynb",
+    "europe/notebooks/07_airports/07_08_c40_radial_cases.ipynb",
+    "europe/notebooks/07_airports/EGCC/07_03_egcc_february.ipynb"
+  ],
+  "publication_review_files": [
+    "europe/figures/07_airports/07_01_airport_volume.pdf",
+    "europe/figures/07_airports/07_02_airport_rates.pdf",
+    "europe/figures/07_airports/07_03_monthly_coverage.pdf",
+    "europe/figures/07_airports/07_04_monthly_rates.pdf",
+    "europe/figures/07_airports/07_05_composition_missing.pdf",
+    "europe/figures/07_airports/07_05_selection_coverage.pdf",
+    "europe/figures/07_airports/07_05_type_concentration.pdf",
+    "europe/figures/07_airports/07_06_bearing_by_airport.pdf",
+    "europe/figures/07_airports/07_06_coordinates_by_airport.pdf",
+    "europe/figures/07_airports/07_06_missing_by_label.pdf",
+    "europe/figures/07_airports/07_06_monthly_geometry.pdf",
+    "europe/figures/07_airports/07_07_airport_time_series.pdf",
+    "europe/figures/07_airports/07_07_coordinate_grid.pdf",
+    "europe/figures/07_airports/07_08_radius_by_label.pdf",
+    "europe/figures/07_airports/EGCC/07_02_egcc_coverage.pdf",
+    "europe/figures/07_airports/EGCC/07_03_egcc_rates.pdf",
+    "europe/figures/07_airports/EGCC/07_03_february_daily.pdf",
+    "europe/figures/07_airports/EGCC/07_04_egcc_reasons.pdf",
+    "research/c40_geometry/figures/02_egcc_geometry.pdf",
+    "research/c40_geometry/figures/03_egcc_cases.pdf",
+    "research/c40_geometry/figures/05_public_pilot.pdf",
+    "research/c40_geometry/figures/06_epwa_controls.pdf",
+    "src/approach_risk/data/__init__.py",
+    "src/approach_risk/data/registry.py"
+  ]
+}
