@@ -27,4 +27,3 @@ def prepare_features(frame, weather=False, aircraft=True):
         else:
             out[col] = pd.to_numeric(out[col], errors='raise').astype(float)
     return out
-

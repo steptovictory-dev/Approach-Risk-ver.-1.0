@@ -105,4 +105,3 @@ def evaluate_pair(baseline, weather, thresholds_baseline, thresholds_weather):
                                  'rows':len(q),'GoA':int(q.GoA.sum()),
                                  **threshold_metrics(q.GoA,q.probability,thresholds[limit])})
     return pd.DataFrame(rows)
-

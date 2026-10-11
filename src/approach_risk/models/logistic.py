@@ -38,4 +38,3 @@ def build_pipeline(weather=False, aircraft=True):
     ], remainder='drop', sparse_threshold=1.0)
     return Pipeline([('preprocess', pre), ('model', LogisticRegression(
         C=1.0, solver='lbfgs', max_iter=2000, random_state=20261011))])
-
