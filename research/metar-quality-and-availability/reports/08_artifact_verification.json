@@ -1,0 +1,21 @@
+{
+  "verified": true,
+  "source_files_verified": 279,
+  "rows": 6331485,
+  "source_rows_unchanged": true,
+  "training_executed": false,
+  "executed_notebooks": 3,
+  "embedded_figures": 7,
+  "semantic_fixtures_pass": true,
+  "lexical_disagreements_explained": true,
+  "dependencies": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "pyarrow": "25.0.1",
+    "metar": "2.0.1",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.3.0",
+    "matplotlib": "3.11.2"
+  }
+}

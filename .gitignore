@@ -32,6 +32,8 @@ Thumbs.db
 /research/sample-selection/data/
 /europe/weather/Checkpoint/
 /europe/weather/data/
+/research/weather-model-comparison/Checkpoint/
+/research/weather-model-comparison/data/
 
 # Полный объемный реестр контекстов воспроизводится скриптом аудита C40
 /europe/reports/analytical_sample/04_04_same_day_contexts.csv
