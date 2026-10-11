@@ -40,8 +40,10 @@ display(json.loads((BASE/'reports/05_bootstrap_manifest.json').read_text()))
 for ax,metric in zip(axes,['AP','ROC_AUC']):
     summary.pivot(index='scenario',columns='model',values=metric).plot.bar(ax=ax,rot=0,color=['#64748b','#2563eb'])
     ax.set_title(metric+' · test 2023');ax.set_xlabel('')
-    ax.legend(title='Модель',loc='upper left',bbox_to_anchor=(0,1.27),ncol=2)
-fig.tight_layout()
+    ax.get_legend().remove()
+handles,labels=axes[0].get_legend_handles_labels()
+fig.legend(handles,['Без погоды','С погодой'],loc='upper center',bbox_to_anchor=(.5,.99),ncol=2,frameon=False)
+fig.tight_layout(rect=(0,0,1,.84))
 for ext in ['png','svg']:
     path=BASE/f'figures/05_sensitivity_comparison.{ext}'
     fig.savefig(path,dpi=160,bbox_inches='tight')
