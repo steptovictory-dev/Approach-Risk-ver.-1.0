@@ -30,7 +30,7 @@ display(pd.DataFrame({'rows':report['split_rows'],'GoA':report['labels']}))
 
 Общий загрузчик → признаки → классификатор → общая оценка → отчет исследования.
 Проверки перехода пройдены. CatBoost пока не установлен и модели нового этапа
-не обучены. Следующий шаг - проверка среды и обучение кандидатов только по
+не обучены. Следующий шаг – проверка среды и обучение кандидатов только по
 train/validation. Завершенные модели, исходные данные и архивы не менялись.
 ''')],metadata={'kernelspec':{'display_name':'Python 3','language':'python','name':'python3'}})
 p=BASE/'notebooks/00_architecture.ipynb';nb.write(n,p)

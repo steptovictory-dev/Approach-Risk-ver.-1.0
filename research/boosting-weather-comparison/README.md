@@ -1,13 +1,13 @@
 # Бустинговые классификаторы GoA на C40
 
 Независимый этап от main f4454ae. Ветка research/boosting-weather-comparison.
-Методика - обучение с учителем, бинарная классификация GoA градиентным
-бустингом по деревьям. Первое семейство - CatBoostClassifier.
+Методика – обучение с учителем, бинарная классификация GoA градиентным
+бустингом по деревьям. Первое семейство – CatBoostClassifier.
 Статус: структура и протокол созданы, обучение в этом этапе еще не запускалось.
 
 Используем версию europe_c40_model_v1 через approach_risk.data.registry.
 Физические пути и контрольные суммы заданы в configs/datasets.json,
-настройки моделей - configs/boosting_weather.json. Новый код не импортирует
+настройки моделей – configs/boosting_weather.json. Новый код не импортирует
 сценарии соседнего исследования. Модели новых запусков -
 artifacts/boosting-weather-comparison, вне Git.
 Исходные данные и завершенные результаты не меняем и не дублируем.
@@ -18,6 +18,6 @@ artifacts/boosting-weather-comparison, вне Git.
 Точные условия записаны в protocol.md до первого fit.
 Архитектурная проверка scripts/verify_shared_architecture.py прошла по
 93 файлам и воспроизвела сохраненные test-метрики старых моделей без fit.
-Исполненный отчет - notebooks/00_architecture.ipynb.
+Исполненный отчет – notebooks/00_architecture.ipynb.
 Публичные артефакты: notebooks, scripts, reports, figures.
 Локальные data (модели, прогнозы) и Checkpoint исключены из Git.
