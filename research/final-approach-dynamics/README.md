@@ -11,7 +11,7 @@
 на финальный заход/перехвата глиссады. Точный ориентир и окно еще не утверждены.
 Событие перехвата ILS нельзя считать установленным только по ADS-B геометрии.
 
-Папка: research/final-approach-dynamics. Ветка: codex/final-approach-dynamics,
+Папка: research/final-approach-dynamics. Ветка: research/final-approach-dynamics,
 создана от завершенного CatBoost-этапа 188e6dd. Предыдущие результаты сохранены.
 Протокол: protocol.md. Исполненный аудит: notebooks/00_data_inventory.ipynb.
 Данные и Checkpoint локальны, вне Git; публичны код и агрегированные результаты.
