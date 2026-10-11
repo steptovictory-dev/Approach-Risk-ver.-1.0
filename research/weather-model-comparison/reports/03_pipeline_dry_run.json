@@ -1,0 +1,39 @@
+{
+  "verified": true,
+  "variants": [
+    {
+      "weather": false,
+      "aircraft": true,
+      "predictors": 8
+    },
+    {
+      "weather": true,
+      "aircraft": true,
+      "predictors": 34
+    },
+    {
+      "weather": false,
+      "aircraft": false,
+      "predictors": 7
+    },
+    {
+      "weather": true,
+      "aircraft": false,
+      "predictors": 33
+    }
+  ],
+  "rows_checked": 1000,
+  "fit_called": false,
+  "training_executed": false,
+  "checks": [
+    "registered predictors only",
+    "unfitted pipelines",
+    "tied thresholds",
+    "undefined metrics",
+    "calibration counts",
+    "known perfect scores",
+    "paired UTC blocks",
+    "prediction alignment",
+    "reject unequal populations"
+  ]
+}

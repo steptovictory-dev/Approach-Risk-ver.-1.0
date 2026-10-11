@@ -1,0 +1,73 @@
+{
+  "verified": true,
+  "training_executed": true,
+  "methodology": "binary classification; logistic regression",
+  "methodology_sha256": "1bcb2540697c0694e16658c92a367b0bb0edf71c0928dbf366f2806bbe290f86",
+  "models": [
+    {
+      "model": "baseline",
+      "method": "supervised binary classification / logistic regression L2 C=1",
+      "train_rows": 4165060,
+      "train_GoA": 11626,
+      "converged": true,
+      "iterations": 14,
+      "seconds": 6.614796876907349,
+      "warnings": []
+    },
+    {
+      "model": "weather",
+      "method": "supervised binary classification / logistic regression L2 C=1",
+      "train_rows": 4165060,
+      "train_GoA": 11626,
+      "converged": true,
+      "iterations": 18,
+      "seconds": 28.52980637550354,
+      "warnings": []
+    }
+  ],
+  "thresholds": {
+    "baseline": {
+      "0.001": 0.005386276570671008,
+      "0.005": 0.004893417191302813,
+      "0.01": 0.004750799971074916
+    },
+    "weather": {
+      "0.001": 0.027905546973833666,
+      "0.005": 0.011513639884520699,
+      "0.01": 0.0078063236151220215
+    }
+  },
+  "input_manifest_sha256": "610d45bcb1ceb9112c1e32531ac9f95c32ccc628399ea8cec9245ed4ad8f97b5",
+  "pending": [
+    "no-aircraft pair",
+    "gap mask pair",
+    "day bootstrap",
+    "delay/COR sensitivity"
+  ],
+  "files": [
+    {
+      "file": "baseline.joblib",
+      "sha256": "3e9e09dd773b929526249e43f0c27d407c417b6a9fc89c10b34a2ea61b7f0447"
+    },
+    {
+      "file": "baseline_test_predictions.parquet",
+      "sha256": "6f1004fdd555743a3a7d4861d8378bc551a5b6381b0b9287e4f8119089e8706a"
+    },
+    {
+      "file": "baseline_validation_predictions.parquet",
+      "sha256": "576bf4dbb2314333e9aa3ecb80b0fab7f00279e2559d25140cc5c46fe54898df"
+    },
+    {
+      "file": "weather.joblib",
+      "sha256": "ee6e3c085f0baede11e6b85afe8266389a971d344695f6d7eed8840d6fa81481"
+    },
+    {
+      "file": "weather_test_predictions.parquet",
+      "sha256": "5d5df271a44fcbaea71b7f04036dce9a17a2d0c470becc20482a5883d83578ad"
+    },
+    {
+      "file": "weather_validation_predictions.parquet",
+      "sha256": "b4cd04dce9b677141beb15747ffa58413a9f9ed6418127df019384827fb25731"
+    }
+  ]
+}
