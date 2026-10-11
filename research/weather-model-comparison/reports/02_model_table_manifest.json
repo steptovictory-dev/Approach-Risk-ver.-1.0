@@ -1,0 +1,526 @@
+{
+  "verified": true,
+  "rows": 6331485,
+  "GoA": 18349,
+  "source_input_sha256": "1111c7480ff7615042a332c586c8f60459bf5d6000da11ea4d0ec2a773fc0719",
+  "protocol_sha256": "d11e16aa4192fc3f476258b2bb012333afeecaf54d8908f22c968694a5b9b4f4",
+  "files": [
+    {
+      "file": "EDDB_2019.parquet",
+      "rows": 28762,
+      "sha256": "d8bd5e83172106440f2d69cae0549aed29175cf981f9ab652839bb02774f0df4"
+    },
+    {
+      "file": "EDDB_2020.parquet",
+      "rows": 13117,
+      "sha256": "93d88bca997590262e29dc5c620ef0f05dedbda03f1acd1834b2cded8178f5e4"
+    },
+    {
+      "file": "EDDB_2021.parquet",
+      "rows": 35640,
+      "sha256": "3572999da7830676ab0c16a262b8c1ecf8c68b256aea577bb220a8cf56c1525c"
+    },
+    {
+      "file": "EDDB_2022.parquet",
+      "rows": 50306,
+      "sha256": "c66b276b54baca6874a2ee130a326adeeb4cbf6fd0c4b75477697e61fbcdaa1a"
+    },
+    {
+      "file": "EDDB_2023.parquet",
+      "rows": 20511,
+      "sha256": "0cc8ece3dd578dc6736f2b31e8b3b77b379c01f59ae6ba07987932c0cbbb7dc1"
+    },
+    {
+      "file": "EDDF_2019.parquet",
+      "rows": 218773,
+      "sha256": "5c7d57a4145a35b49f984551009846d9bfce07415f0644bfba083d1c320e10d4"
+    },
+    {
+      "file": "EDDF_2020.parquet",
+      "rows": 96515,
+      "sha256": "65783b681ab0efeebdcefb31c43e7a6e6cb680593a5026c242c2d088cb920ba5"
+    },
+    {
+      "file": "EDDF_2021.parquet",
+      "rows": 118807,
+      "sha256": "c21ab20697a483cf95f0c846edfc572af052868e65d1f2cb32179b805fef87d5"
+    },
+    {
+      "file": "EDDF_2022.parquet",
+      "rows": 159344,
+      "sha256": "50edfbf76a2ecf7d0d3c0f0c55a53da9b3260fd531619e54d026b09eafab5a7f"
+    },
+    {
+      "file": "EDDF_2023.parquet",
+      "rows": 11521,
+      "sha256": "4eb023cf780eba8fdb84f718992940aa50762c438506a67394bcc8b92b8509c5"
+    },
+    {
+      "file": "EDDM_2019.parquet",
+      "rows": 163062,
+      "sha256": "36c62b02f169613aa5be6758348cac20e3acae41d18078f99432fa8103e5833c"
+    },
+    {
+      "file": "EDDM_2020.parquet",
+      "rows": 60295,
+      "sha256": "fc475b363ddb3b361b8baf93eae0a861da0eb0099df17343258ef7efc33ffecb"
+    },
+    {
+      "file": "EDDM_2021.parquet",
+      "rows": 64783,
+      "sha256": "31ac8740c08c987aeaffe2dea8760f469fe741b64b0887e6d1a1950f8b74d2b8"
+    },
+    {
+      "file": "EDDM_2022.parquet",
+      "rows": 111816,
+      "sha256": "6f5218336ba1ea49c3f8906991b7b27d723040f8b0e6fc99264a08e6eceabdbc"
+    },
+    {
+      "file": "EDDM_2023.parquet",
+      "rows": 43247,
+      "sha256": "362f3aa2297ee93a86b338ffc123d44221f65621f308c967469c6a30c83952f8"
+    },
+    {
+      "file": "EGCC_2019.parquet",
+      "rows": 62459,
+      "sha256": "02501c869aa95e97f736979c0451eab94b5269880224e26e947b4a69bc3dd065"
+    },
+    {
+      "file": "EGCC_2020.parquet",
+      "rows": 23746,
+      "sha256": "31717bca5bd9a961dee99f04e7e109aefc63a96f0d4d2601832a890099cbcd96"
+    },
+    {
+      "file": "EGCC_2021.parquet",
+      "rows": 1230,
+      "sha256": "05b0a2e17ee6af6eb950110b18a2237ea5cbf6e433a73aa1e534c398ac0f6315"
+    },
+    {
+      "file": "EGLL_2019.parquet",
+      "rows": 218410,
+      "sha256": "28ae367b10c4f517b5f45d60e61af855a15a3f11ca7e4dcadf619a5a9ce2dd32"
+    },
+    {
+      "file": "EGLL_2020.parquet",
+      "rows": 95585,
+      "sha256": "90c80c703790e0d57cef1dfe369a635095b7afa90c1c72c7724ac9d29b620b0e"
+    },
+    {
+      "file": "EGLL_2021.parquet",
+      "rows": 88747,
+      "sha256": "c038d112c25cf424ead8362c209ae93f4ad459bbf05f669bb52f4d560c01b36e"
+    },
+    {
+      "file": "EGLL_2022.parquet",
+      "rows": 156855,
+      "sha256": "67f5bb1e12ff5c75714e5b7353df00e8ffe32a802cc6d69f43ec448784528b92"
+    },
+    {
+      "file": "EGLL_2023.parquet",
+      "rows": 72121,
+      "sha256": "d79ad7a2cc4107c83837dc005c185268d858db5cda0cc2b46de63add039d2a83"
+    },
+    {
+      "file": "EGSS_2019.parquet",
+      "rows": 77944,
+      "sha256": "90fd7bfe921d808f0d17dde58120a45409675fb860dd8277ac86dd64cd6b798c"
+    },
+    {
+      "file": "EGSS_2020.parquet",
+      "rows": 32849,
+      "sha256": "0955e91c6005ff69977c0e38a16b68473d2250569da86171be54ad771a88d884"
+    },
+    {
+      "file": "EGSS_2021.parquet",
+      "rows": 33575,
+      "sha256": "2b70aa6043fb14938b13a76e1bdfcdd5684719a77b9d4f68785f6818ce630e57"
+    },
+    {
+      "file": "EGSS_2022.parquet",
+      "rows": 55050,
+      "sha256": "c63cf2f111dc575ec3525db30b0d862d4e4432384bcd4b1730a992ff1949b6f0"
+    },
+    {
+      "file": "EGSS_2023.parquet",
+      "rows": 21930,
+      "sha256": "6c2fef39fd15fb83a345f5df62dd24b87b9158861136d32e4b8ea253b9c35c43"
+    },
+    {
+      "file": "EHAM_2019.parquet",
+      "rows": 184177,
+      "sha256": "9ff247a497da81196c780c2df950fcdb397ba97edd7a78f757821d0b831a9f3c"
+    },
+    {
+      "file": "EHAM_2020.parquet",
+      "rows": 92058,
+      "sha256": "7612dd82073a5fd60053eebba92c3a97d9fb341fd724c0b9b2e2eda60f2f24c4"
+    },
+    {
+      "file": "EHAM_2021.parquet",
+      "rows": 115235,
+      "sha256": "bbe789ff133813b4e015705c33b991b38443b6ffbd89884f1f0f6c09d1a0652e"
+    },
+    {
+      "file": "EHAM_2022.parquet",
+      "rows": 158396,
+      "sha256": "3c423561e6f2306aba29651531f44ce1bcb393c3727e0dad22d042458c8f5c42"
+    },
+    {
+      "file": "EHAM_2023.parquet",
+      "rows": 11615,
+      "sha256": "e7b0b26f75d8662bf7a0f763b07b32d60a9e1dc90ef70c4f56a8daa764499666"
+    },
+    {
+      "file": "EIDW_2019.parquet",
+      "rows": 80395,
+      "sha256": "7a2c2fc14f7c12a85a646a932d14dfd76f33cd466a5016c2b639737eae4b8a85"
+    },
+    {
+      "file": "EIDW_2020.parquet",
+      "rows": 36578,
+      "sha256": "b09bcede01ffe0c36de0b0e361fe70397da38aaa6c941ae91bd896678e3d85cc"
+    },
+    {
+      "file": "EIDW_2021.parquet",
+      "rows": 38701,
+      "sha256": "146a267daca49272cbc07719cbd5ae22046bc0e14f335133f7eec31dbfcf610c"
+    },
+    {
+      "file": "EIDW_2022.parquet",
+      "rows": 75671,
+      "sha256": "85fede34bd831e258b2ccaf90c200bc1ce1d7bc812ea4ddd869bc1cbf5f636d5"
+    },
+    {
+      "file": "EIDW_2023.parquet",
+      "rows": 32534,
+      "sha256": "46f948de04cffa8c673a1a8c6f98c5b1cc08c06278d6588e95142f61ed1949d2"
+    },
+    {
+      "file": "EKCH_2019.parquet",
+      "rows": 97694,
+      "sha256": "ae5a30ff58632cdc86ca046c7997b5e756025fbcc1f492de7f0c8acefeccba8d"
+    },
+    {
+      "file": "EKCH_2020.parquet",
+      "rows": 37844,
+      "sha256": "a59e64011107a8debd50047ac22a98a898c39a3da5ffc3feac2de3bcfcdde575"
+    },
+    {
+      "file": "EKCH_2021.parquet",
+      "rows": 41410,
+      "sha256": "79d27b5a4baee5395c4c12fad4d1927e594e7fc5cf4c69789aef03dfeb0cdb3b"
+    },
+    {
+      "file": "EKCH_2022.parquet",
+      "rows": 62677,
+      "sha256": "91ad2d0c5312bb435d8c2a836b13c4113618c04cddfdedf50fb23f93bf1ef22a"
+    },
+    {
+      "file": "EKCH_2023.parquet",
+      "rows": 3647,
+      "sha256": "af04c0ac2bb7efc1501f63861a71f9707b670d0fb0bfe956e050d9f5d564b5d5"
+    },
+    {
+      "file": "EPWA_2019.parquet",
+      "rows": 45176,
+      "sha256": "294fdde86e11e8c8c16afab7565edb4dff54fe5557d1a9ce7f3e73228a480260"
+    },
+    {
+      "file": "EPWA_2020.parquet",
+      "rows": 26788,
+      "sha256": "c128d7ae982456185d9063edfa245ae0f45d5b0815839ebbd1f64ae92a032eee"
+    },
+    {
+      "file": "EPWA_2021.parquet",
+      "rows": 35079,
+      "sha256": "5ce71931dc50162e68ca751c54f30eb962c8842827f55cedc6adf47fc2e62c7d"
+    },
+    {
+      "file": "EPWA_2022.parquet",
+      "rows": 51109,
+      "sha256": "4bf486fd4b1b016814986f5e3811ae34017a62fef9e92df53863bd7dda0d58ee"
+    },
+    {
+      "file": "EPWA_2023.parquet",
+      "rows": 19600,
+      "sha256": "7f92f6d686fcb6c8b784a244be53ecb543d8b34e3ed9e80ac934782646c080b0"
+    },
+    {
+      "file": "ESSA_2019.parquet",
+      "rows": 95368,
+      "sha256": "2b42fcc6ec487b74e48437cb7e17c0da0bb5577d1fa0ce4dba791708f9fa8e50"
+    },
+    {
+      "file": "ESSA_2020.parquet",
+      "rows": 34633,
+      "sha256": "f34a00061ded0dfd2af149a77242d14b36a5eddf41b6d73007b2b6275d406cfe"
+    },
+    {
+      "file": "ESSA_2021.parquet",
+      "rows": 34673,
+      "sha256": "26ecf0b30dba5201d5f8a03919a9945b34d3c56646caf87d71b9e78697f8f1ed"
+    },
+    {
+      "file": "ESSA_2022.parquet",
+      "rows": 55798,
+      "sha256": "44202a3fb8e9353ae91ad5709bf98d09ffd843fe122c972659fe1f4d8de4400d"
+    },
+    {
+      "file": "ESSA_2023.parquet",
+      "rows": 23351,
+      "sha256": "14f3977e0d21a4b1e73338efdc24cfd34d169ee84b394f9ef555fe83b57dbe66"
+    },
+    {
+      "file": "LEMD_2019.parquet",
+      "rows": 166569,
+      "sha256": "2aeb7fa9218280739b5abbb835abbfd23f399960336a795c1a72e0f4e4b82b32"
+    },
+    {
+      "file": "LEMD_2020.parquet",
+      "rows": 63866,
+      "sha256": "6f70ef15c6a7a24251a62ccf7742eb25fdc7fa00512afe99430e0c150904a2c0"
+    },
+    {
+      "file": "LEMD_2021.parquet",
+      "rows": 93002,
+      "sha256": "a4b60b1d7e6306d461c56c5b9d6cd048c23f7d0c6a623cf69c74779ca9c57de9"
+    },
+    {
+      "file": "LEMD_2022.parquet",
+      "rows": 134761,
+      "sha256": "8fefe5305202c16860f480d9a39418b5ea346cb69e8a59f23f75d6f63ed69c76"
+    },
+    {
+      "file": "LEMD_2023.parquet",
+      "rows": 56846,
+      "sha256": "81a732b2ba098ee67f5da0dbab5a70cc85d15fc5a6e5be40df4f41d90fe8fd2f"
+    },
+    {
+      "file": "LFPG_2019.parquet",
+      "rows": 196950,
+      "sha256": "6be9bc23f0284136c8de370ba05dcb090af3c3d8b2a500d86dd37707573fd2f5"
+    },
+    {
+      "file": "LFPG_2020.parquet",
+      "rows": 92471,
+      "sha256": "7e40e8f394a665b23ff1878b1236a1c050e19232e223bba081277bacd8216e57"
+    },
+    {
+      "file": "LFPG_2021.parquet",
+      "rows": 106498,
+      "sha256": "3a83c421a580ddd3c09ff6aa6e48d89d3f690f8f9a458b8b007d828df46e7f94"
+    },
+    {
+      "file": "LFPG_2022.parquet",
+      "rows": 155753,
+      "sha256": "fadbde1155b4fb29b84a513164065f27d9a6cf66969ef91158d33a3c29035f47"
+    },
+    {
+      "file": "LFPG_2023.parquet",
+      "rows": 65890,
+      "sha256": "a517470b0b452f484e14a3ba2d903bae0b779d13ef3db3602412eaee28e34cfb"
+    },
+    {
+      "file": "LFPO_2019.parquet",
+      "rows": 68925,
+      "sha256": "f29471d598b5eb029c2fbd7c1de33ad4875d4d3ae10214bff9a6d6a037c61be8"
+    },
+    {
+      "file": "LFPO_2020.parquet",
+      "rows": 31014,
+      "sha256": "fbd56f1e1b1872a3525bfbbbf133aedcea38f5ef0ec0972f824fa8fd5b4cec1a"
+    },
+    {
+      "file": "LFPO_2021.parquet",
+      "rows": 44865,
+      "sha256": "de02b65d23e40f409affcb4989d6cb5006857fba500e2e203c43da23f8b4b48c"
+    },
+    {
+      "file": "LFPO_2022.parquet",
+      "rows": 65840,
+      "sha256": "c27de0033e5ce4bed0f0f9c158caa2ecd0da56e0cf9afb79a2b9d9041d18abe5"
+    },
+    {
+      "file": "LFPO_2023.parquet",
+      "rows": 25959,
+      "sha256": "9dd282ab0bd3f441c486d2492d9cbdf7918dce8489f8b658217462b50b7ec0ac"
+    },
+    {
+      "file": "LIMC_2019.parquet",
+      "rows": 56888,
+      "sha256": "be2b79c969ec81c8f192358c44240dc09f9fd7aa55bf62c626ed28e4d66ef40d"
+    },
+    {
+      "file": "LIMC_2020.parquet",
+      "rows": 29983,
+      "sha256": "84c21cc434dc15b2f8bdc390207e3c7059219624f8037ab1476dc8d903184c99"
+    },
+    {
+      "file": "LIMC_2021.parquet",
+      "rows": 37278,
+      "sha256": "f0465811da156fce7449e96c8060ff9b508be178248266d8a37f783273e70afb"
+    },
+    {
+      "file": "LIMC_2022.parquet",
+      "rows": 52641,
+      "sha256": "6d8dcb66b8172ea6d8420dd37c5858fa8b37ecffef01b4a88408d55cbf4e87a1"
+    },
+    {
+      "file": "LIMC_2023.parquet",
+      "rows": 19607,
+      "sha256": "ebc24b3069e390ed025ad525d613140779e67337975d6c255dc32036a726ea4a"
+    },
+    {
+      "file": "LIRF_2019.parquet",
+      "rows": 129063,
+      "sha256": "536842961dc0586f2a4e307a7d125202ce495125654bf40f8a17541c917e6b4c"
+    },
+    {
+      "file": "LIRF_2020.parquet",
+      "rows": 43867,
+      "sha256": "fa6e48306174e2a28929413b1f7a1459b8aa13c1fd3815be6f120bd828ecb7a0"
+    },
+    {
+      "file": "LIRF_2021.parquet",
+      "rows": 45088,
+      "sha256": "8dc5541c890038a3bb0f6e314112c75d98fcf45b0b37926e8d67881e18937ace"
+    },
+    {
+      "file": "LIRF_2022.parquet",
+      "rows": 74160,
+      "sha256": "507f5bba3c2cb8b348cb66841022032e80ab22b95ef8f8d1151fe315fe46b540"
+    },
+    {
+      "file": "LIRF_2023.parquet",
+      "rows": 30571,
+      "sha256": "7056ff1e6ad785c07dda759b383acc0b5a90f58d2feef427a7d510b0c9745514"
+    },
+    {
+      "file": "LOWW_2019.parquet",
+      "rows": 102830,
+      "sha256": "2405598311594206b0a826985bffb2a0f9072c4396373e8c4292139f88c66004"
+    },
+    {
+      "file": "LOWW_2020.parquet",
+      "rows": 38551,
+      "sha256": "0347bf26bd9c36794fb4d109675aed75f95646297afb0066359340ee23313a03"
+    },
+    {
+      "file": "LOWW_2021.parquet",
+      "rows": 49106,
+      "sha256": "58ff3f24b3122ba1c0c6b14119a63c3b004c345b38fa4d751d48f99d715c050b"
+    },
+    {
+      "file": "LOWW_2022.parquet",
+      "rows": 72226,
+      "sha256": "1582bea788235fe377a0f7fde96928d1a5afe0965e2a6034ff9368123014d2ca"
+    },
+    {
+      "file": "LOWW_2023.parquet",
+      "rows": 30865,
+      "sha256": "9f427d0dae41b1e04b069172f70d4312ada07b75f0ef553579d35198ef8ab9f4"
+    },
+    {
+      "file": "LSGG_2019.parquet",
+      "rows": 68810,
+      "sha256": "3cbac245586552e60bd7b2d2198b13d8858d1c5117246f6e1ea877fbb5e4b830"
+    },
+    {
+      "file": "LSGG_2020.parquet",
+      "rows": 30391,
+      "sha256": "b00d7d436899fdc8de8c9019175ff9dda8365751e0ca41259a3bd77cd6125b56"
+    },
+    {
+      "file": "LSGG_2021.parquet",
+      "rows": 34183,
+      "sha256": "3936e2519012c20793bc12da37b2f2158711a18672bbf340fb849c4799a697d7"
+    },
+    {
+      "file": "LSGG_2022.parquet",
+      "rows": 48687,
+      "sha256": "9ccb91205237a06465e631b92e2e2e9e2574cbc086effa3fc33b68ab0990e00e"
+    },
+    {
+      "file": "LSGG_2023.parquet",
+      "rows": 23301,
+      "sha256": "b4b87358c36b7ee7d08cb1636efcc4d6ab96891ced195a4a7f2daa4dce081258"
+    },
+    {
+      "file": "LSZH_2019.parquet",
+      "rows": 110036,
+      "sha256": "d904ae8e0e30b9233c994dc37afc24dcb83c1ede88ef991ba79696668bdd6f02"
+    },
+    {
+      "file": "LSZH_2020.parquet",
+      "rows": 43458,
+      "sha256": "11bbadcc2ae2e303d118fbed9587f9182643be635f0695303ddf342bebf7de3c"
+    },
+    {
+      "file": "LSZH_2021.parquet",
+      "rows": 51260,
+      "sha256": "7416828962752ba8928243360d1449689a4fb898b27279ade6e7985019f43460"
+    },
+    {
+      "file": "LSZH_2022.parquet",
+      "rows": 78758,
+      "sha256": "a3e9cd6303e5ac3357e59b63697a53c9eb333155b254dda521165674b7b7e4a3"
+    },
+    {
+      "file": "LSZH_2023.parquet",
+      "rows": 33461,
+      "sha256": "912da793be06e38fe5cb93d1868078a94139da4632ed0788016a7ab1ac893a22"
+    }
+  ],
+  "baseline_features": [
+    "airport",
+    "C40_CROSS_LAT",
+    "C40_CROSS_LON",
+    "typecode",
+    "hour_utc_sin",
+    "hour_utc_cos",
+    "day_of_year_sin",
+    "day_of_year_cos"
+  ],
+  "weather_features": [
+    "wind_speed_kt_model",
+    "wind_gust_kt_model",
+    "wind_direction_deg_model",
+    "wind_variable_from_deg_model",
+    "wind_variable_to_deg_model",
+    "visibility_m_model",
+    "cloud_ceiling_ft_model",
+    "lowest_known_cloud_base_ft_model",
+    "vertical_visibility_ft_model",
+    "temperature_c_model",
+    "dewpoint_c_model",
+    "qnh_hpa_model",
+    "wind_variable_model",
+    "wind_calm_model",
+    "gust_group_reported_model",
+    "visibility_relation_model",
+    "visibility_ndv_model",
+    "cavok_model",
+    "cloud_ceiling_relation_model",
+    "cloud_ceiling_status_model",
+    "cloud_amount_unavailable_model",
+    "cloud_type_unavailable_model",
+    "cumulonimbus_reported_model",
+    "towering_cumulus_reported_model",
+    "present_weather_tokens_model",
+    "present_weather_status_model"
+  ],
+  "core_features": [
+    "airport",
+    "C40_CROSS_LAT",
+    "C40_CROSS_LON",
+    "hour_utc_sin",
+    "hour_utc_cos",
+    "day_of_year_sin",
+    "day_of_year_cos"
+  ],
+  "composite_key_unique": true,
+  "event_proxy_unique": true,
+  "weather_values_preserved": true,
+  "training_executed": false,
+  "transformations_fitted": false
+}

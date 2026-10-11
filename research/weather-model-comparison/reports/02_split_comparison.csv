@@ -1,0 +1,4 @@
+temporal_split,main_rows,main_GoA,gap_rows,gap_GoA
+train,4165060,11626,4161493,11618
+validation,1619848,4984,1619847,4984
+test,546577,1739,546577,1739

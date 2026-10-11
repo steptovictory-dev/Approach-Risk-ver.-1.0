@@ -1,0 +1,10 @@
+temporal_split,gap_status,GoA,rows
+train,retained,False,4149875
+train,retained,True,11618
+train,embargo,False,3559
+train,embargo,True,8
+validation,retained,False,1614863
+validation,retained,True,4984
+validation,purge_outcome_boundary,False,1
+test,retained,False,544838
+test,retained,True,1739

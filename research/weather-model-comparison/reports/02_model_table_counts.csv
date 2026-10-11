@@ -1,0 +1,6 @@
+temporal_split,gap_status,rows,GoA,weather_usable
+test,retained,546577,1739,546038
+train,embargo,3567,8,3567
+train,retained,4161493,11618,4155270
+validation,purge_outcome_boundary,1,0,1
+validation,retained,1619847,4984,1617710
