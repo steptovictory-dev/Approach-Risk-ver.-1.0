@@ -1,5 +1,7 @@
 # Approach Risk ML
 
+[Исследование качества и доступности METAR для статьи 04](research/metar-quality-and-availability/README.md): выполненный анализ чувствительности без обучения моделей.
+
 [Исследование геометрии C40](research/c40_geometry/README.md) – литература, математическая проверка и исторические авиационные источники; выделено из аудита аэропортов Европы.
 
 [Завершенное исследование отбора выборки](research/sample-selection/README.md) · [Подготовка погоды на C40](europe/weather/README.md) · [Новое сравнение моделей без погоды и с погодой](research/weather-model-comparison/README.md).

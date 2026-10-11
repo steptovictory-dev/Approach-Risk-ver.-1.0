@@ -1,0 +1,15 @@
+{
+  "sample_messages": 19636,
+  "lexical_comparisons": 133547,
+  "lexical_disagreements": 8,
+  "semantic_fixture_cases": 8,
+  "semantic_fixture_comparisons": 21,
+  "semantic_fixtures_pass": true,
+  "physical_weather_independently_verified": false,
+  "independent_human_annotation": false,
+  "training_executed": false,
+  "seed": 20261011,
+  "bootstrap_replicates": 2000,
+  "disagreement_messages": 4,
+  "all_disagreement_cores_blocked": true
+}

@@ -1,0 +1,6 @@
+claim,evidence,figure,limitation
+Высокое покрытие не гарантирует устойчивость информации,06_overall_summary.csv,03_coverage_and_information,"Сравнение допущений, не фактического времени получения"
+Изменение конкретных полей скрывается за покрытием,06_field_summary.csv,05_field_value_and_missingness,Парные заполненные значения и описательные пороги
+Чувствительность неоднородна по аэропортам,02_scenario_strata.csv,04_airport_information_sensitivity,Не стандартизовано по годам и составу
+COR влияет на доступный корпус,04_block_bootstrap.csv,06_block_bootstrap_goa,Не реконструкция исходной версии сообщения
+Кодирование проверено в ограниченном объеме,05_validation_manifest.json,07_lexical_validation,Не независимая физическая валидация
