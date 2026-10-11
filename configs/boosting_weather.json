@@ -1,0 +1,11 @@
+{
+  "task": "supervised_binary_classification",
+  "target": "GoA",
+  "dataset": "europe_c40_model_v1",
+  "family": "CatBoostClassifier",
+  "variants": [{"name": "baseline", "weather": false}, {"name": "weather", "weather": true}],
+  "parameters": {"loss_function": "Logloss", "iterations": 500, "depth": 6, "learning_rate": 0.05, "l2_leaf_reg": 3, "random_seed": 20261011, "thread_count": 6, "bootstrap_type": "No", "has_time": true, "task_type": "CPU"},
+  "tuning": {"depth": [4, 8], "learning_rate": [0.03, 0.1], "selection_split": "validation", "selection_metric": "AP", "candidates_per_variant": 5},
+  "artifacts": "artifacts/boosting-weather-comparison",
+  "report_directory": "research/boosting-weather-comparison/reports"
+}

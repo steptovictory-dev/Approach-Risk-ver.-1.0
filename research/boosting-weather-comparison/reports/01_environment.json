@@ -1,0 +1,15 @@
+{
+  "versions": {
+    "catboost": "1.2.10",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1",
+    "scikit-learn": "1.9.1",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0"
+  },
+  "fingerprint": "ca87eaf6b653ff7b87f424efa75cfba7e4baddc847d338681b468d72470380ea",
+  "task": "supervised binary classification",
+  "family": "CatBoostClassifier",
+  "dataset_manifest_sha256": "610d45bcb1ceb9112c1e32531ac9f95c32ccc628399ea8cec9245ed4ad8f97b5"
+}

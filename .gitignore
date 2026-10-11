@@ -1,4 +1,5 @@
 /data/
+/artifacts/
 /Articles/
 /archive/2019_experiment/data/
 /archive/2019_experiment/north_america/data/
@@ -36,6 +37,10 @@ Thumbs.db
 /research/weather-model-comparison/data/
 /research/metar-quality-and-availability/data/
 /research/metar-quality-and-availability/Checkpoint/
+/research/boosting-weather-comparison/data/
+/research/boosting-weather-comparison/Checkpoint/
+/research/final-approach-dynamics/data/
+/research/final-approach-dynamics/Checkpoint/
 
 # Полный объемный реестр контекстов воспроизводится скриптом аудита C40
 /europe/reports/analytical_sample/04_04_same_day_contexts.csv

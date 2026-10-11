@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "datasets": {
+    "europe_c40_model_v1": {
+      "directory": "research/weather-model-comparison/data/model_table_v1",
+      "manifest_path": "research/weather-model-comparison/reports/02_model_table_manifest.json",
+      "feature_registry_path": "research/weather-model-comparison/reports/02_feature_registry.csv",
+      "protocol_path": "research/weather-model-comparison/protocol.md",
+      "manifest_sha256": "610d45bcb1ceb9112c1e32531ac9f95c32ccc628399ea8cec9245ed4ad8f97b5",
+      "feature_registry_sha256": "52562a6fb1e41be9bb0533753d207958cc518cc1c62aeb5cb7db2cbf2eab29ec"
+    }
+  }
+}
